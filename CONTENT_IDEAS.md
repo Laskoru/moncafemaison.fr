@@ -41,3 +41,22 @@ Format : `- [ ] Sujet — angle — catégorie`.
 - [ ] Kit de nettoyage machine espresso — pastilles, brosses, chiffons — accessoires
 - [ ] Adoucisseur / filtre à eau pour cafetière — l'eau, clé du goût — accessoires
 - [ ] Thermomètre / accessoires latte art pour débuter — accessoires
+
+## Ajouts (réserve)
+
+- [ ] Cafetière cold brew : le café infusé à froid — machines
+- [ ] Cafetière turque (ibrik) : le café à l'orientale — machines
+- [ ] Machine à café encastrable : pour cuisine équipée — machines
+- [ ] Cafetière à capsules rechargeables : réduire les déchets — machines
+- [ ] Percolateur à café pour recevoir (grandes quantités) — machines
+- [ ] Moulin à café pour French press : la mouture grossière idéale — moulins
+- [ ] Moulin à café silencieux : moudre sans réveiller la maison — moulins
+- [ ] Entretenir et nettoyer son moulin à café — moulins
+- [ ] Bouilloire électrique à température réglable — accessoires
+- [ ] Mug isotherme à café : garder son café chaud — accessoires
+- [ ] Distributeur de mouture (WDT) pour espresso — accessoires
+- [ ] Tapis de tassage (tamping mat) pour espresso — accessoires
+- [ ] Filtre à eau / carafe filtrante pour le café — accessoires
+- [ ] Conservation des grains : boîte hermétique sous vide — accessoires
+- [ ] Kit latte art pour débuter — accessoires
+- [ ] Tasses et mugs à espresso : quel format choisir — accessoires
