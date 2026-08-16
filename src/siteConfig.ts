@@ -25,7 +25,7 @@ export const siteConfig = {
   // Programme Partenaires Amazon
   amazon: {
     enabled: true,
-    tag: 'moncafemaison-21', // TODO: crée un ID de suivi dédié dans ton compte Partenaires Amazon
+    tag: 'moncafemaison-21',
   },
 
   // Email de contact public (mentions légales, confidentialité, contact)
