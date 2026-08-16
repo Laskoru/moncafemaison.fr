@@ -29,8 +29,8 @@ Format : `- [ ] Sujet — angle — catégorie`.
 
 ## Accessoires & entretien
 
-- [ ] Meilleur mousseur à lait — cappuccino et latte à la maison — accessoires
-- [ ] Balance de précision pour le café — doser au gramme près — accessoires
+- [x] Meilleur mousseur à lait — cappuccino et latte à la maison — accessoires
+- [x] Balance de précision pour le café — doser au gramme près — accessoires
 - [ ] Bouilloire à col de cygne — le contrôle du débit pour le pour-over — accessoires
 - [ ] Meilleur détartrant pour machine à café — entretenir sans abîmer — accessoires
 - [ ] Filtres réutilisables : lesquels choisir — économique et écologique — accessoires
