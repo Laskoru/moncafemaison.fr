@@ -10,8 +10,8 @@ Format : `- [ ] Sujet — angle — catégorie`.
 - [x] Meilleure machine expresso pour débuter — tirer un vrai espresso sans se ruiner — machines
 - [x] Meilleure cafetière à piston (French press) — le café filtre le plus simple — machines
 - [x] Cafetière italienne (moka) : laquelle choisir — le classique sur le feu — machines
-- [ ] Machine à capsules vs machine à grains — quel système pour quel profil — machines
-- [ ] Meilleure cafetière filtre programmable — le café du matin sans effort — machines
+- [x] Machine à capsules vs machine à grains — quel système pour quel profil — machines
+- [x] Meilleure cafetière filtre programmable — le café du matin sans effort — machines
 - [ ] AeroPress : test et alternatives — café nomade et rapide — machines
 - [ ] V60 / pour-over : le kit pour débuter — le café filtre aromatique — machines
 - [ ] Chemex : pour qui, comment choisir — le filtre design et propre — machines
