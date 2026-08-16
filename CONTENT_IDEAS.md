@@ -9,7 +9,7 @@ Format : `- [ ] Sujet — angle — catégorie`.
 - [x] Meilleure machine à café à grains — le tout-en-un fraîcheur/simplicité — machines
 - [x] Meilleure machine expresso pour débuter — tirer un vrai espresso sans se ruiner — machines
 - [x] Meilleure cafetière à piston (French press) — le café filtre le plus simple — machines
-- [ ] Cafetière italienne (moka) : laquelle choisir — le classique sur le feu — machines
+- [x] Cafetière italienne (moka) : laquelle choisir — le classique sur le feu — machines
 - [ ] Machine à capsules vs machine à grains — quel système pour quel profil — machines
 - [ ] Meilleure cafetière filtre programmable — le café du matin sans effort — machines
 - [ ] AeroPress : test et alternatives — café nomade et rapide — machines
@@ -22,7 +22,7 @@ Format : `- [ ] Sujet — angle — catégorie`.
 ## Moulins à café
 
 - [x] Meilleur moulin à café électrique — la mouture fraîche à la maison — moulins
-- [ ] Meilleur moulin à café manuel — précis et silencieux, pour le voyage — moulins
+- [x] Meilleur moulin à café manuel — précis et silencieux, pour le voyage — moulins
 - [ ] Moulin à meules ou à lames : la vraie différence — moulins
 - [ ] Meilleur moulin pour espresso — descendre assez fin, avec régularité — moulins
 - [ ] Moulin à café pas cher qui vaut le coup — le bon rapport qualité/prix — moulins
