@@ -102,6 +102,17 @@ des URLs Amazon.
 En dernier recours seulement : `products: []` + une ligne
 `# TODO-HUMAIN: ASIN à vérifier sur amazon.fr — <marque modèle 1>, <marque modèle 2>`.
 
+### Les deux produits doivent être COMPARABLES
+
+Un comparatif n'a de sens que si les deux produits jouent dans la même cour.
+Vise un **écart de prix inférieur à ~50 %** entre les deux : opposer une machine
+à 80 € et une autre à 300 €, ce n'est pas un comparatif, c'est deux catégories
+différentes — et le lecteur ne sait pas quoi en faire.
+
+Le bon axe de différenciation n'est donc pas le prix, mais l'usage : deux
+modèles au tarif voisin qui répondent à des besoins distincts (meules coniques
+contre lames, manuel contre électrique, compact contre grande capacité).
+
 - 2 produits/article ; le premier est « Notre choix ».
 - **Ne remplis pas le champ `image:` des produits** : l'humain dépose
   `public/products/<ASIN>.jpg` et l'image apparaît automatiquement.

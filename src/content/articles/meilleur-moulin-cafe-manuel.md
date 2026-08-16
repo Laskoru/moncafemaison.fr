@@ -6,7 +6,7 @@ author: "Rédaction"
 keywords: ["moulin à café manuel", "meilleur moulin manuel", "moulin manuel voyage"]
 category: "moulins"
 coverAlt: "Moulin à café manuel posé avec des grains de café"
-draft: false
+draft: true
 products:
   - asin: "B0B3ML36DZ"
     title: "TIMEMORE Chestnut C3 ESP Pro — meules coniques en acier, réglage interne"
