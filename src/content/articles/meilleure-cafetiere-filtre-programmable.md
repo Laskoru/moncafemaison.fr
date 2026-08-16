@@ -6,8 +6,7 @@ author: "Rédaction"
 keywords: ["cafetière filtre programmable", "meilleure cafetière filtre", "cafetière programmable minuterie"]
 category: "machines"
 coverAlt: "Tasses blanches empilées devant une machine à café sur un plan de travail de cuisine"
-# COVER: programmable drip coffee maker with carafe on kitchen counter morning
-draft: true
+draft: false
 products:
   - asin: "B0FJGF5M8H"
     title: "Moulinex Subito FT5S2DE0 — carafe isotherme, programmation 24h"

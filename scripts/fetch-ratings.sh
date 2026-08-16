@@ -50,7 +50,7 @@ echo "== ${#ASINS[@]} ASIN au total ; ${#TODO[@]} rafraîchi(s) cette fois (limi
 ok=0
 captcha=0
 for A in "${TODO[@]}"; do
-  html=$(curl -sL -A "$UA" "https://www.amazon.fr/dp/$A")
+  html=$(curl -sL --compressed -A "$UA" "https://www.amazon.fr/dp/$A")
   rating=$(echo "$html" | grep -oE 'title="[0-9],[0-9] sur 5' | head -1 | grep -oE '[0-9],[0-9]' | tr ',' '.')
   count=$(echo "$html" | grep -oE 'acrCustomerReviewText[^>]*>[^<]+' | head -1 | sed 's/.*>//' | tr -cd '0-9')
   if [ -n "$rating" ] && [ -n "$count" ] && [ "$count" -gt 0 ] 2>/dev/null; then

@@ -6,8 +6,7 @@ author: "Rédaction"
 keywords: ["machine à capsules vs machine à grains", "capsules ou grains café", "quelle cafetière choisir"]
 category: "machines"
 coverAlt: "Coin café dans une cuisine : machine à espresso et moulin rempli de grains de café"
-# COVER: coffee capsules and coffee beans side by side
-draft: true
+draft: false
 products:
   - asin: "B00400OMU0"
     title: "De'Longhi Magnifica S (ECAM22.110.B) — broyeur intégré, 13 réglages"
