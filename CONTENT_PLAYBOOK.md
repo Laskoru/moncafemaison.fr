@@ -6,24 +6,48 @@ automatique **et** peut être utilisé à la main.
 
 ## Objectif d'une exécution
 
-Créer **1 à 2 nouveaux articles** (vise 2 si les sujets s'y prêtent), chacun
-**en brouillon** (`draft: true`), puis commiter et pousser sur `main`.
-Les brouillons ne sont PAS visibles en ligne. Un process local ajoutera les
-images (couverture + produits) et publiera. Soigne quand même la qualité, et
-laisse toujours 2 produits à ASIN réels pour que le process local puisse finir.
+Créer **1 seul nouvel article**, **en brouillon** (`draft: true`), puis commiter
+et pousser sur `main`. Les brouillons ne sont PAS visibles en ligne : un process
+local ajoute les images (couverture + produits) et publie ensuite. Laisse
+toujours 2 produits à ASIN réels pour qu'il puisse finir le travail.
 
-Chaque article prend un sujet **différent**. Mieux vaut 1 article solide que 2
-bâclés : si le 2e ne peut pas être fait correctement, n'en fais qu'un.
+### Pourquoi un seul article (et pas plus)
 
-## Étapes (à répéter pour chaque article)
+Le site publie **délibérément peu : 3 articles par semaine maximum**. La
+fréquence de publication n'est pas un critère de classement Google, et un
+volume élevé sur un domaine récent relève au contraire du « scaled content
+abuse » que Google sanctionne depuis 2024.
+
+La consigne est donc claire : **prends tout le temps nécessaire pour un seul
+article vraiment bon** plutôt que d'en produire plusieurs corrects. Un article
+de plus ne fera jamais gagner de positions ; un article médiocre peut en faire
+perdre.
+
+## Étapes
 
 1. **Choisir le sujet.** Ouvre `CONTENT_IDEAS.md`, prends la première idée non
-   cochée (`- [ ]`) — le 2e article prend la suivante. Vérifie qu'aucun fichier
-   de `src/content/articles/` ne traite déjà le sujet. Coche l'idée (`- [x]`).
+   cochée (`- [ ]`). Vérifie qu'aucun fichier de `src/content/articles/` ne
+   traite déjà le sujet. Coche l'idée (`- [x]`).
 2. **Rédiger** dans `src/content/articles/<slug>.md` (slug kebab-case sans accents).
 3. **Trouver les produits Amazon** (voir règle critique).
-4. **Choisir une image** de couverture (voir règle images).
-5. **Commiter et pousser** sur `main`.
+4. **Mailler en interne** : lier 2 à 3 articles existants (voir plus bas).
+5. **Renseigner l'indication de couverture** (voir règle images).
+6. **Commiter et pousser** sur `main`.
+
+## Maillage interne (à ne pas négliger)
+
+Chaque nouvel article doit citer et lier **2 à 3 articles existants** du site,
+avec un lien markdown vers `/articles/<slug>` et une ancre naturelle intégrée
+à une phrase (pas de « cliquez ici »). Exemple :
+
+```md
+La qualité de la mouture compte autant que la machine : voir notre comparatif des
+[moulins à café électriques](/articles/meilleur-moulin-cafe-electrique).
+```
+
+C'est l'un des rares leviers SEO entièrement sous notre contrôle : il fait
+circuler l'autorité entre les pages et aide Google à comprendre la structure
+thématique du site.
 
 ## Format du frontmatter
 
