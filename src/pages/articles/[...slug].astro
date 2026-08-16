@@ -1,0 +1,35 @@
+---
+import { getCollection } from 'astro:content';
+import ArticleLayout from '../../layouts/ArticleLayout.astro';
+
+export async function getStaticPaths() {
+  const articles = await getCollection('articles', ({ data }) => !data.draft);
+  return articles.map((article) => ({
+    params: { slug: article.slug },
+    props: { article },
+  }));
+}
+
+const { article } = Astro.props;
+const { Content, headings } = await article.render();
+const readingMinutes = Math.max(1, Math.round(article.body.trim().split(/\s+/).length / 200));
+---
+
+<ArticleLayout
+  slug={article.slug}
+  title={article.data.title}
+  description={article.data.description}
+  pubDate={article.data.pubDate}
+  updatedDate={article.data.updatedDate}
+  author={article.data.author}
+  coverImage={article.data.coverImage}
+  coverAlt={article.data.coverAlt}
+  category={article.data.category}
+  products={article.data.products}
+  faq={article.data.faq}
+  comparison={article.data.comparison}
+  headings={headings}
+  readingMinutes={readingMinutes}
+>
+  <Content />
+</ArticleLayout>

@@ -1,0 +1,104 @@
+---
+import { siteConfig } from '../siteConfig';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import CookieConsent from '../components/CookieConsent.astro';
+import '../styles/global.css';
+
+interface Props {
+  title: string;
+  description?: string;
+  ogImage?: string;
+  ogType?: string;
+  jsonLd?: Record<string, unknown> | Record<string, unknown>[];
+}
+
+const { title, description = siteConfig.description, ogImage, ogType = 'website', jsonLd } = Astro.props;
+const pageTitle = title === siteConfig.name ? title : `${title} | ${siteConfig.name}`;
+const { enabled, clientId } = siteConfig.adsense;
+const siteUrl = Astro.site?.origin ?? Astro.url.origin;
+
+const organizationSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'Organization',
+  name: siteConfig.name,
+  url: siteUrl,
+  description: siteConfig.description,
+};
+
+const jsonLdBlocks = [organizationSchema, ...(jsonLd ? (Array.isArray(jsonLd) ? jsonLd : [jsonLd]) : [])];
+---
+
+<!DOCTYPE html>
+<html lang={siteConfig.lang}>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="canonical" href={Astro.url} />
+    <link rel="alternate" type="application/rss+xml" title={siteConfig.name} href="/rss.xml" />
+    {siteConfig.googleSiteVerification && (
+      <meta name="google-site-verification" content={siteConfig.googleSiteVerification} />
+    )}
+    {siteConfig.pinterestVerification && (
+      <meta name="p:domain_verify" content={siteConfig.pinterestVerification} />
+    )}
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@500;600;700;800&family=Inter:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>{pageTitle}</title>
+    <meta name="description" content={description} />
+
+    <!-- Open Graph -->
+    <meta property="og:type" content={ogType} />
+    <meta property="og:title" content={pageTitle} />
+    <meta property="og:description" content={description} />
+    <meta property="og:locale" content={siteConfig.locale} />
+    <meta property="og:site_name" content={siteConfig.name} />
+    <meta property="og:url" content={Astro.url} />
+    {ogImage && <meta property="og:image" content={ogImage} />}
+    {ogImage && <meta property="og:image:alt" content={pageTitle} />}
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content={ogImage ? 'summary_large_image' : 'summary'} />
+    <meta name="twitter:title" content={pageTitle} />
+    <meta name="twitter:description" content={description} />
+    {ogImage && <meta name="twitter:image" content={ogImage} />}
+
+    <style set:html={`:root { --color-accent: ${siteConfig.accentColor}; }`}></style>
+
+    {jsonLdBlocks.map((block) => (
+      <script type="application/ld+json" set:html={JSON.stringify(block)} />
+    ))}
+
+    {enabled && (
+      <script
+        is:inline
+        define:vars={{ clientId }}
+      >
+        // Le script AdSense ne se charge qu'après acceptation des cookies (RGPD)
+        document.addEventListener('cookie-consent-accepted', function loadAds() {
+          if (window.__adsenseLoaded) return;
+          window.__adsenseLoaded = true;
+          var s = document.createElement('script');
+          s.async = true;
+          s.src = 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=' + clientId;
+          s.crossOrigin = 'anonymous';
+          document.head.appendChild(s);
+        }, { once: true });
+      </script>
+    )}
+  </head>
+  <body>
+    <Header />
+    <main>
+      <slot />
+    </main>
+    <Footer />
+    {siteConfig.adsense.enabled && <CookieConsent />}
+  </body>
+</html>

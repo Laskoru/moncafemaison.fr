@@ -1,0 +1,47 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Breadcrumbs from '../../components/Breadcrumbs.astro';
+import ArticleCard from '../../components/ArticleCard.astro';
+import { siteConfig } from '../../siteConfig';
+import { categories } from '../../categories';
+
+export async function getStaticPaths() {
+  return categories.map((cat) => ({
+    params: { cat: cat.slug },
+    props: { cat },
+  }));
+}
+
+const { cat } = Astro.props;
+
+const articles = (await getCollection('articles', ({ data }) => !data.draft && data.category === cat.slug)).sort(
+  (a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf()
+);
+---
+
+<BaseLayout
+  title={cat.label}
+  description={`${cat.description} Tous les comparatifs ${cat.label.toLowerCase()} sur ${siteConfig.name}.`}
+>
+  <section class="container cat-header">
+    <Breadcrumbs items={[{ label: 'Accueil', href: '/' }, { label: cat.label }]} />
+    <p class="cat-header__icon">{cat.icon}</p>
+    <h1>{cat.label}</h1>
+    <p class="cat-header__desc">{cat.description}</p>
+  </section>
+
+  <section class="container article-list">
+    {articles.length === 0 && <p>Aucun article publié dans cette catégorie pour le moment.</p>}
+    {articles.map((article) => <ArticleCard article={article} />)}
+  </section>
+</BaseLayout>
+
+<style>
+  .cat-header { padding: 2.5rem 0 1rem; }
+  .cat-header__icon { font-size: 2.4rem; margin: 0 0 0.4rem; }
+  .cat-header h1 { margin-top: 0; }
+  .cat-header__desc { color: var(--color-text-muted); font-size: 1.05rem; max-width: 52ch; }
+
+  .article-list { display: flex; flex-direction: column; gap: 1.1rem; padding: 1.5rem 0 3.5rem; }
+</style>

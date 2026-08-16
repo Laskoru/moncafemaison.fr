@@ -1,0 +1,44 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Breadcrumbs from '../../components/Breadcrumbs.astro';
+import ArticleCard from '../../components/ArticleCard.astro';
+import { guides } from '../../guides';
+
+export async function getStaticPaths() {
+  return guides.map((guide) => ({ params: { guide: guide.slug }, props: { guide } }));
+}
+
+const { guide } = Astro.props;
+
+const allArticles = await getCollection('articles', ({ data }) => !data.draft);
+const bySlug = new Map(allArticles.map((a) => [a.slug, a]));
+// On respecte l'ordre défini dans guides.ts, en ignorant les slugs absents.
+const articles = guide.articles.map((slug) => bySlug.get(slug)).filter((a) => a !== undefined);
+---
+
+<BaseLayout title={guide.title} description={guide.description}>
+  <section class="container guide">
+    <Breadcrumbs items={[{ label: 'Accueil', href: '/' }, { label: 'Guides', href: '/guides' }, { label: guide.title }]} />
+    <p class="guide__icon">{guide.icon}</p>
+    <h1>{guide.title}</h1>
+    <div class="guide__intro">
+      {guide.intro.map((p) => <p>{p}</p>)}
+    </div>
+
+    <h2 class="guide__section">Les comparatifs de ce guide</h2>
+    <div class="article-list">
+      {articles.map((article) => <ArticleCard article={article} />)}
+    </div>
+  </section>
+</BaseLayout>
+
+<style>
+  .guide { padding: 2.5rem 0 3.5rem; }
+  .guide__icon { font-size: 2.4rem; margin: 0 0 0.4rem; }
+  .guide h1 { margin-top: 0; }
+  .guide__intro { max-width: 68ch; }
+  .guide__intro p { color: var(--color-text-muted); line-height: 1.7; }
+  .guide__section { margin-top: 2.5rem; }
+  .article-list { display: flex; flex-direction: column; gap: 1.1rem; margin-top: 1.2rem; }
+</style>

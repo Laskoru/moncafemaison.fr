@@ -1,0 +1,77 @@
+---
+import { siteConfig } from '../siteConfig';
+import { resolveProductImage } from '../lib/products';
+
+interface Props {
+  asin: string;
+  title: string;
+  image?: string;
+  blurb?: string;
+  featured?: boolean;
+}
+
+const { asin, title, image, blurb, featured = false } = Astro.props;
+const affiliateUrl = `https://www.amazon.fr/dp/${asin}?tag=${siteConfig.amazon.tag}`;
+
+// Image produit : champ `image:` du frontmatter, sinon public/products/<ASIN>.<ext>
+// détecté automatiquement (voir public/products/README.md).
+const resolvedImage = resolveProductImage(asin, image);
+---
+
+<div class:list={['amazon-product', 'card', { 'amazon-product--featured': featured }]}>
+  {featured && <span class="ribbon amazon-product__ribbon">Notre choix</span>}
+  {resolvedImage && (
+    <a href={affiliateUrl} target="_blank" rel="nofollow sponsored noopener" class="amazon-product__imgwrap">
+      <img
+        src={resolvedImage}
+        alt={title}
+        loading="lazy"
+        onerror="this.closest('.amazon-product__imgwrap').remove()"
+      />
+    </a>
+  )}
+  <div class="amazon-product__body">
+    <p class="eyebrow">Recommandation</p>
+    <p class="amazon-product__title">{title}</p>
+    {blurb && <p class="amazon-product__blurb">{blurb}</p>}
+    <a class="btn btn--primary amazon-product__cta" href={affiliateUrl} target="_blank" rel="nofollow sponsored noopener">
+      Voir le prix sur Amazon →
+    </a>
+  </div>
+</div>
+
+<style>
+  .amazon-product {
+    position: relative;
+    display: flex;
+    gap: 1.25rem;
+    align-items: center;
+    padding: 1.25rem;
+    margin: 1.75rem 0;
+    flex-wrap: wrap;
+  }
+  .amazon-product--featured { border-color: var(--color-accent); box-shadow: var(--shadow-md); }
+  .amazon-product__ribbon { position: absolute; top: -0.7rem; left: 1.25rem; }
+  .amazon-product__imgwrap {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    width: 110px;
+    height: 110px;
+    background: #fff;
+    border-radius: var(--radius);
+    overflow: hidden;
+  }
+  .amazon-product img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    display: block;
+    border-radius: 0;
+  }
+  .amazon-product__body { flex: 1; min-width: 180px; }
+  .amazon-product__title { font-weight: 600; margin: 0.3rem 0 0.35rem; }
+  .amazon-product__blurb { color: var(--color-text-muted); margin: 0 0 0.9rem; font-size: 0.92rem; }
+  .amazon-product__cta { font-size: 0.88rem; }
+</style>

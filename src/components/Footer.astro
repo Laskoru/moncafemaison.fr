@@ -1,0 +1,137 @@
+---
+import { siteConfig } from '../siteConfig';
+import { categories } from '../categories';
+import { guides } from '../guides';
+const year = new Date().getFullYear();
+---
+
+<footer class="site-footer">
+  <div class="wide site-footer__grid">
+    <div class="site-footer__brand">
+      <a href="/" class="site-footer__logo" aria-label={`${siteConfig.name} — accueil`}>
+        <svg width="26" height="26" viewBox="0 0 32 32" aria-hidden="true">
+          <rect width="32" height="32" rx="7" fill="var(--color-accent)"/>
+          <path d="M8 24V13l8 7 8-7v11" fill="none" stroke="#fff" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+          <circle cx="16" cy="7" r="2.6" fill="var(--color-signal)"/>
+        </svg>
+        <span>{siteConfig.name}</span>
+      </a>
+      <p class="site-footer__tagline">{siteConfig.tagline}</p>
+    </div>
+
+    <nav class="site-footer__col" aria-label="Catégories">
+      <p class="site-footer__heading">Catégories</p>
+      {categories.map((cat) => (
+        <a href={`/categorie/${cat.slug}`}>{cat.label}</a>
+      ))}
+    </nav>
+
+    <nav class="site-footer__col" aria-label="Guides">
+      <p class="site-footer__heading">Guides</p>
+      {guides.map((g) => (
+        <a href={`/guides/${g.slug}`}>{g.title}</a>
+      ))}
+    </nav>
+
+    <nav class="site-footer__col" aria-label="Le site">
+      <p class="site-footer__heading">Le site</p>
+      <a href="/a-propos">À propos</a>
+      <a href="/contact">Contact</a>
+      <a href="/articles">Tous les articles</a>
+      <a href="/rss.xml">Flux RSS</a>
+    </nav>
+  </div>
+
+  <div class="wide site-footer__bottom">
+    <p>&copy; {year} {siteConfig.name}. Tous droits réservés.</p>
+    <nav class="site-footer__legal" aria-label="Mentions légales">
+      <a href="/mentions-legales">Mentions légales</a>
+      <a href="/politique-de-confidentialite">Confidentialité</a>
+    </nav>
+  </div>
+
+  <p class="wide site-footer__disclosure">
+    En tant que Partenaire Amazon, {siteConfig.name} réalise un bénéfice sur les achats remplissant les
+    conditions requises. Certains liens sont des liens affiliés.
+  </p>
+</footer>
+
+<style>
+  .site-footer {
+    border-top: 1px solid var(--color-border);
+    margin-top: 4.5rem;
+    padding: 3rem 0 2rem;
+    color: var(--color-text-muted);
+    font-size: 0.9rem;
+    background: var(--color-bg-soft);
+  }
+  .site-footer__grid {
+    display: grid;
+    grid-template-columns: 1.5fr 1fr 1fr 1fr;
+    gap: 2rem;
+    padding-bottom: 2.5rem;
+  }
+  .site-footer__logo {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.55rem;
+    font-family: var(--font-display);
+    font-weight: 700;
+    font-size: 1.1rem;
+    color: var(--color-text);
+    text-decoration: none;
+  }
+  .site-footer__logo svg { border-radius: 7px; }
+  .site-footer__tagline {
+    margin: 0.9rem 0 0;
+    max-width: 30ch;
+    line-height: 1.55;
+    color: var(--color-text-muted);
+  }
+  .site-footer__heading {
+    font-family: var(--font-display);
+    font-weight: 700;
+    font-size: 0.82rem;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: var(--color-text);
+    margin: 0 0 0.9rem;
+  }
+  .site-footer__col { display: flex; flex-direction: column; gap: 0.6rem; }
+  .site-footer__col a {
+    color: var(--color-text-muted);
+    text-decoration: none;
+    transition: color 0.15s ease;
+  }
+  .site-footer__col a:hover { color: var(--color-accent); }
+
+  .site-footer__bottom {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 1.5rem;
+    border-top: 1px solid var(--color-border);
+    font-size: 0.85rem;
+  }
+  .site-footer__bottom p { margin: 0; }
+  .site-footer__legal { display: flex; gap: 1.2rem; }
+  .site-footer__legal a { color: var(--color-text-muted); text-decoration: none; }
+  .site-footer__legal a:hover { color: var(--color-accent); }
+
+  .site-footer__disclosure {
+    margin: 1.5rem auto 0;
+    font-size: 0.78rem;
+    color: var(--color-text-faint);
+    line-height: 1.5;
+  }
+
+  @media (max-width: 720px) {
+    .site-footer__grid { grid-template-columns: 1fr 1fr; gap: 1.8rem 1.5rem; }
+    .site-footer__brand { grid-column: 1 / -1; }
+  }
+  @media (max-width: 460px) {
+    .site-footer__grid { grid-template-columns: 1fr; }
+  }
+</style>

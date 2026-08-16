@@ -1,0 +1,57 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Breadcrumbs from '../../components/Breadcrumbs.astro';
+import { siteConfig } from '../../siteConfig';
+import { guides } from '../../guides';
+
+const published = new Set((await getCollection('articles', ({ data }) => !data.draft)).map((a) => a.slug));
+const guideCounts = guides.map((g) => ({
+  ...g,
+  count: g.articles.filter((slug) => published.has(slug)).length,
+}));
+---
+
+<BaseLayout
+  title="Guides d’achat"
+  description={`Nos guides thématiques café : débuter, réussir son espresso, café filtre. ${siteConfig.name}.`}
+>
+  <section class="container guides-index">
+    <Breadcrumbs items={[{ label: 'Accueil', href: '/' }, { label: 'Guides' }]} />
+    <h1>Guides d’achat</h1>
+    <p class="guides-index__lede">
+      Des parcours thématiques qui regroupent nos comparatifs par besoin, pour t’équiper étape par étape
+      sans t’éparpiller.
+    </p>
+
+    <div class="guides-index__grid">
+      {guideCounts.map((guide) => (
+        <article class="guides-index__card card card--hover">
+          <span class="guides-index__icon">{guide.icon}</span>
+          <h2><a class="stretched-link" href={`/guides/${guide.slug}`}>{guide.title}</a></h2>
+          <p class="guides-index__desc">{guide.description}</p>
+          <p class="guides-index__count">{guide.count} article{guide.count > 1 ? 's' : ''}</p>
+        </article>
+      ))}
+    </div>
+  </section>
+</BaseLayout>
+
+<style>
+  .guides-index { padding: 2.5rem 0 3.5rem; }
+  .guides-index h1 { margin-top: 0; }
+  .guides-index__lede { color: var(--color-text-muted); font-size: 1.05rem; max-width: 60ch; }
+  .guides-index__grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 1rem;
+    margin-top: 2rem;
+  }
+  .guides-index__card { position: relative; padding: 1.6rem 1.5rem; }
+  .guides-index__icon { font-size: 2rem; }
+  .guides-index__card h2 { margin: 0.6rem 0 0.4rem; font-size: 1.25rem; }
+  .guides-index__card h2 a { color: var(--color-text); text-decoration: none; }
+  .guides-index__card:hover h2 a { color: var(--color-accent); }
+  .guides-index__desc { color: var(--color-text-muted); font-size: 0.92rem; margin: 0 0 0.8rem; }
+  .guides-index__count { font-size: 0.82rem; color: var(--color-text-faint); margin: 0; }
+</style>

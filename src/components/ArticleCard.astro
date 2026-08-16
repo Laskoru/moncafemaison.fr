@@ -1,0 +1,93 @@
+---
+import type { CollectionEntry } from 'astro:content';
+import { siteConfig } from '../siteConfig';
+import { resolveProductImages } from '../lib/products';
+
+interface Props {
+  article: CollectionEntry<'articles'>;
+}
+
+const { article } = Astro.props;
+const thumbs = resolveProductImages(article.data.products, 2);
+
+const dateFormatter = new Intl.DateTimeFormat(siteConfig.locale.replace('_', '-'), {
+  year: 'numeric',
+  month: 'long',
+  day: 'numeric',
+});
+const readingMinutes = Math.max(1, Math.round(article.body.trim().split(/\s+/).length / 200));
+---
+
+<article class="article-card card card--hover">
+  <div class="article-card__body">
+    <p class="eyebrow">{dateFormatter.format(article.data.pubDate)} · {readingMinutes} min de lecture</p>
+    <h3><a class="stretched-link" href={`/articles/${article.slug}`}>{article.data.title}</a></h3>
+    <p class="article-card__desc">{article.data.description}</p>
+  </div>
+  {thumbs.length > 0 && (
+    <div class="article-card__thumbs">
+      {thumbs.map((src) => (
+        <img class="article-card__thumb" src={src} alt="" loading="lazy" onerror="this.remove()" />
+      ))}
+    </div>
+  )}
+</article>
+
+<style>
+  .article-card {
+    display: flex;
+    align-items: center;
+    gap: 1.4rem;
+    padding: 1.25rem 1.4rem;
+  }
+  .article-card__body { flex: 1; min-width: 0; }
+  .article-card h3 {
+    margin: 0.4rem 0 0.45rem;
+    font-size: 1.25rem;
+    line-height: 1.25;
+  }
+  .article-card h3 a { color: var(--color-text); text-decoration: none; }
+  .article-card:hover h3 a { color: var(--color-accent); }
+  .article-card__desc {
+    color: var(--color-text-muted);
+    margin: 0;
+    font-size: 0.94rem;
+    line-height: 1.55;
+    /* limite à 2 lignes pour garder les cartes régulières */
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+
+  /* Miniatures produits */
+  .article-card__thumbs {
+    display: flex;
+    gap: 0.5rem;
+    flex-shrink: 0;
+  }
+  .article-card__thumb {
+    width: 82px;
+    height: 82px;
+    object-fit: contain;
+    background: #fff;
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius);
+    padding: 5px;
+  }
+
+  @media (max-width: 560px) {
+    .article-card {
+      flex-direction: column;
+      align-items: stretch;
+      gap: 1rem;
+    }
+    /* Sur mobile : miniatures SOUS le texte, en ligne, largeurs égales */
+    .article-card__thumbs { gap: 0.6rem; }
+    .article-card__thumb {
+      flex: 1;
+      width: auto;
+      height: 104px;
+    }
+  }
+</style>

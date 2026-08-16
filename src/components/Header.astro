@@ -1,0 +1,146 @@
+---
+import { siteConfig } from '../siteConfig';
+---
+
+<header class="site-header">
+  <div class="wide site-header__inner">
+    <a href="/" class="site-header__logo" aria-label={`${siteConfig.name} — accueil`}>
+      <svg class="site-header__mark" width="28" height="28" viewBox="0 0 32 32" aria-hidden="true">
+        <rect width="32" height="32" rx="7" fill="var(--color-accent)"/>
+        <path d="M8 24V13l8 7 8-7v11" fill="none" stroke="#fff" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+        <circle cx="16" cy="7" r="2.6" fill="var(--color-signal)"/>
+      </svg>
+      <span class="site-header__name">{siteConfig.name}</span>
+    </a>
+    <nav class="site-header__nav" id="site-nav">
+      <a href="/">Accueil</a>
+      <a href="/guides">Guides</a>
+      <a href="/articles">Articles</a>
+    </nav>
+    <div class="site-header__actions">
+      <button type="button" id="nav-toggle" class="nav-toggle" aria-label="Ouvrir le menu" aria-expanded="false" aria-controls="site-nav">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<script is:inline>
+  (function () {
+    var navToggle = document.getElementById('nav-toggle');
+    var nav = document.getElementById('site-nav');
+    navToggle.addEventListener('click', function () {
+      var open = nav.classList.toggle('is-open');
+      navToggle.setAttribute('aria-expanded', String(open));
+      navToggle.classList.toggle('is-open', open);
+    });
+  })();
+</script>
+
+<style>
+  .site-header {
+    position: sticky;
+    top: 0;
+    z-index: 50;
+    border-bottom: 1px solid var(--color-border);
+    padding: 0.9rem 0;
+    background: color-mix(in srgb, var(--color-bg) 82%, transparent);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+  }
+  .site-header__inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+  }
+  .site-header__logo {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.55rem;
+    font-family: var(--font-display);
+    font-size: 1.2rem;
+    font-weight: 700;
+    letter-spacing: -0.01em;
+    color: var(--color-text);
+    text-decoration: none;
+    flex-shrink: 0;
+  }
+  .site-header__mark { display: block; border-radius: 7px; }
+  .site-header__logo:hover .site-header__name { color: var(--color-accent); }
+  .site-header__name { transition: color 0.15s ease; }
+
+  .site-header__nav { display: flex; gap: 1.75rem; margin-left: auto; }
+  .site-header__nav a {
+    position: relative;
+    color: var(--color-text-muted);
+    text-decoration: none;
+    font-size: 0.95rem;
+    font-weight: 500;
+    padding: 0.2rem 0;
+    transition: color 0.15s ease;
+  }
+  .site-header__nav a::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -2px;
+    height: 2px;
+    border-radius: 2px;
+    background: var(--color-accent);
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 0.18s ease;
+  }
+  .site-header__nav a:hover { color: var(--color-text); }
+  .site-header__nav a:hover::after { transform: scaleX(1); }
+  .site-header__actions { display: flex; align-items: center; gap: 0.5rem; }
+
+  .nav-toggle {
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    gap: 4px;
+    width: 34px;
+    height: 34px;
+    border-radius: var(--radius);
+    border: 1px solid var(--color-border);
+    background: var(--color-surface);
+    cursor: pointer;
+  }
+  .nav-toggle span {
+    width: 16px;
+    height: 2px;
+    margin: 0 auto;
+    background: var(--color-text);
+    transition: transform 0.2s ease, opacity 0.2s ease;
+  }
+  .nav-toggle.is-open span:nth-child(1) { transform: translateY(6px) rotate(45deg); }
+  .nav-toggle.is-open span:nth-child(2) { opacity: 0; }
+  .nav-toggle.is-open span:nth-child(3) { transform: translateY(-6px) rotate(-45deg); }
+
+  @media (max-width: 640px) {
+    .nav-toggle { display: flex; }
+    .site-header__nav {
+      position: absolute;
+      top: 100%;
+      left: 0;
+      right: 0;
+      margin: 0;
+      flex-direction: column;
+      gap: 0;
+      background: var(--color-surface);
+      border-bottom: 1px solid var(--color-border);
+      box-shadow: var(--shadow-md);
+      max-height: 0;
+      overflow: hidden;
+      transition: max-height 0.2s ease;
+    }
+    .site-header__nav.is-open { max-height: 220px; }
+    .site-header__nav a {
+      padding: 0.9rem 1.25rem;
+      border-top: 1px solid var(--color-border);
+    }
+  }
+</style>

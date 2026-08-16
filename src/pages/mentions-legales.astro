@@ -1,0 +1,81 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { siteConfig } from '../siteConfig';
+---
+
+<BaseLayout title="Mentions légales" description={`Mentions légales du site ${siteConfig.name}.`}>
+  <section class="container legal">
+    <h1>Mentions légales</h1>
+    <p class="legal__updated">Dernière mise à jour : 15 août 2026</p>
+
+    <h2>Éditeur du site</h2>
+    <p>
+      Le site {siteConfig.name} est édité à titre non professionnel par un particulier.
+      Contact : <a href={`mailto:${siteConfig.contactEmail}`}>{siteConfig.contactEmail}</a>.
+    </p>
+    <p>
+      Conformément à l'article 6 III 2 de la loi n° 2004-575 du 21 juin 2004 pour la confiance dans
+      l'économie numérique (LCEN), l'éditeur, personne physique éditant le site à titre non professionnel,
+      a choisi de ne pas rendre publiques ses coordonnées personnelles. Ces informations sont tenues à la
+      disposition de l'hébergeur, qui peut les communiquer aux autorités compétentes sur réquisition.
+    </p>
+
+    <h2>Responsable de la publication</h2>
+    <p>
+      {siteConfig.name}, joignable à l'adresse
+      <a href={`mailto:${siteConfig.contactEmail}`}>{siteConfig.contactEmail}</a>.
+    </p>
+
+    <h2>Hébergeur</h2>
+    <p>
+      Le site est hébergé par <strong>Vercel Inc.</strong><br />
+      340 S Lemon Ave #4133, Walnut, CA 91789, États-Unis<br />
+      Site web : <a href="https://vercel.com" target="_blank" rel="noopener">vercel.com</a>
+    </p>
+
+    <h2>Liens d'affiliation</h2>
+    <p>
+      {siteConfig.name} participe au Programme Partenaires d'Amazon EU, un programme d'affiliation conçu
+      pour permettre à des sites de percevoir une rémunération grâce à la création de liens vers Amazon.fr.
+      Certains liens présents sur ce site sont des liens affiliés : si vous effectuez un achat après avoir
+      cliqué sur l'un de ces liens, le site peut percevoir une commission, sans surcoût pour vous.
+    </p>
+
+    <h2>Propriété intellectuelle</h2>
+    <p>
+      L'ensemble des contenus présents sur {siteConfig.name} (textes, mise en forme, éléments graphiques
+      originaux) est protégé par le droit d'auteur. Toute reproduction, représentation ou diffusion, totale
+      ou partielle, sans autorisation préalable, est interdite. Les marques, logos et images de produits
+      cités restent la propriété de leurs détenteurs respectifs.
+    </p>
+
+    <h2>Responsabilité</h2>
+    <p>
+      Les informations et comparatifs publiés sur ce site le sont à titre indicatif et reflètent l'opinion
+      de la rédaction au moment de leur publication. Les prix, disponibilités et caractéristiques des
+      produits évoluent et sont susceptibles de changer : seule la fiche du produit sur le site marchand
+      fait foi. {siteConfig.name} ne saurait être tenu responsable des conséquences liées à l'utilisation
+      des informations présentes sur le site ou des sites tiers vers lesquels il renvoie.
+    </p>
+
+    <h2>Liens externes</h2>
+    <p>
+      Ce site contient des liens vers des sites tiers (notamment Amazon.fr). {siteConfig.name} n'exerce
+      aucun contrôle sur ces sites et décline toute responsabilité quant à leur contenu ou à leurs
+      pratiques, y compris en matière de protection des données. La consultation d'un site tiers relève de
+      la seule responsabilité de l'utilisateur.
+    </p>
+
+    <h2>Contact</h2>
+    <p>
+      Pour toute question relative au site ou à ces mentions légales, vous pouvez écrire à
+      <a href={`mailto:${siteConfig.contactEmail}`}>{siteConfig.contactEmail}</a>.
+    </p>
+  </section>
+</BaseLayout>
+
+<style>
+  .legal { padding: 2.5rem 0 3.5rem; max-width: 760px; }
+  .legal h1 { margin-top: 0; }
+  .legal__updated { color: var(--color-text-muted); font-size: 0.88rem; margin-top: -0.3rem; }
+</style>

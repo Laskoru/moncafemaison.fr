@@ -1,0 +1,87 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { siteConfig } from '../siteConfig';
+
+const method = [
+  {
+    title: 'On part d’un usage réel',
+    detail:
+      "Chaque comparatif répond à une façon de boire le café (espresso serré, grand filtre, latte du matin), pas à une simple liste de best-sellers. On se demande d'abord à qui sert le produit et pour quel usage.",
+  },
+  {
+    title: 'Des critères vérifiables',
+    detail:
+      "On compare ce qui se mesure : type de mouture, pression, régularité, capacité, entretien, budget. Pas de superlatifs vagues ni de notes sorties de nulle part.",
+  },
+  {
+    title: 'Une sélection assumée',
+    detail:
+      "On recommande peu de produits, mais on explique pourquoi, et pour quel profil. On préfère dire « ça dépend de ton usage » plutôt que de désigner un gagnant universel qui n'existe pas.",
+  },
+  {
+    title: 'Des articles mis à jour',
+    detail:
+      "Le matériel et les prix évoluent vite. Les comparatifs sont relus régulièrement pour rester pertinents, et on le signale quand un article est actualisé.",
+  },
+];
+---
+
+<BaseLayout
+  title="À propos"
+  description={`Qui est derrière ${siteConfig.name}, notre méthode de comparaison et notre indépendance.`}
+>
+  <section class="container about">
+    <p class="eyebrow">À propos</p>
+    <h1>Aider à faire un bon café chez soi, sans se tromper de matériel</h1>
+    <p class="about__lede">
+      {siteConfig.name} est un site indépendant de comparatifs et de conseils d'achat dédié au café à la
+      maison : machines, moulins et accessoires. L'objectif est simple : t'aider à choisir le matériel qui
+      améliore vraiment la tasse, sans y passer des heures ni te ruiner.
+    </p>
+
+    <h2>Notre méthode</h2>
+    <p>
+      On ne teste pas tout en laboratoire — et on préfère être honnête là-dessus plutôt que de le prétendre.
+      Chaque article s'appuie sur une comparaison rigoureuse des caractéristiques réelles des produits, des
+      retours d'utilisateurs et des critères qui comptent vraiment à l'usage. Voici les principes qu'on suit :
+    </p>
+    <div class="about__grid">
+      {method.map((m) => (
+        <div class="about__card card">
+          <h3>{m.title}</h3>
+          <p>{m.detail}</p>
+        </div>
+      ))}
+    </div>
+
+    <h2>Notre indépendance</h2>
+    <p>
+      {siteConfig.name} est financé par l'affiliation : certains liens vers Amazon sont des liens affiliés,
+      et si tu achètes après avoir cliqué, le site touche une petite commission — <strong>sans aucun
+      surcoût pour toi</strong>. Cette commission ne change jamais notre avis : on recommande un produit
+      parce qu'il nous semble pertinent, pas parce qu'il rapporte davantage. Quand un produit a des défauts,
+      on le dit.
+    </p>
+
+    <h2>Une question, une suggestion ?</h2>
+    <p>
+      Une erreur à signaler, un produit à nous soumettre, une idée de comparatif ? Écris-nous à
+      <a href={`mailto:${siteConfig.contactEmail}`}>{siteConfig.contactEmail}</a> — on lit tout.
+    </p>
+  </section>
+</BaseLayout>
+
+<style>
+  .about { padding: 2.5rem 0 3.5rem; max-width: 760px; }
+  .about h1 { margin-top: 0.4rem; }
+  .about__lede { font-size: 1.12rem; color: var(--color-text-muted); line-height: 1.7; }
+  .about__grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 1rem;
+    margin: 1.5rem 0 0.5rem;
+  }
+  .about__card { padding: 1.3rem 1.4rem; }
+  .about__card h3 { margin: 0 0 0.4rem; font-size: 1.05rem; }
+  .about__card p { margin: 0; color: var(--color-text-muted); font-size: 0.92rem; line-height: 1.6; }
+</style>

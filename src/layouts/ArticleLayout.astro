@@ -1,0 +1,231 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from './BaseLayout.astro';
+import AmazonProduct from '../components/AmazonProduct.astro';
+import AffiliateDisclosure from '../components/AffiliateDisclosure.astro';
+import Breadcrumbs from '../components/Breadcrumbs.astro';
+import ArticleCard from '../components/ArticleCard.astro';
+import ShareButtons from '../components/ShareButtons.astro';
+import { siteConfig } from '../siteConfig';
+import { categories, type CategorySlug } from '../categories';
+
+interface Heading { depth: number; slug: string; text: string }
+interface FaqItem { question: string; answer: string }
+interface Comparison { columns: string[]; rows: string[][] }
+
+interface Props {
+  slug: string;
+  title: string;
+  description: string;
+  pubDate: Date;
+  updatedDate?: Date;
+  author?: string;
+  coverImage?: string;
+  coverAlt?: string;
+  category: CategorySlug;
+  products?: { asin: string; title: string; image?: string; blurb?: string }[];
+  headings?: Heading[];
+  readingMinutes?: number;
+  faq?: FaqItem[];
+  comparison?: Comparison;
+}
+
+const {
+  slug,
+  title,
+  description,
+  pubDate,
+  updatedDate,
+  author,
+  coverImage,
+  coverAlt,
+  category,
+  products = [],
+  headings = [],
+  readingMinutes,
+  faq = [],
+  comparison,
+} = Astro.props;
+const hasProducts = siteConfig.amazon.enabled && products.length > 0;
+const tocHeadings = headings.filter((h) => h.depth === 2 || h.depth === 3);
+const categoryInfo = categories.find((c) => c.slug === category);
+
+const relatedArticles = (
+  await getCollection('articles', (a) => !a.data.draft && a.data.category === category && a.slug !== slug)
+)
+  .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf())
+  .slice(0, 3);
+
+const dateFormatter = new Intl.DateTimeFormat(siteConfig.locale.replace('_', '-'), {
+  year: 'numeric',
+  month: 'long',
+  day: 'numeric',
+});
+
+const siteUrl = Astro.site?.origin ?? Astro.url.origin;
+const shareUrl = new URL(Astro.url.pathname, siteUrl).toString();
+const articleSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'Article',
+  headline: title,
+  description,
+  datePublished: pubDate.toISOString(),
+  dateModified: (updatedDate ?? pubDate).toISOString(),
+  author: { '@type': 'Organization', name: author ?? siteConfig.author },
+  publisher: { '@type': 'Organization', name: siteConfig.name },
+  ...(coverImage ? { image: coverImage } : {}),
+  mainEntityOfPage: new URL(Astro.url.pathname, siteUrl).toString(),
+};
+
+const faqSchema = faq.length > 0
+  ? {
+      '@context': 'https://schema.org',
+      '@type': 'FAQPage',
+      mainEntity: faq.map((f) => ({
+        '@type': 'Question',
+        name: f.question,
+        acceptedAnswer: { '@type': 'Answer', text: f.answer },
+      })),
+    }
+  : null;
+
+const breadcrumbItems = [
+  { label: 'Accueil', href: '/' },
+  ...(categoryInfo ? [{ label: categoryInfo.label, href: `/categorie/${categoryInfo.slug}` }] : []),
+  { label: title },
+];
+---
+
+<BaseLayout title={title} description={description} ogImage={coverImage} ogType="article" jsonLd={faqSchema ? [articleSchema, faqSchema] : articleSchema}>
+  <article class="container">
+    <Breadcrumbs items={breadcrumbItems} />
+
+    <header class="article-header">
+      <p class="eyebrow">
+        {dateFormatter.format(pubDate)}
+        {readingMinutes && <> · {readingMinutes} min de lecture</>}
+      </p>
+      <h1>{title}</h1>
+      <p class="article-meta">
+        {author ?? siteConfig.author}
+        {updatedDate && <> · mis à jour le {dateFormatter.format(updatedDate)}</>}
+      </p>
+    </header>
+
+    {coverImage && (
+      <img
+        src={coverImage}
+        alt={coverAlt ?? ''}
+        class="article-cover"
+        width="1600"
+        height="800"
+        fetchpriority="high"
+      />
+    )}
+
+    {hasProducts && <AffiliateDisclosure />}
+
+    {tocHeadings.length > 1 && (
+      <nav class="toc" aria-label="Sommaire">
+        <p class="toc__title">Sommaire</p>
+        <ol>
+          {tocHeadings.map((h) => (
+            <li data-depth={h.depth}><a href={`#${h.slug}`}>{h.text}</a></li>
+          ))}
+        </ol>
+      </nav>
+    )}
+
+    <div class="article-body">
+      <slot />
+    </div>
+
+    {comparison && comparison.rows.length > 0 && (
+      <div class="article-comparison">
+        <h2>Comparatif en un coup d'œil</h2>
+        <div class="compare-table-wrap">
+          <table class="compare-table">
+            <thead>
+              <tr>{comparison.columns.map((col) => <th>{col}</th>)}</tr>
+            </thead>
+            <tbody>
+              {comparison.rows.map((row) => (
+                <tr>{row.map((cell, i) => (i === 0 ? <th scope="row">{cell}</th> : <td>{cell}</td>))}</tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+      </div>
+    )}
+
+    <ShareButtons url={shareUrl} title={title} image={coverImage} />
+
+    {hasProducts && (
+      <div class="article-recommendations">
+        <h2>Nos recommandations</h2>
+        {products.map((p, i) => (
+          <AmazonProduct asin={p.asin} title={p.title} image={p.image} blurb={p.blurb} featured={i === 0} />
+        ))}
+      </div>
+    )}
+
+    {faq.length > 0 && (
+      <div class="article-faq">
+        <h2>Questions fréquentes</h2>
+        {faq.map((f) => (
+          <details class="article-faq__item">
+            <summary>{f.question}</summary>
+            <p>{f.answer}</p>
+          </details>
+        ))}
+      </div>
+    )}
+
+    {relatedArticles.length > 0 && (
+      <div class="article-related">
+        <h2>À lire aussi{categoryInfo && <> — {categoryInfo.label}</>}</h2>
+        <div class="article-related__list">
+          {relatedArticles.map((a) => <ArticleCard article={a} />)}
+        </div>
+      </div>
+    )}
+  </article>
+</BaseLayout>
+
+<style>
+  .article-header { margin-bottom: 1.5rem; }
+  .article-header h1 { margin-top: 0.4rem; }
+  .article-meta {
+    color: var(--color-text-muted);
+    font-size: 0.9rem;
+    margin-top: -0.5rem;
+  }
+  .article-cover {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 16 / 8;
+    object-fit: cover;
+    margin: 1.5rem 0;
+    border-radius: var(--radius-lg);
+  }
+  .article-body :global(h2) { margin-top: 2.2em; scroll-margin-top: 5rem; }
+  .article-body :global(h3) { scroll-margin-top: 5rem; }
+
+  .article-faq { margin-top: 3rem; }
+  .article-faq__item {
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-lg);
+    background: var(--color-surface);
+    padding: 1rem 1.3rem;
+    margin-bottom: 0.8rem;
+  }
+  .article-faq__item summary {
+    cursor: pointer;
+    font-weight: 600;
+    font-family: var(--font-display);
+  }
+  .article-faq__item p { margin: 0.7rem 0 0; color: var(--color-text-muted); }
+
+  .article-related { margin-top: 3rem; padding-top: 2rem; border-top: 1px solid var(--color-border); }
+  .article-related__list { display: flex; flex-direction: column; gap: 1.1rem; }
+</style>

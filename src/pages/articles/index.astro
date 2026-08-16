@@ -1,0 +1,24 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import ArticleCard from '../../components/ArticleCard.astro';
+import { siteConfig } from '../../siteConfig';
+
+const allArticles = (await getCollection('articles', ({ data }) => !data.draft)).sort(
+  (a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf()
+);
+---
+
+<BaseLayout title="Tous les articles" description={`Tous les articles publiés sur ${siteConfig.name}.`}>
+  <section class="container">
+    <p class="eyebrow">{allArticles.length} article{allArticles.length > 1 ? 's' : ''}</p>
+    <h1>Tous les articles</h1>
+    <div class="article-list">
+      {allArticles.map((article) => <ArticleCard article={article} />)}
+    </div>
+  </section>
+</BaseLayout>
+
+<style>
+  .article-list { display: flex; flex-direction: column; gap: 1.1rem; margin: 1.5rem 0 3rem; }
+</style>

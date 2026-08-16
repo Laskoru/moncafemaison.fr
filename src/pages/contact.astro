@@ -1,0 +1,61 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { siteConfig } from '../siteConfig';
+---
+
+<BaseLayout
+  title="Contact"
+  description={`Contacter ${siteConfig.name} : question, suggestion de comparatif ou signalement.`}
+>
+  <section class="container contact">
+    <p class="eyebrow">Contact</p>
+    <h1>Nous écrire</h1>
+    <p class="contact__lede">
+      Une question sur un article, une erreur à signaler, un produit ou une idée de comparatif à nous
+      soumettre ? On lit tous les messages avec plaisir.
+    </p>
+
+    <a class="btn btn--primary contact__cta" href={`mailto:${siteConfig.contactEmail}`}>
+      ✉️ {siteConfig.contactEmail}
+    </a>
+
+    <div class="contact__cards">
+      <div class="card contact__card">
+        <h2>Suggérer un comparatif</h2>
+        <p>Une machine, un moulin ou un accessoire café que tu aimerais voir comparé ? Dis-le-nous, ça
+          nous aide à choisir les prochains sujets.</p>
+      </div>
+      <div class="card contact__card">
+        <h2>Signaler une erreur</h2>
+        <p>Un prix qui a changé, un lien cassé, une info à corriger ? Merci de nous prévenir : on tient à
+          garder les articles à jour.</p>
+      </div>
+      <div class="card contact__card">
+        <h2>Partenariats</h2>
+        <p>Pour toute proposition, écris-nous à la même adresse en précisant l'objet. On répond aux
+          demandes sérieuses et compatibles avec notre indépendance éditoriale.</p>
+      </div>
+    </div>
+
+    <p class="contact__note">
+      Réponse généralement sous quelques jours. Pour les demandes relatives à tes données personnelles,
+      consulte notre <a href="/politique-de-confidentialite">politique de confidentialité</a>.
+    </p>
+  </section>
+</BaseLayout>
+
+<style>
+  .contact { padding: 2.5rem 0 3.5rem; max-width: 760px; }
+  .contact h1 { margin-top: 0.4rem; }
+  .contact__lede { font-size: 1.1rem; color: var(--color-text-muted); line-height: 1.7; max-width: 60ch; }
+  .contact__cta { margin: 0.5rem 0 2.5rem; }
+  .contact__cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 1rem;
+  }
+  .contact__card { padding: 1.3rem 1.4rem; }
+  .contact__card h2 { margin: 0 0 0.4rem; font-size: 1.02rem; }
+  .contact__card p { margin: 0; color: var(--color-text-muted); font-size: 0.92rem; line-height: 1.6; }
+  .contact__note { color: var(--color-text-muted); font-size: 0.88rem; margin-top: 2rem; }
+</style>
