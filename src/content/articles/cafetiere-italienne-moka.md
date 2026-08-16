@@ -5,11 +5,8 @@ pubDate: 2026-08-16
 author: "Rédaction"
 keywords: ["cafetière italienne", "cafetière moka", "meilleure cafetière moka"]
 category: "machines"
-# TODO-HUMAIN: ajouter une image (coverImage/coverAlt) — aucune URL Unsplash
-# n'a pu être vérifiée depuis cet environnement (accès images.unsplash.com
-# bloqué). Choisir une photo de cafetière italienne sur une plaque de
-# cuisson ou un plan de travail.
-draft: true
+coverAlt: "Cafetière italienne (moka) et tasse de café dans une lumière chaude"
+draft: false
 products:
   - asin: "B0000AN3QI"
     title: "Bialetti Moka Express 3 tasses — le classique en aluminium"

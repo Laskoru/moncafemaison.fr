@@ -5,10 +5,8 @@ pubDate: 2026-08-16
 author: "Rédaction"
 keywords: ["moulin à café manuel", "meilleur moulin manuel", "moulin manuel voyage"]
 category: "moulins"
-# TODO-HUMAIN: ajouter une image (coverImage/coverAlt) — aucune URL Unsplash
-# n'a pu être vérifiée depuis cet environnement (accès images.unsplash.com
-# bloqué). Choisir une photo de moulin à café manuel en cours d'utilisation.
-draft: true
+coverAlt: "Moulin à café manuel posé avec des grains de café"
+draft: false
 products:
   - asin: "B0B3ML36DZ"
     title: "TIMEMORE Chestnut C3 ESP Pro — meules coniques en acier, réglage interne"

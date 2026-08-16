@@ -8,8 +8,9 @@ automatique **et** peut être utilisé à la main.
 
 Créer **1 à 2 nouveaux articles** (vise 2 si les sujets s'y prêtent), chacun
 **en brouillon** (`draft: true`), puis commiter et pousser sur `main`.
-Les brouillons ne sont PAS visibles en ligne. Un process local ajoutera les images et publiera. Soigne quand même la qualité,
-et ne publie jamais un article sans 2 produits à ASIN réels ni sans coverImage.
+Les brouillons ne sont PAS visibles en ligne. Un process local ajoutera les
+images (couverture + produits) et publiera. Soigne quand même la qualité, et
+laisse toujours 2 produits à ASIN réels pour que le process local puisse finir.
 
 Chaque article prend un sujet **différent**. Mieux vaut 1 article solide que 2
 bâclés : si le 2e ne peut pas être fait correctement, n'en fais qu'un.
@@ -34,9 +35,10 @@ pubDate: AAAA-MM-JJ   # date du jour
 author: "Rédaction"
 keywords: ["mot-clé principal", "variante 1", "variante 2"]
 category: "machines"   # UNIQUEMENT : machines | moulins | accessoires
-coverImage: "https://images.unsplash.com/photo-XXXX?q=80&w=1600&auto=format&fit=crop"
+# coverImage : NE PAS mettre d'URL. La couverture est téléchargée localement
+# (public/covers/<slug>.jpg) exactement comme les images produits.
 coverAlt: "Description factuelle de l'image"
-draft: true            # PUBLIÉ directement en ligne
+draft: true            # le process local passe à false après avoir ajouté les images
 products:
   - asin: "B0XXXXXXXX"
     title: "Marque Modèle — 2-3 caractéristiques clés"
@@ -93,12 +95,21 @@ comparison:
     - ["Réglages", "40 crans", "aucun"]
 ```
 
-## Règle images
+## Règle images (couverture + produits : tout est géré en local)
 
-Vraie photo Unsplash (`https://images.unsplash.com/photo-XXXX?q=80&w=1600&auto=format&fit=crop`).
-Si aucune fiable, omets `coverImage`/`coverAlt` + `# TODO-HUMAIN: ajouter une image`.
+Ne cherche PAS d'URL d'image. Les photos sont téléchargées par le process local,
+comme les images produits :
+
+- **Couverture** : n'ajoute pas de `coverImage`. Renseigne seulement `coverAlt`
+  et ajoute dans le frontmatter une indication pour le process local :
+  `# COVER: <mots-clés en anglais pour trouver la photo>` (ex. `# COVER: pour over coffee dripper`).
+  Le process local téléchargera la photo dans `public/covers/<slug>.jpg`, détectée
+  automatiquement au build.
+- **Produits** : ne remplis pas `image:`. Le process local dépose
+  `public/products/<ASIN>.jpg`.
 
 ## Commit
 
-Message clair (`Nouveaux articles : <titres>`) + push sur `main`.
-Vercel redéploie automatiquement et les articles (`draft: true`) sont en ligne.
+Message clair (`Nouveaux brouillons : <titres>`) + push sur `main`.
+Les articles restent `draft: true` (invisibles) jusqu'à ce que le process local
+ajoute les images et passe `draft: false`.

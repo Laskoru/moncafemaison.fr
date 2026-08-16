@@ -1,6 +1,7 @@
 ---
 import { getCollection } from 'astro:content';
 import ArticleLayout from '../../layouts/ArticleLayout.astro';
+import { resolveCoverImage } from '../../lib/covers';
 
 export async function getStaticPaths() {
   const articles = await getCollection('articles', ({ data }) => !data.draft);
@@ -13,6 +14,7 @@ export async function getStaticPaths() {
 const { article } = Astro.props;
 const { Content, headings } = await article.render();
 const readingMinutes = Math.max(1, Math.round(article.body.trim().split(/\s+/).length / 200));
+const coverImage = resolveCoverImage(article.slug, article.data.coverImage);
 ---
 
 <ArticleLayout
@@ -22,7 +24,7 @@ const readingMinutes = Math.max(1, Math.round(article.body.trim().split(/\s+/).l
   pubDate={article.data.pubDate}
   updatedDate={article.data.updatedDate}
   author={article.data.author}
-  coverImage={article.data.coverImage}
+  coverImage={coverImage}
   coverAlt={article.data.coverAlt}
   category={article.data.category}
   products={article.data.products}
