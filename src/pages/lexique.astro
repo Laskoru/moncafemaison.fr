@@ -1,0 +1,169 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Breadcrumbs from '../components/Breadcrumbs.astro';
+import { siteConfig } from '../siteConfig';
+import { lexique, lexiqueGroups } from '../lexique';
+
+// On ne lie que vers des articles réellement publiés
+const articles = await getCollection('articles', ({ data }) => !data.draft);
+const titleBySlug = new Map(articles.map((a) => [a.slug, a.data.title]));
+
+// slug d'ancre : sans accents, kebab-case (ex. « Le grain & la torréfaction » → le-grain-la-torrefaction)
+const slugify = (s: string) =>
+  s
+    .normalize('NFD')
+    .replace(/[̀-ͯ]/g, '')
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, '-')
+    .replace(/^-|-$/g, '');
+
+const groups = lexiqueGroups
+  .map((group) => ({
+    group,
+    id: slugify(group),
+    entries: lexique.filter((e) => e.group === group),
+  }))
+  .filter((g) => g.entries.length > 0);
+
+// Rich snippet FAQ : Google peut afficher ces questions directement dans ses résultats
+const faqSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'FAQPage',
+  mainEntity: lexique.map((e) => ({
+    '@type': 'Question',
+    name: e.question,
+    acceptedAnswer: { '@type': 'Answer', text: e.answer },
+  })),
+};
+
+const description = `Lexique du café maison : mouture, crema, bars, blooming, cold brew… ${lexique.length} termes expliqués simplement.`;
+---
+
+<BaseLayout title="Lexique du café : tous les termes expliqués" description={description} jsonLd={faqSchema}>
+  <section class="container lexique">
+    <Breadcrumbs items={[{ label: 'Accueil', href: '/' }, { label: 'Lexique' }]} />
+    <h1>Lexique du café à la maison</h1>
+    <p class="lexique__lede">
+      Mouture, crema, bars, blooming, sur-extraction… Le vocabulaire du café peut vite décourager quand on
+      débute. Voici {lexique.length} termes expliqués en clair, sans jargon de barista, avec un lien vers le
+      comparatif concerné quand il existe.
+    </p>
+
+    <nav class="lexique__toc" aria-label="Sommaire du lexique">
+      {groups.map((g) => (
+        <a href={`#${g.id}`}>{g.group}</a>
+      ))}
+    </nav>
+
+    {groups.map((g) => {
+      return (
+        <section class="lexique__group">
+          <h2 id={g.id}>{g.group}</h2>
+          <div class="lexique__list">
+            {g.entries.map((entry) => (
+              <article class="lexique__item card">
+                <h3 class="lexique__term">{entry.term}</h3>
+                <p class="lexique__question">{entry.question}</p>
+                <p class="lexique__answer">{entry.answer}</p>
+                {entry.related && entry.related.filter((s) => titleBySlug.has(s)).length > 0 && (
+                  <p class="lexique__related">
+                    <span>À lire :</span>
+                    {entry.related
+                      .filter((s) => titleBySlug.has(s))
+                      .map((slug) => (
+                        <a href={`/articles/${slug}`}>{titleBySlug.get(slug)}</a>
+                      ))}
+                  </p>
+                )}
+              </article>
+            ))}
+          </div>
+        </section>
+      );
+    })}
+
+    <p class="lexique__outro">
+      Un terme manque ou une explication n’est pas claire ? <a href="/contact">Écris-nous</a> — le lexique
+      est complété au fil des questions qu’on nous pose.
+    </p>
+  </section>
+</BaseLayout>
+
+<style>
+  .lexique { padding: 2.5rem 0 3.5rem; }
+  .lexique h1 { margin-top: 0; }
+  .lexique__lede { color: var(--color-text-muted); font-size: 1.05rem; max-width: 65ch; line-height: 1.65; }
+
+  .lexique__toc {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin: 1.8rem 0 2.5rem;
+  }
+  .lexique__toc a {
+    font-size: 0.85rem;
+    font-weight: 600;
+    text-decoration: none;
+    color: var(--color-accent);
+    border: 1px solid var(--color-border);
+    background: var(--color-surface);
+    border-radius: 999px;
+    padding: 0.45em 0.95em;
+  }
+  .lexique__toc a:hover { border-color: var(--color-accent); }
+
+  .lexique__group { margin-bottom: 2.5rem; }
+  .lexique__group h2 {
+    font-size: 1.35rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid var(--color-border);
+    scroll-margin-top: 5rem;
+  }
+  .lexique__list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1rem;
+    margin-top: 1.2rem;
+  }
+  .lexique__item { padding: 1.25rem 1.4rem; }
+  .lexique__term {
+    margin: 0 0 0.15rem;
+    font-size: 1.08rem;
+    color: var(--color-accent);
+  }
+  .lexique__question {
+    margin: 0 0 0.6rem;
+    font-size: 0.86rem;
+    font-weight: 600;
+    color: var(--color-text);
+  }
+  .lexique__answer {
+    margin: 0;
+    color: var(--color-text-muted);
+    font-size: 0.93rem;
+    line-height: 1.6;
+  }
+  .lexique__related {
+    margin: 0.9rem 0 0;
+    padding-top: 0.8rem;
+    border-top: 1px solid var(--color-border);
+    font-size: 0.85rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4rem 0.7rem;
+  }
+  .lexique__related span { color: var(--color-text-faint); font-weight: 600; }
+  .lexique__related a { color: var(--color-accent); text-decoration: none; }
+  .lexique__related a:hover { text-decoration: underline; }
+
+  .lexique__outro {
+    margin-top: 2.5rem;
+    padding: 1.2rem 1.4rem;
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-lg);
+    background: var(--color-bg-soft);
+    color: var(--color-text-muted);
+    font-size: 0.94rem;
+  }
+</style>

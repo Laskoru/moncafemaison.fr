@@ -1,6 +1,7 @@
 ---
 import { siteConfig } from '../siteConfig';
 import { resolveProductImage } from '../lib/products';
+import { getRating } from '../lib/ratings';
 
 interface Props {
   asin: string;
@@ -16,6 +17,12 @@ const affiliateUrl = `https://www.amazon.fr/dp/${asin}?tag=${siteConfig.amazon.t
 // Image produit : champ `image:` du frontmatter, sinon public/products/<ASIN>.<ext>
 // détecté automatiquement (voir public/products/README.md).
 const resolvedImage = resolveProductImage(asin, image);
+
+// Note Amazon réelle (si récupérée par le process local). Jamais inventée.
+const rating = getRating(asin);
+const nf = new Intl.NumberFormat('fr-FR');
+const ratingLabel = rating ? rating.rating.toFixed(1).replace('.', ',') : null;
+const starPct = rating ? Math.round((rating.rating / 5) * 100) : 0;
 ---
 
 <div class:list={['amazon-product', 'card', { 'amazon-product--featured': featured }]}>
@@ -33,6 +40,12 @@ const resolvedImage = resolveProductImage(asin, image);
   <div class="amazon-product__body">
     <p class="eyebrow">Recommandation</p>
     <p class="amazon-product__title">{title}</p>
+    {rating && (
+      <p class="amazon-product__rating" title={`Note moyenne ${ratingLabel}/5 sur ${nf.format(rating.count)} avis Amazon`}>
+        <span class="stars" aria-hidden="true"><span class="stars__on" style={`width:${starPct}%`}></span></span>
+        <span class="amazon-product__rating-text"><strong>{ratingLabel}</strong>/5 · {nf.format(rating.count)} avis <span class="amazon-product__rating-src">sur Amazon</span></span>
+      </p>
+    )}
     {blurb && <p class="amazon-product__blurb">{blurb}</p>}
     <a class="btn btn--primary amazon-product__cta" href={affiliateUrl} target="_blank" rel="nofollow sponsored noopener">
       Voir le prix sur Amazon →
@@ -72,6 +85,35 @@ const resolvedImage = resolveProductImage(asin, image);
   }
   .amazon-product__body { flex: 1; min-width: 180px; }
   .amazon-product__title { font-weight: 600; margin: 0.3rem 0 0.35rem; }
+  .amazon-product__rating {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin: 0 0 0.55rem;
+    font-size: 0.86rem;
+    color: var(--color-text-muted);
+  }
+  .amazon-product__rating-text strong { color: var(--color-text); }
+  .amazon-product__rating-src { opacity: 0.7; }
+  /* étoiles : fond gris + calque doré découpé à la largeur = note/5 */
+  .stars {
+    position: relative;
+    display: inline-block;
+    font-size: 0.95rem;
+    line-height: 1;
+    letter-spacing: 1px;
+    white-space: nowrap;
+    color: color-mix(in srgb, var(--color-text-muted) 45%, transparent);
+  }
+  .stars::before { content: '★★★★★'; }
+  .stars__on {
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    color: #f5a623;
+  }
+  .stars__on::before { content: '★★★★★'; }
   .amazon-product__blurb { color: var(--color-text-muted); margin: 0 0 0.9rem; font-size: 0.92rem; }
   .amazon-product__cta { font-size: 0.88rem; }
 </style>
