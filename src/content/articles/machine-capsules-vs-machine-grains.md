@@ -5,7 +5,7 @@ pubDate: 2026-08-16
 author: "Rédaction"
 keywords: ["machine à capsules vs machine à grains", "capsules ou grains café", "quelle cafetière choisir"]
 category: "machines"
-coverAlt: "Capsules de café colorées à côté de grains de café torréfiés"
+coverAlt: "Coin café dans une cuisine : machine à espresso et moulin rempli de grains de café"
 # COVER: coffee capsules and coffee beans side by side
 draft: true
 products:

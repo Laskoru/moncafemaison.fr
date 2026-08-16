@@ -5,7 +5,7 @@ pubDate: 2026-08-16
 author: "Rédaction"
 keywords: ["cafetière filtre programmable", "meilleure cafetière filtre", "cafetière programmable minuterie"]
 category: "machines"
-coverAlt: "Cafetière filtre programmable avec carafe isotherme sur un plan de travail le matin"
+coverAlt: "Tasses blanches empilées devant une machine à café sur un plan de travail de cuisine"
 # COVER: programmable drip coffee maker with carafe on kitchen counter morning
 draft: true
 products:
