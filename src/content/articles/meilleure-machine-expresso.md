@@ -1,9 +1,9 @@
 ---
-title: "Meilleure machine expresso pour débuter : notre comparatif"
+title: "Meilleure machine expresso en 2026 : notre comparatif débutant"
 description: "Quelle machine expresso choisir pour débuter à la maison ? Porte-filtre ou capsules : nos critères et notre sélection abordable."
 pubDate: 2026-08-16
 author: "Rédaction"
-keywords: ["machine expresso", "meilleure machine expresso débuter", "machine expresso pas cher"]
+keywords: ["machine expresso", "meilleure machine expresso débuter", "machine expresso pas cher", "meilleure machine expresso 2026"]
 category: "machines"
 coverImage: "https://images.unsplash.com/photo-1583165278997-0250ea5d72e2?q=80&w=1600&auto=format&fit=crop"
 coverAlt: "Machine expresso en train de couler dans une tasse"

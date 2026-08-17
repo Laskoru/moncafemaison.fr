@@ -69,6 +69,17 @@ C'est l'un des rares leviers SEO entièrement sous notre contrôle : il fait
 circuler l'autorité entre les pages et aide Google à comprendre la structure
 thématique du site.
 
+## Titre : inclure l'année quand c'est un format « meilleur/lequel choisir »
+
+Si le titre prend la forme d'un classement ou d'une aide au choix (« Meilleur X »,
+« X : lequel choisir ? », « X vs Y : lequel choisir ? »), ajoute l'année en
+cours dans le titre (« Meilleur X en 2026 », « X en 2026 : lequel choisir ? »).
+Beaucoup de monde tape l'année dans sa recherche pour un guide d'achat, et ça
+signale la fraîcheur du contenu à Google. Ajoute aussi une variante datée dans
+`keywords` (ex. `"meilleur X 2026"`) en plus des mots-clés existants — ne
+remplace pas les mots-clés déjà présents, ajoute-la en plus.
+Ne force pas l'année sur un titre qui n'est pas un format classement/choix.
+
 ## Format du frontmatter
 
 ```md
