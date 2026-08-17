@@ -12,16 +12,6 @@ products:
   - asin: "B000VJ8H7I"
     title: "Bodum Kenya — verre, 1 L / 8 tasses"
     blurb: "La référence de la French press : simple, efficace et abordable, avec le rendu classique d'une cafetière à piston en verre."
-  - asin: "B0C4F9W2QK"
-    title: "Campo Libre GIORGIO — inox recyclé, isotherme"
-    blurb: "La version incassable et isotherme : garde le café chaud plus longtemps, idéale si tu crains la fragilité du verre."
-comparison:
-  columns: ["Critère", "Bodum Kenya", "Campo Libre GIORGIO"]
-  rows:
-    - ["Matériau", "Verre", "Inox recyclé"]
-    - ["Isotherme", "Non", "Oui"]
-    - ["Solidité", "Fragile", "Incassable"]
-    - ["Prix", "Très abordable", "Un peu plus élevé"]
 faq:
   - question: "Quelle mouture pour une cafetière à piston ?"
     answer: "Une mouture grossière, régulière, comme du gros sel. Trop fine, elle passe à travers le filtre et rend le café trouble et amer. C'est pourquoi un moulin à meules (réglable en grossier) fait une vraie différence avec une French press."

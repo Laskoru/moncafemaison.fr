@@ -11,16 +11,6 @@ products:
   - asin: "B0000AN3QI"
     title: "Bialetti Moka Express 3 tasses — le classique en aluminium"
     blurb: "La moka de référence depuis 1933 : simple, increvable et abordable, pour découvrir le vrai café italien sans se compliquer la vie."
-  - asin: "B08BPBBK8B"
-    title: "Bialetti Moka Induction 6 tasses — compatible tous feux"
-    blurb: "La même recette, mais avec un fond adapté aux plaques à induction et une contenance plus généreuse pour deux ou trois cafés."
-comparison:
-  columns: ["Critère", "Bialetti Moka Express 3 tasses", "Bialetti Moka Induction 6 tasses"]
-  rows:
-    - ["Matériau", "Aluminium", "Aluminium + fond inox (induction)"]
-    - ["Compatibilité plaques", "Gaz, électrique, vitrocéramique", "Gaz, électrique, vitrocéramique, induction"]
-    - ["Contenance", "130 ml (3 tasses)", "270 ml (6 tasses)"]
-    - ["Idéal pour", "Une personne, petite cuisine", "Deux à trois personnes, cuisine équipée induction"]
 faq:
   - question: "La cafetière italienne fait-elle un vrai espresso ?"
     answer: "Non, pas au sens strict : la moka ne monte qu'à environ 1 à 2 bars de pression, contre 9 bars pour une machine expresso. Le résultat est un café corsé et concentré, plus proche d'un café serré que d'un espresso avec crema épaisse. C'est malgré tout la préparation la plus proche de l'espresso sans machine électrique."

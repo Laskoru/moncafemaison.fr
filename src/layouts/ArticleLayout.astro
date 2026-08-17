@@ -8,7 +8,7 @@ import ArticleCard from '../components/ArticleCard.astro';
 import ShareButtons from '../components/ShareButtons.astro';
 import { siteConfig } from '../siteConfig';
 import { categories, type CategorySlug } from '../categories';
-import { isAvailable } from '../lib/availability';
+import { isAvailable, searchUrl } from '../lib/availability';
 
 interface Heading { depth: number; slug: string; text: string }
 interface FaqItem { question: string; answer: string }
@@ -64,6 +64,12 @@ const someProductUnavailable = productsAvailability.some((a) => !a);
 // Convention d'écriture du contenu : la colonne N+1 du tableau correspond au
 // produit N (colonne 0 = « Critère »).
 const comparisonColumnUnavailable = comparison?.columns.map((_, i) => i > 0 && productsAvailability[i - 1] === false);
+
+// Format « guide + recherche + un choix » : après les critères de l'article,
+// on propose une recherche Amazon sur le sujet (toujours valide, ne meurt
+// jamais) avant de présenter LE produit vérifié en fin d'article.
+const searchTopic = keywords[0];
+const midArticleSearchUrl = searchTopic ? searchUrl(searchTopic) : null;
 
 const tocHeadings = headings.filter((h) => h.depth === 2 || h.depth === 3);
 const categoryInfo = categories.find((c) => c.slug === category);
@@ -158,6 +164,22 @@ const breadcrumbItems = [
       <slot />
     </div>
 
+    {midArticleSearchUrl && (
+      <div class="article-search-cta">
+        <p class="article-search-cta__intro">
+          Envie de comparer toi-même les modèles actuellement en vente ?
+        </p>
+        <a
+          class="btn btn--outline article-search-cta__link"
+          href={midArticleSearchUrl}
+          target="_blank"
+          rel="nofollow sponsored noopener"
+        >
+          Voir « {searchTopic} » sur Amazon →
+        </a>
+      </div>
+    )}
+
     {comparison && comparison.rows.length > 0 && (
       <div class="article-comparison">
         <h2>Comparatif en un coup d'œil</h2>
@@ -193,7 +215,7 @@ const breadcrumbItems = [
 
     {hasProducts && (
       <div class="article-recommendations">
-        <h2>Nos recommandations</h2>
+        <h2>{products.length > 1 ? 'Nos recommandations' : 'Notre choix'}</h2>
         {products.map((p, i) => (
           <AmazonProduct asin={p.asin} title={p.title} image={p.image} blurb={p.blurb} search={p.search} fallbackSearch={keywords[0]} featured={i === featuredIndex} />
         ))}
@@ -241,6 +263,21 @@ const breadcrumbItems = [
   }
   .article-body :global(h2) { margin-top: 2.2em; scroll-margin-top: 5rem; }
   .article-body :global(h3) { scroll-margin-top: 5rem; }
+
+  .article-search-cta {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    margin: 2rem 0;
+    padding: 1.1rem 1.4rem;
+    background: var(--color-surface);
+    border: 1px dashed var(--color-border);
+    border-radius: var(--radius-lg);
+  }
+  .article-search-cta__intro { margin: 0; color: var(--color-text-muted); font-size: 0.95rem; }
+  .article-search-cta__link { flex-shrink: 0; white-space: nowrap; }
 
   .article-faq { margin-top: 3rem; }
   .article-faq__item {

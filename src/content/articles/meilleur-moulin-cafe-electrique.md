@@ -12,16 +12,6 @@ products:
   - asin: "B0DC9MFXMD"
     title: "Aigostar — meules coniques, 52 réglages, écran"
     blurb: "Un moulin à meules abordable avec un large choix de finesses et un affichage précis : le bon point d'entrée pour du filtre comme de l'espresso."
-  - asin: "B0CNP2ZQNW"
-    title: "HiBREW G5 — meules coniques 48 mm, 36 réglages"
-    blurb: "Plus compact, pensé pour l'espresso avec une mouture fine et régulière et un système anti-statique qui limite les résidus."
-comparison:
-  columns: ["Critère", "Aigostar", "HiBREW G5"]
-  rows:
-    - ["Type", "Meules coniques", "Meules coniques 48 mm"]
-    - ["Réglages de mouture", "52", "36"]
-    - ["Point fort", "Polyvalence filtre + espresso", "Mouture fine espresso"]
-    - ["Anti-statique", "—", "Oui"]
 faq:
   - question: "Moulin à meules ou à lames : quelle différence ?"
     answer: "Un moulin à lames hache les grains de façon irrégulière : la mouture mélange poussière et gros morceaux, ce qui déséquilibre l'extraction. Un moulin à meules écrase les grains à une finesse réglable et régulière — c'est ce qui fait vraiment la différence en tasse. Pour du bon café, un moulin à meules est fortement recommandé."

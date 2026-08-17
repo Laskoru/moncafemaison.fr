@@ -12,9 +12,6 @@ products:
   - asin: "B0BNL5JCVR"
     title: "BAGAIL — balance à café avec minuterie, précision 0,1 g"
     blurb: "Le combo idéal : pèse au dixième de gramme et chronomètre l'extraction, avec fonction tare, pour un café régulier tous les jours."
-  - asin: "B0CQY78HV6"
-    title: "Maestri House — rechargeable, format espresso"
-    blurb: "Compacte et rechargeable par USB, pensée pour tenir sur le plateau d'une machine espresso sous le porte-filtre."
 faq:
   - question: "Pourquoi peser son café plutôt que doser à la cuillère ?"
     answer: "Parce qu'une cuillère ne mesure pas la même masse selon la mouture et le tassage : d'un café à l'autre, le dosage varie, et le goût avec. Peser (ex. 18 g de café pour 30 g d'espresso) rend chaque tasse reproductible — c'est le geste qui améliore le plus la régularité."

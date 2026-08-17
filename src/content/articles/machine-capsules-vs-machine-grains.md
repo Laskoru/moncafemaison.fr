@@ -11,17 +11,6 @@ products:
   - asin: "B00400OMU0"
     title: "De'Longhi Magnifica S (ECAM22.110.B) — broyeur intégré, 13 réglages"
     blurb: "Le meilleur compromis qualité/goût : elle moud le grain juste avant l'extraction pour un café nettement plus riche qu'une capsule."
-  - asin: "B096H52V44"
-    title: "Nespresso Krups Vertuo Next (YY4296FD) — capsules, technologie Centrifusion"
-    blurb: "L'option zéro effort : un café régulier en une pression, sans réglage ni entretien du broyeur, idéal pour un usage occasionnel."
-comparison:
-  columns: ["Critère", "De'Longhi Magnifica S (grains)", "Nespresso Vertuo Next (capsules)"]
-  rows:
-    - ["Coût à l'usage", "Faible (grain au kilo)", "Élevé (prix à la capsule)"]
-    - ["Temps de préparation", "1 à 2 min (mouture + extraction)", "Quelques secondes"]
-    - ["Entretien", "Régulier (bac à marc, détartrage, broyeur)", "Minime (juste le détartrage)"]
-    - ["Qualité en tasse", "Café frais, arômes préservés", "Bonne, mais capsule stockée depuis des mois"]
-    - ["Impact déchets", "Marc de café compostable", "Capsules à recycler (filière dédiée)"]
 faq:
   - question: "Le café en capsules a-t-il vraiment moins bon goût que le café en grains ?"
     answer: "Dans l'ensemble, oui, même si l'écart s'est réduit avec les capsules haut de gamme. Le café moulu en capsule perd ses arômes volatils dès sa mise en poche, parfois des mois avant l'achat. Un grain moulu juste avant extraction conserve bien plus d'arômes, ce qui donne un café plus riche en bouche."

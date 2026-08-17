@@ -8,8 +8,28 @@ automatique **et** peut être utilisé à la main.
 
 Créer **1 seul nouvel article**, **en brouillon** (`draft: true`), puis commiter
 et pousser sur `main`. Les brouillons ne sont PAS visibles en ligne : un process
-local ajoute les images (couverture + produits) et publie ensuite. Laisse
-toujours 2 produits à ASIN réels pour qu'il puisse finir le travail.
+local ajoute les images (couverture + produit) et publie ensuite. Laisse
+toujours 1 produit à ASIN réel pour qu'il puisse finir le travail.
+
+### Format éditorial : guide → recherche → un seul choix
+
+Chaque article est un **vrai guide d'achat**, pas un duel entre deux fiches
+produit. Il se termine par UN SEUL produit recommandé, pas deux. La page se lit
+dans cet ordre (la recherche et le produit sont ajoutés automatiquement par le
+site, tu n'as rien à écrire pour eux) :
+
+1. Le corps de l'article : ce qui compte, les critères à vérifier avant
+   d'acheter, comment choisir selon son usage. C'est la partie que tu écris.
+2. Un lien « Voir « *mot-clé* » sur Amazon » généré automatiquement à partir de
+   `keywords[0]` — un lien de recherche, jamais mort, pour qui veut comparer
+   lui-même les modèles du moment.
+3. Le bloc « Notre choix » : le produit unique du frontmatter, avec son image,
+   sa note réelle et son prix.
+
+Pourquoi un seul produit et pas deux : un ASIN unique divise par deux le risque
+de rupture de stock, élimine le problème d'écart de prix entre deux produits,
+et le lien de recherche du point 2 fait déjà le travail de comparaison — sans
+jamais devenir obsolète, contrairement à une fiche produit précise.
 
 ### Pourquoi un seul article (et pas plus)
 
@@ -64,7 +84,7 @@ category: "machines"   # UNIQUEMENT : machines | moulins | accessoires
 coverAlt: "Description factuelle de l'image"
 draft: true            # le process local passe à false après avoir ajouté les images
 products:
-  - asin: "B0XXXXXXXX"
+  - asin: "B0XXXXXXXX"        # UN SEUL produit — voir « RÈGLE CRITIQUE » plus bas
     title: "Marque Modèle — 2-3 caractéristiques clés"
     blurb: "Une phrase : pour qui / pourquoi ce produit."
 faq:
@@ -84,51 +104,36 @@ faq:
 - Vocabulaire café à mobiliser selon le sujet : mouture, meules, pression (bars),
   crema, extraction, fraîcheur des grains, entretien/détartrage, pour-over, etc.
 
-## RÈGLE CRITIQUE : les produits Amazon (ASIN)
+## RÈGLE CRITIQUE : le produit Amazon (ASIN)
 
-**Chaque article doit contenir 2 produits avec de vrais ASIN.** Une fois l'ASIN
-présent, l'humain n'a plus qu'à déposer l'image `public/products/<ASIN>.jpg`. Ne
-laisse donc PAS `products: []` — fais la recherche. Mais n'invente JAMAIS un ASIN
-(lien cassé = zéro commission).
+**Chaque article doit contenir UN SEUL produit avec un vrai ASIN.** Une fois
+l'ASIN présent, l'humain n'a plus qu'à déposer l'image
+`public/products/<ASIN>.jpg`. Ne laisse donc PAS `products: []` — fais la
+recherche. Mais n'invente JAMAIS un ASIN (lien cassé = zéro commission).
+N'ajoute JAMAIS un deuxième produit — le format n'en veut qu'un (voir la
+section format éditorial plus haut).
 
 **Méthode quand `amazon.fr` est bloqué (routine cloud) :** WebSearch fait remonter
 des URLs Amazon.
 1. `WebSearch` : `<produit> amazon.fr` (ex. `moulin à café électrique amazon.fr`).
 2. Repère les URLs `amazon.fr/.../dp/XXXXXXXXXX` — les 10 caractères après `/dp/`
    = l'ASIN (commence par `B0`).
-3. Confirme avec `"<ASIN>" amazon` : la page doit bien correspondre au produit.
-4. Choisis 2 produits pertinents et distincts.
+3. Confirme avec `"<ASIN>" amazon` : la page doit bien correspondre au produit,
+   sur le marché **français** (amazon.fr, pas .it/.com/.de — un même produit a
+   un ASIN différent selon le pays).
+4. Choisis le produit le plus représentatif du sujet — celui que tu
+   recommanderais spontanément, pas forcément le moins cher ni le plus cher.
 
 En dernier recours seulement : `products: []` + une ligne
-`# TODO-HUMAIN: ASIN à vérifier sur amazon.fr — <marque modèle 1>, <marque modèle 2>`.
+`# TODO-HUMAIN: ASIN à vérifier sur amazon.fr — <marque modèle envisagé>`.
 
-### Les deux produits doivent être COMPARABLES
-
-Un comparatif n'a de sens que si les deux produits jouent dans la même cour.
-Vise un **écart de prix inférieur à ~50 %** entre les deux : opposer une machine
-à 80 € et une autre à 300 €, ce n'est pas un comparatif, c'est deux catégories
-différentes — et le lecteur ne sait pas quoi en faire.
-
-Le bon axe de différenciation n'est donc pas le prix, mais l'usage : deux
-modèles au tarif voisin qui répondent à des besoins distincts (meules coniques
-contre lames, manuel contre électrique, compact contre grande capacité).
-
-- 2 produits/article ; le premier est « Notre choix ».
-- **Ne remplis pas le champ `image:` des produits** : l'humain dépose
+- **Un seul produit par article** — le bloc « Notre choix » en fin de page.
+- **Ne remplis pas le champ `image:` du produit** : l'humain dépose
   `public/products/<ASIN>.jpg` et l'image apparaît automatiquement.
-
-## Tableau comparatif (optionnel, recommandé)
-
-Ajoute un bloc `comparison` au frontmatter quand tu compares des produits sur des
-critères mesurables :
-
-```yaml
-comparison:
-  columns: ["Critère", "Modèle A", "Modèle B"]
-  rows:
-    - ["Type de mouture", "Meules coniques", "Lames"]
-    - ["Réglages", "40 crans", "aucun"]
-```
+- **N'ajoute pas de bloc `comparison`.** Ce format a été abandonné (il
+  comparait deux SKU précis, ce qui devenait faux dès que l'un des deux
+  changeait de prix ou de stock). Compare des approches en prose dans
+  `## Comment choisir selon ton usage` plutôt que deux produits nommés.
 
 ## Règle images (couverture + produits : tout est géré en local)
 

@@ -12,16 +12,6 @@ products:
   - asin: "B0D8TB8TD1"
     title: "SIMPLETASTE 4-en-1 — pichet chauffant, chaud/froid"
     blurb: "Le plus complet : chauffe et fait mousser en une étape, pour cappuccino, latte ou mousse froide, sans casserole ni surveillance."
-  - asin: "B0F32616FH"
-    title: "GRIFEMA — fouet mousseur portable"
-    blurb: "L'option minimaliste et pas chère : un fouet électrique à main pour faire mousser un lait déjà chaud en quelques secondes."
-comparison:
-  columns: ["Critère", "SIMPLETASTE 4-en-1", "GRIFEMA fouet"]
-  rows:
-    - ["Chauffe le lait", "Oui", "Non"]
-    - ["Mousse chaude et froide", "Oui", "Chaud si lait déjà chaud"]
-    - ["Encombrement", "Un pichet", "Minuscule"]
-    - ["Prix", "Moyen", "Très bas"]
 faq:
   - question: "Un mousseur chauffant ou un simple fouet portable ?"
     answer: "Le pichet chauffant fait tout en une étape (chauffer + mousser) et gère la mousse froide : c'est le plus pratique au quotidien. Le fouet portable est minuscule et bon marché, mais il faut chauffer le lait à part. Choisis selon la place et le budget."

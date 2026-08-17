@@ -12,17 +12,6 @@ products:
   - asin: "B07MMSHC4R"
     title: "Philips série 2200 (EP2220) — broyeur céramique, écran tactile"
     blurb: "Le meilleur point d'entrée dans le café à grains : simple, fiable, broyeur céramique et entretien facile. Idéal pour un premier achat."
-  - asin: "B00I96M2GW"
-    title: "KRUPS Essential Compacte — format gain de place"
-    blurb: "Encore plus compacte, parfaite pour une petite cuisine, avec l'essentiel pour un espresso à grains au quotidien."
-comparison:
-  columns: ["Critère", "Philips 2200", "KRUPS Essential"]
-  rows:
-    - ["Broyeur", "Céramique", "Métal"]
-    - ["Interface", "Écran tactile", "Boutons / LCD"]
-    - ["Mousseur à lait", "Buse vapeur classique", "Buse vapeur"]
-    - ["Encombrement", "Compact", "Très compact"]
-    - ["Idéal pour", "Premier achat polyvalent", "Petite cuisine"]
 faq:
   - question: "Une machine à grains fait-elle vraiment un meilleur café qu'une machine à capsules ?"
     answer: "Sur la qualité en tasse, oui, presque toujours : la machine à grains moud le café juste avant l'extraction, ce qui préserve les arômes que des capsules stockées perdent avec le temps. Elle revient aussi moins cher à l'usage (le grain coûte bien moins que la capsule au kilo), au prix d'un entretien un peu plus régulier."

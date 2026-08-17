@@ -12,17 +12,6 @@ products:
   - asin: "B00W506FIY"
     title: "De'Longhi EC201.CD.B — porte-filtre, café moulu ou dosettes ESE"
     blurb: "La porte d'entrée idéale vers le vrai espresso : tu contrôles la mouture et le tassage, pour un café avec crema à petit prix."
-  - asin: "B00G5YOVZA"
-    title: "Nespresso De'Longhi Inissia — capsules, compacte"
-    blurb: "L'option sans effort : un espresso régulier en une pression, parfait si tu préfères la simplicité à la personnalisation."
-comparison:
-  columns: ["Critère", "De'Longhi EC201", "Nespresso Inissia"]
-  rows:
-    - ["Type", "Porte-filtre manuel", "Capsules"]
-    - ["Contrôle du goût", "Élevé", "Faible"]
-    - ["Coût à la tasse", "Faible (café moulu)", "Élevé (capsules)"]
-    - ["Simplicité", "Demande un tour de main", "Immédiat"]
-    - ["Idéal pour", "Apprendre l'espresso", "Rapidité au quotidien"]
 faq:
   - question: "Faut-il un moulin en plus d'une machine expresso à porte-filtre ?"
     answer: "Idéalement oui : l'espresso est la préparation qui dépend le plus de la finesse et de la fraîcheur de la mouture. Avec du café pré-moulu, le résultat reste correct mais plafonne vite. Un moulin à meules capable de descendre fin est le meilleur complément d'une machine à porte-filtre."
