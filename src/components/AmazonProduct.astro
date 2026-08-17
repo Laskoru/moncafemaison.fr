@@ -1,7 +1,7 @@
 ---
-import { siteConfig } from '../siteConfig';
 import { resolveProductImage } from '../lib/products';
 import { getRating } from '../lib/ratings';
+import { isAvailable, productUrl, searchUrl, queryFromTitle } from '../lib/availability';
 
 interface Props {
   asin: string;
@@ -9,10 +9,25 @@ interface Props {
   image?: string;
   blurb?: string;
   featured?: boolean;
+  /** requête de repli propre au produit, si le produit n'est plus achetable */
+  search?: string;
+  /** repli par défaut : le mot-clé principal de l'article (ce que cherche le lecteur) */
+  fallbackSearch?: string;
 }
 
-const { asin, title, image, blurb, featured = false } = Astro.props;
-const affiliateUrl = `https://www.amazon.fr/dp/${asin}?tag=${siteConfig.amazon.tag}`;
+const { asin, title, image, blurb, featured = false, search, fallbackSearch } = Astro.props;
+
+// Produit achetable -> lien vers la fiche (meilleure conversion).
+// Produit en rupture constatée -> lien vers une recherche Amazon ciblée :
+// le lecteur trouve un équivalent au lieu de tomber sur une impasse, et le
+// lien reste rémunéré (les liens de recherche sont autorisés et commissionnés).
+// Repli, par ordre de pertinence : requête explicite du frontmatter, sinon le
+// mot-clé principal de l'article (« caisson de rangement sous bureau »), sinon
+// la marque+modèle du titre en dernier recours.
+const available = isAvailable(asin);
+const affiliateUrl = available
+  ? productUrl(asin)
+  : searchUrl(search || fallbackSearch || queryFromTitle(title));
 
 // Image produit : champ `image:` du frontmatter, sinon public/products/<ASIN>.<ext>
 // détecté automatiquement (voir public/products/README.md).
@@ -47,8 +62,14 @@ const starPct = rating ? Math.round((rating.rating / 5) * 100) : 0;
       </p>
     )}
     {blurb && <p class="amazon-product__blurb">{blurb}</p>}
+    {!available && (
+      <p class="amazon-product__unavailable">
+        Ce modèle n'est plus en stock chez Amazon. Le lien ci-dessous ouvre une recherche
+        sur des modèles équivalents.
+      </p>
+    )}
     <a class="btn btn--primary amazon-product__cta" href={affiliateUrl} target="_blank" rel="nofollow sponsored noopener">
-      Voir le prix sur Amazon →
+      {available ? 'Voir le prix sur Amazon →' : 'Voir les modèles équivalents →'}
     </a>
   </div>
 </div>
@@ -115,5 +136,15 @@ const starPct = rating ? Math.round((rating.rating / 5) * 100) : 0;
   }
   .stars__on::before { content: '★★★★★'; }
   .amazon-product__blurb { color: var(--color-text-muted); margin: 0 0 0.9rem; font-size: 0.92rem; }
+  .amazon-product__unavailable {
+    margin: 0 0 0.9rem;
+    padding: 0.55rem 0.75rem;
+    font-size: 0.86rem;
+    line-height: 1.5;
+    color: var(--color-text-muted);
+    background: color-mix(in srgb, var(--color-text-muted) 8%, transparent);
+    border-left: 3px solid color-mix(in srgb, var(--color-text-muted) 45%, transparent);
+    border-radius: 0 var(--radius) var(--radius) 0;
+  }
   .amazon-product__cta { font-size: 0.88rem; }
 </style>

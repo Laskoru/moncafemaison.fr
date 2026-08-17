@@ -23,7 +23,7 @@ interface Props {
   coverImage?: string;
   coverAlt?: string;
   category: CategorySlug;
-  products?: { asin: string; title: string; image?: string; blurb?: string }[];
+  products?: { asin: string; title: string; image?: string; blurb?: string; search?: string }[];
   headings?: Heading[];
   readingMinutes?: number;
   faq?: FaqItem[];
@@ -40,6 +40,7 @@ const {
   coverImage,
   coverAlt,
   category,
+  keywords = [],
   products = [],
   headings = [],
   readingMinutes,
@@ -164,7 +165,7 @@ const breadcrumbItems = [
       <div class="article-recommendations">
         <h2>Nos recommandations</h2>
         {products.map((p, i) => (
-          <AmazonProduct asin={p.asin} title={p.title} image={p.image} blurb={p.blurb} featured={i === 0} />
+          <AmazonProduct asin={p.asin} title={p.title} image={p.image} blurb={p.blurb} search={p.search} fallbackSearch={keywords[0]} featured={i === 0} />
         ))}
       </div>
     )}

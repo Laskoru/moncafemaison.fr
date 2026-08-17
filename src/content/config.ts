@@ -28,6 +28,8 @@ const articles = defineCollection({
           // Ce champ ne sert que si tu veux forcer une URL précise.
           image: z.string().optional(),
           blurb: z.string().optional(), // une phrase expliquant pourquoi tu le recommandes
+
+          search: z.string().optional(),
         })
       )
       .default([]),
