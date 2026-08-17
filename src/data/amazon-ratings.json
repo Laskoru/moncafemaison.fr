@@ -1,33 +1,23 @@
 {
   "B0000AN3QI": {
     "rating": 4.5,
-    "count": 24868,
+    "count": 24865,
     "updated": "2026-08-17"
   },
   "B000VJ8H7I": {
     "rating": 4.6,
     "count": 14143,
-    "updated": "2026-08-16"
+    "updated": "2026-08-17"
   },
   "B00400OMU0": {
     "rating": 4.4,
-    "count": 50065,
-    "updated": "2026-08-16"
-  },
-  "B00G5YOVZA": {
-    "rating": 4.4,
-    "count": 51577,
-    "updated": "2026-08-16"
-  },
-  "B00I96M2GW": {
-    "rating": 4.2,
-    "count": 5710,
-    "updated": "2026-08-16"
+    "count": 50058,
+    "updated": "2026-08-17"
   },
   "B00W506FIY": {
     "rating": 4.1,
-    "count": 11921,
-    "updated": "2026-08-16"
+    "count": 11917,
+    "updated": "2026-08-17"
   },
   "B01MXJI90S": {
     "rating": 4.3,
@@ -36,62 +26,27 @@
   },
   "B07MMSHC4R": {
     "rating": 4.2,
-    "count": 25697,
-    "updated": "2026-08-16"
-  },
-  "B08BPBBK8B": {
-    "rating": 4.5,
-    "count": 19031,
-    "updated": "2026-08-16"
-  },
-  "B096H52V44": {
-    "rating": 4.1,
-    "count": 1236,
-    "updated": "2026-08-16"
-  },
-  "B0BJDSDN6P": {
-    "rating": 3.9,
-    "count": 523,
-    "updated": "2026-08-16"
+    "count": 30386,
+    "updated": "2026-08-17"
   },
   "B0BNL5JCVR": {
     "rating": 4.5,
     "count": 3152,
-    "updated": "2026-08-16"
-  },
-  "B0C4F9W2QK": {
-    "rating": 4.7,
-    "count": 646,
-    "updated": "2026-08-16"
-  },
-  "B0CNP2ZQNW": {
-    "rating": 4.4,
-    "count": 70,
-    "updated": "2026-08-16"
-  },
-  "B0CQY78HV6": {
-    "rating": 4.4,
-    "count": 4181,
-    "updated": "2026-08-16"
+    "updated": "2026-08-17"
   },
   "B0D8TB8TD1": {
     "rating": 4.2,
     "count": 13172,
-    "updated": "2026-08-16"
+    "updated": "2026-08-17"
   },
   "B0DC9MFXMD": {
     "rating": 4.5,
-    "count": 132,
-    "updated": "2026-08-16"
-  },
-  "B0F32616FH": {
-    "rating": 4.5,
-    "count": 816,
-    "updated": "2026-08-16"
+    "count": 133,
+    "updated": "2026-08-17"
   },
   "B0FJGF5M8H": {
     "rating": 3.9,
-    "count": 97,
-    "updated": "2026-08-16"
+    "count": 98,
+    "updated": "2026-08-17"
   }
 }
