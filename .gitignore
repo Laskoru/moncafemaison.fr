@@ -6,3 +6,11 @@ dist/
 
 # Config locale de l'outil (preview, etc.) — ne pas versionner
 .claude/
+
+# Exports de contenu réseaux sociaux : usage local (CSV à importer sur
+# Pinterest, briefs TikTok) — pas du contenu du site, pas besoin de versionner.
+# Les images d'épingles dans public/pins/ RESTENT versionnées : elles doivent
+# être servies en ligne pour que Pinterest puisse les récupérer.
+pinterest-export/
+tiktok-export/
+outreach/

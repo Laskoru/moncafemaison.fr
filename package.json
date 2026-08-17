@@ -6,11 +6,18 @@
     "dev": "astro dev",
     "build": "astro build",
     "preview": "astro preview",
-    "astro": "astro"
+    "astro": "astro",
+    "pins": "node scripts/generate-pins.mjs",
+    "tiktok-briefs": "node scripts/generate-tiktok-briefs.mjs",
+    "pinterest-profile": "node scripts/generate-pinterest-profile.mjs"
   },
   "dependencies": {
     "@astrojs/rss": "^4.0.19",
     "@astrojs/sitemap": "3.2.1",
     "astro": "^4.15.0"
+  },
+  "devDependencies": {
+    "gray-matter": "^4.0.3",
+    "sharp": "^0.35.3"
   }
 }
