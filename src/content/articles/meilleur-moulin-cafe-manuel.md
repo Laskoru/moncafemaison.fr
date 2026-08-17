@@ -6,21 +6,11 @@ author: "Rédaction"
 keywords: ["moulin à café manuel", "meilleur moulin manuel", "moulin manuel voyage"]
 category: "moulins"
 coverAlt: "Moulin à café manuel posé avec des grains de café"
-draft: true
+draft: false
 products:
-  - asin: "B0B3ML36DZ"
-    title: "TIMEMORE Chestnut C3 ESP Pro — meules coniques en acier, réglage interne"
-    blurb: "La référence chez les amateurs : meules en acier précises et régulières, du filtre à l'espresso, avec une poignée pliable pratique à ranger."
-  - asin: "B0CP6BYRRX"
-    title: "Capy Brew — moulin manuel à meules céramiques, compact et silencieux"
-    blurb: "Une option plus légère et abordable pour débuter ou emporter en voyage, avec 8 réglages de mouture et une manivelle pliable."
-comparison:
-  columns: ["Critère", "TIMEMORE Chestnut C3 ESP Pro", "Capy Brew"]
-  rows:
-    - ["Type de meules", "Acier conique (S2C)", "Céramique conique"]
-    - ["Réglage", "Interne, cranté et précis", "Externe, 8 positions"]
-    - ["Usages couverts", "Espresso à French press", "Filtre, moka, French press, AeroPress"]
-    - ["Encombrement", "Compact, poignée pliable", "Très compact, poignée pliable"]
+  - asin: "B01MXJI90S"
+    title: "Hario Skerton PRO — meules coniques en céramique, réglage stabilisé"
+    blurb: "Un classique increvable du moulin manuel : les meules céramiques ne chauffent pas, le réglage de la version PRO tient bien mieux en place que sur le modèle d'origine, et le bocal en verre encaisse les années sans broncher."
 faq:
   - question: "Un moulin manuel peut-il vraiment remplacer un moulin électrique ?"
     answer: "Pour un usage quotidien d'une à deux tasses, oui sans problème : les meilleurs modèles manuels à meules coniques offrent une régularité de mouture comparable à des moulins électriques d'entrée et de milieu de gamme. La limite apparaît surtout si tu dois moudre pour plusieurs personnes d'un coup : l'effort et le temps augmentent vite avec la quantité."
