@@ -47,7 +47,7 @@ export const siteConfig = {
   // Code de revendication du site sur Pinterest (Paramètres → Revendiquer →
   // Revendiquer un site web → "Ajouter une balise HTML"). Colle ici la valeur
   // du content de la balise <meta name="p:domain_verify" content="...">.
-  pinterestVerification: '',
+  pinterestVerification: 'b3f3e01eaed2d288456f025adfbcf8b8',
 };
 
 export type SiteConfig = typeof siteConfig;
