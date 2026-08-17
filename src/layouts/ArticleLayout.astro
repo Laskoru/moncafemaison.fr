@@ -8,6 +8,7 @@ import ArticleCard from '../components/ArticleCard.astro';
 import ShareButtons from '../components/ShareButtons.astro';
 import { siteConfig } from '../siteConfig';
 import { categories, type CategorySlug } from '../categories';
+import { isAvailable } from '../lib/availability';
 
 interface Heading { depth: number; slug: string; text: string }
 interface FaqItem { question: string; answer: string }
@@ -48,6 +49,22 @@ const {
   comparison,
 } = Astro.props;
 const hasProducts = siteConfig.amazon.enabled && products.length > 0;
+
+// Un produit en rupture bascule vers une recherche (voir AmazonProduct), mais
+// deux effets de bord restent à corriger explicitement :
+//  1. le badge « Notre choix » ne doit jamais tomber sur un produit qu'on ne
+//     peut plus acheter — il suit le premier produit RÉELLEMENT disponible ;
+//  2. le tableau comparatif compare des caractéristiques qui restent vraies
+//     même si un modèle n'est plus en vente, mais il faut le dire : chaque
+//     colonne dont le produit associé est épuisé est marquée, avec une note
+//     sous le tableau plutôt qu'un silence trompeur.
+const productsAvailability = products.map((p) => isAvailable(p.asin));
+const featuredIndex = productsAvailability.findIndex(Boolean);
+const someProductUnavailable = productsAvailability.some((a) => !a);
+// Convention d'écriture du contenu : la colonne N+1 du tableau correspond au
+// produit N (colonne 0 = « Critère »).
+const comparisonColumnUnavailable = comparison?.columns.map((_, i) => i > 0 && productsAvailability[i - 1] === false);
+
 const tocHeadings = headings.filter((h) => h.depth === 2 || h.depth === 3);
 const categoryInfo = categories.find((c) => c.slug === category);
 
@@ -147,7 +164,14 @@ const breadcrumbItems = [
         <div class="compare-table-wrap">
           <table class="compare-table">
             <thead>
-              <tr>{comparison.columns.map((col) => <th>{col}</th>)}</tr>
+              <tr>
+                {comparison.columns.map((col, i) => (
+                  <th>
+                    {col}
+                    {comparisonColumnUnavailable?.[i] && <span class="compare-table__tag">épuisé</span>}
+                  </th>
+                ))}
+              </tr>
             </thead>
             <tbody>
               {comparison.rows.map((row) => (
@@ -156,6 +180,12 @@ const breadcrumbItems = [
             </tbody>
           </table>
         </div>
+        {someProductUnavailable && (
+          <p class="compare-table__note">
+            <strong>épuisé</strong> : ce modèle n'est plus en vente chez Amazon. Les caractéristiques
+            restent indicatives ; le bouton sous le produit propose des équivalents disponibles.
+          </p>
+        )}
       </div>
     )}
 
@@ -165,7 +195,7 @@ const breadcrumbItems = [
       <div class="article-recommendations">
         <h2>Nos recommandations</h2>
         {products.map((p, i) => (
-          <AmazonProduct asin={p.asin} title={p.title} image={p.image} blurb={p.blurb} search={p.search} fallbackSearch={keywords[0]} featured={i === 0} />
+          <AmazonProduct asin={p.asin} title={p.title} image={p.image} blurb={p.blurb} search={p.search} fallbackSearch={keywords[0]} featured={i === featuredIndex} />
         ))}
       </div>
     )}
