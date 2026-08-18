@@ -5,7 +5,7 @@ pubDate: 2026-08-18
 author: "Rédaction"
 keywords: ["v60 café", "pour-over café", "kit v60 débutant"]
 category: "machines"
-coverAlt: "Cône V60 en verre avec filtre posé sur une carafe, café en train de couler"
+coverAlt: "Un homme verse de l'eau chaude depuis une bouilloire à col de cygne dans un V60 posé sur une carafe en verre, dans une cuisine"
 # COVER: pour over v60 coffee dripper glass carafe
 draft: true
 products:

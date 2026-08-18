@@ -7,7 +7,7 @@ keywords: ["aeropress", "test aeropress", "alternative aeropress", "aeropress av
 category: "machines"
 # coverImage : NE PAS mettre d'URL. La couverture est téléchargée localement
 # (public/covers/<slug>.jpg) exactement comme les images produits.
-coverAlt: "AeroPress posée sur un plan de travail à côté d'une tasse de café et de grains moulus"
+coverAlt: "Une main appuie sur le piston d'une AeroPress, le café coule dans une carafe en verre posée en dessous"
 # COVER: aeropress coffee maker brewing
 draft: true
 products:
