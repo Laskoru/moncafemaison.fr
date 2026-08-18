@@ -6,7 +6,7 @@ author: "Rédaction"
 keywords: ["chemex", "cafetière chemex", "chemex avis", "café filtre design"]
 category: "machines"
 coverAlt: "Cafetière Chemex en verre avec col en bois posée sur un plan de travail, filtre papier visible sur le dessus"
-draft: true
+draft: false
 products:
   - asin: "B0000YWF5E"
     title: "Chemex — Cafetière filtre 6 tasses, verre borosilicate et col bois"
