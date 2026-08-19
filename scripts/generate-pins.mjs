@@ -115,16 +115,10 @@ async function main() {
   let done = 0;
   let skipped = 0;
 
-  // Étale les épingles à 3/jour à partir de demain 9h (heure de Paris) —
-  // Pinterest favorise un rythme régulier plutôt qu'un paquet publié d'un coup.
-  const PINS_PER_DAY = 3;
-  const PUBLISH_HOUR_UTC = 8; // ~9-10h à Paris selon l'heure d'été/hiver
-  function publishDateFor(index) {
-    const dayOffset = Math.floor(index / PINS_PER_DAY) + 1;
-    const date = new Date();
-    date.setUTCDate(date.getUTCDate() + dayOffset);
-    date.setUTCHours(PUBLISH_HOUR_UTC, 0, 0, 0);
-    return date.toISOString().replace(/\.\d{3}Z$/, '');
+  // Publication immédiate à l'import (pas d'étalement) : préférence explicite
+  // de l'utilisateur pour ce site, plutôt que le rythme différé habituel.
+  function publishDateFor() {
+    return '';
   }
 
   for (const file of files) {
