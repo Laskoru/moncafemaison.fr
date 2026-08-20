@@ -5,9 +5,8 @@ pubDate: 2026-08-20
 author: "Rédaction"
 keywords: ["machine expresso avec broyeur intégré", "expresso broyeur intégré", "machine à café broyeur porte-filtre", "machine expresso avec broyeur intégré 2026"]
 category: "machines"
-coverAlt: "Machine expresso avec broyeur à grains intégré et porte-filtre, sur un plan de travail"
-# COVER: espresso machine with built-in grinder portafilter
-draft: true
+coverAlt: "Gros plan d'un espresso qui coule d'un porte-filtre en inox, avec une belle crema"
+draft: false
 products:
   - asin: "B07B2X1VXZ"
     title: "Sage SES875 Barista Express — broyeur conique intégré, porte-filtre 54 mm"
