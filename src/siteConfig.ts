@@ -35,6 +35,9 @@ export const siteConfig = {
   social: {
     twitter: '',
     instagram: '',
+    // URL complète du profil Pinterest (ex : 'https://www.pinterest.fr/moncafemaison/').
+    // Renseignée ici, elle alimente le champ sameAs du schéma Organization.
+    pinterest: '',
   },
 
   // Auteur par défaut affiché sur les articles
