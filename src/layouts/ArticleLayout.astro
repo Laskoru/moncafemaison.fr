@@ -88,6 +88,9 @@ const dateFormatter = new Intl.DateTimeFormat(siteConfig.locale.replace('_', '-'
 
 const siteUrl = Astro.site?.origin ?? Astro.url.origin;
 const shareUrl = new URL(Astro.url.pathname, siteUrl).toString();
+// og:image et l'image du schéma DOIVENT être des URLs absolues (réseaux sociaux
+// et Google ignorent les chemins relatifs).
+const coverImageAbs = coverImage ? new URL(coverImage, siteUrl).toString() : undefined;
 const articleSchema = {
   '@context': 'https://schema.org',
   '@type': 'Article',
@@ -97,7 +100,7 @@ const articleSchema = {
   dateModified: (updatedDate ?? pubDate).toISOString(),
   author: { '@type': 'Organization', name: author ?? siteConfig.author },
   publisher: { '@type': 'Organization', name: siteConfig.name },
-  ...(coverImage ? { image: coverImage } : {}),
+  ...(coverImageAbs ? { image: coverImageAbs } : {}),
   mainEntityOfPage: new URL(Astro.url.pathname, siteUrl).toString(),
 };
 
@@ -118,9 +121,23 @@ const breadcrumbItems = [
   ...(categoryInfo ? [{ label: categoryInfo.label, href: `/categorie/${categoryInfo.slug}` }] : []),
   { label: title },
 ];
+
+// Données structurées du fil d'Ariane (rich result « fil d'Ariane » dans Google).
+const breadcrumbSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'BreadcrumbList',
+  itemListElement: breadcrumbItems.map((item, i) => ({
+    '@type': 'ListItem',
+    position: i + 1,
+    name: item.label,
+    ...(item.href ? { item: new URL(item.href, siteUrl).toString() } : {}),
+  })),
+};
+
+const jsonLdArticle = [articleSchema, breadcrumbSchema, ...(faqSchema ? [faqSchema] : [])];
 ---
 
-<BaseLayout title={title} description={description} ogImage={coverImage} ogType="article" jsonLd={faqSchema ? [articleSchema, faqSchema] : articleSchema}>
+<BaseLayout title={title} description={description} ogImage={coverImageAbs} ogType="article" jsonLd={jsonLdArticle}>
   <article class="container">
     <Breadcrumbs items={breadcrumbItems} />
 
