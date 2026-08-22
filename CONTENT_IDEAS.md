@@ -16,7 +16,7 @@ Format : `- [ ] Sujet — angle — catégorie`.
 - [x] V60 / pour-over : le kit pour débuter — le café filtre aromatique — machines
 - [x] Chemex : pour qui, comment choisir — le filtre design et propre — machines
 - [x] Machine expresso avec broyeur intégré — grains + espresso en un appareil — machines
-- [ ] Meilleure machine à café automatique avec broyeur — le haut de gamme maison — machines
+- [x] Meilleure machine à café automatique avec broyeur — le haut de gamme maison — machines
 - [ ] Cafetière à dosettes souples (ESE) — alternative aux capsules — machines
 
 ## Moulins à café
