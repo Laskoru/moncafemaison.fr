@@ -5,13 +5,12 @@ pubDate: 2026-08-22
 author: "Rédaction"
 keywords: ["machine à café automatique haut de gamme", "meilleure machine automatique avec broyeur", "cafetière automatique haut de gamme", "machine à café automatique haut de gamme 2026"]
 category: "machines"
-coverAlt: "Machine à café automatique haut de gamme avec broyeur intégré et écran tactile, posée sur un plan de travail de cuisine"
-# COVER: high end automatic espresso machine kitchen countertop
-draft: true
+coverAlt: "Machine à expresso au design rétro posée sur un plan de travail dans une cuisine lumineuse en marbre, avec une tasse au premier plan"
+draft: false
 products:
-  - asin: "B08TGCTT6C"
-    title: "De'Longhi Dinamica Plus — broyeur intégré, carafe à lait automatique, appli connectée"
-    blurb: "Le haut de gamme accessible : broyeur réglable sur de nombreux crans, mousse de lait automatique et profils personnalisés, pour un café façon barista sans geste à apprendre."
+  - asin: "B08CBJ8W9W"
+    title: "Philips série 5400 LatteGo — broyeur céramique, carafe à lait LatteGo, 12 boissons"
+    blurb: "Le haut de gamme accessible : broyeur céramique réglable, carafe LatteGo qui fait la mousse de lait automatiquement et 4 profils personnalisés, pour un café façon barista sans geste à apprendre."
 faq:
   - question: "Une machine automatique haut de gamme vaut-elle vraiment le prix par rapport à un modèle d'entrée de gamme ?"
     answer: "Oui si tu bois plusieurs cafés variés par jour et que tu veux zéro geste : la différence se joue sur la régularité du broyeur, la gestion automatique du lait et la capacité à mémoriser plusieurs profils. Si tu bois surtout un espresso simple le matin, un modèle d'entrée de gamme suffit largement et coûte bien moins cher."

@@ -5,12 +5,11 @@ pubDate: 2026-08-23
 author: "Rédaction"
 keywords: ["cafetière dosette souple", "dosette ese", "meilleure cafetière dosette souple 2026", "cafetière dosette pas cher"]
 category: "machines"
-coverAlt: "Dosette de café souple posée à côté d'une tasse blanche sur un plan de travail"
-# COVER: coffee pod soft pad brewing
-draft: true
+coverAlt: "Double filet d'expresso s'écoulant dans un verre gradué sous la buse d'une machine à café, avec la crema qui se forme en surface"
+draft: false
 products:
-  - asin: "B08WY6VB4W"
-    title: "Philips Senseo Original Plus CSA210/91 — booster d'arôme, 1 ou 2 tasses"
+  - asin: "B0DK5W4T4G"
+    title: "Philips Senseo Original Plus CSA210/35 — booster d'arôme, 1 ou 2 tasses"
     blurb: "La référence de la dosette souple : simple, rapide, et compatible avec toutes les dosettes Senseo du commerce."
 faq:
   - question: "Dosette souple et dosette ESE, c'est la même chose ?"
