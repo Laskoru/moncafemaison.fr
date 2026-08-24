@@ -18,7 +18,7 @@ const latest = (await getCollection('articles', ({ data }) => !data.draft))
 
     <div class="not-found__categories">
       {categories.map((cat) => (
-        <a class="not-found__cat" href={`/categorie/${cat.slug}`}>
+        <a class="not-found__cat" href={`/categorie/${cat.slug}/`}>
           <span>{cat.icon}</span> {cat.label}
         </a>
       ))}
@@ -29,7 +29,7 @@ const latest = (await getCollection('articles', ({ data }) => !data.draft))
         <h2>Derniers articles</h2>
         <ul class="not-found__list">
           {latest.map((article) => (
-            <li><a href={`/articles/${article.slug}`}>{article.data.title}</a></li>
+            <li><a href={`/articles/${article.slug}/`}>{article.data.title}</a></li>
           ))}
         </ul>
       </>

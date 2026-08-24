@@ -22,14 +22,14 @@ const year = new Date().getFullYear();
     <nav class="site-footer__col" aria-label="Catégories">
       <p class="site-footer__heading">Catégories</p>
       {categories.map((cat) => (
-        <a href={`/categorie/${cat.slug}`}>{cat.label}</a>
+        <a href={`/categorie/${cat.slug}/`}>{cat.label}</a>
       ))}
     </nav>
 
     <nav class="site-footer__col" aria-label="Guides">
       <p class="site-footer__heading">Guides</p>
       {guides.map((g) => (
-        <a href={`/guides/${g.slug}`}>{g.title}</a>
+        <a href={`/guides/${g.slug}/`}>{g.title}</a>
       ))}
     </nav>
 
@@ -37,7 +37,7 @@ const year = new Date().getFullYear();
       <p class="site-footer__heading">Le site</p>
       <a href="/a-propos">À propos</a>
       <a href="/contact">Contact</a>
-      <a href="/articles">Tous les articles</a>
+      <a href="/articles/">Tous les articles</a>
       <a href="/rss.xml">Flux RSS</a>
     </nav>
   </div>

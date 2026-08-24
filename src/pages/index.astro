@@ -28,9 +28,9 @@ const stats = [
       <p class="hero__lede">{siteConfig.description}</p>
       <div class="hero__actions">
         {latest.length > 0 && (
-          <a class="btn btn--primary" href={`/articles/${latest[0].slug}`}>Lire le dernier comparatif →</a>
+          <a class="btn btn--primary" href={`/articles/${latest[0].slug}/`}>Lire le dernier comparatif →</a>
         )}
-        <a class="btn btn--glass" href="/articles">Voir tous les articles</a>
+        <a class="btn btn--glass" href="/articles/">Voir tous les articles</a>
       </div>
 
       <div class="hero__stats">
@@ -51,7 +51,7 @@ const stats = [
       <p class="section__lede">Nos comparatifs sont classés par ce que tu es en train d'équiper.</p>
       <div class="categories__grid">
         {categoryCounts.map((cat) => (
-          <a class="categories__item card card--hover" href={`/categorie/${cat.slug}`}>
+          <a class="categories__item card card--hover" href={`/categorie/${cat.slug}/`}>
             <span class="categories__icon">{cat.icon}</span>
             <span class="categories__label">{cat.label}</span>
             <span class="categories__desc">{cat.description}</span>
@@ -69,7 +69,7 @@ const stats = [
           <p class="section__eyebrow">Derniers articles</p>
           <h2 class="section__title">Les comparatifs récents</h2>
         </div>
-        <a class="section__link" href="/articles">Voir tout →</a>
+        <a class="section__link" href="/articles/">Voir tout →</a>
       </div>
       <div class="article-list">
         {latest.length === 0 && <p>Aucun article publié pour le moment.</p>}

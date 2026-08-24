@@ -24,7 +24,7 @@ faq:
 
 Entre les machines à grains sophistiquées et les capsules propriétaires qui enferment chaque marque dans son propre système, la cafetière à dosette occupe une place à part : celle de la simplicité sans contrainte. Une dosette souple ou ESE se glisse dans le porte-filtre, l'eau chauffe, le café coule — sans calibrer une mouture, sans acheter de capsules compatibles uniquement avec une seule marque.
 
-C'est aussi l'un des formats les plus accessibles à l'achat, aussi bien pour la machine que pour la dosette elle-même, ce qui explique sa popularité constante dans les cuisines familiales depuis plus de vingt ans. Le format a d'ailleurs précédé les machines à capsules modernes : difficile de comparer un système à l'autre sans comprendre ce que chacun sacrifie et gagne, un sujet qu'on détaille dans notre comparatif [machine à capsules contre machine à grains](/articles/machine-capsules-vs-machine-grains).
+C'est aussi l'un des formats les plus accessibles à l'achat, aussi bien pour la machine que pour la dosette elle-même, ce qui explique sa popularité constante dans les cuisines familiales depuis plus de vingt ans. Le format a d'ailleurs précédé les machines à capsules modernes : difficile de comparer un système à l'autre sans comprendre ce que chacun sacrifie et gagne, un sujet qu'on détaille dans notre comparatif [machine à capsules contre machine à grains](/articles/machine-capsules-vs-machine-grains/).
 
 ## Dosette souple ou dosette ESE : la vraie différence
 
@@ -38,7 +38,7 @@ Retiens l'essentiel : une dosette souple ne fonctionnera pas dans une machine co
 
 ## Les critères qui comptent vraiment
 
-- **Le format supporté** : vérifie avant tout si la machine accepte les dosettes souples, les dosettes ESE, ou parfois les deux (certains modèles à porte-filtre acceptent aussi le café moulu en vrac en plus de l'ESE, comme les machines détaillées dans notre guide de la [meilleure machine expresso pour débuter](/articles/meilleure-machine-expresso)).
+- **Le format supporté** : vérifie avant tout si la machine accepte les dosettes souples, les dosettes ESE, ou parfois les deux (certains modèles à porte-filtre acceptent aussi le café moulu en vrac en plus de l'ESE, comme les machines détaillées dans notre guide de la [meilleure machine expresso pour débuter](/articles/meilleure-machine-expresso/)).
 - **La pression, pour l'ESE uniquement** : une pression annoncée autour de 15 bars est nécessaire pour extraire correctement une dosette ESE et obtenir une crema ; ce critère n'a pas d'importance pour la dosette souple, qui n'a pas besoin de pression pour infuser.
 - **Le nombre de tasses simultanées** : plusieurs machines à dosette souple permettent de préparer une ou deux tasses en un seul cycle, un vrai gain de temps pour un couple ou une famille qui boit son café au même moment.
 - **Le réservoir d'eau et le temps de chauffe** : un réservoir amovible facilite le remplissage, et un temps de chauffe court (moins d'une minute) compte pour un usage quotidien pressé le matin.
@@ -53,7 +53,7 @@ Si tu préfères **un café court et corsé, avec une vraie crema**, oriente-toi
 
 Pour un foyer qui reçoit souvent ou où plusieurs personnes boivent du café au même moment, privilégie une machine capable de préparer deux tasses en un seul cycle : le gain de temps se fait sentir dès la première semaine d'utilisation.
 
-Enfin, si le goût prime avant tout sur la commodité et que tu es prêt à investir un peu de temps dans l'entretien, garde en tête que ni la dosette souple ni la dosette ESE n'égalent la fraîcheur d'un grain moulu à la minute — un compromis à assumer en connaissance de cause, qu'on détaille aussi dans notre comparatif entre [cafetière filtre programmable](/articles/meilleure-cafetiere-filtre-programmable) et les autres systèmes de préparation.
+Enfin, si le goût prime avant tout sur la commodité et que tu es prêt à investir un peu de temps dans l'entretien, garde en tête que ni la dosette souple ni la dosette ESE n'égalent la fraîcheur d'un grain moulu à la minute — un compromis à assumer en connaissance de cause, qu'on détaille aussi dans notre comparatif entre [cafetière filtre programmable](/articles/meilleure-cafetiere-filtre-programmable/) et les autres systèmes de préparation.
 
 ## Les idées reçues à écarter
 

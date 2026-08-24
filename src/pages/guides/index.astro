@@ -28,7 +28,7 @@ const guideCounts = guides.map((g) => ({
       {guideCounts.map((guide) => (
         <article class="guides-index__card card card--hover">
           <span class="guides-index__icon">{guide.icon}</span>
-          <h2><a class="stretched-link" href={`/guides/${guide.slug}`}>{guide.title}</a></h2>
+          <h2><a class="stretched-link" href={`/guides/${guide.slug}/`}>{guide.title}</a></h2>
           <p class="guides-index__desc">{guide.description}</p>
           <p class="guides-index__count">{guide.count} article{guide.count > 1 ? 's' : ''}</p>
         </article>

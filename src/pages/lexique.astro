@@ -72,7 +72,7 @@ const description = `Lexique du café maison : mouture, crema, bars, blooming, c
                     {entry.related
                       .filter((s) => titleBySlug.has(s))
                       .map((slug) => (
-                        <a href={`/articles/${slug}`}>{titleBySlug.get(slug)}</a>
+                        <a href={`/articles/${slug}/`}>{titleBySlug.get(slug)}</a>
                       ))}
                   </p>
                 )}

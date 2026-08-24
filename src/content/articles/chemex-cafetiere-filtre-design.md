@@ -30,9 +30,9 @@ C'est aussi l'un des rares objets de cuisine à avoir intégré la collection pe
 
 ## Chemex ou V60 : lequel choisir
 
-Les deux méthodes appartiennent à la même famille (le café filtre manuel, ou pour-over), mais avec des résultats sensiblement différents. Le [V60](/articles/v60-pour-over-kit-debutant) offre un contrôle plus fin sur l'extraction grâce à son filtre plus fin et ses cannelures en spirale, ce qui convient bien à qui aime ajuster précisément chaque paramètre. La Chemex, avec son filtre épais, produit un résultat plus constant d'un café à l'autre et pardonne davantage les petites imprécisions de versement — un choix plus adapté à qui veut un bon café régulier sans passer par une phase d'apprentissage technique poussée.
+Les deux méthodes appartiennent à la même famille (le café filtre manuel, ou pour-over), mais avec des résultats sensiblement différents. Le [V60](/articles/v60-pour-over-kit-debutant/) offre un contrôle plus fin sur l'extraction grâce à son filtre plus fin et ses cannelures en spirale, ce qui convient bien à qui aime ajuster précisément chaque paramètre. La Chemex, avec son filtre épais, produit un résultat plus constant d'un café à l'autre et pardonne davantage les petites imprécisions de versement — un choix plus adapté à qui veut un bon café régulier sans passer par une phase d'apprentissage technique poussée.
 
-Pour affiner encore le dosage, une [balance de précision](/articles/balance-cafe-precision) reste le complément le plus utile, quelle que soit la méthode choisie entre les deux.
+Pour affiner encore le dosage, une [balance de précision](/articles/balance-cafe-precision/) reste le complément le plus utile, quelle que soit la méthode choisie entre les deux.
 
 ## Le geste de préparation en résumé
 

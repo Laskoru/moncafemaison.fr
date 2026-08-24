@@ -118,7 +118,7 @@ const faqSchema = faq.length > 0
 
 const breadcrumbItems = [
   { label: 'Accueil', href: '/' },
-  ...(categoryInfo ? [{ label: categoryInfo.label, href: `/categorie/${categoryInfo.slug}` }] : []),
+  ...(categoryInfo ? [{ label: categoryInfo.label, href: `/categorie/${categoryInfo.slug}/` }] : []),
   { label: title },
 ];
 

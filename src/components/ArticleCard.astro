@@ -21,7 +21,7 @@ const readingMinutes = Math.max(1, Math.round(article.body.trim().split(/\s+/).l
 <article class="article-card card card--hover">
   <div class="article-card__body">
     <p class="eyebrow">{dateFormatter.format(article.data.pubDate)} · {readingMinutes} min de lecture</p>
-    <h3><a class="stretched-link" href={`/articles/${article.slug}`}>{article.data.title}</a></h3>
+    <h3><a class="stretched-link" href={`/articles/${article.slug}/`}>{article.data.title}</a></h3>
     <p class="article-card__desc">{article.data.description}</p>
   </div>
   {thumbs.length > 0 && (
