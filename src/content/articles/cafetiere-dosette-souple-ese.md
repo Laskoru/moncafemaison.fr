@@ -3,6 +3,8 @@ title: "Cafetière à dosettes souples (ESE) en 2026 : laquelle choisir ?"
 description: "Dosette souple ou dosette ESE : quelle différence, et quelle cafetière choisir pour un café simple, économique et sans prise de tête."
 pubDate: 2026-08-23
 author: "Rédaction"
+pinHook: "Un café simple, *sans prise de tête*"
+pinSub: "La dosette souple, bien choisie."
 keywords: ["cafetière dosette souple", "dosette ese", "meilleure cafetière dosette souple 2026", "cafetière dosette pas cher"]
 category: "machines"
 coverAlt: "Double filet d'expresso s'écoulant dans un verre gradué sous la buse d'une machine à café, avec la crema qui se forme en surface"

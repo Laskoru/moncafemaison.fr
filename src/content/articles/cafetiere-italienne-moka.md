@@ -3,6 +3,8 @@ title: "Cafetière italienne (moka) : laquelle choisir en 2026 ?"
 description: "3, 6 ou 9 tasses, induction ou non : notre guide pour choisir la bonne cafetière italienne (moka) et réussir son café maison."
 pubDate: 2026-08-16
 author: "Rédaction"
+pinHook: "Le café *sur le feu*, réussi à tous les coups"
+pinSub: "La moka, comme en Italie."
 keywords: ["cafetière italienne", "cafetière moka", "meilleure cafetière moka"]
 category: "machines"
 coverAlt: "Cafetière italienne (moka) et tasse de café dans une lumière chaude"

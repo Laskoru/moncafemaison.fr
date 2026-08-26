@@ -3,6 +3,8 @@ title: "Meilleure machine à café automatique haut de gamme en 2026"
 description: "Broyeur, carafe à lait automatique, appli connectée : comment choisir une machine à café automatique haut de gamme sans se tromper."
 pubDate: 2026-08-22
 author: "Rédaction"
+pinHook: "Le café de spécialité, *sans rien régler*"
+pinSub: "L'automatique haut de gamme décrypté."
 keywords: ["machine à café automatique haut de gamme", "meilleure machine automatique avec broyeur", "cafetière automatique haut de gamme", "machine à café automatique haut de gamme 2026"]
 category: "machines"
 coverAlt: "Machine à expresso au design rétro posée sur un plan de travail dans une cuisine lumineuse en marbre, avec une tasse au premier plan"

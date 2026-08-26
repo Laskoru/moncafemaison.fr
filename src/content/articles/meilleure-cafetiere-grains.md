@@ -3,6 +3,8 @@ title: "Meilleure machine à café à grains en 2026 : notre comparatif"
 description: "Quelle machine à café à grains choisir pour un bon café maison sans se ruiner ? Nos critères et notre sélection de modèles fiables."
 pubDate: 2026-08-16
 author: "Rédaction"
+pinHook: "Du grain à la tasse, *sans effort*"
+pinSub: "La machine à grains, comparée."
 keywords: ["machine à café à grains", "meilleure machine à grains", "cafetière à grains avec broyeur", "meilleure machine à café à grains 2026"]
 category: "machines"
 coverImage: "https://images.unsplash.com/photo-1620807773206-49c1f2957417?q=80&w=1600&auto=format&fit=crop"

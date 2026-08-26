@@ -3,6 +3,8 @@ title: "Meilleur moulin à café électrique en 2026 : le comparatif"
 description: "Quel moulin à café électrique choisir pour une mouture fraîche et régulière ? Meules vs lames, nos critères et notre sélection."
 pubDate: 2026-08-16
 author: "Rédaction"
+pinHook: "La mouture fraîche, *en un bouton*"
+pinSub: "Le moulin électrique qui change tout."
 keywords: ["moulin à café électrique", "meilleur moulin à café", "moulin à café à meules", "meilleur moulin à café électrique 2026"]
 category: "moulins"
 coverImage: "https://images.unsplash.com/photo-1573628684835-ca186702bbde?q=80&w=1600&auto=format&fit=crop"

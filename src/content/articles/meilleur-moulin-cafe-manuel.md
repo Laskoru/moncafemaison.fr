@@ -3,6 +3,8 @@ title: "Meilleur moulin à café manuel : lequel choisir en 2026 ?"
 description: "Précis, silencieux et sans fil : notre guide pour choisir un moulin à café manuel adapté à ton usage quotidien ou en voyage."
 pubDate: 2026-08-16
 author: "Rédaction"
+pinHook: "Un café *plus précis*, même en voyage"
+pinSub: "Le moulin manuel, silencieux et fin."
 keywords: ["moulin à café manuel", "meilleur moulin manuel", "moulin manuel voyage"]
 category: "moulins"
 coverAlt: "Moulin à café manuel posé avec des grains de café"

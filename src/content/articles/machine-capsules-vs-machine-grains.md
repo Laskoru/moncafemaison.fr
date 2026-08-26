@@ -3,6 +3,8 @@ title: "Machine à capsules vs machine à grains : quel système choisir ?"
 description: "Café en capsules ou machine à grains : lequel choisir selon ton budget, ton temps et le goût recherché ? Notre comparatif honnête."
 pubDate: 2026-08-16
 author: "Rédaction"
+pinHook: "Capsules ou grains ? *Le vrai match*"
+pinSub: "Quel système pour quel profil."
 keywords: ["machine à capsules vs machine à grains", "capsules ou grains café", "quelle cafetière choisir"]
 category: "machines"
 coverAlt: "Coin café dans une cuisine : machine à espresso et moulin rempli de grains de café"

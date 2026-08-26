@@ -3,6 +3,8 @@ title: "Chemex : pour qui, et comment bien la choisir"
 description: "La Chemex séduit par son design autant que par son café limpide. Nos critères avant d'acheter et notre sélection pour se lancer sans se tromper."
 pubDate: 2026-08-18
 author: "Rédaction"
+pinHook: "Un filtre *net et lumineux*"
+pinSub: "La Chemex : pour qui, comment."
 keywords: ["chemex", "cafetière chemex", "chemex avis", "café filtre design"]
 category: "machines"
 coverAlt: "Cafetière Chemex en verre avec col en bois posée sur un plan de travail, filtre papier visible sur le dessus"
