@@ -1,0 +1,185 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Breadcrumbs from '../components/Breadcrumbs.astro';
+import { siteConfig } from '../siteConfig';
+---
+
+<BaseLayout
+  title="Calculateur de dosage café"
+  description={`Combien de café et d'eau pour un café parfait ? Indique ta méthode et ton nombre de tasses, notre calculateur gratuit te donne les grammes exacts. ${siteConfig.name}.`}
+>
+  <section class="container calc">
+    <Breadcrumbs items={[{ label: 'Accueil', href: '/' }, { label: 'Calculateur de dosage' }]} />
+
+    <header class="calc__head">
+      <p class="calc__eyebrow">Outil gratuit · sans inscription</p>
+      <h1>Calculateur de dosage café</h1>
+      <p class="calc__lede">
+        Le bon café, c’est d’abord le bon ratio. Choisis ta méthode et ton nombre de tasses :
+        on te donne les grammes de café et la quantité d’eau, tout de suite.
+      </p>
+    </header>
+
+    <div class="calc__grid">
+      <form class="calc__controls card" id="calc-form" aria-label="Réglages du dosage">
+        <label class="field">
+          <span class="field__label">Méthode</span>
+          <select id="method">
+            <option value="filtre">Café filtre / cafetière</option>
+            <option value="v60">V60 / pour-over</option>
+            <option value="piston">Piston (French press)</option>
+            <option value="italienne">Cafetière italienne (moka)</option>
+            <option value="expresso">Expresso</option>
+          </select>
+        </label>
+
+        <label class="field">
+          <span class="field__label">Nombre de tasses <b id="cups-val">2</b></span>
+          <input type="range" id="cups" min="1" max="12" value="2" step="1" />
+        </label>
+
+        <div class="field">
+          <span class="field__label">Intensité</span>
+          <div class="seg" role="group" aria-label="Intensité">
+            <button type="button" data-s="doux">Doux</button>
+            <button type="button" data-s="normal" class="is-active" aria-pressed="true">Normal</button>
+            <button type="button" data-s="corse">Corsé</button>
+          </div>
+        </div>
+      </form>
+
+      <div class="calc__result card" aria-live="polite">
+        <div class="result__row">
+          <div class="result__block">
+            <span class="result__num" id="out-coffee">33</span><span class="result__unit">g</span>
+            <p class="result__cap">de café moulu</p>
+          </div>
+          <div class="result__sep"></div>
+          <div class="result__block">
+            <span class="result__num" id="out-water">55</span><span class="result__unit" id="out-water-unit">cl</span>
+            <p class="result__cap">d’eau</p>
+          </div>
+        </div>
+        <dl class="result__meta">
+          <div><dt>Mouture conseillée</dt><dd id="out-grind">moyenne</dd></div>
+          <div><dt>Ratio café / eau</dt><dd id="out-ratio">1 : 16,5</dd></div>
+        </dl>
+        <p class="result__tip" id="out-tip"></p>
+      </div>
+    </div>
+
+    <p class="calc__note">
+      Repère de base : un ratio autour de <b>1 g de café pour 16 à 17 g d’eau</b> pour le filtre.
+      Ajuste ensuite à ton goût — ces chiffres sont un excellent point de départ, pas une règle figée.
+      Plus de conseils dans nos <a href="/guides/">guides</a>.
+    </p>
+  </section>
+</BaseLayout>
+
+<script is:inline>
+  (function () {
+    var M = {
+      filtre:    { cup: 125, ratio: 16.5, grind: 'moyenne',       tip: 'Verse l’eau à ~93 °C en plusieurs fois pour une extraction régulière.' },
+      v60:       { cup: 220, ratio: 16,   grind: 'moyenne-fine',  tip: 'Fais une pré-infusion (bloom) de 30 s avant de continuer à verser.' },
+      piston:    { cup: 220, ratio: 15,   grind: 'grossière',     tip: 'Laisse infuser 4 minutes avant de presser doucement.' },
+      italienne: { cup: 60,  ratio: 10,   grind: 'fine',          tip: 'Remplis le panier sans tasser, et retire du feu dès que ça monte.' },
+      expresso:  { cup: 30,  ratio: 3,    grind: 'très fine',     tip: 'Vise 25 à 30 s d’extraction pour un espresso équilibré.' },
+    };
+    var STRENGTH = { doux: 1.08, normal: 1, corse: 0.92 };
+    var strength = 'normal';
+
+    var method = document.getElementById('method');
+    var cups = document.getElementById('cups');
+    var cupsVal = document.getElementById('cups-val');
+    var outCoffee = document.getElementById('out-coffee');
+    var outWater = document.getElementById('out-water');
+    var outWaterUnit = document.getElementById('out-water-unit');
+    var outGrind = document.getElementById('out-grind');
+    var outRatio = document.getElementById('out-ratio');
+    var outTip = document.getElementById('out-tip');
+    var segBtns = document.querySelectorAll('.seg button');
+
+    function fr(n, d) { return n.toLocaleString('fr-FR', { minimumFractionDigits: d || 0, maximumFractionDigits: d || 0 }); }
+
+    function update() {
+      var m = M[method.value];
+      var n = parseInt(cups.value, 10);
+      cupsVal.textContent = n;
+      var ratio = m.ratio * STRENGTH[strength];
+      var waterMl = n * m.cup;
+      var coffeeG = waterMl / ratio;
+      coffeeG = Math.round(coffeeG * 2) / 2; // arrondi 0,5 g
+
+      outCoffee.textContent = fr(coffeeG, coffeeG % 1 === 0 ? 0 : 1);
+      if (waterMl >= 1000) {
+        outWater.textContent = fr(waterMl / 1000, 1);
+        outWaterUnit.textContent = 'L';
+      } else {
+        outWater.textContent = fr(waterMl);
+        outWaterUnit.textContent = 'ml';
+      }
+      outGrind.textContent = m.grind;
+      outRatio.textContent = '1 : ' + fr(ratio, 1);
+      outTip.textContent = m.tip;
+    }
+
+    method.addEventListener('change', update);
+    cups.addEventListener('input', update);
+    segBtns.forEach(function (b) {
+      b.addEventListener('click', function () {
+        strength = b.getAttribute('data-s');
+        segBtns.forEach(function (x) { x.classList.remove('is-active'); x.setAttribute('aria-pressed', 'false'); });
+        b.classList.add('is-active'); b.setAttribute('aria-pressed', 'true');
+        update();
+      });
+    });
+    update();
+  })();
+</script>
+
+<style>
+  .calc { padding: 2.5rem 0 3.5rem; }
+  .calc__head { max-width: 60ch; }
+  .calc__eyebrow { font-size: 0.78rem; letter-spacing: 0.12em; text-transform: uppercase; color: var(--color-accent); font-weight: 700; margin: 0 0 0.4rem; }
+  .calc h1 { margin: 0; }
+  .calc__lede { color: var(--color-text-muted); font-size: 1.05rem; margin-top: 0.7rem; }
+
+  .calc__grid { display: grid; grid-template-columns: 1fr 1.1fr; gap: 1.2rem; margin-top: 2rem; align-items: stretch; }
+  .card { background: var(--color-surface); border: 1px solid var(--color-border); border-radius: var(--radius-lg); }
+  .calc__controls { padding: 1.6rem; display: flex; flex-direction: column; gap: 1.4rem; }
+
+  .field { display: flex; flex-direction: column; gap: 0.55rem; }
+  .field__label { font-weight: 600; font-size: 0.95rem; }
+  .field__label b { color: var(--color-accent); font-variant-numeric: tabular-nums; }
+  select {
+    font: inherit; padding: 0.7rem 0.8rem; border-radius: var(--radius);
+    border: 1px solid var(--color-border); background: var(--color-bg); color: var(--color-text);
+  }
+  select:focus-visible, .seg button:focus-visible, input:focus-visible { outline: 2.5px solid var(--color-accent); outline-offset: 2px; }
+  input[type=range] { accent-color: var(--color-accent); width: 100%; }
+
+  .seg { display: flex; gap: 0.4rem; }
+  .seg button {
+    flex: 1; font: inherit; font-weight: 600; cursor: pointer; padding: 0.6rem 0.4rem;
+    border-radius: var(--radius); border: 1px solid var(--color-border);
+    background: var(--color-bg); color: var(--color-text-muted); transition: all 0.15s ease;
+  }
+  .seg button.is-active { background: var(--color-accent); border-color: var(--color-accent); color: #fff; }
+
+  .calc__result { padding: 1.8rem; display: flex; flex-direction: column; gap: 1.3rem; background: var(--color-accent-soft); }
+  .result__row { display: flex; align-items: center; justify-content: center; gap: 1rem; }
+  .result__block { text-align: center; flex: 1; }
+  .result__num { font-family: var(--font-display); font-size: 3.4rem; font-weight: 800; line-height: 1; color: var(--color-text); font-variant-numeric: tabular-nums; }
+  .result__unit { font-family: var(--font-display); font-size: 1.4rem; font-weight: 700; color: var(--color-accent); margin-left: 0.15rem; }
+  .result__cap { color: var(--color-text-muted); font-size: 0.9rem; margin: 0.3rem 0 0; }
+  .result__sep { width: 1px; align-self: stretch; background: var(--color-border); }
+
+  .result__meta { display: grid; grid-template-columns: 1fr 1fr; gap: 0.6rem; margin: 0; padding-top: 1.1rem; border-top: 1px solid var(--color-border); }
+  .result__meta dt { font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.06em; color: var(--color-text-muted); }
+  .result__meta dd { margin: 0.15rem 0 0; font-weight: 600; }
+  .result__tip { margin: 0; font-size: 0.92rem; color: var(--color-text-muted); background: var(--color-surface); padding: 0.8rem 1rem; border-radius: var(--radius); border: 1px solid var(--color-border); }
+
+  .calc__note { margin-top: 2rem; color: var(--color-text-muted); font-size: 0.95rem; max-width: 65ch; }
+
+  @media (max-width: 720px) { .calc__grid { grid-template-columns: 1fr; } }
+</style>
