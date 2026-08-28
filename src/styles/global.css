@@ -1,23 +1,25 @@
 :root {
   color-scheme: light;
 
-  /* Palette claire et chaleureuse (café) */
-  --color-bg: #faf6f0;
-  --color-bg-soft: #f2eadf; /* fond de section alternatif, pour donner du relief */
-  --color-text: #2a2018;
-  --color-text-muted: #6f6157;
+  /* Palette torréfaction — chaleur d'un coffee-shop de spécialité */
+  --color-bg: #fbf5ec; /* lait */
+  --color-bg-soft: #f2e6d5; /* crema clair, fond de section */
+  --color-text: #2b211a; /* grain */
+  --color-text-muted: #7a6a5a;
   --color-text-faint: #a89a8c;
-  --color-border: #e7ddce;
-  --color-accent: #c07a3e; /* surchargé dynamiquement depuis siteConfig.accentColor */
+  --color-border: #e8dcc8;
+  --color-accent: #b5702c; /* ambre torréfié — surchargé depuis siteConfig.accentColor */
   --color-accent-soft: color-mix(in srgb, var(--color-accent) 14%, transparent);
   --color-signal: #6e8b5a; /* vert doux (grain/feuille), à utiliser avec parcimonie */
-  --color-surface: #fffdfa;
-  --color-surface-raised: #fffdfa;
-  --shadow-sm: 0 1px 2px rgba(60, 42, 24, 0.06);
-  --shadow-md: 0 16px 40px -18px rgba(60, 42, 24, 0.22);
+  --color-copper: #a8641f; /* cuivre, pour filets et accents */
+  --color-espresso: #3a2a20; /* brun espresso profond */
+  --color-surface: #fffdf8;
+  --color-surface-raised: #fffdf8;
+  --shadow-sm: 0 1px 2px rgba(70, 46, 24, 0.09);
+  --shadow-md: 0 20px 44px -22px rgba(70, 46, 24, 0.28);
 
-  --font-display: 'Outfit', 'Inter', system-ui, sans-serif;
-  --font-body: 'Inter', system-ui, -apple-system, sans-serif;
+  --font-display: 'Newsreader', Georgia, 'Times New Roman', serif;
+  --font-body: 'Hanken Grotesk', system-ui, -apple-system, sans-serif;
   --font-mono: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace;
 
   --max-width: 720px;
@@ -44,6 +46,12 @@ body {
   font-family: var(--font-body);
   color: var(--color-text);
   background-color: var(--color-bg);
+  /* Halo chaud façon vapeur de café en haut de page */
+  background-image:
+    radial-gradient(120% 60% at 14% -8%, color-mix(in srgb, var(--color-accent) 10%, transparent), transparent 60%),
+    radial-gradient(100% 55% at 90% -4%, color-mix(in srgb, var(--color-espresso) 8%, transparent), transparent 62%);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
   line-height: 1.6;
   font-size: 17px;
   transition: background-color 0.2s ease, color 0.2s ease;
@@ -51,14 +59,14 @@ body {
 
 h1, h2, h3, h4 {
   font-family: var(--font-display);
-  line-height: 1.15;
-  font-weight: 700;
-  letter-spacing: -0.015em;
+  line-height: 1.12;
+  font-weight: 600;
+  letter-spacing: -0.005em;
   margin-top: 2em;
   margin-bottom: 0.5em;
 }
 
-h1 { font-size: 2.7rem; margin-top: 0; }
+h1 { font-size: 2.9rem; margin-top: 0; }
 h2 { font-size: 1.6rem; }
 h3 { font-size: 1.22rem; }
 
