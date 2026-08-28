@@ -51,6 +51,17 @@ export const siteConfig = {
   // Revendiquer un site web → "Ajouter une balise HTML"). Colle ici la valeur
   // du content de la balise <meta name="p:domain_verify" content="...">.
   pinterestVerification: 'b3f3e01eaed2d288456f025adfbcf8b8',
+
+  // Encart "ressource gratuite" de la sidebar (l'aimant à liens du site)
+  freebie: {
+    url: '/calculateur-dosage-cafe/',
+    title: 'Calculateur de dosage',
+    desc: 'Le bon café en grammes, selon ta méthode et ton nombre de tasses.',
+    cta: 'Ouvrir le calculateur',
+  },
+
+  // Newsletter : colle ici l'URL du formulaire de ton service (Brevo/Mailchimp).
+  newsletter: { actionUrl: '' },
 };
 
 export type SiteConfig = typeof siteConfig;
