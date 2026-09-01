@@ -13,6 +13,13 @@ products:
   - asin: "B0000YWF5E"
     title: "Chemex — Cafetière filtre 6 tasses, verre borosilicate et col bois"
     blurb: "Le modèle original, exposé au MoMA depuis 1943 — verre non poreux qui ne retient ni odeur ni résidu, col en bois amovible."
+faq:
+  - question: "Quelle mouture pour une Chemex ?"
+    answer: "Une mouture moyenne-grossière, proche d'un sucre semoule un peu épais. Trop fine, l'eau s'écoule mal et le café devient amer ; trop grossière, il est sous-extrait et fade. Un moulin à meules réglable donne le meilleur résultat."
+  - question: "Quel ratio café/eau pour la Chemex ?"
+    answer: "Comptez environ 60 g de café par litre d'eau, soit à peu près 1 g de café pour 16 à 17 g d'eau. Une balance de précision aide à reproduire le même café à chaque fois."
+  - question: "Les filtres Chemex sont-ils spécifiques ?"
+    answer: "Oui : la Chemex utilise des filtres épais dédiés, plus épais que les filtres classiques. Ils retiennent davantage les huiles et donnent une tasse très propre et claire. Mieux vaut utiliser les filtres de la marque."
 ---
 
 ## Pourquoi la Chemex séduit autant
