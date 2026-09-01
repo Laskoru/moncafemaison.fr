@@ -46,3 +46,9 @@ Si tu cherches avant tout la **rapidité et la régularité** sans te poser de q
 ## Conclusion
 
 Pour débuter l'espresso à la maison, inutile de viser la machine haut de gamme : une porte-filtre abordable (idéalement avec un petit moulin) permet d'apprendre et de se régaler pour un budget contenu. Et si la simplicité prime, une machine à capsules compacte reste une valeur sûre au quotidien.
+
+## Pour aller plus loin
+
+- [Meilleur moulin pour espresso](/articles/meilleur-moulin-pour-espresso/)
+- [Machine expresso à broyeur intégré](/articles/machine-expresso-broyeur-integre/)
+- [Meilleur mousseur à lait](/articles/meilleur-mousseur-lait/)

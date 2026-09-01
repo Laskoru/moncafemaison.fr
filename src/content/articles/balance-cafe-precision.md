@@ -46,3 +46,9 @@ Pour un usage **orienté espresso**, privilégie un modèle compact qui se gliss
 ## Conclusion
 
 La balance de précision est l'accessoire le moins cher pour le plus grand gain de régularité. Associée à un bon moulin, c'est ce qui transforme un café « au feeling » en un café maîtrisé, jour après jour.
+
+## Pour aller plus loin
+
+- [Meilleur moulin à café électrique](/articles/meilleur-moulin-cafe-electrique/)
+- [Réussir son café à la Chemex](/articles/chemex-cafetiere-filtre-design/)
+- [La cafetière à piston (French press)](/articles/meilleure-cafetiere-piston-french-press/)

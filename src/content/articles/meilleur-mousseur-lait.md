@@ -46,3 +46,9 @@ Pour un usage **occasionnel ou un petit budget**, le fouet portable suffit : il 
 ## Conclusion
 
 Le mousseur à lait est le petit plus qui transforme le café du matin en cappuccino ou latte réussi. Pichet chauffant pour la simplicité complète, fouet portable pour le minimalisme : dans les deux cas, pense au lait entier (ou « barista ») pour la meilleure mousse.
+
+## Pour aller plus loin
+
+- [Meilleure machine expresso](/articles/meilleure-machine-expresso/)
+- [Machine à café automatique haut de gamme](/articles/machine-cafe-automatique-haut-gamme/)
+- [Machine à capsules ou à grains ?](/articles/machine-capsules-vs-machine-grains/)

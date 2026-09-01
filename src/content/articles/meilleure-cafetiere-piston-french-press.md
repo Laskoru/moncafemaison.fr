@@ -48,3 +48,9 @@ Dans les deux cas, le vrai secret d'une bonne French press tient à la mouture :
 ## Conclusion
 
 La cafetière à piston est le point d'entrée idéal vers le bon café maison : simple, économique et étonnamment qualitative. Choisis le verre pour le prix, l'inox pour la robustesse — et soigne surtout ta mouture pour en tirer le meilleur.
+
+## Pour aller plus loin
+
+- [Meilleur moulin à café manuel](/articles/meilleur-moulin-cafe-manuel/)
+- [Balance de précision pour le café](/articles/balance-cafe-precision/)
+- [La cafetière italienne (moka)](/articles/cafetiere-italienne-moka/)

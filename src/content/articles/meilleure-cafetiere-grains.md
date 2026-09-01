@@ -48,3 +48,9 @@ Inutile, en revanche, de viser d'emblée le haut de gamme avec écran couleur et
 ## Conclusion
 
 Une machine à café à grains est l'un des meilleurs investissements pour qui veut un café maison de qualité au quotidien. Le bon modèle n'est pas le plus cher, mais celui dont l'entretien est simple et l'usage intuitif : c'est ce qui garantit que tu t'en serviras vraiment tous les jours, pendant des années.
+
+## Pour aller plus loin
+
+- [Machine expresso à broyeur intégré](/articles/machine-expresso-broyeur-integre/)
+- [Machine à capsules ou à grains ?](/articles/machine-capsules-vs-machine-grains/)
+- [Meilleur moulin pour espresso](/articles/meilleur-moulin-pour-espresso/)

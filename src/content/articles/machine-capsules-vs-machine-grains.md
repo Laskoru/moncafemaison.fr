@@ -69,3 +69,9 @@ Et si ton budget le permet, rien n'empêche de combiner les deux : une machine �
 ## Conclusion
 
 Le débat capsules contre grains n'a pas de gagnant universel : c'est un arbitrage entre goût et coût d'un côté, simplicité et rapidité de l'autre. Pour un usage quotidien et intensif, la machine à grains gagne sur la durée, en qualité comme en budget. Pour un usage occasionnel ou si tu veux zéro contrainte, la machine à capsules reste le choix le plus confortable.
+
+## Pour aller plus loin
+
+- [Meilleure cafetière à grains](/articles/meilleure-cafetiere-grains/)
+- [Machine expresso à broyeur intégré](/articles/machine-expresso-broyeur-integre/)
+- [Meilleur mousseur à lait](/articles/meilleur-mousseur-lait/)

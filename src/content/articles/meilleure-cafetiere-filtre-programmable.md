@@ -63,3 +63,9 @@ Quelques réflexes évitent les mauvaises surprises : utilise toujours de l'eau 
 ## Conclusion
 
 La cafetière filtre programmable reste l'une des façons les plus simples de garantir un café chaud dès le réveil, sans effort ni attente. Pour un usage familial ou des matins chargés, une carafe isotherme et une bonne plage de programmation font toute la différence par rapport à un modèle basique à plaque chauffante. C'est un investissement modeste qui change vraiment la routine du matin.
+
+## Pour aller plus loin
+
+- [Réussir son café à la Chemex](/articles/chemex-cafetiere-filtre-design/)
+- [Meilleur moulin à café électrique](/articles/meilleur-moulin-cafe-electrique/)
+- [Balance de précision pour le café](/articles/balance-cafe-precision/)

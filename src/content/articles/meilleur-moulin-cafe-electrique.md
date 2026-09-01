@@ -53,3 +53,9 @@ Inutile de viser un moulin professionnel hors de prix pour débuter : un bon mou
 ## Conclusion
 
 Le moulin est le maillon le plus rentable pour améliorer son café — souvent plus que la machine elle-même. Un modèle à meules, réglable et régulier, transforme les mêmes grains en une tasse nettement meilleure, jour après jour.
+
+## Pour aller plus loin
+
+- [Moulin à meules ou à lames ?](/articles/moulin-cafe-meules-ou-lames/)
+- [Meilleur moulin pour espresso](/articles/meilleur-moulin-pour-espresso/)
+- [Meilleure cafetière à grains](/articles/meilleure-cafetiere-grains/)

@@ -55,3 +55,9 @@ Verse les grains progressivement plutôt que de remplir le réservoir à ras bor
 ## Conclusion
 
 Un moulin à café manuel de qualité, à meules coniques, offre une mouture aussi régulière qu'un moulin électrique d'entrée de gamme, sans bruit ni prise électrique. Pour l'espresso et une précision maximale, mise sur des meules en acier avec réglage interne fin. Pour un usage filtre, moka ou nomade, un modèle plus léger à meules céramiques fait parfaitement l'affaire, à un prix plus accessible.
+
+## Pour aller plus loin
+
+- [Moulin à meules ou à lames ?](/articles/moulin-cafe-meules-ou-lames/)
+- [La cafetière à piston (French press)](/articles/meilleure-cafetiere-piston-french-press/)
+- [La cafetière italienne (moka)](/articles/cafetiere-italienne-moka/)

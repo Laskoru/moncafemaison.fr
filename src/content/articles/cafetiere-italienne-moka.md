@@ -57,3 +57,9 @@ Quelques réflexes simples changent tout : utilise de l'eau déjà chaude pour l
 ## Conclusion
 
 La cafetière italienne reste l'un des moyens les plus simples et les plus fiables de préparer un café corsé à la maison, sans dépendre de l'électricité ni d'un moulin sophistiqué. Pour débuter ou pour un usage individuel, un modèle en aluminium classique fait parfaitement le travail. Si l'induction fait partie de ta cuisine ou que tu reçois plus souvent, un modèle plus grand à fond compatible induction est le choix le plus pérenne.
+
+## Pour aller plus loin
+
+- [Meilleur moulin à café manuel](/articles/meilleur-moulin-cafe-manuel/)
+- [La cafetière à piston (French press)](/articles/meilleure-cafetiere-piston-french-press/)
+- [Balance de précision pour le café](/articles/balance-cafe-precision/)
