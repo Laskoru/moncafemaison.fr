@@ -1,5 +1,5 @@
 ---
-title: "Meilleur mousseur à lait en 2026 : cappuccino et latte maison"
+title: "Mousseur à lait : réussir cappuccino et latte maison"
 description: "Quel mousseur à lait choisir pour une mousse onctueuse à la maison ? Pichet chauffant ou fouet portable : nos critères et notre sélection."
 pubDate: 2026-08-16
 author: "Rédaction"

@@ -1,5 +1,5 @@
 ---
-title: "Meilleur moulin à café manuel : lequel choisir en 2026 ?"
+title: "Moulin à café manuel : lequel choisir en 2026 ?"
 description: "Précis, silencieux et sans fil : notre guide pour choisir un moulin à café manuel adapté à ton usage quotidien ou en voyage."
 pubDate: 2026-08-16
 author: "Rédaction"

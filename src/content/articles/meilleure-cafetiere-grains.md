@@ -1,5 +1,5 @@
 ---
-title: "Meilleure machine à café à grains en 2026 : notre comparatif"
+title: "Quelle machine à café à grains choisir en 2026 ?"
 description: "Quelle machine à café à grains choisir pour un bon café maison sans se ruiner ? Nos critères et notre sélection de modèles fiables."
 pubDate: 2026-08-16
 author: "Rédaction"

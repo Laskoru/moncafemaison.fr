@@ -1,5 +1,5 @@
 ---
-title: "Meilleure cafetière filtre programmable en 2026 : le comparatif"
+title: "Cafetière filtre programmable : le comparatif 2026"
 description: "Programmer son café la veille pour se réveiller avec une carafe chaude : notre guide pour choisir la bonne cafetière filtre programmable."
 pubDate: 2026-08-16
 author: "Rédaction"

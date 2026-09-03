@@ -1,5 +1,5 @@
 ---
-title: "Meilleur moulin pour espresso en 2026 : comment bien choisir"
+title: "Moulin pour espresso : le guide pour bien choisir"
 description: "Quel moulin choisir pour un vrai espresso ? Mouture fine, régularité, réglages : nos critères concrets et notre sélection pour un espresso équilibré."
 pubDate: 2026-08-31
 author: "Rédaction"

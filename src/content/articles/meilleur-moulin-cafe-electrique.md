@@ -1,5 +1,5 @@
 ---
-title: "Meilleur moulin à café électrique en 2026 : le comparatif"
+title: "Bien choisir son moulin à café électrique"
 description: "Quel moulin à café électrique choisir pour une mouture fraîche et régulière ? Meules vs lames, nos critères et notre sélection."
 pubDate: 2026-08-16
 author: "Rédaction"

@@ -1,5 +1,5 @@
 ---
-title: "Meilleure machine à café automatique haut de gamme en 2026"
+title: "Quelle machine à café automatique haut de gamme choisir ?"
 description: "Broyeur, carafe à lait automatique, appli connectée : comment choisir une machine à café automatique haut de gamme sans se tromper."
 pubDate: 2026-08-22
 author: "Rédaction"
