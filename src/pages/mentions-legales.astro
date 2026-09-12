@@ -6,11 +6,11 @@ import { siteConfig } from '../siteConfig';
 <BaseLayout title="Mentions légales" description={`Mentions légales du site ${siteConfig.name}.`}>
   <section class="container legal">
     <h1>Mentions légales</h1>
-    <p class="legal__updated">Dernière mise à jour : 15 août 2026</p>
+    <p class="legal__updated">Dernière mise à jour : 12 septembre 2026</p>
 
     <h2>Éditeur du site</h2>
     <p>
-      Le site {siteConfig.name} est édité à titre non professionnel par un particulier.
+      Le site {siteConfig.name} est édité par <strong>Hugo B.</strong>, à titre non professionnel.
       Contact : <a href={`mailto:${siteConfig.contactEmail}`}>{siteConfig.contactEmail}</a>.
     </p>
     <p>
@@ -22,7 +22,7 @@ import { siteConfig } from '../siteConfig';
 
     <h2>Responsable de la publication</h2>
     <p>
-      {siteConfig.name}, joignable à l'adresse
+      Hugo B., joignable à l'adresse
       <a href={`mailto:${siteConfig.contactEmail}`}>{siteConfig.contactEmail}</a>.
     </p>
 
@@ -64,6 +64,12 @@ import { siteConfig } from '../siteConfig';
       aucun contrôle sur ces sites et décline toute responsabilité quant à leur contenu ou à leurs
       pratiques, y compris en matière de protection des données. La consultation d'un site tiers relève de
       la seule responsabilité de l'utilisateur.
+    </p>
+
+    <h2>Données personnelles &amp; cookies</h2>
+    <p>
+      Le traitement des données personnelles et l'usage des cookies sont détaillés dans notre
+      <a href="/politique-de-confidentialite">politique de confidentialité</a>.
     </p>
 
     <h2>Contact</h2>
