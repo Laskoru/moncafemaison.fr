@@ -25,7 +25,7 @@ Format : `- [ ] Sujet — angle — catégorie`.
 - [x] Meilleur moulin à café manuel — précis et silencieux, pour le voyage — moulins
 - [x] Moulin à meules ou à lames : la vraie différence — moulins
 - [x] Meilleur moulin pour espresso — descendre assez fin, avec régularité — moulins
-- [ ] Moulin à café pas cher qui vaut le coup — le bon rapport qualité/prix — moulins
+- [x] Moulin à café pas cher qui vaut le coup — le bon rapport qualité/prix — moulins
 
 ## Accessoires & entretien
 
