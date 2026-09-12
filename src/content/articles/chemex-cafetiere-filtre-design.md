@@ -13,6 +13,14 @@ products:
   - asin: "B0000YWF5E"
     title: "Chemex — Cafetière filtre 6 tasses, verre borosilicate et col bois"
     blurb: "Le modèle original, exposé au MoMA depuis 1943 — verre non poreux qui ne retient ni odeur ni résidu, col en bois amovible."
+    pros:
+      - "Café filtre très propre et clair"
+      - "Verre non poreux : ni odeur ni résidu"
+      - "Objet de design (col bois amovible)"
+    cons:
+      - "Filtres épais spécifiques à racheter"
+      - "Verre fragile"
+      - "Demande une balance et un peu de méthode"
 faq:
   - question: "Quelle mouture pour une Chemex ?"
     answer: "Une mouture moyenne-grossière, proche d'un sucre semoule un peu épais. Trop fine, l'eau s'écoule mal et le café devient amer ; trop grossière, il est sous-extrait et fade. Un moulin à meules réglable donne le meilleur résultat."

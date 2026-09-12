@@ -13,6 +13,14 @@ products:
   - asin: "B00400OMU0"
     title: "De'Longhi Magnifica S (ECAM22.110.B) — broyeur intégré, 13 réglages"
     blurb: "Le meilleur compromis qualité/goût : elle moud le grain juste avant l'extraction pour un café nettement plus riche qu'une capsule."
+    pros:
+      - "Moud le grain juste avant l’extraction (café plus riche)"
+      - "13 réglages, prise en main simple"
+      - "Bon rapport qualité/prix en grain à grain"
+    cons:
+      - "Mousse de lait manuelle (buse vapeur)"
+      - "Bruit du broyeur"
+      - "Bac à marc à vider régulièrement"
 faq:
   - question: "Le café en capsules a-t-il vraiment moins bon goût que le café en grains ?"
     answer: "Dans l'ensemble, oui, même si l'écart s'est réduit avec les capsules haut de gamme. Le café moulu en capsule perd ses arômes volatils dès sa mise en poche, parfois des mois avant l'achat. Un grain moulu juste avant extraction conserve bien plus d'arômes, ce qui donne un café plus riche en bouche."

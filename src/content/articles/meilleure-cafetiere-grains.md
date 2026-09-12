@@ -14,6 +14,14 @@ products:
   - asin: "B07MMSHC4R"
     title: "Philips série 2200 (EP2220) — broyeur céramique, écran tactile"
     blurb: "Le meilleur point d'entrée dans le café à grains : simple, fiable, broyeur céramique et entretien facile. Idéal pour un premier achat."
+    pros:
+      - "Excellent point d’entrée en grain à grain"
+      - "Broyeur céramique, écran tactile simple"
+      - "Entretien facile et fiable"
+    cons:
+      - "Mousse de lait manuelle (buse classique)"
+      - "Peu d’options de personnalisation"
+      - "Bruit du broyeur"
 faq:
   - question: "Une machine à grains fait-elle vraiment un meilleur café qu'une machine à capsules ?"
     answer: "Sur la qualité en tasse, oui, presque toujours : la machine à grains moud le café juste avant l'extraction, ce qui préserve les arômes que des capsules stockées perdent avec le temps. Elle revient aussi moins cher à l'usage (le grain coûte bien moins que la capsule au kilo), au prix d'un entretien un peu plus régulier."

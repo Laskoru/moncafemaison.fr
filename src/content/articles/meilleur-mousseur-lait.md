@@ -14,6 +14,14 @@ products:
   - asin: "B0D8TB8TD1"
     title: "SIMPLETASTE 4-en-1 — pichet chauffant, chaud/froid"
     blurb: "Le plus complet : chauffe et fait mousser en une étape, pour cappuccino, latte ou mousse froide, sans casserole ni surveillance."
+    pros:
+      - "Chauffe et fait mousser en une seule étape"
+      - "Mousse chaude ou froide (cappuccino, latte)"
+      - "Sans casserole ni surveillance"
+    cons:
+      - "Capacité limitée (1-2 tasses)"
+      - "Cuve à nettoyer après chaque usage"
+      - "Moins polyvalent qu’une buse vapeur de machine"
 faq:
   - question: "Un mousseur chauffant ou un simple fouet portable ?"
     answer: "Le pichet chauffant fait tout en une étape (chauffer + mousser) et gère la mousse froide : c'est le plus pratique au quotidien. Le fouet portable est minuscule et bon marché, mais il faut chauffer le lait à part. Choisis selon la place et le budget."

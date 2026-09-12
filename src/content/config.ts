@@ -29,6 +29,12 @@ const articles = defineCollection({
           image: z.string().optional(),
           blurb: z.string().optional(), // une phrase expliquant pourquoi tu le recommandes
 
+          // Points forts / limites honnêtes (transparence = confiance).
+          pros: z.array(z.string()).default([]),
+          cons: z.array(z.string()).default([]),
+          // Libellé du ruban (défaut « Notre choix »).
+          award: z.string().optional(),
+
           search: z.string().optional(),
         })
       )

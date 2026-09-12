@@ -13,6 +13,14 @@ products:
   - asin: "B07B2X1VXZ"
     title: "Sage SES875 Barista Express — broyeur conique intégré, porte-filtre 54 mm"
     blurb: "Le duo grain + espresso le plus abouti à ce niveau de prix : broyeur intégré réglable et porte-filtre pour un vrai contrôle de l'extraction."
+    pros:
+      - "Vrai contrôle de l’extraction (porte-filtre 54 mm)"
+      - "Broyeur conique intégré réglable"
+      - "Buse vapeur efficace pour le latte art"
+    cons:
+      - "Courbe d’apprentissage (c’est une semi-automatique)"
+      - "Prix élevé"
+      - "Entretien régulier (purge, nettoyage)"
 faq:
   - question: "Une machine expresso avec broyeur intégré vaut-elle le coup par rapport à un moulin séparé ?"
     answer: "Elle fait gagner de la place et du temps : un seul appareil, un seul geste, pas de transfert de mouture entre deux objets. En échange, le broyeur est souvent un peu moins précis qu'un bon moulin dédié et il est intégré, donc impossible à changer si tu veux évoluer plus tard. C'est un vrai compromis, pas un choix par défaut."

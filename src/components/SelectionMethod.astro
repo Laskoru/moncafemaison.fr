@@ -1,0 +1,35 @@
+---
+// Bloc « Comment nous choisissons » : transparence sur la méthode de sélection.
+const criteria = [
+  { icon: "☕", title: "Le bon usage", text: "On part de votre café et de votre budget, pas de la liste des best-sellers." },
+  { icon: "🔧", title: "Des critères concrets", text: "Mouture, pression, entretien : on regarde ce qui change vraiment la tasse." },
+  { icon: "⭐", title: "Les avis réels, pas gonflés", text: "Les notes affichées sont les vraies notes Amazon, jamais retouchées." },
+  { icon: "⚖️", title: "Indépendance & franchise", text: "Aucune marque ne paie pour figurer. Quand un produit a des limites, on les écrit." },
+];
+---
+
+<aside class="selmethod" aria-label="Comment nous choisissons">
+  <p class="selmethod__eyebrow">Comment nous choisissons</p>
+  <ul class="selmethod__grid">
+    {criteria.map((c) => (
+      <li class="selmethod__item">
+        <span class="selmethod__icon" aria-hidden="true">{c.icon}</span>
+        <div>
+          <p class="selmethod__title">{c.title}</p>
+          <p class="selmethod__text">{c.text}</p>
+        </div>
+      </li>
+    ))}
+  </ul>
+</aside>
+
+<style>
+  .selmethod { margin: 2.4rem 0 0.6rem; padding: 1.3rem 1.5rem; border-radius: var(--radius-lg); background: var(--color-bg-soft); border: 1px solid var(--color-border); }
+  .selmethod__eyebrow { margin: 0 0 0.9rem; font-family: var(--font-display); font-size: 0.82rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.04em; color: var(--color-accent); }
+  .selmethod__grid { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: 1fr 1fr; gap: 1rem 1.4rem; }
+  .selmethod__item { display: flex; gap: 0.7rem; align-items: flex-start; }
+  .selmethod__icon { font-size: 1.25rem; line-height: 1.3; flex: none; }
+  .selmethod__title { margin: 0 0 0.15rem; font-weight: 700; font-size: 0.95rem; color: var(--color-text); }
+  .selmethod__text { margin: 0; font-size: 0.88rem; line-height: 1.5; color: var(--color-text-muted); }
+  @media (max-width: 560px) { .selmethod__grid { grid-template-columns: 1fr; } }
+</style>

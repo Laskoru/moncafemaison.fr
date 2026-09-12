@@ -7,6 +7,7 @@ import Breadcrumbs from '../components/Breadcrumbs.astro';
 import ArticleCard from '../components/ArticleCard.astro';
 import ShareButtons from '../components/ShareButtons.astro';
 import AuthorBox from '../components/AuthorBox.astro';
+import SelectionMethod from '../components/SelectionMethod.astro';
 import { siteConfig } from '../siteConfig';
 import { categories, type CategorySlug } from '../categories';
 import { isAvailable, searchUrl } from '../lib/availability';
@@ -26,7 +27,7 @@ interface Props {
   coverImage?: string;
   coverAlt?: string;
   category: CategorySlug;
-  products?: { asin: string; title: string; image?: string; blurb?: string; search?: string }[];
+  products?: { asin: string; title: string; image?: string; blurb?: string; pros?: string[]; cons?: string[]; award?: string; search?: string }[];
   headings?: Heading[];
   readingMinutes?: number;
   faq?: FaqItem[];
@@ -257,10 +258,11 @@ const jsonLdArticle = [articleSchema, breadcrumbSchema, ...(faqSchema ? [faqSche
     <ShareButtons url={shareUrl} title={title} image={coverImage} />
 
     {hasProducts && (
+      <SelectionMethod />
       <div class="article-recommendations">
         <h2>{products.length > 1 ? 'Nos recommandations' : 'Notre choix'}</h2>
         {products.map((p, i) => (
-          <AmazonProduct asin={p.asin} title={p.title} image={p.image} blurb={p.blurb} search={p.search} fallbackSearch={keywords[0]} featured={i === featuredIndex} />
+          <AmazonProduct asin={p.asin} title={p.title} image={p.image} blurb={p.blurb} search={p.search} pros={p.pros} cons={p.cons} award={p.award} fallbackSearch={keywords[0]} featured={i === featuredIndex} />
         ))}
       </div>
     )}

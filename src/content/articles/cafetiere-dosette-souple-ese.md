@@ -13,6 +13,14 @@ products:
   - asin: "B0DK5W4T4G"
     title: "Philips Senseo Original Plus CSA210/35 — booster d'arôme, 1 ou 2 tasses"
     blurb: "La référence de la dosette souple : simple, rapide, et compatible avec toutes les dosettes Senseo du commerce."
+    pros:
+      - "Simple et rapide, 1 ou 2 tasses"
+      - "Compatible toutes les dosettes Senseo du commerce"
+      - "Booster d’arôme, prix contenu"
+    cons:
+      - "Dosettes souples uniquement (pas de café moulu libre)"
+      - "Café plus léger qu’un vrai espresso"
+      - "Détartrage régulier nécessaire"
 faq:
   - question: "Dosette souple et dosette ESE, c'est la même chose ?"
     answer: "Non. La dosette souple contient environ 7 g de café moulu assez grossièrement, enveloppé dans un papier filtre non compacté ; elle donne un café long, proche du filtre. La dosette ESE (Easy Serving Espresso) contient une mouture plus fine et compactée, calibrée pour une vraie extraction espresso sous pression. Les deux formats ne sont pas interchangeables : chacun est conçu pour un type de machine précis."

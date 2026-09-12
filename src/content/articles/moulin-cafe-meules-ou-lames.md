@@ -13,6 +13,14 @@ products:
   - asin: "B0D8F7LLRC"
     title: "Homtone — Moulin à café électrique à meule conique, 51 réglages de mouture"
     blurb: "Un vrai moulin à meules à prix contenu : la meule conique donne une mouture régulière et les 51 crans couvrent aussi bien l'espresso que le filtre, sans se ruiner."
+    pros:
+      - "Meule conique = mouture régulière"
+      - "51 crans, de l’espresso au filtre"
+      - "Prix contenu"
+    cons:
+      - "Rétention de mouture"
+      - "Moins précis qu’un moulin premium"
+      - "Un peu bruyant"
 faq:
   - question: "Un moulin à lames peut-il convenir pour l'espresso ?"
     answer: "Non, pas vraiment. L'espresso exige une mouture très fine ET régulière, sous pression : un moulin à lames produit un mélange de poussière et de gros morceaux qui bouche le porte-filtre ou laisse passer l'eau trop vite. Pour un espresso correct, un moulin à meules réglable est indispensable."

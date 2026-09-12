@@ -8,6 +8,9 @@ interface Props {
   title: string;
   image?: string;
   blurb?: string;
+  pros?: string[];
+  cons?: string[];
+  award?: string;
   featured?: boolean;
   /** requête de repli propre au produit, si le produit n'est plus achetable */
   search?: string;
@@ -15,7 +18,8 @@ interface Props {
   fallbackSearch?: string;
 }
 
-const { asin, title, image, blurb, featured = false, search, fallbackSearch } = Astro.props;
+const { asin, title, image, blurb, pros = [], cons = [], award, featured = false, search, fallbackSearch } = Astro.props;
+const ribbonLabel = award ?? 'Notre choix';
 
 // Produit achetable -> lien vers la fiche (meilleure conversion).
 // Produit en rupture constatée -> lien vers une recherche Amazon ciblée :
@@ -41,7 +45,7 @@ const starPct = rating ? Math.round((rating.rating / 5) * 100) : 0;
 ---
 
 <div class:list={['amazon-product', 'card', { 'amazon-product--featured': featured }]}>
-  {featured && <span class="ribbon amazon-product__ribbon">Notre choix</span>}
+  {(featured || award) && <span class="ribbon amazon-product__ribbon">{ribbonLabel}</span>}
   {resolvedImage && (
     <a href={affiliateUrl} target="_blank" rel="nofollow sponsored noopener" class="amazon-product__imgwrap">
       <img
@@ -62,6 +66,22 @@ const starPct = rating ? Math.round((rating.rating / 5) * 100) : 0;
       </p>
     )}
     {blurb && <p class="amazon-product__blurb">{blurb}</p>}
+    {(pros.length > 0 || cons.length > 0) && (
+      <div class="proscons">
+        {pros.length > 0 && (
+          <div class="proscons__col proscons__col--pro">
+            <p class="proscons__title">On aime</p>
+            <ul>{pros.map((p) => <li>{p}</li>)}</ul>
+          </div>
+        )}
+        {cons.length > 0 && (
+          <div class="proscons__col proscons__col--con">
+            <p class="proscons__title">Ce qui peut gêner</p>
+            <ul>{cons.map((c) => <li>{c}</li>)}</ul>
+          </div>
+        )}
+      </div>
+    )}
     {!available && (
       <p class="amazon-product__unavailable">
         Ce modèle n'est plus en stock chez Amazon. Le lien ci-dessous ouvre une recherche
@@ -147,4 +167,16 @@ const starPct = rating ? Math.round((rating.rating / 5) * 100) : 0;
     border-radius: 0 var(--radius) var(--radius) 0;
   }
   .amazon-product__cta { font-size: 0.88rem; }
+
+  /* ---- Points forts / limites (transparence) ---- */
+  .proscons { display: grid; grid-template-columns: 1fr 1fr; gap: 0.6rem 1.1rem; margin: 0 0 0.95rem; width: 100%; }
+  .proscons__title { margin: 0 0 0.35rem; font-family: var(--font-display); font-size: 0.82rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.03em; }
+  .proscons__col--pro .proscons__title { color: #1a7f52; }
+  .proscons__col--con .proscons__title { color: #b25f00; }
+  .proscons ul { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 0.3rem; }
+  .proscons li { position: relative; padding-left: 1.35em; font-size: 0.87rem; line-height: 1.45; color: var(--color-text-muted); }
+  .proscons li::before { position: absolute; left: 0; top: 0; font-weight: 700; }
+  .proscons__col--pro li::before { content: '✓'; color: #1a7f52; }
+  .proscons__col--con li::before { content: '–'; color: #b25f00; }
+  @media (max-width: 560px) { .proscons { grid-template-columns: 1fr; } }
 </style>

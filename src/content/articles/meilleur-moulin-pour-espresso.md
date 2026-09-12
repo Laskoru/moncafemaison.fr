@@ -13,6 +13,14 @@ products:
   - asin: "B000IWHXH8"
     title: "Krups GVX242 — Moulin à café électrique à meules, 17 niveaux de broyage"
     blurb: "Un broyeur à meules avec 17 crans de réglage, assez fin et régulier pour l'espresso, à un prix raisonnable pour débuter sérieusement."
+    pros:
+      - "17 crans de réglage"
+      - "Assez fin et régulier pour l’espresso"
+      - "Prix raisonnable pour débuter"
+    cons:
+      - "Meules plates : moins précis qu’un moulin dédié premium"
+      - "Rétention et statique de mouture"
+      - "Bruyant"
 faq:
   - question: "Un moulin à meules coniques suffit-il pour l'espresso, ou faut-il des meules plates ?"
     answer: "Les deux peuvent convenir en usage domestique. Les meules plates sont réputées légèrement plus régulières à mouture très fine, ce qui est un atout pour l'espresso, mais un bon moulin à meules coniques avec suffisamment de crans fins fait très bien l'affaire pour un usage maison. Le vrai clivage reste meules contre lames, pas conique contre plat."

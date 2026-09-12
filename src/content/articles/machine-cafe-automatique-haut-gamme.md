@@ -13,6 +13,14 @@ products:
   - asin: "B08CBJ8W9W"
     title: "Philips série 5400 LatteGo — broyeur céramique, carafe à lait LatteGo, 12 boissons"
     blurb: "Le haut de gamme accessible : broyeur céramique réglable, carafe LatteGo qui fait la mousse de lait automatiquement et 4 profils personnalisés, pour un café façon barista sans geste à apprendre."
+    pros:
+      - "Mousse de lait automatique (carafe LatteGo)"
+      - "12 boissons et 4 profils personnalisés"
+      - "Broyeur céramique réglable, LatteGo facile à rincer"
+    cons:
+      - "Investissement élevé"
+      - "Encombrante sur le plan de travail"
+      - "Détartrage et entretien réguliers indispensables"
 faq:
   - question: "Une machine automatique haut de gamme vaut-elle vraiment le prix par rapport à un modèle d'entrée de gamme ?"
     answer: "Oui si tu bois plusieurs cafés variés par jour et que tu veux zéro geste : la différence se joue sur la régularité du broyeur, la gestion automatique du lait et la capacité à mémoriser plusieurs profils. Si tu bois surtout un espresso simple le matin, un modèle d'entrée de gamme suffit largement et coûte bien moins cher."

@@ -13,6 +13,14 @@ products:
   - asin: "B0FJGF5M8H"
     title: "Moulinex Subito FT5S2DE0 — carafe isotherme, programmation 24h"
     blurb: "Le bon compromis : carafe isotherme qui garde le café chaud sans le cuire, programmable jusqu'à 24h à l'avance, pour 12 tasses."
+    pros:
+      - "Carafe isotherme : garde chaud sans cuire le café"
+      - "Programmable 24 h à l’avance"
+      - "12 tasses, usage simple"
+    cons:
+      - "Café filtre classique (pas d’espresso)"
+      - "Verseuse isotherme parfois lente à verser"
+      - "Porte-filtre à nettoyer régulièrement"
 faq:
   - question: "Pourquoi choisir une carafe isotherme plutôt qu'une plaque chauffante ?"
     answer: "Une plaque chauffante garde le café chaud en continuant de le cuire lentement, ce qui l'amertume au fil des heures. Une carafe isotherme conserve la chaleur par isolation, sans recuire le café : le dernier bol a presque le même goût que le premier, une à quatre heures plus tard selon les modèles."

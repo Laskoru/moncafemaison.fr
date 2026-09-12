@@ -13,6 +13,14 @@ products:
   - asin: "B01MXJI90S"
     title: "Hario Skerton PRO — meules coniques en céramique, réglage stabilisé"
     blurb: "Un classique increvable du moulin manuel : les meules céramiques ne chauffent pas, le réglage de la version PRO tient bien mieux en place que sur le modèle d'origine, et le bocal en verre encaisse les années sans broncher."
+    pros:
+      - "Meules céramiques qui ne chauffent pas"
+      - "Réglage stabilisé (mieux que l’original)"
+      - "Robuste, bocal en verre qui dure"
+    cons:
+      - "Mouture à la main : effort pour l’espresso fin"
+      - "Réglage un peu tâtonnant au début"
+      - "Capacité limitée par fournée"
 faq:
   - question: "Un moulin manuel peut-il vraiment remplacer un moulin électrique ?"
     answer: "Pour un usage quotidien d'une à deux tasses, oui sans problème : les meilleurs modèles manuels à meules coniques offrent une régularité de mouture comparable à des moulins électriques d'entrée et de milieu de gamme. La limite apparaît surtout si tu dois moudre pour plusieurs personnes d'un coup : l'effort et le temps augmentent vite avec la quantité."

@@ -14,6 +14,14 @@ products:
   - asin: "B00W506FIY"
     title: "De'Longhi EC201.CD.B — porte-filtre, café moulu ou dosettes ESE"
     blurb: "La porte d'entrée idéale vers le vrai espresso : tu contrôles la mouture et le tassage, pour un café avec crema à petit prix."
+    pros:
+      - "Vrai espresso avec crema à petit prix"
+      - "Contrôle de la mouture et du tassage"
+      - "Accepte le moulu ou les dosettes ESE"
+    cons:
+      - "Demande un peu de pratique (tassage)"
+      - "Buse vapeur basique"
+      - "Bac et porte-filtre à nettoyer régulièrement"
 faq:
   - question: "Faut-il un moulin en plus d'une machine expresso à porte-filtre ?"
     answer: "Idéalement oui : l'espresso est la préparation qui dépend le plus de la finesse et de la fraîcheur de la mouture. Avec du café pré-moulu, le résultat reste correct mais plafonne vite. Un moulin à meules capable de descendre fin est le meilleur complément d'une machine à porte-filtre."

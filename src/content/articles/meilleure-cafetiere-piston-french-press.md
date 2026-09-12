@@ -14,6 +14,14 @@ products:
   - asin: "B000VJ8H7I"
     title: "Bodum Kenya — verre, 1 L / 8 tasses"
     blurb: "La référence de la French press : simple, efficace et abordable, avec le rendu classique d'une cafetière à piston en verre."
+    pros:
+      - "Simple, sans électricité ni filtres à racheter"
+      - "Rendu corsé classique de la French press"
+      - "Abordable, 8 tasses"
+    cons:
+      - "Verre fragile"
+      - "Un léger dépôt au fond de la tasse"
+      - "Café à servir vite (il continue d’infuser)"
 faq:
   - question: "Quelle mouture pour une cafetière à piston ?"
     answer: "Une mouture grossière, régulière, comme du gros sel. Trop fine, elle passe à travers le filtre et rend le café trouble et amer. C'est pourquoi un moulin à meules (réglable en grossier) fait une vraie différence avec une French press."
