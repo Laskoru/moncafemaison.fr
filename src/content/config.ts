@@ -51,6 +51,10 @@ const articles = defineCollection({
         rows: z.array(z.array(z.string())),
       })
       .optional(),
+    // Sources & références externes citées en bas d'article (E-E-A-T).
+    sources: z
+      .array(z.object({ label: z.string(), url: z.string().url() }))
+      .default([]),
   }),
 });
 

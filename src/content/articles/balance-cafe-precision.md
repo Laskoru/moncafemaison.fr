@@ -2,7 +2,7 @@
 title: "Balance à café de précision : pourquoi (et laquelle) choisir"
 description: "Doser au gramme près change la régularité de ton café. Nos critères et notre sélection de balances de précision avec minuterie."
 pubDate: 2026-08-16
-author: "Rédaction"
+author: "Hugo B."
 pinHook: "Doser *au gramme près*, comme un barista"
 pinSub: "La précision qui transforme la tasse."
 keywords: ["balance à café", "balance de précision café", "balance café minuterie"]

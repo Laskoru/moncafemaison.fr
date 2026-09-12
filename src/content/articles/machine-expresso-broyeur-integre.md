@@ -2,7 +2,7 @@
 title: "Machine expresso avec broyeur intégré en 2026 : lequel choisir ?"
 description: "Grains fraîchement moulus et vrai porte-filtre dans le même appareil : nos critères pour choisir une machine expresso avec broyeur intégré."
 pubDate: 2026-08-20
-author: "Rédaction"
+author: "Hugo B."
 pinHook: "Grains frais *et* espresso en un appareil"
 pinSub: "Le broyeur intégré, bien choisi."
 keywords: ["machine expresso avec broyeur intégré", "expresso broyeur intégré", "machine à café broyeur porte-filtre", "machine expresso avec broyeur intégré 2026"]

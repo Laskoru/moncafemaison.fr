@@ -1,0 +1,76 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../layouts/BaseLayout.astro';
+import ArticleCard from '../components/ArticleCard.astro';
+import { siteConfig } from '../siteConfig';
+
+const authorName = siteConfig.author;
+const siteUrl = Astro.site?.origin ?? Astro.url.origin;
+
+const allArticles = await getCollection('articles', ({ data }) => !data.draft);
+const recent = allArticles
+  .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf())
+  .slice(0, 6);
+
+const initials = authorName.split(/\s+/).map((w) => w[0]).join('').slice(0, 2).toUpperCase();
+
+const jsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'ProfilePage',
+  mainEntity: {
+    '@type': 'Person',
+    name: authorName,
+    url: `${siteUrl}/auteur`,
+    jobTitle: "Passionné de café & fondateur",
+    worksFor: { '@id': `${siteUrl}/#organization` },
+    knowsAbout: ["café de spécialité","machines à café","moulins à café","méthodes d'extraction du café"],
+  },
+};
+---
+
+<BaseLayout
+  title={`${authorName} — auteur`}
+  description={`${authorName}, la personne derrière ${siteConfig.name}. Qui écrit les guides et comparatifs, avec quelle méthode et en toute indépendance.`}
+  jsonLd={jsonLd}
+>
+  <section class="container author">
+    <div class="author__head">
+      <div class="author__avatar" aria-hidden="true">{initials}</div>
+      <div>
+        <p class="eyebrow">Auteur</p>
+        <h1>{authorName}</h1>
+        <p class="author__role">Passionné de café & fondateur</p>
+      </div>
+    </div>
+
+    <div class="author__bio">
+      <p set:html={`Bonjour 👋 Je suis Hugo, la personne derrière ${siteConfig.name}. J'ai lancé ce site parce que réussir un bon café chez soi tient à peu de choses — le bon moulin, la bonne méthode — mais que le marketing du café rend le choix du matériel inutilement compliqué.`}></p>
+      <p set:html={`Mon approche est concrète : je pars de l'<strong>usage réel</strong> (quel café vous buvez, quel budget, combien de temps le matin) et de <strong>critères mesurables</strong> plutôt que de fiches marketing. J'explique le <strong>pourquoi</strong> — mouture, pression, température — pour que vous choisissiez en connaissance de cause.`}></p>
+      <p set:html={`Le site est <strong>indépendant</strong> : aucune marque ne paie pour figurer ou être mieux classée. ${siteConfig.name} se finance uniquement via l'affiliation Amazon — si vous achetez après avoir cliqué sur un lien, je touche une petite commission, <strong>sans aucun surcoût pour vous</strong>. Quand un produit a des défauts, je le dis.`}></p>
+      <p class="author__links">
+        <a class="btn btn--outline" href="/a-propos">Notre méthode en détail</a>
+        <a class="btn btn--outline" href="/contact">Me contacter</a>
+      </p>
+    </div>
+
+    <h2 class="author__section">Mes derniers articles</h2>
+    <div class="article-list">
+      {recent.map((article) => <ArticleCard article={article} />)}
+    </div>
+  </section>
+</BaseLayout>
+
+<style>
+  .author { padding: 2.5rem 0 3.5rem; max-width: 760px; }
+  .author__head { display: flex; align-items: center; gap: 1.2rem; }
+  .author__avatar { flex-shrink: 0; width: 76px; height: 76px; border-radius: 50%; display: inline-flex; align-items: center; justify-content: center; background: var(--color-accent); color: #fff; font-family: var(--font-display); font-weight: 600; font-size: 1.7rem; }
+  .author__head h1 { margin: 0.15rem 0 0.1rem; }
+  .author__role { margin: 0; color: var(--color-text-muted); font-weight: 500; }
+  .author__bio { margin-top: 1.8rem; }
+  .author__bio p { color: var(--color-text-muted); line-height: 1.75; }
+  .author__bio :global(strong) { color: var(--color-text); }
+  .author__links { display: flex; flex-wrap: wrap; gap: 0.7rem; margin-top: 1.4rem; }
+  .author__section { margin-top: 2.8rem; }
+  .article-list { display: flex; flex-direction: column; gap: 1.1rem; margin-top: 1.2rem; }
+  @media (max-width: 520px) { .author__head { flex-direction: column; align-items: flex-start; gap: 0.8rem; } }
+</style>

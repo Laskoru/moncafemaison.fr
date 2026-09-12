@@ -2,7 +2,7 @@
 title: "Moulin pour espresso : le guide pour bien choisir"
 description: "Quel moulin choisir pour un vrai espresso ? Mouture fine, régularité, réglages : nos critères concrets et notre sélection pour un espresso équilibré."
 pubDate: 2026-08-31
-author: "Rédaction"
+author: "Hugo B."
 pinHook: "L'espresso *ne pardonne rien* à un mauvais moulin"
 pinSub: "Comment descendre assez fin, sans perdre en régularité."
 keywords: ["meilleur moulin pour espresso", "moulin à café espresso", "moulin fin régulier espresso", "moulin à meules espresso"]

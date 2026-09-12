@@ -2,7 +2,7 @@
 title: "Moulin à meules ou à lames : la vraie différence en 2026"
 description: "Moulin à café à meules ou à lames : quelle différence sur le goût, et lequel choisir selon votre café ? Nos explications claires et notre sélection."
 pubDate: 2026-08-24
-author: "Rédaction"
+author: "Hugo B."
 pinHook: "Meules ou lames ? *La vraie différence*"
 pinSub: "Le choix qui change le goût."
 keywords: ["moulin à café meules ou lames", "moulin à meules", "moulin à café à lames", "meilleur moulin à meules"]

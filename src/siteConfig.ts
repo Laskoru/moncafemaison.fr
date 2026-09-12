@@ -41,7 +41,7 @@ export const siteConfig = {
   },
 
   // Auteur par défaut affiché sur les articles
-  author: 'Rédaction',
+  author: 'Hugo B.',
 
   // Code de vérification Google Search Console (méthode "balise HTML").
   // C'est la valeur après "google-site-verification=". Laisse vide si inutile.

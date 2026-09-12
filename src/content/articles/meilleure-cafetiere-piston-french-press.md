@@ -2,7 +2,7 @@
 title: "Cafetière à piston (French press) : laquelle choisir ?"
 description: "La cafetière à piston est la façon la plus simple d'obtenir un café riche. Nos critères et notre sélection, verre ou inox."
 pubDate: 2026-08-16
-author: "Rédaction"
+author: "Hugo B."
 pinHook: "Le café le plus simple, *le plus corsé*"
 pinSub: "La French press, réussie."
 keywords: ["cafetière à piston", "french press", "meilleure cafetière à piston", "meilleure cafetière à piston 2026"]

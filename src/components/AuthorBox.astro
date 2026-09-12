@@ -1,0 +1,45 @@
+---
+// Encart auteur en bas d'article. Signal de confiance (E-E-A-T) : un auteur
+// identifié, une bio HONNÊTE (aucun faux diplôme), et des liens vers la page
+// auteur, la méthode et le contact.
+import { siteConfig } from '../siteConfig';
+const author = (Astro.props as { author?: string }).author || siteConfig.author;
+const BIO = `Je fais mon café à la maison depuis des années, et j'ai lancé ce site parce que le matériel café est un vrai labyrinthe (espresso, moulin, filtre…) où l'on paie souvent trop cher pour le mauvais appareil. Chaque comparatif part d'un <strong>usage réel</strong> et de critères concrets, pas de la liste des best-sellers. Le site est <strong>indépendant</strong> : mes liens Amazon sont affiliés (une petite commission si vous achetez, sans surcoût pour vous), et quand un produit a des défauts, je le dis.`;
+const initials = author
+  .split(/\s+/)
+  .map((w) => w[0])
+  .join('')
+  .slice(0, 2)
+  .toUpperCase();
+---
+
+<aside class="authorbox" aria-label="À propos de l'auteur">
+  <div class="authorbox__avatar" aria-hidden="true">{initials}</div>
+  <div class="authorbox__body">
+    <p class="authorbox__name">
+      <a href="/auteur">{author}</a>
+      <span>Passionné de café & fondateur</span>
+    </p>
+    <p class="authorbox__text" set:html={BIO}></p>
+    <p class="authorbox__links">
+      <a href="/auteur">En savoir plus sur l'auteur →</a>
+      <a href="/a-propos">Notre méthode</a>
+      <a href="/contact">Signaler une erreur</a>
+    </p>
+  </div>
+</aside>
+
+<style>
+  .authorbox { display: flex; gap: 1.1rem; align-items: flex-start; margin: 2.5rem 0 0; padding: 1.4rem 1.5rem; background: var(--color-bg-soft); border: 1px solid var(--color-border); border-radius: var(--radius-lg); }
+  .authorbox__avatar { flex-shrink: 0; width: 52px; height: 52px; border-radius: 50%; display: inline-flex; align-items: center; justify-content: center; background: var(--color-accent); color: #fff; font-family: var(--font-display); font-weight: 600; font-size: 1.15rem; letter-spacing: 0.02em; }
+  .authorbox__name { margin: 0 0 0.4rem; font-family: var(--font-display); font-size: 1.05rem; color: var(--color-text); display: flex; flex-direction: column; line-height: 1.3; }
+  .authorbox__name a { color: var(--color-text); text-decoration: none; font-weight: 600; }
+  .authorbox__name a:hover { color: var(--color-accent); }
+  .authorbox__name span { font-family: var(--font-body); font-size: 0.82rem; font-weight: 500; color: var(--color-text-muted); }
+  .authorbox__text { margin: 0 0 0.7rem; font-size: 0.9rem; line-height: 1.6; color: var(--color-text-muted); }
+  .authorbox__text :global(strong) { color: var(--color-text); }
+  .authorbox__links { margin: 0; display: flex; flex-wrap: wrap; gap: 1.1rem; font-size: 0.88rem; font-weight: 600; }
+  .authorbox__links a { color: var(--color-accent); text-decoration: none; }
+  .authorbox__links a:hover { text-decoration: underline; }
+  @media (max-width: 560px) { .authorbox { gap: 0.9rem; padding: 1.2rem; } .authorbox__avatar { width: 44px; height: 44px; font-size: 1rem; } }
+</style>

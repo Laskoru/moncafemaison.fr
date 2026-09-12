@@ -2,7 +2,7 @@
 title: "Moulin à café pas cher : lequel vaut vraiment le coup ?"
 description: "Un moulin à café pas cher peut-il donner un bon résultat ? Nos critères pour ne pas se tromper à petit budget, et les pièges à éviter."
 pubDate: 2026-09-12
-author: "Rédaction"
+author: "Hugo B."
 pinHook: "Un petit budget *ne veut pas dire* mauvais café"
 pinSub: "Ce qu'il faut vraiment vérifier avant d'acheter un moulin pas cher."
 keywords: ["moulin à café pas cher", "moulin à café petit budget", "meilleur moulin à café économique", "moulin à café bon rapport qualité prix"]

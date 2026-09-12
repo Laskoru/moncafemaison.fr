@@ -6,6 +6,7 @@ import AffiliateDisclosure from '../components/AffiliateDisclosure.astro';
 import Breadcrumbs from '../components/Breadcrumbs.astro';
 import ArticleCard from '../components/ArticleCard.astro';
 import ShareButtons from '../components/ShareButtons.astro';
+import AuthorBox from '../components/AuthorBox.astro';
 import { siteConfig } from '../siteConfig';
 import { categories, type CategorySlug } from '../categories';
 import { isAvailable, searchUrl } from '../lib/availability';
@@ -13,6 +14,7 @@ import { isAvailable, searchUrl } from '../lib/availability';
 interface Heading { depth: number; slug: string; text: string }
 interface FaqItem { question: string; answer: string }
 interface Comparison { columns: string[]; rows: string[][] }
+interface Source { label: string; url: string }
 
 interface Props {
   slug: string;
@@ -29,6 +31,7 @@ interface Props {
   readingMinutes?: number;
   faq?: FaqItem[];
   comparison?: Comparison;
+  sources?: Source[];
 }
 
 const {
@@ -47,6 +50,7 @@ const {
   readingMinutes,
   faq = [],
   comparison,
+  sources = [],
 } = Astro.props;
 const hasProducts = siteConfig.amazon.enabled && products.length > 0;
 
@@ -98,9 +102,10 @@ const articleSchema = {
   description,
   datePublished: pubDate.toISOString(),
   dateModified: (updatedDate ?? pubDate).toISOString(),
-  author: { '@type': 'Organization', name: author ?? siteConfig.author },
-  publisher: { '@type': 'Organization', name: siteConfig.name },
+  author: { '@type': 'Person', name: author ?? siteConfig.author, url: new URL('/auteur', siteUrl).toString() },
+  publisher: { '@type': 'Organization', name: siteConfig.name, '@id': `${siteUrl}/#organization` },
   ...(coverImageAbs ? { image: coverImageAbs } : {}),
+  ...(sources.length > 0 ? { citation: sources.map((s) => ({ '@type': 'CreativeWork', name: s.label, url: s.url })) } : {}),
   mainEntityOfPage: new URL(Astro.url.pathname, siteUrl).toString(),
 };
 
@@ -235,6 +240,20 @@ const jsonLdArticle = [articleSchema, breadcrumbSchema, ...(faqSchema ? [faqSche
       </div>
     )}
 
+    {sources.length > 0 && (
+      <div class="article-sources">
+        <h2>Sources &amp; références</h2>
+        <p class="article-sources__intro">
+          Les informations de cet article s'appuient sur des sources publiques et reconnues.
+        </p>
+        <ul class="article-sources__list">
+          {sources.map((s) => (
+            <li><a href={s.url} target="_blank" rel="noopener">{s.label}</a></li>
+          ))}
+        </ul>
+      </div>
+    )}
+
     <ShareButtons url={shareUrl} title={title} image={coverImage} />
 
     {hasProducts && (
@@ -257,6 +276,8 @@ const jsonLdArticle = [articleSchema, breadcrumbSchema, ...(faqSchema ? [faqSche
         ))}
       </div>
     )}
+
+    <AuthorBox author={author} />
 
     {relatedArticles.length > 0 && (
       <div class="article-related">
@@ -381,4 +402,14 @@ const jsonLdArticle = [articleSchema, breadcrumbSchema, ...(faqSchema ? [faqSche
 
   .article-related { margin-top: 3rem; padding-top: 2rem; border-top: 1px solid var(--color-border); }
   .article-related__list { display: flex; flex-direction: column; gap: 1.1rem; }
+
+  /* ---- Sources & références (E-E-A-T) ---- */
+  .article-sources { margin-top: 2.6rem; padding: 1.3rem 1.5rem; border-radius: var(--radius-lg); background: var(--color-surface); border: 1px solid var(--color-border); }
+  .article-sources h2 { margin: 0 0 0.4rem; font-size: 1.15rem; }
+  .article-sources__intro { margin: 0 0 0.9rem; font-size: 0.9rem; color: var(--color-text-muted); }
+  .article-sources__list { list-style: none; padding: 0; margin: 0; display: flex; flex-direction: column; gap: 0.55rem; }
+  .article-sources__list li { position: relative; padding-left: 1.4em; font-size: 0.95rem; }
+  .article-sources__list li::before { content: '↗'; position: absolute; left: 0; top: 0; color: var(--color-accent); font-weight: 700; }
+  .article-sources__list a { color: var(--color-accent); text-decoration: none; font-weight: 600; }
+  .article-sources__list a:hover { text-decoration: underline; }
 </style>

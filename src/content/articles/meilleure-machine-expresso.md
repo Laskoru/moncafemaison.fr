@@ -2,7 +2,7 @@
 title: "Machine expresso : le guide pour bien débuter"
 description: "Quelle machine expresso choisir pour débuter à la maison ? Porte-filtre ou capsules : nos critères et notre sélection abordable."
 pubDate: 2026-08-16
-author: "Rédaction"
+author: "Hugo B."
 pinHook: "Un vrai espresso *sans se ruiner*"
 pinSub: "La machine pour débuter, bien choisie."
 keywords: ["machine expresso", "meilleure machine expresso débuter", "machine expresso pas cher", "meilleure machine expresso 2026"]
