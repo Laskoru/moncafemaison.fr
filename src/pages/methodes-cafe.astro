@@ -1,0 +1,225 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Breadcrumbs from '../components/Breadcrumbs.astro';
+import { siteConfig } from '../siteConfig';
+
+// Page pilier « par méthode » : le concept signature des références du café
+// (MaxiCoffee & co) — comparer toutes les méthodes d'extraction, puis renvoyer
+// vers le matériel et le calculateur. Aucune donnée inventée : ce sont des
+// caractéristiques connues de chaque méthode.
+interface Method {
+  slug: string;
+  name: string;
+  emoji: string;
+  tasse: string;
+  corps: number; // 1-5
+  difficulte: number; // 1-5
+  budget: string;
+  temps: string;
+  ideal: string;
+  desc: string;
+  links: { label: string; href: string }[];
+}
+
+const methods: Method[] = [
+  {
+    slug: 'espresso', name: 'Espresso', emoji: '☕',
+    tasse: 'Court, intense, crema', corps: 5, difficulte: 4, budget: '€€€ – €€€€', temps: '≈ 1 min',
+    ideal: "vous aimez l'intensité, le latte et le cappuccino",
+    desc: "La méthode reine : de l'eau chaude sous pression traverse une mouture fine et tassée. Résultat concentré, corsé, surmonté d'une crema. Demande une machine, un bon moulin et un peu de pratique (mouture, tassage).",
+    links: [
+      { label: 'Comparatif machines expresso', href: '/articles/meilleure-machine-expresso/' },
+      { label: 'Machines à broyeur intégré', href: '/articles/machine-expresso-broyeur-integre/' },
+    ],
+  },
+  {
+    slug: 'grain', name: 'Machine à grain', emoji: '🫘',
+    tasse: 'Espresso & café long automatiques', corps: 4, difficulte: 1, budget: '€€€ – €€€€', temps: '≈ 40 s',
+    ideal: "vous voulez le café fraîchement moulu, sans effort",
+    desc: "La machine moud le grain juste avant l'extraction, à la demande. Café frais et régulier d'un bouton, souvent avec mousse de lait. Investissement de départ, mais coût à la tasse très bas.",
+    links: [{ label: 'Comparatif machines à grain', href: '/articles/meilleure-cafetiere-grains/' }],
+  },
+  {
+    slug: 'moka', name: 'Cafetière italienne (moka)', emoji: '🇮🇹',
+    tasse: 'Corsé, « espresso-like »', corps: 4, difficulte: 2, budget: '€', temps: '≈ 5 min',
+    ideal: "vous voulez un café corsé, pour pas cher, sur le feu",
+    desc: "Le classique inventé par Bialetti en 1933 : la vapeur pousse l'eau à travers la mouture. Café puissant sans machine coûteuse. Increvable, mais demande le bon réglage de feu et de mouture.",
+    links: [{ label: 'Bien choisir sa cafetière italienne', href: '/articles/cafetiere-italienne-moka/' }],
+  },
+  {
+    slug: 'piston', name: 'Piston (French press)', emoji: '🫗',
+    tasse: 'Rond, corsé, huileux', corps: 4, difficulte: 1, budget: '€', temps: '≈ 4-5 min',
+    ideal: "vous cherchez la simplicité et une grande tasse",
+    desc: "Infusion libre : la mouture trempe dans l'eau chaude, puis un piston à filtre métallique sépare le marc. Sans filtre papier, les huiles restent : tasse ronde et corsée. Simple, sans électricité.",
+    links: [{ label: 'Comparatif cafetières à piston', href: '/articles/meilleure-cafetiere-piston-french-press/' }],
+  },
+  {
+    slug: 'filtre', name: 'Filtre / V60 (pour-over)', emoji: '🌀',
+    tasse: 'Clair, aromatique, net', corps: 2, difficulte: 3, budget: '€ – €€', temps: '≈ 3-4 min',
+    ideal: "vous voulez révéler les arômes d'un café de spécialité",
+    desc: "L'eau s'écoule à travers un filtre papier : tasse propre et parfumée, qui met en valeur les cafés de spécialité. En cafetière filtre c'est automatique et facile ; en V60 manuel, c'est plus technique (versement, mouture).",
+    links: [
+      { label: 'Cafetières filtre programmables', href: '/articles/meilleure-cafetiere-filtre-programmable/' },
+      { label: 'La Chemex (filtre design)', href: '/articles/chemex-cafetiere-filtre-design/' },
+    ],
+  },
+  {
+    slug: 'dosette', name: 'Dosette / capsule', emoji: '📦',
+    tasse: 'Régulier, pratique', corps: 3, difficulte: 1, budget: '€ (machine)', temps: '≈ 30 s',
+    ideal: "vous voulez zéro effort et zéro entretien de mouture",
+    desc: "Une dose pré-emballée, un bouton : rapide, régulier, aucune mouture à gérer. Le revers : le coût à la tasse est le plus élevé, et le choix de cafés plus limité.",
+    links: [{ label: 'Cafetières à dosette souple (ESE)', href: '/articles/cafetiere-dosette-souple-ese/' }],
+  },
+  {
+    slug: 'coldbrew', name: 'Cold brew', emoji: '🧊',
+    tasse: 'Doux, peu acide, froid', corps: 3, difficulte: 1, budget: '€', temps: '12-24 h',
+    ideal: "vous aimez le café froid, doux et désaltérant l'été",
+    desc: "Extraction à froid : la mouture infuse 12 à 24 h au réfrigérateur. Résultat naturellement doux et peu acide, à servir sur glace. Aucun matériel spécifique, juste de la patience.",
+    links: [{ label: 'Le bon moulin pour bien commencer', href: '/articles/meilleur-moulin-cafe-electrique/' }],
+  },
+];
+
+const stars = (n: number) => '★★★★★'.slice(0, n) + '☆☆☆☆☆'.slice(0, 5 - n);
+
+const faq = [
+  { q: "Quelle est la méthode la plus simple pour débuter ?", a: "La cafetière à piston (French press) : pas d'électricité, pas de réglage délicat, un ratio simple et une grande tasse. La cafetière italienne est une autre excellente porte d'entrée, très abordable." },
+  { q: "Quelle méthode donne le café le moins cher à la tasse ?", a: "Le café en grain (moulu à la demande) et la mouture classique (piston, moka, filtre) reviennent à 0,10–0,15 € la tasse, contre 0,30–0,50 € pour une capsule. La machine à grain coûte cher à l'achat mais se rentabilise vite si vous buvez beaucoup de café." },
+  { q: "Faut-il un moulin quel que soit le choix ?", a: "Sauf pour les dosettes/capsules, oui : moudre son café juste avant l'extraction change tout au goût. Un moulin à meules (et non à lames) donne une mouture régulière, indispensable surtout pour l'espresso." },
+];
+
+const siteUrl = Astro.site?.origin ?? Astro.url.origin;
+const jsonLd = [
+  {
+    '@context': 'https://schema.org',
+    '@type': 'FAQPage',
+    mainEntity: faq.map((f) => ({ '@type': 'Question', name: f.q, acceptedAnswer: { '@type': 'Answer', text: f.a } })),
+  },
+];
+---
+
+<BaseLayout
+  title="Quelle méthode pour votre café ? Le guide des méthodes d'extraction"
+  description={`Espresso, moka, piston, filtre, cold brew, dosette : comparez toutes les méthodes pour faire son café (résultat, corps, difficulté, budget, temps) et trouvez celle qui vous correspond. ${siteConfig.name}.`}
+  jsonLd={jsonLd}
+>
+  <section class="container methodes">
+    <Breadcrumbs items={[{ label: 'Accueil', href: '/' }, { label: 'Quelle méthode de café ?' }]} />
+
+    <header class="methodes__head">
+      <p class="methodes__eyebrow">Le guide de référence</p>
+      <h1>Quelle méthode pour votre café ?</h1>
+      <p class="methodes__lede">
+        Avant de choisir une cafetière, choisissez une <strong>méthode</strong>. Chacune donne une tasse
+        différente et demande plus ou moins de matériel, de budget et de temps. Voici le panorama complet
+        pour trouver la vôtre — puis le matériel qui va avec.
+      </p>
+    </header>
+
+    <div class="table-wrap">
+      <table class="cmp">
+        <thead>
+          <tr>
+            <th>Méthode</th><th>Résultat en tasse</th><th>Corps</th><th>Facilité</th><th>Budget</th><th>Temps</th>
+          </tr>
+        </thead>
+        <tbody>
+          {methods.map((m) => (
+            <tr>
+              <th scope="row"><a href={`#${m.slug}`}>{m.emoji} {m.name}</a></th>
+              <td>{m.tasse}</td>
+              <td><span class="stars" title={`Corps ${m.corps}/5`}>{stars(m.corps)}</span></td>
+              <td><span class="stars" title={`Facilité ${6 - m.difficulte}/5`}>{stars(6 - m.difficulte)}</span></td>
+              <td>{m.budget}</td>
+              <td>{m.temps}</td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </div>
+    <p class="cmp__note">« Facilité » : plus il y a d'étoiles, plus la méthode est simple à réussir du premier coup.</p>
+
+    <div class="methodes__cards">
+      {methods.map((m) => (
+        <article class="mcard" id={m.slug}>
+          <div class="mcard__head">
+            <span class="mcard__emoji" aria-hidden="true">{m.emoji}</span>
+            <h2>{m.name}</h2>
+          </div>
+          <p class="mcard__meta"><strong>Idéal si</strong> {m.ideal}.</p>
+          <p class="mcard__desc">{m.desc}</p>
+          <p class="mcard__links">
+            {m.links.map((l) => <a href={l.href}>{l.label} →</a>)}
+          </p>
+        </article>
+      ))}
+    </div>
+
+    <aside class="methodes__tools">
+      <h2>Les deux réflexes qui changent tout</h2>
+      <p>
+        Quelle que soit la méthode, deux choses font 80 % du résultat : le <strong>bon ratio</strong> café/eau,
+        et une <strong>mouture régulière</strong> moulue juste avant l'extraction.
+      </p>
+      <p class="methodes__tools-links">
+        <a class="btn btn--primary" href="/calculateur-dosage-cafe/">Calculer mon dosage →</a>
+        <a class="btn btn--outline" href="/articles/meilleur-moulin-cafe-electrique/">Choisir un moulin</a>
+        <a class="btn btn--outline" href="/lexique">Le lexique du café</a>
+      </p>
+    </aside>
+
+    <div class="methodes__faq">
+      <h2>Questions fréquentes</h2>
+      {faq.map((f) => (
+        <details class="methodes__faq-item">
+          <summary>{f.q}</summary>
+          <p>{f.a}</p>
+        </details>
+      ))}
+    </div>
+  </section>
+</BaseLayout>
+
+<style>
+  .methodes { padding: 2.2rem 0 3.5rem; }
+  .methodes__head { max-width: 760px; margin-bottom: 1.8rem; }
+  .methodes__eyebrow { font-family: var(--font-display); font-size: 0.8rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.05em; color: var(--color-accent); margin: 0 0 0.5rem; }
+  .methodes__head h1 { margin: 0 0 0.6rem; }
+  .methodes__lede { color: var(--color-text-muted); font-size: 1.12rem; line-height: 1.7; }
+  .methodes__lede strong { color: var(--color-text); }
+
+  .table-wrap { overflow-x: auto; margin: 1.5rem 0 0.4rem; border: 1px solid var(--color-border); border-radius: var(--radius-lg); }
+  .cmp { width: 100%; border-collapse: collapse; font-size: 0.95rem; min-width: 640px; }
+  .cmp th, .cmp td { text-align: left; padding: 0.8rem 0.9rem; border-bottom: 1px solid var(--color-border); }
+  .cmp thead th { font-family: var(--font-display); font-size: 0.82rem; text-transform: uppercase; letter-spacing: 0.02em; color: var(--color-text-muted); background: var(--color-bg-soft); white-space: nowrap; }
+  .cmp tbody tr:last-child th, .cmp tbody tr:last-child td { border-bottom: 0; }
+  .cmp tbody th[scope="row"] { font-weight: 700; white-space: nowrap; }
+  .cmp tbody th a { color: var(--color-text); text-decoration: none; }
+  .cmp tbody th a:hover { color: var(--color-accent); }
+  .stars { color: var(--color-accent); letter-spacing: 1px; white-space: nowrap; }
+  .cmp__note { font-size: 0.85rem; color: var(--color-text-muted); margin: 0.5rem 0 0; }
+
+  .methodes__cards { display: grid; grid-template-columns: 1fr 1fr; gap: 1.1rem; margin: 2.4rem 0; }
+  .mcard { padding: 1.3rem 1.4rem; border: 1px solid var(--color-border); border-radius: var(--radius-lg); background: var(--color-surface); scroll-margin-top: 5rem; }
+  .mcard__head { display: flex; align-items: center; gap: 0.6rem; margin-bottom: 0.5rem; }
+  .mcard__emoji { font-size: 1.5rem; }
+  .mcard__head h2 { margin: 0; font-size: 1.2rem; }
+  .mcard__meta { margin: 0 0 0.6rem; font-size: 0.92rem; color: var(--color-text-muted); }
+  .mcard__meta strong { color: var(--color-accent); }
+  .mcard__desc { margin: 0 0 0.9rem; font-size: 0.95rem; line-height: 1.6; color: var(--color-text-muted); }
+  .mcard__links { margin: 0; display: flex; flex-direction: column; gap: 0.35rem; }
+  .mcard__links a { color: var(--color-accent); text-decoration: none; font-weight: 600; font-size: 0.9rem; }
+  .mcard__links a:hover { text-decoration: underline; }
+
+  .methodes__tools { margin: 1rem 0 2.4rem; padding: 1.5rem 1.6rem; border-radius: var(--radius-lg); background: var(--color-bg-soft); border: 1px solid var(--color-border); }
+  .methodes__tools h2 { margin: 0 0 0.5rem; font-size: 1.25rem; }
+  .methodes__tools p { color: var(--color-text-muted); line-height: 1.65; margin: 0 0 0.9rem; }
+  .methodes__tools strong { color: var(--color-text); }
+  .methodes__tools-links { display: flex; flex-wrap: wrap; gap: 0.7rem; margin: 0; }
+
+  .methodes__faq h2 { font-size: 1.4rem; margin: 0 0 1rem; }
+  .methodes__faq-item { border: 1px solid var(--color-border); border-radius: var(--radius-lg); background: var(--color-surface); padding: 1rem 1.3rem; margin-bottom: 0.8rem; }
+  .methodes__faq-item summary { cursor: pointer; font-weight: 600; font-family: var(--font-display); }
+  .methodes__faq-item p { margin: 0.7rem 0 0; color: var(--color-text-muted); line-height: 1.6; }
+
+  @media (max-width: 640px) { .methodes__cards { grid-template-columns: 1fr; } }
+</style>
