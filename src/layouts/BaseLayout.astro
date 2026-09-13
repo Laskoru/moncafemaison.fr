@@ -57,18 +57,25 @@ const jsonLdBlocks = [organizationSchema, ...(jsonLd ? (Array.isArray(jsonLd) ? 
       <meta name="p:domain_verify" content={siteConfig.pinterestVerification} />
     )}
     {siteConfig.gaId && (
-      <>
-        <script is:inline async src={`https://www.googletagmanager.com/gtag/js?id=${siteConfig.gaId}`}></script>
-        <script define:vars={{ gaId: siteConfig.gaId }}>
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){ dataLayer.push(arguments); }
+      <script define:vars={{ gaId: siteConfig.gaId }}>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){ dataLayer.push(arguments); }
+        document.addEventListener('cookie-consent-accepted', function () {
+          if (window.__gaLoaded) return;
+          window.__gaLoaded = true;
+          var s = document.createElement('script');
+          s.async = true;
+          s.src = 'https://www.googletagmanager.com/gtag/js?id=' + gaId;
+          document.head.appendChild(s);
           gtag('js', new Date());
           gtag('config', gaId);
-        </script>
-      </>
-    )}
-    {siteConfig.gaId && (
-      <script is:inline set:html={`(function(){window.dataLayer=window.dataLayer||[];function gtag(){window.dataLayer.push(arguments);}document.addEventListener('click',function(e){var a=e.target&&e.target.closest?e.target.closest('a[href*="amazon."]'):null;if(!a)return;gtag('event','amazon_click',{link_url:a.href,link_text:(a.textContent||'').trim().slice(0,100),page_path:location.pathname});},true);})();`}></script>
+          document.addEventListener('click', function (e) {
+            var a = e.target && e.target.closest ? e.target.closest('a[href*="amazon."]') : null;
+            if (!a) return;
+            gtag('event', 'amazon_click', { link_url: a.href, link_text: (a.textContent || '').trim().slice(0, 100), page_path: location.pathname });
+          }, true);
+        }, { once: true });
+      </script>
     )}
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -126,6 +133,6 @@ const jsonLdBlocks = [organizationSchema, ...(jsonLd ? (Array.isArray(jsonLd) ? 
       <slot />
     </main>
     <Footer />
-    {siteConfig.adsense.enabled && <CookieConsent />}
+    {(siteConfig.gaId || siteConfig.adsense.enabled) && <CookieConsent />}
   </body>
 </html>
