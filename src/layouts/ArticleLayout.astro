@@ -281,6 +281,15 @@ const jsonLdArticle = [articleSchema, breadcrumbSchema, ...(faqSchema ? [faqSche
 
     <AuthorBox author={author} />
 
+    <aside class="article-tools" aria-label="Outils et guides pratiques">
+      <h2>Outils &amp; guides pratiques</h2>
+      <div class="article-tools__list">
+          <a href="/methodes-cafe/">Méthodes d’extraction →</a>
+          <a href="/calculateur-dosage-cafe/">Calculateur de dosage →</a>
+          <a href="/lexique">Lexique du café →</a>
+      </div>
+    </aside>
+
     {relatedArticles.length > 0 && (
       <div class="article-related">
         <h2>À lire aussi{categoryInfo && <> — {categoryInfo.label}</>}</h2>
@@ -414,4 +423,10 @@ const jsonLdArticle = [articleSchema, breadcrumbSchema, ...(faqSchema ? [faqSche
   .article-sources__list li::before { content: '↗'; position: absolute; left: 0; top: 0; color: var(--color-accent); font-weight: 700; }
   .article-sources__list a { color: var(--color-accent); text-decoration: none; font-weight: 600; }
   .article-sources__list a:hover { text-decoration: underline; }
+
+  .article-tools { margin-top: 3rem; }
+  .article-tools > h2 { font-size: 1.3rem; margin: 0 0 1rem; }
+  .article-tools__list { display: flex; flex-wrap: wrap; gap: 0.7rem; }
+  .article-tools__list a { display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.6rem 1rem; border-radius: 999px; border: 1px solid var(--color-border); background: var(--color-surface); color: var(--color-accent); text-decoration: none; font-weight: 600; font-size: 0.9rem; transition: border-color .15s, background .15s; }
+  .article-tools__list a:hover { border-color: var(--color-accent); background: var(--color-bg-soft); }
 </style>
