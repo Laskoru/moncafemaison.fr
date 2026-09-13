@@ -3,7 +3,7 @@ import BaseLayout from '../layouts/BaseLayout.astro';
 import { siteConfig } from '../siteConfig';
 ---
 
-<BaseLayout title="Politique de confidentialité" description="Politique de confidentialité et cookies du site.">
+<BaseLayout title="Politique de confidentialité" description="Politique de confidentialité, cookies et mesure d'audience du site.">
   <section class="container">
     <h1>Politique de confidentialité</h1>
 
@@ -12,27 +12,46 @@ import { siteConfig } from '../siteConfig';
       {siteConfig.name} participe au Programme Partenaires Amazon EU, un programme d'affiliation
       permettant de percevoir une commission sur les achats remplissant les conditions requises, effectués
       via les liens présents sur ce site vers Amazon.fr. Cliquer sur un lien Amazon vous redirige vers leur
-      site, où Amazon applique sa propre politique de cookies et de confidentialité.
+      site, où Amazon applique sa propre politique de cookies et de confidentialité. L'affiliation repose
+      uniquement sur un identifiant ajouté à l'adresse (URL) du lien : elle <strong>ne nécessite aucun cookie
+      déposé par notre site</strong> et fonctionne que vous acceptiez ou non la mesure d'audience.
     </p>
 
-    <h2>Cookies</h2>
+    <h2>Cookies et consentement</h2>
     <p>
-      Ce site ne dépose actuellement aucun cookie publicitaire depuis son propre domaine. Si des
-      publicités personnalisées (Google AdSense) sont activées à l'avenir, cette section sera mise à jour
-      et un bandeau de consentement sera affiché.
+      Lors de votre première visite, un bandeau vous permet d'<strong>accepter ou de refuser</strong> les
+      cookies de mesure d'audience. Tant que vous n'avez pas accepté, <strong>aucun cookie de mesure n'est
+      déposé</strong>. Seuls restent les éléments strictement nécessaires au fonctionnement du site et la
+      mémorisation de votre choix de consentement, qui ne requièrent pas d'accord.
+    </p>
+    <p>
+      Refuser n'altère en rien votre navigation : le site reste entièrement accessible. Votre choix est
+      conservé dans votre navigateur ; pour le modifier, effacez les données de ce site dans votre
+      navigateur, ce qui réaffichera le bandeau.
     </p>
 
-    <h2>Mesure d'audience</h2>
+    <h2>Mesure d'audience (Google Analytics)</h2>
     <p>
-      Ce site n'utilise actuellement aucun outil de mesure d'audience déposant des cookies. Si un outil de
-      statistiques est ajouté à l'avenir, cette page sera mise à jour en conséquence.
+      Avec votre consentement, ce site utilise <strong>Google Analytics 4</strong> (fourni par Google
+      Ireland Limited) pour mesurer son audience de façon agrégée : nombre de visiteurs, pages consultées,
+      provenance (moteur de recherche, réseau social, lien direct), type d'appareil et durée de visite. Ces
+      statistiques nous servent uniquement à améliorer le contenu du site. Nous mesurons aussi, à des fins
+      statistiques internes, les clics vers Amazon — pour savoir quels articles sont utiles —
+      <strong>sans jamais collecter de données bancaires ni d'informations de votre compte Amazon</strong>.
+    </p>
+    <p>
+      Google agit en tant que sous-traitant et peut traiter certaines de ces données depuis ses serveurs.
+      Nous ne vendons ni ne cédons vos données à des tiers. En cas de refus, aucune de ces mesures n'est
+      effectuée.
     </p>
 
     <h2>Vos droits</h2>
     <p>
       Conformément au Règlement général sur la protection des données (RGPD), vous disposez d'un droit
-      d'accès, de rectification et de suppression des données vous concernant. Pour l'exercer, écrivez à
-      <a href={`mailto:${siteConfig.contactEmail}`}>{siteConfig.contactEmail}</a>.
+      d'accès, de rectification, de suppression et d'opposition concernant les données vous concernant.
+      Pour l'exercer, écrivez à
+      <a href={`mailto:${siteConfig.contactEmail}`}>{siteConfig.contactEmail}</a>. Vous pouvez également
+      introduire une réclamation auprès de la CNIL (<a href="https://www.cnil.fr" target="_blank" rel="noopener">www.cnil.fr</a>).
     </p>
   </section>
 </BaseLayout>

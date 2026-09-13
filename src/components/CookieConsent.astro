@@ -1,14 +1,15 @@
 ---
 // Bandeau de consentement minimal conforme RGPD.
-// Tant que l'utilisateur n'a pas cliqué "Accepter", le script AdSense
-// (voir BaseLayout.astro) n'est pas chargé.
+// Tant que l'utilisateur n'a pas cliqué "Accepter", aucun script de mesure
+// d'audience (Google Analytics, voir BaseLayout.astro) n'est chargé.
 ---
 
 <div id="cookie-banner" class="cookie-banner" hidden>
   <div class="cookie-banner__inner">
     <p>
-      Ce site utilise des cookies pour afficher des publicités personnalisées.
-      Vous pouvez accepter ou refuser leur utilisation. Voir notre
+      Ce site utilise des cookies de <strong>mesure d'audience</strong> (Google Analytics)
+      pour comprendre comment il est consulté et l'améliorer. Ils ne sont déposés que si
+      vous acceptez. Voir notre
       <a href="/politique-de-confidentialite">politique de confidentialité</a>.
     </p>
     <div class="cookie-banner__actions">
