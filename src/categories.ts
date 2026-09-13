@@ -17,6 +17,12 @@ export const categories = [
     label: 'Accessoires & entretien',
     description: 'Mousseurs à lait, balances, bouilloires, détartrants : les petits plus qui font la différence.',
   },
+  {
+    slug: 'preparer',
+    icon: '📖',
+    label: 'Préparer son café',
+    description: 'Réussir chaque méthode : espresso, moka, piston, filtre, cold brew — ratios, mouture et gestes qui changent la tasse.',
+  },
 ] as const;
 
 export type CategorySlug = (typeof categories)[number]['slug'];

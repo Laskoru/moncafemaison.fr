@@ -11,7 +11,7 @@ const articles = defineCollection({
     // mots-clés ciblés par l'article, utile pour ton suivi éditorial
     keywords: z.array(z.string()).default([]),
     // catégorie utilisée pour le classement par thème sur l'accueil
-    category: z.enum(['machines', 'moulins', 'accessoires']),
+    category: z.enum(['machines', 'moulins', 'accessoires', 'preparer']),
     // image de couverture optionnelle, chemin relatif dans /public
     coverImage: z.string().optional(),
     coverAlt: z.string().optional(),
