@@ -2,13 +2,17 @@
 import type { CollectionEntry } from 'astro:content';
 import { siteConfig } from '../siteConfig';
 import { resolveProductImages } from '../lib/products';
+import { resolveCoverImage } from '../lib/covers';
 
 interface Props {
   article: CollectionEntry<'articles'>;
 }
 
 const { article } = Astro.props;
-const thumbs = resolveProductImages(article.data.products, 2);
+// Carte éditoriale : on privilégie l'image de couverture (plus « magazine »),
+// et on retombe sur les miniatures produit seulement si aucune couverture.
+const cover = resolveCoverImage(article.slug, article.data.coverImage);
+const thumbs = cover ? [] : resolveProductImages(article.data.products, 2);
 
 const dateFormatter = new Intl.DateTimeFormat(siteConfig.locale.replace('_', '-'), {
   year: 'numeric',
@@ -18,7 +22,12 @@ const dateFormatter = new Intl.DateTimeFormat(siteConfig.locale.replace('_', '-'
 const readingMinutes = Math.max(1, Math.round(article.body.trim().split(/\s+/).length / 200));
 ---
 
-<article class="article-card card card--hover">
+<article class:list={['article-card', 'card', 'card--hover', { 'article-card--cover': cover }]}>
+  {cover && (
+    <a class="article-card__cover" href={`/articles/${article.slug}/`} tabindex="-1" aria-hidden="true">
+      <img src={cover} alt="" loading="lazy" width="220" height="150" onerror="this.closest('.article-card__cover').remove()" />
+    </a>
+  )}
   <div class="article-card__body">
     <p class="eyebrow">{dateFormatter.format(article.data.pubDate)} · {readingMinutes} min de lecture</p>
     <h3><a class="stretched-link" href={`/articles/${article.slug}/`}>{article.data.title}</a></h3>
@@ -39,8 +48,28 @@ const readingMinutes = Math.max(1, Math.round(article.body.trim().split(/\s+/).l
     align-items: center;
     gap: 1.4rem;
     padding: 1.25rem 1.4rem;
+    overflow: hidden;
   }
+  /* Variante « avec couverture » : l'image pleine hauteur à gauche, sans padding à gauche */
+  .article-card--cover { padding-left: 0; }
+  .article-card__cover {
+    flex-shrink: 0;
+    align-self: stretch;
+    width: 168px;
+    overflow: hidden;
+    display: block;
+  }
+  .article-card__cover img {
+    width: 100%;
+    height: 100%;
+    min-height: 118px;
+    object-fit: cover;
+    display: block;
+    transition: transform 0.5s ease;
+  }
+  .article-card:hover .article-card__cover img { transform: scale(1.06); }
   .article-card__body { flex: 1; min-width: 0; }
+  .article-card--cover .article-card__body { padding: 0.1rem 0; }
   .article-card h3 {
     margin: 0.4rem 0 0.45rem;
     font-size: 1.25rem;
@@ -53,19 +82,14 @@ const readingMinutes = Math.max(1, Math.round(article.body.trim().split(/\s+/).l
     margin: 0;
     font-size: 0.94rem;
     line-height: 1.55;
-    /* limite à 2 lignes pour garder les cartes régulières */
     display: -webkit-box;
     -webkit-line-clamp: 2;
     -webkit-box-orient: vertical;
     overflow: hidden;
   }
 
-  /* Miniatures produits */
-  .article-card__thumbs {
-    display: flex;
-    gap: 0.5rem;
-    flex-shrink: 0;
-  }
+  /* Miniatures produits (repli si pas de couverture) */
+  .article-card__thumbs { display: flex; gap: 0.5rem; flex-shrink: 0; }
   .article-card__thumb {
     width: 82px;
     height: 82px;
@@ -77,17 +101,13 @@ const readingMinutes = Math.max(1, Math.round(article.body.trim().split(/\s+/).l
   }
 
   @media (max-width: 560px) {
-    .article-card {
-      flex-direction: column;
-      align-items: stretch;
-      gap: 1rem;
-    }
-    /* Sur mobile : miniatures SOUS le texte, en ligne, largeurs égales */
-    .article-card__thumbs { gap: 0.6rem; }
-    .article-card__thumb {
-      flex: 1;
-      width: auto;
-      height: 104px;
-    }
+    .article-card { flex-direction: column; align-items: stretch; gap: 1rem; padding: 0; }
+    .article-card__cover { width: 100%; height: 180px; align-self: auto; }
+    .article-card__cover img { min-height: 0; }
+    .article-card__body { padding: 0 1.2rem; }
+    .article-card--cover .article-card__body { padding: 0 1.2rem 0.2rem; }
+    .article-card:not(.article-card--cover) .article-card__body { padding-top: 1.2rem; }
+    .article-card__thumbs { gap: 0.6rem; padding: 0 1.2rem 1.2rem; }
+    .article-card__thumb { flex: 1; width: auto; height: 104px; }
   }
 </style>
