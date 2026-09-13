@@ -67,6 +67,9 @@ const jsonLdBlocks = [organizationSchema, ...(jsonLd ? (Array.isArray(jsonLd) ? 
         </script>
       </>
     )}
+    {siteConfig.gaId && (
+      <script is:inline set:html={`(function(){window.dataLayer=window.dataLayer||[];function gtag(){window.dataLayer.push(arguments);}document.addEventListener('click',function(e){var a=e.target&&e.target.closest?e.target.closest('a[href*="amazon."]'):null;if(!a)return;gtag('event','amazon_click',{link_url:a.href,link_text:(a.textContent||'').trim().slice(0,100),page_path:location.pathname});},true);})();`}></script>
+    )}
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
