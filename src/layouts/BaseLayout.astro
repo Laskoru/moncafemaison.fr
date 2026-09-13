@@ -56,6 +56,17 @@ const jsonLdBlocks = [organizationSchema, ...(jsonLd ? (Array.isArray(jsonLd) ? 
     {siteConfig.pinterestVerification && (
       <meta name="p:domain_verify" content={siteConfig.pinterestVerification} />
     )}
+    {siteConfig.gaId && (
+      <>
+        <script is:inline async src={`https://www.googletagmanager.com/gtag/js?id=${siteConfig.gaId}`}></script>
+        <script define:vars={{ gaId: siteConfig.gaId }}>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){ dataLayer.push(arguments); }
+          gtag('js', new Date());
+          gtag('config', gaId);
+        </script>
+      </>
+    )}
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
