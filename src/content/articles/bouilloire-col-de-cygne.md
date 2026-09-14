@@ -8,7 +8,6 @@ pinHook: "Le geste qui *maîtrise* l'extraction"
 pinSub: "Pourquoi le col de cygne change vraiment le résultat en tasse."
 keywords: ["bouilloire à col de cygne", "bouilloire pour-over", "gooseneck kettle", "bouilloire café filtre"]
 category: "accessoires"
-coverImage: "https://images.unsplash.com/photo-1768674150917-55b1ddf46a02?q=80&w=1600&auto=format&fit=crop"
 coverAlt: "Bouilloire à col de cygne en inox posée sur un plan en bois"
 draft: false
 faq:

@@ -8,7 +8,6 @@ pinHook: "Le geste d'entretien *qui prolonge* la machine"
 pinSub: "Pourquoi un bon détartrant change la durée de vie (et le goût) du café."
 keywords: ["détartrant machine à café", "meilleur détartrant café", "détartrer cafetière", "détartrant acide citrique"]
 category: "accessoires"
-coverImage: "https://images.unsplash.com/photo-1581068106019-5aa70c6ab424?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080"
 coverAlt: "Machine à café en inox vue de près, buse et groupe de percolation"
 draft: false
 faq:
