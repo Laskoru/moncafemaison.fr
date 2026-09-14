@@ -8,7 +8,6 @@ pinHook: "Le café *sans déchet* à chaque tasse"
 pinSub: "Pourquoi un filtre réutilisable change la routine (et le budget) sur la durée."
 keywords: ["filtre à café réutilisable", "filtre café inox", "filtre café permanent", "filtre café écologique"]
 category: "accessoires"
-coverImage: "https://images.unsplash.com/photo-1522120193639-2cd0bbe2979b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1600"
 coverAlt: "Cafetière et accessoires en acier inoxydable, univers du filtre à café réutilisable"
 draft: false
 faq:
