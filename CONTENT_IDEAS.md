@@ -32,7 +32,7 @@ Format : `- [ ] Sujet — angle — catégorie`.
 - [x] Meilleur mousseur à lait — cappuccino et latte à la maison — accessoires
 - [x] Balance de précision pour le café — doser au gramme près — accessoires
 - [x] Bouilloire à col de cygne — le contrôle du débit pour le pour-over — accessoires
-- [ ] Meilleur détartrant pour machine à café — entretenir sans abîmer — accessoires
+- [x] Meilleur détartrant pour machine à café — entretenir sans abîmer — accessoires
 - [ ] Filtres réutilisables : lesquels choisir — économique et écologique — accessoires
 - [ ] Tamper à espresso : bien le choisir — tassage régulier de la mouture — accessoires
 - [ ] Boîte à café hermétique — garder les grains frais plus longtemps — accessoires
