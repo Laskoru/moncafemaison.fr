@@ -33,7 +33,7 @@ Format : `- [ ] Sujet — angle — catégorie`.
 - [x] Balance de précision pour le café — doser au gramme près — accessoires
 - [x] Bouilloire à col de cygne — le contrôle du débit pour le pour-over — accessoires
 - [x] Meilleur détartrant pour machine à café — entretenir sans abîmer — accessoires
-- [ ] Filtres réutilisables : lesquels choisir — économique et écologique — accessoires
+- [x] Filtres réutilisables : lesquels choisir — économique et écologique — accessoires
 - [ ] Tamper à espresso : bien le choisir — tassage régulier de la mouture — accessoires
 - [ ] Boîte à café hermétique — garder les grains frais plus longtemps — accessoires
 - [ ] Pichet à lait (pitcher) pour latte art — accessoires
