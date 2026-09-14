@@ -18,6 +18,7 @@ interface Comparison { columns: string[]; rows: string[][] }
 interface Source { label: string; url: string }
 
 interface Props {
+  topPick?: { name: string; blurb?: string; url: string; ctaLabel?: string };
   slug: string;
   title: string;
   description: string;
@@ -52,6 +53,7 @@ const {
   faq = [],
   comparison,
   sources = [],
+  topPick,
 } = Astro.props;
 const hasProducts = siteConfig.amazon.enabled && products.length > 0;
 
@@ -181,6 +183,22 @@ const jsonLdArticle = [articleSchema, breadcrumbSchema, ...(faqSchema ? [faqSche
           ))}
         </ol>
       </nav>
+    )}
+
+    {topPick && (
+      <aside class="top-pick" aria-label="Notre choix">
+        <p class="top-pick__label">🏆 Notre choix</p>
+        <div class="top-pick__body">
+          <div class="top-pick__text">
+            <p class="top-pick__name">{topPick.name}</p>
+            {topPick.blurb && <p class="top-pick__blurb">{topPick.blurb}</p>}
+          </div>
+          <a class="cta-btn" href={topPick.url} target="_blank" rel="nofollow sponsored noopener">
+            {topPick.ctaLabel ?? 'Voir le prix sur Amazon'} <span aria-hidden="true">→</span>
+          </a>
+        </div>
+        <p class="top-pick__disc">Lien partenaire — en tant que Partenaire Amazon, nous percevons une commission sur les achats éligibles.</p>
+      </aside>
     )}
 
     <div class="article-body">
@@ -429,4 +447,31 @@ const jsonLdArticle = [articleSchema, breadcrumbSchema, ...(faqSchema ? [faqSche
   .article-tools__list { display: flex; flex-wrap: wrap; gap: 0.7rem; }
   .article-tools__list a { display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.6rem 1rem; border-radius: 999px; border: 1px solid var(--color-border); background: var(--color-surface); color: var(--color-accent); text-decoration: none; font-weight: 600; font-size: 0.9rem; transition: border-color .15s, background .15s; }
   .article-tools__list a:hover { border-color: var(--color-accent); background: var(--color-bg-soft); }
+
+  /* ---- Carte « Notre choix » (conversion) ---- */
+  .top-pick {
+    margin: 1.6rem 0;
+    padding: 1.2rem 1.4rem 0.9rem;
+    border-radius: var(--radius-lg);
+    background: color-mix(in srgb, var(--color-accent) 8%, var(--color-surface, transparent));
+    border: 1px solid color-mix(in srgb, var(--color-accent) 30%, var(--color-border));
+    box-shadow: 0 12px 30px -18px color-mix(in srgb, var(--color-accent) 60%, transparent);
+  }
+  .top-pick__label { margin: 0 0 0.5rem; font-family: var(--font-display); font-weight: 700; font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.06em; color: var(--color-accent); }
+  .top-pick__body { display: flex; align-items: center; gap: 1.2rem; flex-wrap: wrap; }
+  .top-pick__text { flex: 1 1 220px; }
+  .top-pick__name { margin: 0; font-family: var(--font-display); font-weight: 700; font-size: 1.2rem; color: var(--color-text); line-height: 1.25; }
+  .top-pick__blurb { margin: 0.35rem 0 0; color: var(--color-text-muted); font-size: 0.96rem; line-height: 1.4; }
+  .top-pick__disc { margin: 0.85rem 0 0; font-size: 0.75rem; color: var(--color-text-faint); }
+  .cta-btn {
+    display: inline-flex; align-items: center; gap: 0.5rem; white-space: nowrap;
+    padding: 0.8rem 1.4rem; border-radius: 999px;
+    background: var(--color-accent); color: #fff; font-weight: 700; font-size: 1rem;
+    text-decoration: none; border: 0; cursor: pointer;
+    box-shadow: 0 10px 22px -10px color-mix(in srgb, var(--color-accent) 75%, transparent);
+    transition: transform .12s ease, filter .12s ease;
+  }
+  .cta-btn:hover { filter: brightness(1.06); transform: translateY(-1px); }
+  .cta-btn span { transition: transform .12s ease; }
+  .cta-btn:hover span { transform: translateX(3px); }
 </style>

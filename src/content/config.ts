@@ -61,6 +61,16 @@ const articles = defineCollection({
     sources: z
       .array(z.object({ label: z.string(), url: z.string().url() }))
       .default([]),
+    // Carte « Notre choix » (conversion) : recommandation visible + bouton CTA.
+    // Compatible modèle liens-de-recherche (url = recherche Amazon avec &tag), sans ASIN.
+    topPick: z
+      .object({
+        name: z.string(),
+        blurb: z.string().optional(),
+        url: z.string().url(),
+        ctaLabel: z.string().optional(),
+      })
+      .optional(),
   }),
 });
 
