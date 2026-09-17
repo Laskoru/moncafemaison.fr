@@ -8,7 +8,6 @@ pinHook: "Le petit geste *qui change* toute l'extraction"
 pinSub: "Pourquoi un bon tamper évite les canaux et les espressos irréguliers."
 keywords: ["tamper espresso", "tasseur café", "tamper 58mm", "tassage mouture espresso"]
 category: "accessoires"
-coverImage: "https://images.unsplash.com/photo-1777292307285-c1afa6f4ada3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1200"
 coverAlt: "Mouture de café tassée en un puck régulier dans un porte-filtre nu"
 draft: false
 faq:
