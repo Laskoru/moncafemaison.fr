@@ -30,6 +30,7 @@ const coverImage = resolveCoverImage(article.slug, article.data.coverImage);
   category={article.data.category}
   keywords={article.data.keywords}
   products={article.data.products}
+  hasAmazonLinks={/amazon\.|amzn\.(?:to|eu)/i.test(article.body)}
   faq={article.data.faq}
   comparison={article.data.comparison}
   sources={article.data.sources}

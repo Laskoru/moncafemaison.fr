@@ -19,6 +19,7 @@ interface Source { label: string; url: string }
 
 interface Props {
   topPick?: { name: string; blurb?: string; url: string; ctaLabel?: string };
+  hasAmazonLinks?: boolean;
   slug: string;
   title: string;
   description: string;
@@ -54,8 +55,12 @@ const {
   comparison,
   sources = [],
   topPick,
+  hasAmazonLinks = false,
 } = Astro.props;
 const hasProducts = siteConfig.amazon.enabled && products.length > 0;
+// Mention « liens affiliés » : obligatoire dès qu'il y a un lien Amazon dans la
+// page, qu'il vienne d'une carte produit, du « Notre choix » ou du corps du texte.
+const hasAffiliateLinks = hasProducts || Boolean(topPick) || hasAmazonLinks;
 
 // Un produit en rupture bascule vers une recherche (voir AmazonProduct), mais
 // deux effets de bord restent à corriger explicitement :
@@ -130,19 +135,9 @@ const breadcrumbItems = [
   { label: title },
 ];
 
-// Données structurées du fil d'Ariane (rich result « fil d'Ariane » dans Google).
-const breadcrumbSchema = {
-  '@context': 'https://schema.org',
-  '@type': 'BreadcrumbList',
-  itemListElement: breadcrumbItems.map((item, i) => ({
-    '@type': 'ListItem',
-    position: i + 1,
-    name: item.label,
-    ...(item.href ? { item: new URL(item.href, siteUrl).toString() } : {}),
-  })),
-};
+// Le JSON-LD BreadcrumbList est émis par le composant <Breadcrumbs /> — ne pas le dupliquer ici.
 
-const jsonLdArticle = [articleSchema, breadcrumbSchema, ...(faqSchema ? [faqSchema] : [])];
+const jsonLdArticle = [articleSchema, ...(faqSchema ? [faqSchema] : [])];
 ---
 
 <BaseLayout title={title} description={description} ogImage={coverImageAbs} ogType="article" jsonLd={jsonLdArticle}>
@@ -172,7 +167,7 @@ const jsonLdArticle = [articleSchema, breadcrumbSchema, ...(faqSchema ? [faqSche
       />
     )}
 
-    {hasProducts && <AffiliateDisclosure />}
+    {hasAffiliateLinks && <AffiliateDisclosure />}
 
     {tocHeadings.length > 1 && (
       <nav class="toc" aria-label="Sommaire">

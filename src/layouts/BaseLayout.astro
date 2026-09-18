@@ -14,7 +14,12 @@ interface Props {
 }
 
 const { title, description = siteConfig.description, ogImage, ogType = 'website', jsonLd } = Astro.props;
-const pageTitle = title === siteConfig.name ? title : `${title} | ${siteConfig.name}`;
+// Suffixe « | Nom du site » seulement s'il tient : au-delà de ~65 caractères
+// Google tronque et le nom disparaîtrait de toute façon (il est affiché à part
+// grâce au schéma WebSite). Pas de doublon si le titre contient déjà le nom.
+const pageTitle = title.includes(siteConfig.name) || title.length + siteConfig.name.length + 3 > 65
+  ? title
+  : `${title} | ${siteConfig.name}`;
 const { enabled, clientId } = siteConfig.adsense;
 const siteUrl = Astro.site?.origin ?? Astro.url.origin;
 
@@ -31,6 +36,7 @@ const sameAs = [siteConfig.social?.pinterest, siteConfig.social?.instagram, site
 const organizationSchema = {
   '@context': 'https://schema.org',
   '@type': 'Organization',
+  '@id': `${siteUrl}/#organization`,
   name: siteConfig.name,
   url: siteUrl,
   description: siteConfig.description,
@@ -39,7 +45,18 @@ const organizationSchema = {
   ...(sameAs.length ? { sameAs } : {}),
 };
 
-const jsonLdBlocks = [organizationSchema, ...(jsonLd ? (Array.isArray(jsonLd) ? jsonLd : [jsonLd]) : [])];
+// Schéma WebSite : nom du site affiché dans Google, relié à l'organisation.
+const websiteSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'WebSite',
+  '@id': `${siteUrl}/#website`,
+  name: siteConfig.name,
+  url: siteUrl,
+  inLanguage: siteConfig.lang,
+  publisher: { '@id': `${siteUrl}/#organization` },
+};
+
+const jsonLdBlocks = [organizationSchema, websiteSchema, ...(jsonLd ? (Array.isArray(jsonLd) ? jsonLd : [jsonLd]) : [])];
 ---
 
 <!DOCTYPE html>

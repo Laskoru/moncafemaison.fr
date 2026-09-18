@@ -12,8 +12,8 @@ Format : `- [ ] Sujet — angle — catégorie`.
 - [x] Cafetière italienne (moka) : laquelle choisir — le classique sur le feu — machines
 - [x] Machine à capsules vs machine à grains — quel système pour quel profil — machines
 - [x] Meilleure cafetière filtre programmable — le café du matin sans effort — machines
-- [x] AeroPress : test et alternatives — café nomade et rapide — machines
-- [x] V60 / pour-over : le kit pour débuter — le café filtre aromatique — machines
+- [ ] AeroPress : test et alternatives — café nomade et rapide — machines
+- [ ] V60 / pour-over : le kit pour débuter — le café filtre aromatique — machines
 - [x] Chemex : pour qui, comment choisir — le filtre design et propre — machines
 - [x] Machine expresso avec broyeur intégré — grains + espresso en un appareil — machines
 - [x] Meilleure machine à café automatique avec broyeur — le haut de gamme maison — machines
