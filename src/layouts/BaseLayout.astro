@@ -66,6 +66,8 @@ const jsonLdBlocks = [organizationSchema, websiteSchema, ...(jsonLd ? (Array.isA
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <link rel="canonical" href={Astro.url} />
+    <!-- Google Discover : autorise les grandes vignettes (indispensable pour apparaître dans le flux Discover) -->
+    <meta name="robots" content="max-image-preview:large" />
     <link rel="alternate" type="application/rss+xml" title={siteConfig.name} href="/rss.xml" />
     {siteConfig.googleSiteVerification && (
       <meta name="google-site-verification" content={siteConfig.googleSiteVerification} />
