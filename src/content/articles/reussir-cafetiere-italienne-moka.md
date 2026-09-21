@@ -2,7 +2,7 @@
 title: "Réussir son café à la cafetière italienne (moka) sans amertume"
 description: "La méthode pour un café moka corsé mais jamais brûlé : bonne mouture, feu doux, et le geste qui change tout. Le guide pas à pas de la cafetière italienne."
 pubDate: 2026-09-13
-updatedDate: 2026-09-13
+updatedDate: 2026-09-21
 author: "Hugo B."
 keywords: ["cafetière italienne", "café moka réussir", "utiliser cafetière italienne", "moka bialetti méthode"]
 category: "preparer"
@@ -56,6 +56,33 @@ Les moka classiques sont en **aluminium** et ne fonctionnent donc **pas sur indu
 - **Tasser le café** : réservé à l'espresso, jamais à la moka.
 - **Laisser sur la plaque** après la montée : le café continue de cuire.
 - **Laver au savon** : altère durablement le goût.
+
+## Quelle taille de moka, et pourquoi on ne fait pas « à moitié »
+
+Les tailles sont exprimées en « tasses » italiennes, soit environ **50 ml** chacune : une moka « 3 tasses » donne 150 ml (un mug), une « 6 tasses » environ 300 ml. Le piège, c'est qu'une moka **ne se remplit pas à moitié** : le filtre doit être plein et la base remplie jusqu'à la valve, sinon la pression monte mal et le café est raté. Choisis donc la taille en fonction de ce que tu bois **à chaque fois**, pas de ton maximum occasionnel. Beaucoup de foyers finissent avec deux mokas : une petite pour le café solo, une grande pour le week-end.
+
+Le dosage, lui, ne demande pas de balance : un filtre rempli à ras, égalisé sans tasser, correspond à la bonne quantité pour sa base (autour de 15 g pour une 3 tasses, 25 g pour une 6 tasses).
+
+## Le café qui convient à la moka
+
+La moka extrait chaud et sous une pression modeste (1,5 à 2 bars) : elle flatte les torréfactions **moyennes à foncées**, les mélanges « espresso » et les cafés aux notes de chocolat ou de noisette. Un café très clair, pensé pour le filtre, ressort souvent acide et maigre. Si tu achètes du café déjà moulu, prends une mouture étiquetée « cafetière italienne » ou « moka », un cran plus grossière que l'espresso : la mouture « espresso » des paquets du commerce est souvent trop fine et bouche le filtre.
+
+## Le rituel de la première utilisation
+
+Une moka neuve sent le métal et donne un premier café désagréable. Avant de la mettre en service, lave-la à l'eau chaude, puis fais **deux ou trois passages de café que tu jettes** : le film de café qui se dépose sur l'aluminium « culotte » la cafetière et protège le goût. C'est aussi pour ça qu'on ne la lave jamais au savon ni au lave-vaisselle : l'aluminium s'oxyde, blanchit et le goût métallique revient.
+
+## Dépannage : ce que la moka essaie de te dire
+
+| Le symptôme | La cause probable | La solution |
+|---|---|---|
+| Le café monte très lentement, crachote, sort brûlé | Mouture trop fine, café tassé, ou filtre bouché | Mouture plus grossière, ne pas tasser, brosser le filtre |
+| Le café monte trop vite et sort fade | Mouture trop grossière ou filtre pas assez rempli | Mouture un cran plus fine, filtre plein |
+| Ça fuit sur les côtés | Joint durci, mouture sur le bord du filtre, mauvais serrage | Essuyer le bord, serrer fermement, changer le joint |
+| Goût métallique | Cafetière neuve ou lavée au savon | Faire quelques cafés « à jeter », rincer à l'eau claire |
+| Rien ne monte | Valve de sécurité bouchée, ou base remplie au-dessus de la valve | Nettoyer la valve avec une aiguille, respecter le niveau |
+| Le café est amer même à feu doux | Cafetière laissée sur le feu après la montée | Retirer dès le gargouillis, refroidir la base |
+
+Le **joint en caoutchouc** et la **plaque filtre** du haut sont des pièces d'usure : compte un remplacement tous les un à deux ans selon l'usage. Ils se trouvent facilement pour les marques classiques — un argument de plus pour choisir une moka d'une marque établie plutôt qu'un modèle sans nom.
 
 > **L'essentiel à retenir**
 > Pour une moka réussie : mouture **moyenne non tassée**, **eau chaude** dans la base, **feu doux**, et on **retire du feu dès le gargouillis** (base refroidie sous l'eau pour stopper l'extraction). Rinçage à l'eau claire, joint à surveiller. Trois gestes, et le café passe de « brûlé » à « rond et parfumé ».

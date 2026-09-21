@@ -2,6 +2,7 @@
 title: "Cafetière italienne (moka) : laquelle choisir en 2026 ?"
 description: "3, 6 ou 9 tasses, induction ou non : notre guide pour choisir la bonne cafetière italienne (moka) et réussir son café maison."
 pubDate: 2026-08-16
+updatedDate: 2026-09-21
 author: "Hugo B."
 pinHook: "Le café *sur le feu*, réussi à tous les coups"
 pinSub: "La moka, comme en Italie."
@@ -61,6 +62,42 @@ Dans les deux cas, évite les très grandes tailles (9-12 tasses) si tu bois du 
 ## Bien utiliser sa moka pour un résultat régulier
 
 Quelques réflexes simples changent tout : utilise de l'eau déjà chaude pour limiter le temps sur le feu et réduire le risque de goût métallique, ne tasse jamais le café dans le panier (contrairement à l'espresso), et choisis une mouture moyenne, un peu plus grossière que celle utilisée pour une machine expresso. Un feu trop vif est la cause numéro un d'un café amer ou brûlé : mieux vaut un feu doux et quelques minutes de patience.
+
+## Aluminium ou inox : le vrai match
+
+Les deux matériaux donnent un bon café, mais pas la même expérience au quotidien.
+
+| | Aluminium | Inox |
+|---|---|---|
+| Montée en température | Rapide | Plus lente (donc légèrement plus de risque de « cuire » le café) |
+| Induction | Non, sauf disque adaptateur ou fond spécial | Oui, presque toujours |
+| Lave-vaisselle | Jamais (il s'oxyde et blanchit) | Possible, même si le rinçage à la main reste préférable |
+| Goût | Se « culotte » avec le temps, arrondit le café | Neutre, constant dès le premier jour |
+| Poids et prix | Léger, économique | Plus lourd, environ le double du prix |
+| Durée de vie | Longue si on ne la lave pas au savon | Très longue, presque indestructible |
+
+En résumé : l'aluminium pour le goût traditionnel et le petit prix, l'inox pour l'induction, la facilité d'entretien et la tranquillité. Dans les deux cas, la méthode reste identique — on la détaille dans [réussir sa cafetière italienne](/articles/reussir-cafetiere-italienne-moka/).
+
+## Les pièces d'usure : ce qui décide de la durée de vie
+
+Une moka bien entretenue dure vingt ans, à condition de remplacer trois petites pièces :
+
+- **Le joint en caoutchouc**, entre le filtre et la partie haute. Il durcit, se fendille, et le café monte alors mal ou fuit sur les côtés. À changer tous les un à deux ans.
+- **La plaque filtre** perforée, sous le joint. Elle se bouche avec le temps ; une brosse suffit souvent, sinon on la remplace en même temps que le joint.
+- **La valve de sécurité** sur la base. Elle se nettoie à l'aiguille ; si elle reste bloquée par le calcaire, la cafetière ne monte plus en pression correctement.
+
+Avant d'acheter, vérifie que la marque vend ces pièces séparément : c'est ce qui distingue une moka de marque d'un modèle sans nom, jetable dès que le joint lâche.
+
+## Moka électrique : bonne idée ?
+
+Il existe des mokas à base chauffante intégrée, qui se branchent sur secteur et s'arrêtent seules en fin d'extraction. Elles rendent service dans un bureau, une chambre d'étudiant ou un logement sans plaque de cuisson, et l'arrêt automatique évite le café brûlé par oubli. En contrepartie, on perd la maîtrise du feu doux et le contrôle de la montée, et la base électrique n'est ni démontable ni lavable comme une moka classique. Un bon choix de dépannage, pas un remplaçant pour qui aime le rituel.
+
+## Les accessoires qui valent le coup
+
+- **Un disque adaptateur induction** si tu as une moka aluminium et une plaque induction : il chauffe la base par conduction. Ça fonctionne, plus lentement qu'un modèle inox.
+- **Un réducteur de flamme** sur une plaque gaz, pour que la flamme ne déborde pas de la base et ne surchauffe pas la poignée.
+- **Un moulin** : la moka gagne beaucoup avec une mouture fraîche, sans avoir besoin de descendre aussi fin que l'espresso. Un [moulin manuel](/articles/meilleur-moulin-cafe-manuel/) suffit largement.
+- Une balance, en revanche, n'est pas nécessaire : le filtre plein donne le bon dosage.
 
 ## Conclusion
 

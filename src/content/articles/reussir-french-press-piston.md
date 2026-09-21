@@ -2,7 +2,7 @@
 title: "Réussir sa cafetière à piston (French press) : la méthode simple"
 description: "Un café à la French press rond et sans dépôt : la bonne mouture, le bon ratio, 4 minutes d'infusion et le geste anti-boue. Le guide clair de la cafetière à piston."
 pubDate: 2026-09-13
-updatedDate: 2026-09-13
+updatedDate: 2026-09-21
 author: "Hugo B."
 keywords: ["french press méthode", "cafetière à piston", "réussir french press", "café piston ratio"]
 category: "preparer"
@@ -58,6 +58,40 @@ Ce dernier point est capital : laissé dans la cafetière, le café **continue d
 ## Entretien et matériel
 
 La French press se nettoie facilement : démonte le filtre métallique de temps en temps pour retirer les résidus de café et d'huile qui l'encrassent. Attention au **verre**, fragile aux chocs. Pour choisir un modèle (verre, inox, double paroi), voir notre [comparatif des cafetières à piston](/articles/meilleure-cafetiere-piston-french-press/).
+
+## Ajuster la recette à ton goût
+
+Les repères ci-dessus donnent une tasse équilibrée. Une fois qu'ils sont acquis, tu peux jouer sur deux leviers :
+
+- **Le ratio.** Autour de 1:15 (65 g/L), c'est le classique. Descends vers **1:12** pour un café plus dense et corsé, monte vers **1:17** pour une tasse plus légère à boire tout au long de la matinée. Change le ratio plutôt que le temps : c'est le levier le plus prévisible.
+- **La méthode « longue ».** Une variante appréciée des amateurs : verse l'eau, ne remue pas, attends 4 minutes, casse la croûte et écume, puis **laisse reposer encore 5 à 8 minutes** sans presser. Les particules tombent au fond d'elles-mêmes ; il ne reste qu'à descendre le piston juste sous la surface et à verser doucement. Le café est plus tiède, mais remarquablement **propre en bouche**, sans le moindre dépôt. À tester si le côté « boueux » te dérange.
+
+## Quelle taille de cafetière ?
+
+Les contenances annoncées comptent en « tasses » de 125 ml, ce qui n'a pas grand-chose à voir avec un mug. Concrètement :
+
+- **350 ml** (« 3 tasses ») : un grand mug, pour une personne.
+- **600 ml** (« 5 tasses ») : deux mugs, ou une personne qui aime en reprendre.
+- **1 L** (« 8 tasses ») : trois à quatre personnes.
+
+Choisis la taille pour ton usage réel : une grande cafetière remplie au tiers perd de la chaleur beaucoup plus vite, et l'infusion se déséquilibre. Deux petites valent mieux qu'une grande à moitié vide.
+
+## Le café qui va bien avec la French press
+
+Comme le filtre métallique laisse passer les huiles, la French press met en valeur le **corps** et la rondeur. Les torréfactions moyennes, aux notes de chocolat, de fruits secs ou de caramel, sont les plus flatteuses. Les cafés très clairs et acidulés, faits pour le filtre papier, peuvent paraître déséquilibrés. Un café **fraîchement torréfié** (deux à quatre semaines) dégaze davantage : la croûte est plus épaisse, le café plus vivant — mais laisse-lui les 4 minutes complètes.
+
+Pense aussi à **préchauffer les tasses** : un café à 65 °C versé dans une tasse froide perd dix degrés instantanément.
+
+## Dépannage express
+
+| Le problème | La cause probable | Le remède |
+|---|---|---|
+| Beaucoup de dépôt | Mouture trop fine, ou moulin à lames | Mouture plus grossière ; moulin à meules |
+| Café amer, asséchant | Eau trop chaude, infusion trop longue, café laissé dans la cafetière | Eau à 92-94 °C, 4 min, transvaser |
+| Café fade, aqueux | Pas assez de café, mouture trop grossière | Ratio 1:15 pesé, mouture un cran plus fine |
+| Café tiède | Cafetière froide, verre simple paroi | Rincer à l'eau chaude avant ; modèle isotherme |
+| Piston qui résiste | Trop de café ou mouture trop fine | Moins de café, plus grossier, presser lentement |
+| Goût rance | Filtre encrassé | Démonter et brosser le tamis chaque semaine |
 
 > **L'essentiel à retenir**
 > La French press réussie tient à quatre choses : une mouture **grossière**, un ratio **pesé** (~60-70 g/L), une eau **frémissante** et **4 minutes** d'infusion. Le secret anti-dépôt : casser la croûte, **écumer**, presser **lentement sans aller au fond**, et **transvaser aussitôt**. Simple, mais chaque geste compte.

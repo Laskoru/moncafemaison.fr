@@ -2,6 +2,7 @@
 title: "Chemex : pour qui, et comment bien la choisir"
 description: "La Chemex séduit par son design autant que par son café limpide. Nos critères avant d'acheter et notre sélection pour se lancer sans se tromper."
 pubDate: 2026-08-18
+updatedDate: 2026-09-21
 author: "Hugo B."
 pinHook: "Un filtre *net et lumineux*"
 pinSub: "La Chemex : pour qui, comment."
@@ -54,6 +55,31 @@ Pour affiner encore le dosage, une [balance de précision](/articles/balance-caf
 ## Le geste de préparation en résumé
 
 Rincer le filtre à l'eau chaude avant utilisation élimine le léger goût de papier et préchauffe le verre — une étape simple mais qui change réellement le résultat en tasse. Compter environ 60 g de café pour 1 litre d'eau, à ajuster selon le goût, et verser en petits cercles progressifs plutôt qu'en un seul jet pour une extraction homogène sur toute la surface de la mouture.
+
+## La méthode Chemex, pas à pas
+
+La Chemex se prépare comme un V60, avec quelques particularités liées à son filtre épais. Pour un modèle 6 tasses et deux bons mugs :
+
+1. **Place le filtre** en cône, le côté à **trois épaisseurs contre le bec verseur**. C'est un détail capital : le bec sert de canal d'air, et un filtre mal orienté le bouche, ce qui ralentit ou bloque l'écoulement.
+2. **Rince** le filtre à l'eau chaude, puis vide la carafe sans retirer le filtre. Le papier Chemex, plus épais, a besoin d'un rinçage généreux.
+3. **Dose 30 g** de café en mouture moyenne-grossière (un cran plus grossier que pour un V60) et creuse un petit puits au centre.
+4. **Bloom** : verse environ 60 ml d'eau à 93-95 °C, attends 45 secondes que le café gonfle.
+5. **Verse en spirale**, en trois ou quatre ajouts, jusqu'à 500 ml d'eau au total, sans jamais dépasser la moitié de la hauteur du filtre.
+6. Compte un temps total de **4 à 5 minutes**. Retire le filtre, fais tourner la carafe pour homogénéiser, sers.
+
+Si l'écoulement dépasse 5 min 30, grossis la mouture ; s'il boucle en moins de 3 min 30, affine-la. Le détail des repères de versement est dans notre guide du [café filtre et du V60](/articles/reussir-cafe-filtre-v60/).
+
+## Les erreurs typiques avec une Chemex
+
+- **Le filtre à l'envers** (les trois épaisseurs à l'opposé du bec) : le café stagne, sur-extrait, devient amer. C'est l'erreur n°1 des débutants.
+- **La mouture V60 réutilisée telle quelle** : trop fine pour ce filtre, elle colmate et double le temps d'écoulement.
+- **Verser sur les bords** du filtre : l'eau contourne le café et sort claire ; vise toujours le centre et le milieu du lit de café.
+- **Poser la Chemex sur une plaque** pour garder le café chaud : le verre supporte la chaleur, mais le café cuit et devient âcre en quelques minutes. Transvase dans une carafe isotherme si tu ne bois pas tout de suite.
+- **Serrer le lacet en cuir** trop fort après lavage, quand le bois est encore humide : il se déforme.
+
+## Entretien du verre et du col
+
+Le verre borosilicate ne garde ni odeur ni goût, mais les huiles du café finissent par déposer un film brun au fond de la carafe, surtout dans la partie basse difficile à atteindre. Une fois par semaine, remplis-la d'eau très chaude avec une cuillère à soupe de bicarbonate, laisse agir une heure et rince ; une brosse à goulot longue vient à bout du reste. Jamais d'éponge abrasive, qui raye le verre et retient ensuite les résidus. Le col en bois se retire (dénoue le lacet, fais glisser le bois) pour passer la carafe au lave-vaisselle, mais le bois et le cuir, eux, ne doivent jamais tremper : un coup de chiffon suffit.
 
 ## Notre choix
 

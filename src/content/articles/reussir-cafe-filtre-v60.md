@@ -2,7 +2,7 @@
 title: "Café filtre & V60 : la méthode pour un café clair et aromatique"
 description: "Réussir un café filtre ou un pour-over V60 : mouture, ratio, bloom et versement en spirale. La méthode qui révèle les arômes, sans amertume ni acidité."
 pubDate: 2026-09-13
-updatedDate: 2026-09-13
+updatedDate: 2026-09-21
 author: "Hugo B."
 keywords: ["café filtre méthode", "v60 pour over", "réussir café filtre", "bloom café"]
 category: "preparer"
@@ -54,6 +54,30 @@ On change **un paramètre à la fois** (la mouture d'abord), on refait une tasse
 ## L'eau, le grand oublié
 
 Le café filtre, c'est à plus de 98 % de l'eau : sa qualité compte énormément. Une eau **peu calcaire et sans goût de chlore** (filtrée ou de source douce) donne une tasse bien plus nette. Une eau trop dure aplatit les arômes et entartre le matériel.
+
+## Filtre blanc, brun ou permanent : ce que ça change
+
+Le filtre n'est pas neutre. Le papier **blanc** est blanchi à l'oxygène (pas au chlore, contrairement à une vieille idée reçue) et donne le goût le plus propre. Le papier **brun**, non blanchi, apporte un léger goût de carton s'il n'est pas rincé abondamment — d'où l'importance du rinçage. Les filtres **permanents** en inox ou en tissu laissent passer une partie des huiles et des fines : la tasse gagne en corps et perd en clarté, à mi-chemin entre le filtre papier et la French press. C'est un choix de goût autant qu'un choix écologique ; on détaille les options dans [filtres réutilisables pour le café](/articles/filtres-reutilisables-cafe/).
+
+Vérifie aussi la **forme** : un V60 prend des filtres coniques (taille 01 pour une tasse, 02 pour deux à quatre), une cafetière électrique des filtres à fond plat ou « en panier ». Un filtre mal ajusté au cône laisse l'eau contourner le café.
+
+## La bouilloire col de cygne : utile ou gadget ?
+
+En V60, le versement est le cœur de la méthode : il faut un débit fin, régulier, dirigé. Une bouilloire classique verse trop vite et par à-coups, creuse le lit de café et déséquilibre l'extraction. Le **col de cygne** règle ce problème, et beaucoup de modèles intègrent un thermostat qui évite d'attendre « à peu près 30 secondes » après l'ébullition. Ce n'est pas obligatoire pour débuter — on peut verser doucement avec une bouilloire ordinaire — mais c'est l'accessoire qui rend le V60 vraiment reproductible. Voir [quelle bouilloire col de cygne choisir](/articles/bouilloire-col-de-cygne/).
+
+## Préparer deux à quatre tasses en V60
+
+Le V60 s'adapte bien aux quantités moyennes, à condition d'ajuster la méthode :
+
+- Utilise un **V60 taille 02** et un filtre assorti.
+- Garde le ratio (60 g/L) : **30 g de café pour 500 ml** d'eau.
+- Grossis **légèrement** la mouture par rapport à une tasse seule : un lit de café plus épais ralentit l'écoulement.
+- Verse en **quatre ou cinq fois** plutôt qu'en continu, en laissant le niveau baisser d'un tiers entre chaque ajout.
+- Le temps total grimpe naturellement vers **3 min 30 à 4 min**. Au-delà de 40 g de café, passe plutôt à une [Chemex](/articles/chemex-cafetiere-filtre-design/) ou à une cafetière électrique.
+
+## Le café glacé « flash », la variante d'été
+
+Le V60 permet un café glacé bien plus aromatique que le cold brew : le **flash brew**. Mets **40 % du poids d'eau prévu sous forme de glaçons** dans la carafe (par exemple 100 g de glace pour une recette à 250 ml), et ne verse que les **60 % restants** en eau chaude (150 ml), avec la dose de café habituelle et une mouture un cran plus fine. Le café chaud coule directement sur la glace, refroidit instantanément et garde tout le fruité que le froid aurait figé. Sers sur des glaçons frais : c'est prêt en trois minutes, sans attendre douze heures.
 
 > **L'essentiel à retenir**
 > Le café filtre réussi, c'est une mouture **moyenne**, un ratio **pesé** (~60 g/L), une eau **à 92-94 °C** et un **filtre rincé**. En V60, on ajoute le **bloom** (30-45 s) et un **versement en spirale** régulier, pour un total de ~3 minutes. Une tasse acide se corrige en affinant la mouture ; une tasse amère, en la grossissant.

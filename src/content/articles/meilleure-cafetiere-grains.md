@@ -2,6 +2,7 @@
 title: "Quelle machine à café à grains choisir en 2026 ?"
 description: "Quelle machine à café à grains choisir pour un bon café maison sans se ruiner ? Nos critères et notre sélection de modèles fiables."
 pubDate: 2026-08-16
+updatedDate: 2026-09-21
 author: "Hugo B."
 pinHook: "Du grain à la tasse, *sans effort*"
 pinSub: "La machine à grains, comparée."
@@ -52,6 +53,38 @@ Pour un **premier achat**, vise un modèle simple et fiable plutôt que la machi
 Si ta cuisine est **petite**, privilégie un format compact, quitte à sacrifier quelques recettes automatiques. Et si tu es plusieurs à boire des boissons lactées, assure-toi que le mousseur suit le rythme sans devoir attendre entre deux tasses.
 
 Inutile, en revanche, de viser d'emblée le haut de gamme avec écran couleur et carafe à lait automatique : la qualité en tasse dépend surtout de la fraîcheur du grain et d'un entretien régulier, pas du nombre de boutons.
+
+## Ce qu'une machine automatique fait bien — et moins bien
+
+Une cafetière à grains est une machine **tout-automatique** : elle moud, tasse, extrait et éjecte le marc en une pression. Elle excelle sur deux points : la **régularité** (chaque tasse ressemble à la précédente) et le **café long**, qu'elle prépare en une seule extraction là où une machine à porte-filtre demanderait deux gestes. Pour un foyer qui boit plusieurs cafés par jour, de longueurs différentes, c'est imbattable.
+
+Là où elle reste en retrait, c'est sur l'espresso « pur » : le broyeur intégré ne descend pas aussi fin qu'un moulin dédié, et le tassage automatique est plus léger. Le résultat est bon, mais moins dense et moins intense qu'un espresso tiré sur une [machine à porte-filtre](/articles/meilleure-machine-expresso/) avec un bon moulin. De même, la mousse de lait des systèmes automatiques est plus aérée que celle d'une buse vapeur bien maîtrisée. Si ton objectif est le ristretto parfait ou le latte art, ce n'est pas la bonne famille de machines ; si c'est un bon café chaque matin sans y penser, c'est exactement la bonne.
+
+## Les réglages qui changent vraiment la tasse
+
+La plupart des utilisateurs ne touchent jamais aux réglages, alors qu'ils transforment le café :
+
+- **La finesse de mouture** : c'est la molette dans le bac à grains. Règle-la **moulin en marche**, jamais à l'arrêt, sous peine de bloquer les meules. Plus fin = café plus intense et plus long à couler ; plus grossier = plus léger et plus rapide. Le changement se ressent à partir de la deuxième ou troisième tasse, le temps de purger l'ancienne mouture.
+- **La quantité de café** (souvent appelée « intensité » ou « arôme ») : entre 7 et 12 g par tasse selon les machines. C'est le réglage le plus efficace contre un café jugé trop faible.
+- **Le volume d'eau** : un espresso se situe autour de 30-40 ml, un lungo autour de 90-110 ml. Beaucoup de machines sortent d'usine avec des volumes trop longs, donc des cafés délavés.
+- **La température**, quand elle est réglable : le cran le plus élevé pour un café torréfié clair, le cran moyen pour une torréfaction foncée qui deviendrait amère.
+
+Change **un réglage à la fois** et goûte deux tasses avant de juger.
+
+## Entretien : le vrai coût caché
+
+Une automatique demande peu d'efforts, mais des efforts **réguliers** :
+
+- **Chaque jour** : vider le bac à marc et le bac d'égouttage (le marc humide moisit en 48 h), rincer le circuit lait s'il y en a un.
+- **Chaque semaine** : sortir le **groupe d'extraction** (la pièce amovible derrière la trappe latérale) et le rincer à l'eau claire, sans savon. C'est là que s'accumulent les résidus qui donnent un goût rance.
+- **Chaque mois environ** : une pastille de dégraissage dans le cycle de nettoyage.
+- **Selon l'eau** : le détartrage, que la machine réclame elle-même. Avec un filtre à eau dans le réservoir, la fréquence baisse fortement.
+
+Compte un petit budget annuel en consommables (pastilles, détartrant, filtres). C'est négligeable face à l'économie réalisée sur les capsules, mais c'est ce qui décide de la durée de vie de la machine.
+
+## Quel grain choisir pour une automatique ?
+
+Deux types de grains posent problème dans ces machines : les torréfactions **très foncées et huileuses**, qui encrassent le broyeur et finissent par le bloquer, et les cafés **aromatisés**, dont les arômes ajoutés se déposent partout. Vise une torréfaction moyenne, un paquet avec une **date de torréfaction** (pas seulement une DLUO), et consomme-le dans les six semaines. Enfin, ne remplis la trémie que pour deux ou trois jours : les grains qui y restent à l'air libre perdent leurs arômes bien avant d'être moulus.
 
 ## Conclusion
 

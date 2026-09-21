@@ -2,6 +2,7 @@
 title: "Mousseur à lait : réussir cappuccino et latte maison"
 description: "Quel mousseur à lait choisir pour une mousse onctueuse à la maison ? Pichet chauffant ou fouet portable : nos critères et notre sélection."
 pubDate: 2026-08-16
+updatedDate: 2026-09-21
 author: "Hugo B."
 pinHook: "Cappuccino et latte *maison*"
 pinSub: "La mousse de lait parfaite, bien choisie."
@@ -50,6 +51,30 @@ C'est aussi l'un des accessoires les plus abordables : de quelques euros pour un
 Pour un usage **régulier et confortable**, le pichet chauffant tout-en-un est le plus pratique : tu verses le lait, tu appuies, il chauffe et mousse seul, y compris en version froide. C'est le choix qui rend le plus service au quotidien.
 
 Pour un usage **occasionnel ou un petit budget**, le fouet portable suffit : il ne chauffe pas, mais fait une mousse correcte sur un lait déjà tiède, et se range dans un tiroir. Idéal pour dépanner ou tester avant d'investir.
+
+## Quel lait pour une belle mousse ?
+
+Le mousseur ne fait pas tout : la mousse dépend d'abord du lait. Ce sont les **protéines** qui emprisonnent l'air et les **matières grasses** qui donnent l'onctuosité. Le lait entier reste la valeur sûre : mousse dense, brillante, qui tient dans la tasse. Le demi-écrémé mousse davantage mais plus sec, avec de grosses bulles qui retombent vite. Les laits « barista » sont simplement enrichis en protéines pour stabiliser la mousse — pratique, mais pas indispensable.
+
+Côté végétal, tout ne se vaut pas : la boisson à l'**avoine** version barista mousse presque comme du lait entier, le **soja** s'en sort bien, alors que l'amande et le riz donnent une mousse fragile qui retombe en quelques secondes. Si tu tiens à une alternative végétale, prends la mention « barista » sur l'emballage, elle change vraiment le résultat.
+
+Dernier point, souvent ignoré : pars toujours d'un **lait bien froid**. Il laisse plus de temps à l'air de s'incorporer avant que la chaleur ne fige les protéines.
+
+## Les gestes qui font la différence
+
+- **Ne remplis pas trop** : le lait double presque de volume en moussant. Sur un pichet, respecte la graduation « mousse » (souvent le tiers de la contenance) ; sinon ça déborde.
+- **Avec un fouet portable**, garde la tête juste sous la surface les premières secondes pour incorporer l'air, puis plonge-la plus profond pour homogénéiser. Incline légèrement le récipient pour créer un tourbillon.
+- **Ne dépasse pas 60-65 °C**. Au-delà, le lait prend un goût cuit, perd sa douceur sucrée et la mousse s'effondre. Sur un pichet automatique, c'est géré ; au fouet, arrête-toi quand le récipient devient trop chaud pour être tenu à pleine main.
+- **Tapote le pichet** sur le plan de travail après avoir moussé, puis fais tourner le lait : les grosses bulles éclatent et la mousse devient lisse.
+- **Verse tout de suite.** Une mousse qui attend se sépare : l'air remonte, le lait reste au fond.
+
+## Mousseur ou buse vapeur ?
+
+Si ta machine possède une buse vapeur, tu peux te demander à quoi sert un mousseur à part. La différence tient à la texture : la buse vapeur, bien maîtrisée, produit une **micro-mousse** soyeuse, celle qui permet le latte art. Mais elle demande de l'apprentissage, du bruit, et un nettoyage immédiat après chaque usage. Le mousseur électrique donne une mousse plus aérée, un peu moins fine, mais **régulière dès le premier essai** et sans technique. Pour un cappuccino du matin, la différence en tasse est minime ; pour dessiner un cœur dans un latte, la buse reste reine.
+
+## Entretien : la règle des 30 secondes
+
+Le lait sèche vite et forme un film qui finit par sentir mauvais et gêner le fouet. Rince le pichet ou la tête du fouet **immédiatement après usage**, à l'eau chaude, avant même de boire ton café. Un intérieur antiadhésif se nettoie ensuite à l'éponge douce, jamais au tampon abrasif. Sur un pichet électrique, la base et les contacts ne vont pas au lave-vaisselle ni sous le robinet ; sur un fouet à piles, ne mouille que la tige. Une fois par semaine, un passage à l'eau très chaude avec une goutte de liquide vaisselle, puis un rinçage soigneux, suffit à éviter toute odeur.
 
 ## Conclusion
 

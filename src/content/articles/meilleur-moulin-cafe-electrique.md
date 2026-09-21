@@ -2,6 +2,7 @@
 title: "Bien choisir son moulin à café électrique"
 description: "Quel moulin à café électrique choisir pour une mouture fraîche et régulière ? Meules vs lames, nos critères et notre sélection."
 pubDate: 2026-08-16
+updatedDate: 2026-09-21
 author: "Hugo B."
 pinHook: "La mouture fraîche, *en un bouton*"
 pinSub: "Le moulin électrique qui change tout."
@@ -57,6 +58,37 @@ Si tu ne devais retenir qu'une chose : **privilégie un moulin à meules**. C'es
 Pour un usage **polyvalent** (filtre, French press, et parfois espresso), un moulin à meules avec une large plage de réglages couvre tous les cas sans se ruiner. Pour un usage **orienté espresso**, oriente-toi vers un modèle réputé régulier dans les moutures fines, quitte à avoir un peu moins de crans mais mieux maîtrisés.
 
 Inutile de viser un moulin professionnel hors de prix pour débuter : un bon moulin à meules d'entrée/milieu de gamme apporte déjà l'essentiel du bénéfice.
+
+## Meules plates ou coniques, acier ou céramique ?
+
+Une fois acquis le principe des meules, deux choix secondaires reviennent dans les fiches produit.
+
+**Coniques ou plates.** Les meules **coniques** tournent lentement, chauffent peu, font moins de bruit et gardent une bonne régularité sur toute la plage : c'est la géométrie la plus répandue sur les moulins domestiques, et la plus polyvalente. Les meules **plates** donnent une mouture très homogène, prisée pour le filtre haut de gamme, mais elles tournent plus vite et retiennent parfois davantage de mouture entre deux utilisations. Pour un premier moulin, les coniques sont le choix sans regret.
+
+**Acier ou céramique.** L'acier coupe plus net et moud plus vite ; la céramique s'émousse moins vite et ne craint pas la corrosion. Dans les deux cas, on parle de milliers de tasses avant un remplacement : ce n'est pas un critère décisif, sauf pour l'espresso où l'acier a un léger avantage en finesse.
+
+## Le repère de mouture selon la méthode
+
+Le bon réglage se trouve en goûtant, mais voici d'où partir :
+
+| Méthode | Mouture | Ressemble à… |
+|---|---|---|
+| Espresso | Très fine | Sucre glace un peu granuleux |
+| Cafetière italienne (moka) | Fine | Sel fin |
+| Filtre V60 / cafetière électrique | Moyenne | Sable, sel de table |
+| Chemex | Moyenne-grossière | Sel gros |
+| French press | Grossière | Chapelure grossière |
+| Cold brew | Très grossière | Poivre concassé |
+
+Sur un moulin polyvalent, note le cran qui te convient pour chaque méthode : tu y reviendras sans tâtonner.
+
+## La rétention, ou pourquoi ton premier café du matin est moins bon
+
+La plupart des moulins gardent quelques grammes de mouture dans le mécanisme après usage. Cette mouture s'oxyde et se retrouve dans ta dose suivante — d'où un premier café du matin parfois plat. Deux parades : **purger** deux ou trois grammes avant de moudre la vraie dose si le moulin n'a pas servi depuis la veille, ou passer au **single dosing** — peser les grains à chaque tasse au lieu de remplir la trémie. C'est un peu plus long, mais les grains restent dans leur paquet à l'abri de l'air, et la mouture est toujours fraîche. Les moulins « à faible rétention » vantés dans les fiches produit visent précisément ce problème.
+
+## Entretien : dix minutes par mois
+
+Les huiles du café se déposent sur les meules et finissent par donner un goût rance, quel que soit le grain utilisé. Une fois par mois, débranche le moulin, retire la trémie et la meule supérieure (elle se dévisse ou se déclipse selon les modèles), puis brosse les meules et la chambre de mouture avec une brosse sèche ou un pinceau. **Jamais d'eau sur les meules** : elles rouilleraient ou se déformeraient. Un aspirateur avec embout fin fait des merveilles pour les recoins. Entre deux démontages, les pastilles nettoyantes pour moulin (à base d'amidon) passées dans le mécanisme absorbent les huiles en une minute. Évite le « truc » du riz cru, plus dur que le café, qui peut abîmer les meules et fait sauter la garantie chez plusieurs fabricants.
 
 ## Conclusion
 

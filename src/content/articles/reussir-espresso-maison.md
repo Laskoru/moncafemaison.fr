@@ -2,7 +2,7 @@
 title: "Réussir son espresso maison : la méthode qui change tout"
 description: "Mouture, dose, tassage, temps d'extraction : les 4 réglages qui font un vrai espresso à la maison, avec crema et sans amertume. Le guide clair, étape par étape."
 pubDate: 2026-09-13
-updatedDate: 2026-09-13
+updatedDate: 2026-09-21
 author: "Hugo B."
 keywords: ["réussir espresso maison", "faire un espresso", "réglage espresso", "mouture espresso"]
 category: "preparer"
@@ -65,6 +65,24 @@ Un espresso révèle tout : un **café frais** (torréfié depuis quelques semai
 - **Ne pas peser** : à l'œil, la dose varie, et rien n'est reproductible.
 - **Changer trois réglages d'un coup** : on ne comprend plus ce qui a marché. Un seul à la fois.
 - **Machine froide** : sans préchauffage, la première tasse est ratée.
+
+## La distribution, l'étape oubliée entre la mouture et le tassage
+
+La mouture tombe dans le panier en tas, avec des zones denses et des poches d'air. Si tu tasses directement, ces irrégularités restent et l'eau se faufile par les zones les plus lâches : c'est le **canal préférentiel** (« channeling »), responsable d'espressos à la fois acides et amers. Avant de tasser, **répartis** la mouture : quelques tapotements du porte-filtre sur le côté, ou mieux, un passage avec un outil à aiguilles fines (une distribution « WDT », qu'on fabrique avec un bouchon de liège et des aiguilles d'acupuncture) qui brise les grumeaux et nivelle la surface. Trente secondes de plus, et des extractions nettement plus régulières.
+
+## La crema : ce qu'elle dit — et ce qu'elle ne dit pas
+
+La crema est cette mousse noisette qui coiffe l'espresso. Elle est faite de **CO2** libéré par le café frais, d'huiles et de micro-bulles. Elle renseigne sur deux choses : la **fraîcheur** (un café de plus de deux mois ne fait presque plus de crema) et le **temps d'extraction** (une crema pâle et fine signe souvent un café qui a coulé trop vite). En revanche, ce n'est **pas un gage de goût** : les paniers pressurisés des machines d'entrée de gamme fabriquent une crema abondante à partir de n'importe quel café, et un robusta produit plus de mousse qu'un arabica pourtant meilleur. Juge la tasse, pas la mousse.
+
+## Ristretto, espresso, lungo : jouer sur le ratio
+
+Le ratio 1:2 est le point de départ, pas une loi :
+
+- **Ristretto (1:1 à 1:1,5)** : même dose, moitié moins d'eau, extraction arrêtée vers 20 secondes. Plus dense, plus sucré, moins amer, mais aussi moins d'arômes extraits — parfait dans un cappuccino, où le lait dilue.
+- **Espresso (1:2)** : l'équilibre classique.
+- **Lungo (1:3 à 1:4)** : on laisse couler jusqu'à 55-70 g. Plus léger et plus amer en fin de course, à réserver aux cafés qui supportent la longueur. Pour un café long agréable, préfère un espresso allongé d'eau chaude (l'americano) à un lungo poussé trop loin.
+
+Le poids en tasse est ton curseur : à mouture égale, tu obtiens trois boissons différentes avec la même dose de café.
 
 > **L'essentiel à retenir**
 > Un bon espresso repose sur quatre réglages liés — **mouture** (fine et régulière), **dose** (pesée), **tassage** (régulier) et **temps** (~25-30 s pour un ratio 1:2). On ajuste **la mouture en priorité**, un paramètre à la fois, et on goûte. Le moulin compte plus que la machine, et le café frais fait le reste.

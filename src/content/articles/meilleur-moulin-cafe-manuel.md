@@ -2,6 +2,7 @@
 title: "Moulin à café manuel : lequel choisir en 2026 ?"
 description: "Précis, silencieux et sans fil : notre guide pour choisir un moulin à café manuel adapté à ton usage quotidien ou en voyage."
 pubDate: 2026-08-16
+updatedDate: 2026-09-21
 author: "Hugo B."
 pinHook: "Un café *plus précis*, même en voyage"
 pinSub: "Le moulin manuel, silencieux et fin."
@@ -59,6 +60,36 @@ Si ton usage se limite au **filtre, à la moka ou au voyage**, un modèle plus l
 ## Bien utiliser et entretenir son moulin manuel
 
 Verse les grains progressivement plutôt que de remplir le réservoir à ras bord d'un coup : cela réduit l'effort et évite de coincer le mécanisme. Nettoie régulièrement l'intérieur avec un pinceau sec pour retirer les résidus de café qui s'accumulent autour des meules et peuvent rancir avec le temps. Évite l'eau sur les parties métalliques internes : un simple brossage à sec suffit dans l'immense majorité des cas.
+
+## Combien de temps (et d'effort) pour moudre ?
+
+C'est la question que tout le monde se pose avant d'acheter, et la réponse dépend surtout de la **taille des meules** et de la finesse visée. En ordre de grandeur :
+
+- **Filtre ou French press, 15 g** : 30 à 45 secondes sur n'importe quel moulin correct, sans forcer.
+- **Espresso, 18 g** : 60 à 90 secondes sur un moulin d'entrée de gamme (meules de 38 mm), et l'effort se sent ; 30 à 40 secondes sur un moulin à grandes meules (45-48 mm), plus fluide.
+
+Pour une ou deux tasses par jour, c'est un rituel agréable. Pour quatre espressos chaque matin, ça devient une corvée : c'est là que le [moulin électrique](/articles/meilleur-moulin-cafe-electrique/) se justifie. Un truc pour réduire l'effort : mouds par petites quantités (10-15 g) plutôt que le réservoir plein, et tourne à vitesse constante plutôt que par à-coups.
+
+## Réglage interne ou externe, et l'histoire des « clics »
+
+Le réglage de finesse se fait par une **molette crantée**. Deux emplacements existent :
+
+- **Interne** (sous la meule, accessible en retirant le bocal) : robuste et stable, mais il faut démonter pour changer de mouture. Bien si tu utilises toujours la même méthode.
+- **Externe** (bague numérotée sur le corps) : on change de réglage en deux secondes, pratique si tu alternes espresso et filtre.
+
+Chaque cran s'appelle un « clic ». Plus il y a de clics par tour, plus le réglage est fin — important pour l'espresso, où deux clics font la différence entre un café qui coule bien et un café bouché. Note tes réglages (par exemple « 8 clics French press, 5 clics V60, 2 clics moka ») : les moulins manuels n'ont pas de mémoire, mais toi oui.
+
+## Les détails qui comptent au quotidien
+
+- **L'axe sur roulements à billes** plutôt que sur simples paliers : il empêche la meule de vaciller pendant la rotation, et donc la mouture de partir dans tous les sens. C'est ce qui sépare un moulin à 30 € d'un moulin à 80 €, bien plus que le matériau du corps.
+- **La manivelle aimantée ou à clip** : celle qui s'enlève pour le transport ne doit pas se détacher en cours de mouture.
+- **Le bocal fileté ou emboîté** : un bocal vissé ne tombe pas si tu mouds au-dessus de l'évier ; un bocal emboîté est plus rapide à retirer.
+- **Le corps en inox ou en aluminium** plutôt qu'en plastique : plus lourd, mais plus stable en main et sans électricité statique.
+- **La transparence du bocal** : voir la mouture s'accumuler permet d'arrêter au bon moment sans ouvrir.
+
+## En voyage et en camping
+
+Le moulin manuel est le compagnon naturel du camping et du van, mais l'humidité est son ennemie : des meules qui restent humides rouillent, et une mouture qui sèche dans le mécanisme le bloque. Vide-le et brosse-le après usage, range-le dans sa housse, et garde tes grains dans un sac hermétique plutôt que dans le réservoir. Associé à une [cafetière à piston](/articles/meilleure-cafetiere-piston-french-press/) en inox ou à une [moka](/articles/cafetiere-italienne-moka/), il permet un vrai café n'importe où — bien meilleur que le soluble, pour un encombrement à peine supérieur.
 
 ## Conclusion
 
