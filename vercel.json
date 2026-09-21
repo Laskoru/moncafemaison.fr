@@ -49,5 +49,18 @@
         }
       ]
     }
+  ],
+  "redirects": [
+    {
+      "source": "/(.*)",
+      "has": [
+        {
+          "type": "host",
+          "value": "(.*)\\.vercel\\.app"
+        }
+      ],
+      "destination": "https://www.moncafemaison.fr/$1",
+      "permanent": true
+    }
   ]
 }
