@@ -14,7 +14,7 @@ export const siteConfig = {
   locale: 'fr_FR',
 
   // Branding
-  accentColor: '#b5702c', // ambre torréfié, chaleureux
+  accentColor: '#915a23', // ambre torréfié, chaleureux
 
   // Publicité — AdSense désactivé pour le moment, on démarre en 100% affiliation Amazon
   adsense: {

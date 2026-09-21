@@ -8,7 +8,7 @@
   --color-text-muted: #736455;
   --color-text-faint: #6c635a;
   --color-border: #e8dcc8;
-  --color-accent: #b5702c; /* ambre torréfié — surchargé depuis siteConfig.accentColor */
+  --color-accent: #915a23; /* ambre torréfié — surchargé depuis siteConfig.accentColor */
   --color-accent-text: #915a23; /* accent assombri pour les petits textes (contraste ≥ 4.5) */
   --color-accent-soft: color-mix(in srgb, var(--color-accent) 14%, transparent);
   --color-signal: #6e8b5a; /* vert doux (grain/feuille), à utiliser avec parcimonie */
