@@ -74,4 +74,4 @@ Un espresso révèle tout : un **café frais** (torréfié depuis quelques semai
 - [Quelle méthode pour votre café ?](/methodes-cafe/) — le panorama de toutes les extractions
 - [Calculateur de dosage café](/calculateur-dosage-cafe/)
 - [Comparatif des machines expresso](/articles/meilleure-machine-expresso/)
-- [Le lexique du café](/lexique)
+- [Le lexique du café](/lexique/)

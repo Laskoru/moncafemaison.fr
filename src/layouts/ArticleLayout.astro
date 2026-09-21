@@ -1,6 +1,7 @@
 ---
 import { getCollection } from 'astro:content';
 import BaseLayout from './BaseLayout.astro';
+import { coverSrcSet } from '../lib/covers';
 import AmazonProduct from '../components/AmazonProduct.astro';
 import AffiliateDisclosure from '../components/AffiliateDisclosure.astro';
 import Breadcrumbs from '../components/Breadcrumbs.astro';
@@ -166,6 +167,8 @@ const jsonLdArticle = [articleSchema, ...(faqSchema ? [faqSchema] : [])];
     {coverImage && (
       <img
         src={coverImage}
+        srcset={coverSrcSet(coverImage)}
+        sizes="(max-width: 760px) 100vw, 680px"
         alt={coverAlt ?? ''}
         class="article-cover"
         width="1600"
@@ -207,7 +210,7 @@ const jsonLdArticle = [articleSchema, ...(faqSchema ? [faqSchema] : [])];
       <slot />
     </div>
 
-    {midArticleSearchUrl && (
+    {hasAffiliateLinks && midArticleSearchUrl && (
       <div class="article-search-cta">
         <span class="article-search-cta__icon" aria-hidden="true">
           <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -306,7 +309,7 @@ const jsonLdArticle = [articleSchema, ...(faqSchema ? [faqSchema] : [])];
       <div class="article-tools__list">
           <a href="/methodes-cafe/">Méthodes d’extraction →</a>
           <a href="/calculateur-dosage-cafe/">Calculateur de dosage →</a>
-          <a href="/lexique">Lexique du café →</a>
+          <a href="/lexique/">Lexique du café →</a>
       </div>
     </aside>
 
@@ -323,7 +326,8 @@ const jsonLdArticle = [articleSchema, ...(faqSchema ? [faqSchema] : [])];
 
 <style>
   .article-header { margin-bottom: 1.5rem; }
-  .article-header h1 { margin-top: 0.4rem; }
+  /* Titre lisible sur mobile : ~30 px sur un téléphone au lieu de 46 px (un titre long prenait tout l'écran). */
+  .article-header h1 { margin-top: 0.4rem; font-size: clamp(1.9rem, 4.2vw + 0.8rem, 2.9rem); line-height: 1.12; }
   .article-meta {
     color: var(--color-text-muted);
     font-size: 0.9rem;

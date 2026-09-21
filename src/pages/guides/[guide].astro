@@ -19,7 +19,7 @@ const articles = guide.articles.map((slug) => bySlug.get(slug)).filter((a) => a 
 
 <BaseLayout title={guide.title} description={guide.description}>
   <section class="container guide">
-    <Breadcrumbs items={[{ label: 'Accueil', href: '/' }, { label: 'Guides', href: '/guides' }, { label: guide.title }]} />
+    <Breadcrumbs items={[{ label: 'Accueil', href: '/' }, { label: 'Guides', href: '/guides/' }, { label: guide.title }]} />
     <p class="guide__icon">{guide.icon}</p>
     <h1>{guide.title}</h1>
     <div class="guide__intro">

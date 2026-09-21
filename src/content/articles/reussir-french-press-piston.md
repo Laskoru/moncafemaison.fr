@@ -67,4 +67,4 @@ La French press se nettoie facilement : démonte le filtre métallique de temps 
 - [Quelle méthode pour votre café ?](/methodes-cafe/)
 - [Calculateur de dosage café](/calculateur-dosage-cafe/)
 - [Comparatif des cafetières à piston](/articles/meilleure-cafetiere-piston-french-press/)
-- [Le lexique du café](/lexique)
+- [Le lexique du café](/lexique/)

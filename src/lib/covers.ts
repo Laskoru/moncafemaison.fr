@@ -22,3 +22,21 @@ export function resolveCoverImage(slug: string, explicit?: string): string | nul
   if (explicit) return explicit;
   return null;
 }
+
+/**
+ * srcset des variantes responsives d'une couverture locale (générées par la finisseuse :
+ * <slug>-480.webp et <slug>-960.webp). Sans variante (article tout neuf), retourne undefined
+ * et l'attribut est simplement omis : l'image d'origine est servie comme avant.
+ */
+export function coverSrcSet(cover: string | null | undefined): string | undefined {
+  const m = cover?.match(/^\/covers\/(.+)\.(webp|jpe?g|png)$/);
+  if (!m) return undefined;
+  const parts: string[] = [];
+  for (const w of [480, 960]) {
+    const f = `/covers/${m[1]}-${w}.webp`;
+    if (fs.existsSync(path.join(process.cwd(), 'public', f))) parts.push(`${f} ${w}w`);
+  }
+  if (!parts.length) return undefined;
+  parts.push(`${cover} 1600w`);
+  return parts.join(', ');
+}

@@ -63,4 +63,4 @@ Le café filtre, c'est à plus de 98 % de l'eau : sa qualité compte énormémen
 - [Quelle méthode pour votre café ?](/methodes-cafe/)
 - [Calculateur de dosage café](/calculateur-dosage-cafe/)
 - [Cafetières filtre programmables](/articles/meilleure-cafetiere-filtre-programmable/) · [la Chemex](/articles/chemex-cafetiere-filtre-design/)
-- [Le lexique du café](/lexique)
+- [Le lexique du café](/lexique/)

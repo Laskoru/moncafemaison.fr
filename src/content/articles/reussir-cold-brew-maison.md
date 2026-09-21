@@ -62,4 +62,4 @@ Le concentré est puissant : on le **coupe** à parts à peu près égales avec 
 - [Quelle méthode pour votre café ?](/methodes-cafe/)
 - [Calculateur de dosage café](/calculateur-dosage-cafe/)
 - [Bien choisir son moulin](/articles/meilleur-moulin-cafe-electrique/)
-- [Le lexique du café](/lexique)
+- [Le lexique du café](/lexique/)

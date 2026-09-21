@@ -4,13 +4,13 @@
 // d'audience (Google Analytics, voir BaseLayout.astro) n'est chargé.
 ---
 
-<div id="cookie-banner" class="cookie-banner" hidden>
+<div id="cookie-banner" class="cookie-banner" aria-hidden="true">
   <div class="cookie-banner__inner">
     <p>
       Ce site utilise des cookies de <strong>mesure d'audience</strong> (Google Analytics)
       pour comprendre comment il est consulté et l'améliorer. Ils ne sont déposés que si
       vous acceptez. Voir notre
-      <a href="/politique-de-confidentialite">politique de confidentialité</a>.
+      <a href="/politique-de-confidentialite/">politique de confidentialité</a>.
     </p>
     <div class="cookie-banner__actions">
       <button id="cookie-refuse" type="button" class="btn btn--ghost">Refuser</button>
@@ -26,12 +26,13 @@
     var stored = localStorage.getItem(KEY);
 
     function reveal() {
-      if (!stored) banner.hidden = false;
+      if (!stored) { banner.classList.add('is-visible'); banner.setAttribute('aria-hidden', 'false'); }
     }
 
     function setConsent(value) {
       localStorage.setItem(KEY, value);
-      banner.hidden = true;
+      banner.classList.remove('is-visible');
+      banner.setAttribute('aria-hidden', 'true');
       if (value === 'accepted') {
         document.dispatchEvent(new CustomEvent('cookie-consent-accepted'));
       }
@@ -52,6 +53,14 @@
 </script>
 
 <style>
+  /* Hors écran par transform (pas de décalage de mise en page / CLS), glisse quand il faut demander le consentement. */
+  .cookie-banner {
+    transform: translateY(110%);
+    visibility: hidden;
+    transition: transform 0.35s ease, visibility 0s linear 0.35s;
+  }
+  .cookie-banner.is-visible { transform: none; visibility: visible; transition: transform 0.35s ease; }
+  @media (prefers-reduced-motion: reduce) { .cookie-banner, .cookie-banner.is-visible { transition: none; } }
   .cookie-banner {
     position: fixed;
     bottom: 0;

@@ -19,6 +19,8 @@ interface Props {
 }
 
 const { title, description = siteConfig.description, ogImage, ogType = 'website', jsonLd, noindex = false, article } = Astro.props;
+// Meta description : Google coupe vers 160 caractères ; on coupe nous-mêmes en fin de mot plutôt que lui au milieu.
+const metaDescription = description.length > 160 ? description.slice(0, 157).replace(/\s+\S*$/, '') + '…' : description;
 // Suffixe « | Nom du site » seulement s'il tient : au-delà de ~65 caractères
 // Google tronque et le nom disparaîtrait de toute façon (il est affiché à part
 // grâce au schéma WebSite). Pas de doublon si le titre contient déjà le nom.
@@ -110,12 +112,12 @@ const jsonLdBlocks = [organizationSchema, websiteSchema, ...(jsonLd ? (Array.isA
     <link rel="preload" as="font" type="font/woff2" href="/fonts/newsreader-normal-500-latin.woff2" crossorigin />
 
     <title>{pageTitle}</title>
-    <meta name="description" content={description} />
+    <meta name="description" content={metaDescription} />
 
     <!-- Open Graph -->
     <meta property="og:type" content={ogType} />
     <meta property="og:title" content={pageTitle} />
-    <meta property="og:description" content={description} />
+    <meta property="og:description" content={metaDescription} />
     <meta property="og:locale" content={siteConfig.locale} />
     <meta property="og:site_name" content={siteConfig.name} />
     <meta property="og:url" content={Astro.url} />
@@ -134,7 +136,7 @@ const jsonLdBlocks = [organizationSchema, websiteSchema, ...(jsonLd ? (Array.isA
     <!-- Twitter -->
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content={pageTitle} />
-    <meta name="twitter:description" content={description} />
+    <meta name="twitter:description" content={metaDescription} />
     <meta name="twitter:image" content={resolvedOgImage} />
 
     <style set:html={`:root { --color-accent: ${siteConfig.accentColor}; }`}></style>

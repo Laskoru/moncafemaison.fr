@@ -2,7 +2,7 @@
 import type { CollectionEntry } from 'astro:content';
 import { siteConfig } from '../siteConfig';
 import { resolveProductImages } from '../lib/products';
-import { resolveCoverImage } from '../lib/covers';
+import { resolveCoverImage, coverSrcSet } from '../lib/covers';
 
 interface Props {
   article: CollectionEntry<'articles'>;
@@ -25,7 +25,7 @@ const readingMinutes = Math.max(1, Math.round(article.body.trim().split(/\s+/).l
 <article class:list={['article-card', 'card', 'card--hover', { 'article-card--cover': cover }]}>
   {cover && (
     <a class="article-card__cover" href={`/articles/${article.slug}/`} tabindex="-1" aria-hidden="true">
-      <img src={cover} alt="" loading="lazy" width="220" height="150" onerror="this.closest('.article-card__cover').remove()" />
+      <img src={cover} srcset={coverSrcSet(cover)} sizes="(max-width: 600px) 100vw, 240px" alt="" loading="lazy" width="220" height="150" onerror="this.closest('.article-card__cover').remove()" />
     </a>
   )}
   <div class="article-card__body">

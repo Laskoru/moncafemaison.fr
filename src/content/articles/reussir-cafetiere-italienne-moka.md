@@ -65,4 +65,4 @@ Les moka classiques sont en **aluminium** et ne fonctionnent donc **pas sur indu
 - [Quelle méthode pour votre café ?](/methodes-cafe/)
 - [Calculateur de dosage café](/calculateur-dosage-cafe/)
 - [Bien choisir sa cafetière italienne](/articles/cafetiere-italienne-moka/)
-- [Le lexique du café](/lexique)
+- [Le lexique du café](/lexique/)

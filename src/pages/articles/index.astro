@@ -9,7 +9,7 @@ const allArticles = (await getCollection('articles', ({ data }) => !data.draft))
 );
 ---
 
-<BaseLayout title="Tous les articles" description={`Tous les articles publiés sur ${siteConfig.name}.`}>
+<BaseLayout title="Tous les articles" description={`Tous les articles de ${siteConfig.name}, du plus récent au plus ancien : guides pratiques, comparatifs et conseils pour bien choisir — ${siteConfig.tagline.charAt(0).toLowerCase() + siteConfig.tagline.slice(1)}.`}>
   <section class="container">
     <p class="eyebrow">{allArticles.length} article{allArticles.length > 1 ? 's' : ''}</p>
     <h1>Tous les articles</h1>
