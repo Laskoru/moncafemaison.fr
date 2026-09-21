@@ -8,7 +8,6 @@ pinHook: "Un café filtre *prêt en 2 minutes*, où que tu sois"
 pinSub: "L'AeroPress, la méthode nomade la plus polyvalente."
 keywords: ["aeropress", "test aeropress", "alternative aeropress", "café nomade", "aeropress go", "meilleur aeropress 2026"]
 category: "machines"
-coverImage: "https://images.unsplash.com/photo-1783351583781-0f3b2d91b8b6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1600"
 coverAlt: "Une personne verse de l'eau chaude dans un AeroPress pour préparer un café"
 draft: false
 faq:
