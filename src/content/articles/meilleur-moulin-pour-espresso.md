@@ -11,7 +11,7 @@ coverAlt: "Deux moulins à café professionnels côte à côte sur un comptoir, 
 draft: false
 products:
   - asin: "B000IWHXH8"
-    title: "Krups GVX242 — Moulin à café électrique à meules, 17 niveaux de broyage"
+    title: "Krups GVX242 — Moulin électrique à meules, 17 niveaux (filtre et moka ; trop grossier pour un vrai espresso)"
     blurb: "Un broyeur à meules avec 17 crans de réglage, assez fin et régulier pour l'espresso, à un prix raisonnable pour débuter sérieusement."
     pros:
       - "17 crans de réglage"

@@ -24,7 +24,7 @@ products:
       - "Écran peu lisible en plein soleil"
 faq:
   - question: "Pourquoi peser son café plutôt que doser à la cuillère ?"
-    answer: "Parce qu'une cuillère ne mesure pas la même masse selon la mouture et le tassage : d'un café à l'autre, le dosage varie, et le goût avec. Peser (ex. 18 g de café pour 30 g d'espresso) rend chaque tasse reproductible — c'est le geste qui améliore le plus la régularité."
+    answer: "Parce qu'une cuillère ne mesure pas la même masse selon la mouture et le tassage : d'un café à l'autre, le dosage varie, et le goût avec. Peser (ex. 18 g de café pour environ 36 g d'espresso, soit un ratio 1:2) rend chaque tasse reproductible — c'est le geste qui améliore le plus la régularité."
   - question: "À quoi sert la minuterie intégrée ?"
     answer: "Elle permet de suivre le temps d'extraction, un repère clé : un espresso vise souvent 25-30 secondes, un pour-over 2 à 3 minutes. Voir la masse ET le temps au même endroit facilite les ajustements sans jongler avec le téléphone."
   - question: "La précision 0,1 g est-elle vraiment utile ?"
@@ -35,7 +35,7 @@ faq:
 
 On sous-estime la balance parce qu'elle n'a rien de spectaculaire. Pourtant, c'est l'accessoire qui rend un café **reproductible**. Sans elle, on dose « à la cuillère » — mais une cuillère de café moulu fin ne pèse pas la même chose qu'une cuillère de mouture grossière, et le résultat change d'une tasse à l'autre.
 
-Peser le café (et l'eau) permet de fixer un ratio et de le retrouver à chaque fois : par exemple 18 g de café pour 30 g d'espresso, ou 15 g pour 250 ml en filtre. Une fois le bon ratio trouvé, on le reproduit — fini les cafés parfaits « par hasard » et les ratés inexpliqués.
+Peser le café (et l'eau) permet de fixer un ratio et de le retrouver à chaque fois : par exemple 18 g de café pour environ 36 g d'espresso (ratio 1:2), ou 15 g pour 250 ml en filtre. Une fois le bon ratio trouvé, on le reproduit — fini les cafés parfaits « par hasard » et les ratés inexpliqués.
 
 ## Les critères qui comptent
 

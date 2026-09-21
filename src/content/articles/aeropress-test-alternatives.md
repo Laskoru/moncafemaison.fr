@@ -1,5 +1,5 @@
 ---
-title: "AeroPress : test complet et meilleures alternatives en 2026"
+title: "AeroPress : test complet et meilleures alternatives"
 description: "AeroPress : comment ça marche, méthode inversée, critères d'achat et meilleures alternatives pour un café filtre rapide et nomade à la maison."
 pubDate: 2026-09-21
 updatedDate: 2026-09-21
@@ -19,7 +19,7 @@ faq:
     answer: "L'AeroPress tolère une large plage de mouture, de fine à moyenne-fine, ce qui en fait l'une des méthodes les plus souples du marché. Une mouture plus fine avec un temps de contact court donne un café plus concentré façon espresso-like ; une mouture un peu plus grossière avec un temps de contact plus long se rapproche d'un café filtre classique. C'est justement cette tolérance qui rend la méthode si populaire auprès des débutants comme des amateurs confirmés."
 topPick:
   name: "AeroPress Go — la version compacte pour voyager"
-  blurb: "La version repensée pour le nomadisme : un mug de transport qui range piston, filtres et capsule doseuse, sans rien changer à la méthode de préparation d'origine."
+  blurb: "La version repensée pour le nomadisme : un mug de transport qui range piston, filtres et cuillère doseuse, sans rien changer à la méthode de préparation d'origine."
   url: "https://www.amazon.fr/s?k=aeropress+go&tag=moncafemaison-21"
   ctaLabel: "Voir le prix sur Amazon"
 comparison:
@@ -48,9 +48,9 @@ Les deux méthodes utilisent exactement le même matériel — seul l'enchaînem
 ## Les critères qui comptent avant d'acheter
 
 - **Filtres papier ou filtres métal réutilisables** : le filtre papier donne une tasse plus propre en bouche, sans sédiment ; le filtre métal (réutilisable, en inox à mailles fines) laisse passer davantage d'huiles et de fines particules, pour un café plus texturé mais un peu plus trouble.
-- **Format classique ou format Go** : le modèle Go intègre un mug de transport qui sert aussi de rangement pour le piston, les filtres et la capsule doseuse — un vrai avantage pour qui voyage souvent, au prix d'un léger surcoût.
+- **Format classique ou format Go** : le modèle Go intègre un mug de transport qui sert aussi de rangement pour le piston, les filtres et la cuillère doseuse — un vrai avantage pour qui voyage souvent, au prix d'un léger surcoût.
 - **La robustesse du plastique** : la chambre et le piston encaissent une utilisation quotidienne sans souci ; évite de laisser l'ensemble en plein soleil ou près d'une source de chaleur directe, ce qui peut à terme fragiliser le plastique.
-- **La compatibilité des pièces détachées** : joint du piston et capsule doseuse s'usent après plusieurs années d'usage intensif et se remplacent séparément, sans devoir racheter l'appareil complet.
+- **La compatibilité des pièces détachées** : joint du piston et cuillère doseuse s'usent après plusieurs années d'usage intensif et se remplacent séparément, sans devoir racheter l'appareil complet.
 
 > 🛒 **Notre sélection du moment**
 > Pour comparer les modèles et les filtres disponibles en ce moment (papier, métal, packs de recharge) : [voir les AeroPress et accessoires sur Amazon](https://www.amazon.fr/s?k=aeropress+filtres&tag=moncafemaison-21).

@@ -27,7 +27,7 @@ comparison:
   rows:
     - ["Base plate classique", "51 à 58 mm selon la machine", "Dépend du geste de la main", "Usage quotidien simple, budget maîtrisé"]
     - ["Base convexe", "51 à 58 mm selon la machine", "Plus tolérant sur une mouture mal nivelée", "Qui tasse encore de façon peu régulière"]
-    - ["Calibré à ressort (env. 15 kg)", "Le plus souvent 58 mm", "Pression constante garantie", "Usage fréquent, plusieurs cafés par jour"]
+    - ["Calibré à ressort (env. 15 kg)", "51, 53 ou 58 mm selon le modèle", "Pression constante garantie", "Usage fréquent, plusieurs cafés par jour"]
 ---
 
 ## Pourquoi le tamper mérite plus d'attention qu'on ne le pense

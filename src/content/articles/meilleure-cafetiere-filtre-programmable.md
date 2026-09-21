@@ -54,7 +54,7 @@ Pour un usage familial où le café reste dans la carafe un moment avant d'être
 
 Si tu vis **seul ou à deux** et que tu bois le café rapidement après la préparation, une cafetière filtre simple avec plaque chauffante et petite capacité (6-8 tasses) suffit largement, pour un budget réduit.
 
-Si vous êtes **plusieurs à la maison**, que le café reste dans la carafe une partie de la matinée, ou que tu veux profiter à fond de la fonction programmable pour te réveiller avec du café déjà prêt, privilégie une carafe isotherme et une capacité de 10-12 tasses minimum.
+Si tu n'es **pas seul à la maison**, que le café reste dans la carafe une partie de la matinée, ou que tu veux profiter à fond de la fonction programmable pour te réveiller avec du café déjà prêt, privilégie une carafe isotherme et une capacité de 10-12 tasses minimum.
 
 Pour les **matins vraiment pressés**, la programmation 24h à l'avance change la donne : tu prépares tout la veille au soir en quelques minutes, et le café t'attend au réveil sans aucune manipulation.
 

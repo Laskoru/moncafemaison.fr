@@ -54,7 +54,7 @@ Si tu **reçois souvent** ou que le foyer compte plusieurs buveurs de café aux 
 
 Si tu es **seul ou en couple** et que tu bois surtout le même type de café chaque jour, le haut de gamme apporte moins de valeur : une [machine à café à grains](/articles/meilleure-cafetiere-grains/) plus simple couvrira l'essentiel, pour un budget bien inférieur. Garde le haut de gamme pour un usage qui justifie vraiment la complexité en plus.
 
-Si ton **budget est votre priorité mais que la mousse de lait compte** énormément, une alternative existe : garder une machine à grains simple et ajouter un [mousseur à lait](/articles/meilleur-mousseur-lait/) dédié. Le résultat n'est pas parfaitement identique à une carafe automatique intégrée, mais il s'en approche pour une fraction du prix, et le mousseur peut aussi servir en dehors du café.
+Si ton **budget est ta priorité mais que la mousse de lait compte** énormément, une alternative existe : garder une machine à grains simple et ajouter un [mousseur à lait](/articles/meilleur-mousseur-lait/) dédié. Le résultat n'est pas parfaitement identique à une carafe automatique intégrée, mais il s'en approche pour une fraction du prix, et le mousseur peut aussi servir en dehors du café.
 
 Si tu cherches avant tout la **régularité en tasse**, sans forcément vouloir la carafe à lait automatique ni les dizaines de recettes, regarde d'abord la qualité du broyeur avant toute autre fonction. C'est le composant qui détermine l'essentiel du goût final ; les fonctions connectées et les écrans tactiles ne rattrapent jamais un broyeur médiocre.
 
