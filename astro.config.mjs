@@ -1,5 +1,7 @@
 import { defineConfig } from 'astro/config';
 import sitemap from '@astrojs/sitemap';
+import fs from 'node:fs';
+import path from 'node:path';
 
 // Domaine final du site — doit correspondre exactement au domaine servi en
 // production (avec ou sans www), sinon Google voit un conflit sur le canonical.
@@ -21,8 +23,47 @@ function rehypeAmazonLinks() {
   return (tree) => visit(tree);
 }
 
+// ---- Sitemap : dates réelles (lastmod) + pages vides exclues ---------------------------
+// Lit le frontmatter des articles (sans dépendance) pour donner à chaque URL une date de
+// dernière modification fiable : les moteurs s'en servent pour prioriser le recrawl.
+function readArticles() {
+  const dir = path.join(process.cwd(), 'src/content/articles');
+  const out = [];
+  for (const f of fs.readdirSync(dir).filter((n) => n.endsWith('.md'))) {
+    const src = fs.readFileSync(path.join(dir, f), 'utf8');
+    const fm = (src.match(/^---\r?\n([\s\S]*?)\r?\n---/) || [])[1] || '';
+    const get = (k) => (fm.match(new RegExp('^' + k + ':\\s*["\']?([^"\'\\r\\n]+)', 'm')) || [])[1]?.trim();
+    if (/^draft:\s*true/m.test(fm)) continue;
+    out.push({ slug: f.replace(/\.md$/, ''), category: get('category'), date: get('updatedDate') || get('pubDate') });
+  }
+  return out;
+}
+const ARTICLES = readArticles();
+const LATEST = ARTICLES.map((a) => a.date).filter(Boolean).sort().pop();
+const EMPTY_CATEGORIES = (() => {
+  try {
+    const src = fs.readFileSync(path.join(process.cwd(), 'src/categories.ts'), 'utf8');
+    const slugs = [...src.matchAll(/slug:\s*['"]([^'"]+)['"]/g)].map((m) => m[1]);
+    return slugs.filter((s) => !ARTICLES.some((a) => a.category === s));
+  } catch { return []; }
+})();
+const isoDate = (d) => (d ? new Date(d + (d.length === 10 ? 'T00:00:00Z' : '')) : undefined);
+
 export default defineConfig({
   site: SITE_URL,
-  integrations: [sitemap()],
+  integrations: [sitemap({
+    // Catégories vides : ni dans le sitemap (elles sont aussi en noindex côté page).
+    filter: (page) => !EMPTY_CATEGORIES.some((s) => page.includes('/categorie/' + s + '/')),
+    serialize(item) {
+      const m = item.url.match(/\/articles\/([^/]+)\/?$/);
+      if (m) {
+        const a = ARTICLES.find((x) => x.slug === m[1]);
+        if (a?.date) item.lastmod = isoDate(a.date);
+      } else if (LATEST && /^\/(articles\/|categorie\/[^/]+\/|guides\/(?:[^/]+\/)?)?$/.test(new URL(item.url).pathname)) {
+        item.lastmod = isoDate(LATEST); // accueil, listes, catégories, guides : bougent à chaque publication
+      }
+      return item;
+    },
+  })],
   markdown: { rehypePlugins: [rehypeAmazonLinks] },
 });

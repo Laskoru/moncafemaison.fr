@@ -110,7 +110,7 @@ const articleSchema = {
   description,
   datePublished: pubDate.toISOString(),
   dateModified: (updatedDate ?? pubDate).toISOString(),
-  author: { '@type': 'Person', name: author ?? siteConfig.author, url: new URL('/auteur', siteUrl).toString() },
+  author: { '@type': 'Person', '@id': `${siteUrl}/auteur/#person`, name: author ?? siteConfig.author, url: new URL('/auteur/', siteUrl).toString() },
   publisher: { '@type': 'Organization', name: siteConfig.name, '@id': `${siteUrl}/#organization` },
   ...(coverImageAbs ? { image: coverImageAbs } : {}),
   ...(sources.length > 0 ? { citation: sources.map((s) => ({ '@type': 'CreativeWork', name: s.label, url: s.url })) } : {}),
@@ -140,7 +140,14 @@ const breadcrumbItems = [
 const jsonLdArticle = [articleSchema, ...(faqSchema ? [faqSchema] : [])];
 ---
 
-<BaseLayout title={title} description={description} ogImage={coverImageAbs} ogType="article" jsonLd={jsonLdArticle}>
+<BaseLayout
+  title={title}
+  description={description}
+  ogImage={coverImageAbs}
+  ogType="article"
+  jsonLd={jsonLdArticle}
+  article={{ publishedTime: pubDate.toISOString(), modifiedTime: (updatedDate ?? pubDate).toISOString(), author: author ?? siteConfig.author, section: categoryInfo?.label, tags: keywords }}
+>
   <article class="container">
     <Breadcrumbs items={breadcrumbItems} />
 

@@ -38,6 +38,8 @@ export const siteConfig = {
     // URL complète du profil Pinterest (ex : 'https://www.pinterest.fr/moncafemaison/').
     // Renseignée ici, elle alimente le champ sameAs du schéma Organization.
     pinterest: '',
+    // Profil Flipboard (magazines alimentés par le flux RSS) — champ sameAs.
+    flipboard: 'https://flipboard.com/@HBWEB35',
   },
 
   // Auteur par défaut affiché sur les articles

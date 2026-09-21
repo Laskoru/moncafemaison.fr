@@ -4,6 +4,7 @@ import BaseLayout from '../layouts/BaseLayout.astro';
 import ArticleCard from '../components/ArticleCard.astro';
 import { siteConfig } from '../siteConfig';
 
+const personSameAs = [siteConfig.social?.pinterest, siteConfig.social?.flipboard].filter(Boolean);
 const authorName = siteConfig.author;
 const siteUrl = Astro.site?.origin ?? Astro.url.origin;
 
@@ -19,8 +20,10 @@ const jsonLd = {
   '@type': 'ProfilePage',
   mainEntity: {
     '@type': 'Person',
+    '@id': `${siteUrl}/auteur/#person`,
     name: authorName,
-    url: `${siteUrl}/auteur`,
+    url: `${siteUrl}/auteur/`,
+    ...(personSameAs.length ? { sameAs: personSameAs } : {}),
     jobTitle: "Passionné de café & fondateur",
     worksFor: { '@id': `${siteUrl}/#organization` },
     knowsAbout: ["café de spécialité","machines à café","moulins à café","méthodes d'extraction du café"],

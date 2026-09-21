@@ -3,6 +3,7 @@ import { siteConfig } from '../siteConfig';
 import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
 import CookieConsent from '../components/CookieConsent.astro';
+import '../styles/fonts.css';
 import '../styles/global.css';
 
 interface Props {
@@ -11,9 +12,13 @@ interface Props {
   ogImage?: string;
   ogType?: string;
   jsonLd?: Record<string, unknown> | Record<string, unknown>[];
+  /** Page à ne pas indexer (ex. catégorie vide) : noindex + follow. */
+  noindex?: boolean;
+  /** Métadonnées Open Graph « article » (Rich Pins Pinterest, Facebook, Discover). */
+  article?: { publishedTime: string; modifiedTime?: string; author?: string; section?: string; tags?: string[] };
 }
 
-const { title, description = siteConfig.description, ogImage, ogType = 'website', jsonLd } = Astro.props;
+const { title, description = siteConfig.description, ogImage, ogType = 'website', jsonLd, noindex = false, article } = Astro.props;
 // Suffixe « | Nom du site » seulement s'il tient : au-delà de ~65 caractères
 // Google tronque et le nom disparaîtrait de toute façon (il est affiché à part
 // grâce au schéma WebSite). Pas de doublon si le titre contient déjà le nom.
@@ -31,7 +36,7 @@ const logoUrl = new URL('/logo.png', siteUrl).toString();
 
 // Liens officiels du site (profils réseaux) pour le champ sameAs du schéma
 // Organization — n'apparaît que si au moins un lien est renseigné.
-const sameAs = [siteConfig.social?.pinterest, siteConfig.social?.instagram, siteConfig.social?.twitter].filter(Boolean);
+const sameAs = [siteConfig.social?.pinterest, siteConfig.social?.flipboard, siteConfig.social?.instagram, siteConfig.social?.twitter].filter(Boolean);
 
 const organizationSchema = {
   '@context': 'https://schema.org',
@@ -65,9 +70,13 @@ const jsonLdBlocks = [organizationSchema, websiteSchema, ...(jsonLd ? (Array.isA
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <!-- PNG multiples de 48 px : format attendu par Google pour afficher le favicon dans les résultats -->
+    <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96.png" />
+    <link rel="icon" type="image/png" sizes="192x192" href="/favicon-192.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
     <link rel="canonical" href={Astro.url} />
     <!-- Google Discover : autorise les grandes vignettes (indispensable pour apparaître dans le flux Discover) -->
-    <meta name="robots" content="max-image-preview:large" />
+    <meta name="robots" content={noindex ? 'noindex, follow, max-image-preview:large' : 'max-image-preview:large'} />
     <link rel="alternate" type="application/rss+xml" title={siteConfig.name} href="/rss.xml" />
     {siteConfig.googleSiteVerification && (
       <meta name="google-site-verification" content={siteConfig.googleSiteVerification} />
@@ -96,12 +105,9 @@ const jsonLdBlocks = [organizationSchema, websiteSchema, ...(jsonLd ? (Array.isA
         }, { once: true });
       </script>
     )}
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,500;0,6..72,600;1,6..72,500;1,6..72,600&family=Hanken+Grotesk:wght@400;500;600;700&display=swap"
-      rel="stylesheet"
-    />
+    <!-- Polices auto-hébergées : voir src/styles/fonts.css (préchargement des 2 fichiers principaux) -->
+    <link rel="preload" as="font" type="font/woff2" href="/fonts/hanken-grotesk-normal-400-latin.woff2" crossorigin />
+    <link rel="preload" as="font" type="font/woff2" href="/fonts/newsreader-normal-500-latin.woff2" crossorigin />
 
     <title>{pageTitle}</title>
     <meta name="description" content={description} />
@@ -115,6 +121,15 @@ const jsonLdBlocks = [organizationSchema, websiteSchema, ...(jsonLd ? (Array.isA
     <meta property="og:url" content={Astro.url} />
     <meta property="og:image" content={resolvedOgImage} />
     <meta property="og:image:alt" content={pageTitle} />
+    {article && (
+      <>
+        <meta property="article:published_time" content={article.publishedTime} />
+        {article.modifiedTime && <meta property="article:modified_time" content={article.modifiedTime} />}
+        {article.author && <meta property="article:author" content={article.author} />}
+        {article.section && <meta property="article:section" content={article.section} />}
+        {(article.tags ?? []).map((t) => <meta property="article:tag" content={t} />)}
+      </>
+    )}
 
     <!-- Twitter -->
     <meta name="twitter:card" content="summary_large_image" />
