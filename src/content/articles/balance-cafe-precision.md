@@ -2,6 +2,7 @@
 title: "Balance à café de précision : pourquoi (et laquelle) choisir"
 description: "Doser au gramme près change la régularité de ton café. Nos critères et notre sélection de balances de précision avec minuterie."
 pubDate: 2026-08-16
+updatedDate: 2026-09-21
 author: "Hugo B."
 pinHook: "Doser *au gramme près*, comme un barista"
 pinSub: "La précision qui transforme la tasse."
@@ -50,6 +51,37 @@ Peser le café (et l'eau) permet de fixer un ratio et de le retrouver à chaque 
 Pour un usage **polyvalent** (filtre, French press, espresso occasionnel), une balance 0,1 g avec minuterie et bon plateau couvre tous les besoins et rend service au-delà du café.
 
 Pour un usage **orienté espresso**, privilégie un modèle compact qui se glisse sous le porte-filtre et se recharge — la place sur le plateau de la machine est souvent comptée.
+
+## Les ratios de départ, méthode par méthode
+
+Une balance ne sert à rien sans repère. Voici les ratios café/eau qui donnent une tasse équilibrée dans la grande majorité des cas, à ajuster ensuite au goût :
+
+| Méthode | Ratio | Exemple concret |
+|---|---|---|
+| Espresso | 1:2 | 18 g de café → 36 g dans la tasse, en 25-30 s |
+| Ristretto | 1:1 à 1:1,5 | 18 g → 18 à 27 g |
+| Filtre V60, Chemex, cafetière électrique | 1:16 à 1:17 (≈ 60 g/L) | 15 g → 250 g d'eau |
+| French press | 1:14 à 1:15 (≈ 65-70 g/L) | 30 g → 450 g d'eau |
+| Cafetière italienne | Filtre plein | Pas besoin de peser |
+| Cold brew (concentré) | 1:8 | 100 g → 800 g d'eau |
+
+Retiens un principe : on pèse **l'eau aussi**, pas seulement le café. 1 ml d'eau pèse 1 g, ce qui rend le calcul immédiat et plus précis qu'un verre doseur. Notre [calculateur de dosage](/calculateur-dosage-cafe/) fait les conversions pour n'importe quel volume.
+
+## Utiliser la balance sous une machine expresso
+
+C'est l'usage le plus exigeant. Pose la balance sur le plateau d'égouttage, la tasse dessus, fais la **tare**, puis lance l'extraction et le chrono **en même temps** (les balances avec minuterie automatique démarrent à la première goutte). Arrête l'extraction quand la balance approche du poids cible **moins 2 à 3 grammes** : le café continue de couler une seconde ou deux après l'arrêt de la pompe. Note le trio « dose – poids en tasse – temps » : c'est lui que tu ajustes en changeant la mouture, comme on l'explique dans [réussir son espresso à la maison](/articles/reussir-espresso-maison/). Si la balance ne passe pas sous le porte-filtre, un modèle **fin** (moins de 2 cm) ou une petite balance « de poche » pour bijoutier dépanne très bien, à condition qu'elle réagisse vite.
+
+## Les erreurs qui faussent la pesée
+
+- **Le plateau chaud** : poser une tasse brûlante ou verser de l'eau à 95 °C sur une balance non protégée dérègle le capteur. Un sous-verre en silicone ou un tapis protège la cellule, surtout pour les balances bon marché.
+- **Les gouttes et la vapeur** : sous une machine, la balance prend l'eau. Vise un modèle donné pour résistant aux éclaboussures, et essuie-la après chaque usage.
+- **Les piles faibles** : la lecture dérive et devient lente avant de s'éteindre.
+- **L'arrêt automatique** trop court : une balance qui s'éteint au bout de 60 secondes s'éteint en pleine infusion filtre. Cherche un réglage à 3 minutes ou plus, ou un mode « café ».
+- **Le bol trop grand** qui déborde du plateau et touche le plan de travail : la mesure est fausse sans que rien ne le signale.
+
+## Balance de cuisine ou balance à café ?
+
+Une bonne balance de cuisine au dixième de gramme, avec tare et plateau assez large, suffit pour le filtre et la French press. Les balances « à café » ajoutent trois choses : une **minuterie** intégrée (souvent automatique), une **réactivité** élevée (l'affichage suit le flux en temps réel, indispensable pour l'espresso), et un **format** adapté aux plateaux de machine. Si tu bois surtout du filtre, la balance de cuisine que tu as déjà fera l'affaire ; si tu tires des espressos chaque jour, la balance dédiée se rentabilise en cafés non gâchés. Dans les deux cas, la précision au **0,1 g** est la seule caractéristique qui ne se négocie pas.
 
 ## Conclusion
 
