@@ -8,7 +8,7 @@ const latest = (await getCollection('articles', ({ data }) => !data.draft))
   .slice(0, 3);
 ---
 
-<BaseLayout title="Page introuvable" description="Cette page n'existe pas ou a été déplacée.">
+<BaseLayout title="Page introuvable" description="Cette page n'existe pas ou a été déplacée." noindex>
   <section class="container not-found">
     <p class="eyebrow">Erreur 404</p>
     <h1>Cette page n'existe pas (ou plus)</h1>

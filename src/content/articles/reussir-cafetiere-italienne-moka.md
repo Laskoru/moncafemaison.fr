@@ -4,7 +4,7 @@ description: "La méthode pour un café moka corsé mais jamais brûlé : bonne 
 pubDate: 2026-09-13
 updatedDate: 2026-09-21
 author: "Hugo B."
-keywords: ["cafetière italienne", "café moka réussir", "utiliser cafetière italienne", "moka bialetti méthode"]
+keywords: ["comment utiliser une cafetière italienne", "réussir café moka sans amertume", "café moka réussir", "utiliser cafetière italienne", "moka bialetti méthode"]
 category: "preparer"
 coverAlt: "Cafetière italienne en aluminium sur une plaque, café qui monte"
 pinHook: "La *moka* corsée, jamais brûlée"

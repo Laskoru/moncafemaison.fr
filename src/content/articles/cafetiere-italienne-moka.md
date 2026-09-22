@@ -6,7 +6,7 @@ updatedDate: 2026-09-21
 author: "Hugo B."
 pinHook: "Le café *sur le feu*, réussi à tous les coups"
 pinSub: "La moka, comme en Italie."
-keywords: ["cafetière italienne", "cafetière moka", "meilleure cafetière moka"]
+keywords: ["cafetière italienne", "quelle cafetière italienne choisir", "meilleure cafetière moka", "cafetière moka induction", "cafetière moka"]
 category: "machines"
 coverAlt: "Cafetière italienne (moka) et tasse de café dans une lumière chaude"
 draft: false

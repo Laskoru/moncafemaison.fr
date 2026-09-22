@@ -64,3 +64,11 @@ Format : `- [ ] Sujet — angle — catégorie`.
 - [ ] Conservation des grains : boîte hermétique sous vide — accessoires
 - [ ] Kit latte art pour débuter — accessoires
 - [ ] Tasses et mugs à espresso : quel format choisir — accessoires
+
+## 🔎 Longue traîne (audit SEO du 22/09/2026)
+
+- [ ] Quelle eau utiliser pour un bon espresso à la maison — dureté, filtration, calcaire : l'eau change le goût — preparer
+- [ ] Combien de temps garder son café moulu avant qu'il rancisse — conservation, oxydation, bons contenants — preparer
+- [ ] Porte-filtre pressurisé ou non pressurisé : quelle différence pour l'espresso — comprendre son panier et progresser — machines
+- [ ] Quel café en grains choisir selon sa méthode (moka, piston, filtre) — torréfaction et mouture par méthode — preparer
+- [ ] Comment nettoyer une cafetière à piston sans détartrant chimique — entretien naturel, bicarbonate et vinaigre — accessoires

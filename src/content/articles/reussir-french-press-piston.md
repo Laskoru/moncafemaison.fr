@@ -1,10 +1,10 @@
 ---
 title: "Réussir sa cafetière à piston (French press) : la méthode simple"
-description: "Un café à la French press rond et sans dépôt : la bonne mouture, le bon ratio, 4 minutes d'infusion et le geste anti-boue. Le guide clair de la cafetière à piston."
+description: "Un café à la French press rond et sans dépôt : la bonne mouture, le bon ratio, 4 minutes d'infusion et le geste anti-boue. Le guide clair."
 pubDate: 2026-09-13
 updatedDate: 2026-09-21
 author: "Hugo B."
-keywords: ["french press méthode", "cafetière à piston", "réussir french press", "café piston ratio"]
+keywords: ["comment utiliser une cafetière à piston", "réussir sa french press", "ratio café piston", "french press méthode", "réussir french press", "café piston ratio"]
 category: "preparer"
 coverAlt: "Cafetière à piston en verre remplie de café, piston relevé"
 pinHook: "La *French press* ronde, sans dépôt"

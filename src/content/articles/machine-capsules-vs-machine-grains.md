@@ -5,7 +5,7 @@ pubDate: 2026-08-16
 author: "Hugo B."
 pinHook: "Capsules ou grains ? *Le vrai match*"
 pinSub: "Quel système pour quel profil."
-keywords: ["machine à capsules vs machine à grains", "capsules ou grains café", "quelle cafetière choisir"]
+keywords: ["capsules ou grains de café, que choisir", "machine à capsules vs machine à grains", "capsules ou grains café"]
 category: "machines"
 coverAlt: "Coin café dans une cuisine : machine à espresso et moulin rempli de grains de café"
 draft: false

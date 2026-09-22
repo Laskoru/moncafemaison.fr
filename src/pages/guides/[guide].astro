@@ -17,7 +17,7 @@ const bySlug = new Map(allArticles.map((a) => [a.slug, a]));
 const articles = guide.articles.map((slug) => bySlug.get(slug)).filter((a) => a !== undefined);
 ---
 
-<BaseLayout title={guide.title} description={guide.description}>
+<BaseLayout title={guide.title} description={guide.description} noindex={articles.length === 0}>
   <section class="container guide">
     <Breadcrumbs items={[{ label: 'Accueil', href: '/' }, { label: 'Guides', href: '/guides/' }, { label: guide.title }]} />
     <p class="guide__icon">{guide.icon}</p>

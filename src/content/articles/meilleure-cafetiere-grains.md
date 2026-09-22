@@ -8,7 +8,6 @@ pinHook: "Du grain à la tasse, *sans effort*"
 pinSub: "La machine à grains, comparée."
 keywords: ["machine à café à grains", "meilleure machine à grains", "cafetière à grains avec broyeur", "meilleure machine à café à grains 2026"]
 category: "machines"
-coverImage: "https://images.unsplash.com/photo-1620807773206-49c1f2957417?q=80&w=1600&auto=format&fit=crop"
 coverAlt: "Machine à café à grains sur un plan de travail"
 draft: false
 products:

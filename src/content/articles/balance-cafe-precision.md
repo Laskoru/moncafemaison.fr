@@ -8,7 +8,6 @@ pinHook: "Doser *au gramme près*, comme un barista"
 pinSub: "La précision qui transforme la tasse."
 keywords: ["balance à café", "balance de précision café", "balance café minuterie"]
 category: "accessoires"
-coverImage: "https://images.unsplash.com/photo-1587734195503-904fca47e0e9?q=80&w=1600&auto=format&fit=crop"
 coverAlt: "Grains de café dans un bol"
 draft: false
 products:

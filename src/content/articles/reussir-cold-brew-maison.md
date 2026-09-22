@@ -1,6 +1,6 @@
 ---
 title: "Cold brew maison : la recette du café froid doux et peu acide"
-description: "Le cold brew (café infusé à froid) en 4 étapes : mouture, ratio, 12 à 24 h au frais, filtrage. Une boisson douce, peu acide et désaltérante, sans matériel spécial."
+description: "Le cold brew (café infusé à froid) en 4 étapes : mouture, ratio, 12 à 24 h au frais, filtrage. Doux, peu acide, sans matériel spécial."
 pubDate: 2026-09-13
 updatedDate: 2026-09-21
 author: "Hugo B."

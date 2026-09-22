@@ -6,7 +6,7 @@ updatedDate: 2026-09-21
 author: "Hugo B."
 pinHook: "Un filtre *net et lumineux*"
 pinSub: "La Chemex : pour qui, comment."
-keywords: ["chemex", "cafetière chemex", "chemex avis", "café filtre design"]
+keywords: ["chemex", "chemex pour qui et comment la choisir", "cafetière chemex avis", "chemex vs V60", "cafetière chemex", "chemex avis", "café filtre design"]
 category: "machines"
 coverAlt: "Cafetière Chemex en verre avec col en bois posée sur un plan de travail, filtre papier visible sur le dessus"
 draft: false

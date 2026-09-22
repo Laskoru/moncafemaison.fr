@@ -8,7 +8,6 @@ pinHook: "Cappuccino et latte *maison*"
 pinSub: "La mousse de lait parfaite, bien choisie."
 keywords: ["mousseur à lait", "meilleur mousseur à lait", "mousseur à lait électrique", "meilleur mousseur à lait 2026"]
 category: "accessoires"
-coverImage: "https://images.unsplash.com/photo-1432107294469-414527cb5c65?q=80&w=1600&auto=format&fit=crop"
 coverAlt: "Lait versé dans un café pour un latte"
 draft: false
 products:

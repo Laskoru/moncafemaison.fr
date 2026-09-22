@@ -6,9 +6,8 @@ updatedDate: 2026-09-21
 author: "Hugo B."
 pinHook: "Le café le plus simple, *le plus corsé*"
 pinSub: "La French press, réussie."
-keywords: ["cafetière à piston", "french press", "meilleure cafetière à piston", "meilleure cafetière à piston 2026"]
+keywords: ["cafetière à piston", "quelle cafetière à piston choisir", "meilleure french press", "cafetière piston verre ou inox", "french press", "meilleure cafetière à piston", "meilleure cafetière à piston 2026"]
 category: "machines"
-coverImage: "https://images.unsplash.com/photo-1595928642581-f50f4f3453a5?q=80&w=1600&auto=format&fit=crop"
 coverAlt: "Tasse de café sur une table en bois"
 draft: false
 products:

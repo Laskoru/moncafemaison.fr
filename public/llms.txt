@@ -1,0 +1,20 @@
+# Mon Café Maison
+
+> Mon Café Maison aide à choisir le bon matériel pour faire un excellent café à la maison : machines, moulins et accessoires, comparatifs et conseils d
+
+Site : https://www.moncafemaison.fr/
+Langue : français
+Éditeur : Mon Café Maison — rédaction indépendante (auteur : Hugo B.). Certains liens sont des liens affiliés Amazon, sans surcoût pour le lecteur.
+Contact : contact@moncafemaison.fr
+
+## Pages clés
+- Accueil : https://www.moncafemaison.fr/
+- Tous les articles : https://www.moncafemaison.fr/articles/
+- Guides par besoin : https://www.moncafemaison.fr/guides/
+- Outils gratuits : https://www.moncafemaison.fr/outils/
+- À propos / méthode : https://www.moncafemaison.fr/a-propos/
+- Auteur : https://www.moncafemaison.fr/auteur/
+
+## Index
+- Plan du site : https://www.moncafemaison.fr/sitemap-index.xml
+- Flux RSS : https://www.moncafemaison.fr/rss.xml
