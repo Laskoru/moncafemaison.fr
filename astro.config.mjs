@@ -23,6 +23,22 @@ function rehypeAmazonLinks() {
   return (tree) => visit(tree);
 }
 
+// Les routines d'écriture glissent parfois un emoji en tête de paragraphe, de titre ou
+// d'encadré (« 🛒 Notre sélection… »). La charte des sites n'utilise pas d'emoji comme
+// pictogrammes : on retire ceux qui ouvrent un bloc de texte, le reste du contenu est intact.
+const LEADING_EMOJI_RE = /^(?:\s*(?![©®™])\p{Extended_Pictographic}(?:\uFE0F|\u200D\p{Extended_Pictographic}\uFE0F?)*)+\s*/u;
+function rehypeStripLeadingEmoji() {
+  const BLOCKS = new Set(['p', 'h1', 'h2', 'h3', 'h4', 'h5', 'h6', 'li', 'td', 'th', 'strong', 'em', 'a', 'blockquote', 'summary']);
+  const visit = (node) => {
+    if (node.type === 'element' && BLOCKS.has(node.tagName)) {
+      const first = node.children?.[0];
+      if (first?.type === 'text') first.value = first.value.replace(LEADING_EMOJI_RE, '');
+    }
+    for (const child of node.children ?? []) visit(child);
+  };
+  return (tree) => visit(tree);
+}
+
 // ---- Sitemap : dates réelles (lastmod) + pages vides exclues ---------------------------
 // Lit le frontmatter des articles (sans dépendance) pour donner à chaque URL une date de
 // dernière modification fiable : les moteurs s'en servent pour prioriser le recrawl.
@@ -65,5 +81,5 @@ export default defineConfig({
       return item;
     },
   })],
-  markdown: { rehypePlugins: [rehypeAmazonLinks] },
+  markdown: { rehypePlugins: [rehypeAmazonLinks, rehypeStripLeadingEmoji] },
 });

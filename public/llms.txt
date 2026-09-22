@@ -8,13 +8,13 @@ Langue : français
 Contact : contact@moncafemaison.fr
 
 ## Pages clés
-- Accueil : https://www.moncafemaison.fr/
-- Tous les articles : https://www.moncafemaison.fr/articles/
-- Guides par besoin : https://www.moncafemaison.fr/guides/
-- Outils gratuits : https://www.moncafemaison.fr/outils/
-- À propos / méthode : https://www.moncafemaison.fr/a-propos/
-- Auteur : https://www.moncafemaison.fr/auteur/
+- [Accueil](https://www.moncafemaison.fr/)
+- [Tous les articles](https://www.moncafemaison.fr/articles/)
+- [Guides par besoin](https://www.moncafemaison.fr/guides/)
+- [Outils gratuits](https://www.moncafemaison.fr/outils/)
+- [À propos / méthode](https://www.moncafemaison.fr/a-propos/)
+- [Auteur](https://www.moncafemaison.fr/auteur/)
 
 ## Index
-- Plan du site : https://www.moncafemaison.fr/sitemap-index.xml
-- Flux RSS : https://www.moncafemaison.fr/rss.xml
+- [Plan du site](https://www.moncafemaison.fr/sitemap-index.xml)
+- [Flux RSS](https://www.moncafemaison.fr/rss.xml)
