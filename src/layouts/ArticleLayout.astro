@@ -23,6 +23,7 @@ interface Props {
   hasAmazonLinks?: boolean;
   slug: string;
   title: string;
+  seoTitle?: string;
   description: string;
   pubDate: Date;
   updatedDate?: Date;
@@ -41,6 +42,7 @@ interface Props {
 const {
   slug,
   title,
+  seoTitle,
   description,
   pubDate,
   updatedDate,
@@ -142,7 +144,7 @@ const jsonLdArticle = [articleSchema, ...(faqSchema ? [faqSchema] : [])];
 ---
 
 <BaseLayout
-  title={title}
+  title={seoTitle ?? title}
   description={description}
   ogImage={coverImageAbs}
   ogType="article"

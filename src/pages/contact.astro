@@ -1,4 +1,5 @@
 ---
+import Icon from '../components/Icon.astro';
 import BaseLayout from '../layouts/BaseLayout.astro';
 import { siteConfig } from '../siteConfig';
 ---
@@ -16,7 +17,7 @@ import { siteConfig } from '../siteConfig';
     </p>
 
     <a class="btn btn--primary contact__cta" href={`mailto:${siteConfig.contactEmail}`}>
-      ✉️ {siteConfig.contactEmail}
+      <Icon name="mail" size={18} /> {siteConfig.contactEmail}
     </a>
 
     <div class="contact__cards">

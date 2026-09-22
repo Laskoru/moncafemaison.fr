@@ -4,6 +4,8 @@ const articles = defineCollection({
   type: 'content',
   schema: z.object({
     title: z.string(),
+    // Balise <title> courte (≤ 60 caractères) quand le H1 est long ; le H1 reste `title`.
+    seoTitle: z.string().optional(),
     description: z.string(), // sert de meta-description SEO
     pubDate: z.coerce.date(),
     updatedDate: z.coerce.date().optional(),

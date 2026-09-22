@@ -1,4 +1,5 @@
 ---
+import Icon from '../../components/Icon.astro';
 import { getCollection } from 'astro:content';
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import Breadcrumbs from '../../components/Breadcrumbs.astro';
@@ -27,7 +28,7 @@ const guideCounts = guides.map((g) => ({
     <div class="guides-index__grid">
       {guideCounts.map((guide) => (
         <article class="guides-index__card card card--hover">
-          <span class="guides-index__icon">{guide.icon}</span>
+          <span class="guides-index__icon"><Icon name={guide.slug} size={32} /></span>
           <h2><a class="stretched-link" href={`/guides/${guide.slug}/`}>{guide.title}</a></h2>
           <p class="guides-index__desc">{guide.description}</p>
           <p class="guides-index__count">{guide.count} article{guide.count > 1 ? 's' : ''}</p>
@@ -48,7 +49,7 @@ const guideCounts = guides.map((g) => ({
     margin-top: 2rem;
   }
   .guides-index__card { position: relative; padding: 1.6rem 1.5rem; }
-  .guides-index__icon { font-size: 2rem; }
+  .guides-index__icon { display: inline-flex; align-items: center; justify-content: center; color: var(--color-accent); font-size: 2rem; }
   .guides-index__card h2 { margin: 0.6rem 0 0.4rem; font-size: 1.25rem; }
   .guides-index__card h2 a { color: var(--color-text); text-decoration: none; }
   .guides-index__card:hover h2 a { color: var(--color-accent); }

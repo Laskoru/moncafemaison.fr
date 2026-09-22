@@ -1,25 +1,25 @@
 export const categories = [
   {
     slug: 'machines',
-    icon: '☕',
+    icon: 'coffee',
     label: 'Machines & cafetières',
     description: 'Expresso, à grains, filtre, capsules ou italienne : la machine adaptée à ta façon de boire le café.',
   },
   {
     slug: 'moulins',
-    icon: '⚙️',
+    icon: 'wrench',
     label: 'Moulins à café',
     description: 'La mouture fraîche change tout : moulins électriques ou manuels, à meules ou à lames.',
   },
   {
     slug: 'accessoires',
-    icon: '🥛',
+    icon: 'coffee',
     label: 'Accessoires & entretien',
     description: 'Mousseurs à lait, balances, bouilloires, détartrants : les petits plus qui font la différence.',
   },
   {
     slug: 'preparer',
-    icon: '📖',
+    icon: 'book',
     label: 'Préparer son café',
     description: 'Réussir chaque méthode : espresso, moka, piston, filtre, cold brew — ratios, mouture et gestes qui changent la tasse.',
   },

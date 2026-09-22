@@ -1,4 +1,5 @@
 ---
+import Icon from '../components/Icon.astro';
 import { getCollection } from 'astro:content';
 import BaseLayout from '../layouts/BaseLayout.astro';
 import { categories } from '../categories';
@@ -19,7 +20,7 @@ const latest = (await getCollection('articles', ({ data }) => !data.draft))
     <div class="not-found__categories">
       {categories.map((cat) => (
         <a class="not-found__cat" href={`/categorie/${cat.slug}/`}>
-          <span>{cat.icon}</span> {cat.label}
+          <span class="not-found__ico"><Icon name={cat.slug} size={16} /></span> {cat.label}
         </a>
       ))}
     </div>

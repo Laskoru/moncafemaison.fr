@@ -1,5 +1,6 @@
 ---
 title: "Bouilloire à col de cygne : pourquoi elle change tout pour le pour-over"
+seoTitle: "Bouilloire à col de cygne : l'atout du pour-over"
 description: "Le contrôle du débit d'eau fait toute la différence en pour-over. Nos critères pour bien choisir une bouilloire à col de cygne, électrique ou sur le feu."
 pubDate: 2026-09-13
 updatedDate: 2026-09-13

@@ -1,4 +1,5 @@
 ---
+import Icon from '../../components/Icon.astro';
 import { getCollection } from 'astro:content';
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import Breadcrumbs from '../../components/Breadcrumbs.astro';
@@ -27,7 +28,7 @@ const articles = (await getCollection('articles', ({ data }) => !data.draft && d
 >
   <section class="container cat-header">
     <Breadcrumbs items={[{ label: 'Accueil', href: '/' }, { label: cat.label }]} />
-    <p class="cat-header__icon">{cat.icon}</p>
+    <p class="cat-header__icon"><Icon name={cat.slug} size={40} /></p>
     <h1>{cat.label}</h1>
     <p class="cat-header__desc">{cat.description}</p>
   </section>
@@ -40,7 +41,7 @@ const articles = (await getCollection('articles', ({ data }) => !data.draft && d
 
 <style>
   .cat-header { padding: 2.5rem 0 1rem; }
-  .cat-header__icon { font-size: 2.4rem; margin: 0 0 0.4rem; }
+  .cat-header__icon { display: inline-flex; align-items: center; justify-content: center; color: var(--color-accent); font-size: 2.4rem; margin: 0 0 0.4rem; }
   .cat-header h1 { margin-top: 0; }
   .cat-header__desc { color: var(--color-text-muted); font-size: 1.05rem; max-width: 52ch; }
 

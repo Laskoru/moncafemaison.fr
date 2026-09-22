@@ -1,11 +1,12 @@
 ---
+import Icon from '../components/Icon.astro';
 import BaseLayout from '../layouts/BaseLayout.astro';
 import Breadcrumbs from '../components/Breadcrumbs.astro';
 import { siteConfig } from '../siteConfig';
 
 const tools = [
-  { icon: '📐', title: 'Calculateur de dosage café', desc: 'Les grammes de café et la quantité d’eau exacts selon ta méthode et ton nombre de tasses.', href: '/calculateur-dosage-cafe/', cta: 'Ouvrir le calculateur' },
-  { icon: '☕', title: 'Les méthodes de préparation', desc: 'Filtre, piston, moka, expresso… le bon geste et le bon matériel pour chaque méthode.', href: '/methodes-cafe/', cta: 'Voir les méthodes' },
+  { icon: 'calculator', title: 'Calculateur de dosage café', desc: 'Les grammes de café et la quantité d’eau exacts selon ta méthode et ton nombre de tasses.', href: '/calculateur-dosage-cafe/', cta: 'Ouvrir le calculateur' },
+  { icon: 'coffee', title: 'Les méthodes de préparation', desc: 'Filtre, piston, moka, expresso… le bon geste et le bon matériel pour chaque méthode.', href: '/methodes-cafe/', cta: 'Voir les méthodes' },
 ];
 ---
 
@@ -20,7 +21,7 @@ const tools = [
     <div class="outils__grid">
       {tools.map((t) => (
         <article class="tool">
-          <span class="tool__icon" aria-hidden="true">{t.icon}</span>
+          <span class="tool__icon" aria-hidden="true"><Icon name={t.icon} size={30} /></span>
           <h2 class="tool__title"><a href={t.href}>{t.title}</a></h2>
           <p class="tool__desc">{t.desc}</p>
           <span class="tool__cta">{t.cta} →</span>
@@ -39,7 +40,7 @@ const tools = [
   .outils__grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 1.1rem; margin-top: 2.4rem; }
   .tool { position: relative; padding: 1.7rem 1.6rem; display: flex; flex-direction: column; background: var(--color-surface); border: 1px solid var(--color-border); border-radius: var(--radius-lg); transition: transform 0.15s ease, box-shadow 0.15s ease, border-color 0.15s ease; }
   .tool:hover { transform: translateY(-3px); box-shadow: 0 10px 30px rgba(0,0,0,0.08); border-color: var(--color-accent); }
-  .tool__icon { font-size: 2rem; }
+  .tool__icon { display: inline-flex; align-items: center; justify-content: center; color: var(--color-accent); font-size: 2rem; }
   .tool__title { margin: 0.7rem 0 0.4rem; font-size: 1.25rem; }
   .tool__title a { color: var(--color-text); text-decoration: none; }
   .tool__title a::after { content: ''; position: absolute; inset: 0; }

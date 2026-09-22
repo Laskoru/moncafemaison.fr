@@ -17,7 +17,7 @@ export interface Guide {
 export const guides: Guide[] = [
   {
     slug: 'debuter-cafe-maison',
-    icon: '🌱',
+    icon: 'sprout',
     title: 'Débuter le café maison',
     description:
       'Par où commencer pour faire un bon café chez soi : le matériel essentiel (machine, moulin, balance) sans se ruiner ni se compliquer la vie.',
@@ -36,7 +36,7 @@ export const guides: Guide[] = [
   },
   {
     slug: 'espresso-maison',
-    icon: '☕',
+    icon: 'coffee',
     title: 'Réussir son espresso à la maison',
     description:
       "Le guide pour tirer un espresso digne d'un café : machine, moulin adapté, et les accessoires qui font la crema.",
@@ -56,7 +56,7 @@ export const guides: Guide[] = [
   },
   {
     slug: 'cafe-filtre-slow',
-    icon: '💧',
+    icon: 'droplet',
     title: 'Café filtre & slow coffee',
     description:
       'French press, V60, Chemex, AeroPress : le guide des méthodes douces pour un café filtre aromatique à la maison.',

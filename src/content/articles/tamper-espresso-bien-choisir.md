@@ -1,5 +1,6 @@
 ---
 title: "Tamper à espresso : comment bien le choisir pour un tassage régulier"
+seoTitle: "Tamper à espresso : bien le choisir pour un tassage régulier"
 description: "Diamètre, poids, base plate ou convexe : nos critères pour choisir un tamper adapté à ta machine, et la méthode pour tasser la mouture sans erreur."
 pubDate: 2026-09-17
 updatedDate: 2026-09-17

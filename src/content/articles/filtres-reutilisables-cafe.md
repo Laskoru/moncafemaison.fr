@@ -1,5 +1,6 @@
 ---
 title: "Filtres à café réutilisables : lesquels choisir (et pourquoi arrêter le papier)"
+seoTitle: "Filtres à café réutilisables : lesquels choisir"
 description: "Inox, mesh ou coton : comment choisir un filtre à café réutilisable selon ta méthode, économique et écologique, sans sacrifier le goût."
 pubDate: 2026-09-14
 updatedDate: 2026-09-14

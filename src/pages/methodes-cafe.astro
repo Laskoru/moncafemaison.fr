@@ -1,4 +1,5 @@
 ---
+import Icon from '../components/Icon.astro';
 import BaseLayout from '../layouts/BaseLayout.astro';
 import Breadcrumbs from '../components/Breadcrumbs.astro';
 import { siteConfig } from '../siteConfig';
@@ -23,7 +24,7 @@ interface Method {
 
 const methods: Method[] = [
   {
-    slug: 'espresso', name: 'Espresso', emoji: '☕',
+    slug: 'espresso', name: 'Espresso', emoji: 'coffee',
     tasse: 'Court, intense, crema', corps: 5, difficulte: 4, budget: '€€€ – €€€€', temps: '≈ 1 min',
     ideal: "vous aimez l'intensité, le latte et le cappuccino",
     desc: "La méthode reine : de l'eau chaude sous pression traverse une mouture fine et tassée. Résultat concentré, corsé, surmonté d'une crema. Demande une machine, un bon moulin et un peu de pratique (mouture, tassage).",
@@ -33,28 +34,28 @@ const methods: Method[] = [
     ],
   },
   {
-    slug: 'grain', name: 'Machine à grain', emoji: '🫘',
+    slug: 'grain', name: 'Machine à grain', emoji: 'bean',
     tasse: 'Espresso & café long automatiques', corps: 4, difficulte: 1, budget: '€€€ – €€€€', temps: '≈ 40 s',
     ideal: "vous voulez le café fraîchement moulu, sans effort",
     desc: "La machine moud le grain juste avant l'extraction, à la demande. Café frais et régulier d'un bouton, souvent avec mousse de lait. Investissement de départ, mais coût à la tasse très bas.",
     links: [{ label: 'Comparatif machines à grain', href: '/articles/meilleure-cafetiere-grains/' }],
   },
   {
-    slug: 'moka', name: 'Cafetière italienne (moka)', emoji: '🇮🇹',
+    slug: 'moka', name: 'Cafetière italienne (moka)', emoji: 'moka',
     tasse: 'Corsé, « espresso-like »', corps: 4, difficulte: 2, budget: '€', temps: '≈ 5 min',
     ideal: "vous voulez un café corsé, pour pas cher, sur le feu",
     desc: "Le classique inventé par Bialetti en 1933 : la vapeur pousse l'eau à travers la mouture. Café puissant sans machine coûteuse. Increvable, mais demande le bon réglage de feu et de mouture.",
     links: [{ label: 'Bien choisir sa cafetière italienne', href: '/articles/cafetiere-italienne-moka/' }],
   },
   {
-    slug: 'piston', name: 'Piston (French press)', emoji: '🫗',
+    slug: 'piston', name: 'Piston (French press)', emoji: 'press',
     tasse: 'Rond, corsé, huileux', corps: 4, difficulte: 1, budget: '€', temps: '≈ 4-5 min',
     ideal: "vous cherchez la simplicité et une grande tasse",
     desc: "Infusion libre : la mouture trempe dans l'eau chaude, puis un piston à filtre métallique sépare le marc. Sans filtre papier, les huiles restent : tasse ronde et corsée. Simple, sans électricité.",
     links: [{ label: 'Comparatif cafetières à piston', href: '/articles/meilleure-cafetiere-piston-french-press/' }],
   },
   {
-    slug: 'filtre', name: 'Filtre / V60 (pour-over)', emoji: '🌀',
+    slug: 'filtre', name: 'Filtre / V60 (pour-over)', emoji: 'filter',
     tasse: 'Clair, aromatique, net', corps: 2, difficulte: 3, budget: '€ – €€', temps: '≈ 3-4 min',
     ideal: "vous voulez révéler les arômes d'un café de spécialité",
     desc: "L'eau s'écoule à travers un filtre papier : tasse propre et parfumée, qui met en valeur les cafés de spécialité. En cafetière filtre c'est automatique et facile ; en V60 manuel, c'est plus technique (versement, mouture).",
@@ -64,14 +65,14 @@ const methods: Method[] = [
     ],
   },
   {
-    slug: 'dosette', name: 'Dosette / capsule', emoji: '📦',
+    slug: 'dosette', name: 'Dosette / capsule', emoji: 'box',
     tasse: 'Régulier, pratique', corps: 3, difficulte: 1, budget: '€ (machine)', temps: '≈ 30 s',
     ideal: "vous voulez zéro effort et zéro entretien de mouture",
     desc: "Une dose pré-emballée, un bouton : rapide, régulier, aucune mouture à gérer. Le revers : le coût à la tasse est le plus élevé, et le choix de cafés plus limité.",
     links: [{ label: 'Cafetières à dosette souple (ESE)', href: '/articles/cafetiere-dosette-souple-ese/' }],
   },
   {
-    slug: 'coldbrew', name: 'Cold brew', emoji: '🧊',
+    slug: 'coldbrew', name: 'Cold brew', emoji: 'snowflake',
     tasse: 'Doux, peu acide, froid', corps: 3, difficulte: 1, budget: '€', temps: '12-24 h',
     ideal: "vous aimez le café froid, doux et désaltérant l'été",
     desc: "Extraction à froid : la mouture infuse 12 à 24 h au réfrigérateur. Résultat naturellement doux et peu acide, à servir sur glace. Aucun matériel spécifique, juste de la patience.",
@@ -125,7 +126,7 @@ const jsonLd = [
         <tbody>
           {methods.map((m) => (
             <tr>
-              <th scope="row"><a href={`#${m.slug}`}>{m.emoji} {m.name}</a></th>
+              <th scope="row"><a href={`#${m.slug}`}><Icon name={m.emoji} size={16} /> {m.name}</a></th>
               <td>{m.tasse}</td>
               <td><span class="stars" title={`Corps ${m.corps}/5`}>{stars(m.corps)}</span></td>
               <td><span class="stars" title={`Facilité ${6 - m.difficulte}/5`}>{stars(6 - m.difficulte)}</span></td>
@@ -142,7 +143,7 @@ const jsonLd = [
       {methods.map((m) => (
         <article class="mcard" id={m.slug}>
           <div class="mcard__head">
-            <span class="mcard__emoji" aria-hidden="true">{m.emoji}</span>
+            <span class="mcard__emoji" aria-hidden="true"><Icon name={m.emoji} size={28} /></span>
             <h2>{m.name}</h2>
           </div>
           <p class="mcard__meta"><strong>Idéal si</strong> {m.ideal}.</p>
@@ -201,7 +202,7 @@ const jsonLd = [
   .methodes__cards { display: grid; grid-template-columns: 1fr 1fr; gap: 1.1rem; margin: 2.4rem 0; }
   .mcard { padding: 1.3rem 1.4rem; border: 1px solid var(--color-border); border-radius: var(--radius-lg); background: var(--color-surface); scroll-margin-top: 5rem; }
   .mcard__head { display: flex; align-items: center; gap: 0.6rem; margin-bottom: 0.5rem; }
-  .mcard__emoji { font-size: 1.5rem; }
+  .mcard__emoji { display: inline-flex; align-items: center; justify-content: center; color: var(--color-accent); font-size: 1.5rem; }
   .mcard__head h2 { margin: 0; font-size: 1.2rem; }
   .mcard__meta { margin: 0 0 0.6rem; font-size: 0.92rem; color: var(--color-text-muted); }
   .mcard__meta strong { color: var(--color-accent); }

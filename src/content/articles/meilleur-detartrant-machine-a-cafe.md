@@ -1,5 +1,6 @@
 ---
 title: "Détartrant pour machine à café : lequel choisir et comment bien détartrer"
+seoTitle: "Détartrant machine à café : lequel choisir et comment faire"
 description: "Le tartre abîme le goût et les résistances. Nos critères pour choisir un détartrant (liquide, pastilles, acide citrique) et l'utiliser sans risque."
 pubDate: 2026-09-14
 updatedDate: 2026-09-14
