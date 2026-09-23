@@ -38,6 +38,7 @@ const relatedGuides = guides.filter((g) => g.articles.some((s) => slugs.has(s)))
   />
 
   <section class="wide list">
+    <h2 class="sr-only">Les articles de cette catégorie</h2>
     {articles.length === 0 && <p class="empty">Aucun article publié dans cette catégorie pour le moment.</p>}
     <div class="grid">
       {articles.map((article, i) => <ArticleCard article={article} eager={i < 3} />)}

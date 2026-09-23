@@ -18,6 +18,7 @@ const allArticles = (await getCollection('articles', ({ data }) => !data.draft))
     count={`${allArticles.length} article${allArticles.length > 1 ? 's' : ''}`}
   />
   <section class="wide list">
+    <h2 class="sr-only">Tous les articles</h2>
     <div class="grid">
       {allArticles.map((article, i) => <ArticleCard article={article} eager={i < 3} />)}
     </div>
