@@ -7,7 +7,7 @@ pinHook: "Un petit budget *ne veut pas dire* mauvais café"
 pinSub: "Ce qu'il faut vraiment vérifier avant d'acheter un moulin pas cher."
 keywords: ["moulin à café pas cher", "moulin à café petit budget", "meilleur moulin à café économique", "moulin à café bon rapport qualité prix"]
 category: "moulins"
-coverAlt: "Deux moulins à café électriques à meules, remplis de grains, posés côte à côte sur un comptoir"
+coverAlt: "Moulin à café manuel en bois à manivelle, entouré de grains de café et d'une cuillère en bois"
 draft: false
 faq:
   - question: "Un moulin à café pas cher à meules vaut-il mieux qu'un moulin à lames plus cher ?"
