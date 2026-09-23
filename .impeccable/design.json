@@ -1,0 +1,165 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-09-23T12:00:00+02:00",
+  "title": "Design System: Mon Café Maison",
+  "extensions": {
+    "colorMeta": {
+      "accent": { "role": "primary", "displayName": "Cuivre torréfié", "canonical": "oklch(53.4% 0.126 50.2)", "tonalRamp": ["#2d0000", "#4e0000", "#702200", "#944300", "#bb6732", "#e38c58", "#ffb27d", "#ffd5a0"] },
+      "accent-hover": { "role": "primary", "displayName": "Cuivre foncé", "canonical": "oklch(46.8% 0.111 49.5)", "tonalRamp": ["#290000", "#4a0600", "#6b2800", "#8e481a", "#b56b40", "#dd8f64", "#ffb589", "#ffd9ac"] },
+      "accent-soft": { "role": "primary", "displayName": "Voile cuivre", "canonical": "oklch(94.7% 0.020 65.1)", "tonalRamp": ["#110904", "#2b221a", "#473e35", "#665c52", "#897e74", "#aea298", "#d4c8be", "#f8ece1"] },
+      "crema": { "role": "secondary", "displayName": "Vert crema", "canonical": "oklch(54.6% 0.078 132.4)", "tonalRamp": ["#001000", "#142b00", "#30481a", "#4d6738", "#6f8a59", "#92af7d", "#b8d6a2", "#dbfac5"] },
+      "bg": { "role": "neutral", "displayName": "Blanc chaud", "canonical": "oklch(98.0% 0.007 80.7)", "tonalRamp": ["#0d0b08", "#262420", "#423f3b", "#605d59", "#82807b", "#a7a49f", "#cdcac5", "#f1eee9"] },
+      "surface": { "role": "neutral", "displayName": "Blanc", "canonical": "oklch(100% 0 0)", "tonalRamp": ["#0b0b0b", "#242424", "#404040", "#5d5d5d", "#808080", "#a4a4a4", "#cacaca", "#eeeeee"] },
+      "bg-soft": { "role": "neutral", "displayName": "Grège", "canonical": "oklch(95.1% 0.014 78.3)", "tonalRamp": ["#0e0a05", "#28231d", "#443f38", "#625d55", "#857f77", "#a9a49b", "#cfcac1", "#f4eee5"] },
+      "zebra": { "role": "neutral", "displayName": "Grège pâle", "canonical": "oklch(97.5% 0.009 78.3)", "tonalRamp": ["#0d0b07", "#26241f", "#423f3a", "#605d58", "#83807a", "#a8a49e", "#cecac4", "#f2eee8"] },
+      "text": { "role": "neutral", "displayName": "Encre café", "canonical": "oklch(21.3% 0.021 63.0)", "tonalRamp": ["#110904", "#2b221a", "#483e35", "#665b52", "#8a7e74", "#aea298", "#d5c8bd", "#f9ece1"] },
+      "ink": { "role": "neutral", "displayName": "Encre café (fond)", "canonical": "oklch(21.3% 0.021 63.0)", "tonalRamp": ["#110904", "#2b221a", "#483e35", "#665b52", "#8a7e74", "#aea298", "#d5c8bd", "#f9ece1"] },
+      "text-muted": { "role": "neutral", "displayName": "Brun moyen", "canonical": "oklch(44.0% 0.024 64.7)", "tonalRamp": ["#120903", "#2c2218", "#493d33", "#675b50", "#8b7e72", "#afa296", "#d6c8bb", "#faecde"] },
+      "text-faint": { "role": "neutral", "displayName": "Brun clair", "canonical": "oklch(53.0% 0.027 65.1)", "tonalRamp": ["#130902", "#2d2116", "#4a3d31", "#685b4e", "#8c7d70", "#b1a294", "#d7c7b9", "#fcebdc"] },
+      "border": { "role": "neutral", "displayName": "Filet", "canonical": "oklch(90.1% 0.020 77.3)", "tonalRamp": ["#100a03", "#2a2319", "#463f34", "#645c51", "#877f73", "#aca397", "#d2c9bc", "#f6ede0"] },
+      "border-strong": { "role": "neutral", "displayName": "Filet appuyé", "canonical": "oklch(82.0% 0.028 74.7)", "tonalRamp": ["#120901", "#2c2215", "#493e30", "#675c4d", "#8a7e6e", "#afa292", "#d5c8b7", "#faecdb"] },
+      "on-ink": { "role": "neutral", "displayName": "Blanc sur encre", "canonical": "oklch(98.0% 0.007 80.7)", "tonalRamp": ["#0d0b08", "#262420", "#423f3b", "#605d59", "#82807b", "#a7a49f", "#cdcac5", "#f1eee9"] },
+      "on-ink-muted": { "role": "neutral", "displayName": "Grège sur encre", "canonical": "oklch(80.2% 0.024 69.5)", "tonalRamp": ["#120902", "#2c2217", "#483e32", "#675b4f", "#8a7e71", "#afa295", "#d5c8ba", "#faecdd"] },
+      "accent-on-ink": { "role": "primary", "displayName": "Cuivre sur encre", "canonical": "oklch(73.8% 0.120 55.0)", "tonalRamp": ["#2a0000", "#4b0400", "#6d2800", "#8f4700", "#b66b31", "#de8f57", "#ffb57d", "#ffd9a0"] }
+    },
+    "typographyMeta": {
+      "display": { "displayName": "Display", "purpose": "H1 unique de chaque page ; plafonné à 2.6rem sur la « une » et les titres d'article." },
+      "headline": { "displayName": "Headline", "purpose": "H2 de section et d'article (1.55–1.65rem selon le contexte)." },
+      "title": { "displayName": "Title", "purpose": "H3, titres de cartes, lignes éditoriales, guides, fiches produit." },
+      "body": { "displayName": "Body", "purpose": "Texte courant en Source Serif 4." },
+      "body-article": { "displayName": "Corps d'article", "purpose": "Colonne de lecture 68ch ; premier paragraphe à 1.2rem." },
+      "lede": { "displayName": "Chapeau", "purpose": "Chapeaux de page en text-muted, 62ch max." },
+      "ui": { "displayName": "UI", "purpose": "Boutons, navigation, liens de section." },
+      "meta": { "displayName": "Meta", "purpose": "Dates, durées, compteurs ; chiffres tabulaires." },
+      "label": { "displayName": "Label", "purpose": "Capitales espacées : catégorie en rangée de métadonnées, en-têtes de tableau, titres de pied de page, « Notre choix »." },
+      "table": { "displayName": "Tableau", "purpose": "Tableaux comparatifs zébrés." },
+      "numeric-result": { "displayName": "Résultat chiffré", "purpose": "Nombres des outils (calculateur de dosage)." }
+    },
+    "shadows": [
+      { "name": "shadow-card", "value": "0 8px 24px -12px rgba(32, 23, 15, 0.28)", "purpose": "Posé : cartes article, fiches produit, image de la « une »." },
+      { "name": "shadow-lift", "value": "0 18px 36px -16px rgba(32, 23, 15, 0.32)", "purpose": "Soulevé : survol de carte, fiche produit mise en avant, fiche « Notre choix », menu mobile." }
+    ],
+    "motion": [
+      { "name": "ease-out", "value": "cubic-bezier(0.16, 1, 0.3, 1)", "purpose": "Entrée de la « une » (0.9s), glissement de flèche (0.2s), zoom de photo de carte (0.6s), ombre de carte (0.2s)." },
+      { "name": "state", "value": "0.15s ease", "purpose": "Changements de couleur, fond et bord au survol." }
+    ],
+    "breakpoints": [
+      { "name": "tools-stack", "value": "1000px" },
+      { "name": "nav-mobile", "value": "900px" },
+      { "name": "table-stack", "value": "760px" },
+      { "name": "sm", "value": "640px" },
+      { "name": "pick-stack", "value": "600px" },
+      { "name": "xs", "value": "480px" }
+    ],
+    "layout": {
+      "wide": "1160px",
+      "narrow": "720px",
+      "measure": "68ch",
+      "headerHeight": "64px"
+    }
+  },
+  "components": [
+    {
+      "name": "Bouton principal",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "Action principale : lire le comparatif, voir le prix sur Amazon.",
+      "html": "<a class=\"ds-btn-primary\" href=\"#\">Lire le comparatif <svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M5 12h14M13 6l6 6-6 6\"/></svg></a>",
+      "css": ".ds-btn-primary { display: inline-flex; align-items: center; gap: 0.5em; min-height: 44px; padding: 0.7em 1.3em; font-family: var(--font-ui, 'Bricolage Grotesque', sans-serif); font-weight: 600; font-size: 0.98rem; line-height: 1.2; background: var(--color-accent, #a5531b); color: #fff; border: 1px solid transparent; border-radius: 8px; text-decoration: none; transition: background-color 0.15s ease; } .ds-btn-primary:hover { background: var(--color-accent-hover, #8a4416); } .ds-btn-primary:focus-visible { outline: 2px solid var(--color-accent, #a5531b); outline-offset: 3px; }"
+    },
+    {
+      "name": "Bouton contour",
+      "kind": "button",
+      "refersTo": "button-outline",
+      "description": "Action secondaire et liens vers les outils en fin d'article.",
+      "html": "<a class=\"ds-btn-outline\" href=\"#\">Calculer mon dosage</a>",
+      "css": ".ds-btn-outline { display: inline-flex; align-items: center; gap: 0.5em; min-height: 44px; padding: 0.7em 1.3em; font-family: var(--font-ui, 'Bricolage Grotesque', sans-serif); font-weight: 600; font-size: 0.98rem; background: var(--color-surface, #fff); color: var(--color-text, #20170f); border: 1px solid var(--color-border-strong, #cfc2b1); border-radius: 8px; text-decoration: none; transition: border-color 0.15s ease, color 0.15s ease; } .ds-btn-outline:hover { border-color: var(--color-accent, #a5531b); color: var(--color-accent, #a5531b); } .ds-btn-outline:focus-visible { outline: 2px solid var(--color-accent, #a5531b); outline-offset: 3px; }"
+    },
+    {
+      "name": "Carte article",
+      "kind": "card",
+      "refersTo": "card-article",
+      "description": "Carte de grille : photo 16:9, titre, rangée de métadonnées (catégorie · date).",
+      "html": "<article class=\"ds-card\"><div class=\"ds-card__media\"></div><div class=\"ds-card__body\"><h3 class=\"ds-card__title\"><a href=\"#\">Tamper à espresso : comment bien le choisir</a></h3><p class=\"ds-card__meta\"><span class=\"ds-card__cat\">Accessoires &amp; entretien</span> · <span>17 sept. 2026</span></p></div></article>",
+      "css": ".ds-card { display: flex; flex-direction: column; max-width: 340px; background: var(--color-surface, #fff); border: 1px solid var(--color-border, #e6ddd0); border-radius: 8px; box-shadow: 0 8px 24px -12px rgba(32, 23, 15, 0.28); overflow: hidden; transition: box-shadow 0.2s cubic-bezier(0.16, 1, 0.3, 1), border-color 0.2s ease; } .ds-card:hover { box-shadow: 0 18px 36px -16px rgba(32, 23, 15, 0.32); border-color: var(--color-border-strong, #cfc2b1); } .ds-card__media { aspect-ratio: 16 / 9; background: var(--color-bg-soft, #f4eee5); } .ds-card__body { display: flex; flex-direction: column; gap: 0.5rem; padding: 1rem 1.1rem 1.15rem; } .ds-card__title { margin: 0; font-family: var(--font-display, 'Bricolage Grotesque', sans-serif); font-weight: 700; font-size: 1.15rem; line-height: 1.25; letter-spacing: -0.015em; } .ds-card__title a { color: var(--color-text, #20170f); text-decoration: none; } .ds-card:hover .ds-card__title a { color: var(--color-accent, #a5531b); } .ds-card__meta { margin: 0; font-family: var(--font-ui, 'Bricolage Grotesque', sans-serif); font-weight: 500; font-size: 0.85rem; color: var(--color-text-faint, #77695c); font-variant-numeric: tabular-nums; } .ds-card__cat { font-weight: 600; font-size: 0.76rem; letter-spacing: 0.08em; text-transform: uppercase; color: var(--color-accent, #a5531b); }"
+    },
+    {
+      "name": "Navigation principale",
+      "kind": "nav",
+      "refersTo": "nav-link",
+      "description": "En-tête blanc collant 64px, liens grotesque 600, page courante soulignée cuivre.",
+      "html": "<nav class=\"ds-nav\"><a href=\"#\" aria-current=\"page\">Machines</a><a href=\"#\">Moulins</a><a href=\"#\">Accessoires</a><a href=\"#\">Préparer</a><a href=\"#\">Guides</a><a href=\"#\">Outils</a></nav>",
+      "css": ".ds-nav { display: flex; gap: 0.15rem; height: 64px; align-items: center; background: var(--color-surface, #fff); border-bottom: 1px solid var(--color-border, #e6ddd0); } .ds-nav a { display: inline-flex; align-items: center; min-height: 44px; padding: 0 0.75rem; font-family: var(--font-ui, 'Bricolage Grotesque', sans-serif); font-weight: 600; font-size: 0.95rem; color: var(--color-text, #20170f); text-decoration: none; border-top: 2px solid transparent; border-bottom: 2px solid transparent; transition: color 0.15s ease, border-color 0.15s ease; } .ds-nav a:hover { color: var(--color-accent, #a5531b); } .ds-nav a[aria-current='page'] { border-bottom-color: var(--color-accent, #a5531b); } .ds-nav a:focus-visible { outline: 2px solid var(--color-accent, #a5531b); outline-offset: 3px; }"
+    },
+    {
+      "name": "Sélecteur et segments",
+      "kind": "input",
+      "refersTo": "input-select",
+      "description": "Champs du calculateur de dosage : select 44px et boutons segmentés.",
+      "html": "<div class=\"ds-field\"><select class=\"ds-select\"><option>Espresso</option><option>Filtre (V60)</option></select><div class=\"ds-seg\"><button type=\"button\" class=\"is-active\">Doux</button><button type=\"button\">Équilibré</button><button type=\"button\">Corsé</button></div></div>",
+      "css": ".ds-field { display: flex; flex-direction: column; gap: 0.6rem; max-width: 360px; } .ds-select { min-height: 44px; padding: 0 2.4rem 0 0.9rem; font-family: var(--font-ui, 'Bricolage Grotesque', sans-serif); font-weight: 500; font-size: 1rem; color: var(--color-text, #20170f); background: var(--color-bg, #fbf8f3); border: 1px solid var(--color-border-strong, #cfc2b1); border-radius: 8px; } .ds-select:hover { border-color: var(--color-accent, #a5531b); } .ds-select:focus-visible { outline: 2px solid var(--color-accent, #a5531b); outline-offset: 3px; } .ds-seg { display: flex; gap: 0.4rem; } .ds-seg button { flex: 1; min-height: 44px; font-family: var(--font-ui, 'Bricolage Grotesque', sans-serif); font-weight: 600; font-size: 0.95rem; color: var(--color-text, #20170f); background: var(--color-bg, #fbf8f3); border: 1px solid var(--color-border-strong, #cfc2b1); border-radius: 8px; cursor: pointer; transition: background-color 0.15s ease, border-color 0.15s ease, color 0.15s ease; } .ds-seg button:hover { border-color: var(--color-accent, #a5531b); color: var(--color-accent, #a5531b); } .ds-seg button.is-active { background: var(--color-accent, #a5531b); border-color: var(--color-accent, #a5531b); color: #fff; } .ds-seg button:focus-visible { outline: 2px solid var(--color-accent, #a5531b); outline-offset: 3px; }"
+    },
+    {
+      "name": "Fiche produit",
+      "kind": "custom",
+      "refersTo": "product-box",
+      "description": "Photo produit carrée sur blanc, note Amazon réelle en vert crema, « Notre choix » à côté du bouton.",
+      "html": "<article class=\"ds-prod\"><div class=\"ds-prod__media\"></div><div><h3 class=\"ds-prod__title\">De'Longhi Dedica EC685</h3><p class=\"ds-prod__rating\"><strong>4,3</strong>/5 · 12 480 avis sur Amazon</p><div class=\"ds-prod__side\"><span class=\"ds-prod__award\">Notre choix</span><a class=\"ds-prod__cta\" href=\"#\">Voir le prix sur Amazon</a><span class=\"ds-prod__disc\">Lien partenaire Amazon, sans surcoût pour toi.</span></div></div></article>",
+      "css": ".ds-prod { display: grid; grid-template-columns: 160px 1fr; gap: 1.5rem; padding: 1.5rem; background: var(--color-surface, #fff); border: 1px solid var(--color-accent, #a5531b); border-radius: 8px; box-shadow: 0 18px 36px -16px rgba(32, 23, 15, 0.32); } .ds-prod__media { aspect-ratio: 1; background: #fff; border: 1px solid var(--color-border, #e6ddd0); border-radius: 8px; } .ds-prod__title { margin: 0 0 0.75rem; font-family: var(--font-display, 'Bricolage Grotesque', sans-serif); font-weight: 700; font-size: 1.2rem; line-height: 1.25; } .ds-prod__rating { margin: 0 0 0.75rem; font-family: var(--font-ui, 'Bricolage Grotesque', sans-serif); font-weight: 500; font-size: 0.88rem; color: var(--color-text-muted, #5c5045); } .ds-prod__rating strong { color: var(--color-crema, #5f7a4a); font-weight: 700; } .ds-prod__side { display: flex; flex-wrap: wrap; align-items: center; gap: 0.6rem 1rem; padding-top: 0.9rem; border-top: 1px solid var(--color-border, #e6ddd0); } .ds-prod__award { font-family: var(--font-ui, 'Bricolage Grotesque', sans-serif); font-weight: 700; font-size: 0.76rem; letter-spacing: 0.08em; text-transform: uppercase; color: var(--color-accent, #a5531b); } .ds-prod__cta { display: inline-flex; align-items: center; min-height: 44px; padding: 0.7em 1.3em; font-family: var(--font-ui, 'Bricolage Grotesque', sans-serif); font-weight: 600; font-size: 0.95rem; background: var(--color-accent, #a5531b); color: #fff; border-radius: 8px; text-decoration: none; transition: background-color 0.15s ease; } .ds-prod__cta:hover { background: var(--color-accent-hover, #8a4416); } .ds-prod__cta:focus-visible { outline: 2px solid var(--color-accent, #a5531b); outline-offset: 3px; } .ds-prod__disc { flex-basis: 100%; font-family: var(--font-ui, 'Bricolage Grotesque', sans-serif); font-weight: 500; font-size: 0.76rem; color: var(--color-text-faint, #77695c); }"
+    },
+    {
+      "name": "Tableau comparatif zébré",
+      "kind": "custom",
+      "refersTo": "table-head",
+      "description": "Tableau en grotesque 500, en-tête grège en capitales, lignes paires zébrées.",
+      "html": "<div class=\"ds-table-wrap\"><table class=\"ds-table\"><thead><tr><th>Modèle</th><th>Pression</th><th>Prix</th></tr></thead><tbody><tr><th scope=\"row\">Dedica EC685</th><td>15 bars</td><td>≈ 180 €</td></tr><tr><th scope=\"row\">Sage Bambino</th><td>9 bars</td><td>≈ 300 €</td></tr><tr><th scope=\"row\">Gaggia Classic</th><td>9 bars</td><td>≈ 400 €</td></tr></tbody></table></div>",
+      "css": ".ds-table-wrap { overflow-x: auto; border: 1px solid var(--color-border, #e6ddd0); border-radius: 8px; background: var(--color-surface, #fff); } .ds-table { width: 100%; border-collapse: collapse; font-family: var(--font-ui, 'Bricolage Grotesque', sans-serif); font-weight: 500; font-size: 0.92rem; line-height: 1.4; font-variant-numeric: tabular-nums; } .ds-table th, .ds-table td { padding: 0.75rem 0.9rem; text-align: left; border-bottom: 1px solid var(--color-border, #e6ddd0); } .ds-table thead th { font-size: 0.74rem; font-weight: 600; letter-spacing: 0.07em; text-transform: uppercase; color: var(--color-text-muted, #5c5045); background: var(--color-bg-soft, #f4eee5); } .ds-table tbody th { font-weight: 600; color: var(--color-text, #20170f); } .ds-table tbody tr:nth-child(even) { background: #faf6f0; } .ds-table tbody tr:last-child th, .ds-table tbody tr:last-child td { border-bottom: 0; }"
+    },
+    {
+      "name": "Bande encre",
+      "kind": "custom",
+      "refersTo": "ink-band",
+      "description": "Bande pleine largeur sur fond encre (« Nos outils »), une par page au plus.",
+      "html": "<section class=\"ds-ink\"><h2>Nos outils</h2><p>Gratuits, sans inscription.</p><a href=\"#\">Calculer mon dosage →</a></section>",
+      "css": ".ds-ink { padding: 3rem 1.25rem; background: var(--color-ink, #20170f); color: var(--color-on-ink, #fbf8f3); } .ds-ink h2 { margin: 0 0 0.6rem; font-family: var(--font-display, 'Bricolage Grotesque', sans-serif); font-weight: 700; font-size: 1.7rem; color: var(--color-on-ink, #fbf8f3); } .ds-ink p { margin: 0 0 1rem; color: var(--color-on-ink-muted, #c9bcae); } .ds-ink a { font-family: var(--font-ui, 'Bricolage Grotesque', sans-serif); font-weight: 600; font-size: 0.92rem; color: var(--color-accent-on-ink, #e4955d); text-decoration: none; } .ds-ink a:hover { text-decoration: underline; } .ds-ink a:focus-visible { outline: 2px solid var(--color-accent-on-ink, #e4955d); outline-offset: 3px; }"
+    }
+  ],
+  "narrative": {
+    "northStar": "La table de dégustation",
+    "overview": "Un magazine de comparatifs qui se lit comme une fiche de dégustation bien tenue : un fond blanc chaud, une encre presque noire tirée du café, un seul métal chaud (le cuivre torréfié) pour tout ce qui se clique. Le site joue franchement le standard de la catégorie (préférence durable de l'éditeur, voir PRODUCT.md) : grandes photos 16:9, titraille grotesque serrée, colonne de lecture en serif, tableaux zébrés, fiches produit à grande photo. Rien de décalé : la finition fait la différence, pas le concept.\n\nLa densité est celle d'un magazine web : des sections séparées par des filets de 1px, des cartes blanches à peine soulevées, beaucoup de métadonnées en petite grotesque chiffrée. La profondeur reste douce (deux ombres diffuses, jamais d'ombre dure). Le mouvement est bref et sobre : fondu d'entrée de la « une », glissement de flèche au survol, léger zoom de photo sur les cartes, tout neutralisé par `prefers-reduced-motion`.\n\nLa construction effective diffère d'un point de la direction initiale : l'image de la « une » n'est pas pleine largeur mais occupe la colonne gauche (58 %) d'une grille 58/42 ; seule la couverture d'article remplit sa colonne. Le code fait foi.",
+    "keyCharacteristics": [
+      "Blanc chaud + encre café + un seul accent cuivre ; vert crema réservé aux notes Amazon.",
+      "Deux voix typographiques : Bricolage Grotesque (titres, interface, données), Source Serif 4 (lecture).",
+      "Structure par filets fins horizontaux ; cartes blanches bord 1px, rayon 8px.",
+      "Photos 16:9 partout (une, cartes, lignes éditoriales, couverture d'article) ; photos produit en carré sur fond blanc.",
+      "Chiffres alignés (`tabular-nums`) dans les métadonnées, tableaux et résultats d'outil.",
+      "Icônes SVG uniquement (`Icon.astro`), jamais d'emoji."
+    ],
+    "rules": [
+      { "name": "La règle du cuivre unique", "body": "Le cuivre est la seule couleur d'interaction : tout ce qui est cuivre se clique ou désigne une catégorie. Aucune deuxième couleur d'accent pour les boutons, badges ou liens.", "section": "colors" },
+      { "name": "La règle du vert crema", "body": "Le vert ne sert qu'aux notes Amazon réelles et aux points forts, et uniquement sur fond `surface` (4,81:1). Sur `bg-soft` (4,17:1) ou `zebra` (4,46:1) il passe sous 4,5:1 : interdit.", "section": "colors" },
+      { "name": "La règle de l'encre", "body": "Le fond `ink` est une bande pleine largeur, une par page au plus ; son texte utilise exclusivement les jetons `on-ink*`.", "section": "colors" },
+      { "name": "La règle des deux voix", "body": "Serif pour lire, grotesque pour tout le reste (titres, boutons, métadonnées, tableaux, légendes). Jamais de serif dans l'interface ni de grotesque en paragraphe long.", "section": "typography" },
+      { "name": "La règle du chiffre aligné", "body": "Toute donnée chiffrée (dates, compteurs, tableaux, résultats) est en grotesque avec `tabular-nums`.", "section": "typography" },
+      { "name": "La règle du plancher", "body": "Aucun texte sous 0.72rem ; les capitales espacées démarrent à 0.74rem.", "section": "typography" },
+      { "name": "La règle du filet", "body": "La structure se fait par filets horizontaux de 1px (`border`) : sous l'en-tête, entre sections, entre lignes de liste, au-dessus des H2 d'article. Les filets verticaux ne servent qu'à séparer des colonnes voisines, jamais comme barre colorée en bordure d'un bloc.", "section": "layout" },
+      { "name": "La règle des deux hauteurs", "body": "Deux ombres seulement. « Soulevé » signifie survol ou recommandation ; tout le reste est posé ou plat.", "section": "elevation" }
+    ],
+    "dos": [
+      "Do utiliser `accent` pour tout ce qui est cliquable et rien d'autre ; `accent-hover` au seul survol du bouton principal.",
+      "Do poser le libellé « Notre choix » à côté du bouton d'achat, jamais au-dessus du titre du produit.",
+      "Do placer la catégorie dans la rangée de métadonnées, après le titre (catégorie · date · durée).",
+      "Do recadrer toute photo éditoriale en 16:9 et toute photo produit en `contain` sur blanc.",
+      "Do séparer les blocs par des filets 1px `border` et garder les cartes à 8px, bord 1px, ombre posée.",
+      "Do mettre les chiffres en grotesque tabulaire et vérifier 4,5:1 pour tout texte, `text-faint` compris."
+    ],
+    "donts": [
+      "Don't introduire une deuxième couleur d'accent ; le vert crema reste aux notes Amazon et aux points forts, sur blanc.",
+      "Don't utiliser d'ombre dure décalée ni de dégradé décoratif en fond de page.",
+      "Don't marquer un bloc par une barre colorée sur son bord gauche.",
+      "Don't utiliser d'emoji ou de glyphe comme icône : uniquement `Icon.astro` (SVG).",
+      "Don't mettre de particules ni d'objet 3D animé dans la « une ».",
+      "Don't descendre sous 0.72rem de corps de texte."
+    ]
+  }
+}

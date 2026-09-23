@@ -71,6 +71,7 @@ const jsonLdBlocks = [organizationSchema, websiteSchema, ...(jsonLd ? (Array.isA
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#fbf8f3" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <!-- PNG multiples de 48 px : format attendu par Google pour afficher le favicon dans les résultats -->
     <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96.png" />
@@ -107,9 +108,9 @@ const jsonLdBlocks = [organizationSchema, websiteSchema, ...(jsonLd ? (Array.isA
         }, { once: true });
       </script>
     )}
-    <!-- Polices auto-hébergées : voir src/styles/fonts.css (préchargement des 2 fichiers principaux) -->
-    <link rel="preload" as="font" type="font/woff2" href="/fonts/hanken-grotesk-normal-400-latin.woff2" crossorigin />
-    <link rel="preload" as="font" type="font/woff2" href="/fonts/newsreader-normal-500-latin.woff2" crossorigin />
+    <!-- Polices auto-hébergées : voir src/styles/fonts.css (préchargement titre + corps, latin) -->
+    <link rel="preload" as="font" type="font/woff2" href="/fonts/bricolage-grotesque-normal-500-800-latin.woff2" crossorigin />
+    <link rel="preload" as="font" type="font/woff2" href="/fonts/source-serif-4-normal-400-latin.woff2" crossorigin />
 
     <title>{pageTitle}</title>
     <meta name="description" content={metaDescription} />
@@ -164,8 +165,9 @@ const jsonLdBlocks = [organizationSchema, websiteSchema, ...(jsonLd ? (Array.isA
     )}
   </head>
   <body>
+    <a class="skip-link" href="#main">Aller au contenu</a>
     <Header />
-    <main>
+    <main id="main">
       <slot />
     </main>
     <Footer />

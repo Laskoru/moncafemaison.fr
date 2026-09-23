@@ -1,6 +1,7 @@
 ---
 import { getCollection } from 'astro:content';
 import BaseLayout from '../../layouts/BaseLayout.astro';
+import PageHead from '../../components/PageHead.astro';
 import ArticleCard from '../../components/ArticleCard.astro';
 import { siteConfig } from '../../siteConfig';
 
@@ -10,15 +11,22 @@ const allArticles = (await getCollection('articles', ({ data }) => !data.draft))
 ---
 
 <BaseLayout title="Tous les articles" description={`Tous les articles de ${siteConfig.name}, du plus récent au plus ancien : guides pratiques, comparatifs et conseils pour bien choisir — ${siteConfig.tagline.charAt(0).toLowerCase() + siteConfig.tagline.slice(1)}.`}>
-  <section class="container">
-    <p class="eyebrow">{allArticles.length} article{allArticles.length > 1 ? 's' : ''}</p>
-    <h1>Tous les articles</h1>
-    <div class="article-list">
-      {allArticles.map((article) => <ArticleCard article={article} />)}
+  <PageHead
+    title="Tous les comparatifs et guides"
+    lede="Du plus récent au plus ancien : machines, moulins, accessoires et méthodes de préparation."
+    crumbs={[{ label: 'Accueil', href: '/' }, { label: 'Tous les articles' }]}
+    count={`${allArticles.length} article${allArticles.length > 1 ? 's' : ''}`}
+  />
+  <section class="wide list">
+    <div class="grid">
+      {allArticles.map((article, i) => <ArticleCard article={article} eager={i < 3} />)}
     </div>
   </section>
 </BaseLayout>
 
 <style>
-  .article-list { display: flex; flex-direction: column; gap: 1.1rem; margin: 1.5rem 0 3rem; }
+  .list { padding-top: 2rem; padding-bottom: 1rem; }
+  .grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.4rem; }
+  @media (max-width: 1000px) { .grid { grid-template-columns: repeat(2, 1fr); } }
+  @media (max-width: 640px) { .grid { grid-template-columns: 1fr; } }
 </style>

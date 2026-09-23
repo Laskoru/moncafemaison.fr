@@ -9,12 +9,12 @@
     <p>
       Ce site utilise des cookies de <strong>mesure d'audience</strong> (Google Analytics)
       pour comprendre comment il est consulté et l'améliorer. Ils ne sont déposés que si
-      vous acceptez. Voir notre
+      tu acceptes. Voir la
       <a href="/politique-de-confidentialite/">politique de confidentialité</a>.
     </p>
     <div class="cookie-banner__actions">
-      <button id="cookie-refuse" type="button" class="btn btn--ghost">Refuser</button>
-      <button id="cookie-accept" type="button" class="btn btn--accent">Accepter</button>
+      <button id="cookie-refuse" type="button" class="cbtn cbtn--ghost">Refuser</button>
+      <button id="cookie-accept" type="button" class="cbtn cbtn--accent">Accepter</button>
     </div>
   </div>
 </div>
@@ -55,41 +55,44 @@
 <style>
   /* Hors écran par transform (pas de décalage de mise en page / CLS), glisse quand il faut demander le consentement. */
   .cookie-banner {
-    transform: translateY(110%);
-    visibility: hidden;
-    transition: transform 0.35s ease, visibility 0s linear 0.35s;
-  }
-  .cookie-banner.is-visible { transform: none; visibility: visible; transition: transform 0.35s ease; }
-  @media (prefers-reduced-motion: reduce) { .cookie-banner, .cookie-banner.is-visible { transition: none; } }
-  .cookie-banner {
     position: fixed;
     bottom: 0;
     left: 0;
     right: 0;
-    background: #191c22;
-    color: white;
     z-index: 100;
     padding: 1rem 1.25rem;
+    background: var(--color-ink);
+    color: var(--color-on-ink);
+    transform: translateY(110%);
+    visibility: hidden;
+    transition: transform 0.35s var(--ease-out), visibility 0s linear 0.35s;
   }
+  .cookie-banner.is-visible { transform: none; visibility: visible; transition: transform 0.35s var(--ease-out); }
   .cookie-banner__inner {
-    max-width: 960px;
+    max-width: 1000px;
     margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
-    gap: 1rem;
+    gap: 1rem 1.5rem;
     align-items: center;
     justify-content: space-between;
   }
-  .cookie-banner p { margin: 0; font-size: 0.9rem; max-width: 640px; }
-  .cookie-banner a { color: white; }
-  .cookie-banner__actions { display: flex; gap: 0.5rem; flex-shrink: 0; }
-  .btn {
-    border: none;
+  .cookie-banner p { margin: 0; font-family: var(--font-ui); font-weight: 500; font-size: 0.9rem; line-height: 1.5; max-width: 66ch; color: var(--color-on-ink-muted); }
+  .cookie-banner strong { color: var(--color-on-ink); }
+  .cookie-banner a { color: var(--color-on-ink); }
+  .cookie-banner__actions { display: flex; gap: 0.6rem; flex-shrink: 0; }
+  .cbtn {
+    min-height: 44px;
+    padding: 0.6rem 1.1rem;
+    font-family: var(--font-ui);
+    font-weight: 600;
+    font-size: 0.92rem;
     border-radius: var(--radius);
-    padding: 0.5rem 1rem;
-    font-size: 0.9rem;
     cursor: pointer;
   }
-  .btn--accent { background: var(--color-accent-text, var(--color-accent)); color: white; } /* accent assombri : blanc lisible (contraste ≥ 4.5) */
-  .btn--ghost { background: transparent; color: white; border: 1px solid rgba(255,255,255,0.4); }
+  .cbtn--accent { background: var(--color-accent); color: #fff; border: 1px solid var(--color-accent); }
+  .cbtn--accent:hover { background: var(--color-accent-hover); }
+  .cbtn--ghost { background: transparent; color: var(--color-on-ink); border: 1px solid var(--color-on-ink-muted); }
+  .cbtn--ghost:hover { border-color: var(--color-on-ink); }
+  .cbtn:focus-visible { outline-color: var(--color-accent-on-ink); }
 </style>

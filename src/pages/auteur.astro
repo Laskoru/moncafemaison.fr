@@ -1,6 +1,7 @@
 ---
 import { getCollection } from 'astro:content';
 import BaseLayout from '../layouts/BaseLayout.astro';
+import Breadcrumbs from '../components/Breadcrumbs.astro';
 import ArticleCard from '../components/ArticleCard.astro';
 import { siteConfig } from '../siteConfig';
 
@@ -24,9 +25,9 @@ const jsonLd = {
     name: authorName,
     url: `${siteUrl}/auteur/`,
     ...(personSameAs.length ? { sameAs: personSameAs } : {}),
-    jobTitle: "Passionné de café & fondateur",
+    jobTitle: 'Passionné de café & fondateur',
     worksFor: { '@id': `${siteUrl}/#organization` },
-    knowsAbout: ["café de spécialité","machines à café","moulins à café","méthodes d'extraction du café"],
+    knowsAbout: ['café de spécialité', 'machines à café', 'moulins à café', "méthodes d'extraction du café"],
   },
 };
 ---
@@ -36,20 +37,24 @@ const jsonLd = {
   description={`${authorName}, la personne derrière ${siteConfig.name}. Qui écrit les guides et comparatifs, avec quelle méthode et en toute indépendance.`}
   jsonLd={jsonLd}
 >
-  <section class="container author">
-    <div class="author__head">
-      <div class="author__avatar" aria-hidden="true">{initials}</div>
-      <div>
-        <p class="eyebrow">Auteur</p>
-        <h1>{authorName}</h1>
-        <p class="author__role">Passionné de café & fondateur</p>
+  <header class="author-head">
+    <div class="container">
+      <Breadcrumbs items={[{ label: 'Accueil', href: '/' }, { label: 'L’auteur' }]} />
+      <div class="author-head__row">
+        <div class="author-head__avatar" aria-hidden="true">{initials}</div>
+        <div>
+          <h1 class="author-head__name">{authorName}</h1>
+          <p class="meta author-head__role">Passionné de café et fondateur de {siteConfig.name} · {allArticles.length} articles publiés</p>
+        </div>
       </div>
     </div>
+  </header>
 
+  <section class="container author">
     <div class="author__bio">
-      <p set:html={`Bonjour ! Je suis Hugo, la personne derrière ${siteConfig.name}. J'ai lancé ce site parce que réussir un bon café chez soi tient à peu de choses — le bon moulin, la bonne méthode — mais que le marketing du café rend le choix du matériel inutilement compliqué.`}></p>
-      <p set:html={`Mon approche est concrète : je pars de l'<strong>usage réel</strong> (quel café vous buvez, quel budget, combien de temps le matin) et de <strong>critères mesurables</strong> plutôt que de fiches marketing. J'explique le <strong>pourquoi</strong> — mouture, pression, température — pour que vous choisissiez en connaissance de cause.`}></p>
-      <p set:html={`Le site est <strong>indépendant</strong> : aucune marque ne paie pour figurer ou être mieux classée. ${siteConfig.name} se finance uniquement via l'affiliation Amazon — si vous achetez après avoir cliqué sur un lien, je touche une petite commission, <strong>sans aucun surcoût pour vous</strong>. Quand un produit a des défauts, je le dis.`}></p>
+      <p set:html={`Bonjour ! Je suis Hugo, la personne derrière ${siteConfig.name}. J'ai lancé ce site parce que réussir un bon café chez soi tient à peu de choses (le bon moulin, la bonne méthode) mais que le marketing du café rend le choix du matériel inutilement compliqué.`}></p>
+      <p set:html={`Mon approche est concrète : je pars de l'<strong>usage réel</strong> (quel café tu bois, quel budget, combien de temps le matin) et de <strong>critères mesurables</strong> plutôt que de fiches marketing. J'explique le <strong>pourquoi</strong> (mouture, pression, température) pour que tu choisisses en connaissance de cause.`}></p>
+      <p set:html={`Le site est <strong>indépendant</strong> : aucune marque ne paie pour figurer ou être mieux classée. ${siteConfig.name} se finance uniquement via l'affiliation Amazon : si tu achètes après avoir cliqué sur un lien, je touche une petite commission, <strong>sans aucun surcoût pour toi</strong>. Quand un produit a des défauts, je le dis.`}></p>
       <p class="author__links">
         <a class="btn btn--outline" href="/a-propos/">Notre méthode en détail</a>
         <a class="btn btn--outline" href="/contact/">Me contacter</a>
@@ -57,23 +62,23 @@ const jsonLd = {
     </div>
 
     <h2 class="author__section">Mes derniers articles</h2>
-    <div class="article-list">
-      {recent.map((article) => <ArticleCard article={article} />)}
-    </div>
+    <ul class="rows">
+      {recent.map((article) => <li><ArticleCard article={article} variant="row" /></li>)}
+    </ul>
   </section>
 </BaseLayout>
 
 <style>
-  .author { padding: 2.5rem 0 3.5rem; max-width: 760px; }
-  .author__head { display: flex; align-items: center; gap: 1.2rem; }
-  .author__avatar { flex-shrink: 0; width: 76px; height: 76px; border-radius: 50%; display: inline-flex; align-items: center; justify-content: center; background: var(--color-accent); color: #fff; font-family: var(--font-display); font-weight: 600; font-size: 1.7rem; }
-  .author__head h1 { margin: 0.15rem 0 0.1rem; }
-  .author__role { margin: 0; color: var(--color-text-muted); font-weight: 500; }
-  .author__bio { margin-top: 1.8rem; }
-  .author__bio p { color: var(--color-text-muted); line-height: 1.75; }
+  .author-head { border-bottom: 1px solid var(--color-border); }
+  .author-head .container { padding-top: 1.1rem; padding-bottom: 1.8rem; }
+  .author-head__row { display: flex; align-items: center; gap: 1.25rem; margin-top: 0.4rem; }
+  .author-head__avatar { flex-shrink: 0; width: 76px; height: 76px; border-radius: 50%; display: inline-flex; align-items: center; justify-content: center; background: var(--color-ink); color: var(--color-accent-on-ink); font-family: var(--font-display); font-weight: 700; font-size: 1.7rem; }
+  .author-head__name { margin: 0 0 0.3rem; }
+  .author-head__role { margin: 0; }
+  .author { padding-top: 1.5rem; padding-bottom: 1rem; }
+  .author__bio p { max-width: var(--measure); line-height: 1.68; }
   .author__bio :global(strong) { color: var(--color-text); }
-  .author__links { display: flex; flex-wrap: wrap; gap: 0.7rem; margin-top: 1.4rem; }
-  .author__section { margin-top: 2.8rem; }
-  .article-list { display: flex; flex-direction: column; gap: 1.1rem; margin-top: 1.2rem; }
-  @media (max-width: 520px) { .author__head { flex-direction: column; align-items: flex-start; gap: 0.8rem; } }
+  .author__links { display: flex; flex-wrap: wrap; gap: 0.6rem; margin-top: 1.25rem; }
+  .author__section { margin: 2.5rem 0 0.75rem; font-size: 1.45rem; }
+  @media (max-width: 520px) { .author-head__row { flex-direction: column; align-items: flex-start; gap: 0.8rem; } }
 </style>

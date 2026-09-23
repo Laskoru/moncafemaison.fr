@@ -1,299 +1,238 @@
 ---
-import Icon from '../components/Icon.astro';
 import { getCollection } from 'astro:content';
 import BaseLayout from '../layouts/BaseLayout.astro';
 import ArticleCard from '../components/ArticleCard.astro';
+import GuideList from '../components/GuideList.astro';
+import SelectionMethod from '../components/SelectionMethod.astro';
+import Icon from '../components/Icon.astro';
 import { siteConfig } from '../siteConfig';
 import { categories } from '../categories';
+import { guides } from '../guides';
+import { resolveCoverImage, coverSrcSet } from '../lib/covers';
 
-const allArticles = await getCollection('articles', ({ data }) => !data.draft);
-const latest = allArticles.sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf()).slice(0, 10);
+const allArticles = (await getCollection('articles', ({ data }) => !data.draft)).sort(
+  (a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf()
+);
+const lead = allArticles[0];
+const latest = allArticles.slice(1, 7);
 
 const categoryCounts = categories.map((cat) => ({
   ...cat,
   count: allArticles.filter((a) => a.data.category === cat.slug).length,
 }));
 
-const stats = [
-  { value: String(allArticles.length), label: 'Comparatifs publiés' },
-  { value: String(categories.length), label: 'Catégories couvertes' },
-  { value: '100%', label: 'Rédaction indépendante' },
+const published = new Set(allArticles.map((a) => a.slug));
+const guideItems = guides.map((g) => ({
+  ...g,
+  count: g.articles.filter((slug) => published.has(slug)).length,
+}));
+
+const leadCover = lead ? resolveCoverImage(lead.slug, lead.data.coverImage) : null;
+const leadCat = lead ? categories.find((c) => c.slug === lead.data.category) : undefined;
+const leadMinutes = lead ? Math.max(1, Math.round(lead.body.trim().split(/\s+/).length / 200)) : 0;
+const dateFormatter = new Intl.DateTimeFormat(siteConfig.locale.replace('_', '-'), { year: 'numeric', month: 'long', day: 'numeric' });
+
+const tools = [
+  { icon: 'calculator', title: 'Calculateur de dosage', desc: 'Les grammes de café et la quantité d’eau exacts selon ta méthode, ton nombre de tasses et ton goût.', href: '/calculateur-dosage-cafe/', cta: 'Calculer mon dosage' },
+  { icon: 'compass', title: 'Quelle méthode de café ?', desc: 'Espresso, moka, piston, filtre, cold brew : le panorama pour choisir la méthode avant la machine.', href: '/methodes-cafe/', cta: 'Comparer les méthodes' },
 ];
 ---
 
 <BaseLayout title="Mon Café Maison — machines, moulins & accessoires comparés" description={siteConfig.description}>
-  <section class="hero">
-    <div class="wide hero__inner">
-      <p class="hero__badge"><span class="hero__badge-dot"></span> Comparatifs indépendants · machines · moulins · accessoires</p>
-      <h1 class="hero__title">{siteConfig.tagline}</h1>
-      <p class="hero__lede">{siteConfig.description}</p>
-      <div class="hero__actions">
-        {latest.length > 0 && (
-          <a class="btn btn--primary" href={`/articles/${latest[0].slug}/`}>Lire le dernier comparatif →</a>
-        )}
-        <a class="btn btn--glass" href="/articles/">Voir tous les articles</a>
-      </div>
-
-      <div class="hero__stats">
-        {stats.map((stat) => (
-          <div class="hero__stat">
-            <p class="hero__stat-value">{stat.value}</p>
-            <p class="hero__stat-label">{stat.label}</p>
+  {lead && (
+    <section class="une" aria-labelledby="site-title">
+      <div class="wide une__grid">
+        <a class="une__media" href={`/articles/${lead.slug}/`} tabindex="-1" aria-hidden="true">
+          {leadCover ? (
+            <img
+              src={leadCover}
+              srcset={coverSrcSet(leadCover)}
+              sizes="(max-width: 900px) 100vw, 660px"
+              alt=""
+              width="1600"
+              height="900"
+              fetchpriority="high"
+            />
+          ) : (
+            <span class="une__ph"><Icon name={leadCat?.slug ?? 'cup'} size={56} /></span>
+          )}
+        </a>
+        <div class="une__text">
+          <h1 class="une__title" id="site-title">Le bon café à la maison, méthode d'abord</h1>
+          <div class="une__story">
+            <h2 class="une__story-title"><a href={`/articles/${lead.slug}/`}>{lead.data.title}</a></h2>
+            <p class="meta meta-row une__story-meta">
+              {leadCat && <span class="cat-label">{leadCat.label}</span>}
+              <time datetime={lead.data.pubDate.toISOString().slice(0, 10)}>{dateFormatter.format(lead.data.pubDate)}</time>
+              <span>{leadMinutes} min de lecture</span>
+            </p>
+            <p class="une__story-desc">{lead.data.description}</p>
+            <a class="btn btn--primary une__cta" href={`/articles/${lead.slug}/`}>Lire le comparatif <Icon name="arrow-right" size={18} /></a>
           </div>
-        ))}
-      </div>
-    </div>
-  </section>
-
-  <section class="section section--soft">
-    <div class="wide">
-      <p class="section__eyebrow">Catégories</p>
-      <h2 class="section__title">Trouve ce qu'il te faut</h2>
-      <p class="section__lede">Nos comparatifs sont classés par ce que tu es en train d'équiper.</p>
-      <div class="categories__grid">
-        {categoryCounts.map((cat) => (
-          <a class="categories__item card card--hover" href={`/categorie/${cat.slug}/`}>
-            <span class="categories__icon"><Icon name={cat.slug} size={28} /></span>
-            <span class="categories__label">{cat.label}</span>
-            <span class="categories__desc">{cat.description}</span>
-            <span class="categories__count">{cat.count} article{cat.count > 1 ? 's' : ''} →</span>
-          </a>
-        ))}
-      </div>
-    </div>
-  </section>
-
-  <section class="section">
-    <div class="wide">
-      <div class="section__head">
-        <div>
-          <p class="section__eyebrow">Derniers articles</p>
-          <h2 class="section__title">Les comparatifs récents</h2>
         </div>
-        <a class="section__link" href="/articles/">Voir tout →</a>
       </div>
-      <div class="article-list">
-        {latest.length === 0 && <p>Aucun article publié pour le moment.</p>}
-        {latest.map((article) => <ArticleCard article={article} />)}
-      </div>
+    </section>
+  )}
+
+  <nav class="cats" aria-label="Catégories">
+    <ul class="wide cats__row">
+      {categoryCounts.map((cat) => (
+        <li>
+          <a class="cats__item" href={`/categorie/${cat.slug}/`}>
+            <span class="cats__icon"><Icon name={cat.slug} size={28} /></span>
+            <span class="cats__name">{cat.label}</span>
+            <span class="meta cats__count">{cat.count} comparatif{cat.count > 1 ? 's' : ''}</span>
+          </a>
+        </li>
+      ))}
+    </ul>
+  </nav>
+
+  <section class="wide section" aria-labelledby="start-title">
+    <div class="section-head">
+      <h2 id="start-title">Par où commencer</h2>
+      <a class="section-head__link" href="/guides/">Tous les guides <Icon name="arrow-right" size={16} /></a>
+    </div>
+    <GuideList items={guideItems} />
+  </section>
+
+  <section class="wide section" aria-labelledby="latest-title">
+    <div class="section-head">
+      <h2 id="latest-title">Les derniers comparatifs</h2>
+      <a class="section-head__link" href="/articles/">Tous les comparatifs <Icon name="arrow-right" size={16} /></a>
+    </div>
+    <div class="latest-grid">
+      {latest.map((article) => <ArticleCard article={article} />)}
     </div>
   </section>
 
-  <section class="section section--soft">
-    <div class="wide approach">
-      <div class="approach__text">
-        <p class="section__eyebrow">Notre approche</p>
-        <h2 class="section__title">Des conseils utiles, pas du blabla</h2>
-        <p>
-          Chaque article part d'un usage concret — un espresso serré le matin, un grand filtre le week-end,
-          un latte mousseux — et compare des critères <strong>concrets</strong> : type de mouture, pression,
-          régularité, entretien, budget. Pas d'impressions vagues ni de classements gonflés artificiellement.
-        </p>
-        <p>
-          On assume nos choix et leurs compromis, et les comparatifs sont revus régulièrement pour que les
-          modèles conseillés et les prix restent d'actualité.
-        </p>
-        <a class="btn btn--outline" href="/a-propos/">En savoir plus sur nous</a>
+  <section class="tools" aria-labelledby="tools-title">
+    <div class="wide tools__in">
+      <div class="tools__head">
+        <h2 id="tools-title">Nos outils</h2>
+        <p>Gratuits, sans inscription : de quoi régler ta tasse avant d'acheter quoi que ce soit.</p>
       </div>
-      <ul class="approach__points">
-        <li><span>✓</span> Critères concrets et vérifiables</li>
-        <li><span>✓</span> Sélections par budget et par usage</li>
-        <li><span>✓</span> Rédaction indépendante, financée par l'affiliation</li>
-        <li><span>✓</span> Articles mis à jour dans le temps</li>
+      <ul class="tools__list">
+        {tools.map((t) => (
+          <li class="tools__item">
+            <span class="tools__icon"><Icon name={t.icon} size={28} /></span>
+            <h3 class="tools__title"><a class="stretched-link" href={t.href}>{t.title}</a></h3>
+            <p class="tools__desc">{t.desc}</p>
+            <span class="tools__cta">{t.cta} <Icon name="arrow-right" size={16} /></span>
+          </li>
+        ))}
       </ul>
     </div>
+  </section>
+
+  <section class="wide section section--last">
+    <SelectionMethod wide />
   </section>
 </BaseLayout>
 
 <style>
-  .hero {
-    position: relative;
-    isolation: isolate;
-    overflow: hidden;
-    color: #fff;
-    background-color: #1c130c;
-    background-image:
-      linear-gradient(96deg, rgba(28, 19, 12, 0.94) 0%, rgba(28, 19, 12, 0.72) 46%, rgba(28, 19, 12, 0.32) 100%),
-      linear-gradient(180deg, rgba(28, 19, 12, 0.3) 0%, rgba(28, 19, 12, 0) 34%, var(--color-bg) 100%),
-      url('/covers/hero-home.webp'); /* auto-hébergée (plus de dépendance Unsplash, LCP maîtrisé) */
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-  }
-  /* halo d'accent, discret */
-  .hero::before {
-    content: '';
-    position: absolute;
-    top: -20%;
-    right: -10%;
-    width: 55%;
-    height: 90%;
-    background: radial-gradient(closest-side, color-mix(in srgb, var(--color-accent) 30%, transparent), transparent 70%);
-    filter: blur(30px);
-    z-index: -1;
-    pointer-events: none;
-  }
-  .hero__inner {
-    padding: clamp(4rem, 13vh, 8rem) 1.25rem clamp(3.5rem, 9vh, 6rem);
-  }
-  .hero__badge {
-    display: inline-flex;
-    align-items: center;
-    gap: 0.55em;
-    background: rgba(255, 255, 255, 0.08);
-    border: 1px solid rgba(255, 255, 255, 0.16);
-    backdrop-filter: blur(6px);
-    padding: 0.5em 1em;
-    border-radius: 999px;
-    font-size: 0.8rem;
-    font-weight: 600;
-    letter-spacing: 0.01em;
-    color: rgba(255, 255, 255, 0.92);
-    margin: 0 0 1.5rem;
-  }
-  .hero__badge-dot {
-    width: 7px; height: 7px; border-radius: 50%;
-    background: var(--color-signal);
-    box-shadow: 0 0 0 3px color-mix(in srgb, var(--color-signal) 30%, transparent);
-  }
-  .hero__title {
-    font-size: clamp(2.3rem, 5.2vw, 3.9rem);
-    line-height: 1.05;
-    letter-spacing: -0.02em;
-    margin: 0 0 1.2rem;
-    max-width: 17ch;
-    text-wrap: balance;
-  }
-  .hero__lede {
-    font-size: clamp(1.02rem, 1.6vw, 1.18rem);
-    line-height: 1.65;
-    color: rgba(255, 255, 255, 0.82);
-    max-width: 56ch;
-    margin: 0 0 2rem;
-  }
-  .hero__actions { display: flex; gap: 0.8rem; flex-wrap: wrap; margin-bottom: 3rem; }
-  .btn--glass {
-    background: rgba(255, 255, 255, 0.08);
-    color: #fff;
-    border: 1px solid rgba(255, 255, 255, 0.28);
-    backdrop-filter: blur(6px);
-  }
-  .btn--glass:hover { background: rgba(255, 255, 255, 0.16); border-color: rgba(255, 255, 255, 0.5); }
-
-  .hero__stats {
-    display: flex;
-    gap: clamp(1.5rem, 5vw, 3.5rem);
-    flex-wrap: wrap;
-    padding-top: 1.8rem;
-    border-top: 1px solid rgba(255, 255, 255, 0.12);
-    max-width: 560px;
-  }
-  .hero__stat-value {
-    font-family: var(--font-display);
-    font-size: clamp(1.7rem, 3vw, 2.2rem);
-    font-weight: 700;
-    margin: 0;
-    color: #fff;
-  }
-  .hero__stat-label {
-    font-size: 0.82rem;
-    color: rgba(255, 255, 255, 0.65);
-    margin: 0.2rem 0 0;
-  }
-
-  /* ---- Sections génériques ---- */
-  .section { padding: 3.6rem 0; }
-  .section--soft { background: var(--color-bg-soft); }
-  .section__eyebrow {
-    font-size: 0.75rem;
-    font-weight: 700;
-    letter-spacing: 0.08em;
-    text-transform: uppercase;
-    color: var(--color-accent-text);
-    margin: 0 0 0.5rem;
-  }
-  .section__title { margin: 0 0 0.5rem; font-size: clamp(1.5rem, 3vw, 2rem); }
-  .section__lede { color: var(--color-text-muted); margin: 0 0 1.8rem; max-width: 60ch; }
-  .section__head {
-    display: flex;
-    align-items: flex-end;
-    justify-content: space-between;
-    gap: 1rem;
-    margin-bottom: 1.8rem;
-  }
-  .section__head .section__title { margin-bottom: 0; }
-  .section__link {
-    font-weight: 600;
-    font-size: 0.92rem;
-    text-decoration: none;
-    color: var(--color-accent-text);
-    white-space: nowrap;
-  }
-  .section__link:hover { text-decoration: underline; }
-
-  /* ---- Catégories ---- */
-  .categories__grid {
+  /* ---- La « une » : couverture du comparatif du moment + décision en une ligne ---- */
+  .une { padding: 2rem 0 2.5rem; }
+  .une__grid {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 1rem;
-  }
-  .categories__item {
-    display: flex;
-    flex-direction: column;
-    text-decoration: none;
-    color: inherit;
-    padding: 1.6rem 1.5rem;
-  }
-  .categories__icon { display: inline-flex; align-items: center; justify-content: center; color: var(--color-accent);
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    width: 48px;
-    height: 48px;
-    font-size: 1.5rem;
-    border-radius: 12px;
-    background: var(--color-accent-soft);
-    margin-bottom: 1rem;
-  }
-  .categories__label { font-family: var(--font-display); font-weight: 700; font-size: 1.1rem; }
-  .categories__desc { color: var(--color-text-muted); font-size: 0.9rem; line-height: 1.5; margin: 0.3rem 0 1rem; flex: 1; }
-  .categories__count { font-size: 0.82rem; font-weight: 600; color: var(--color-accent-text); }
-
-  /* ---- Derniers articles ---- */
-  .article-list { display: flex; flex-direction: column; gap: 1rem; }
-
-  /* ---- Approche ---- */
-  .approach {
-    display: grid;
-    grid-template-columns: 1.4fr 1fr;
+    grid-template-columns: 58fr 42fr;
     gap: 2.5rem;
     align-items: center;
   }
-  .approach__text .section__title { margin-bottom: 1rem; }
-  .approach__text p { color: var(--color-text-muted); line-height: 1.7; }
-  .approach__text .btn { margin-top: 0.8rem; }
-  .approach__points {
-    list-style: none;
-    margin: 0;
-    padding: 1.5rem;
+  .une__media {
+    display: block;
+    aspect-ratio: 16 / 9;
+    border-radius: var(--radius);
+    overflow: hidden;
+    background: var(--color-bg-soft);
     border: 1px solid var(--color-border);
-    border-radius: var(--radius-lg);
-    background: var(--color-surface);
+    box-shadow: var(--shadow-card);
+    animation: une-media 0.9s var(--ease-out) both;
+  }
+  .une__media img { width: 100%; height: 100%; object-fit: cover; }
+  .une__ph { display: flex; align-items: center; justify-content: center; height: 100%; color: var(--color-accent); }
+  .une__text { animation: une-text 0.9s var(--ease-out) both; }
+  @keyframes une-media { from { opacity: 0.4; transform: scale(1.015); } to { opacity: 1; transform: none; } }
+  @keyframes une-text { from { opacity: 0.4; transform: translateY(10px); } to { opacity: 1; transform: none; } }
+  .une__title {
+    margin: 0 0 1.1rem;
+    font-size: clamp(2rem, 1.3rem + 2.2vw, 2.6rem);
+    line-height: 1.05;
+    letter-spacing: -0.02em;
+    max-width: 16ch;
+  }
+  .une__story { padding-top: 1.1rem; border-top: 1px solid var(--color-border); }
+  .une__story-title { margin: 0 0 0.5rem; font-size: 1.5rem; font-weight: 600; line-height: 1.2; letter-spacing: -0.01em; }
+  .une__story-title a { color: var(--color-text); text-decoration: none; }
+  .une__story-title a:hover { color: var(--color-accent); text-decoration: underline; text-decoration-thickness: 2px; }
+  .une__story-meta { margin-bottom: 0.75rem; }
+  .une__story-desc { margin: 0 0 1.25rem; color: var(--color-text-muted); line-height: 1.55; max-width: 48ch; }
+  .une__cta { padding-inline: 1.5em; }
+
+  /* ---- Rangée de catégories à filets ---- */
+  .cats { border-top: 1px solid var(--color-border); border-bottom: 1px solid var(--color-border); background: var(--color-surface); }
+  .cats__row { list-style: none; margin: 0 auto; padding: 0 1.25rem; display: grid; grid-template-columns: repeat(4, 1fr); }
+  .cats__row li { border-left: 1px solid var(--color-border); }
+  .cats__row li:first-child { border-left: 0; }
+  .cats__item {
     display: flex;
     flex-direction: column;
-    gap: 0.9rem;
+    gap: 0.35rem;
+    min-height: 44px;
+    padding: 1.25rem 1.4rem;
+    color: var(--color-text);
+    text-decoration: none;
+    transition: background-color 0.15s ease;
   }
-  .approach__points li { display: flex; gap: 0.7rem; align-items: flex-start; line-height: 1.4; }
-  .approach__points span {
-    color: var(--color-accent);
-    font-weight: 700;
-    flex-shrink: 0;
-  }
+  .cats__item:hover { background: var(--color-bg); }
+  .cats__icon { display: inline-flex; color: var(--color-accent); margin-bottom: 0.25rem; }
+  .cats__name { font-family: var(--font-display); font-weight: 700; font-size: 1.08rem; line-height: 1.2; }
+  .cats__item:hover .cats__name { color: var(--color-accent); }
+  .cats__count { margin: 0; }
 
-  @media (max-width: 780px) {
-    .approach { grid-template-columns: 1fr; gap: 1.6rem; }
+  /* ---- Sections ---- */
+  .section { padding-top: 3.25rem; }
+  .section--last { padding-top: 1.5rem; }
+  .latest-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.4rem; }
+
+  /* ---- Nos outils : encart encre ---- */
+  .tools { margin-top: 3.5rem; background: var(--color-ink); color: var(--color-on-ink); }
+  .tools__in { display: grid; grid-template-columns: 1fr 2fr; gap: 2.5rem; padding-top: 3rem; padding-bottom: 3rem; }
+  .tools__head h2 { margin: 0 0 0.6rem; color: var(--color-on-ink); font-size: 1.7rem; }
+  .tools__head p { margin: 0; color: var(--color-on-ink-muted); line-height: 1.55; max-width: 30ch; }
+  .tools__list { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: 1fr 1fr; }
+  .tools__item { position: relative; display: flex; flex-direction: column; gap: 0.5rem; padding: 0.25rem 1.75rem 0.25rem 0; }
+  .tools__item + .tools__item { padding-left: 1.75rem; padding-right: 0; border-left: 1px solid rgba(251, 248, 243, 0.18); }
+  .tools__icon { display: inline-flex; color: var(--color-accent-on-ink); }
+  .tools__title { margin: 0.25rem 0 0; font-size: 1.3rem; color: var(--color-on-ink); }
+  .tools__title a { color: inherit; text-decoration: none; }
+  .tools__item:hover .tools__title a { color: var(--color-accent-on-ink); }
+  .tools__desc { margin: 0; color: var(--color-on-ink-muted); font-size: 0.98rem; line-height: 1.55; }
+  .tools__cta { display: inline-flex; align-items: center; gap: 0.35em; margin-top: auto; padding-top: 0.5rem; font-family: var(--font-ui); font-weight: 600; font-size: 0.92rem; color: var(--color-accent-on-ink); }
+  .tools__cta :global(svg) { transition: transform 0.2s var(--ease-out); }
+  .tools__item:hover .tools__cta :global(svg) { transform: translateX(4px); }
+
+  @media (max-width: 1000px) {
+    .latest-grid { grid-template-columns: repeat(2, 1fr); }
+    .tools__in { grid-template-columns: 1fr; gap: 1.5rem; }
   }
-  @media (max-width: 680px) {
-    .categories__grid { grid-template-columns: 1fr; }
+  @media (max-width: 900px) {
+    .une { padding: 1.25rem 0 2rem; }
+    .une__grid { grid-template-columns: 1fr; gap: 1.5rem; }
+    .une__title { max-width: none; }
+    .une__cta { width: 100%; }
+    .cats__row { grid-template-columns: 1fr 1fr; }
+    .cats__row li:nth-child(odd) { border-left: 0; }
+    .cats__row li:nth-child(n + 3) { border-top: 1px solid var(--color-border); }
+    .cats__item { padding: 1rem 1rem; }
+  }
+  @media (max-width: 640px) {
+    .cats__row { padding: 0 1rem; }
+    .latest-grid { grid-template-columns: 1fr; }
+    .tools__list { grid-template-columns: 1fr; }
+    .tools__item { padding: 1rem 0; border-top: 1px solid rgba(251, 248, 243, 0.18); }
+    .tools__item + .tools__item { padding-left: 0; border-left: 0; }
+    .tools__in { padding-top: 2.25rem; padding-bottom: 2.25rem; }
+    .section { padding-top: 2.5rem; }
   }
 </style>

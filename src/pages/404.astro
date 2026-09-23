@@ -2,6 +2,7 @@
 import Icon from '../components/Icon.astro';
 import { getCollection } from 'astro:content';
 import BaseLayout from '../layouts/BaseLayout.astro';
+import PageHead from '../components/PageHead.astro';
 import { categories } from '../categories';
 
 const latest = (await getCollection('articles', ({ data }) => !data.draft))
@@ -10,53 +11,62 @@ const latest = (await getCollection('articles', ({ data }) => !data.draft))
 ---
 
 <BaseLayout title="Page introuvable" description="Cette page n'existe pas ou a été déplacée." noindex>
-  <section class="container not-found">
-    <p class="eyebrow">Erreur 404</p>
-    <h1>Cette page n'existe pas (ou plus)</h1>
-    <p class="not-found__lede">
-      Le lien est peut-être cassé ou la page a été déplacée. Voici comment retrouver ton chemin :
-    </p>
-
-    <div class="not-found__categories">
+  <PageHead
+    title="Cette page n'existe pas (ou plus)"
+    lede="Le lien est peut-être cassé ou la page a été déplacée. Voici comment retrouver ton chemin."
+    count="Erreur 404"
+    width="narrow"
+  />
+  <section class="container nf">
+    <h2>Par catégorie</h2>
+    <ul class="nf__cats">
       {categories.map((cat) => (
-        <a class="not-found__cat" href={`/categorie/${cat.slug}/`}>
-          <span class="not-found__ico"><Icon name={cat.slug} size={16} /></span> {cat.label}
-        </a>
+        <li>
+          <a class="nf__cat" href={`/categorie/${cat.slug}/`}>
+            <Icon name={cat.slug} size={18} /> {cat.label}
+          </a>
+        </li>
       ))}
-    </div>
+    </ul>
 
     {latest.length > 0 && (
       <>
-        <h2>Derniers articles</h2>
-        <ul class="not-found__list">
+        <h2>Les derniers comparatifs</h2>
+        <ul class="rows nf__list">
           {latest.map((article) => (
-            <li><a href={`/articles/${article.slug}/`}>{article.data.title}</a></li>
+            <li><a href={`/articles/${article.slug}/`}>{article.data.title} <Icon name="arrow-right" size={16} /></a></li>
           ))}
         </ul>
       </>
     )}
 
-    <a class="btn btn--primary" href="/">Retour à l'accueil</a>
+    <p class="nf__home"><a class="btn btn--primary" href="/">Retour à l'accueil</a></p>
   </section>
 </BaseLayout>
 
 <style>
-  .not-found { padding: 3.5rem 0 4rem; }
-  .not-found__lede { color: var(--color-text-muted); font-size: 1.05rem; margin-bottom: 2rem; }
-  .not-found__categories { display: flex; flex-wrap: wrap; gap: 0.7rem; margin-bottom: 2.5rem; }
-  .not-found__cat {
+  .nf { padding-top: 1.5rem; padding-bottom: 1rem; }
+  .nf h2 { font-size: 1.3rem; margin: 1.5rem 0 0.75rem; }
+  .nf__cats { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; gap: 0.6rem; }
+  .nf__cat {
     display: inline-flex;
     align-items: center;
     gap: 0.5em;
-    border: 1px solid var(--color-border);
-    border-radius: 999px;
-    padding: 0.55em 1.1em;
-    font-size: 0.9rem;
-    font-weight: 600;
-    text-decoration: none;
+    min-height: 44px;
+    padding: 0.5rem 1rem;
+    border: 1px solid var(--color-border-strong);
+    border-radius: var(--radius);
+    background: var(--color-surface);
     color: var(--color-text);
+    font-family: var(--font-ui);
+    font-weight: 600;
+    font-size: 0.92rem;
+    text-decoration: none;
   }
-  .not-found__cat:hover { border-color: var(--color-accent); color: var(--color-accent); }
-  .not-found__list { padding-left: 1.2rem; margin-bottom: 2.5rem; }
-  .not-found__list li { margin-bottom: 0.5rem; }
+  .nf__cat :global(svg) { color: var(--color-accent); }
+  .nf__cat:hover { border-color: var(--color-accent); color: var(--color-accent); }
+  .nf__list li a { display: flex; align-items: center; justify-content: space-between; gap: 1rem; min-height: 48px; padding: 0.5rem 0.25rem; color: var(--color-text); font-family: var(--font-display); font-weight: 600; text-decoration: none; }
+  .nf__list li a:hover { color: var(--color-accent); }
+  .nf__list li a :global(svg) { flex: none; color: var(--color-accent); }
+  .nf__home { margin: 2rem 0 0; }
 </style>

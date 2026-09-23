@@ -1,0 +1,35 @@
+---
+// En-tête de page intérieure : fil d'Ariane, titre, chapeau, compteur en
+// métadonnée. Un filet en bas structure la page, pas de bandeau coloré.
+import Breadcrumbs from './Breadcrumbs.astro';
+
+interface Crumb { label: string; href?: string }
+interface Props {
+  title: string;
+  lede?: string;
+  crumbs?: Crumb[];
+  /** Ligne de métadonnées sous le chapeau (ex. « 27 comparatifs »). */
+  count?: string;
+  /** Largeur du contenu : « narrow » (720) ou « wide » (1160). */
+  width?: 'narrow' | 'wide';
+}
+const { title, lede, crumbs, count, width = 'wide' } = Astro.props;
+---
+
+<header class="ph">
+  <div class:list={['ph__in', width === 'narrow' ? 'container' : 'wide']}>
+    {crumbs && <Breadcrumbs items={crumbs} />}
+    <h1 class="ph__title">{title}</h1>
+    {lede && <p class="lede ph__lede">{lede}</p>}
+    {count && <p class="meta ph__count">{count}</p>}
+    <slot />
+  </div>
+</header>
+
+<style>
+  .ph { border-bottom: 1px solid var(--color-border); }
+  .ph__in { padding-top: 1.1rem; padding-bottom: 1.8rem; }
+  .ph__title { margin: 0.4rem 0 0.6rem; max-width: 24ch; }
+  .ph__lede { margin: 0; }
+  .ph__count { margin: 0.8rem 0 0; }
+</style>

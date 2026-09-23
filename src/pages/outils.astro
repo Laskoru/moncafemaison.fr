@@ -1,50 +1,49 @@
 ---
 import Icon from '../components/Icon.astro';
 import BaseLayout from '../layouts/BaseLayout.astro';
-import Breadcrumbs from '../components/Breadcrumbs.astro';
+import PageHead from '../components/PageHead.astro';
 import { siteConfig } from '../siteConfig';
 
 const tools = [
-  { icon: 'calculator', title: 'Calculateur de dosage café', desc: 'Les grammes de café et la quantité d’eau exacts selon ta méthode et ton nombre de tasses.', href: '/calculateur-dosage-cafe/', cta: 'Ouvrir le calculateur' },
-  { icon: 'coffee', title: 'Les méthodes de préparation', desc: 'Filtre, piston, moka, expresso… le bon geste et le bon matériel pour chaque méthode.', href: '/methodes-cafe/', cta: 'Voir les méthodes' },
+  { icon: 'calculator', title: 'Calculateur de dosage café', desc: 'Les grammes de café et la quantité d’eau exacts selon ta méthode, ton nombre de tasses et l’intensité que tu aimes.', href: '/calculateur-dosage-cafe/', cta: 'Ouvrir le calculateur' },
+  { icon: 'compass', title: 'Quelle méthode de café ?', desc: 'Espresso, moka, piston, filtre, cold brew, dosette : résultat en tasse, difficulté, budget et temps comparés, puis le matériel qui va avec.', href: '/methodes-cafe/', cta: 'Comparer les méthodes' },
+  { icon: 'book', title: 'Lexique du café', desc: 'Mouture, crema, bars, blooming, sur-extraction : le vocabulaire expliqué en clair, avec le comparatif concerné quand il existe.', href: '/lexique/', cta: 'Ouvrir le lexique' },
 ];
 ---
 
 <BaseLayout title="Outils gratuits" description={`Des outils gratuits pour réussir ton café à la maison : calculateur de dosage et guide des méthodes de préparation. ${siteConfig.name}.`}>
+  <PageHead
+    title="Outils gratuits"
+    lede="Sans inscription : de quoi régler ta tasse et choisir ta méthode avant d’acheter quoi que ce soit."
+    crumbs={[{ label: 'Accueil', href: '/' }, { label: 'Outils gratuits' }]}
+    width="narrow"
+  />
   <section class="container outils">
-    <Breadcrumbs items={[{ label: 'Accueil', href: '/' }, { label: 'Outils gratuits' }]} />
-    <header class="outils__head">
-      <p class="outils__eyebrow">100 % gratuit · sans inscription</p>
-      <h1>Outils gratuits</h1>
-      <p class="outils__lede">Des outils pratiques pour réussir ton café sans te tromper — et à partager si ça peut aider quelqu’un.</p>
-    </header>
-    <div class="outils__grid">
+    <ul class="rows">
       {tools.map((t) => (
-        <article class="tool">
-          <span class="tool__icon" aria-hidden="true"><Icon name={t.icon} size={30} /></span>
-          <h2 class="tool__title"><a href={t.href}>{t.title}</a></h2>
-          <p class="tool__desc">{t.desc}</p>
-          <span class="tool__cta">{t.cta} →</span>
-        </article>
+        <li class="tool">
+          <span class="tool__icon"><Icon name={t.icon} size={28} /></span>
+          <div class="tool__body">
+            <h2 class="tool__title"><a class="stretched-link" href={t.href}>{t.title}</a></h2>
+            <p class="tool__desc">{t.desc}</p>
+            <span class="tool__cta">{t.cta} <Icon name="arrow-right" size={16} /></span>
+          </div>
+        </li>
       ))}
-    </div>
+    </ul>
   </section>
 </BaseLayout>
 
 <style>
-  .outils { padding: 2.5rem 0 3.5rem; }
-  .outils__head { max-width: 60ch; }
-  .outils__eyebrow { font-size: 0.78rem; letter-spacing: 0.12em; text-transform: uppercase; color: var(--color-accent); font-weight: 700; margin: 0 0 0.4rem; }
-  .outils h1 { margin: 0; }
-  .outils__lede { color: var(--color-text-muted); font-size: 1.05rem; margin-top: 0.7rem; }
-  .outils__grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 1.1rem; margin-top: 2.4rem; }
-  .tool { position: relative; padding: 1.7rem 1.6rem; display: flex; flex-direction: column; background: var(--color-surface); border: 1px solid var(--color-border); border-radius: var(--radius-lg); transition: transform 0.15s ease, box-shadow 0.15s ease, border-color 0.15s ease; }
-  .tool:hover { transform: translateY(-3px); box-shadow: 0 10px 30px rgba(0,0,0,0.08); border-color: var(--color-accent); }
-  .tool__icon { display: inline-flex; align-items: center; justify-content: center; color: var(--color-accent); font-size: 2rem; }
-  .tool__title { margin: 0.7rem 0 0.4rem; font-size: 1.25rem; }
+  .outils { padding-top: 1.5rem; padding-bottom: 1rem; }
+  .tool { position: relative; display: grid; grid-template-columns: auto 1fr; gap: 1.25rem; padding: 1.5rem 0.25rem; transition: background-color 0.15s ease; }
+  .tool:hover { background: var(--color-surface); }
+  .tool__icon { display: inline-flex; color: var(--color-accent); margin-top: 0.2rem; }
+  .tool__title { margin: 0 0 0.35rem; font-size: 1.35rem; }
   .tool__title a { color: var(--color-text); text-decoration: none; }
-  .tool__title a::after { content: ''; position: absolute; inset: 0; }
   .tool:hover .tool__title a { color: var(--color-accent); }
-  .tool__desc { color: var(--color-text-muted); font-size: 0.95rem; margin: 0 0 1rem; flex: 1; }
-  .tool__cta { color: var(--color-accent); font-weight: 600; font-size: 0.95rem; }
+  .tool__desc { margin: 0 0 0.6rem; color: var(--color-text-muted); line-height: 1.55; max-width: 60ch; }
+  .tool__cta { display: inline-flex; align-items: center; gap: 0.35em; font-family: var(--font-ui); font-weight: 600; font-size: 0.92rem; color: var(--color-accent); }
+  .tool__cta :global(svg) { transition: transform 0.2s var(--ease-out); }
+  .tool:hover .tool__cta :global(svg) { transform: translateX(4px); }
 </style>

@@ -1,11 +1,12 @@
 ---
-import Icon from '../../components/Icon.astro';
 import { getCollection } from 'astro:content';
 import BaseLayout from '../../layouts/BaseLayout.astro';
-import Breadcrumbs from '../../components/Breadcrumbs.astro';
+import PageHead from '../../components/PageHead.astro';
 import ArticleCard from '../../components/ArticleCard.astro';
+import Icon from '../../components/Icon.astro';
 import { siteConfig } from '../../siteConfig';
 import { categories } from '../../categories';
+import { guides } from '../../guides';
 
 export async function getStaticPaths() {
   return categories.map((cat) => ({
@@ -19,6 +20,9 @@ const { cat } = Astro.props;
 const articles = (await getCollection('articles', ({ data }) => !data.draft && data.category === cat.slug)).sort(
   (a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf()
 );
+// Guides qui regroupent au moins un article de cette catégorie (maillage utile, pas décoratif).
+const slugs = new Set(articles.map((a) => a.slug));
+const relatedGuides = guides.filter((g) => g.articles.some((s) => slugs.has(s)));
 ---
 
 <BaseLayout
@@ -26,24 +30,56 @@ const articles = (await getCollection('articles', ({ data }) => !data.draft && d
   noindex={articles.length === 0}
   description={`${cat.description} Tous les comparatifs ${cat.label.toLowerCase()} sur ${siteConfig.name}.`}
 >
-  <section class="container cat-header">
-    <Breadcrumbs items={[{ label: 'Accueil', href: '/' }, { label: cat.label }]} />
-    <p class="cat-header__icon"><Icon name={cat.slug} size={40} /></p>
-    <h1>{cat.label}</h1>
-    <p class="cat-header__desc">{cat.description}</p>
-  </section>
+  <PageHead
+    title={cat.label}
+    lede={cat.description}
+    crumbs={[{ label: 'Accueil', href: '/' }, { label: cat.label }]}
+    count={articles.length ? `${articles.length} comparatif${articles.length > 1 ? 's' : ''}` : undefined}
+  />
 
-  <section class="container article-list">
-    {articles.length === 0 && <p>Aucun article publié dans cette catégorie pour le moment.</p>}
-    {articles.map((article) => <ArticleCard article={article} />)}
+  <section class="wide list">
+    {articles.length === 0 && <p class="empty">Aucun article publié dans cette catégorie pour le moment.</p>}
+    <div class="grid">
+      {articles.map((article, i) => <ArticleCard article={article} eager={i < 3} />)}
+    </div>
+
+    {relatedGuides.length > 0 && (
+      <aside class="cat-guides" aria-label="Guides liés">
+        <p class="cat-guides__label">Les guides qui reprennent ces comparatifs</p>
+        <ul class="cat-guides__list">
+          {relatedGuides.map((g) => (
+            <li><a href={`/guides/${g.slug}/`}><Icon name={g.slug} size={18} /> {g.title}</a></li>
+          ))}
+        </ul>
+      </aside>
+    )}
   </section>
 </BaseLayout>
 
 <style>
-  .cat-header { padding: 2.5rem 0 1rem; }
-  .cat-header__icon { display: inline-flex; align-items: center; justify-content: center; color: var(--color-accent); font-size: 2.4rem; margin: 0 0 0.4rem; }
-  .cat-header h1 { margin-top: 0; }
-  .cat-header__desc { color: var(--color-text-muted); font-size: 1.05rem; max-width: 52ch; }
-
-  .article-list { display: flex; flex-direction: column; gap: 1.1rem; padding: 1.5rem 0 3.5rem; }
+  .list { padding-top: 2rem; padding-bottom: 1rem; }
+  .empty { color: var(--color-text-muted); }
+  .grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.4rem; }
+  .cat-guides { margin-top: 3rem; padding-top: 1.5rem; border-top: 1px solid var(--color-border); }
+  .cat-guides__label { margin: 0 0 0.8rem; font-family: var(--font-display); font-weight: 700; font-size: 1.15rem; }
+  .cat-guides__list { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; gap: 0.6rem; }
+  .cat-guides__list a {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5em;
+    min-height: 44px;
+    padding: 0.5rem 1rem;
+    border: 1px solid var(--color-border-strong);
+    border-radius: var(--radius);
+    background: var(--color-surface);
+    color: var(--color-text);
+    font-family: var(--font-ui);
+    font-weight: 600;
+    font-size: 0.92rem;
+    text-decoration: none;
+  }
+  .cat-guides__list a :global(svg) { color: var(--color-accent); }
+  .cat-guides__list a:hover { border-color: var(--color-accent); color: var(--color-accent); }
+  @media (max-width: 1000px) { .grid { grid-template-columns: repeat(2, 1fr); } }
+  @media (max-width: 640px) { .grid { grid-template-columns: 1fr; } }
 </style>

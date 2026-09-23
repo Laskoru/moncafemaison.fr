@@ -1,13 +1,17 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
+import PageHead from '../components/PageHead.astro';
 import { siteConfig } from '../siteConfig';
 ---
 
 <BaseLayout title="Mentions légales" description={`Mentions légales du site ${siteConfig.name}.`}>
+  <PageHead
+    title="Mentions légales"
+    crumbs={[{ label: 'Accueil', href: '/' }, { label: 'Mentions légales' }]}
+    count="Dernière mise à jour : 22 septembre 2026"
+    width="narrow"
+  />
   <section class="container legal">
-    <h1>Mentions légales</h1>
-    <p class="legal__updated">Dernière mise à jour : 12 septembre 2026</p>
-
     <h2>Éditeur du site</h2>
     <p>
       Le site {siteConfig.name} est édité par <strong>Hugo B.</strong>, à titre non professionnel.
@@ -37,8 +41,8 @@ import { siteConfig } from '../siteConfig';
     <p>
       {siteConfig.name} participe au Programme Partenaires d'Amazon EU, un programme d'affiliation conçu
       pour permettre à des sites de percevoir une rémunération grâce à la création de liens vers Amazon.fr.
-      Certains liens présents sur ce site sont des liens affiliés : si vous effectuez un achat après avoir
-      cliqué sur l'un de ces liens, le site peut percevoir une commission, sans surcoût pour vous.
+      Certains liens présents sur ce site sont des liens affiliés : si tu effectues un achat après avoir
+      cliqué sur l'un de ces liens, le site peut percevoir une commission, sans surcoût pour toi.
     </p>
 
     <h2>Propriété intellectuelle</h2>
@@ -66,7 +70,7 @@ import { siteConfig } from '../siteConfig';
       la seule responsabilité de l'utilisateur.
     </p>
 
-    <h2>Données personnelles &amp; cookies</h2>
+    <h2>Données personnelles et cookies</h2>
     <p>
       Le traitement des données personnelles et l'usage des cookies sont détaillés dans notre
       <a href="/politique-de-confidentialite/">politique de confidentialité</a>.
@@ -74,14 +78,14 @@ import { siteConfig } from '../siteConfig';
 
     <h2>Contact</h2>
     <p>
-      Pour toute question relative au site ou à ces mentions légales, vous pouvez écrire à
+      Pour toute question relative au site ou à ces mentions légales, tu peux écrire à
       <a href={`mailto:${siteConfig.contactEmail}`}>{siteConfig.contactEmail}</a>.
     </p>
   </section>
 </BaseLayout>
 
 <style>
-  .legal { padding: 2.5rem 0 3.5rem; max-width: 760px; }
-  .legal h1 { margin-top: 0; }
-  .legal__updated { color: var(--color-text-muted); font-size: 0.88rem; margin-top: -0.3rem; }
+  .legal { padding-top: 1.5rem; padding-bottom: 1rem; }
+  .legal h2 { font-size: 1.3rem; margin: 2rem 0 0.5rem; }
+  .legal p { max-width: var(--measure); line-height: 1.65; }
 </style>

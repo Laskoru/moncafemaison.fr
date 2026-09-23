@@ -1,57 +1,67 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
+import PageHead from '../components/PageHead.astro';
 import { siteConfig } from '../siteConfig';
 ---
 
 <BaseLayout title="Politique de confidentialité" description="Politique de confidentialité, cookies et mesure d'audience du site.">
-  <section class="container">
-    <h1>Politique de confidentialité</h1>
-
+  <PageHead
+    title="Politique de confidentialité"
+    crumbs={[{ label: 'Accueil', href: '/' }, { label: 'Politique de confidentialité' }]}
+    width="narrow"
+  />
+  <section class="container legal">
     <h2>Programme Partenaires Amazon</h2>
     <p>
       {siteConfig.name} participe au Programme Partenaires Amazon EU, un programme d'affiliation
       permettant de percevoir une commission sur les achats remplissant les conditions requises, effectués
-      via les liens présents sur ce site vers Amazon.fr. Cliquer sur un lien Amazon vous redirige vers leur
+      via les liens présents sur ce site vers Amazon.fr. Cliquer sur un lien Amazon te redirige vers leur
       site, où Amazon applique sa propre politique de cookies et de confidentialité. L'affiliation repose
       uniquement sur un identifiant ajouté à l'adresse (URL) du lien : elle <strong>ne nécessite aucun cookie
-      déposé par notre site</strong> et fonctionne que vous acceptiez ou non la mesure d'audience.
+      déposé par notre site</strong> et fonctionne que tu acceptes ou non la mesure d'audience.
     </p>
 
     <h2>Cookies et consentement</h2>
     <p>
-      Lors de votre première visite, un bandeau vous permet d'<strong>accepter ou de refuser</strong> les
-      cookies de mesure d'audience. Tant que vous n'avez pas accepté, <strong>aucun cookie de mesure n'est
+      Lors de ta première visite, un bandeau te permet d'<strong>accepter ou de refuser</strong> les
+      cookies de mesure d'audience. Tant que tu n'as pas accepté, <strong>aucun cookie de mesure n'est
       déposé</strong>. Seuls restent les éléments strictement nécessaires au fonctionnement du site et la
-      mémorisation de votre choix de consentement, qui ne requièrent pas d'accord.
+      mémorisation de ton choix de consentement, qui ne requièrent pas d'accord.
     </p>
     <p>
-      Refuser n'altère en rien votre navigation : le site reste entièrement accessible. Votre choix est
-      conservé dans votre navigateur ; pour le modifier, effacez les données de ce site dans votre
+      Refuser n'altère en rien ta navigation : le site reste entièrement accessible. Ton choix est
+      conservé dans ton navigateur ; pour le modifier, efface les données de ce site dans ton
       navigateur, ce qui réaffichera le bandeau.
     </p>
 
     <h2>Mesure d'audience (Google Analytics)</h2>
     <p>
-      Avec votre consentement, ce site utilise <strong>Google Analytics 4</strong> (fourni par Google
+      Avec ton consentement, ce site utilise <strong>Google Analytics 4</strong> (fourni par Google
       Ireland Limited) pour mesurer son audience de façon agrégée : nombre de visiteurs, pages consultées,
       provenance (moteur de recherche, réseau social, lien direct), type d'appareil et durée de visite. Ces
       statistiques nous servent uniquement à améliorer le contenu du site. Nous mesurons aussi, à des fins
-      statistiques internes, les clics vers Amazon — pour savoir quels articles sont utiles —
-      <strong>sans jamais collecter de données bancaires ni d'informations de votre compte Amazon</strong>.
+      statistiques internes, les clics vers Amazon, pour savoir quels articles sont utiles,
+      <strong>sans jamais collecter de données bancaires ni d'informations de ton compte Amazon</strong>.
     </p>
     <p>
       Google agit en tant que sous-traitant et peut traiter certaines de ces données depuis ses serveurs.
-      Nous ne vendons ni ne cédons vos données à des tiers. En cas de refus, aucune de ces mesures n'est
+      Nous ne vendons ni ne cédons tes données à des tiers. En cas de refus, aucune de ces mesures n'est
       effectuée.
     </p>
 
-    <h2>Vos droits</h2>
+    <h2>Tes droits</h2>
     <p>
-      Conformément au Règlement général sur la protection des données (RGPD), vous disposez d'un droit
-      d'accès, de rectification, de suppression et d'opposition concernant les données vous concernant.
-      Pour l'exercer, écrivez à
-      <a href={`mailto:${siteConfig.contactEmail}`}>{siteConfig.contactEmail}</a>. Vous pouvez également
+      Conformément au Règlement général sur la protection des données (RGPD), tu disposes d'un droit
+      d'accès, de rectification, de suppression et d'opposition concernant les données qui te concernent.
+      Pour l'exercer, écris à
+      <a href={`mailto:${siteConfig.contactEmail}`}>{siteConfig.contactEmail}</a>. Tu peux également
       introduire une réclamation auprès de la CNIL (<a href="https://www.cnil.fr" target="_blank" rel="noopener">www.cnil.fr</a>).
     </p>
   </section>
 </BaseLayout>
+
+<style>
+  .legal { padding-top: 1.5rem; padding-bottom: 1rem; }
+  .legal h2 { font-size: 1.3rem; margin: 2rem 0 0.5rem; }
+  .legal p { max-width: var(--measure); line-height: 1.65; }
+</style>

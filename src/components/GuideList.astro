@@ -1,0 +1,49 @@
+---
+// Liste éditoriale des guides « par besoin » : une ligne par guide, séparée par
+// un filet. Utilisée sur l'accueil (« Par où commencer ») et la page des guides.
+import Icon from './Icon.astro';
+
+interface Item { slug: string; icon: string; title: string; description: string; count: number }
+interface Props { items: Item[] }
+const { items } = Astro.props;
+---
+
+<ol class="rows glist">
+  {items.map((g) => (
+    <li class="glist__item">
+      <span class="glist__icon"><Icon name={g.slug} size={26} /></span>
+      <div class="glist__body">
+        <h3 class="glist__title"><a class="stretched-link" href={`/guides/${g.slug}/`}>{g.title}</a></h3>
+        <p class="glist__desc">{g.description}</p>
+        <p class="meta glist__count">{g.count} comparatif{g.count > 1 ? 's' : ''}</p>
+      </div>
+      <span class="glist__arrow"><Icon name="arrow-right" size={20} /></span>
+    </li>
+  ))}
+</ol>
+
+<style>
+  .glist__item {
+    position: relative;
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    align-items: center;
+    gap: 1.25rem;
+    padding: 1.25rem 0.25rem;
+    transition: background-color 0.15s ease;
+  }
+  .glist__item:hover { background: var(--color-surface); }
+  .glist__icon { display: inline-flex; color: var(--color-accent); }
+  .glist__body { min-width: 0; }
+  .glist__title { margin: 0 0 0.25rem; font-size: 1.3rem; }
+  .glist__title a { color: var(--color-text); text-decoration: none; }
+  .glist__item:hover .glist__title a { color: var(--color-accent); }
+  .glist__desc { margin: 0 0 0.35rem; color: var(--color-text-muted); font-size: 0.98rem; line-height: 1.5; max-width: 60ch; }
+  .glist__count { margin: 0; }
+  .glist__arrow { display: inline-flex; color: var(--color-text-faint); transition: transform 0.2s var(--ease-out), color 0.15s ease; }
+  .glist__item:hover .glist__arrow { transform: translateX(4px); color: var(--color-accent); }
+  @media (max-width: 520px) {
+    .glist__item { grid-template-columns: auto 1fr; }
+    .glist__arrow { display: none; }
+  }
+</style>

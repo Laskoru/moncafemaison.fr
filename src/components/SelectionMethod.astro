@@ -1,36 +1,50 @@
 ---
 import Icon from './Icon.astro';
-// Bloc « Comment nous choisissons » : transparence sur la méthode de sélection.
-const criteria = [
-  { icon: "coffee", title: "Le bon usage", text: "On part de votre café et de votre budget, pas de la liste des best-sellers." },
-  { icon: "wrench", title: "Des critères concrets", text: "Mouture, pression, entretien : on regarde ce qui change vraiment la tasse." },
-  { icon: "star", title: "Les avis réels, pas gonflés", text: "Les notes affichées sont les vraies notes Amazon, jamais retouchées." },
-  { icon: "scale", title: "Indépendance & franchise", text: "Aucune marque ne paie pour figurer. Quand un produit a des limites, on les écrit." },
-];
+// Bloc « Comment on choisit » : transparence sur la méthode de sélection, en un
+// seul bloc éditorial (titre, quatre règles en liste compacte, signature).
+// `wide` : version accueil, sur toute la largeur du conteneur (titre et signature à
+// gauche, règles à droite) ; sans `wide`, colonne de lecture (fin d'article).
+interface Props { wide?: boolean }
+const { wide = false } = Astro.props;
 ---
 
-<aside class="selmethod" aria-label="Comment nous choisissons">
-  <p class="selmethod__eyebrow">Comment nous choisissons</p>
-  <ul class="selmethod__grid">
-    {criteria.map((c) => (
-      <li class="selmethod__item">
-        <span class="selmethod__icon" aria-hidden="true"><Icon name={c.icon} size={22} /></span>
-        <div>
-          <p class="selmethod__title">{c.title}</p>
-          <p class="selmethod__text">{c.text}</p>
-        </div>
-      </li>
-    ))}
+<aside class:list={['selm', { 'selm--wide': wide }]} aria-labelledby="selm-title">
+  <div class="selm__head">
+    <h2 id="selm-title" class="selm__title">Comment on choisit</h2>
+    <p class="selm__lede">Quatre règles, valables pour chaque comparatif du site.</p>
+    <p class="selm__more">
+      <a href="/a-propos/">Notre méthode en détail <Icon name="arrow-right" size={15} /></a>
+      <span>Rédigé et tenu à jour par <a href="/auteur/">Hugo B.</a></span>
+    </p>
+  </div>
+  <ul class="selm__list">
+    <li><strong>Le bon usage d'abord.</strong> On part de ta façon de boire le café et de ton budget, pas de la liste des best-sellers.</li>
+    <li><strong>Des critères concrets.</strong> Mouture, pression, entretien : on regarde ce qui change vraiment la tasse.</li>
+    <li><strong>Des avis réels, jamais gonflés.</strong> Les notes affichées sont les vraies notes Amazon, jamais retouchées.</li>
+    <li><strong>Indépendance et franchise.</strong> Aucune marque ne paie pour figurer ; quand un produit a des limites, on les écrit.</li>
   </ul>
 </aside>
 
 <style>
-  .selmethod { margin: 2.4rem 0 0.6rem; padding: 1.3rem 1.5rem; border-radius: var(--radius-lg); background: var(--color-bg-soft); border: 1px solid var(--color-border); }
-  .selmethod__eyebrow { margin: 0 0 0.9rem; font-family: var(--font-display); font-size: 0.82rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.04em; color: var(--color-accent); }
-  .selmethod__grid { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: 1fr 1fr; gap: 1rem 1.4rem; }
-  .selmethod__item { display: flex; gap: 0.7rem; align-items: flex-start; }
-  .selmethod__icon { display: inline-flex; align-items: center; justify-content: center; color: var(--color-accent); font-size: 1.25rem; line-height: 1.3; flex: none; }
-  .selmethod__title { margin: 0 0 0.15rem; font-weight: 700; font-size: 0.95rem; color: var(--color-text); }
-  .selmethod__text { margin: 0; font-size: 0.88rem; line-height: 1.5; color: var(--color-text-muted); }
-  @media (max-width: 560px) { .selmethod__grid { grid-template-columns: 1fr; } }
+  .selm { margin: 2.6rem 0 0; padding-top: 1.5rem; border-top: 1px solid var(--color-border); max-width: var(--measure); display: flex; flex-direction: column; }
+  .selm__head { display: contents; }
+  .selm__title { margin: 0 0 0.4rem; font-size: 1.55rem; }
+  .selm__lede { margin: 0 0 0.9rem; color: var(--color-text-muted); }
+  /* Règles sans ordre : puces cuivre, attaque en gras */
+  .selm__list { order: 3; margin: 0 0 1rem; padding-left: 1.1em; display: flex; flex-direction: column; gap: 0.45em; line-height: 1.55; }
+  .selm__list li { padding-left: 0.2em; }
+  .selm__list li::marker { color: var(--color-accent); }
+  .selm__list strong { font-weight: 600; color: var(--color-text); }
+  .selm__more { order: 4; margin: 0; display: flex; flex-wrap: wrap; align-items: center; gap: 0.3rem 1.4rem; font-family: var(--font-ui); font-weight: 500; font-size: 0.92rem; color: var(--color-text-faint); }
+  .selm__more a { display: inline-flex; align-items: center; gap: 0.3em; min-height: 32px; font-weight: 600; text-decoration: none; }
+  .selm__more a:hover { text-decoration: underline; }
+
+  /* Accueil : le filet et le bloc occupent tout le conteneur */
+  .selm--wide { max-width: none; }
+  @media (min-width: 900px) {
+    .selm--wide { display: grid; grid-template-columns: minmax(0, 5fr) minmax(0, 7fr); column-gap: clamp(2rem, 5vw, 4.5rem); align-items: start; }
+    .selm--wide .selm__head { display: block; }
+    .selm--wide .selm__more { margin-top: 1.1rem; flex-direction: column; align-items: flex-start; gap: 0.2rem; }
+    .selm--wide .selm__list { margin: 0.35rem 0 0; max-width: var(--measure); }
+  }
 </style>

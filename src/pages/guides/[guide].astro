@@ -1,8 +1,7 @@
 ---
-import Icon from '../../components/Icon.astro';
 import { getCollection } from 'astro:content';
 import BaseLayout from '../../layouts/BaseLayout.astro';
-import Breadcrumbs from '../../components/Breadcrumbs.astro';
+import PageHead from '../../components/PageHead.astro';
 import ArticleCard from '../../components/ArticleCard.astro';
 import { guides } from '../../guides';
 
@@ -19,27 +18,29 @@ const articles = guide.articles.map((slug) => bySlug.get(slug)).filter((a) => a 
 ---
 
 <BaseLayout title={guide.title} description={guide.description} noindex={articles.length === 0}>
-  <section class="container guide">
-    <Breadcrumbs items={[{ label: 'Accueil', href: '/' }, { label: 'Guides', href: '/guides/' }, { label: guide.title }]} />
-    <p class="guide__icon"><Icon name={guide.slug} size={40} /></p>
-    <h1>{guide.title}</h1>
+  <PageHead
+    title={guide.title}
+    crumbs={[{ label: 'Accueil', href: '/' }, { label: 'Guides', href: '/guides/' }, { label: guide.title }]}
+    count={`${articles.length} comparatif${articles.length > 1 ? 's' : ''}, dans l’ordre conseillé`}
+    width="narrow"
+  >
     <div class="guide__intro">
       {guide.intro.map((p) => <p>{p}</p>)}
     </div>
+  </PageHead>
 
+  <section class="container guide">
     <h2 class="guide__section">Les comparatifs de ce guide</h2>
-    <div class="article-list">
-      {articles.map((article) => <ArticleCard article={article} />)}
-    </div>
+    <ol class="rows">
+      {articles.map((article, i) => <li><ArticleCard article={article} variant="row" index={i + 1} eager={i < 2} /></li>)}
+    </ol>
   </section>
 </BaseLayout>
 
 <style>
-  .guide { padding: 2.5rem 0 3.5rem; }
-  .guide__icon { display: inline-flex; align-items: center; justify-content: center; color: var(--color-accent); font-size: 2.4rem; margin: 0 0 0.4rem; }
-  .guide h1 { margin-top: 0; }
-  .guide__intro { max-width: 68ch; }
-  .guide__intro p { color: var(--color-text-muted); line-height: 1.7; }
-  .guide__section { margin-top: 2.5rem; }
-  .article-list { display: flex; flex-direction: column; gap: 1.1rem; margin-top: 1.2rem; }
+  .guide__intro { margin-top: 1rem; max-width: 62ch; }
+  .guide__intro p { color: var(--color-text-muted); line-height: 1.65; font-size: 1.05rem; }
+  .guide__intro p:last-child { margin-bottom: 0; }
+  .guide { padding-top: 1.5rem; padding-bottom: 1rem; }
+  .guide__section { margin: 0.5rem 0 0.75rem; font-size: 1.45rem; }
 </style>

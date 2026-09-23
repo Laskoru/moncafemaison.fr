@@ -3,111 +3,157 @@ import type { CollectionEntry } from 'astro:content';
 import { siteConfig } from '../siteConfig';
 import { resolveProductImages } from '../lib/products';
 import { resolveCoverImage, coverSrcSet } from '../lib/covers';
+import { categories } from '../categories';
+import Icon from './Icon.astro';
 
 interface Props {
   article: CollectionEntry<'articles'>;
+  /** « grid » : carte photo 16:9 (grilles) ; « row » : ligne éditoriale à filets (listes, articles liés). */
+  variant?: 'grid' | 'row';
+  /** Numéro affiché dans une liste ordonnée (guides : l'ordre est un parcours). */
+  index?: number;
+  eager?: boolean;
 }
 
-const { article } = Astro.props;
-// Carte éditoriale : on privilégie l'image de couverture (plus « magazine »),
-// et on retombe sur les miniatures produit seulement si aucune couverture.
+const { article, variant = 'grid', index, eager = false } = Astro.props;
+// Carte éditoriale : la couverture d'abord, les miniatures produit seulement à défaut.
 const cover = resolveCoverImage(article.slug, article.data.coverImage);
-const thumbs = cover ? [] : resolveProductImages(article.data.products, 2);
+const thumb = cover ? null : resolveProductImages(article.data.products, 1)[0] ?? null;
+const cat = categories.find((c) => c.slug === article.data.category);
 
 const dateFormatter = new Intl.DateTimeFormat(siteConfig.locale.replace('_', '-'), {
   year: 'numeric',
-  month: 'long',
+  month: 'short',
   day: 'numeric',
 });
 const readingMinutes = Math.max(1, Math.round(article.body.trim().split(/\s+/).length / 200));
+const href = `/articles/${article.slug}/`;
+const isoDate = article.data.pubDate.toISOString().slice(0, 10);
 ---
 
-<article class:list={['article-card', 'card', 'card--hover', { 'article-card--cover': cover }]}>
-  {cover && (
-    <a class="article-card__cover" href={`/articles/${article.slug}/`} tabindex="-1" aria-hidden="true">
-      <img src={cover} srcset={coverSrcSet(cover)} sizes="(max-width: 600px) 100vw, 240px" alt="" loading="lazy" width="220" height="150" onerror="this.closest('.article-card__cover').remove()" />
+{variant === 'row' ? (
+  <article class:list={['row', { 'row--numbered': typeof index === 'number' }]}>
+    {typeof index === 'number' && <span class="row__num" aria-hidden="true">{index}</span>}
+    <a class="row__media" href={href} tabindex="-1" aria-hidden="true">
+      {cover ? (
+        <img src={cover} srcset={coverSrcSet(cover)} sizes="(max-width: 600px) 100vw, 240px" alt="" loading={eager ? 'eager' : 'lazy'} decoding="async" width="480" height="270" />
+      ) : thumb ? (
+        <img class="row__thumb" src={thumb} alt="" loading="lazy" decoding="async" width="480" height="270" />
+      ) : (
+        <span class="row__ph"><Icon name={cat?.slug ?? 'cup'} size={32} /></span>
+      )}
     </a>
-  )}
-  <div class="article-card__body">
-    <p class="eyebrow">{dateFormatter.format(article.data.pubDate)} · {readingMinutes} min de lecture</p>
-    <h3><a class="stretched-link" href={`/articles/${article.slug}/`}>{article.data.title}</a></h3>
-    <p class="article-card__desc">{article.data.description}</p>
-  </div>
-  {thumbs.length > 0 && (
-    <div class="article-card__thumbs">
-      {thumbs.map((src) => (
-        <img class="article-card__thumb" src={src} alt="" loading="lazy" onerror="this.remove()" />
-      ))}
+    <div class="row__body">
+      <h3 class="row__title"><a class="stretched-link" href={href}>{article.data.title}</a></h3>
+      <p class="row__desc">{article.data.description}</p>
+      <p class="meta meta-row row__meta">
+        {cat && <span class="cat-label">{cat.label}</span>}
+        <time datetime={isoDate}>{dateFormatter.format(article.data.pubDate)}</time>
+        <span>{readingMinutes} min</span>
+      </p>
     </div>
-  )}
-</article>
+  </article>
+) : (
+  <article class="ac">
+    <a class="ac__media" href={href} tabindex="-1" aria-hidden="true">
+      {cover ? (
+        <img src={cover} srcset={coverSrcSet(cover)} sizes="(max-width: 640px) 100vw, (max-width: 1000px) 50vw, 380px" alt="" loading={eager ? 'eager' : 'lazy'} decoding="async" width="1600" height="900" />
+      ) : thumb ? (
+        <img class="ac__thumb" src={thumb} alt="" loading="lazy" decoding="async" width="1600" height="900" />
+      ) : (
+        <span class="ac__ph"><Icon name={cat?.slug ?? 'cup'} size={40} /></span>
+      )}
+    </a>
+    <div class="ac__body">
+      <h3 class="ac__title"><a class="stretched-link" href={href}>{article.data.title}</a></h3>
+      <p class="meta meta-row ac__meta">
+        {cat && <span class="cat-label">{cat.label}</span>}
+        <time datetime={isoDate}>{dateFormatter.format(article.data.pubDate)}</time>
+      </p>
+    </div>
+  </article>
+)}
 
 <style>
-  .article-card {
+  /* ---- Carte photo (grilles) ---- */
+  .ac {
+    position: relative;
     display: flex;
+    flex-direction: column;
+    height: 100%;
+    background: var(--color-surface);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius);
+    box-shadow: var(--shadow-card);
+    overflow: hidden;
+    transition: box-shadow 0.2s var(--ease-out), border-color 0.2s ease;
+  }
+  .ac:hover { box-shadow: var(--shadow-lift); border-color: var(--color-border-strong); }
+  .ac__media {
+    display: block;
+    aspect-ratio: 16 / 9;
+    background: var(--color-bg-soft);
+    overflow: hidden;
+  }
+  .ac__media img { width: 100%; height: 100%; object-fit: cover; transition: transform 0.6s var(--ease-out); }
+  .ac:hover .ac__media img { transform: scale(1.03); }
+  .ac__media .ac__thumb { object-fit: contain; padding: 1.25rem; background: #fff; }
+  .ac__ph { display: flex; align-items: center; justify-content: center; height: 100%; color: var(--color-accent); }
+  .ac__body { display: flex; flex-direction: column; gap: 0.5rem; padding: 1rem 1.1rem 1.15rem; flex: 1; }
+  .ac__title { margin: 0; font-size: 1.15rem; line-height: 1.25; }
+  .ac__title a { color: var(--color-text); text-decoration: none; }
+  .ac:hover .ac__title a { color: var(--color-accent); }
+  .ac__meta { margin-top: auto; margin-bottom: 0; }
+
+  /* ---- Ligne éditoriale (listes) ---- */
+  .row {
+    position: relative;
+    display: grid;
+    grid-template-columns: 240px 1fr;
     align-items: center;
     gap: 1.4rem;
-    padding: 1.25rem 1.4rem;
-    overflow: hidden;
+    padding: 1.25rem 0;
   }
-  /* Variante « avec couverture » : l'image pleine hauteur à gauche, sans padding à gauche */
-  .article-card--cover { padding-left: 0; }
-  .article-card__cover {
-    flex-shrink: 0;
-    align-self: stretch;
-    width: 168px;
-    overflow: hidden;
+  .row--numbered { grid-template-columns: auto 240px 1fr; }
+  .row__num {
+    font-family: var(--font-ui);
+    font-weight: 600;
+    font-size: 1rem;
+    color: var(--color-text-faint);
+    min-width: 1.5ch;
+    text-align: right;
+    font-variant-numeric: tabular-nums;
+  }
+  .row__media {
     display: block;
+    aspect-ratio: 16 / 9;
+    border-radius: var(--radius);
+    overflow: hidden;
+    background: var(--color-bg-soft);
+    border: 1px solid var(--color-border);
   }
-  .article-card__cover img {
-    width: 100%;
-    height: 100%;
-    min-height: 118px;
-    object-fit: cover;
-    display: block;
-    transition: transform 0.5s ease;
-  }
-  .article-card:hover .article-card__cover img { transform: scale(1.06); }
-  .article-card__body { flex: 1; min-width: 0; }
-  .article-card--cover .article-card__body { padding: 0.1rem 0; }
-  .article-card h3 {
-    margin: 0.4rem 0 0.45rem;
-    font-size: 1.25rem;
-    line-height: 1.25;
-  }
-  .article-card h3 a { color: var(--color-text); text-decoration: none; }
-  .article-card:hover h3 a { color: var(--color-accent); }
-  .article-card__desc {
+  .row__media img { width: 100%; height: 100%; object-fit: cover; }
+  .row__media .row__thumb { object-fit: contain; padding: 0.75rem; background: #fff; }
+  .row__ph { display: flex; align-items: center; justify-content: center; height: 100%; color: var(--color-accent); }
+  .row__body { min-width: 0; }
+  .row__title { margin: 0 0 0.35rem; font-size: 1.25rem; line-height: 1.22; }
+  .row__title a { color: var(--color-text); text-decoration: none; }
+  .row:hover .row__title a { color: var(--color-accent); }
+  .row__desc {
+    margin: 0 0 0.5rem;
     color: var(--color-text-muted);
-    margin: 0;
-    font-size: 0.94rem;
-    line-height: 1.55;
+    font-size: 0.98rem;
+    line-height: 1.5;
     display: -webkit-box;
     -webkit-line-clamp: 2;
     -webkit-box-orient: vertical;
     overflow: hidden;
   }
+  .row__meta { margin-bottom: 0; }
 
-  /* Miniatures produits (repli si pas de couverture) */
-  .article-card__thumbs { display: flex; gap: 0.5rem; flex-shrink: 0; }
-  .article-card__thumb {
-    width: 82px;
-    height: 82px;
-    object-fit: contain;
-    background: #fff;
-    border: 1px solid var(--color-border);
-    border-radius: var(--radius);
-    padding: 5px;
-  }
-
-  @media (max-width: 560px) {
-    .article-card { flex-direction: column; align-items: stretch; gap: 1rem; padding: 0; }
-    .article-card__cover { width: 100%; height: 180px; align-self: auto; }
-    .article-card__cover img { min-height: 0; }
-    .article-card__body { padding: 0 1.2rem; }
-    .article-card--cover .article-card__body { padding: 0 1.2rem 0.2rem; }
-    .article-card:not(.article-card--cover) .article-card__body { padding-top: 1.2rem; }
-    .article-card__thumbs { gap: 0.6rem; padding: 0 1.2rem 1.2rem; }
-    .article-card__thumb { flex: 1; width: auto; height: 104px; }
+  @media (max-width: 640px) {
+    .row, .row--numbered { grid-template-columns: 1fr; gap: 0.8rem; }
+    .row__num { display: none; }
+    .row__desc { -webkit-line-clamp: 3; }
   }
 </style>

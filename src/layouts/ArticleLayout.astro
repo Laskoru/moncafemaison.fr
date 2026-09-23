@@ -9,6 +9,7 @@ import ArticleCard from '../components/ArticleCard.astro';
 import ShareButtons from '../components/ShareButtons.astro';
 import AuthorBox from '../components/AuthorBox.astro';
 import SelectionMethod from '../components/SelectionMethod.astro';
+import Icon from '../components/Icon.astro';
 import { siteConfig } from '../siteConfig';
 import { categories, type CategorySlug } from '../categories';
 import { isAvailable, searchUrl } from '../lib/availability';
@@ -31,6 +32,7 @@ interface Props {
   coverImage?: string;
   coverAlt?: string;
   category: CategorySlug;
+  keywords?: string[];
   products?: { asin: string; title: string; image?: string; blurb?: string; pros?: string[]; cons?: string[]; award?: string; search?: string }[];
   headings?: Heading[];
   readingMinutes?: number;
@@ -86,7 +88,8 @@ const comparisonColumnUnavailable = comparison?.columns.map((_, i) => i > 0 && p
 const searchTopic = keywords[0];
 const midArticleSearchUrl = searchTopic ? searchUrl(searchTopic) : null;
 
-const tocHeadings = headings.filter((h) => h.depth === 2 || h.depth === 3);
+// Bandeau de sommaire collant : les chapitres (h2) uniquement, lisibles d'un coup d'œil.
+const tocHeadings = headings.filter((h) => h.depth === 2);
 const categoryInfo = categories.find((c) => c.slug === category);
 
 const relatedArticles = (
@@ -151,335 +154,428 @@ const jsonLdArticle = [articleSchema, ...(faqSchema ? [faqSchema] : [])];
   jsonLd={jsonLdArticle}
   article={{ publishedTime: pubDate.toISOString(), modifiedTime: (updatedDate ?? pubDate).toISOString(), author: author ?? siteConfig.author, section: categoryInfo?.label, tags: keywords }}
 >
-  <article class="container">
-    <Breadcrumbs items={breadcrumbItems} />
+  <article class="art">
+    <div class="container">
+      <Breadcrumbs items={breadcrumbItems} />
 
-    <header class="article-header">
-      <p class="eyebrow">
-        {dateFormatter.format(pubDate)}
-        {readingMinutes && <> · {readingMinutes} min de lecture</>}
-      </p>
-      <h1>{title}</h1>
-      <p class="article-meta">
-        {author ?? siteConfig.author}
-        {updatedDate && <> · mis à jour le {dateFormatter.format(updatedDate)}</>}
-      </p>
-    </header>
+      <header class="art__head">
+        <h1 class="art__title">{title}</h1>
+        <p class="meta meta-row art__meta">
+          <span>Par <a href="/auteur/">{author ?? siteConfig.author}</a></span>
+          <time datetime={pubDate.toISOString().slice(0, 10)}>{dateFormatter.format(pubDate)}</time>
+          {updatedDate && <span>Mis à jour le <time datetime={updatedDate.toISOString().slice(0, 10)}>{dateFormatter.format(updatedDate)}</time></span>}
+          {readingMinutes && <span>{readingMinutes} min de lecture</span>}
+        </p>
+      </header>
 
-    {coverImage && (
-      <img
-        src={coverImage}
-        srcset={coverSrcSet(coverImage)}
-        sizes="(max-width: 760px) 100vw, 680px"
-        alt={coverAlt ?? ''}
-        class="article-cover"
-        width="1600"
-        height="800"
-        fetchpriority="high"
-      />
-    )}
+      {coverImage && (
+        <figure class="art__cover">
+          <img
+            src={coverImage}
+            srcset={coverSrcSet(coverImage)}
+            sizes="(max-width: 760px) 100vw, 680px"
+            alt={coverAlt ?? ''}
+            width="1600"
+            height="900"
+            fetchpriority="high"
+          />
+        </figure>
+      )}
 
-    {hasAffiliateLinks && <AffiliateDisclosure />}
+      {hasAffiliateLinks && <AffiliateDisclosure />}
+    </div>
 
     {tocHeadings.length > 1 && (
-      <nav class="toc" aria-label="Sommaire">
-        <p class="toc__title">Sommaire</p>
-        <ol>
-          {tocHeadings.map((h) => (
-            <li data-depth={h.depth}><a href={`#${h.slug}`}>{h.text}</a></li>
-          ))}
-        </ol>
+      <nav class="toc" id="toc" aria-label="Sommaire">
+        <div class="container toc__in">
+          <span class="toc__label"><Icon name="list" size={16} /> Sommaire</span>
+          <ol class="toc__list">
+            {tocHeadings.map((h) => (
+              <li><a href={`#${h.slug}`} title={h.text}>{h.text}</a></li>
+            ))}
+          </ol>
+        </div>
       </nav>
     )}
 
-    {topPick && (
-      <aside class="top-pick" aria-label="Notre choix">
-        <p class="top-pick__label"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><circle cx="12" cy="9" r="6"/><path d="m8.5 14.5-1.5 7 5-2.5 5 2.5-1.5-7"/></svg> Notre choix</p>
-        <div class="top-pick__body">
-          <div class="top-pick__text">
-            <p class="top-pick__name">{topPick.name}</p>
-            {topPick.blurb && <p class="top-pick__blurb">{topPick.blurb}</p>}
+    <div class="container">
+      {topPick && (
+        <aside class="pick" aria-label="Notre choix">
+          <div class="pick__main">
+            <p class="pick__name">{topPick.name}</p>
+            {topPick.blurb && <p class="pick__blurb">{topPick.blurb}</p>}
           </div>
-          <a class="cta-btn" href={topPick.url} target="_blank" rel="nofollow sponsored noopener">
-            {topPick.ctaLabel ?? 'Voir le prix sur Amazon'} <span aria-hidden="true">→</span>
+          <div class="pick__side">
+            <p class="pick__flag"><Icon name="award" size={15} /> Notre choix</p>
+            <a class="btn btn--primary pick__cta" href={topPick.url} target="_blank" rel="nofollow sponsored noopener">
+              {topPick.ctaLabel ?? 'Voir le prix sur Amazon'} <Icon name="external" size={16} />
+            </a>
+            <p class="pick__disc">Lien partenaire : le site perçoit une commission sur les achats éligibles, sans surcoût pour toi.</p>
+          </div>
+        </aside>
+      )}
+
+      <div class="article-body">
+        <slot />
+      </div>
+
+      {hasAffiliateLinks && midArticleSearchUrl && (
+        <div class="art-search">
+          <span class="art-search__icon"><Icon name="search" size={20} /></span>
+          <div class="art-search__body">
+            <p class="art-search__intro">Envie de comparer toi-même les modèles du moment ?</p>
+            <p class="art-search__sub">Prix, avis et disponibilité en direct sur Amazon.</p>
+          </div>
+          <a class="btn btn--outline art-search__link" href={midArticleSearchUrl} target="_blank" rel="nofollow sponsored noopener">
+            Voir « {searchTopic} » <Icon name="external" size={16} />
           </a>
         </div>
-        <p class="top-pick__disc">Lien partenaire — en tant que Partenaire Amazon, nous percevons une commission sur les achats éligibles.</p>
-      </aside>
-    )}
+      )}
 
-    <div class="article-body">
-      <slot />
-    </div>
-
-    {hasAffiliateLinks && midArticleSearchUrl && (
-      <div class="article-search-cta">
-        <span class="article-search-cta__icon" aria-hidden="true">
-          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <circle cx="11" cy="11" r="7" stroke="currentColor" stroke-width="2" />
-            <path d="M20 20L16.5 16.5" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
-          </svg>
-        </span>
-        <div class="article-search-cta__body">
-          <p class="article-search-cta__intro">Envie de comparer toi-même les modèles du moment ?</p>
-          <p class="article-search-cta__sub">Prix, avis et disponibilité en direct sur Amazon.</p>
-        </div>
-        <a
-          class="btn btn--primary article-search-cta__link"
-          href={midArticleSearchUrl}
-          target="_blank"
-          rel="nofollow sponsored noopener"
-        >
-          Voir « {searchTopic} » →
-        </a>
-      </div>
-    )}
-
-    {comparison && comparison.rows.length > 0 && (
-      <div class="article-comparison">
-        <h2>Comparatif en un coup d'œil</h2>
-        <div class="compare-table-wrap">
-          <table class="compare-table">
-            <thead>
-              <tr>
-                {comparison.columns.map((col, i) => (
-                  <th>
-                    {col}
-                    {comparisonColumnUnavailable?.[i] && <span class="compare-table__tag">épuisé</span>}
-                  </th>
+      {comparison && comparison.rows.length > 0 && (
+        <section class="art-compare">
+          <h2>Comparatif en un coup d'œil</h2>
+          <div class="table-wrap">
+            <table class="table table--stack">
+              <thead>
+                <tr>
+                  {comparison.columns.map((col, i) => (
+                    <th scope="col">
+                      {col}
+                      {comparisonColumnUnavailable?.[i] && <span class="table__tag">épuisé</span>}
+                    </th>
+                  ))}
+                </tr>
+              </thead>
+              <tbody>
+                {comparison.rows.map((row) => (
+                  <tr>{row.map((cell, i) => (i === 0 ? <th scope="row">{cell}</th> : <td data-label={comparison.columns[i]}>{cell}</td>))}</tr>
                 ))}
-              </tr>
-            </thead>
-            <tbody>
-              {comparison.rows.map((row) => (
-                <tr>{row.map((cell, i) => (i === 0 ? <th scope="row">{cell}</th> : <td>{cell}</td>))}</tr>
-              ))}
-            </tbody>
-          </table>
-        </div>
-        {someProductUnavailable && (
-          <p class="compare-table__note">
-            <strong>épuisé</strong> : ce modèle n'est plus en vente chez Amazon. Les caractéristiques
-            restent indicatives ; le bouton sous le produit propose des équivalents disponibles.
+              </tbody>
+            </table>
+          </div>
+          {someProductUnavailable && (
+            <p class="table__note">
+              <strong>épuisé</strong> : ce modèle n'est plus en vente chez Amazon. Les caractéristiques
+              restent indicatives ; le bouton sous le produit propose des équivalents disponibles.
+            </p>
+          )}
+        </section>
+      )}
+
+      {sources.length > 0 && (
+        <section class="art-sources">
+          <h2>Sources et références</h2>
+          <p class="art-sources__intro">
+            Les informations de cet article s'appuient sur des sources publiques et reconnues.
           </p>
-        )}
-      </div>
-    )}
+          <ul class="art-sources__list">
+            {sources.map((s) => (
+              <li><Icon name="external" size={15} /><a href={s.url} target="_blank" rel="noopener">{s.label}</a></li>
+            ))}
+          </ul>
+        </section>
+      )}
 
-    {sources.length > 0 && (
-      <div class="article-sources">
-        <h2>Sources &amp; références</h2>
-        <p class="article-sources__intro">
-          Les informations de cet article s'appuient sur des sources publiques et reconnues.
-        </p>
-        <ul class="article-sources__list">
-          {sources.map((s) => (
-            <li><a href={s.url} target="_blank" rel="noopener">{s.label}</a></li>
+      <ShareButtons url={shareUrl} title={title} image={coverImage} />
+
+      {hasProducts && (
+        <SelectionMethod />
+        <section class="art-products">
+          <h2>{products.length > 1 ? 'Nos recommandations' : 'Notre choix'}</h2>
+          {products.map((p, i) => (
+            <AmazonProduct asin={p.asin} title={p.title} image={p.image} blurb={p.blurb} search={p.search} pros={p.pros} cons={p.cons} award={p.award} fallbackSearch={keywords[0]} featured={i === featuredIndex} hideDefaultAward={products.length === 1} />
           ))}
+        </section>
+      )}
+
+      {faq.length > 0 && (
+        <section class="art-faq">
+          <h2>Questions fréquentes</h2>
+          <div class="art-faq__list">
+            {faq.map((f) => (
+              <details class="art-faq__item">
+                <summary><span>{f.question}</span><Icon name="chevron-down" size={18} /></summary>
+                <p>{f.answer}</p>
+              </details>
+            ))}
+          </div>
+        </section>
+      )}
+
+      <AuthorBox author={author} />
+
+      <aside class="art-tools" aria-label="Outils et guides pratiques">
+        <h2>Outils et guides pratiques</h2>
+        <ul class="art-tools__list">
+          <li><a href="/methodes-cafe/"><Icon name="compass" size={18} /> Quelle méthode de café ?</a></li>
+          <li><a href="/calculateur-dosage-cafe/"><Icon name="calculator" size={18} /> Calculateur de dosage</a></li>
+          <li><a href="/lexique/"><Icon name="book" size={18} /> Lexique du café</a></li>
         </ul>
-      </div>
-    )}
+      </aside>
 
-    <ShareButtons url={shareUrl} title={title} image={coverImage} />
-
-    {hasProducts && (
-      <SelectionMethod />
-      <div class="article-recommendations">
-        <h2>{products.length > 1 ? 'Nos recommandations' : 'Notre choix'}</h2>
-        {products.map((p, i) => (
-          <AmazonProduct asin={p.asin} title={p.title} image={p.image} blurb={p.blurb} search={p.search} pros={p.pros} cons={p.cons} award={p.award} fallbackSearch={keywords[0]} featured={i === featuredIndex} />
-        ))}
-      </div>
-    )}
-
-    {faq.length > 0 && (
-      <div class="article-faq">
-        <h2>Questions fréquentes</h2>
-        {faq.map((f) => (
-          <details class="article-faq__item">
-            <summary>{f.question}</summary>
-            <p>{f.answer}</p>
-          </details>
-        ))}
-      </div>
-    )}
-
-    <AuthorBox author={author} />
-
-    <aside class="article-tools" aria-label="Outils et guides pratiques">
-      <h2>Outils &amp; guides pratiques</h2>
-      <div class="article-tools__list">
-          <a href="/methodes-cafe/">Méthodes d’extraction →</a>
-          <a href="/calculateur-dosage-cafe/">Calculateur de dosage →</a>
-          <a href="/lexique/">Lexique du café →</a>
-      </div>
-    </aside>
-
-    {relatedArticles.length > 0 && (
-      <div class="article-related">
-        <h2>À lire aussi{categoryInfo && <> — {categoryInfo.label}</>}</h2>
-        <div class="article-related__list">
-          {relatedArticles.map((a) => <ArticleCard article={a} />)}
-        </div>
-      </div>
-    )}
+      {relatedArticles.length > 0 && (
+        <section class="art-related">
+          <div class="section-head">
+            <h2>À lire aussi</h2>
+            {categoryInfo && <a class="section-head__link" href={`/categorie/${categoryInfo.slug}/`}>{categoryInfo.label} <Icon name="arrow-right" size={16} /></a>}
+          </div>
+          <ul class="rows">
+            {relatedArticles.map((a) => <li><ArticleCard article={a} variant="row" /></li>)}
+          </ul>
+        </section>
+      )}
+    </div>
   </article>
 </BaseLayout>
 
-<style>
-  .article-header { margin-bottom: 1.5rem; }
-  /* Titre lisible sur mobile : ~30 px sur un téléphone au lieu de 46 px (un titre long prenait tout l'écran). */
-  .article-header h1 { margin-top: 0.4rem; font-size: clamp(1.9rem, 4.2vw + 0.8rem, 2.9rem); line-height: 1.12; }
-  .article-meta {
-    color: var(--color-text-muted);
-    font-size: 0.9rem;
-    margin-top: -0.5rem;
-  }
-  .article-cover {
-    width: 100%;
-    height: auto;
-    aspect-ratio: 16 / 8;
-    object-fit: cover;
-    margin: 1.5rem 0;
-    border-radius: var(--radius-lg);
-  }
-  /* ---- Corps d'article : lecture agréable ---- */
-  .article-body { font-size: 1.07rem; line-height: 1.78; }
-  .article-body :global(p) { margin: 0 0 1.25em; }
-  .article-body :global(> p:first-of-type) { font-size: 1.2rem; line-height: 1.68; color: var(--color-text); }
-  .article-body :global(h2) {
-    margin-top: 2.4em; margin-bottom: 0.55em; scroll-margin-top: 5rem;
-    font-size: 1.55rem; padding-left: 0.7rem;
-    border-left: 4px solid var(--color-accent);
-  }
-  .article-body :global(h3) { margin-top: 1.8em; scroll-margin-top: 5rem; font-size: 1.2rem; color: var(--color-accent); }
-  .article-body :global(a) {
-    color: var(--color-accent); text-decoration: underline;
-    text-underline-offset: 0.18em; text-decoration-thickness: 1.5px;
-  }
-  .article-body :global(a:hover) { text-decoration-thickness: 2.5px; }
-  .article-body :global(strong) { color: var(--color-text); font-weight: 700; }
-  .article-body :global(img) {
-    display: block; width: 100%; height: auto; margin: 1.9rem 0;
-    border-radius: var(--radius-lg); border: 1px solid var(--color-border);
-    box-shadow: var(--shadow-md, 0 18px 44px -16px rgba(0,0,0,.4));
-  }
-  .article-body :global(ul) { list-style: none; padding-left: 0; margin: 0 0 1.4em; display: flex; flex-direction: column; gap: 0.55em; }
-  .article-body :global(ul li) { position: relative; padding-left: 1.6em; }
-  .article-body :global(ul li::before) {
-    content: ''; position: absolute; left: 0.15em; top: 0.62em;
-    width: 0.5em; height: 0.5em; border-radius: 3px; background: var(--color-accent);
-  }
-  .article-body :global(ol) { padding-left: 1.3em; margin: 0 0 1.4em; display: flex; flex-direction: column; gap: 0.55em; }
-  .article-body :global(ol li::marker) { color: var(--color-accent); font-weight: 700; }
-  .article-body :global(blockquote) {
-    margin: 1.9rem 0; padding: 1.1rem 1.35rem; border-radius: var(--radius-lg);
-    background: color-mix(in srgb, var(--color-accent) 9%, var(--color-surface, transparent));
-    border: 1px solid color-mix(in srgb, var(--color-accent) 28%, var(--color-border));
-    border-left: 4px solid var(--color-accent);
-  }
-  .article-body :global(blockquote p) { margin: 0 0 0.5em; }
-  .article-body :global(blockquote p:last-child) { margin-bottom: 0; }
-  .article-body :global(blockquote a) { font-weight: 700; }
-  .article-body :global(table) { width: 100%; border-collapse: collapse; margin: 1.7rem 0; font-size: 0.95rem; display: block; overflow-x: auto; }
-  .article-body :global(th), .article-body :global(td) { text-align: left; padding: 0.7rem 0.85rem; border-bottom: 1px solid var(--color-border); }
-  .article-body :global(th) { color: var(--color-accent); font-family: var(--font-display); white-space: nowrap; }
-  .article-body :global(hr) { border: 0; height: 1px; background: var(--color-border); margin: 2.6rem 0; }
+<script is:inline>
+  // Sommaire collant : chapitre courant souligné, et gardé visible dans la bande.
+  (function () {
+    var toc = document.getElementById('toc');
+    if (!toc || !('IntersectionObserver' in window)) return;
+    var links = Array.prototype.slice.call(toc.querySelectorAll('a[href^="#"]'));
+    var map = new Map();
+    links.forEach(function (a) {
+      var target = document.getElementById(decodeURIComponent(a.getAttribute('href').slice(1)));
+      if (target) map.set(target, a);
+    });
+    var spy = new IntersectionObserver(function (entries) {
+      entries.forEach(function (e) {
+        if (!e.isIntersecting) return;
+        links.forEach(function (l) { l.removeAttribute('aria-current'); });
+        var link = map.get(e.target);
+        if (!link) return;
+        link.setAttribute('aria-current', 'true');
+        link.scrollIntoView({ inline: 'nearest', block: 'nearest', behavior: matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth' });
+      });
+    }, { rootMargin: '-30% 0px -60% 0px' });
+    map.forEach(function (_l, target) { spy.observe(target); });
+  })();
+</script>
 
-  .article-search-cta {
+<style>
+  .art { padding-top: 1.1rem; }
+  .art__head { margin: 0.4rem 0 1.5rem; }
+  .art__title { margin: 0 0 0.9rem; font-size: clamp(1.9rem, 1.2rem + 2.4vw, 2.6rem); max-width: 26ch; }
+  .art__meta { margin-bottom: 0; }
+  .art__meta a { color: var(--color-text); text-decoration: none; font-weight: 600; }
+  .art__meta a:hover { color: var(--color-accent); text-decoration: underline; }
+  .art__cover { margin: 0 0 1.25rem; }
+  .art__cover img {
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    object-fit: cover;
+    border-radius: var(--radius);
+    border: 1px solid var(--color-border);
+  }
+
+  /* ---- Bandeau de sommaire collant ---- */
+  .toc {
+    position: sticky;
+    top: var(--header-h);
+    z-index: 30;
+    margin: 0.5rem 0 1.75rem;
+    background: var(--color-surface);
+    border-top: 1px solid var(--color-border);
+    border-bottom: 1px solid var(--color-border);
+  }
+  .toc__in { display: flex; align-items: center; gap: 1rem; min-height: 48px; }
+  .toc__label {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4em;
+    flex: none;
+    padding-right: 1rem;
+    border-right: 1px solid var(--color-border);
+    font-family: var(--font-ui);
+    font-weight: 600;
+    font-size: 0.8rem;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--color-text-muted);
+  }
+  .toc__list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 0.25rem;
+    overflow-x: auto;
+    padding-right: 3rem;
+    scrollbar-width: none;
+    -webkit-overflow-scrolling: touch;
+    -webkit-mask-image: linear-gradient(to right, #000 calc(100% - 48px), transparent);
+    mask-image: linear-gradient(to right, #000 calc(100% - 48px), transparent);
+  }
+  .toc__list::-webkit-scrollbar { display: none; }
+  /* Chaque chapitre tient dans la bande visible (points de suspension au besoin) :
+     le chapitre courant, ramené en vue par le scrollspy, n'est jamais coupé à gauche. */
+  .toc__list { flex: 1 1 auto; min-width: 0; }
+  .toc__list li { flex: none; max-width: 100%; }
+  .toc__list a {
+    display: block;
+    max-width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    line-height: 40px;
+    padding: 0 0.6rem;
+    font-family: var(--font-ui);
+    font-weight: 500;
+    font-size: 0.88rem;
+    color: var(--color-text-muted);
+    text-decoration: none;
+    border-bottom: 2px solid transparent;
+    border-top: 2px solid transparent;
+  }
+  .toc__list a:hover { color: var(--color-accent); }
+  .toc__list a[aria-current='true'] { color: var(--color-text); border-bottom-color: var(--color-accent); }
+
+  /* ---- Fiche « Notre choix » (recommandation par lien de recherche, sans photo) :
+         deux colonnes, verdict à gauche, libellé + bouton à droite ---- */
+  .pick {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(256px, 40%);
+    gap: 1.5rem;
+    margin: 0 0 2rem;
+    padding: 1.5rem;
+    background: var(--color-surface);
+    border: 1px solid var(--color-accent);
+    border-radius: var(--radius);
+    box-shadow: var(--shadow-lift);
+  }
+  .pick__main { min-width: 0; align-self: center; }
+  .pick__name { margin: 0; font-family: var(--font-display); font-weight: 700; font-size: 1.35rem; line-height: 1.2; color: var(--color-text); }
+  .pick__blurb { margin: 0.5rem 0 0; color: var(--color-text-muted); font-size: 1rem; line-height: 1.5; }
+  .pick__side { display: flex; flex-direction: column; justify-content: center; gap: 0.7rem; padding-left: 1.5rem; border-left: 1px solid var(--color-border); }
+  .pick__flag { margin: 0; display: inline-flex; align-items: center; gap: 0.35em; font-family: var(--font-ui); font-weight: 700; font-size: 0.76rem; letter-spacing: 0.08em; text-transform: uppercase; color: var(--color-accent); }
+  .pick__cta { width: 100%; padding-inline: 1em; font-size: 0.95rem; }
+  .pick__disc { margin: 0; font-family: var(--font-ui); font-weight: 500; font-size: 0.76rem; line-height: 1.4; color: var(--color-text-faint); }
+  @media (max-width: 600px) {
+    .pick { grid-template-columns: 1fr; gap: 1rem; padding: 1.25rem; }
+    .pick__side { padding: 1rem 0 0; border-left: 0; border-top: 1px solid var(--color-border); }
+  }
+
+  /* ---- Corps d'article : colonne de lecture 68ch ---- */
+  .article-body { max-width: var(--measure); font-size: 1.0625rem; line-height: 1.72; }
+  .article-body :global(p) { margin: 0 0 1.3em; }
+  .article-body :global(> p:first-of-type) { font-size: 1.2rem; line-height: 1.6; }
+  .article-body :global(h2) {
+    margin: 2.4em 0 0.7em;
+    padding-top: 1.2em;
+    border-top: 1px solid var(--color-border);
+    font-size: 1.65rem;
+    scroll-margin-top: calc(var(--header-h) + 64px);
+  }
+  .article-body :global(h3) { margin: 1.8em 0 0.5em; font-size: 1.25rem; scroll-margin-top: calc(var(--header-h) + 64px); }
+  .article-body :global(h4) { margin: 1.5em 0 0.4em; font-size: 1.05rem; }
+  .article-body :global(a) { text-decoration-thickness: 1px; text-underline-offset: 0.18em; }
+  .article-body :global(a:hover) { text-decoration-thickness: 2px; }
+  .article-body :global(strong) { font-weight: 600; color: var(--color-text); }
+  .article-body :global(img) {
+    width: 100%;
+    margin: 1.75rem 0;
+    border-radius: var(--radius);
+    border: 1px solid var(--color-border);
+  }
+  .article-body :global(ul), .article-body :global(ol) { margin: 0 0 1.4em; padding-left: 1.4em; display: flex; flex-direction: column; gap: 0.45em; }
+  .article-body :global(li::marker) { color: var(--color-accent); }
+  .article-body :global(ol li::marker) { font-family: var(--font-ui); font-weight: 600; }
+  .article-body :global(blockquote) { margin: 1.8rem 0; font-style: normal; }
+  .article-body :global(blockquote p:last-child) { margin-bottom: 0; }
+  .article-body :global(table) {
+    display: block;
+    overflow-x: auto;
+    width: 100%;
+    margin: 1.7rem 0;
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius);
+    border-collapse: collapse;
+    font-family: var(--font-ui);
+    font-weight: 500;
+    font-size: 0.92rem;
+    line-height: 1.4;
+    background: var(--color-surface);
+  }
+  .article-body :global(th), .article-body :global(td) { text-align: left; padding: 0.7rem 0.85rem; border-bottom: 1px solid var(--color-border); vertical-align: top; }
+  .article-body :global(thead th) { font-size: 0.74rem; font-weight: 600; letter-spacing: 0.07em; text-transform: uppercase; color: var(--color-text-muted); background: var(--color-bg-soft); white-space: nowrap; }
+  .article-body :global(tbody tr:nth-child(even)) { background: #faf6f0; }
+  .article-body :global(tbody tr:last-child td), .article-body :global(tbody tr:last-child th) { border-bottom: 0; }
+  .article-body :global(hr) { margin: 2.4rem 0; }
+
+  /* ---- Recherche Amazon en milieu de page ---- */
+  .art-search {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    gap: 0.9rem 1.1rem;
+    gap: 1rem 1.25rem;
     margin: 2.2rem 0;
-    padding: 1.15rem 1.4rem;
-    background: var(--color-accent-soft);
-    border: 1px solid color-mix(in srgb, var(--color-accent) 30%, transparent);
-    border-radius: var(--radius-lg);
+    padding: 1.25rem 0;
+    border-top: 1px solid var(--color-border);
+    border-bottom: 1px solid var(--color-border);
   }
-  .article-search-cta__icon {
-    flex-shrink: 0;
+  .art-search__icon { flex: none; display: inline-flex; align-items: center; justify-content: center; width: 44px; height: 44px; border-radius: 50%; background: var(--color-accent-soft); color: var(--color-accent); }
+  .art-search__body { flex: 1 1 220px; min-width: 0; }
+  .art-search__intro { margin: 0; font-family: var(--font-display); font-weight: 700; font-size: 1.05rem; }
+  .art-search__sub { margin: 0.15rem 0 0; font-size: 0.92rem; color: var(--color-text-muted); }
+  /* Le texte du bouton dépend du mot-clé de l'article : il doit pouvoir passer à la ligne. */
+  .art-search__link { flex: 0 1 auto; min-width: 0; white-space: normal; text-align: center; }
+  @media (max-width: 480px) { .art-search__icon { display: none; } .art-search__link { width: 100%; } }
+
+  .art-compare h2, .art-sources h2, .art-products h2, .art-faq h2, .art-tools h2 { font-size: 1.55rem; margin: 2.6rem 0 1rem; }
+  .art-compare .table-wrap { margin-top: 0.5rem; }
+
+  /* ---- Sources (E-E-A-T) ---- */
+  .art-sources__intro { margin: 0 0 0.8rem; font-size: 0.95rem; color: var(--color-text-muted); }
+  .art-sources__list { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; }
+  .art-sources__list li { display: flex; align-items: center; gap: 0.6rem; padding: 0.55rem 0; border-top: 1px solid var(--color-border); font-family: var(--font-ui); font-weight: 500; font-size: 0.95rem; color: var(--color-accent); }
+  .art-sources__list li:last-child { border-bottom: 1px solid var(--color-border); }
+  .art-sources__list a { text-decoration: none; }
+  .art-sources__list a:hover { text-decoration: underline; }
+
+  /* ---- FAQ ---- */
+  .art-faq__list { border-top: 1px solid var(--color-border); }
+  .art-faq__item { border-bottom: 1px solid var(--color-border); }
+  .art-faq__item summary {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    padding: 0.9rem 0;
+    cursor: pointer;
+    list-style: none;
+    font-family: var(--font-display);
+    font-weight: 700;
+    font-size: 1.05rem;
+    line-height: 1.3;
+  }
+  .art-faq__item summary::-webkit-details-marker { display: none; }
+  .art-faq__item summary :global(svg) { flex: none; color: var(--color-text-faint); transition: transform 0.25s var(--ease-out); }
+  .art-faq__item[open] summary :global(svg) { transform: rotate(180deg); }
+  .art-faq__item summary:hover { color: var(--color-accent); }
+  .art-faq__item p { margin: 0 0 1.1rem; color: var(--color-text-muted); line-height: 1.6; max-width: var(--measure); }
+
+  /* ---- Outils ---- */
+  .art-tools__list { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; gap: 0.6rem; }
+  .art-tools__list a {
     display: inline-flex;
     align-items: center;
-    justify-content: center;
-    width: 42px;
-    height: 42px;
-    border-radius: 999px;
+    gap: 0.5em;
+    min-height: 44px;
+    padding: 0.5rem 1rem;
+    border: 1px solid var(--color-border-strong);
+    border-radius: var(--radius);
     background: var(--color-surface);
-    color: var(--color-accent);
-    box-shadow: 0 0 0 1px color-mix(in srgb, var(--color-accent) 20%, transparent);
-  }
-  .article-search-cta__body { flex: 1 1 220px; min-width: 0; }
-  .article-search-cta__intro { margin: 0; color: var(--color-text); font-weight: 600; font-size: 0.98rem; }
-  .article-search-cta__sub { margin: 0.2rem 0 0; color: var(--color-text-muted); font-size: 0.85rem; }
-  /* Le texte du bouton dépend du mot-clé de l'article (longueur variable) :
-     il DOIT pouvoir passer à la ligne, sinon il déborde du bloc — et donc de
-     la page — sur mobile. */
-  .article-search-cta__link { flex: 0 1 auto; min-width: 0; white-space: normal; text-align: center; }
-
-  @media (max-width: 480px) {
-    .article-search-cta__icon { display: none; }
-    .article-search-cta__link { width: 100%; }
-  }
-
-  .article-faq { margin-top: 3rem; }
-  .article-faq__item {
-    border: 1px solid var(--color-border);
-    border-radius: var(--radius-lg);
-    background: var(--color-surface);
-    padding: 1rem 1.3rem;
-    margin-bottom: 0.8rem;
-  }
-  .article-faq__item summary {
-    cursor: pointer;
+    color: var(--color-text);
+    font-family: var(--font-ui);
     font-weight: 600;
-    font-family: var(--font-display);
+    font-size: 0.92rem;
+    text-decoration: none;
+    transition: border-color 0.15s ease, color 0.15s ease;
   }
-  .article-faq__item p { margin: 0.7rem 0 0; color: var(--color-text-muted); }
+  .art-tools__list a :global(svg) { color: var(--color-accent); }
+  .art-tools__list a:hover { border-color: var(--color-accent); color: var(--color-accent); }
 
-  .article-related { margin-top: 3rem; padding-top: 2rem; border-top: 1px solid var(--color-border); }
-  .article-related__list { display: flex; flex-direction: column; gap: 1.1rem; }
-
-  /* ---- Sources & références (E-E-A-T) ---- */
-  .article-sources { margin-top: 2.6rem; padding: 1.3rem 1.5rem; border-radius: var(--radius-lg); background: var(--color-surface); border: 1px solid var(--color-border); }
-  .article-sources h2 { margin: 0 0 0.4rem; font-size: 1.15rem; }
-  .article-sources__intro { margin: 0 0 0.9rem; font-size: 0.9rem; color: var(--color-text-muted); }
-  .article-sources__list { list-style: none; padding: 0; margin: 0; display: flex; flex-direction: column; gap: 0.55rem; }
-  .article-sources__list li { position: relative; padding-left: 1.4em; font-size: 0.95rem; }
-  .article-sources__list li::before { content: '↗'; position: absolute; left: 0; top: 0; color: var(--color-accent); font-weight: 700; }
-  .article-sources__list a { color: var(--color-accent); text-decoration: none; font-weight: 600; }
-  .article-sources__list a:hover { text-decoration: underline; }
-
-  .article-tools { margin-top: 3rem; }
-  .article-tools > h2 { font-size: 1.3rem; margin: 0 0 1rem; }
-  .article-tools__list { display: flex; flex-wrap: wrap; gap: 0.7rem; }
-  .article-tools__list a { display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.6rem 1rem; border-radius: 999px; border: 1px solid var(--color-border); background: var(--color-surface); color: var(--color-accent); text-decoration: none; font-weight: 600; font-size: 0.9rem; transition: border-color .15s, background .15s; }
-  .article-tools__list a:hover { border-color: var(--color-accent); background: var(--color-bg-soft); }
-
-  /* ---- Carte « Notre choix » (conversion) ---- */
-  .top-pick {
-    margin: 1.6rem 0;
-    padding: 1.2rem 1.4rem 0.9rem;
-    border-radius: var(--radius-lg);
-    background: color-mix(in srgb, var(--color-accent) 8%, var(--color-surface, transparent));
-    border: 1px solid color-mix(in srgb, var(--color-accent) 30%, var(--color-border));
-    box-shadow: 0 12px 30px -18px color-mix(in srgb, var(--color-accent) 60%, transparent);
-  }
-  .top-pick__label { display: flex; align-items: center; gap: .35rem; margin: 0 0 0.5rem; font-family: var(--font-display); font-weight: 700; font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.06em; color: var(--color-accent); }
-  .top-pick__body { display: flex; align-items: center; gap: 1.2rem; flex-wrap: wrap; }
-  .top-pick__text { flex: 1 1 220px; }
-  .top-pick__name { margin: 0; font-family: var(--font-display); font-weight: 700; font-size: 1.2rem; color: var(--color-text); line-height: 1.25; }
-  .top-pick__blurb { margin: 0.35rem 0 0; color: var(--color-text-muted); font-size: 0.96rem; line-height: 1.4; }
-  .top-pick__disc { margin: 0.85rem 0 0; font-size: 0.75rem; color: var(--color-text-faint); }
-  .cta-btn {
-    display: inline-flex; align-items: center; justify-content: center; gap: 0.5rem; max-width: 100%; text-align: center;
-    padding: 0.8rem 1.4rem; border-radius: 999px;
-    background: var(--color-accent); color: #fff; font-weight: 700; font-size: 1rem;
-    text-decoration: none; border: 0; cursor: pointer;
-    box-shadow: 0 10px 22px -10px color-mix(in srgb, var(--color-accent) 75%, transparent);
-    transition: transform .12s ease, filter .12s ease;
-  }
-  .cta-btn:hover { filter: brightness(1.06); transform: translateY(-1px); }
-  .cta-btn span { transition: transform .12s ease; }
-  .cta-btn:hover span { transform: translateX(3px); }
+  .art-related { margin-top: 3rem; }
 </style>

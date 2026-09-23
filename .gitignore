@@ -14,3 +14,7 @@ dist/
 pinterest-export/
 tiktok-export/
 outreach/
+
+# Captures de revue impeccable (lourdes, régénérées à chaque refonte)
+.impeccable/review/
+.impeccable/config.local.json

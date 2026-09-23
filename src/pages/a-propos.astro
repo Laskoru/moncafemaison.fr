@@ -1,5 +1,6 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
+import PageHead from '../components/PageHead.astro';
 import { siteConfig } from '../siteConfig';
 
 const method = [
@@ -30,29 +31,27 @@ const method = [
   title="À propos"
   description={`Qui est derrière ${siteConfig.name}, notre méthode de comparaison et notre indépendance.`}
 >
-  <section class="container about">
-    <p class="eyebrow">À propos</p>
-    <h1>Aider à faire un bon café chez soi, sans se tromper de matériel</h1>
-    <p class="about__lede">
-      {siteConfig.name} est un site indépendant de comparatifs et de conseils d'achat dédié au café à la
-      maison : machines, moulins et accessoires. L'objectif est simple : t'aider à choisir le matériel qui
-      améliore vraiment la tasse, sans y passer des heures ni te ruiner.
-    </p>
-
+  <PageHead
+    title="Aider à faire un bon café chez soi, sans se tromper de matériel"
+    lede={`${siteConfig.name} est un site indépendant de comparatifs et de conseils d'achat dédié au café à la maison : machines, moulins et accessoires. L'objectif est simple : t'aider à choisir le matériel qui améliore vraiment la tasse, sans y passer des heures ni te ruiner.`}
+    crumbs={[{ label: 'Accueil', href: '/' }, { label: 'À propos' }]}
+    width="narrow"
+  />
+  <section class="container prose">
     <h2>Notre méthode</h2>
     <p>
-      On ne teste pas tout en laboratoire — et on préfère être honnête là-dessus plutôt que de le prétendre.
+      On ne teste pas tout en laboratoire, et on préfère être honnête là-dessus plutôt que de le prétendre.
       Chaque article s'appuie sur une comparaison rigoureuse des caractéristiques réelles des produits, des
-      retours d'utilisateurs et des critères qui comptent vraiment à l'usage. Voici les principes qu'on suit :
+      retours d'utilisateurs et des critères qui comptent vraiment à l'usage. Voici les principes qu'on suit.
     </p>
-    <div class="about__grid">
+    <ol class="rows principles">
       {method.map((m) => (
-        <div class="about__card card">
+        <li class="principles__item">
           <h3>{m.title}</h3>
           <p>{m.detail}</p>
-        </div>
+        </li>
       ))}
-    </div>
+    </ol>
 
     <h2>D’où viennent les notes affichées</h2>
     <p>
@@ -61,7 +60,7 @@ const method = [
       client et n’en publions aucun</strong> : ce sont ceux, réels, laissés par les acheteurs sur Amazon.
     </p>
     <p>
-      Une note élevée n’est jamais à elle seule une raison de recommander un produit — une cafetière très
+      Une note élevée n’est jamais à elle seule une raison de recommander un produit : une cafetière très
       bien notée par quelques dizaines d’acheteurs n’a pas la même valeur qu’une autre notée par plusieurs
       milliers, et certains produits médiocres sont bien notés simplement parce qu’ils sont peu chers. On
       regarde donc la note <em>et</em> le volume d’avis, en complément de nos propres critères, jamais à
@@ -71,7 +70,7 @@ const method = [
     <h2>Notre indépendance</h2>
     <p>
       {siteConfig.name} est financé par l'affiliation : certains liens vers Amazon sont des liens affiliés,
-      et si tu achètes après avoir cliqué, le site touche une petite commission — <strong>sans aucun
+      et si tu achètes après avoir cliqué, le site touche une petite commission, <strong>sans aucun
       surcoût pour toi</strong>. Cette commission ne change jamais notre avis : on recommande un produit
       parce qu'il nous semble pertinent, pas parce qu'il rapporte davantage. Quand un produit a des défauts,
       on le dit.
@@ -80,22 +79,17 @@ const method = [
     <h2>Une question, une suggestion ?</h2>
     <p>
       Une erreur à signaler, un produit à nous soumettre, une idée de comparatif ? Écris-nous à
-      <a href={`mailto:${siteConfig.contactEmail}`}>{siteConfig.contactEmail}</a> — on lit tout.
+      <a href={`mailto:${siteConfig.contactEmail}`}>{siteConfig.contactEmail}</a>, on lit tout.
     </p>
   </section>
 </BaseLayout>
 
 <style>
-  .about { padding: 2.5rem 0 3.5rem; max-width: 760px; }
-  .about h1 { margin-top: 0.4rem; }
-  .about__lede { font-size: 1.12rem; color: var(--color-text-muted); line-height: 1.7; }
-  .about__grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-    gap: 1rem;
-    margin: 1.5rem 0 0.5rem;
-  }
-  .about__card { padding: 1.3rem 1.4rem; }
-  .about__card h3 { margin: 0 0 0.4rem; font-size: 1.05rem; }
-  .about__card p { margin: 0; color: var(--color-text-muted); font-size: 0.92rem; line-height: 1.6; }
+  .prose { padding-top: 1.5rem; padding-bottom: 1rem; }
+  .prose h2 { font-size: 1.5rem; margin: 2.2rem 0 0.6rem; }
+  .prose p { max-width: var(--measure); line-height: 1.68; }
+  .principles { margin: 1.5rem 0 0.5rem; }
+  .principles__item { padding: 1.1rem 0.25rem; }
+  .principles__item h3 { margin: 0 0 0.3rem; font-size: 1.12rem; }
+  .principles__item p { margin: 0; color: var(--color-text-muted); font-size: 0.98rem; line-height: 1.6; }
 </style>
