@@ -84,3 +84,4 @@ Le mousseur à lait est le petit plus qui transforme le café du matin en cappuc
 - [Meilleure machine expresso](/articles/meilleure-machine-expresso/)
 - [Machine à café automatique haut de gamme](/articles/machine-cafe-automatique-haut-gamme/)
 - [Machine à capsules ou à grains ?](/articles/machine-capsules-vs-machine-grains/)
+- [Idées cadeaux café : notre sélection par budget](/articles/idees-cadeaux-cafe-par-budget/)
