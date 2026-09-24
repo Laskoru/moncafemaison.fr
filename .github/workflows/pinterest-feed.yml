@@ -32,7 +32,7 @@ jobs:
         run: node scripts/pinterest-feed.mjs
       - name: Commit et push si un flux a changé
         run: |
-          git add public/pinterest
+          git add public/pinterest pinterest/published.json
           if git diff --cached --quiet; then
             echo "Aucun flux modifié."
             exit 0

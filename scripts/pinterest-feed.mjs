@@ -1,9 +1,12 @@
 // Flux RSS Pinterest (publication automatique) : un flux par tableau, dans public/pinterest/<tableau>.xml.
 // Pinterest lit chaque flux une fois par jour et publie les éléments qu'il n'a pas encore vus.
-// Le flux ne montre que les épingles dont la date est arrivée (fuseau de Paris), sur 30 jours glissants,
-// et jamais avant la date de départ : les épingles futures restent invisibles jusqu'à leur jour.
-// Exception : un flux n'est jamais vide (Pinterest refuse de le brancher), il montre alors sa
+// Le flux montre les épingles dont la date est arrivée (fuseau de Paris), sur 30 jours glissants,
+// jamais avant la date de départ : les épingles futures restent invisibles jusqu'à leur jour.
+// Exception : un flux n'est jamais vide (Pinterest refuse de le brancher) ; il montre alors sa
 // prochaine épingle en avance, qui part dès le branchement.
+// Registre pinterest/published.json : toute épingle montrée une fois y est inscrite avec sa date de sortie.
+// Elle garde ensuite cette date, même si la file change (nouvel article en tête) : elle ne peut ni
+// disparaître puis revenir, ni repartir une seconde fois. Sites/pins-v3/generate.mjs lit ce registre.
 // Données : pinterest/queue.json, écrit par Sites/pins-v3/generate.mjs sur le PC d'Hugo.
 // Lancé chaque matin par .github/workflows/pinterest-feed.yml, et par la finisseuse locale.
 // Test : PINS_TODAY=AAAA-MM-JJ node scripts/pinterest-feed.mjs
@@ -14,32 +17,36 @@ const ROOT = process.cwd();
 const queueFile = path.join(ROOT, 'pinterest', 'queue.json');
 if (!fs.existsSync(queueFile)) { console.log('pinterest/queue.json absent : rien à faire.'); process.exit(0); }
 const queue = JSON.parse(fs.readFileSync(queueFile, 'utf8'));
+const ledgerFile = path.join(ROOT, 'pinterest', 'published.json');
+const ledger = fs.existsSync(ledgerFile) ? JSON.parse(fs.readFileSync(ledgerFile, 'utf8')) : {};
+const ledgerBefore = JSON.stringify(ledger);
 
 const today = process.env.PINS_TODAY || new Intl.DateTimeFormat('en-CA', { timeZone: 'Europe/Paris' }).format(new Date());
 const from = new Date(`${today}T12:00:00Z`);
 from.setUTCDate(from.getUTCDate() - 30);
-const windowStart = [queue.start, from.toISOString().slice(0, 10)].sort().pop();
+const monthAgo = from.toISOString().slice(0, 10);
+const windowStart = [queue.start, monthAgo].sort().pop();
 
 const esc = (s) => String(s ?? '').replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
-// Une date future n'est jamais annoncée : une épingle d'amorce porte la date du jour tant que la sienne n'est pas arrivée.
 const rfc822 = (day) => new Date(`${day < today ? day : today}T04:00:00Z`).toUTCString();
-const byDate = (dir) => (a, b) => (a.date === b.date ? a.order - b.order : (a.date < b.date ? -1 : 1) * dir);
+const byDate = (dir) => (a, b) => (a.date === b.date ? (a.order ?? 0) - (b.order ?? 0) : (a.date < b.date ? -1 : 1) * dir);
 const base = `https://www.${queue.domain}`;
 const outDir = path.join(ROOT, 'public', 'pinterest');
 fs.mkdirSync(outDir, { recursive: true });
 
 const summary = [];
 for (const [feed, board] of Object.entries(queue.feeds)) {
-  const mine = queue.items.filter((it) => it.feed === feed && it.date >= queue.start);
-  let items = mine.filter((it) => it.date >= windowStart && it.date <= today).sort(byDate(-1));
+  // Date de chaque épingle : celle du registre si elle est déjà sortie, sinon celle de la file.
+  const mine = queue.items.filter((it) => it.feed === feed).map((it) => ({ ...it, date: ledger[it.guid]?.date ?? it.date, out: Boolean(ledger[it.guid]) }));
+  let items = mine.filter((it) => (it.out ? it.date >= monthAgo : it.date >= windowStart) && it.date <= today);
   if (!items.length) {
-    // Pinterest refuse de brancher un flux vide : on garde toujours une épingle. D'abord la dernière
-    // déjà parue (Pinterest l'a vue, rien n'est republié), sinon la prochaine à venir (l'amorce),
-    // publiée dès le branchement du flux au lieu d'attendre sa date.
-    const past = mine.filter((it) => it.date <= today).sort(byDate(-1))[0];
-    const next = mine.filter((it) => it.date > today).sort(byDate(1))[0];
-    items = [past || next].filter(Boolean);
+    const past = mine.filter((it) => it.date <= today && (it.out || it.date >= queue.start)).sort(byDate(-1))[0];
+    const next = mine.filter((it) => !it.out && it.date > today && it.date >= queue.start).sort(byDate(1))[0];
+    const pick = past || next;
+    if (pick) { if (!pick.out) pick.date = today; items = [pick]; }
   }
+  items.sort(byDate(-1));
+  for (const it of items) if (!ledger[it.guid]) ledger[it.guid] = { date: it.date, image: it.image };
   const xmlItems = items.map((it) => {
     const local = path.join(ROOT, 'public', new URL(it.image).pathname);
     const length = fs.existsSync(local) ? fs.statSync(local).size : 0;
@@ -78,4 +85,7 @@ for (const [feed, board] of Object.entries(queue.feeds)) {
 }
 // Un flux dont le tableau a disparu de la file est retiré.
 for (const f of fs.readdirSync(outDir)) if (f.endsWith('.xml') && !(f.slice(0, -4) in queue.feeds)) fs.rmSync(path.join(outDir, f));
+// Registre trié, pour des différences lisibles et stables.
+const sorted = Object.fromEntries(Object.entries(ledger).sort(([a], [b]) => a.localeCompare(b)));
+if (JSON.stringify(ledger) !== ledgerBefore || !fs.existsSync(ledgerFile)) fs.writeFileSync(ledgerFile, JSON.stringify(sorted, null, 1) + '\n');
 console.log(`Flux Pinterest au ${today} (départ ${queue.start}) : ${summary.join(' ; ')}`);
