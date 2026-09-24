@@ -1,0 +1,851 @@
+{
+ "site": "Mon Café Maison",
+ "domain": "moncafemaison.fr",
+ "account": "malin",
+ "start": "2026-09-25",
+ "feeds": {
+  "cafe-a-la-maison": "Café à la maison"
+ },
+ "items": [
+  {
+   "date": "2026-09-24",
+   "order": 0,
+   "feed": "cafe-a-la-maison",
+   "guid": "moncafemaison-chemex-cafetiere-filtre-design-v4",
+   "title": "Chemex : pour qui, et comment bien la choisir",
+   "description": "La Chemex séduit par son design autant que par son café limpide. Nos critères avant d'acheter et notre sélection pour se lancer sans se tromper. 👉 Le guide complet sur Mon Café Maison.",
+   "image": "https://www.moncafemaison.fr/pins/chemex-cafetiere-filtre-design-v4.jpg",
+   "link": "https://www.moncafemaison.fr/articles/chemex-cafetiere-filtre-design/?utm_source=pinterest&utm_medium=social&utm_campaign=epingles-v3&utm_content=v4"
+  },
+  {
+   "date": "2026-09-27",
+   "order": 1,
+   "feed": "cafe-a-la-maison",
+   "guid": "moncafemaison-idees-cadeaux-cafe-par-budget-v5",
+   "title": "Idées cadeaux café : notre sélection par budget",
+   "description": "Petit prix, milieu de gamme ou grand cadeau : notre sélection d'idées cadeaux café pour trouver le bon présent selon le budget disponible. 👉 Le guide complet sur Mon Café Maison.",
+   "image": "https://www.moncafemaison.fr/pins/idees-cadeaux-cafe-par-budget-v5.jpg",
+   "link": "https://www.moncafemaison.fr/articles/idees-cadeaux-cafe-par-budget/?utm_source=pinterest&utm_medium=social&utm_campaign=epingles-v3&utm_content=v5"
+  },
+  {
+   "date": "2026-10-01",
+   "order": 0,
+   "feed": "cafe-a-la-maison",
+   "guid": "moncafemaison-tamper-espresso-bien-choisir-v6",
+   "title": "Tamper à espresso : comment bien le choisir pour un tassage régulier",
+   "description": "Diamètre, poids, base plate ou convexe : nos critères pour choisir un tamper adapté à ta machine, et la méthode pour tasser la mouture sans erreur. 👉 Le guide complet sur Mon Café Maison.",
+   "image": "https://www.moncafemaison.fr/pins/tamper-espresso-bien-choisir-v6.jpg",
+   "link": "https://www.moncafemaison.fr/articles/tamper-espresso-bien-choisir/?utm_source=pinterest&utm_medium=social&utm_campaign=epingles-v3&utm_content=v6"
+  },
+  {
+   "date": "2026-10-04",
+   "order": 1,
+   "feed": "cafe-a-la-maison",
+   "guid": "moncafemaison-machine-expresso-broyeur-integre-v4",
+   "title": "Machine expresso avec broyeur intégré en 2026 : lequel choisir ?",
+   "description": "Grains fraîchement moulus et vrai porte-filtre dans le même appareil : nos critères pour choisir une machine expresso avec broyeur intégré. 👉 Le guide complet sur Mon Café Maison.",
+   "image": "https://www.moncafemaison.fr/pins/machine-expresso-broyeur-integre-v4.jpg",
+   "link": "https://www.moncafemaison.fr/articles/machine-expresso-broyeur-integre/?utm_source=pinterest&utm_medium=social&utm_campaign=epingles-v3&utm_content=v4"
+  },
+  {
+   "date": "2026-10-08",
+   "order": 0,
+   "feed": "cafe-a-la-maison",
+   "guid": "moncafemaison-bouilloire-col-de-cygne-v5",
+   "title": "Bouilloire à col de cygne : pourquoi elle change tout pour le pour-over",
+   "description": "Le contrôle du débit d'eau fait toute la différence en pour-over. Nos critères pour bien choisir une bouilloire à col de cygne, électrique ou sur le feu. 👉 Le guide complet sur Mon Café Maison.",
+   "image": "https://www.moncafemaison.fr/pins/bouilloire-col-de-cygne-v5.jpg",
+   "link": "https://www.moncafemaison.fr/articles/bouilloire-col-de-cygne/?utm_source=pinterest&utm_medium=social&utm_campaign=epingles-v3&utm_content=v5"
+  },
+  {
+   "date": "2026-10-11",
+   "order": 1,
+   "feed": "cafe-a-la-maison",
+   "guid": "moncafemaison-reussir-cafe-filtre-v60-v6",
+   "title": "Café filtre & V60 : la méthode pour un café clair et aromatique",
+   "description": "Réussir un café filtre ou un pour-over V60 : mouture, ratio, bloom et versement en spirale. La méthode qui révèle les arômes, sans amertume ni acidité. 👉 Le guide complet sur Mon Café Maison.",
+   "image": "https://www.moncafemaison.fr/pins/reussir-cafe-filtre-v60-v6.jpg",
+   "link": "https://www.moncafemaison.fr/articles/reussir-cafe-filtre-v60/?utm_source=pinterest&utm_medium=social&utm_campaign=epingles-v3&utm_content=v6"
+  },
+  {
+   "date": "2026-10-15",
+   "order": 0,
+   "feed": "cafe-a-la-maison",
+   "guid": "moncafemaison-reussir-cafetiere-italienne-moka-v4",
+   "title": "Réussir son café à la cafetière italienne (moka) sans amertume",
+   "description": "La méthode pour un café moka corsé mais jamais brûlé : bonne mouture, feu doux, et le geste qui change tout. Le guide pas à pas de la cafetière italienne. 👉 Le guide complet sur Mon Café Maison.",
+   "image": "https://www.moncafemaison.fr/pins/reussir-cafetiere-italienne-moka-v4.jpg",
+   "link": "https://www.moncafemaison.fr/articles/reussir-cafetiere-italienne-moka/?utm_source=pinterest&utm_medium=social&utm_campaign=epingles-v3&utm_content=v4"
+  },
+  {
+   "date": "2026-10-18",
+   "order": 1,
+   "feed": "cafe-a-la-maison",
+   "guid": "moncafemaison-reussir-cold-brew-maison-v5",
+   "title": "Cold brew maison : la recette du café froid doux et peu acide",
+   "description": "Le cold brew (café infusé à froid) en 4 étapes : mouture, ratio, 12 à 24 h au frais, filtrage. Doux, peu acide, sans matériel spécial. 👉 Le guide complet sur Mon Café Maison.",
+   "image": "https://www.moncafemaison.fr/pins/reussir-cold-brew-maison-v5.jpg",
+   "link": "https://www.moncafemaison.fr/articles/reussir-cold-brew-maison/?utm_source=pinterest&utm_medium=social&utm_campaign=epingles-v3&utm_content=v5"
+  },
+  {
+   "date": "2026-10-22",
+   "order": 0,
+   "feed": "cafe-a-la-maison",
+   "guid": "moncafemaison-reussir-espresso-maison-v6",
+   "title": "Réussir son espresso maison : la méthode qui change tout",
+   "description": "Mouture, dose, tassage, temps d'extraction : les 4 réglages qui font un vrai espresso à la maison, avec crema et sans amertume. Le guide clair, étape par étape. 👉 Le guide complet sur Mon Café Maison.",
+   "image": "https://www.moncafemaison.fr/pins/reussir-espresso-maison-v6.jpg",
+   "link": "https://www.moncafemaison.fr/articles/reussir-espresso-maison/?utm_source=pinterest&utm_medium=social&utm_campaign=epingles-v3&utm_content=v6"
+  },
+  {
+   "date": "2026-10-25",
+   "order": 1,
+   "feed": "cafe-a-la-maison",
+   "guid": "moncafemaison-reussir-french-press-piston-v4",
+   "title": "Réussir sa cafetière à piston (French press) : la méthode simple",
+   "description": "Un café à la French press rond et sans dépôt : la bonne mouture, le bon ratio, 4 minutes d'infusion et le geste anti-boue. Le guide clair. 👉 Le guide complet sur Mon Café Maison.",
+   "image": "https://www.moncafemaison.fr/pins/reussir-french-press-piston-v4.jpg",
+   "link": "https://www.moncafemaison.fr/articles/reussir-french-press-piston/?utm_source=pinterest&utm_medium=social&utm_campaign=epingles-v3&utm_content=v4"
+  },
+  {
+   "date": "2026-10-29",
+   "order": 0,
+   "feed": "cafe-a-la-maison",
+   "guid": "moncafemaison-cafetiere-dosette-souple-ese-v5",
+   "title": "Cafetière à dosettes souples (ESE) en 2026 : laquelle choisir ?",
+   "description": "Dosette souple ou dosette ESE : quelle différence, et quelle cafetière choisir pour un café simple, économique et sans prise de tête. 👉 Le guide complet sur Mon Café Maison.",
+   "image": "https://www.moncafemaison.fr/pins/cafetiere-dosette-souple-ese-v5.jpg",
+   "link": "https://www.moncafemaison.fr/articles/cafetiere-dosette-souple-ese/?utm_source=pinterest&utm_medium=social&utm_campaign=epingles-v3&utm_content=v5"
+  },
+  {
+   "date": "2026-11-01",
+   "order": 1,
+   "feed": "cafe-a-la-maison",
+   "guid": "moncafemaison-balance-cafe-precision-v6",
+   "title": "Balance à café de précision : pourquoi (et laquelle) choisir",
+   "description": "Doser au gramme près change la régularité de ton café. Nos critères et notre sélection de balances de précision avec minuterie. 👉 Le guide complet sur Mon Café Maison.",
+   "image": "https://www.moncafemaison.fr/pins/balance-cafe-precision-v6.jpg",
+   "link": "https://www.moncafemaison.fr/articles/balance-cafe-precision/?utm_source=pinterest&utm_medium=social&utm_campaign=epingles-v3&utm_content=v6"
+  },
+  {
+   "date": "2026-11-05",
+   "order": 0,
+   "feed": "cafe-a-la-maison",
+   "guid": "moncafemaison-cafetiere-italienne-moka-v4",
+   "title": "Cafetière italienne (moka) : laquelle choisir en 2026 ?",
+   "description": "3, 6 ou 9 tasses, induction ou non : notre guide pour choisir la bonne cafetière italienne (moka) et réussir son café maison. 👉 Le guide complet sur Mon Café Maison.",
+   "image": "https://www.moncafemaison.fr/pins/cafetiere-italienne-moka-v4.jpg",
+   "link": "https://www.moncafemaison.fr/articles/cafetiere-italienne-moka/?utm_source=pinterest&utm_medium=social&utm_campaign=epingles-v3&utm_content=v4"
+  },
+  {
+   "date": "2026-11-08",
+   "order": 1,
+   "feed": "cafe-a-la-maison",
+   "guid": "moncafemaison-machine-capsules-vs-machine-grains-v5",
+   "title": "Machine à capsules vs machine à grains : quel système choisir ?",
+   "description": "Café en capsules ou machine à grains : lequel choisir selon ton budget, ton temps et le goût recherché ? Notre comparatif honnête. 👉 Le guide complet sur Mon Café Maison.",
+   "image": "https://www.moncafemaison.fr/pins/machine-capsules-vs-machine-grains-v5.jpg",
+   "link": "https://www.moncafemaison.fr/articles/machine-capsules-vs-machine-grains/?utm_source=pinterest&utm_medium=social&utm_campaign=epingles-v3&utm_content=v5"
+  },
+  {
+   "date": "2026-11-12",
+   "order": 0,
+   "feed": "cafe-a-la-maison",
+   "guid": "moncafemaison-meilleur-moulin-cafe-electrique-v6",
+   "title": "Bien choisir son moulin à café électrique",
+   "description": "Quel moulin à café électrique choisir pour une mouture fraîche et régulière ? Meules vs lames, nos critères et notre sélection. 👉 Le guide complet sur Mon Café Maison.",
+   "image": "https://www.moncafemaison.fr/pins/meilleur-moulin-cafe-electrique-v6.jpg",
+   "link": "https://www.moncafemaison.fr/articles/meilleur-moulin-cafe-electrique/?utm_source=pinterest&utm_medium=social&utm_campaign=epingles-v3&utm_content=v6"
+  },
+  {
+   "date": "2026-11-15",
+   "order": 1,
+   "feed": "cafe-a-la-maison",
+   "guid": "moncafemaison-meilleur-moulin-cafe-manuel-v4",
+   "title": "Moulin à café manuel : lequel choisir en 2026 ?",
+   "description": "Précis, silencieux et sans fil : notre guide pour choisir un moulin à café manuel adapté à ton usage quotidien ou en voyage. 👉 Le guide complet sur Mon Café Maison.",
+   "image": "https://www.moncafemaison.fr/pins/meilleur-moulin-cafe-manuel-v4.jpg",
+   "link": "https://www.moncafemaison.fr/articles/meilleur-moulin-cafe-manuel/?utm_source=pinterest&utm_medium=social&utm_campaign=epingles-v3&utm_content=v4"
+  },
+  {
+   "date": "2026-11-19",
+   "order": 0,
+   "feed": "cafe-a-la-maison",
+   "guid": "moncafemaison-meilleur-mousseur-lait-v5",
+   "title": "Mousseur à lait : réussir cappuccino et latte maison",
+   "description": "Quel mousseur à lait choisir pour une mousse onctueuse à la maison ? Pichet chauffant ou fouet portable : nos critères et notre sélection. 👉 Le guide complet sur Mon Café Maison.",
+   "image": "https://www.moncafemaison.fr/pins/meilleur-mousseur-lait-v5.jpg",
+   "link": "https://www.moncafemaison.fr/articles/meilleur-mousseur-lait/?utm_source=pinterest&utm_medium=social&utm_campaign=epingles-v3&utm_content=v5"
+  },
+  {
+   "date": "2026-11-22",
+   "order": 0,
+   "feed": "cafe-a-la-maison",
+   "guid": "moncafemaison-meilleure-cafetiere-filtre-programmable-v6",
+   "title": "Cafetière filtre programmable : le comparatif 2026",
+   "description": "Programmer son café la veille pour se réveiller avec une carafe chaude : notre guide pour choisir la bonne cafetière filtre programmable. 👉 Le guide complet sur Mon Café Maison.",
+   "image": "https://www.moncafemaison.fr/pins/meilleure-cafetiere-filtre-programmable-v6.jpg",
+   "link": "https://www.moncafemaison.fr/articles/meilleure-cafetiere-filtre-programmable/?utm_source=pinterest&utm_medium=social&utm_campaign=epingles-v3&utm_content=v6"
+  },
+  {
+   "date": "2026-11-25",
+   "order": 0,
+   "feed": "cafe-a-la-maison",
+   "guid": "moncafemaison-meilleure-cafetiere-grains-v4",
+   "title": "Quelle machine à café à grains choisir en 2026 ?",
+   "description": "Quelle machine à café à grains choisir pour un bon café maison sans se ruiner ? Nos critères et notre sélection de modèles fiables. 👉 Le guide complet sur Mon Café Maison.",
+   "image": "https://www.moncafemaison.fr/pins/meilleure-cafetiere-grains-v4.jpg",
+   "link": "https://www.moncafemaison.fr/articles/meilleure-cafetiere-grains/?utm_source=pinterest&utm_medium=social&utm_campaign=epingles-v3&utm_content=v4"
+  },
+  {
+   "date": "2026-11-27",
+   "order": 1,
+   "feed": "cafe-a-la-maison",
+   "guid": "moncafemaison-meilleure-cafetiere-piston-french-press-v5",
+   "title": "Cafetière à piston (French press) : laquelle choisir ?",
+   "description": "La cafetière à piston est la façon la plus simple d'obtenir un café riche. Nos critères et notre sélection, verre ou inox. 👉 Le guide complet sur Mon Café Maison.",
+   "image": "https://www.moncafemaison.fr/pins/meilleure-cafetiere-piston-french-press-v5.jpg",
+   "link": "https://www.moncafemaison.fr/articles/meilleure-cafetiere-piston-french-press/?utm_source=pinterest&utm_medium=social&utm_campaign=epingles-v3&utm_content=v5"
+  },
+  {
+   "date": "2026-11-30",
+   "order": 0,
+   "feed": "cafe-a-la-maison",
+   "guid": "moncafemaison-meilleure-machine-expresso-v6",
+   "title": "Machine expresso : le guide pour bien débuter",
+   "description": "Quelle machine expresso choisir pour débuter à la maison ? Porte-filtre ou capsules : nos critères et notre sélection abordable. 👉 Le guide complet sur Mon Café Maison.",
+   "image": "https://www.moncafemaison.fr/pins/meilleure-machine-expresso-v6.jpg",
+   "link": "https://www.moncafemaison.fr/articles/meilleure-machine-expresso/?utm_source=pinterest&utm_medium=social&utm_campaign=epingles-v3&utm_content=v6"
+  },
+  {
+   "date": "2026-12-02",
+   "order": 1,
+   "feed": "cafe-a-la-maison",
+   "guid": "moncafemaison-moulin-cafe-pas-cher-qui-vaut-le-coup-v4",
+   "title": "Moulin à café pas cher : lequel vaut vraiment le coup ?",
+   "description": "Un moulin à café pas cher peut-il donner un bon résultat ? Nos critères pour ne pas se tromper à petit budget, et les pièges à éviter. 👉 Le guide complet sur Mon Café Maison.",
+   "image": "https://www.moncafemaison.fr/pins/moulin-cafe-pas-cher-qui-vaut-le-coup-v4.jpg",
+   "link": "https://www.moncafemaison.fr/articles/moulin-cafe-pas-cher-qui-vaut-le-coup/?utm_source=pinterest&utm_medium=social&utm_campaign=epingles-v3&utm_content=v4"
+  },
+  {
+   "date": "2026-12-04",
+   "order": 1,
+   "feed": "cafe-a-la-maison",
+   "guid": "moncafemaison-machine-cafe-automatique-haut-gamme-v5",
+   "title": "Quelle machine à café automatique haut de gamme choisir ?",
+   "description": "Broyeur, carafe à lait automatique, appli connectée : comment choisir une machine à café automatique haut de gamme sans se tromper. 👉 Le guide complet sur Mon Café Maison.",
+   "image": "https://www.moncafemaison.fr/pins/machine-cafe-automatique-haut-gamme-v5.jpg",
+   "link": "https://www.moncafemaison.fr/articles/machine-cafe-automatique-haut-gamme/?utm_source=pinterest&utm_medium=social&utm_campaign=epingles-v3&utm_content=v5"
+  },
+  {
+   "date": "2026-12-06",
+   "order": 1,
+   "feed": "cafe-a-la-maison",
+   "guid": "moncafemaison-aeropress-test-alternatives-v6",
+   "title": "AeroPress : test complet et meilleures alternatives",
+   "description": "AeroPress : comment ça marche, méthode inversée, critères d'achat et meilleures alternatives pour un café filtre rapide et nomade à la maison. 👉 Le guide complet sur Mon Café Maison.",
+   "image": "https://www.moncafemaison.fr/pins/aeropress-test-alternatives-v6.jpg",
+   "link": "https://www.moncafemaison.fr/articles/aeropress-test-alternatives/?utm_source=pinterest&utm_medium=social&utm_campaign=epingles-v3&utm_content=v6"
+  },
+  {
+   "date": "2026-12-08",
+   "order": 1,
+   "feed": "cafe-a-la-maison",
+   "guid": "moncafemaison-filtres-reutilisables-cafe-v4",
+   "title": "Filtres à café réutilisables : lesquels choisir (et pourquoi arrêter le papier)",
+   "description": "Inox, mesh ou coton : comment choisir un filtre à café réutilisable selon ta méthode, économique et écologique, sans sacrifier le goût. 👉 Le guide complet sur Mon Café Maison.",
+   "image": "https://www.moncafemaison.fr/pins/filtres-reutilisables-cafe-v4.jpg",
+   "link": "https://www.moncafemaison.fr/articles/filtres-reutilisables-cafe/?utm_source=pinterest&utm_medium=social&utm_campaign=epingles-v3&utm_content=v4"
+  },
+  {
+   "date": "2026-12-10",
+   "order": 1,
+   "feed": "cafe-a-la-maison",
+   "guid": "moncafemaison-meilleur-detartrant-machine-a-cafe-v5",
+   "title": "Détartrant pour machine à café : lequel choisir et comment bien détartrer",
+   "description": "Le tartre abîme le goût et les résistances. Nos critères pour choisir un détartrant (liquide, pastilles, acide citrique) et l'utiliser sans risque. 👉 Le guide complet sur Mon Café Maison.",
+   "image": "https://www.moncafemaison.fr/pins/meilleur-detartrant-machine-a-cafe-v5.jpg",
+   "link": "https://www.moncafemaison.fr/articles/meilleur-detartrant-machine-a-cafe/?utm_source=pinterest&utm_medium=social&utm_campaign=epingles-v3&utm_content=v5"
+  },
+  {
+   "date": "2026-12-12",
+   "order": 1,
+   "feed": "cafe-a-la-maison",
+   "guid": "moncafemaison-meilleur-moulin-pour-espresso-v6",
+   "title": "Moulin pour espresso : le guide pour bien choisir",
+   "description": "Quel moulin choisir pour un vrai espresso ? Mouture fine, régularité, réglages : nos critères concrets et notre sélection pour un espresso équilibré. 👉 Le guide complet sur Mon Café Maison.",
+   "image": "https://www.moncafemaison.fr/pins/meilleur-moulin-pour-espresso-v6.jpg",
+   "link": "https://www.moncafemaison.fr/articles/meilleur-moulin-pour-espresso/?utm_source=pinterest&utm_medium=social&utm_campaign=epingles-v3&utm_content=v6"
+  },
+  {
+   "date": "2026-12-14",
+   "order": 1,
+   "feed": "cafe-a-la-maison",
+   "guid": "moncafemaison-moulin-cafe-meules-ou-lames-v4",
+   "title": "Moulin à meules ou à lames : la vraie différence en 2026",
+   "description": "Moulin à café à meules ou à lames : quelle différence sur le goût, et lequel choisir selon votre café ? Nos explications claires et notre sélection. 👉 Le guide complet sur Mon Café Maison.",
+   "image": "https://www.moncafemaison.fr/pins/moulin-cafe-meules-ou-lames-v4.jpg",
+   "link": "https://www.moncafemaison.fr/articles/moulin-cafe-meules-ou-lames/?utm_source=pinterest&utm_medium=social&utm_campaign=epingles-v3&utm_content=v4"
+  },
+  {
+   "date": "2026-12-23",
+   "order": 0,
+   "feed": "cafe-a-la-maison",
+   "guid": "moncafemaison-chemex-cafetiere-filtre-design-v5",
+   "title": "Chemex : pour qui, et comment bien la choisir",
+   "description": "La Chemex séduit par son design autant que par son café limpide. Nos critères avant d'acheter et notre sélection pour se lancer sans se tromper. 👉 Le guide complet sur Mon Café Maison.",
+   "image": "https://www.moncafemaison.fr/pins/chemex-cafetiere-filtre-design-v5.jpg",
+   "link": "https://www.moncafemaison.fr/articles/chemex-cafetiere-filtre-design/?utm_source=pinterest&utm_medium=social&utm_campaign=epingles-v3&utm_content=v5"
+  },
+  {
+   "date": "2026-12-26",
+   "order": 1,
+   "feed": "cafe-a-la-maison",
+   "guid": "moncafemaison-idees-cadeaux-cafe-par-budget-v6",
+   "title": "Idées cadeaux café : notre sélection par budget",
+   "description": "Petit prix, milieu de gamme ou grand cadeau : notre sélection d'idées cadeaux café pour trouver le bon présent selon le budget disponible. 👉 Le guide complet sur Mon Café Maison.",
+   "image": "https://www.moncafemaison.fr/pins/idees-cadeaux-cafe-par-budget-v6.jpg",
+   "link": "https://www.moncafemaison.fr/articles/idees-cadeaux-cafe-par-budget/?utm_source=pinterest&utm_medium=social&utm_campaign=epingles-v3&utm_content=v6"
+  },
+  {
+   "date": "2026-12-30",
+   "order": 0,
+   "feed": "cafe-a-la-maison",
+   "guid": "moncafemaison-tamper-espresso-bien-choisir-v4",
+   "title": "Tamper à espresso : comment bien le choisir pour un tassage régulier",
+   "description": "Diamètre, poids, base plate ou convexe : nos critères pour choisir un tamper adapté à ta machine, et la méthode pour tasser la mouture sans erreur. 👉 Le guide complet sur Mon Café Maison.",
+   "image": "https://www.moncafemaison.fr/pins/tamper-espresso-bien-choisir-v4.jpg",
+   "link": "https://www.moncafemaison.fr/articles/tamper-espresso-bien-choisir/?utm_source=pinterest&utm_medium=social&utm_campaign=epingles-v3&utm_content=v4"
+  },
+  {
+   "date": "2027-01-02",
+   "order": 1,
+   "feed": "cafe-a-la-maison",
+   "guid": "moncafemaison-machine-expresso-broyeur-integre-v5",
+   "title": "Machine expresso avec broyeur intégré en 2026 : lequel choisir ?",
+   "description": "Grains fraîchement moulus et vrai porte-filtre dans le même appareil : nos critères pour choisir une machine expresso avec broyeur intégré. 👉 Le guide complet sur Mon Café Maison.",
+   "image": "https://www.moncafemaison.fr/pins/machine-expresso-broyeur-integre-v5.jpg",
+   "link": "https://www.moncafemaison.fr/articles/machine-expresso-broyeur-integre/?utm_source=pinterest&utm_medium=social&utm_campaign=epingles-v3&utm_content=v5"
+  },
+  {
+   "date": "2027-01-06",
+   "order": 0,
+   "feed": "cafe-a-la-maison",
+   "guid": "moncafemaison-bouilloire-col-de-cygne-v6",
+   "title": "Bouilloire à col de cygne : pourquoi elle change tout pour le pour-over",
+   "description": "Le contrôle du débit d'eau fait toute la différence en pour-over. Nos critères pour bien choisir une bouilloire à col de cygne, électrique ou sur le feu. 👉 Le guide complet sur Mon Café Maison.",
+   "image": "https://www.moncafemaison.fr/pins/bouilloire-col-de-cygne-v6.jpg",
+   "link": "https://www.moncafemaison.fr/articles/bouilloire-col-de-cygne/?utm_source=pinterest&utm_medium=social&utm_campaign=epingles-v3&utm_content=v6"
+  },
+  {
+   "date": "2027-01-09",
+   "order": 1,
+   "feed": "cafe-a-la-maison",
+   "guid": "moncafemaison-reussir-cafe-filtre-v60-v4",
+   "title": "Café filtre & V60 : la méthode pour un café clair et aromatique",
+   "description": "Réussir un café filtre ou un pour-over V60 : mouture, ratio, bloom et versement en spirale. La méthode qui révèle les arômes, sans amertume ni acidité. 👉 Le guide complet sur Mon Café Maison.",
+   "image": "https://www.moncafemaison.fr/pins/reussir-cafe-filtre-v60-v4.jpg",
+   "link": "https://www.moncafemaison.fr/articles/reussir-cafe-filtre-v60/?utm_source=pinterest&utm_medium=social&utm_campaign=epingles-v3&utm_content=v4"
+  },
+  {
+   "date": "2027-01-13",
+   "order": 0,
+   "feed": "cafe-a-la-maison",
+   "guid": "moncafemaison-reussir-cafetiere-italienne-moka-v5",
+   "title": "Réussir son café à la cafetière italienne (moka) sans amertume",
+   "description": "La méthode pour un café moka corsé mais jamais brûlé : bonne mouture, feu doux, et le geste qui change tout. Le guide pas à pas de la cafetière italienne. 👉 Le guide complet sur Mon Café Maison.",
+   "image": "https://www.moncafemaison.fr/pins/reussir-cafetiere-italienne-moka-v5.jpg",
+   "link": "https://www.moncafemaison.fr/articles/reussir-cafetiere-italienne-moka/?utm_source=pinterest&utm_medium=social&utm_campaign=epingles-v3&utm_content=v5"
+  },
+  {
+   "date": "2027-01-16",
+   "order": 1,
+   "feed": "cafe-a-la-maison",
+   "guid": "moncafemaison-reussir-cold-brew-maison-v6",
+   "title": "Cold brew maison : la recette du café froid doux et peu acide",
+   "description": "Le cold brew (café infusé à froid) en 4 étapes : mouture, ratio, 12 à 24 h au frais, filtrage. Doux, peu acide, sans matériel spécial. 👉 Le guide complet sur Mon Café Maison.",
+   "image": "https://www.moncafemaison.fr/pins/reussir-cold-brew-maison-v6.jpg",
+   "link": "https://www.moncafemaison.fr/articles/reussir-cold-brew-maison/?utm_source=pinterest&utm_medium=social&utm_campaign=epingles-v3&utm_content=v6"
+  },
+  {
+   "date": "2027-01-20",
+   "order": 0,
+   "feed": "cafe-a-la-maison",
+   "guid": "moncafemaison-reussir-espresso-maison-v4",
+   "title": "Réussir son espresso maison : la méthode qui change tout",
+   "description": "Mouture, dose, tassage, temps d'extraction : les 4 réglages qui font un vrai espresso à la maison, avec crema et sans amertume. Le guide clair, étape par étape. 👉 Le guide complet sur Mon Café Maison.",
+   "image": "https://www.moncafemaison.fr/pins/reussir-espresso-maison-v4.jpg",
+   "link": "https://www.moncafemaison.fr/articles/reussir-espresso-maison/?utm_source=pinterest&utm_medium=social&utm_campaign=epingles-v3&utm_content=v4"
+  },
+  {
+   "date": "2027-01-23",
+   "order": 1,
+   "feed": "cafe-a-la-maison",
+   "guid": "moncafemaison-reussir-french-press-piston-v5",
+   "title": "Réussir sa cafetière à piston (French press) : la méthode simple",
+   "description": "Un café à la French press rond et sans dépôt : la bonne mouture, le bon ratio, 4 minutes d'infusion et le geste anti-boue. Le guide clair. 👉 Le guide complet sur Mon Café Maison.",
+   "image": "https://www.moncafemaison.fr/pins/reussir-french-press-piston-v5.jpg",
+   "link": "https://www.moncafemaison.fr/articles/reussir-french-press-piston/?utm_source=pinterest&utm_medium=social&utm_campaign=epingles-v3&utm_content=v5"
+  },
+  {
+   "date": "2027-01-27",
+   "order": 0,
+   "feed": "cafe-a-la-maison",
+   "guid": "moncafemaison-cafetiere-dosette-souple-ese-v6",
+   "title": "Cafetière à dosettes souples (ESE) en 2026 : laquelle choisir ?",
+   "description": "Dosette souple ou dosette ESE : quelle différence, et quelle cafetière choisir pour un café simple, économique et sans prise de tête. 👉 Le guide complet sur Mon Café Maison.",
+   "image": "https://www.moncafemaison.fr/pins/cafetiere-dosette-souple-ese-v6.jpg",
+   "link": "https://www.moncafemaison.fr/articles/cafetiere-dosette-souple-ese/?utm_source=pinterest&utm_medium=social&utm_campaign=epingles-v3&utm_content=v6"
+  },
+  {
+   "date": "2027-01-30",
+   "order": 1,
+   "feed": "cafe-a-la-maison",
+   "guid": "moncafemaison-balance-cafe-precision-v4",
+   "title": "Balance à café de précision : pourquoi (et laquelle) choisir",
+   "description": "Doser au gramme près change la régularité de ton café. Nos critères et notre sélection de balances de précision avec minuterie. 👉 Le guide complet sur Mon Café Maison.",
+   "image": "https://www.moncafemaison.fr/pins/balance-cafe-precision-v4.jpg",
+   "link": "https://www.moncafemaison.fr/articles/balance-cafe-precision/?utm_source=pinterest&utm_medium=social&utm_campaign=epingles-v3&utm_content=v4"
+  },
+  {
+   "date": "2027-02-03",
+   "order": 0,
+   "feed": "cafe-a-la-maison",
+   "guid": "moncafemaison-cafetiere-italienne-moka-v5",
+   "title": "Cafetière italienne (moka) : laquelle choisir en 2026 ?",
+   "description": "3, 6 ou 9 tasses, induction ou non : notre guide pour choisir la bonne cafetière italienne (moka) et réussir son café maison. 👉 Le guide complet sur Mon Café Maison.",
+   "image": "https://www.moncafemaison.fr/pins/cafetiere-italienne-moka-v5.jpg",
+   "link": "https://www.moncafemaison.fr/articles/cafetiere-italienne-moka/?utm_source=pinterest&utm_medium=social&utm_campaign=epingles-v3&utm_content=v5"
+  },
+  {
+   "date": "2027-02-06",
+   "order": 1,
+   "feed": "cafe-a-la-maison",
+   "guid": "moncafemaison-machine-capsules-vs-machine-grains-v6",
+   "title": "Machine à capsules vs machine à grains : quel système choisir ?",
+   "description": "Café en capsules ou machine à grains : lequel choisir selon ton budget, ton temps et le goût recherché ? Notre comparatif honnête. 👉 Le guide complet sur Mon Café Maison.",
+   "image": "https://www.moncafemaison.fr/pins/machine-capsules-vs-machine-grains-v6.jpg",
+   "link": "https://www.moncafemaison.fr/articles/machine-capsules-vs-machine-grains/?utm_source=pinterest&utm_medium=social&utm_campaign=epingles-v3&utm_content=v6"
+  },
+  {
+   "date": "2027-02-10",
+   "order": 0,
+   "feed": "cafe-a-la-maison",
+   "guid": "moncafemaison-meilleur-moulin-cafe-electrique-v4",
+   "title": "Bien choisir son moulin à café électrique",
+   "description": "Quel moulin à café électrique choisir pour une mouture fraîche et régulière ? Meules vs lames, nos critères et notre sélection. 👉 Le guide complet sur Mon Café Maison.",
+   "image": "https://www.moncafemaison.fr/pins/meilleur-moulin-cafe-electrique-v4.jpg",
+   "link": "https://www.moncafemaison.fr/articles/meilleur-moulin-cafe-electrique/?utm_source=pinterest&utm_medium=social&utm_campaign=epingles-v3&utm_content=v4"
+  },
+  {
+   "date": "2027-02-13",
+   "order": 1,
+   "feed": "cafe-a-la-maison",
+   "guid": "moncafemaison-meilleur-moulin-cafe-manuel-v5",
+   "title": "Moulin à café manuel : lequel choisir en 2026 ?",
+   "description": "Précis, silencieux et sans fil : notre guide pour choisir un moulin à café manuel adapté à ton usage quotidien ou en voyage. 👉 Le guide complet sur Mon Café Maison.",
+   "image": "https://www.moncafemaison.fr/pins/meilleur-moulin-cafe-manuel-v5.jpg",
+   "link": "https://www.moncafemaison.fr/articles/meilleur-moulin-cafe-manuel/?utm_source=pinterest&utm_medium=social&utm_campaign=epingles-v3&utm_content=v5"
+  },
+  {
+   "date": "2027-02-17",
+   "order": 0,
+   "feed": "cafe-a-la-maison",
+   "guid": "moncafemaison-meilleur-mousseur-lait-v6",
+   "title": "Mousseur à lait : réussir cappuccino et latte maison",
+   "description": "Quel mousseur à lait choisir pour une mousse onctueuse à la maison ? Pichet chauffant ou fouet portable : nos critères et notre sélection. 👉 Le guide complet sur Mon Café Maison.",
+   "image": "https://www.moncafemaison.fr/pins/meilleur-mousseur-lait-v6.jpg",
+   "link": "https://www.moncafemaison.fr/articles/meilleur-mousseur-lait/?utm_source=pinterest&utm_medium=social&utm_campaign=epingles-v3&utm_content=v6"
+  },
+  {
+   "date": "2027-02-20",
+   "order": 0,
+   "feed": "cafe-a-la-maison",
+   "guid": "moncafemaison-meilleure-cafetiere-filtre-programmable-v4",
+   "title": "Cafetière filtre programmable : le comparatif 2026",
+   "description": "Programmer son café la veille pour se réveiller avec une carafe chaude : notre guide pour choisir la bonne cafetière filtre programmable. 👉 Le guide complet sur Mon Café Maison.",
+   "image": "https://www.moncafemaison.fr/pins/meilleure-cafetiere-filtre-programmable-v4.jpg",
+   "link": "https://www.moncafemaison.fr/articles/meilleure-cafetiere-filtre-programmable/?utm_source=pinterest&utm_medium=social&utm_campaign=epingles-v3&utm_content=v4"
+  },
+  {
+   "date": "2027-02-23",
+   "order": 0,
+   "feed": "cafe-a-la-maison",
+   "guid": "moncafemaison-meilleure-cafetiere-grains-v5",
+   "title": "Quelle machine à café à grains choisir en 2026 ?",
+   "description": "Quelle machine à café à grains choisir pour un bon café maison sans se ruiner ? Nos critères et notre sélection de modèles fiables. 👉 Le guide complet sur Mon Café Maison.",
+   "image": "https://www.moncafemaison.fr/pins/meilleure-cafetiere-grains-v5.jpg",
+   "link": "https://www.moncafemaison.fr/articles/meilleure-cafetiere-grains/?utm_source=pinterest&utm_medium=social&utm_campaign=epingles-v3&utm_content=v5"
+  },
+  {
+   "date": "2027-02-25",
+   "order": 1,
+   "feed": "cafe-a-la-maison",
+   "guid": "moncafemaison-meilleure-cafetiere-piston-french-press-v6",
+   "title": "Cafetière à piston (French press) : laquelle choisir ?",
+   "description": "La cafetière à piston est la façon la plus simple d'obtenir un café riche. Nos critères et notre sélection, verre ou inox. 👉 Le guide complet sur Mon Café Maison.",
+   "image": "https://www.moncafemaison.fr/pins/meilleure-cafetiere-piston-french-press-v6.jpg",
+   "link": "https://www.moncafemaison.fr/articles/meilleure-cafetiere-piston-french-press/?utm_source=pinterest&utm_medium=social&utm_campaign=epingles-v3&utm_content=v6"
+  },
+  {
+   "date": "2027-02-28",
+   "order": 0,
+   "feed": "cafe-a-la-maison",
+   "guid": "moncafemaison-meilleure-machine-expresso-v4",
+   "title": "Machine expresso : le guide pour bien débuter",
+   "description": "Quelle machine expresso choisir pour débuter à la maison ? Porte-filtre ou capsules : nos critères et notre sélection abordable. 👉 Le guide complet sur Mon Café Maison.",
+   "image": "https://www.moncafemaison.fr/pins/meilleure-machine-expresso-v4.jpg",
+   "link": "https://www.moncafemaison.fr/articles/meilleure-machine-expresso/?utm_source=pinterest&utm_medium=social&utm_campaign=epingles-v3&utm_content=v4"
+  },
+  {
+   "date": "2027-03-02",
+   "order": 1,
+   "feed": "cafe-a-la-maison",
+   "guid": "moncafemaison-moulin-cafe-pas-cher-qui-vaut-le-coup-v5",
+   "title": "Moulin à café pas cher : lequel vaut vraiment le coup ?",
+   "description": "Un moulin à café pas cher peut-il donner un bon résultat ? Nos critères pour ne pas se tromper à petit budget, et les pièges à éviter. 👉 Le guide complet sur Mon Café Maison.",
+   "image": "https://www.moncafemaison.fr/pins/moulin-cafe-pas-cher-qui-vaut-le-coup-v5.jpg",
+   "link": "https://www.moncafemaison.fr/articles/moulin-cafe-pas-cher-qui-vaut-le-coup/?utm_source=pinterest&utm_medium=social&utm_campaign=epingles-v3&utm_content=v5"
+  },
+  {
+   "date": "2027-03-04",
+   "order": 1,
+   "feed": "cafe-a-la-maison",
+   "guid": "moncafemaison-machine-cafe-automatique-haut-gamme-v6",
+   "title": "Quelle machine à café automatique haut de gamme choisir ?",
+   "description": "Broyeur, carafe à lait automatique, appli connectée : comment choisir une machine à café automatique haut de gamme sans se tromper. 👉 Le guide complet sur Mon Café Maison.",
+   "image": "https://www.moncafemaison.fr/pins/machine-cafe-automatique-haut-gamme-v6.jpg",
+   "link": "https://www.moncafemaison.fr/articles/machine-cafe-automatique-haut-gamme/?utm_source=pinterest&utm_medium=social&utm_campaign=epingles-v3&utm_content=v6"
+  },
+  {
+   "date": "2027-03-06",
+   "order": 1,
+   "feed": "cafe-a-la-maison",
+   "guid": "moncafemaison-aeropress-test-alternatives-v4",
+   "title": "AeroPress : test complet et meilleures alternatives",
+   "description": "AeroPress : comment ça marche, méthode inversée, critères d'achat et meilleures alternatives pour un café filtre rapide et nomade à la maison. 👉 Le guide complet sur Mon Café Maison.",
+   "image": "https://www.moncafemaison.fr/pins/aeropress-test-alternatives-v4.jpg",
+   "link": "https://www.moncafemaison.fr/articles/aeropress-test-alternatives/?utm_source=pinterest&utm_medium=social&utm_campaign=epingles-v3&utm_content=v4"
+  },
+  {
+   "date": "2027-03-08",
+   "order": 1,
+   "feed": "cafe-a-la-maison",
+   "guid": "moncafemaison-filtres-reutilisables-cafe-v5",
+   "title": "Filtres à café réutilisables : lesquels choisir (et pourquoi arrêter le papier)",
+   "description": "Inox, mesh ou coton : comment choisir un filtre à café réutilisable selon ta méthode, économique et écologique, sans sacrifier le goût. 👉 Le guide complet sur Mon Café Maison.",
+   "image": "https://www.moncafemaison.fr/pins/filtres-reutilisables-cafe-v5.jpg",
+   "link": "https://www.moncafemaison.fr/articles/filtres-reutilisables-cafe/?utm_source=pinterest&utm_medium=social&utm_campaign=epingles-v3&utm_content=v5"
+  },
+  {
+   "date": "2027-03-10",
+   "order": 1,
+   "feed": "cafe-a-la-maison",
+   "guid": "moncafemaison-meilleur-detartrant-machine-a-cafe-v6",
+   "title": "Détartrant pour machine à café : lequel choisir et comment bien détartrer",
+   "description": "Le tartre abîme le goût et les résistances. Nos critères pour choisir un détartrant (liquide, pastilles, acide citrique) et l'utiliser sans risque. 👉 Le guide complet sur Mon Café Maison.",
+   "image": "https://www.moncafemaison.fr/pins/meilleur-detartrant-machine-a-cafe-v6.jpg",
+   "link": "https://www.moncafemaison.fr/articles/meilleur-detartrant-machine-a-cafe/?utm_source=pinterest&utm_medium=social&utm_campaign=epingles-v3&utm_content=v6"
+  },
+  {
+   "date": "2027-03-12",
+   "order": 1,
+   "feed": "cafe-a-la-maison",
+   "guid": "moncafemaison-meilleur-moulin-pour-espresso-v4",
+   "title": "Moulin pour espresso : le guide pour bien choisir",
+   "description": "Quel moulin choisir pour un vrai espresso ? Mouture fine, régularité, réglages : nos critères concrets et notre sélection pour un espresso équilibré. 👉 Le guide complet sur Mon Café Maison.",
+   "image": "https://www.moncafemaison.fr/pins/meilleur-moulin-pour-espresso-v4.jpg",
+   "link": "https://www.moncafemaison.fr/articles/meilleur-moulin-pour-espresso/?utm_source=pinterest&utm_medium=social&utm_campaign=epingles-v3&utm_content=v4"
+  },
+  {
+   "date": "2027-03-14",
+   "order": 1,
+   "feed": "cafe-a-la-maison",
+   "guid": "moncafemaison-moulin-cafe-meules-ou-lames-v5",
+   "title": "Moulin à meules ou à lames : la vraie différence en 2026",
+   "description": "Moulin à café à meules ou à lames : quelle différence sur le goût, et lequel choisir selon votre café ? Nos explications claires et notre sélection. 👉 Le guide complet sur Mon Café Maison.",
+   "image": "https://www.moncafemaison.fr/pins/moulin-cafe-meules-ou-lames-v5.jpg",
+   "link": "https://www.moncafemaison.fr/articles/moulin-cafe-meules-ou-lames/?utm_source=pinterest&utm_medium=social&utm_campaign=epingles-v3&utm_content=v5"
+  },
+  {
+   "date": "2027-03-23",
+   "order": 0,
+   "feed": "cafe-a-la-maison",
+   "guid": "moncafemaison-chemex-cafetiere-filtre-design-v6",
+   "title": "Chemex : pour qui, et comment bien la choisir",
+   "description": "La Chemex séduit par son design autant que par son café limpide. Nos critères avant d'acheter et notre sélection pour se lancer sans se tromper. 👉 Le guide complet sur Mon Café Maison.",
+   "image": "https://www.moncafemaison.fr/pins/chemex-cafetiere-filtre-design-v6.jpg",
+   "link": "https://www.moncafemaison.fr/articles/chemex-cafetiere-filtre-design/?utm_source=pinterest&utm_medium=social&utm_campaign=epingles-v3&utm_content=v6"
+  },
+  {
+   "date": "2027-03-26",
+   "order": 1,
+   "feed": "cafe-a-la-maison",
+   "guid": "moncafemaison-idees-cadeaux-cafe-par-budget-v4",
+   "title": "Idées cadeaux café : notre sélection par budget",
+   "description": "Petit prix, milieu de gamme ou grand cadeau : notre sélection d'idées cadeaux café pour trouver le bon présent selon le budget disponible. 👉 Le guide complet sur Mon Café Maison.",
+   "image": "https://www.moncafemaison.fr/pins/idees-cadeaux-cafe-par-budget-v4.jpg",
+   "link": "https://www.moncafemaison.fr/articles/idees-cadeaux-cafe-par-budget/?utm_source=pinterest&utm_medium=social&utm_campaign=epingles-v3&utm_content=v4"
+  },
+  {
+   "date": "2027-03-30",
+   "order": 0,
+   "feed": "cafe-a-la-maison",
+   "guid": "moncafemaison-tamper-espresso-bien-choisir-v5",
+   "title": "Tamper à espresso : comment bien le choisir pour un tassage régulier",
+   "description": "Diamètre, poids, base plate ou convexe : nos critères pour choisir un tamper adapté à ta machine, et la méthode pour tasser la mouture sans erreur. 👉 Le guide complet sur Mon Café Maison.",
+   "image": "https://www.moncafemaison.fr/pins/tamper-espresso-bien-choisir-v5.jpg",
+   "link": "https://www.moncafemaison.fr/articles/tamper-espresso-bien-choisir/?utm_source=pinterest&utm_medium=social&utm_campaign=epingles-v3&utm_content=v5"
+  },
+  {
+   "date": "2027-04-02",
+   "order": 1,
+   "feed": "cafe-a-la-maison",
+   "guid": "moncafemaison-machine-expresso-broyeur-integre-v6",
+   "title": "Machine expresso avec broyeur intégré en 2026 : lequel choisir ?",
+   "description": "Grains fraîchement moulus et vrai porte-filtre dans le même appareil : nos critères pour choisir une machine expresso avec broyeur intégré. 👉 Le guide complet sur Mon Café Maison.",
+   "image": "https://www.moncafemaison.fr/pins/machine-expresso-broyeur-integre-v6.jpg",
+   "link": "https://www.moncafemaison.fr/articles/machine-expresso-broyeur-integre/?utm_source=pinterest&utm_medium=social&utm_campaign=epingles-v3&utm_content=v6"
+  },
+  {
+   "date": "2027-04-06",
+   "order": 0,
+   "feed": "cafe-a-la-maison",
+   "guid": "moncafemaison-bouilloire-col-de-cygne-v4",
+   "title": "Bouilloire à col de cygne : pourquoi elle change tout pour le pour-over",
+   "description": "Le contrôle du débit d'eau fait toute la différence en pour-over. Nos critères pour bien choisir une bouilloire à col de cygne, électrique ou sur le feu. 👉 Le guide complet sur Mon Café Maison.",
+   "image": "https://www.moncafemaison.fr/pins/bouilloire-col-de-cygne-v4.jpg",
+   "link": "https://www.moncafemaison.fr/articles/bouilloire-col-de-cygne/?utm_source=pinterest&utm_medium=social&utm_campaign=epingles-v3&utm_content=v4"
+  },
+  {
+   "date": "2027-04-09",
+   "order": 1,
+   "feed": "cafe-a-la-maison",
+   "guid": "moncafemaison-reussir-cafe-filtre-v60-v5",
+   "title": "Café filtre & V60 : la méthode pour un café clair et aromatique",
+   "description": "Réussir un café filtre ou un pour-over V60 : mouture, ratio, bloom et versement en spirale. La méthode qui révèle les arômes, sans amertume ni acidité. 👉 Le guide complet sur Mon Café Maison.",
+   "image": "https://www.moncafemaison.fr/pins/reussir-cafe-filtre-v60-v5.jpg",
+   "link": "https://www.moncafemaison.fr/articles/reussir-cafe-filtre-v60/?utm_source=pinterest&utm_medium=social&utm_campaign=epingles-v3&utm_content=v5"
+  },
+  {
+   "date": "2027-04-13",
+   "order": 0,
+   "feed": "cafe-a-la-maison",
+   "guid": "moncafemaison-reussir-cafetiere-italienne-moka-v6",
+   "title": "Réussir son café à la cafetière italienne (moka) sans amertume",
+   "description": "La méthode pour un café moka corsé mais jamais brûlé : bonne mouture, feu doux, et le geste qui change tout. Le guide pas à pas de la cafetière italienne. 👉 Le guide complet sur Mon Café Maison.",
+   "image": "https://www.moncafemaison.fr/pins/reussir-cafetiere-italienne-moka-v6.jpg",
+   "link": "https://www.moncafemaison.fr/articles/reussir-cafetiere-italienne-moka/?utm_source=pinterest&utm_medium=social&utm_campaign=epingles-v3&utm_content=v6"
+  },
+  {
+   "date": "2027-04-16",
+   "order": 1,
+   "feed": "cafe-a-la-maison",
+   "guid": "moncafemaison-reussir-cold-brew-maison-v4",
+   "title": "Cold brew maison : la recette du café froid doux et peu acide",
+   "description": "Le cold brew (café infusé à froid) en 4 étapes : mouture, ratio, 12 à 24 h au frais, filtrage. Doux, peu acide, sans matériel spécial. 👉 Le guide complet sur Mon Café Maison.",
+   "image": "https://www.moncafemaison.fr/pins/reussir-cold-brew-maison-v4.jpg",
+   "link": "https://www.moncafemaison.fr/articles/reussir-cold-brew-maison/?utm_source=pinterest&utm_medium=social&utm_campaign=epingles-v3&utm_content=v4"
+  },
+  {
+   "date": "2027-04-20",
+   "order": 0,
+   "feed": "cafe-a-la-maison",
+   "guid": "moncafemaison-reussir-espresso-maison-v5",
+   "title": "Réussir son espresso maison : la méthode qui change tout",
+   "description": "Mouture, dose, tassage, temps d'extraction : les 4 réglages qui font un vrai espresso à la maison, avec crema et sans amertume. Le guide clair, étape par étape. 👉 Le guide complet sur Mon Café Maison.",
+   "image": "https://www.moncafemaison.fr/pins/reussir-espresso-maison-v5.jpg",
+   "link": "https://www.moncafemaison.fr/articles/reussir-espresso-maison/?utm_source=pinterest&utm_medium=social&utm_campaign=epingles-v3&utm_content=v5"
+  },
+  {
+   "date": "2027-04-23",
+   "order": 1,
+   "feed": "cafe-a-la-maison",
+   "guid": "moncafemaison-reussir-french-press-piston-v6",
+   "title": "Réussir sa cafetière à piston (French press) : la méthode simple",
+   "description": "Un café à la French press rond et sans dépôt : la bonne mouture, le bon ratio, 4 minutes d'infusion et le geste anti-boue. Le guide clair. 👉 Le guide complet sur Mon Café Maison.",
+   "image": "https://www.moncafemaison.fr/pins/reussir-french-press-piston-v6.jpg",
+   "link": "https://www.moncafemaison.fr/articles/reussir-french-press-piston/?utm_source=pinterest&utm_medium=social&utm_campaign=epingles-v3&utm_content=v6"
+  },
+  {
+   "date": "2027-04-27",
+   "order": 0,
+   "feed": "cafe-a-la-maison",
+   "guid": "moncafemaison-cafetiere-dosette-souple-ese-v4",
+   "title": "Cafetière à dosettes souples (ESE) en 2026 : laquelle choisir ?",
+   "description": "Dosette souple ou dosette ESE : quelle différence, et quelle cafetière choisir pour un café simple, économique et sans prise de tête. 👉 Le guide complet sur Mon Café Maison.",
+   "image": "https://www.moncafemaison.fr/pins/cafetiere-dosette-souple-ese-v4.jpg",
+   "link": "https://www.moncafemaison.fr/articles/cafetiere-dosette-souple-ese/?utm_source=pinterest&utm_medium=social&utm_campaign=epingles-v3&utm_content=v4"
+  },
+  {
+   "date": "2027-04-30",
+   "order": 1,
+   "feed": "cafe-a-la-maison",
+   "guid": "moncafemaison-balance-cafe-precision-v5",
+   "title": "Balance à café de précision : pourquoi (et laquelle) choisir",
+   "description": "Doser au gramme près change la régularité de ton café. Nos critères et notre sélection de balances de précision avec minuterie. 👉 Le guide complet sur Mon Café Maison.",
+   "image": "https://www.moncafemaison.fr/pins/balance-cafe-precision-v5.jpg",
+   "link": "https://www.moncafemaison.fr/articles/balance-cafe-precision/?utm_source=pinterest&utm_medium=social&utm_campaign=epingles-v3&utm_content=v5"
+  },
+  {
+   "date": "2027-05-04",
+   "order": 0,
+   "feed": "cafe-a-la-maison",
+   "guid": "moncafemaison-cafetiere-italienne-moka-v6",
+   "title": "Cafetière italienne (moka) : laquelle choisir en 2026 ?",
+   "description": "3, 6 ou 9 tasses, induction ou non : notre guide pour choisir la bonne cafetière italienne (moka) et réussir son café maison. 👉 Le guide complet sur Mon Café Maison.",
+   "image": "https://www.moncafemaison.fr/pins/cafetiere-italienne-moka-v6.jpg",
+   "link": "https://www.moncafemaison.fr/articles/cafetiere-italienne-moka/?utm_source=pinterest&utm_medium=social&utm_campaign=epingles-v3&utm_content=v6"
+  },
+  {
+   "date": "2027-05-07",
+   "order": 1,
+   "feed": "cafe-a-la-maison",
+   "guid": "moncafemaison-machine-capsules-vs-machine-grains-v4",
+   "title": "Machine à capsules vs machine à grains : quel système choisir ?",
+   "description": "Café en capsules ou machine à grains : lequel choisir selon ton budget, ton temps et le goût recherché ? Notre comparatif honnête. 👉 Le guide complet sur Mon Café Maison.",
+   "image": "https://www.moncafemaison.fr/pins/machine-capsules-vs-machine-grains-v4.jpg",
+   "link": "https://www.moncafemaison.fr/articles/machine-capsules-vs-machine-grains/?utm_source=pinterest&utm_medium=social&utm_campaign=epingles-v3&utm_content=v4"
+  },
+  {
+   "date": "2027-05-11",
+   "order": 0,
+   "feed": "cafe-a-la-maison",
+   "guid": "moncafemaison-meilleur-moulin-cafe-electrique-v5",
+   "title": "Bien choisir son moulin à café électrique",
+   "description": "Quel moulin à café électrique choisir pour une mouture fraîche et régulière ? Meules vs lames, nos critères et notre sélection. 👉 Le guide complet sur Mon Café Maison.",
+   "image": "https://www.moncafemaison.fr/pins/meilleur-moulin-cafe-electrique-v5.jpg",
+   "link": "https://www.moncafemaison.fr/articles/meilleur-moulin-cafe-electrique/?utm_source=pinterest&utm_medium=social&utm_campaign=epingles-v3&utm_content=v5"
+  },
+  {
+   "date": "2027-05-14",
+   "order": 1,
+   "feed": "cafe-a-la-maison",
+   "guid": "moncafemaison-meilleur-moulin-cafe-manuel-v6",
+   "title": "Moulin à café manuel : lequel choisir en 2026 ?",
+   "description": "Précis, silencieux et sans fil : notre guide pour choisir un moulin à café manuel adapté à ton usage quotidien ou en voyage. 👉 Le guide complet sur Mon Café Maison.",
+   "image": "https://www.moncafemaison.fr/pins/meilleur-moulin-cafe-manuel-v6.jpg",
+   "link": "https://www.moncafemaison.fr/articles/meilleur-moulin-cafe-manuel/?utm_source=pinterest&utm_medium=social&utm_campaign=epingles-v3&utm_content=v6"
+  },
+  {
+   "date": "2027-05-18",
+   "order": 0,
+   "feed": "cafe-a-la-maison",
+   "guid": "moncafemaison-meilleur-mousseur-lait-v4",
+   "title": "Mousseur à lait : réussir cappuccino et latte maison",
+   "description": "Quel mousseur à lait choisir pour une mousse onctueuse à la maison ? Pichet chauffant ou fouet portable : nos critères et notre sélection. 👉 Le guide complet sur Mon Café Maison.",
+   "image": "https://www.moncafemaison.fr/pins/meilleur-mousseur-lait-v4.jpg",
+   "link": "https://www.moncafemaison.fr/articles/meilleur-mousseur-lait/?utm_source=pinterest&utm_medium=social&utm_campaign=epingles-v3&utm_content=v4"
+  },
+  {
+   "date": "2027-05-21",
+   "order": 0,
+   "feed": "cafe-a-la-maison",
+   "guid": "moncafemaison-meilleure-cafetiere-filtre-programmable-v5",
+   "title": "Cafetière filtre programmable : le comparatif 2026",
+   "description": "Programmer son café la veille pour se réveiller avec une carafe chaude : notre guide pour choisir la bonne cafetière filtre programmable. 👉 Le guide complet sur Mon Café Maison.",
+   "image": "https://www.moncafemaison.fr/pins/meilleure-cafetiere-filtre-programmable-v5.jpg",
+   "link": "https://www.moncafemaison.fr/articles/meilleure-cafetiere-filtre-programmable/?utm_source=pinterest&utm_medium=social&utm_campaign=epingles-v3&utm_content=v5"
+  },
+  {
+   "date": "2027-05-24",
+   "order": 0,
+   "feed": "cafe-a-la-maison",
+   "guid": "moncafemaison-meilleure-cafetiere-grains-v6",
+   "title": "Quelle machine à café à grains choisir en 2026 ?",
+   "description": "Quelle machine à café à grains choisir pour un bon café maison sans se ruiner ? Nos critères et notre sélection de modèles fiables. 👉 Le guide complet sur Mon Café Maison.",
+   "image": "https://www.moncafemaison.fr/pins/meilleure-cafetiere-grains-v6.jpg",
+   "link": "https://www.moncafemaison.fr/articles/meilleure-cafetiere-grains/?utm_source=pinterest&utm_medium=social&utm_campaign=epingles-v3&utm_content=v6"
+  },
+  {
+   "date": "2027-05-26",
+   "order": 1,
+   "feed": "cafe-a-la-maison",
+   "guid": "moncafemaison-meilleure-cafetiere-piston-french-press-v4",
+   "title": "Cafetière à piston (French press) : laquelle choisir ?",
+   "description": "La cafetière à piston est la façon la plus simple d'obtenir un café riche. Nos critères et notre sélection, verre ou inox. 👉 Le guide complet sur Mon Café Maison.",
+   "image": "https://www.moncafemaison.fr/pins/meilleure-cafetiere-piston-french-press-v4.jpg",
+   "link": "https://www.moncafemaison.fr/articles/meilleure-cafetiere-piston-french-press/?utm_source=pinterest&utm_medium=social&utm_campaign=epingles-v3&utm_content=v4"
+  },
+  {
+   "date": "2027-05-29",
+   "order": 0,
+   "feed": "cafe-a-la-maison",
+   "guid": "moncafemaison-meilleure-machine-expresso-v5",
+   "title": "Machine expresso : le guide pour bien débuter",
+   "description": "Quelle machine expresso choisir pour débuter à la maison ? Porte-filtre ou capsules : nos critères et notre sélection abordable. 👉 Le guide complet sur Mon Café Maison.",
+   "image": "https://www.moncafemaison.fr/pins/meilleure-machine-expresso-v5.jpg",
+   "link": "https://www.moncafemaison.fr/articles/meilleure-machine-expresso/?utm_source=pinterest&utm_medium=social&utm_campaign=epingles-v3&utm_content=v5"
+  },
+  {
+   "date": "2027-05-31",
+   "order": 1,
+   "feed": "cafe-a-la-maison",
+   "guid": "moncafemaison-moulin-cafe-pas-cher-qui-vaut-le-coup-v6",
+   "title": "Moulin à café pas cher : lequel vaut vraiment le coup ?",
+   "description": "Un moulin à café pas cher peut-il donner un bon résultat ? Nos critères pour ne pas se tromper à petit budget, et les pièges à éviter. 👉 Le guide complet sur Mon Café Maison.",
+   "image": "https://www.moncafemaison.fr/pins/moulin-cafe-pas-cher-qui-vaut-le-coup-v6.jpg",
+   "link": "https://www.moncafemaison.fr/articles/moulin-cafe-pas-cher-qui-vaut-le-coup/?utm_source=pinterest&utm_medium=social&utm_campaign=epingles-v3&utm_content=v6"
+  },
+  {
+   "date": "2027-06-02",
+   "order": 1,
+   "feed": "cafe-a-la-maison",
+   "guid": "moncafemaison-machine-cafe-automatique-haut-gamme-v4",
+   "title": "Quelle machine à café automatique haut de gamme choisir ?",
+   "description": "Broyeur, carafe à lait automatique, appli connectée : comment choisir une machine à café automatique haut de gamme sans se tromper. 👉 Le guide complet sur Mon Café Maison.",
+   "image": "https://www.moncafemaison.fr/pins/machine-cafe-automatique-haut-gamme-v4.jpg",
+   "link": "https://www.moncafemaison.fr/articles/machine-cafe-automatique-haut-gamme/?utm_source=pinterest&utm_medium=social&utm_campaign=epingles-v3&utm_content=v4"
+  },
+  {
+   "date": "2027-06-04",
+   "order": 1,
+   "feed": "cafe-a-la-maison",
+   "guid": "moncafemaison-aeropress-test-alternatives-v5",
+   "title": "AeroPress : test complet et meilleures alternatives",
+   "description": "AeroPress : comment ça marche, méthode inversée, critères d'achat et meilleures alternatives pour un café filtre rapide et nomade à la maison. 👉 Le guide complet sur Mon Café Maison.",
+   "image": "https://www.moncafemaison.fr/pins/aeropress-test-alternatives-v5.jpg",
+   "link": "https://www.moncafemaison.fr/articles/aeropress-test-alternatives/?utm_source=pinterest&utm_medium=social&utm_campaign=epingles-v3&utm_content=v5"
+  },
+  {
+   "date": "2027-06-06",
+   "order": 1,
+   "feed": "cafe-a-la-maison",
+   "guid": "moncafemaison-filtres-reutilisables-cafe-v6",
+   "title": "Filtres à café réutilisables : lesquels choisir (et pourquoi arrêter le papier)",
+   "description": "Inox, mesh ou coton : comment choisir un filtre à café réutilisable selon ta méthode, économique et écologique, sans sacrifier le goût. 👉 Le guide complet sur Mon Café Maison.",
+   "image": "https://www.moncafemaison.fr/pins/filtres-reutilisables-cafe-v6.jpg",
+   "link": "https://www.moncafemaison.fr/articles/filtres-reutilisables-cafe/?utm_source=pinterest&utm_medium=social&utm_campaign=epingles-v3&utm_content=v6"
+  },
+  {
+   "date": "2027-06-08",
+   "order": 1,
+   "feed": "cafe-a-la-maison",
+   "guid": "moncafemaison-meilleur-detartrant-machine-a-cafe-v4",
+   "title": "Détartrant pour machine à café : lequel choisir et comment bien détartrer",
+   "description": "Le tartre abîme le goût et les résistances. Nos critères pour choisir un détartrant (liquide, pastilles, acide citrique) et l'utiliser sans risque. 👉 Le guide complet sur Mon Café Maison.",
+   "image": "https://www.moncafemaison.fr/pins/meilleur-detartrant-machine-a-cafe-v4.jpg",
+   "link": "https://www.moncafemaison.fr/articles/meilleur-detartrant-machine-a-cafe/?utm_source=pinterest&utm_medium=social&utm_campaign=epingles-v3&utm_content=v4"
+  },
+  {
+   "date": "2027-06-10",
+   "order": 1,
+   "feed": "cafe-a-la-maison",
+   "guid": "moncafemaison-meilleur-moulin-pour-espresso-v5",
+   "title": "Moulin pour espresso : le guide pour bien choisir",
+   "description": "Quel moulin choisir pour un vrai espresso ? Mouture fine, régularité, réglages : nos critères concrets et notre sélection pour un espresso équilibré. 👉 Le guide complet sur Mon Café Maison.",
+   "image": "https://www.moncafemaison.fr/pins/meilleur-moulin-pour-espresso-v5.jpg",
+   "link": "https://www.moncafemaison.fr/articles/meilleur-moulin-pour-espresso/?utm_source=pinterest&utm_medium=social&utm_campaign=epingles-v3&utm_content=v5"
+  },
+  {
+   "date": "2027-06-12",
+   "order": 1,
+   "feed": "cafe-a-la-maison",
+   "guid": "moncafemaison-moulin-cafe-meules-ou-lames-v6",
+   "title": "Moulin à meules ou à lames : la vraie différence en 2026",
+   "description": "Moulin à café à meules ou à lames : quelle différence sur le goût, et lequel choisir selon votre café ? Nos explications claires et notre sélection. 👉 Le guide complet sur Mon Café Maison.",
+   "image": "https://www.moncafemaison.fr/pins/moulin-cafe-meules-ou-lames-v6.jpg",
+   "link": "https://www.moncafemaison.fr/articles/moulin-cafe-meules-ou-lames/?utm_source=pinterest&utm_medium=social&utm_campaign=epingles-v3&utm_content=v6"
+  }
+ ]
+}

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:media="http://search.yahoo.com/mrss/" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Mon Café Maison · Café à la maison</title>
+    <link>https://www.moncafemaison.fr/</link>
+    <description>Épingles du tableau Pinterest « Café à la maison »</description>
+    <language>fr-FR</language>
+    <lastBuildDate>Fri, 25 Sep 2026 04:00:00 GMT</lastBuildDate>
+    <atom:link href="https://www.moncafemaison.fr/pinterest/cafe-a-la-maison.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>
+<!-- amorce : la tâche GitHub réécrit ce fichier au premier passage -->
