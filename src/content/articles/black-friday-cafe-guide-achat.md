@@ -8,7 +8,7 @@ pinHook: "Le *vrai* bon plan café du Black Friday"
 pinSub: "Ce qui vaut le coup d'attendre (ou pas)."
 keywords: ["black friday café", "promo machine à café black friday", "bon plan café black friday", "black friday machine expresso"]
 category: "machines"
-coverAlt: "Machine à expresso en inox argenté posée sur une table en bois brun, prête à préparer un café"
+coverAlt: "Machine à expresso professionnelle en inox à trois groupes, avec des tasses posées dessus, sur le comptoir d'un café"
 draft: false
 faq:
   - question: "Le Black Friday est-il vraiment le meilleur moment pour acheter du matériel à café ?"
