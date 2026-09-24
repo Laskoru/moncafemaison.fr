@@ -6,7 +6,7 @@ Format : `- [ ] Sujet — angle — catégorie`.
 
 ## 🎁 Saison — priorité : à publier avant mi-octobre (indexés pour Noël / Black Friday)
 - [x] Idées cadeaux pour un amateur de café : notre sélection par budget (Noël 2026) — guide cadeaux, du petit accessoire à la machine — accessoires
-- [ ] Black Friday café : quel matériel vaut vraiment le coup d'attendre (et comment repérer une fausse promo) — guide d'achat malin — machines
+- [x] Black Friday café : quel matériel vaut vraiment le coup d'attendre (et comment repérer une fausse promo) — guide d'achat malin — machines
 
 ## Machines & cafetières
 

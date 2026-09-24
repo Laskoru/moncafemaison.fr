@@ -83,3 +83,4 @@ Le débat capsules contre grains n'a pas de gagnant universel : c'est un arbitra
 - [Meilleure cafetière à grains](/articles/meilleure-cafetiere-grains/)
 - [Machine expresso à broyeur intégré](/articles/machine-expresso-broyeur-integre/)
 - [Meilleur mousseur à lait](/articles/meilleur-mousseur-lait/)
+- [Black Friday café : quel matériel attendre ?](/articles/black-friday-cafe-guide-achat/)
