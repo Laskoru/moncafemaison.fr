@@ -61,6 +61,21 @@
       ],
       "destination": "https://www.moncafemaison.fr/$1",
       "permanent": true
+    },
+    {
+      "source": "/articles/aeropress-avis-et-alternatives/",
+      "destination": "/articles/aeropress-test-alternatives/",
+      "statusCode": 301
+    },
+    {
+      "source": "/articles/v60-pour-over-kit-debutant/",
+      "destination": "/articles/reussir-cafe-filtre-v60/",
+      "statusCode": 301
+    },
+    {
+      "source": "/articles/meilleure-machine-expresso-debutant/",
+      "destination": "/articles/meilleure-machine-expresso/",
+      "statusCode": 301
     }
   ]
 }

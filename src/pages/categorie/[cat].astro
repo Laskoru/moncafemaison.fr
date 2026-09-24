@@ -38,6 +38,7 @@ const relatedGuides = guides.filter((g) => g.articles.some((s) => slugs.has(s)))
   />
 
   <section class="wide list">
+    {cat.intro && <div class="cat-intro" set:html={cat.intro} />}
     <h2 class="sr-only">Les articles de cette catégorie</h2>
     {articles.length === 0 && <p class="empty">Aucun article publié dans cette catégorie pour le moment.</p>}
     <div class="grid">
@@ -60,6 +61,11 @@ const relatedGuides = guides.filter((g) => g.articles.some((s) => slugs.has(s)))
 <style>
   .list { padding-top: 2rem; padding-bottom: 1rem; }
   .empty { color: var(--color-text-muted); }
+  .cat-intro { max-width: 68ch; margin: 0 0 2.25rem; font-size: 1.02rem; line-height: 1.65; color: var(--color-text); }
+  .cat-intro :global(p) { margin: 0 0 0.9rem; }
+  .cat-intro :global(p:last-child) { margin-bottom: 0; }
+  .cat-intro :global(a) { color: var(--color-accent); text-underline-offset: 0.18em; }
+  .cat-intro :global(a:hover) { text-decoration-thickness: 2px; }
   .grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.4rem; }
   .cat-guides { margin-top: 3rem; padding-top: 1.5rem; border-top: 1px solid var(--color-border); }
   .cat-guides__label { margin: 0 0 0.8rem; font-family: var(--font-display); font-weight: 700; font-size: 1.15rem; }

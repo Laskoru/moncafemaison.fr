@@ -3,6 +3,15 @@ import BaseLayout from '../layouts/BaseLayout.astro';
 import PageHead from '../components/PageHead.astro';
 import Icon from '../components/Icon.astro';
 import { siteConfig } from '../siteConfig';
+
+// Guides pas à pas par méthode : liens statiques (découverte par Google + suite logique du dosage).
+const guidesMethode = [
+  { name: 'Espresso', hint: 'Mouture très fine, 25 à 30 s d’extraction', href: '/articles/reussir-espresso-maison/' },
+  { name: 'Cafetière italienne (moka)', hint: 'Mouture fine, panier rempli sans tasser', href: '/articles/reussir-cafetiere-italienne-moka/' },
+  { name: 'Piston (French press)', hint: 'Mouture grossière, 4 minutes d’infusion', href: '/articles/reussir-french-press-piston/' },
+  { name: 'V60 et café filtre', hint: 'Mouture moyenne-fine, bloom de 30 s', href: '/articles/reussir-cafe-filtre-v60/' },
+  { name: 'Cold brew', hint: 'Infusion longue à froid, café doux et peu acide', href: '/articles/reussir-cold-brew-maison/' },
+];
 ---
 
 <BaseLayout
@@ -72,6 +81,16 @@ import { siteConfig } from '../siteConfig';
       Ajuste ensuite à ton goût : ces chiffres sont un excellent point de départ, pas une règle figée.
       Pour la mouture et le geste, vois <a href="/methodes-cafe/">le panorama des méthodes</a> et nos <a href="/guides/">guides</a>.
     </p>
+
+    <div class="methodes">
+      <h2 class="methodes__title">Réussir ta méthode, pas à pas</h2>
+      <p class="methodes__lede">Le dosage fait la moitié du travail. Le geste fait le reste : chaque guide détaille la mouture, le temps et les erreurs à éviter pour une méthode.</p>
+      <ul class="methodes__list">
+        {guidesMethode.map((g) => (
+          <li><a href={g.href}><span class="methodes__name">{g.name}</span><span class="methodes__hint">{g.hint}</span></a></li>
+        ))}
+      </ul>
+    </div>
   </section>
 </BaseLayout>
 
@@ -202,6 +221,16 @@ import { siteConfig } from '../siteConfig';
   .result__tip :global(svg) { flex: none; color: var(--color-accent); margin-top: 0.1em; }
 
   .calc__note { margin: 2rem 0 0; color: var(--color-text-muted); font-size: 0.98rem; max-width: 62ch; }
+
+  .methodes { margin-top: 2.5rem; padding-top: 2rem; border-top: 1px solid var(--color-border); }
+  .methodes__title { margin: 0 0 0.5rem; font-size: 1.35rem; }
+  .methodes__lede { margin: 0 0 1.25rem; color: var(--color-text-muted); max-width: 62ch; line-height: 1.55; }
+  .methodes__list { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 0.75rem; }
+  .methodes__list a { display: flex; flex-direction: column; gap: 0.25rem; min-height: 44px; height: 100%; padding: 0.9rem 1rem; border: 1px solid var(--color-border-strong); border-radius: var(--radius); background: var(--color-surface); color: var(--color-text); text-decoration: none; transition: border-color 0.15s ease; }
+  .methodes__list a:hover { border-color: var(--color-accent); }
+  .methodes__name { font-family: var(--font-ui); font-weight: 700; font-size: 1rem; }
+  .methodes__list a:hover .methodes__name { color: var(--color-accent); }
+  .methodes__hint { font-size: 0.9rem; line-height: 1.45; color: var(--color-text-muted); }
 
   @media (max-width: 720px) { .calc__grid { grid-template-columns: 1fr; } }
   @media (max-width: 400px) { .result__num { font-size: 2.8rem; } }

@@ -31,11 +31,21 @@ const tools = [
         </li>
       ))}
     </ul>
+
+    <div class="usage">
+      <h2 class="usage__title">Comment t’en servir</h2>
+      <p>Commence par le <a href="/methodes-cafe/">comparatif des méthodes</a> si tu hésites encore entre espresso, moka, piston ou filtre : il te montre quelle méthode colle à ton goût, à ton temps et à ton budget. Une fois ta méthode choisie, le <a href="/calculateur-dosage-cafe/">calculateur de dosage</a> te donne les quantités exactes pour le nombre de tasses que tu prépares.</p>
+      <p>Pour le geste lui-même, chaque méthode a son guide pas à pas : <a href="/articles/reussir-espresso-maison/">espresso</a>, <a href="/articles/reussir-cafetiere-italienne-moka/">moka</a>, <a href="/articles/reussir-french-press-piston/">piston</a>, <a href="/articles/reussir-cafe-filtre-v60/">V60 et café filtre</a>, <a href="/articles/reussir-cold-brew-maison/">cold brew</a>. Et quand un mot t’échappe (crema, bloom, sur-extraction), le <a href="/lexique/">lexique</a> l’explique en clair.</p>
+    </div>
   </section>
 </BaseLayout>
 
 <style>
   .outils { padding-top: 1.5rem; padding-bottom: 1rem; }
+  .usage { margin-top: 1.5rem; padding-top: 1.75rem; border-top: 1px solid var(--color-border); max-width: 66ch; }
+  .usage__title { margin: 0 0 0.75rem; font-size: 1.3rem; }
+  .usage p { margin: 0 0 0.9rem; line-height: 1.65; color: var(--color-text); }
+  .usage a { color: var(--color-accent); text-underline-offset: 0.18em; }
   .tool { position: relative; display: grid; grid-template-columns: auto 1fr; gap: 1.25rem; padding: 1.5rem 0.25rem; transition: background-color 0.15s ease; }
   .tool:hover { background: var(--color-surface); }
   .tool__icon { display: inline-flex; color: var(--color-accent); margin-top: 0.2rem; }
