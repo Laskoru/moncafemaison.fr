@@ -8,7 +8,6 @@ pinHook: "Le *vrai* bon plan café du Black Friday"
 pinSub: "Ce qui vaut le coup d'attendre (ou pas)."
 keywords: ["black friday café", "promo machine à café black friday", "bon plan café black friday", "black friday machine expresso"]
 category: "machines"
-coverImage: "https://images.unsplash.com/photo-1614106768867-be54041e32d3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDE3MjIwfDB8MXxzZWFyY2h8Mnx8ZXNwcmVzc28lMjBtYWNoaW5lJTIwc3RvcmUlMjBzaGVsZnxlbnwwfDB8fHwxNzkwMjY5MDU3fDI&ixlib=rb-4.1.0&q=80&w=1080"
 coverAlt: "Machine à expresso en inox argenté posée sur une table en bois brun, prête à préparer un café"
 draft: false
 faq:
