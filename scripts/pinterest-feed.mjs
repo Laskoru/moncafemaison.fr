@@ -2,6 +2,8 @@
 // Pinterest lit chaque flux une fois par jour et publie les éléments qu'il n'a pas encore vus.
 // Le flux ne montre que les épingles dont la date est arrivée (fuseau de Paris), sur 30 jours glissants,
 // et jamais avant la date de départ : les épingles futures restent invisibles jusqu'à leur jour.
+// Exception : un flux n'est jamais vide (Pinterest refuse de le brancher), il montre alors sa
+// prochaine épingle en avance, qui part dès le branchement.
 // Données : pinterest/queue.json, écrit par Sites/pins-v3/generate.mjs sur le PC d'Hugo.
 // Lancé chaque matin par .github/workflows/pinterest-feed.yml, et par la finisseuse locale.
 // Test : PINS_TODAY=AAAA-MM-JJ node scripts/pinterest-feed.mjs
@@ -19,16 +21,25 @@ from.setUTCDate(from.getUTCDate() - 30);
 const windowStart = [queue.start, from.toISOString().slice(0, 10)].sort().pop();
 
 const esc = (s) => String(s ?? '').replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
-const rfc822 = (day) => new Date(`${day}T04:00:00Z`).toUTCString();
+// Une date future n'est jamais annoncée : une épingle d'amorce porte la date du jour tant que la sienne n'est pas arrivée.
+const rfc822 = (day) => new Date(`${day < today ? day : today}T04:00:00Z`).toUTCString();
+const byDate = (dir) => (a, b) => (a.date === b.date ? a.order - b.order : (a.date < b.date ? -1 : 1) * dir);
 const base = `https://www.${queue.domain}`;
 const outDir = path.join(ROOT, 'public', 'pinterest');
 fs.mkdirSync(outDir, { recursive: true });
 
 const summary = [];
 for (const [feed, board] of Object.entries(queue.feeds)) {
-  const items = queue.items
-    .filter((it) => it.feed === feed && it.date >= windowStart && it.date <= today)
-    .sort((a, b) => (a.date === b.date ? a.order - b.order : a.date < b.date ? 1 : -1));
+  const mine = queue.items.filter((it) => it.feed === feed && it.date >= queue.start);
+  let items = mine.filter((it) => it.date >= windowStart && it.date <= today).sort(byDate(-1));
+  if (!items.length) {
+    // Pinterest refuse de brancher un flux vide : on garde toujours une épingle. D'abord la dernière
+    // déjà parue (Pinterest l'a vue, rien n'est republié), sinon la prochaine à venir (l'amorce),
+    // publiée dès le branchement du flux au lieu d'attendre sa date.
+    const past = mine.filter((it) => it.date <= today).sort(byDate(-1))[0];
+    const next = mine.filter((it) => it.date > today).sort(byDate(1))[0];
+    items = [past || next].filter(Boolean);
+  }
   const xmlItems = items.map((it) => {
     const local = path.join(ROOT, 'public', new URL(it.image).pathname);
     const length = fs.existsSync(local) ? fs.statSync(local).size : 0;
