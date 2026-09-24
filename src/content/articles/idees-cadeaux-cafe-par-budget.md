@@ -8,7 +8,7 @@ pinHook: "Le cadeau café *parfait*, à chaque budget"
 pinSub: "Notre sélection, du petit prix au grand cadeau."
 keywords: ["idée cadeau café", "cadeau amateur de café", "cadeau pour buveur de café", "idée cadeau machine à café"]
 category: "accessoires"
-coverAlt: "Moulin à café manuel posé dans une boîte cadeau, avec un cœur dessiné dans la mousse d'un café"
+coverAlt: "Moulin à café manuel en bois dans une boîte cadeau garnie de paille, avec un cœur de grains de café et une cuillère"
 draft: false
 faq:
   - question: "Quel budget prévoir pour un cadeau café qui fait vraiment plaisir ?"
