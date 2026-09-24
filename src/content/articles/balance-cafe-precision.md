@@ -2,7 +2,7 @@
 title: "Balance à café de précision : pourquoi (et laquelle) choisir"
 description: "Doser au gramme près change la régularité de ton café. Nos critères et notre sélection de balances de précision avec minuterie."
 pubDate: 2026-08-16
-updatedDate: 2026-09-21
+updatedDate: 2026-09-24
 author: "Hugo B."
 pinHook: "Doser *au gramme près*, comme un barista"
 pinSub: "La précision qui transforme la tasse."
@@ -81,6 +81,29 @@ C'est l'usage le plus exigeant. Pose la balance sur le plateau d'égouttage, la 
 ## Balance de cuisine ou balance à café ?
 
 Une bonne balance de cuisine au dixième de gramme, avec tare et plateau assez large, suffit pour le filtre et la French press. Les balances « à café » ajoutent trois choses : une **minuterie** intégrée (souvent automatique), une **réactivité** élevée (l'affichage suit le flux en temps réel, indispensable pour l'espresso), et un **format** adapté aux plateaux de machine. Si tu bois surtout du filtre, la balance de cuisine que tu as déjà fera l'affaire ; si tu tires des espressos chaque jour, la balance dédiée se rentabilise en cafés non gâchés. Dans les deux cas, la précision au **0,1 g** est la seule caractéristique qui ne se négocie pas.
+
+## Peser un café filtre ou une French press, geste par geste
+
+Sans machine expresso, la balance sert à doser la mouture puis à suivre l'eau versée. Pour une tasse de café filtre :
+
+1. Pose la carafe (ou la tasse) et le cône avec son filtre rincé sur la balance, puis fais la **tare**.
+2. Verse la mouture jusqu'à **15 g** et refais la tare : l'écran repart de zéro et n'affichera plus que l'eau.
+3. Lance le chrono et verse une trentaine de grammes d'eau, soit environ le double du poids de café, pour la pré-infusion (le « bloom »). Attends 30 à 45 secondes.
+4. Verse le reste en plusieurs fois jusqu'à **250 g**, en visant une fin d'écoulement autour de 3 minutes. Le détail du versement est dans [réussir son café filtre](/articles/reussir-cafe-filtre-v60/).
+
+En French press, c'est encore plus simple : tare la carafe, pèse **30 g** de mouture grossière, refais la tare, verse **450 g** d'eau et lance les 4 minutes. La marche à suivre complète est dans [réussir sa French press](/articles/reussir-french-press-piston/).
+
+Pèse de préférence les **grains avant de moudre** : c'est plus propre qu'une cuillère de mouture qui s'éparpille sur le plateau, et la dose reste juste à condition de récupérer toute la mouture en sortie de moulin.
+
+## Vérifier que ta balance reste juste
+
+Une balance au dixième de gramme peut dériver avec le temps, après un choc ou avec des piles faibles. Trois contrôles rapides suffisent :
+
+- **Le retour à zéro** : pose une tasse, puis retire-la. L'écran doit revenir à 0,0 g ; si un écart réapparaît à chaque fois, la balance dérive.
+- **La stabilité** : laisse un objet posé une minute. L'affichage ne doit ni monter ni descendre tout seul.
+- **La répétabilité** : pèse trois fois de suite le même objet, en le retirant entre chaque pesée. Tu dois lire la même valeur.
+
+Pour la justesse, certaines balances sont livrées avec un **poids d'étalonnage**, et la notice explique comment recalibrer. À défaut, une pièce de 1 €, qui pèse 7,5 g, donne un repère rapide. Enfin, pose toujours la balance sur une surface plane et stable, à l'écart des vibrations d'un moulin en marche.
 
 ## Conclusion
 

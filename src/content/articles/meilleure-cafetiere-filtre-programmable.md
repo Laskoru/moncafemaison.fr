@@ -2,6 +2,7 @@
 title: "Cafetière filtre programmable : le comparatif 2026"
 description: "Programmer son café la veille pour se réveiller avec une carafe chaude : notre guide pour choisir la bonne cafetière filtre programmable."
 pubDate: 2026-08-16
+updatedDate: 2026-09-24
 author: "Hugo B."
 pinHook: "Le café du matin, *prêt au réveil*"
 pinSub: "La filtre programmable idéale."
@@ -67,6 +68,28 @@ Pour une utilisation programmée la veille au soir, le filtre papier reste souve
 ## Bien utiliser la programmation sans se rater
 
 Quelques réflexes évitent les mauvaises surprises : utilise toujours de l'eau fraîche (pas de l'eau qui a stagné toute la nuit dans le réservoir), vérifie que le café moulu est d'une mouture moyenne adaptée au filtre, et double-vérifie l'heure programmée avant de te coucher — une erreur d'AM/PM est l'erreur classique qui gâche le réveil. Pense aussi à nettoyer le porte-filtre après chaque utilisation : le marc laissé à l'humidité toute une journée développe vite une odeur désagréable qui peut affecter le café suivant.
+
+## Combien de café mettre dans la cafetière
+
+La cuillère doseuse livrée avec la machine est pratique, mais son contenu varie selon la mouture et la façon de la remplir. Le repère fiable est celui de tout café filtre : environ **60 g de café moulu par litre d'eau**, soit une quinzaine de grammes pour 250 ml. Pour un litre d'eau dans le réservoir, compte donc une soixantaine de grammes ; pour un demi-litre, une trentaine. Pèse une fois ta dose habituelle, puis compte combien de cuillères elle représente avec ton café : tu pourras ensuite doser sans balance.
+
+Méfie-toi aussi des graduations en « tasses » : chaque fabricant a sa propre définition, et il s'agit de petites tasses, bien moins qu'un mug. Raisonne plutôt en litres. Évite enfin de préparer une seule tasse dans une grande machine : la mouture forme une couche trop mince dans le porte-filtre, l'eau la traverse trop vite et le café sort fade. Certains modèles proposent un réglage « petites quantités » qui ralentit l'écoulement pour compenser. Pour le reste (mouture, eau, diagnostic d'une tasse acide ou amère), les repères de [notre méthode du café filtre](/articles/reussir-cafe-filtre-v60/) valent aussi pour la cafetière électrique.
+
+## Quand la cafetière fait des siennes
+
+Les soucis d'une cafetière filtre se ressemblent d'un modèle à l'autre, et la plupart se règlent en quelques minutes :
+
+| Le problème | La cause probable | Le remède |
+|---|---|---|
+| Le porte-filtre déborde | Mouture trop fine, trop de café, ou carafe mal placée qui laisse le système anti-goutte fermé | Mouture moyenne, dose pesée, carafe bien calée sur son socle |
+| L'écoulement ralentit, le cycle s'allonge | Tartre dans le circuit | Détartrage, suivi de deux ou trois cycles d'eau claire |
+| Café tiède | Carafe isotherme froide au départ, ou tartre qui freine la chauffe | Rincer la carafe à l'eau chaude avant le cycle ; détartrer |
+| Café amer | Café resté longtemps sur la plaque, mouture trop fine | Boire dans l'heure ou passer à l'isotherme ; mouture un peu plus grossière |
+| Café fade, aqueux | Pas assez de café, mouture éventée, petite quantité dans un grand porte-filtre | 60 g/L pesés, café fraîchement moulu |
+| Goût de vinaigre après détartrage | Rinçage insuffisant | Un ou deux cycles d'eau claire de plus |
+| Du marc dans la carafe | Filtre plié, mal ajusté ou pas à la bonne taille | Filtre adapté au porte-filtre, bien ouvert contre les parois |
+
+Pour choisir le produit et suivre le détartrage pas à pas, voir [notre guide des détartrants](/articles/meilleur-detartrant-machine-a-cafe/).
 
 ## Conclusion
 

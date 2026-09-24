@@ -2,6 +2,7 @@
 title: "Machine à capsules vs machine à grains : quel système choisir ?"
 description: "Café en capsules ou machine à grains : lequel choisir selon ton budget, ton temps et le goût recherché ? Notre comparatif honnête."
 pubDate: 2026-08-16
+updatedDate: 2026-09-24
 author: "Hugo B."
 pinHook: "Capsules ou grains ? *Le vrai match*"
 pinSub: "Quel système pour quel profil."
@@ -57,6 +58,20 @@ La machine à grains demande un entretien plus régulier : vider le bac à marc,
 ## Et l'impact environnemental dans tout ça ?
 
 Le café en grains produit un déchet organique — le marc — qui se composte facilement et peut même servir d'engrais ou d'anti-odeur au jardin. Les capsules, elles, doivent suivre une filière de recyclage dédiée (bacs de collecte, points de dépôt), et une partie finit encore aujourd'hui en déchet non trié faute de geste systématique. Certaines marques proposent désormais des capsules compostables ou en aluminium recyclable, ce qui réduit l'écart sans l'annuler complètement.
+
+## Et les boissons au lait ?
+
+Si tu bois surtout des cappuccinos ou des lattes, regarde de près la façon dont chaque machine gère le lait : c'est souvent là que se joue le confort au quotidien.
+
+Côté capsules, trois cas de figure coexistent : les machines vendues avec un mousseur séparé, celles qui intègrent un petit système à lait, et les systèmes qui misent sur des capsules de lait en poudre. Ces dernières sont les plus simples à utiliser, mais le résultat reste un lait reconstitué, loin de la texture d'un lait frais moussé.
+
+Côté grains, l'entrée de gamme propose en général une buse vapeur manuelle : il faut un petit coup de main, mais tu travailles un vrai lait frais. Plus haut en gamme, les [machines automatiques haut de gamme](/articles/machine-cafe-automatique-haut-gamme/) ajoutent une carafe ou un tube à lait qui prépare le cappuccino d'une seule touche, en échange d'un rinçage du circuit après chaque usage. Et quelle que soit la machine, un [mousseur à lait](/articles/meilleur-mousseur-lait/) indépendant reste une solution simple et peu coûteuse.
+
+## Changer de café d'une tasse à l'autre
+
+C'est un critère auquel on pense rarement avant l'achat. Avec des capsules, chaque tasse peut être différente : un café intense le matin, un décaféiné le soir, une origine plus douce pour un invité, sans rien régler.
+
+La plupart des machines à grains, elles, n'ont qu'une trémie, donc un seul café à la fois. Pour en changer, il faut la vider, et les premières tasses mélangent encore l'ancien café resté dans le broyeur. Beaucoup de modèles prévoient une parade : un compartiment pour **café déjà moulu**, qui contourne le broyeur le temps d'une tasse. C'est la solution idéale pour un déca occasionnel ; vérifie sa présence dans la fiche technique si tu comptes alterner. Pour le reste, garde un seul café du quotidien dans la trémie, et ne la remplis que pour deux ou trois jours afin qu'il reste frais.
 
 ## Les idées reçues à écarter
 

@@ -2,7 +2,7 @@
 title: "Cafetière à piston (French press) : laquelle choisir ?"
 description: "La cafetière à piston est la façon la plus simple d'obtenir un café riche. Nos critères et notre sélection, verre ou inox."
 pubDate: 2026-08-16
-updatedDate: 2026-09-21
+updatedDate: 2026-09-24
 author: "Hugo B."
 pinHook: "Le café le plus simple, *le plus corsé*"
 pinSub: "La French press, réussie."
@@ -77,9 +77,29 @@ Le **plastique sans BPA** existe surtout pour le camping et les déplacements : 
 
 Le filtre d'une French press est composé de trois pièces (tamis, disque perforé, croisillon à ressort) qu'il faut **démonter** de temps en temps. Les huiles du café s'y déposent et rancissent : un café qui prend un goût « de vieux » alors que les grains sont frais vient presque toujours de là. Une fois par semaine, dévisse l'ensemble, brosse le tamis, et laisse tremper les pièces dans de l'eau chaude avec un peu de bicarbonate. Évite les liquides vaisselle très parfumés, dont l'odeur reste dans le tamis. Le marc, lui, ne va pas dans l'évier : il finit par boucher les canalisations. Un coup de spatule vers la poubelle ou le compost, puis un rinçage.
 
+## Le filtre s'use : quand le remplacer
+
+Le tamis métallique est la pièce qui travaille le plus, et c'est souvent lui qui lâche avant la carafe. Trois signes doivent t'alerter :
+
+- **Les bords du tamis** se déforment ou s'effilochent : ils ne frottent plus contre la paroi, et la mouture passe par les côtés.
+- **Le ressort** qui plaque le filtre contre la paroi se détend : le filtre ne tient plus droit et laisse un jour sur le pourtour.
+- **Le dépôt augmente** d'un coup, alors que ta mouture et ton geste n'ont pas changé.
+
+Inutile alors de changer de cafetière : beaucoup de fabricants vendent le **filtre de rechange** seul, au diamètre de chaque modèle. Vérifie qu'il existe avant d'acheter, au même titre que la carafe. Au remontage, respecte l'ordre d'origine des pièces (une photo avant de démonter évite les hésitations) et visse sans forcer, pour ne pas voiler le disque.
+
 ## Le bonus : le cold brew
 
 Une cafetière à piston est aussi l'outil idéal pour le café infusé à froid : même mouture grossière, eau froide, 12 à 18 heures au réfrigérateur, puis on abaisse le piston. Le résultat est doux, peu acide, sans amertume, et se garde plusieurs jours au frais. C'est le meilleur moyen d'amortir ta cafetière pendant l'été — la recette est dans [réussir son cold brew maison](/articles/reussir-cold-brew-maison/).
+
+## French press, filtre ou italienne : quelle méthode pour toi ?
+
+Avant de choisir un modèle, vérifie que la méthode correspond à la tasse que tu aimes :
+
+- **La French press** donne un café rond, au corps marqué, avec un léger trouble et un peu de dépôt au fond. Selon sa taille, elle sert d'une à quatre personnes, sans électricité ni consommable à racheter.
+- **Le filtre papier** fait l'inverse : une tasse claire, légère, qui met les arômes en avant, sans dépôt. Si un fond de tasse trouble te gêne, c'est plutôt ta méthode, et une [cafetière filtre programmable](/articles/meilleure-cafetiere-filtre-programmable/) prépare même la carafe avant ton réveil.
+- **La cafetière italienne** produit un café court, corsé et concentré, plus proche d'un café serré que d'un café long.
+
+Les méthodes ne s'excluent pas : une French press coûte peu et se range partout, ce qui en fait aussi un bon complément d'une cafetière déjà installée dans la cuisine.
 
 ## Conclusion
 

@@ -2,7 +2,7 @@
 title: "Mousseur à lait : réussir cappuccino et latte maison"
 description: "Quel mousseur à lait choisir pour une mousse onctueuse à la maison ? Pichet chauffant ou fouet portable : nos critères et notre sélection."
 pubDate: 2026-08-16
-updatedDate: 2026-09-21
+updatedDate: 2026-09-24
 author: "Hugo B."
 pinHook: "Cappuccino et latte *maison*"
 pinSub: "La mousse de lait parfaite, bien choisie."
@@ -74,6 +74,28 @@ Si ta machine possède une buse vapeur, tu peux te demander à quoi sert un mous
 ## Entretien : la règle des 30 secondes
 
 Le lait sèche vite et forme un film qui finit par sentir mauvais et gêner le fouet. Rince le pichet ou la tête du fouet **immédiatement après usage**, à l'eau chaude, avant même de boire ton café. Un intérieur antiadhésif se nettoie ensuite à l'éponge douce, jamais au tampon abrasif. Sur un pichet électrique, la base et les contacts ne vont pas au lave-vaisselle ni sous le robinet ; sur un fouet à piles, ne mouille que la tige. Une fois par semaine, un passage à l'eau très chaude avec une goutte de liquide vaisselle, puis un rinçage soigneux, suffit à éviter toute odeur.
+
+## Quelle mousse pour quelle boisson
+
+Toutes les boissons lactées ne demandent pas la même texture. Quelques repères pour viser juste :
+
+- **Cappuccino** : une mousse épaisse et généreuse. La proportion classique partage la tasse en trois tiers à peu près égaux : espresso, lait chaud, mousse.
+- **Latte** : surtout du lait chaud, coiffé d'une fine couche de mousse d'environ un centimètre. Choisis le programme de mousse légère, ou arrête le fouet plus tôt.
+- **Latte macchiato** : dans un grand verre, le lait chaud et sa mousse d'abord, puis l'espresso versé lentement, qui se glisse entre les deux et dessine des couches.
+- **Flat white** : une micro-mousse très fine et peu épaisse, mêlée au café. C'est la boisson où la buse vapeur garde le plus d'avance.
+- **Boissons glacées** : le lait mousse aussi à froid. Une mousse froide déposée sur un café glacé ou sur un [cold brew maison](/articles/reussir-cold-brew-maison/) change complètement la boisson.
+
+Sur un pichet électrique, ces textures passent souvent par des fouets ou des programmes distincts : garde la notice à portée de main les premières fois.
+
+## Mousse ratée : les causes à vérifier
+
+Si la mousse ne monte pas ou s'effondre aussitôt alors que le lait n'est pas en cause, regarde du côté de ces erreurs fréquentes :
+
+- **Un lait déjà chauffé.** Un reste de lait réchauffé, ou moussé une deuxième fois, ne redonne jamais une belle mousse : la chaleur a déjà transformé ses protéines. Repars d'un lait froid, pas encore chauffé.
+- **Un fouet mal installé.** Sur beaucoup de pichets, il se place sur un petit axe au fond de la cuve ; oublié ou mal enfoncé, il laisse le lait chauffer sans mousser.
+- **Pas assez de lait.** Sous le repère minimum, le lait ne couvre pas bien le fouet et mousse mal.
+- **Des piles fatiguées** dans un fouet portable : il tourne moins vite, et la mousse reste molle.
+- **Un pichet qui refuse de redémarrer** juste après un cycle : c'est souvent sa sécurité contre la surchauffe. Laisse-le refroidir quelques minutes avant la tasse suivante.
 
 ## Conclusion
 
