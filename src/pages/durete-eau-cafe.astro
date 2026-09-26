@@ -1,0 +1,431 @@
+---
+import Icon from '../components/Icon.astro';
+import BaseLayout from '../layouts/BaseLayout.astro';
+import PageHead from '../components/PageHead.astro';
+import { siteConfig } from '../siteConfig';
+
+// « L'eau de ton café est-elle calcaire ? » : la commune vient de l'API officielle des communes
+// (geo.api.gouv.fr), la dureté des analyses du contrôle sanitaire de l'eau potable (ministère de
+// la Santé, via Hub'Eau). Tout est lu depuis le navigateur ; le site n'enregistre rien.
+// Même moteur que l'outil « dureté de l'eau » de Chez Claudine et d'AquaJungle, recalé ici sur la
+// plage recommandée par la Specialty Coffee Association (SCA) pour l'extraction du café, plus
+// stricte que la plage « admise » pour l'eau potable en général.
+const faq = [
+  {
+    q: 'Quelle dureté d’eau est idéale pour le café ?',
+    a: 'La Specialty Coffee Association vise une dureté cible autour de 150 mg/L de carbonate de calcium, soit environ 15 °f, avec une plage acceptable de 50 à 175 mg/L (environ 5 à 17,5 °f). En dessous, le café a tendance à sortir plat et acide ; au-dessus, le tartre s’accumule vite et le goût peut devenir terne.',
+  },
+  {
+    q: 'Une eau trop douce est-elle un problème pour le café ?',
+    a: 'Oui : sans un minimum de minéraux, l’extraction manque de rondeur et le café peut paraître plat ou acide, même bien dosé. C’est pourquoi la SCA fixe un minimum (50 mg/L) et pas seulement un maximum. Une eau très douce n’entartre pas la machine, mais ne donne pas non plus le meilleur du café.',
+  },
+  {
+    q: 'Comment régler la dureté sur ma machine à café ou mon moulin à broyeur intégré ?',
+    a: 'Beaucoup de machines à café automatiques ont un réglage de dureté en degrés allemands (°dH), qui ajuste la fréquence des alertes de détartrage. Divise les degrés français (°f) par 1,78 pour obtenir des °dH : l’outil fait le calcul pour toi, à reporter dans le menu de la machine.',
+  },
+];
+const jsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'FAQPage',
+  mainEntity: faq.map((f) => ({ '@type': 'Question', name: f.q, acceptedAnswer: { '@type': 'Answer', text: f.a } })),
+};
+---
+
+<BaseLayout
+  title="L'eau de ton café est-elle calcaire ? La dureté par commune"
+  description={`Choisis ta commune : ${siteConfig.name} affiche la dureté de ton eau du robinet d'après les analyses officielles, et ce qu'elle change pour le goût du café et le détartrage.`}
+  jsonLd={jsonLd}
+>
+  <PageHead
+    title="L'eau de ton café est-elle calcaire ?"
+    lede="Choisis ta commune : on affiche la dureté de ton eau du robinet d'après les dernières analyses officielles, et ce qu'elle change pour le goût de ton café et l'entretien de ta machine."
+    crumbs={[{ label: 'Accueil', href: '/' }, { label: 'Outils', href: '/outils/' }, { label: 'Dureté de l’eau' }]}
+  />
+
+  <section class="wide calc">
+    <div class="calc__grid">
+      <form class="calc__controls card" role="search" aria-labelledby="commune-label" onsubmit="return false">
+        <span class="field__label" id="commune-label">Ta commune</span>
+        <div class="combo">
+          <input
+            id="commune-input"
+            type="text"
+            autocomplete="off"
+            spellcheck="false"
+            placeholder="Nom de la ville ou code postal"
+            role="combobox"
+            aria-labelledby="commune-label"
+            aria-autocomplete="list"
+            aria-expanded="false"
+            aria-controls="commune-list"
+          />
+          <ul id="commune-list" class="combo__list" role="listbox" aria-label="Communes proposées" hidden></ul>
+        </div>
+        <button type="button" class="btn btn--outline locate" id="locate"><Icon name="search" size={16} /> Me localiser</button>
+        <p class="calc__hint">Ta recherche part directement vers les services publics des communes et des analyses d'eau ; {siteConfig.name} n'enregistre rien.</p>
+      </form>
+
+      <div class="calc__result card" aria-live="polite" aria-busy="false" id="result">
+        <p class="calc__label"><Icon name="droplet" size={15} /><span id="res-title">Ton eau du robinet</span></p>
+        <div id="res-empty" class="res__empty">
+          <p>Tape le nom de ta ville ou ton code postal, puis choisis ta commune dans la liste.</p>
+          <p class="calc__hint">Les chiffres viennent du contrôle sanitaire de l'eau potable : des prélèvements réguliers, analysés pour chaque réseau de distribution.</p>
+        </div>
+        <div id="res-body" hidden>
+          <div class="res__verdict">
+            <p class="res__class"><span class="badge" id="th-class">–</span></p>
+            <p class="res__plain" id="th-plain"></p>
+          </div>
+
+          <!-- Jauge : l'échelle en clair, la plage SCA idéale pour le café (5 à 17,5 °f) et la position de la commune. -->
+          <div class="gauge" id="gauge" role="img" aria-label="">
+            <div class="gauge__pin" id="gauge-pin" style="--x: 0%"><span class="gauge__val"><b id="th-f">–</b> °f</span></div>
+            <div class="gauge__bar" aria-hidden="true">
+              <span class="gauge__seg gauge__seg--douce">Trop douce</span>
+              <span class="gauge__seg gauge__seg--ideale">Idéale</span>
+              <span class="gauge__seg gauge__seg--elevee">Élevée</span>
+              <span class="gauge__seg gauge__seg--dure">Dure</span>
+              <span class="gauge__seg gauge__seg--tres">Très dure</span>
+            </div>
+            <div class="gauge__axis" aria-hidden="true"><span style="--x: 0%">0</span><span style="--x: 30%">15</span><span style="--x: 60%">30</span><span style="--x: 80%">40</span><span style="--x: 100%">50+</span></div>
+            <div class="gauge__ideal" aria-hidden="true"><span>zone SCA café : 5 à 17,5 °f</span></div>
+          </div>
+          <p class="res__compare" id="th-compare" hidden></p>
+
+          <dl class="res__meta">
+            <div><dt>Équivalent calcaire</dt><dd id="th-mg">–</dd></div>
+            <div><dt>Réglage machine</dt><dd id="th-d">–</dd></div>
+            <div><dt>En mmol/L</dt><dd id="th-m">–</dd></div>
+            <div><dt>Dernière analyse</dt><dd id="last">–</dd></div>
+          </dl>
+          <ul class="res__tips" id="tips"></ul>
+          <p class="res__src" id="src"></p>
+        </div>
+      </div>
+    </div>
+
+    <div class="calc__prose">
+      <h2>Pourquoi la dureté de l'eau compte pour le café</h2>
+      <p>
+        L'eau représente plus de 98 % d'une tasse de café : sa composition minérale change directement le goût. La dureté, ou titre
+        hydrotimétrique (TH), mesure le calcium et le magnésium dissous. Un minimum de minéraux aide l'extraction et donne du corps au café ;
+        au-delà d'un certain seuil, le calcaire se dépose plutôt qu'il n'aide, et l'excès peut rendre la tasse terne.
+      </p>
+
+      <h2>La plage recommandée par la SCA, et pourquoi elle diffère de l'eau potable « normale »</h2>
+      <p>
+        Pour l'eau potable en général, une eau est jugée simplement « dans les clous » entre 8 et 25 °f. Pour le café, la
+        <strong>Specialty Coffee Association</strong> (SCA) vise plus précisément une cible autour de 150 mg/L de carbonate de calcium
+        (environ 15 °f), avec une plage acceptable de 50 à 175 mg/L, soit environ <strong>5 à 17,5 °f</strong>. C'est plus étroit,
+        et surtout plus bas : une eau jugée « douce et confortable » pour la maison peut déjà être proche de la limite haute pour un espresso.
+      </p>
+      <ul>
+        <li><strong>Trop douce (moins de 5 °f)</strong> : peu de minéraux pour accrocher les arômes ; le café sort souvent plat, parfois acide, même avec un bon dosage.</li>
+        <li><strong>Dans la zone idéale (5 à 17,5 °f)</strong> : assez de minéraux pour une extraction équilibrée, sans excès de calcaire.</li>
+        <li><strong>Élevée à dure (17,5 à 40 °f)</strong> : le détartrage devient plus fréquent, et le goût peut progressivement perdre en netteté. Voir <a href="/articles/meilleur-detartrant-machine-a-cafe/">quel détartrant choisir</a> et à quelle fréquence l'utiliser.</li>
+        <li><strong>Très dure (plus de 40 °f)</strong> : filtration ou carafe filtrante fortement conseillées, pour le goût comme pour préserver la résistance de la machine.</li>
+      </ul>
+
+      <h2>Ce que change la dureté de ton eau, concrètement</h2>
+      <ul>
+        <li><strong>Le détartrage</strong> : avec une eau dure, le tartre revient vite dans la chaudière ou le réservoir. Détartre dès que la machine le signale, avec un <a href="/articles/meilleur-detartrant-machine-a-cafe/">détartrant adapté</a> plutôt qu'en attendant que le goût du café s'en ressente.</li>
+        <li><strong>Le réglage de dureté de la machine</strong> : de nombreuses machines automatiques demandent la dureté en degrés allemands (°dH) pour ajuster la fréquence des alertes de détartrage. L'outil fait la conversion pour toi.</li>
+        <li><strong>Le goût en tasse</strong> : au-delà de la zone SCA, le café peut sembler plus terne malgré un bon réglage de mouture et de dose ; en dessous, il manque souvent de corps. Le <a href="/calculateur-dosage-cafe/">calculateur de dosage</a> reste valable, mais ne corrige pas un problème d'eau.</li>
+        <li><strong>Le choix d'une carafe filtrante</strong> : pour une eau dure ou très dure, un filtre à eau réduit le calcaire avant même qu'il n'entre dans la machine — utile en complément du détartrage, pas à la place.</li>
+      </ul>
+
+      <h2>Comment lire la dureté de ton eau</h2>
+      <p>
+        Les analyses donnent la dureté en degrés français (°f). Un degré français correspond à 10 mg de calcaire (carbonate de calcium)
+        par litre : une eau à 20 °f en contient l'équivalent de 200 mg par litre, soit déjà au-dessus de la cible SCA de 150 mg/L.
+      </p>
+      <div class="scale-wrap">
+        <table class="scale">
+          <thead><tr><th scope="col">Dureté</th><th scope="col">Pour le café</th><th scope="col">Ce que tu remarques</th></tr></thead>
+          <tbody>
+            <tr><td>moins de 5 °f</td><td><span class="badge badge--douce">Trop douce</span></td><td>Café souvent plat ou acide, même bien dosé ; pas de souci de tartre.</td></tr>
+            <tr><td>5 à 17,5 °f</td><td><span class="badge badge--ideale">Idéale (SCA)</span></td><td>Extraction équilibrée ; détartrage occasionnel seulement.</td></tr>
+            <tr><td>17,5 à 40 °f</td><td><span class="badge badge--elevee">Élevée à dure</span></td><td>Détartrage plus fréquent ; le goût peut perdre en netteté.</td></tr>
+            <tr><td>plus de 40 °f</td><td><span class="badge badge--tres">Très dure</span></td><td>Tartre rapide ; filtre à eau ou carafe filtrante recommandés.</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p class="calc__note">
+        Cible et plage acceptable : norme eau de la Specialty Coffee Association (SCA Water for Brewing Standard). Réglage de machine
+        souvent en degrés allemands (°dH) : l'outil fait la conversion.
+      </p>
+
+      <h2>Questions fréquentes</h2>
+      {faq.map((f) => (
+        <details class="faq">
+          <summary>{f.q}</summary>
+          <p>{f.a}</p>
+        </details>
+      ))}
+
+      <p class="calc__note">
+        Sources : analyses du contrôle sanitaire des eaux destinées à la consommation humaine (ministère chargé de la Santé, ARS), diffusées par
+        <a href="https://hubeau.eaufrance.fr/page/api-qualite-eau-potable" rel="noopener" target="_blank">Hub'Eau</a> ; liste des communes :
+        <a href="https://geo.api.gouv.fr/" rel="noopener" target="_blank">API Découpage administratif</a> ; plage recommandée pour le café :
+        <a href="https://sca.coffee/research/protocols-best-practices" rel="noopener" target="_blank">Specialty Coffee Association, Water for Brewing Standard</a>.
+      </p>
+    </div>
+  </section>
+</BaseLayout>
+
+<script is:inline>
+  (function () {
+    var GEO = 'https://geo.api.gouv.fr/communes';
+    var HUB = 'https://hubeau.eaufrance.fr/api/v1/qualite_eau_potable/resultats_dis';
+    var FIELDS = 'nom,code,codesPostaux,departement';
+    var input = document.getElementById('commune-input');
+    var list = document.getElementById('commune-list');
+    var box = document.getElementById('result');
+    var $ = function (id) { return document.getElementById(id); };
+    var options = [], active = -1, timer = null, seq = 0;
+    var nf = function (v, d) { return v.toLocaleString('fr-FR', { maximumFractionDigits: d == null ? 1 : d }); };
+    var esc = function (s) { return String(s).replace(/[&<>"]/g, function (c) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]; }); };
+    var label = function (c) { return c.nom + (c.departement ? ' (' + c.departement.code + ')' : ''); };
+
+    function closeList() { list.hidden = true; input.setAttribute('aria-expanded', 'false'); input.removeAttribute('aria-activedescendant'); active = -1; }
+    function renderList() {
+      if (!options.length) { closeList(); return; }
+      list.innerHTML = options.map(function (c, i) {
+        var cp = c.codesPostaux && c.codesPostaux.length ? c.codesPostaux[0] : '';
+        return '<li role="option" id="opt-' + i + '" data-i="' + i + '"' + (i === active ? ' aria-selected="true"' : '') + '><b>' + esc(c.nom) + '</b> <span>' + esc(cp) + (c.departement ? ' · ' + esc(c.departement.nom) : '') + '</span></li>';
+      }).join('');
+      list.hidden = false;
+      input.setAttribute('aria-expanded', 'true');
+      if (active >= 0) input.setAttribute('aria-activedescendant', 'opt-' + active); else input.removeAttribute('aria-activedescendant');
+    }
+    function search(q) {
+      q = q.trim();
+      if (q.length < 2) { options = []; renderList(); return; }
+      var url = /^\d{5}$/.test(q)
+        ? GEO + '?codePostal=' + q + '&fields=' + FIELDS + '&limit=12'
+        : GEO + '?nom=' + encodeURIComponent(q) + '&fields=' + FIELDS + '&boost=population&limit=7';
+      var mine = ++seq;
+      fetch(url).then(function (r) { return r.json(); }).then(function (data) {
+        if (mine !== seq) return;
+        options = Array.isArray(data) ? data : []; active = options.length ? 0 : -1; renderList();
+      }).catch(function () { options = []; renderList(); });
+    }
+    input.addEventListener('input', function () { clearTimeout(timer); timer = setTimeout(function () { search(input.value); }, 220); });
+    input.addEventListener('keydown', function (e) {
+      if (list.hidden && e.key !== 'Enter') return;
+      if (e.key === 'ArrowDown') { e.preventDefault(); active = Math.min(options.length - 1, active + 1); renderList(); }
+      else if (e.key === 'ArrowUp') { e.preventDefault(); active = Math.max(0, active - 1); renderList(); }
+      else if (e.key === 'Enter') { e.preventDefault(); if (options[active]) choose(options[active]); }
+      else if (e.key === 'Escape') { closeList(); }
+    });
+    list.addEventListener('mousedown', function (e) { var li = e.target.closest('li[data-i]'); if (li) { e.preventDefault(); choose(options[+li.dataset.i]); } });
+    input.addEventListener('blur', function () { setTimeout(closeList, 120); });
+
+    function choose(c) {
+      input.value = label(c);
+      closeList();
+      try { localStorage.setItem('mcm-commune', JSON.stringify({ code: c.code, nom: c.nom, departement: c.departement })); } catch (e) {}
+      try { var u = new URL(location.href); u.searchParams.set('commune', c.code); history.replaceState(null, '', u); } catch (e) {}
+      loadWater(c);
+    }
+    function isoDaysAgo(n) { return new Date(Date.now() - n * 864e5).toISOString().slice(0, 10); }
+    function median(a) { var s = a.slice().sort(function (x, y) { return x - y; }); var m = s.length >> 1; return s.length % 2 ? s[m] : (s[m - 1] + s[m]) / 2; }
+    function fetchTH(code, days) {
+      // Hub'Eau peut rester muet de longues minutes quand il est en panne : on coupe au bout de 20 s.
+      var ctl = window.AbortController ? new AbortController() : null;
+      var t = ctl ? setTimeout(function () { ctl.abort(); }, 20000) : null;
+      return fetch(HUB + '?code_commune=' + encodeURIComponent(code) + '&code_parametre_se=TH&date_min_prelevement=' + isoDaysAgo(days)
+        + '&sort=desc&size=300&fields=date_prelevement,resultat_numerique,nom_reseau', ctl ? { signal: ctl.signal } : undefined)
+        .then(function (r) { clearTimeout(t); if (!r.ok && r.status !== 206) throw new Error('HTTP ' + r.status); return r.json(); });
+    }
+    // Classes recalées sur la plage SCA pour le café (cible ~15 °f, plage 5-17,5 °f), pas la plage
+    // « admise » plus large de l'eau potable en général.
+    function classOf(th) {
+      if (th < 5) return { name: 'Eau trop douce', key: 'douce', badge: 'douce', plain: 'Pas assez de minéraux pour une extraction ronde : le café a tendance à sortir plat, parfois acide, même bien dosé.' };
+      if (th < 17.5) return { name: 'Idéale pour le café (SCA)', key: 'ideale', badge: 'ideale', plain: 'Dans la plage recommandée par la Specialty Coffee Association : assez de minéraux pour une extraction équilibrée, sans excès de calcaire.' };
+      if (th < 30) return { name: 'Eau élevée', key: 'elevee', badge: 'elevee', plain: 'Au-dessus de la cible café : le détartrage devient plus fréquent, et le goût peut progressivement perdre en netteté.' };
+      if (th < 40) return { name: 'Eau dure', key: 'dure', badge: 'dure', plain: 'Le tartre se dépose vite dans la chaudière ou le réservoir ; un filtre à eau aide autant que le détartrage régulier.' };
+      return { name: 'Eau très dure', key: 'dure', badge: 'tres', plain: 'Beaucoup de calcaire : filtration ou carafe filtrante fortement conseillées, pour le goût comme pour la machine.' };
+    }
+    // Villes repères : médiane des analyses sur 12 mois (relevé Hub'Eau du 26/09/2026), pour situer une valeur en °f.
+    var REF = [];
+    function compare(th, code) {
+      var refs = REF.filter(function (r) { return r.code !== code; });
+      if (!refs.length) return '';
+      var below = refs.filter(function (r) { return r.th < th - 0.5; }).pop();
+      var above = refs.filter(function (r) { return r.th > th + 0.5; })[0];
+      var same = refs.filter(function (r) { return Math.abs(r.th - th) <= 0.5; })[0];
+      var f = function (r) { return r.nom + ' (' + nf(r.th, 0) + ' °f)'; };
+      if (same) return 'Pour situer : à peu près comme à ' + f(same) + '.';
+      if (below && above) return 'Pour situer : plus calcaire qu’à ' + f(below) + ', moins qu’à ' + f(above) + '.';
+      if (above) return 'Pour situer : moins calcaire qu’à ' + f(above) + ', la plus douce de nos villes repères.';
+      return 'Pour situer : plus calcaire qu’à ' + f(below) + ', la plus dure de nos villes repères.';
+    }
+    var TIPS = {
+      douce: [
+        'Pas de souci côté détartrage, mais le café peut manquer de corps : vérifie d’abord la mouture et le dosage avec le <a href="/calculateur-dosage-cafe/">calculateur de dosage</a> avant d’incriminer l’eau.',
+        'Si le café reste plat malgré un bon réglage, une eau minérale en bouteille avec un résidu sec plus élevé peut aider en dépannage.',
+      ],
+      ideale: [
+        'Rien à changer côté eau : le détartrage régulier de ta machine suffit à garder ce résultat dans le temps.',
+        'C’est le moment de peaufiner la mouture et le dosage : l’eau n’est plus la variable qui limite le goût.',
+      ],
+      elevee: [
+        'Détartre dès que ta machine le signale, avec un <a href="/articles/meilleur-detartrant-machine-a-cafe/">détartrant adapté</a> plutôt qu’en attendant que le goût s’en ressente.',
+        'Une carafe filtrante avant la machine réduit le calcaire à l’entrée et espace les détartrages.',
+      ],
+      dure: [
+        'Détartrage fréquent nécessaire : voir <a href="/articles/meilleur-detartrant-machine-a-cafe/">quel détartrant choisir</a> et à quelle fréquence l’utiliser.',
+        'Une filtration à l’entrée (carafe filtrante ou filtre intégré à la machine) protège la résistance et limite l’impact sur le goût.',
+      ],
+    };
+    function setState(s) { $('res-empty').hidden = s === 'ok'; $('res-body').hidden = s !== 'ok'; box.setAttribute('aria-busy', s === 'loading' ? 'true' : 'false'); }
+    function message(html, loading) { $('res-empty').innerHTML = '<p>' + html + '</p>'; setState(loading ? 'loading' : 'msg'); }
+
+    var waterSeq = 0;
+    function loadWater(c) {
+      // Jeton : une réponse arrivée après un nouveau choix de commune est ignorée.
+      var mine = ++waterSeq;
+      $('res-title').textContent = 'Eau du robinet · ' + label(c);
+      message('Recherche des dernières analyses…', true);
+      fetchTH(c.code, 365).then(function (j) {
+        var rows = ((j && j.data) || []).filter(function (x) { return x.resultat_numerique != null; });
+        if (rows.length) return { rows: rows, span: 12 };
+        return fetchTH(c.code, 1095).then(function (k) { return { rows: ((k && k.data) || []).filter(function (x) { return x.resultat_numerique != null; }), span: 36 }; });
+      }).then(function (res) {
+        if (mine !== waterSeq) return;
+        if (!res.rows.length) { message("Aucune analyse de dureté n'a été publiée pour cette commune ces trois dernières années. Essaie une commune voisine, ou demande la fiche qualité de l'eau à ta mairie."); return; }
+        var v = res.rows.map(function (x) { return x.resultat_numerique; });
+        var th = median(v), lo = Math.min.apply(null, v), hi = Math.max.apply(null, v), cls = classOf(th);
+        $('th-f').textContent = nf(th);
+        $('th-class').textContent = cls.name;
+        $('th-class').className = 'badge badge--' + cls.badge;
+        $('th-plain').textContent = cls.plain;
+        // Jauge linéaire de 0 à 50 °f (au-delà, le repère reste en bout d'échelle).
+        $('gauge-pin').style.setProperty('--x', Math.max(0, Math.min(100, th * 2)) + '%');
+        $('gauge').setAttribute('aria-label', 'Dureté de ' + nf(th) + ' °f, sur une échelle de 0 à 50 °f : ' + cls.name.toLowerCase() + '. Plage SCA recommandée pour le café : 5 à 17,5 °f.');
+        var cmp = compare(th, c.code);
+        $('th-compare').textContent = cmp; $('th-compare').hidden = !cmp;
+        // 1 °f = 10 mg de carbonate de calcium par litre (définition du degré français).
+        $('th-mg').textContent = nf(Math.round(th * 10), 0) + ' mg par litre';
+        $('th-d').textContent = nf(th / 1.78) + ' °dH';
+        $('th-m').textContent = nf(th / 10, 2) + ' mmol/L';
+        var d = res.rows[0].date_prelevement.slice(0, 10).split('-');
+        $('last').textContent = d[2] + '/' + d[1] + '/' + d[0];
+        var tips = TIPS[cls.key].slice();
+        $('tips').innerHTML = tips.map(function (t) { return '<li>' + t + '</li>'; }).join('');
+        var nets = {}; res.rows.forEach(function (x) { if (x.nom_reseau) nets[x.nom_reseau] = 1; });
+        $('src').innerHTML = 'Valeur médiane de ' + v.length + ' analyse' + (v.length > 1 ? 's' : '') + ' sur ' + res.span + ' mois'
+          + (hi - lo >= 1 ? ', de ' + nf(lo) + ' à ' + nf(hi) + ' °f selon les prélèvements' : '') + '.'
+          + (Object.keys(nets).length > 1 ? ' Plusieurs réseaux alimentent ta commune : la dureté peut varier selon ton quartier.' : '')
+          + ' Source : contrôle sanitaire de l’eau potable (ministère de la Santé), via Hub’Eau.';
+        setState('ok');
+      }).catch(function () { if (mine === waterSeq) message("Le service public des analyses d'eau ne répond pas pour l'instant. Réessaie dans un moment."); });
+    }
+
+    document.getElementById('locate').addEventListener('click', function () {
+      if (!navigator.geolocation) { message('Ton navigateur ne permet pas la localisation : tape plutôt le nom de ta ville.'); return; }
+      message('Localisation en cours…', true);
+      navigator.geolocation.getCurrentPosition(function (pos) {
+        fetch(GEO + '?lat=' + pos.coords.latitude.toFixed(4) + '&lon=' + pos.coords.longitude.toFixed(4) + '&fields=' + FIELDS)
+          .then(function (r) { return r.json(); }).then(function (d) { if (d && d[0]) choose(d[0]); else message('Commune introuvable : tape plutôt le nom de ta ville.'); })
+          .catch(function () { message('Commune introuvable : tape plutôt le nom de ta ville.'); });
+      }, function () { message('Localisation refusée : tape plutôt le nom de ta ville.'); }, { timeout: 10000, maximumAge: 600000 });
+    });
+
+    // Au chargement : commune passée dans le lien (?commune=35238), sinon la dernière consultée.
+    var code = null;
+    try { code = new URL(location.href).searchParams.get('commune'); } catch (e) {}
+    if (code && /^[0-9AB]{5}$/.test(code)) {
+      fetch(GEO + '/' + code + '?fields=' + FIELDS).then(function (r) { return r.json(); }).then(function (c) { if (c && c.code) choose(c); }).catch(function () {});
+    } else {
+      try { var saved = JSON.parse(localStorage.getItem('mcm-commune') || 'null'); if (saved && saved.code) { input.value = label(saved); loadWater(saved); } } catch (e) {}
+    }
+  })();
+</script>
+
+<style>
+  .calc { padding-block: 2rem 3.5rem; }
+  .calc__grid { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1.15fr); gap: 1.4rem; align-items: start; }
+  .card { background: var(--color-surface); border: 1px solid var(--color-border); border-radius: var(--radius); box-shadow: var(--shadow-card); }
+  .calc__controls { padding: 1.4rem 1.4rem 1.2rem; display: flex; flex-direction: column; align-items: stretch; gap: 0.9rem; }
+  .field__label { font-family: var(--font-ui); font-weight: 600; font-size: 0.95rem; }
+  .calc__hint { margin: 0; font-size: 0.84rem; color: var(--color-text-faint); }
+  .combo { position: relative; }
+  .combo input { width: 100%; font: inherit; font-size: 1.05rem; padding: 0.75rem 0.9rem; border-radius: var(--radius); border: 1px solid var(--color-border-strong); background: var(--color-bg); color: var(--color-text); min-height: 48px; }
+  .combo input:focus-visible { outline: 2.5px solid var(--color-accent); outline-offset: 2px; }
+  .combo__list { position: absolute; z-index: 5; left: 0; right: 0; top: calc(100% + 4px); margin: 0; padding: 0.3rem; list-style: none; background: var(--color-surface); border: 1px solid var(--color-border-strong); border-radius: var(--radius); box-shadow: var(--shadow-card); max-height: 320px; overflow: auto; }
+  .combo__list :global(li) { padding: 0.6rem 0.7rem; border-radius: 6px; cursor: pointer; display: flex; flex-wrap: wrap; gap: 0.1rem 0.5rem; align-items: baseline; min-height: 44px; }
+  .combo__list :global(li span) { font-size: 0.82rem; color: var(--color-text-muted); }
+  .combo__list :global(li[aria-selected="true"]), .combo__list :global(li:hover) { background: var(--color-bg-soft); }
+  .locate { align-self: flex-start; display: inline-flex; align-items: center; gap: 0.4em; min-height: 44px; }
+
+  .calc__result { position: relative; padding: 1.8rem 1.6rem 1.5rem; min-height: 240px; }
+  .calc__label { position: absolute; top: -0.75rem; left: 1.2rem; display: inline-flex; align-items: center; gap: 0.35em; max-width: calc(100% - 2.4rem); font-family: var(--font-ui); font-weight: 700; font-size: 0.82rem; text-transform: uppercase; letter-spacing: 0.04em; background: var(--color-accent-soft); color: var(--color-accent); padding: 0.25rem 0.6rem; border-radius: var(--radius-sm); }
+  .calc__label span { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  .res__empty :global(p) { margin: 0.4rem 0 0.8rem; line-height: 1.6; }
+  #res-body { display: flex; flex-direction: column; gap: 1rem; }
+  #res-body[hidden] { display: none; }
+  .res__verdict { margin-top: 0.4rem; }
+  .res__class { margin: 0; }
+  .res__plain { margin: 0.7rem 0 0; font-size: 1.08rem; line-height: 1.55; }
+
+  /* Badges de dureté : palette locale à cette page (café douce → très dure). */
+  .calc {
+    --hue-douce: #6b8fa3;
+    --hue-ideale: var(--color-crema);
+    --hue-elevee: #c98a3d;
+    --hue-tres: #7a3410;
+  }
+  .badge { display: inline-flex; align-items: center; font-family: var(--font-ui); font-weight: 700; font-size: 1rem; padding: 0.3rem 0.75rem; border-radius: var(--radius-sm); color: #fff; background: var(--color-text-faint); }
+  .badge--douce { background: var(--hue-douce); }
+  .badge--ideale { background: var(--hue-ideale); }
+  .badge--elevee { background: var(--hue-elevee); }
+  .badge--dure { background: var(--color-accent); }
+  .badge--tres { background: var(--hue-tres); }
+
+  .gauge { position: relative; padding-top: 2.6rem; }
+  .gauge__pin { position: absolute; top: 0; left: var(--x); transform: translateX(-50%); display: flex; flex-direction: column; align-items: center; transition: left 0.5s var(--ease-out); }
+  .gauge__pin::after { content: ''; width: 0; height: 0; border-left: 7px solid transparent; border-right: 7px solid transparent; border-top: 9px solid var(--color-text); margin-top: 2px; }
+  .gauge__val { font-size: 0.9rem; white-space: nowrap; background: var(--color-text); color: #fff; padding: 0.1rem 0.45rem; border-radius: var(--radius-sm); font-variant-numeric: tabular-nums; }
+  .gauge__val b { font-weight: 800; }
+  .gauge__bar { display: grid; grid-template-columns: 10fr 25fr 25fr 20fr 20fr; gap: 3px; height: 30px; }
+  .gauge__seg { display: flex; align-items: center; justify-content: center; border-radius: var(--radius-sm); font-family: var(--font-ui); font-size: 0.68rem; letter-spacing: 0.04em; text-transform: uppercase; color: #fff; text-shadow: 0 1px 0 rgba(0, 0, 0, 0.3); overflow: hidden; white-space: nowrap; }
+  .gauge__seg--douce { background-color: var(--hue-douce); }
+  .gauge__seg--ideale { background-color: var(--hue-ideale); }
+  .gauge__seg--elevee { background-color: var(--hue-elevee); }
+  .gauge__seg--dure { background-color: var(--color-accent); }
+  .gauge__seg--tres { background-color: var(--hue-tres); }
+  .gauge__axis { position: relative; height: 1.3rem; font-size: 0.74rem; color: var(--color-text-muted); font-variant-numeric: tabular-nums; }
+  .gauge__axis span { position: absolute; top: 0.25rem; left: var(--x); transform: translateX(-50%); white-space: nowrap; }
+  .gauge__axis span:first-child { transform: none; }
+  .gauge__axis span:last-child { transform: translateX(-100%); }
+  /* Zone SCA café 5–17,5 °f = 10 % → 35 % de la jauge (échelle 0–50 °f). */
+  .gauge__ideal { position: relative; margin-left: 10%; width: 25%; margin-top: 0.3rem; border: 2px solid var(--hue-ideale); border-top: 0; height: 0.45rem; border-radius: 0 0 3px 3px; }
+  .gauge__ideal span { position: absolute; top: 0.55rem; left: 0; font-size: 0.72rem; color: var(--hue-ideale); font-weight: 700; white-space: nowrap; }
+  .res__compare { margin: 1.1rem 0 0; font-size: 0.95rem; }
+
+  .res__meta { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 0.7rem; margin: 0; padding-top: 0.9rem; border-top: 1px solid var(--color-border); }
+  .res__meta dt { font-size: 0.72rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.06em; color: var(--color-text-muted); }
+  .res__meta dd { margin: 0.15rem 0 0; font-weight: 700; font-variant-numeric: tabular-nums; }
+  .res__tips { margin: 0; padding-left: 1.1rem; display: flex; flex-direction: column; gap: 0.45rem; line-height: 1.55; }
+  .res__src { margin: 0; font-size: 0.8rem; line-height: 1.5; color: var(--color-text-faint); }
+  .calc__prose { margin-top: 2.5rem; max-width: 70ch; }
+  .calc__prose h2 { font-size: 1.5rem; margin: 2rem 0 0.7rem; }
+  .calc__prose li { margin-bottom: 0.5rem; line-height: 1.65; }
+  .calc__note { font-size: 0.88rem; color: var(--color-text-muted); }
+  .scale-wrap { overflow-x: auto; margin: 1rem 0; }
+  .scale { width: 100%; border-collapse: collapse; font-size: 0.95rem; }
+  .scale th { text-align: left; font-size: 0.74rem; text-transform: uppercase; letter-spacing: 0.06em; color: var(--color-text-muted); padding: 0 0.6rem 0.5rem 0; border-bottom: 1px solid var(--color-border-strong); }
+  .scale td { padding: 0.65rem 0.6rem 0.65rem 0; border-bottom: 1px solid var(--color-border); vertical-align: top; line-height: 1.5; }
+  .scale td:first-child { white-space: nowrap; font-weight: 700; font-variant-numeric: tabular-nums; }
+  .scale .badge { font-size: 0.82rem; padding: 0.15rem 0.55rem; }
+  .faq { border-bottom: 1px solid var(--color-border); padding: 0.8rem 0; }
+  .faq summary { cursor: pointer; font-weight: 700; min-height: 44px; display: flex; align-items: center; }
+  .faq p { margin: 0.5rem 0 0; }
+  @media (max-width: 760px) {
+    .calc__grid { grid-template-columns: 1fr; }
+    .res__meta { grid-template-columns: 1fr 1fr; }
+    .gauge__seg { font-size: 0.6rem; letter-spacing: 0.02em; }
+  }
+</style>
