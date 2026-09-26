@@ -2,7 +2,7 @@
 title: "Réussir son café à la cafetière italienne (moka) sans amertume"
 description: "La méthode pour un café moka corsé mais jamais brûlé : bonne mouture, feu doux, et le geste qui change tout. Le guide pas à pas de la cafetière italienne."
 pubDate: 2026-09-13
-updatedDate: 2026-09-21
+updatedDate: 2026-09-26
 author: "Hugo B."
 keywords: ["comment utiliser une cafetière italienne", "réussir café moka sans amertume", "café moka réussir", "utiliser cafetière italienne", "moka bialetti méthode"]
 category: "preparer"
@@ -16,6 +16,10 @@ faq:
     answer: "Presque toujours à cause d'un feu trop fort ou d'une cafetière laissée sur la source de chaleur après la montée. On chauffe à feu doux à modéré, et on retire la cafetière dès que le café gargouille, en refroidissant éventuellement la base sous l'eau pour stopper net l'extraction."
   - question: "Quelle mouture pour la cafetière italienne ?"
     answer: "Une mouture moyenne, un peu plus grossière que pour l'espresso et plus fine que pour le filtre — proche du sel fin. Trop fine, elle colmate le filtre et surchauffe ; trop grossière, le café est fade. Une mouture fraîche et régulière (moulin à meules) donne le meilleur résultat."
+  - question: "Une cafetière italienne peut-elle exploser ?"
+    answer: "C'est rare, mais la pression peut monter dangereusement si l'eau ne passe plus : filtre bouché par une mouture trop fine ou tassée, eau versée au-dessus de la soupape, ou soupape bloquée par le calcaire. La soupape de sécurité sert justement à libérer l'excès de vapeur : remplis toujours sous son niveau, ne tasse jamais le café et vérifie de temps en temps qu'elle n'est pas entartrée."
+  - question: "Ma cafetière italienne est trop petite pour ma plaque à induction : que faire ?"
+    answer: "Un foyer à induction ne détecte que les récipients compatibles et assez larges : une petite moka peut ne pas être reconnue. Utilise le plus petit foyer de la plaque (la notice indique le diamètre minimal) ou pose la cafetière sur un disque adaptateur pour induction ; avec une moka en aluminium, ce disque est de toute façon indispensable."
 ---
 
 ## Le classique increvable, souvent maltraité
