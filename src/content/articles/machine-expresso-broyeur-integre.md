@@ -22,6 +22,13 @@ products:
       - "Courbe d’apprentissage (c’est une semi-automatique)"
       - "Prix élevé"
       - "Entretien régulier (purge, nettoyage)"
+sources:
+  - label: "Sage, « the Barista Express™ avec pichet à lait thermique »"
+    url: "https://www.sageappliances.com/fr-fr/product/bes875"
+  - label: "National Coffee Association, « Espresso »"
+    url: "https://www.aboutcoffee.org/brewing/espresso/"
+  - label: "Illy et Navarini, Food Biophysics (2011), « Neglected Food Bubbles: The Espresso Coffee Foam »"
+    url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC3140933/"
 faq:
   - question: "Une machine expresso avec broyeur intégré vaut-elle le coup par rapport à un moulin séparé ?"
     answer: "Elle fait gagner de la place et du temps : un seul appareil, un seul geste, pas de transfert de mouture entre deux objets. En échange, le broyeur est souvent un peu moins précis qu'un bon moulin dédié et il est intégré, donc impossible à changer si tu veux évoluer plus tard. C'est un vrai compromis, pas un choix par défaut."

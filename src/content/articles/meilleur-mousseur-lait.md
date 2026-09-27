@@ -22,6 +22,11 @@ products:
       - "Capacité limitée (1-2 tasses)"
       - "Cuve à nettoyer après chaque usage"
       - "Moins polyvalent qu’une buse vapeur de machine"
+sources:
+  - label: "De'Longhi, « Flat White : préparation, origine, conseils »"
+    url: "https://www.delonghi.com/fr-fr/e/r/flat-white"
+  - label: "Sage, « the Milk Café™ »"
+    url: "https://www.sageappliances.com/fr-fr/product/bmf600"
 faq:
   - question: "Un mousseur chauffant ou un simple fouet portable ?"
     answer: "Le pichet chauffant fait tout en une étape (chauffer + mousser) et gère la mousse froide : c'est le plus pratique au quotidien. Le fouet portable est minuscule et bon marché, mais il faut chauffer le lait à part. Choisis selon la place et le budget."

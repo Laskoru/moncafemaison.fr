@@ -23,6 +23,13 @@ products:
       - "Mousse de lait manuelle (buse vapeur)"
       - "Bruit du broyeur"
       - "Bac à marc à vider régulièrement"
+sources:
+  - label: "National Coffee Association, « Storage and shelf life »"
+    url: "https://www.aboutcoffee.org/beans/storage-and-shelf-life/"
+  - label: "Philips, « Série 2200 Expresso broyeur Philips - machine à café 2 boissons, noir + mousseur »"
+    url: "https://www.home-appliances.philips/fr/fr/p/EP2220_10"
+  - label: "ADEME, « Que faire de mes déchets alimentaires ? Que mettre au compost ? »"
+    url: "https://quefairedemesdechets.ademe.fr/categories/biodechets/dechets-alimentaires/"
 faq:
   - question: "Le café en capsules a-t-il vraiment moins bon goût que le café en grains ?"
     answer: "Dans l'ensemble, oui, même si l'écart s'est réduit avec les capsules haut de gamme. Le café moulu en capsule perd ses arômes volatils dès sa mise en poche, parfois des mois avant l'achat. Un grain moulu juste avant extraction conserve bien plus d'arômes, ce qui donne un café plus riche en bouche."

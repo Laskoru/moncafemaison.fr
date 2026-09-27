@@ -10,6 +10,11 @@ keywords: ["moulin à café pas cher", "moulin à café petit budget", "meilleur
 category: "moulins"
 coverAlt: "Moulin à café manuel en bois à manivelle, entouré de grains de café et d'une cuillère en bois"
 draft: false
+sources:
+  - label: "National Coffee Association, « Drip coffee »"
+    url: "https://www.aboutcoffee.org/brewing/drip-coffee/"
+  - label: "National Coffee Association, « Storage and shelf life »"
+    url: "https://www.aboutcoffee.org/beans/storage-and-shelf-life/"
 faq:
   - question: "Un moulin à café pas cher à meules vaut-il mieux qu'un moulin à lames plus cher ?"
     answer: "Oui, presque toujours. La technologie (meules contre lames) pèse plus lourd dans le résultat en tasse que le prix affiché. Un petit moulin à meules premier prix produit une mouture bien plus régulière qu'un moulin à lames deux fois plus cher, car le principe même du hachage aléatoire des lames limite la qualité, quel que soit le budget investi dans la finition ou la puissance du moteur."
@@ -63,7 +68,7 @@ Si tu consommes peu de tasses par jour ou voyages souvent, un [moulin à café m
 
 ## Un investissement qui vaut son prix
 
-Un dernier argument en faveur d'un moulin pas cher mais correct : il te permet d'acheter ton café en grains, bien plus frais qu'un café pré-moulu dès l'ouverture du paquet. Moudre ses grains au moment de préparer son café, même avec un appareil modeste, préserve les arômes volatils qui s'évaporent en quelques jours une fois la mouture exposée à l'air. Sur plusieurs mois, ce gain de fraîcheur et de goût justifie largement le prix d'un bon petit moulin.
+Un dernier argument en faveur d'un moulin pas cher mais correct : il te permet d'acheter ton café en grains, bien plus frais qu'un café pré-moulu dès l'ouverture du paquet. Moudre ses grains au moment de préparer son café, même avec un appareil modeste, préserve les arômes volatils, qui s'évaporent plus vite une fois la mouture exposée à l'air. Sur plusieurs mois, ce gain de fraîcheur et de goût justifie largement le prix d'un bon petit moulin.
 
 ## Manuel ou électrique : où va ton budget
 

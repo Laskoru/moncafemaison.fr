@@ -22,6 +22,15 @@ products:
       - "Filtres épais spécifiques à racheter"
       - "Verre fragile"
       - "Demande une balance et un peu de méthode"
+sources:
+  - label: "CHEMEX, « About Us »"
+    url: "https://chemexcoffeemaker.com/pages/about-us"
+  - label: "CHEMEX, « CHEMEX® Classic 6-Cup Pourover Coffeemaker »"
+    url: "https://chemexcoffeemaker.com/products/six-cup-classic-chemex"
+  - label: "CHEMEX, « How to brew with CHEMEX® »"
+    url: "https://chemexcoffeemaker.com/pages/how-to-brew-with-chemex"
+  - label: "CHEMEX, « CHEMEX BONDED™ FILTERS Pre-folded Squares »"
+    url: "https://chemexcoffeemaker.com/products/chemex-bonded-filters-pre-folded-squares"
 faq:
   - question: "Quelle mouture pour une Chemex ?"
     answer: "Une mouture moyenne-grossière, proche d'un sucre semoule un peu épais. Trop fine, l'eau s'écoule mal et le café devient amer ; trop grossière, il est sous-extrait et fade. Un moulin à meules réglable donne le meilleur résultat."
@@ -35,13 +44,13 @@ faq:
 
 La Chemex n'est pas qu'un objet design posé sur un plan de travail : c'est une méthode d'extraction à part entière, pensée dès 1941 pour donner un café d'une clarté inhabituelle. Le principe : un filtre papier épais, nettement plus dense que celui d'une cafetière filtre classique, qui retient une grande partie des huiles et des particules fines du café. Résultat en tasse : un café net, sans amertume excessive, qui met en valeur les notes aromatiques plutôt que le corps ou le gras habituellement associés à l'espresso ou à la cafetière filtre standard.
 
-C'est aussi l'un des rares objets de cuisine à avoir intégré la collection permanente du MoMA de New York. Le verre en sablier et le col en bois maintenu par un lacet en cuir n'ont quasiment pas changé depuis leur création. Pour qui aime préparer son café comme un petit rituel plutôt qu'un geste automatique, la Chemex a un vrai argument en plus du goût : elle se prépare devant soi, lentement, et se pose directement sur la table pour servir.
+C'est aussi un objet de cuisine présent dans les collections permanentes de plusieurs grands musées. Le verre en sablier et le col en bois maintenu par un lacet en cuir n'ont quasiment pas changé depuis leur création. Pour qui aime préparer son café comme un petit rituel plutôt qu'un geste automatique, la Chemex a un vrai argument en plus du goût : elle se prépare devant soi, lentement, et se pose directement sur la table pour servir.
 
 ## Les critères qui comptent vraiment
 
-- **La taille** : la Chemex existe en 3, 6, 8 et 10 tasses. Le modèle 6 tasses (environ 850 ml) est le format le plus polyvalent : assez grand pour 2-3 personnes, assez compact pour ne pas encombrer un plan de travail réduit.
+- **La taille** : la Chemex existe de 3 à 13 tasses selon les gammes (3, 5, 6, 8, 10 et 13). Le modèle 6 tasses (30 onces, soit un peu moins de 900 ml) est le format le plus polyvalent : assez grand pour 2-3 personnes, assez compact pour ne pas encombrer un plan de travail réduit.
 - **Les filtres dédiés** : la Chemex utilise ses propres filtres épais (ronds, pliés en carré), incompatibles avec les filtres coniques classiques type V60. Prévoir un paquet de filtres officiels ou compatibles dès l'achat : c'est une dépense récurrente à anticiper.
-- **Le col en bois amovible** : au-delà de l'esthétique, il permet de passer le corps en verre au lave-vaisselle sans risque, tout en gardant une prise en main confortable et non brûlante pour servir.
+- **Le col en bois amovible** : au-delà de l'esthétique, il permet de passer le corps en verre au lave-vaisselle, tout en gardant une prise en main confortable et non brûlante pour servir.
 - **La mouture** : une mouture moyenne à moyennement grossière, plus grossière que pour un V60 classique. Le filtre épais compense en ralentissant naturellement l'écoulement, une mouture trop fine bouche rapidement le filtre.
 - **La bouilloire associée** : un col de cygne n'est pas obligatoire mais améliore nettement la régularité du versement en spirale, l'un des gestes clés pour une extraction homogène.
 - **L'entretien du verre** : borosilicate résistant aux chocs thermiques, il supporte l'eau bouillante sans risque de fissure, un vrai plus par rapport à certaines carafes en verre standard plus fragiles.
@@ -63,7 +72,7 @@ La Chemex se prépare comme un V60, avec quelques particularités liées à son 
 1. **Place le filtre** en cône, le côté à **trois épaisseurs contre le bec verseur**. C'est un détail capital : le bec sert de canal d'air, et un filtre mal orienté le bouche, ce qui ralentit ou bloque l'écoulement.
 2. **Rince** le filtre à l'eau chaude, puis vide la carafe sans retirer le filtre. Le papier Chemex, plus épais, a besoin d'un rinçage généreux.
 3. **Dose 30 g** de café en mouture moyenne-grossière (un cran plus grossier que pour un V60) et creuse un petit puits au centre.
-4. **Bloom** : verse environ 60 ml d'eau à 93-95 °C, attends 45 secondes que le café gonfle.
+4. **Bloom** : verse environ 60 ml d'eau à 93-95 °C, attends une trentaine de secondes que le café gonfle.
 5. **Verse en spirale**, en trois ou quatre ajouts, jusqu'à 500 ml d'eau au total, sans jamais dépasser la moitié de la hauteur du filtre.
 6. Compte un temps total de **4 à 5 minutes**. Retire le filtre, fais tourner la carafe pour homogénéiser, sers.
 

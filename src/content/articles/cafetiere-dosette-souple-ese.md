@@ -22,9 +22,16 @@ products:
       - "Dosettes souples uniquement (pas de café moulu libre)"
       - "Café plus léger qu’un vrai espresso"
       - "Détartrage régulier nécessaire"
+sources:
+  - label: "SENSEO, « Senseo® Original+ »"
+    url: "https://www.senseo.fr/nos-machines/original-plus/"
+  - label: "SENSEO, « Comment détartrer ma machine à café SENSEO®? »"
+    url: "https://www.senseo.fr/nos-machines/detartrage/"
+  - label: "Sage, « the Barista Express™ avec pichet à lait thermique »"
+    url: "https://www.sageappliances.com/fr-fr/product/bes875"
 faq:
   - question: "Dosette souple et dosette ESE, c'est la même chose ?"
-    answer: "Non. La dosette souple contient environ 7 g de café moulu assez grossièrement, enveloppé dans un papier filtre non compacté ; elle donne un café long, proche du filtre. La dosette ESE (Easy Serving Espresso) contient une mouture plus fine et compactée, calibrée pour une vraie extraction espresso sous pression. Les deux formats ne sont pas interchangeables : chacun est conçu pour un type de machine précis."
+    answer: "Non. La dosette souple contient du café moulu assez grossièrement, enveloppé dans un papier filtre non compacté ; elle donne un café long, proche du filtre. La dosette ESE (Easy Serving Espresso) contient une mouture plus fine et compactée, calibrée pour une vraie extraction espresso sous pression. Les deux formats ne sont pas interchangeables : chacun est conçu pour un type de machine précis."
   - question: "Peut-on utiliser des dosettes de toutes les marques ?"
     answer: "Pour les dosettes souples, oui dans l'immense majorité des cas : le format Senseo est devenu un standard que suivent la plupart des torréfacteurs, y compris les marques distributeur. Pour les dosettes ESE, le diamètre est également standardisé, mais vérifie toujours la compatibilité annoncée par le fabricant de ta machine avant d'acheter en grande quantité."
   - question: "Le café en dosette est-il aussi bon qu'un café en grains fraîchement moulu ?"
@@ -41,7 +48,7 @@ C'est aussi l'un des formats les plus accessibles à l'achat, aussi bien pour la
 
 Les deux formats se ressemblent au premier coup d'œil, mais ils n'ont ni le même usage ni la même machine derrière eux.
 
-La **dosette souple** (popularisée par le format Senseo) contient environ 7 g de café moulu assez grossièrement, non tassé, enveloppé dans un papier filtre souple. Elle donne un café proche du filtre classique : plus long, moins concentré, sans grande pression. C'est le format le plus simple à utiliser et le plus tolérant sur la qualité de l'eau et le réglage de la machine.
+La **dosette souple** (popularisée par le format Senseo) contient du café moulu assez grossièrement, non tassé, enveloppé dans un papier filtre souple. Elle donne un café proche du filtre classique : plus long, moins concentré, sans grande pression (la pompe d'une Senseo Original+ affiche 1 bar). C'est le format le plus simple à utiliser et le plus tolérant sur la qualité de l'eau et le réglage de la machine.
 
 La **dosette ESE** (Easy Serving Espresso), elle, contient une mouture plus fine, compactée entre deux couches de papier filtre en forme de galette rigide. Elle est pensée pour une extraction sous pression, comme un espresso classique, avec une vraie crema en surface si la machine extrait sous une pression suffisante (autour de 9 bars ; les « 15 bars » affichés sont la pression maximale de la pompe). C'est le format à privilégier si tu veux un café court et corsé plutôt qu'un café allongé.
 
@@ -76,7 +83,7 @@ Enfin, si le goût prime avant tout sur la commodité et que tu es prêt à inve
 
 ## Bien entretenir sa machine à dosette
 
-L'absence de broyeur ne dispense pas d'un entretien régulier. Le calcaire reste l'ennemi numéro un de ces machines : il s'accumule dans le circuit d'eau chaude et finit par ralentir l'écoulement, voire par altérer le goût du café en modifiant la température d'extraction. Compte un détartrage toutes les quatre à six semaines en eau calcaire et tous les deux à trois mois en eau douce, ou dès que le voyant de la machine le demande, avec un détartrant adapté (beaucoup de fabricants déconseillent le vinaigre blanc : vérifie la notice).
+L'absence de broyeur ne dispense pas d'un entretien régulier. Le calcaire reste l'ennemi numéro un de ces machines : il s'accumule dans le circuit d'eau chaude et finit par ralentir l'écoulement, voire par altérer le goût du café en modifiant la température d'extraction. Détartre dès que le voyant de la machine le demande ; sans voyant, SENSEO conseille par exemple un détartrage tous les trois mois, jusqu'à six fois par an. Utilise un détartrant adapté : beaucoup de fabricants déconseillent le vinaigre blanc (SENSEO l'exclut, il risque de laisser un arrière-goût aigre), vérifie la notice.
 
 Pense aussi à rincer régulièrement le porte-dosette et le bac récupérateur d'égouttures : les résidus de café humide y développent vite des odeurs et peuvent affecter le goût des cafés suivants. La plupart de ces pièces passent au lave-vaisselle sur les modèles récents, ce qui simplifie considérablement ce geste d'entretien hebdomadaire.
 

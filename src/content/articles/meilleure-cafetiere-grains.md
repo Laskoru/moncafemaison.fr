@@ -22,6 +22,15 @@ products:
       - "Mousse de lait manuelle (buse classique)"
       - "Peu d’options de personnalisation"
       - "Bruit du broyeur"
+sources:
+  - label: "Philips, « Série 2200 Expresso broyeur Philips - machine à café 2 boissons, noir + mousseur »"
+    url: "https://www.home-appliances.philips/fr/fr/p/EP2220_10"
+  - label: "Philips, « Je n'arrive pas à régler le broyeur de ma machine espresso Philips »"
+    url: "https://www.philips.fr/c-t/XC000004121/je-n-arrive-pas-%C3%A0-r%C3%A9gler-le-broyeur-de-ma-machine-espresso-philips"
+  - label: "Philips, « Accessoires d'entretien Filtre à eau et à calcaire CA6903/10 »"
+    url: "https://www.philips.ch/fr/c-p/CA6903_10/filtre-a-eau-et-a-calcaire"
+  - label: "National Coffee Association, « Storage and shelf life »"
+    url: "https://www.aboutcoffee.org/beans/storage-and-shelf-life/"
 faq:
   - question: "Une machine à grains fait-elle vraiment un meilleur café qu'une machine à capsules ?"
     answer: "Sur la qualité en tasse, oui, presque toujours : la machine à grains moud le café juste avant l'extraction, ce qui préserve les arômes que des capsules stockées perdent avec le temps. Elle revient aussi moins cher à l'usage (le grain coûte bien moins que la capsule au kilo), au prix d'un entretien un peu plus régulier."
@@ -33,7 +42,7 @@ faq:
 
 ## Pourquoi passer à la machine à grains
 
-La machine à café à grains (dite « avec broyeur ») moud les grains juste avant de préparer la tasse. C'est là que se joue l'essentiel du goût : un café moulu perd ses arômes en quelques jours, alors qu'un grain fraîchement moulu les libère au moment de l'extraction. Résultat, même une machine d'entrée de gamme donne un café plus riche et plus régulier qu'une cafetière à capsules ou à café pré-moulu.
+La machine à café à grains (dite « avec broyeur ») moud les grains juste avant de préparer la tasse. C'est là que se joue l'essentiel du goût : un café moulu perd ses arômes plus vite que le grain entier, alors qu'un grain fraîchement moulu les libère au moment de l'extraction. Résultat, même une machine d'entrée de gamme donne un café plus riche et plus régulier qu'une cafetière à capsules ou à café pré-moulu.
 
 L'autre argument est économique. Le grain coûte nettement moins cher que les capsules au kilo, et la machine s'amortit vite pour qui boit plusieurs cafés par jour. En échange, il faut accepter un peu d'entretien régulier, mais rien d'insurmontable.
 
@@ -64,7 +73,7 @@ Là où elle reste en retrait, c'est sur l'espresso « pur » : le broyeur inté
 La plupart des utilisateurs ne touchent jamais aux réglages, alors qu'ils transforment le café :
 
 - **La finesse de mouture** : c'est la molette dans le bac à grains. Règle-la **moulin en marche**, jamais à l'arrêt, sous peine de bloquer les meules. Plus fin = café plus intense et plus long à couler ; plus grossier = plus léger et plus rapide. Le changement se ressent à partir de la deuxième ou troisième tasse, le temps de purger l'ancienne mouture.
-- **La quantité de café** (souvent appelée « intensité » ou « arôme ») : entre 7 et 12 g par tasse selon les machines. C'est le réglage le plus efficace contre un café jugé trop faible.
+- **La quantité de café** (souvent appelée « intensité » ou « arôme ») : c'est le réglage le plus efficace contre un café jugé trop faible.
 - **Le volume d'eau** : un espresso se situe autour de 30-40 ml, un lungo autour de 90-110 ml. Beaucoup de machines sortent d'usine avec des volumes trop longs, donc des cafés délavés.
 - **La température**, quand elle est réglable : le cran le plus élevé pour un café torréfié clair, le cran moyen pour une torréfaction foncée qui deviendrait amère.
 
@@ -74,7 +83,7 @@ Change **un réglage à la fois** et goûte deux tasses avant de juger.
 
 Une automatique demande peu d'efforts, mais des efforts **réguliers** :
 
-- **Chaque jour** : vider le bac à marc et le bac d'égouttage (le marc humide moisit en 48 h), rincer le circuit lait s'il y en a un.
+- **Chaque jour** : vider le bac à marc et le bac d'égouttage (le marc humide moisit vite), rincer le circuit lait s'il y en a un.
 - **Chaque semaine** : sortir le **groupe d'extraction** (la pièce amovible derrière la trappe latérale) et le rincer à l'eau claire, sans savon. C'est là que s'accumulent les résidus qui donnent un goût rance.
 - **Chaque mois environ** : une pastille de dégraissage dans le cycle de nettoyage.
 - **Selon l'eau** : le détartrage, que la machine réclame elle-même. Avec un filtre à eau dans le réservoir, la fréquence baisse fortement.

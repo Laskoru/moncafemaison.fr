@@ -11,6 +11,11 @@ keywords: ["bouilloire à col de cygne", "bouilloire pour-over", "gooseneck kett
 category: "accessoires"
 coverAlt: "Bouilloire à col de cygne en inox posée sur un plan en bois"
 draft: false
+sources:
+  - label: "National Coffee Association, « Pour-over coffee »"
+    url: "https://www.aboutcoffee.org/brewing/pour-over-coffee/"
+  - label: "CHEMEX, « CHEMEX® Classic 6-Cup Pourover Coffeemaker »"
+    url: "https://chemexcoffeemaker.com/products/six-cup-classic-chemex"
 faq:
   - question: "Une bouilloire à col de cygne est-elle vraiment indispensable ?"
     answer: "Indispensable, non : on peut préparer un café filtre avec n'importe quelle bouilloire. Mais dès que la méthode repose sur un versement précis (V60, Chemex, AeroPress versé en cercles), le col de cygne devient le seul moyen de contrôler vraiment où et à quelle vitesse l'eau tombe sur la mouture. C'est l'accessoire qui transforme un versement approximatif en un versement maîtrisé, reproductible d'une tasse à l'autre."
@@ -40,7 +45,7 @@ Sans ce contrôle, même une bonne mouture et un bon moulin ne suffisent pas à 
 
 **Le diamètre et la longueur du bec.** Un bec trop large redonne un jet difficile à contrôler ; trop fin, il ralentit exagérément le versement pour de grandes quantités d'eau. Les becs de taille moyenne, ni trop larges ni capillaires, offrent le meilleur compromis pour un usage quotidien.
 
-**La contenance.** Compte environ 0,3 à 0,5 litre d'eau par tasse de café filtre. Une bouilloire de 600 ml à 1 litre couvre la majorité des usages individuels à familiaux ; au-delà, l'appareil devient lourd à manier avec précision en fin de versement.
+**La contenance.** Compte l'eau de ta recette, plus une marge pour rincer le filtre et préchauffer la tasse. Une bouilloire de 600 ml à 1 litre couvre la majorité des usages individuels à familiaux ; au-delà, l'appareil devient lourd à manier avec précision en fin de versement.
 
 **Le réglage de température (pour les modèles électriques).** C'est le vrai plus des versions électriques haut de gamme : fixer la température une bonne fois, sans thermomètre ni essais-erreurs. Un simple affichage numérique suffit largement, inutile de viser des fonctions superflues.
 
@@ -76,7 +81,7 @@ Pour aller plus loin dans la régularité, associer la bouilloire à une [balanc
 
 ## Entretien : éviter le tartre
 
-Comme toute bouilloire, un modèle à col de cygne accumule du tartre avec le temps, surtout en zone d'eau calcaire, et le bec fin est justement l'endroit où les dépôts gênent le plus, au risque de perturber la régularité du filet. Un détartrage régulier (eau et vinaigre blanc, ou détartrant dédié, laissé agir puis rincé abondamment) toutes les quatre à six semaines en usage quotidien suffit à préserver un débit propre et un goût neutre en tasse.
+Comme toute bouilloire, un modèle à col de cygne accumule du tartre avec le temps, surtout en zone d'eau calcaire, et le bec fin est justement l'endroit où les dépôts gênent le plus, au risque de perturber la régularité du filet. Un détartrage régulier (eau et vinaigre blanc, ou détartrant dédié, laissé agir puis rincé abondamment), d'autant plus fréquent que l'eau est calcaire, suffit à préserver un débit propre et un goût neutre en tasse.
 
 Sur les modèles électriques, vérifie aussi que la résistance reste accessible au nettoyage : certains boîtiers fermés compliquent l'opération et favorisent l'entartrage invisible du fond, qui finit par allonger le temps de chauffe sans que l'utilisateur comprenne pourquoi.
 

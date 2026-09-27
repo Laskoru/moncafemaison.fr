@@ -11,6 +11,13 @@ keywords: ["tamper espresso", "tasseur café", "tamper 58mm", "tassage mouture e
 category: "accessoires"
 coverAlt: "Mouture de café tassée en un puck régulier dans un porte-filtre nu"
 draft: false
+sources:
+  - label: "Sage, « the Barista Express™ avec pichet à lait thermique »"
+    url: "https://www.sageappliances.com/fr-fr/product/bes875"
+  - label: "Sage, « the Dual Boiler™ »"
+    url: "https://www.sageappliances.com/fr-fr/product/bes920"
+  - label: "National Coffee Association, « Espresso »"
+    url: "https://www.aboutcoffee.org/brewing/espresso/"
 faq:
   - question: "Quel diamètre de tamper choisir ?"
     answer: "Le diamètre doit correspondre exactement au panier de ton porte-filtre, pas à la taille du porte-filtre lui-même. Selon les marques, les paniers font le plus souvent 51, 53-54 ou 58 mm, y compris sur les machines à broyeur intégré : aucun format n'est universel, vérifie celui de ta machine. Un tamper trop petit laisse un anneau de mouture non tassée sur le pourtour, par lequel l'eau s'échappe sans extraire correctement ; un tamper trop grand ne rentre tout simplement pas dans le panier. En cas de doute, mesure le panier au pied à coulisse plutôt que de te fier au modèle de la machine."
@@ -28,7 +35,7 @@ comparison:
   rows:
     - ["Base plate classique", "51 à 58 mm selon la machine", "Dépend du geste de la main", "Usage quotidien simple, budget maîtrisé"]
     - ["Base convexe", "51 à 58 mm selon la machine", "Plus tolérant sur une mouture mal nivelée", "Qui tasse encore de façon peu régulière"]
-    - ["Calibré à ressort (env. 15 kg)", "51, 53-54 ou 58 mm selon le modèle", "Pression constante garantie", "Usage fréquent, plusieurs cafés par jour"]
+    - ["Calibré à ressort", "51, 53-54 ou 58 mm selon le modèle", "Pression constante garantie", "Usage fréquent, plusieurs cafés par jour"]
 ---
 
 ## Pourquoi le tamper mérite plus d'attention qu'on ne le pense
@@ -72,13 +79,13 @@ Le plus fiable reste de mesurer directement le panier avec un pied à coulisse o
 
 **Le tamper classique**, sans mécanisme, dépend entièrement de la régularité du geste de la main : la pression varie légèrement d'un café à l'autre selon la fatigue ou l'attention portée au geste.
 
-**Le tamper calibré**, équipé d'un ressort interne, se bloque une fois une pression prédéfinie atteinte (généralement autour de 15 kg), ce qui garantit une force constante d'un café à l'autre sans avoir à l'estimer soi-même. C'est un vrai gain de régularité pour qui prépare plusieurs espressos par jour ou débute et cherche à éliminer une variable du geste.
+**Le tamper calibré**, équipé d'un ressort interne, se bloque une fois une pression prédéfinie atteinte, ce qui garantit une force constante d'un café à l'autre sans avoir à l'estimer soi-même. C'est un vrai gain de régularité pour qui prépare plusieurs espressos par jour ou débute et cherche à éliminer une variable du geste.
 
 ## Comment bien tasser, étape par étape
 
 1. **Répartis la mouture uniformément** dans le panier avant tout tassage, à la main ou avec un outil de distribution, pour éviter les amas qui provoqueraient un tassage inégal.
 2. **Pose le porte-filtre sur une surface stable** (un tapis de tassage évite de forcer sur le plan de travail) et centre le tamper dans le panier.
-3. **Applique une pression verticale et constante**, sans mouvement de torsion, jusqu'à sentir une résistance nette, l'équivalent d'environ 15 kg de pression pour la plupart des recettes espresso classiques.
+3. **Applique une pression verticale et constante**, sans mouvement de torsion, jusqu'à sentir une résistance nette, avec la même force d'un café à l'autre.
 4. **Vérifie la surface du puck** : elle doit être plane, sans fissure visible ni zone plus basse que le reste.
 5. **Retire le tamper à la verticale**, sans le faire pivoter, pour ne pas casser la surface du puck juste formée.
 

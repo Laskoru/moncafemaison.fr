@@ -22,13 +22,20 @@ products:
       - "Café filtre classique (pas d’espresso)"
       - "Verseuse isotherme parfois lente à verser"
       - "Porte-filtre à nettoyer régulièrement"
+sources:
+  - label: "Moulinex, « Cafetière filtre, Subito, Programmable, Verseuse isotherme, 12 tasses, Inox »"
+    url: "https://www.moulinex.fr/p/cafetiere-filtre-subito-programmable-verseuse-isotherme-12-tasses-inox/7211419679"
+  - label: "National Coffee Association, « Drip coffee »"
+    url: "https://www.aboutcoffee.org/brewing/drip-coffee/"
+  - label: "Philips, « À quelle fréquence dois-je détartrer ma cafetière Philips ? »"
+    url: "https://www.philips.ca/fr/c-f/XC000001294/%C3%A0-quelle-fr%C3%A9quence-dois-je-d%C3%A9tartrer-ma-cafeti%C3%A8re-philips"
 faq:
   - question: "Pourquoi choisir une carafe isotherme plutôt qu'une plaque chauffante ?"
     answer: "Une plaque chauffante garde le café chaud en continuant de le cuire lentement, ce qui l'amertume au fil des heures. Une carafe isotherme conserve la chaleur par isolation, sans recuire le café : le dernier bol a presque le même goût que le premier, deux à quatre heures plus tard selon les modèles."
   - question: "Comment fonctionne la programmation 24h à l'avance ?"
     answer: "Tu remplis le réservoir d'eau et le panier de café moulu la veille, puis tu règles l'heure de démarrage souhaitée sur l'écran ou les boutons de la machine. Le café commence à couler automatiquement à l'heure choisie, pour un réveil avec la carafe déjà prête, pratique pour les matins pressés."
   - question: "Faut-il détartrer une cafetière filtre régulièrement ?"
-    answer: "Oui, c'est l'entretien le plus important : le calcaire de l'eau s'accumule dans le circuit et finit par ralentir le débit et altérer le goût. Un détartrage au vinaigre blanc (si la notice l'autorise) ou avec un produit dédié, toutes les 4 à 6 semaines en eau calcaire et tous les 2 à 3 mois en eau douce, ou dès que le voyant s'allume, suffit à garder la machine performante longtemps."
+    answer: "Oui, c'est l'entretien le plus important : le calcaire de l'eau s'accumule dans le circuit et finit par ralentir le débit et altérer le goût. Un détartrage au vinaigre blanc (si la notice l'autorise) ou avec un produit dédié, au rythme indiqué par la notice ou dès que le voyant s'allume, suffit à garder la machine performante longtemps. Pour ses cafetières filtre, Philips conseille par exemple deux ou trois détartrages par an en eau douce, quatre ou cinq en eau dure."
 ---
 
 ## Pourquoi la cafetière filtre programmable a toujours sa place

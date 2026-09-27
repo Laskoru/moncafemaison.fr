@@ -11,9 +11,18 @@ keywords: ["détartrant machine à café", "meilleur détartrant café", "détar
 category: "accessoires"
 coverAlt: "Machine à café en inox vue de près, buse et groupe de percolation"
 draft: false
+sources:
+  - label: "De'Longhi, « Comment détartrer sa machine à café »"
+    url: "https://www.delonghi.com/fr-fr/e/r/detartrage-machine-a-cafe"
+  - label: "De'Longhi, « Decalk Care DLSC500 »"
+    url: "https://www.delonghi.com/fr-fr/p/detartrants-et-filtres-a-eau-detartrant-ecodecalk--500-ml--flacon-contenant-5-doses/DLSC500.html"
+  - label: "SENSEO, « Comment détartrer ma machine à café SENSEO®? »"
+    url: "https://www.senseo.fr/nos-machines/detartrage/"
+  - label: "Philips, « À quelle fréquence dois-je détartrer ma cafetière Philips ? »"
+    url: "https://www.philips.ca/fr/c-f/XC000001294/%C3%A0-quelle-fr%C3%A9quence-dois-je-d%C3%A9tartrer-ma-cafeti%C3%A8re-philips"
 faq:
   - question: "À quelle fréquence faut-il détartrer sa machine à café ?"
-    answer: "Cela dépend surtout de la dureté de l'eau et de la fréquence d'utilisation. En eau calcaire et avec un usage quotidien, compte un détartrage toutes les quatre à six semaines. En eau douce ou pour un usage occasionnel, un cycle tous les deux à trois mois suffit généralement. Le signal le plus fiable reste la machine elle-même : la plupart des modèles récents affichent un voyant ou un message dès que le tartre accumulé justifie une intervention."
+    answer: "Cela dépend de la machine, de la dureté de l'eau et de la fréquence d'utilisation, et les fabricants ne donnent pas tous le même rythme. Pour ses cafetières filtre, Philips conseille deux ou trois détartrages par an en eau douce et quatre ou cinq en eau dure, mais tous les mois en eau dure sur certains modèles ; SENSEO conseille tous les trois mois sur ses machines sans voyant. Le signal le plus fiable reste la machine elle-même : la plupart des modèles récents affichent un voyant ou un message dès que le tartre accumulé justifie une intervention."
   - question: "Peut-on remplacer le détartrant par du vinaigre blanc ?"
     answer: "Sur une cafetière filtre ou une bouilloire, oui : le vinaigre blanc dilué dissout le calcaire presque aussi bien qu'un détartrant du commerce, pour un coût dérisoire. Son inconvénient est l'odeur, plus tenace, qui demande davantage de cycles de rinçage pour disparaître complètement. Sur une machine expresso ou automatique, en revanche, beaucoup de fabricants le déconseillent (joints, odeur persistante) : suis la notice et préfère un détartrant adapté. Si elle l'autorise, un détartrant à base d'acide citrique offre un résultat comparable avec un rinçage plus rapide et une odeur neutre, ce qui explique sa popularité pour un usage régulier."
   - question: "Le détartrage abîme-t-il la machine à café ?"
@@ -24,7 +33,7 @@ faq:
 
 Le calcaire contenu dans l'eau du robinet se dépose invisiblement à chaque chauffe, à l'intérieur des canalisations, sur la résistance et parfois jusque dans le groupe de percolation. Ce dépôt ne se voit pas de l'extérieur, mais il agit en silence : la machine met plus de temps à chauffer, le débit d'eau ralentit, et le café peut prendre un goût plat ou légèrement métallique bien avant que la panne ne devienne visible.
 
-Un **détartrant** est un produit acide (acide citrique ou sulfamique, voire simple vinaigre sur les machines qui l'acceptent) qui dissout ce calcaire par une réaction chimique douce, sans agresser les plastiques et joints internes de la machine, contrairement à un produit abrasif ou à un détergent classique, totalement inadapté à cet usage. C'est un entretien simple, peu coûteux, qui prolonge concrètement la durée de vie de n'importe quelle machine à café, qu'il s'agisse d'une [machine expresso](/articles/meilleure-machine-expresso/), d'une [machine automatique à broyeur](/articles/machine-cafe-automatique-haut-gamme/) ou d'une cafetière filtre programmable.
+Un **détartrant** est un produit acide (acide citrique, lactique ou sulfamique, voire simple vinaigre sur les machines qui l'acceptent) qui dissout ce calcaire par une réaction chimique douce, sans agresser les plastiques et joints internes de la machine, contrairement à un produit abrasif ou à un détergent classique, totalement inadapté à cet usage. C'est un entretien simple, peu coûteux, qui prolonge concrètement la durée de vie de n'importe quelle machine à café, qu'il s'agisse d'une [machine expresso](/articles/meilleure-machine-expresso/), d'une [machine automatique à broyeur](/articles/machine-cafe-automatique-haut-gamme/) ou d'une cafetière filtre programmable.
 
 ## Les formats de détartrant disponibles
 
@@ -43,7 +52,7 @@ Un **détartrant** est un produit acide (acide citrique ou sulfamique, voire sim
 
 **La compatibilité avec ta machine.** Certains fabricants (notamment sur les machines automatiques haut de gamme) recommandent une formule spécifique, parfois vendue sous leur propre marque. Vérifie la notice avant d'utiliser un produit générique, même si la plupart des détartrants du commerce conviennent à l'ensemble des machines à café domestiques.
 
-**La composition.** L'acide citrique, d'origine naturelle, est aujourd'hui le plus répandu : efficace, sans odeur agressive, et considéré comme le plus doux pour les joints et circuits internes sur la durée. L'acide sulfamique agit un peu plus vite sur un tartre déjà important, mais demande un rinçage plus soigné.
+**La composition.** L'acide citrique, d'origine naturelle, est très répandu : efficace et sans odeur agressive, c'est par exemple la base du détartrant SENSEO. D'autres fabricants misent sur l'acide lactique, que De'Longhi présente comme plus rapide et plus efficace que les détartrants classiques à l'acide citrique. L'acide sulfamique agit un peu plus vite sur un tartre déjà important, mais demande un rinçage plus soigné.
 
 **Le format adapté à ton usage.** Le liquide prêt à l'emploi convient à un usage occasionnel où la simplicité prime. Les pastilles ou la poudre se prêtent mieux à un usage régulier, avec un coût par cycle généralement plus bas et un stockage plus compact.
 
@@ -51,16 +60,16 @@ Un **détartrant** est un produit acide (acide citrique ou sulfamique, voire sim
 
 ## Comment détartrer sa machine, étape par étape
 
-1. **Vide et rince le réservoir d'eau**, puis remplis-le d'eau tiède mélangée au détartrant selon le dosage indiqué (généralement une dose pour environ un litre d'eau).
+1. **Vide et rince le réservoir d'eau**, puis remplis-le d'eau tiède mélangée au détartrant selon le dosage indiqué sur l'emballage ou dans la notice.
 2. **Lance le programme de détartrage** si ta machine en propose un, ou un cycle complet sans café (pour une cafetière filtre) ou plusieurs extractions à vide (pour une machine expresso).
-3. **Laisse agir** le temps indiqué par le fabricant, en général entre quinze et trente minutes selon la concentration de la solution.
-4. **Rince abondamment** : au minimum deux à trois cycles complets à l'eau claire, jusqu'à ce qu'aucune odeur ni goût de détartrant ne subsiste dans l'eau rincée.
+3. **Laisse agir** le temps indiqué par le fabricant : la durée varie selon le produit et la machine.
+4. **Rince abondamment** : un ou plusieurs cycles complets à l'eau claire, selon la notice, jusqu'à ce qu'aucune odeur ni goût de détartrant ne subsiste dans l'eau rincée.
 5. **Vérifie le résultat** en observant le débit d'eau, qui doit retrouver sa vitesse normale, et en goûtant un premier café pour confirmer l'absence de tout arrière-goût.
 
-Sur une [cafetière filtre programmable](/articles/meilleure-cafetiere-filtre-programmable/), ce cycle complet prend généralement moins d'une heure montre en main ; sur une machine automatique à broyeur intégré, compte un peu plus de temps du fait des circuits plus longs à rincer.
+Sur une [cafetière filtre programmable](/articles/meilleure-cafetiere-filtre-programmable/), ce cycle complet reste assez rapide ; sur une machine automatique à broyeur intégré, compte un peu plus de temps du fait des circuits plus longs à rincer.
 
 > 🛒 **Pour compléter ton entretien**
-> Voir aussi les détartrants à base d'acide citrique, plus doux pour les joints et sans odeur persistante : [comparer les modèles sur Amazon](https://www.amazon.fr/s?k=detartrant+acide+citrique+cafetiere&tag=moncafemaison-21).
+> Voir aussi les détartrants à base d'acide citrique, sans odeur persistante : [comparer les modèles sur Amazon](https://www.amazon.fr/s?k=detartrant+acide+citrique+cafetiere&tag=moncafemaison-21).
 >
 > *En tant que Partenaire Amazon, je réalise un bénéfice sur les achats remplissant les conditions requises.*
 

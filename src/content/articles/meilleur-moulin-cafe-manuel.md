@@ -22,6 +22,13 @@ products:
       - "Mouture à la main : effort pour l’espresso fin"
       - "Réglage un peu tâtonnant au début"
       - "Capacité limitée par fournée"
+sources:
+  - label: "National Coffee Association, « Drip coffee »"
+    url: "https://www.aboutcoffee.org/brewing/drip-coffee/"
+  - label: "1Zpresso, « FAQ »"
+    url: "https://1zpresso.coffee/faq/"
+  - label: "1Zpresso, « J Series »"
+    url: "https://1zpresso.coffee/j/"
 faq:
   - question: "Un moulin manuel peut-il vraiment remplacer un moulin électrique ?"
     answer: "Pour un usage quotidien d'une à deux tasses, oui sans problème : les meilleurs modèles manuels à meules coniques offrent une régularité de mouture comparable à des moulins électriques d'entrée et de milieu de gamme. La limite apparaît surtout si tu dois moudre pour plusieurs personnes d'un coup : l'effort et le temps augmentent vite avec la quantité."
@@ -66,7 +73,7 @@ Verse les grains progressivement plutôt que de remplir le réservoir à ras bor
 C'est la question que tout le monde se pose avant d'acheter, et la réponse dépend surtout de la **taille des meules** et de la finesse visée. En ordre de grandeur :
 
 - **Filtre ou French press, 15 g** : 30 à 45 secondes sur n'importe quel moulin correct, sans forcer.
-- **Espresso, 18 g** : 60 à 90 secondes sur un moulin d'entrée de gamme (meules de 38 mm), et l'effort se sent ; 30 à 40 secondes sur un moulin à grandes meules (45-48 mm), plus fluide.
+- **Espresso, 18 g** : 60 à 90 secondes sur un moulin d'entrée de gamme à petites meules, et l'effort se sent ; 30 à 40 secondes sur un moulin à grandes meules (autour de 47-48 mm), plus fluide.
 
 Pour une ou deux tasses par jour, c'est un rituel agréable. Pour quatre espressos chaque matin, ça devient une corvée : c'est là que le [moulin électrique](/articles/meilleur-moulin-cafe-electrique/) se justifie. Un truc pour réduire l'effort : mouds par petites quantités (10-15 g) plutôt que le réservoir plein, et tourne à vitesse constante plutôt que par à-coups.
 

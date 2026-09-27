@@ -10,11 +10,20 @@ category: "preparer"
 coverAlt: "Verre de cold brew sur glace, carafe de café froid à côté"
 pinHook: "Le *cold brew* doux, fait maison"
 pinSub: "Infusion à froid 12-24 h, zéro amertume."
+sources:
+  - label: "Rao et Fuller, Scientific Reports (2018), « Acidity and Antioxidant Activity of Cold Brew Coffee »"
+    url: "https://www.nature.com/articles/s41598-018-34392-w"
+  - label: "Fuller et Rao, Scientific Reports (2017), « The Effect of Time, Roasting Temperature, and Grind Size on Caffeine and Chlorogenic Acid Concentrations in Cold Brew Coffee »"
+    url: "https://www.nature.com/articles/s41598-017-18247-4"
+  - label: "EFSA, « Caféine »"
+    url: "https://www.efsa.europa.eu/fr/topics/topic/caffeine"
+  - label: "University of Georgia (CAES), « Can cold brew coffee make you sick? »"
+    url: "https://fieldreport.caes.uga.edu/news/can-cold-brew-coffee-make-you-sick/"
 faq:
   - question: "Quelle différence entre cold brew et café glacé ?"
-    answer: "Le café glacé, c'est un café chaud classique versé sur de la glace : il garde l'acidité et l'amertume de l'extraction à chaud. Le cold brew, lui, est infusé directement à froid pendant 12 à 24 heures : l'extraction lente et sans chaleur donne une boisson beaucoup plus douce, ronde et peu acide."
+    answer: "Le café glacé, c'est un café chaud classique versé sur de la glace : il garde l'acidité et l'amertume de l'extraction à chaud. Le cold brew, lui, est infusé directement à froid pendant 12 à 24 heures : l'extraction lente et sans chaleur donne une boisson plus douce, ronde et moins acide."
   - question: "Combien de temps se conserve le cold brew ?"
-    answer: "Une fois filtré, le concentré de cold brew se garde environ une semaine au réfrigérateur, dans un contenant fermé. C'est justement l'un de ses avantages : on en prépare une carafe, et on en profite plusieurs jours en le diluant à la demande."
+    answer: "Une fois filtré, le concentré de cold brew se garde plusieurs jours au réfrigérateur, dans un contenant fermé. C'est justement l'un de ses avantages : on en prépare une carafe, et on en profite plusieurs jours en le diluant à la demande."
   - question: "Faut-il un matériel spécial pour le cold brew ?"
     answer: "Non. Un simple bocal ou une carafe suffisent, plus un moyen de filtrer (filtre papier, passoire fine doublée d'un tissu, ou une cafetière à piston). Il existe des carafes à cold brew avec filtre intégré, pratiques, mais absolument pas indispensables pour commencer."
 ---
@@ -23,7 +32,7 @@ faq:
 
 Le **cold brew** (littéralement « infusion à froid ») est le café le plus facile à réussir : pas de température à surveiller, pas de geste précis. On laisse simplement la mouture infuser **à froid pendant 12 à 24 heures**, puis on filtre. Le résultat est une boisson **naturellement douce, ronde et peu acide**, parfaite sur glace quand il fait chaud, ou allongée d'eau et de lait.
 
-Pourquoi si doux ? Parce que l'extraction à froid ne libère quasiment pas les composés amers et acides que la chaleur arrache au café. On obtient un **concentré** qu'on dilue ensuite à son goût, et qui se conserve plusieurs jours.
+Pourquoi si doux ? Parce que l'extraction à froid libère moins d'acides que la chaleur : une étude publiée en 2018 a mesuré moins d'acides titrables dans le cold brew que dans le même café infusé à chaud, pour un pH comparable. On obtient un **concentré** qu'on dilue ensuite à son goût, et qui se conserve plusieurs jours.
 
 ## Les repères
 
@@ -36,7 +45,7 @@ Pourquoi si doux ? Parce que l'extraction à froid ne libère quasiment pas les 
 
 1. **Pèse** ta mouture grossière et mets-la dans un bocal ou une carafe.
 2. Verse l'**eau froide** dessus (ratio ~1:8), remue pour bien tout humidifier.
-3. Couvre et laisse **infuser au réfrigérateur 12 à 24 heures** (ou à température ambiante, un peu moins longtemps).
+3. Couvre et laisse **infuser au réfrigérateur 12 à 24 heures** (ou à température ambiante, un peu moins longtemps : dans une étude menée à 21-25 °C, la caféine était entièrement extraite au bout de 6 à 7 heures).
 4. **Filtre** : verse à travers un filtre papier, une passoire fine doublée d'un tissu propre, ou presse le tout dans une cafetière à piston.
 5. Tu obtiens un **concentré**. Conserve-le au frais et **dilue-le** au moment de servir.
 
@@ -61,7 +70,7 @@ On confond souvent les trois, alors que le goût n'a rien à voir :
 
 - **Le café glacé** classique, c'est un café chaud (filtre ou espresso) refroidi puis servi sur glace. Rapide, mais l'acidité et l'amertume du café chaud restent, et la glace le dilue.
 - **Le flash brew** (ou « café glacé à la japonaise ») consiste à faire couler un café filtre chaud, plus concentré, directement sur des glaçons placés dans la carafe. Le refroidissement instantané fige les arômes : c'est le plus **vif et fruité** des trois.
-- **Le cold brew**, lui, n'a jamais vu la chaleur. Il est le plus **doux, rond, chocolaté**, presque sans acidité. C'est aussi le seul qui se prépare à l'avance et se garde plusieurs jours.
+- **Le cold brew**, lui, n'a jamais vu la chaleur. Il est le plus **doux, rond, chocolaté**, avec moins d'acidité. C'est aussi le seul qui se prépare à l'avance et se garde plusieurs jours.
 
 Si tu trouves le cold brew un peu « plat », essaie le flash brew avec le même café : tu verras que la méthode compte autant que le grain.
 
@@ -71,9 +80,9 @@ L'extraction à froid gomme l'acidité et met en avant les notes rondes. Résult
 
 ## Conservation et caféine
 
-Le concentré se garde **une semaine** au réfrigérateur, dans un bocal fermé, sans perdre grand-chose ; au-delà, il s'aplatit et prend parfois un goût de renfermé. Ne le laisse jamais à température ambiante plus de quelques heures une fois filtré. Une fois dilué avec du lait, consomme-le dans la journée.
+Le concentré se garde **plusieurs jours** au réfrigérateur, dans un bocal fermé ; avec le temps, il s'aplatit et prend parfois un goût de renfermé. Ne le laisse jamais à température ambiante plus de quelques heures une fois filtré. Comme il n'a jamais été chauffé, il ne profite pas de l'eau bouillante qui élimine la plupart des bactéries : prépare-le avec les mains lavées, dans un bocal et avec des ustensiles propres. Une fois dilué avec du lait, consomme-le dans la journée.
 
-Côté caféine, deux idées reçues se contredisent : « le cold brew est plus fort » et « le froid extrait moins de caféine ». Les deux sont à moitié vraies. Le **concentré** est effectivement très chargé, parce que le ratio est serré et l'infusion longue ; mais **une fois dilué**, une tasse de cold brew contient à peu près autant de caféine qu'un café filtre. Si tu y es sensible, dilue un peu plus et évite d'en boire en fin de journée.
+Côté caféine, deux idées reçues se contredisent : « le cold brew est plus fort » et « le froid extrait moins de caféine ». La seconde ne tient pas : à dose égale, une étude publiée en 2017 a même mesuré plus de caféine dans un cold brew en mouture grossière que dans le même café infusé à chaud. Le **concentré** est donc très chargé, parce que le ratio est serré ; **une fois dilué** à parts égales, une tasse reste du même ordre qu'un café filtre (environ 90 mg de caféine pour 200 ml selon l'EFSA). Pour un adulte en bonne santé, l'EFSA situe les apports sans risque jusqu'à 400 mg de caféine par jour, et 200 mg pendant la grossesse. Si tu y es sensible, dilue un peu plus et évite d'en boire en fin de journée.
 
 ## Le matériel qui simplifie la vie
 
@@ -83,7 +92,7 @@ Aucun équipement n'est indispensable : un bocal et une passoire doublée d'un f
 - **La carafe à cold brew** avec **filtre cylindrique** en inox ou en maille fine : on remplit le filtre de mouture, on le plonge dans la carafe, et il suffit de le retirer le lendemain. Pas de transvasement, pas de marc à filtrer. Si tu en prépares chaque semaine en été, c'est le confort qui fait la différence. Un [filtre réutilisable](/articles/filtres-reutilisables-cafe/) en tissu ou en inox fait aussi très bien l'affaire pour filtrer un bocal.
 
 > **L'essentiel à retenir**
-> Le cold brew, c'est de la mouture **grossière** infusée **à froid 12-24 h** dans un ratio concentré (~1:8), puis **filtrée**. On obtient un **concentré doux et peu acide** qui se garde une semaine au frais et se **dilue** à la demande, sur glace. Aucun matériel spécial, juste un peu de patience.
+> Le cold brew, c'est de la mouture **grossière** infusée **à froid 12-24 h** dans un ratio concentré (~1:8), puis **filtrée**. On obtient un **concentré doux et peu acide** qui se garde plusieurs jours au frais et se **dilue** à la demande, sur glace. Aucun matériel spécial, juste un peu de patience.
 
 ## Pour aller plus loin
 

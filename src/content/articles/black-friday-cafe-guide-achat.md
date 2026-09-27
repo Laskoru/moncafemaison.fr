@@ -10,6 +10,11 @@ keywords: ["black friday café", "promo machine à café black friday", "bon pla
 category: "machines"
 coverAlt: "Machine à expresso professionnelle en inox à trois groupes, avec des tasses posées dessus, sur le comptoir d'un café"
 draft: false
+sources:
+  - label: "Service-Public.gouv.fr, « Affichage des prix : règles à respecter »"
+    url: "https://www.service-public.gouv.fr/particuliers/vosdroits/F34344"
+  - label: "Service-Public.gouv.fr, « Achat à distance : droit de rétractation du consommateur »"
+    url: "https://www.service-public.gouv.fr/particuliers/vosdroits/F10485"
 faq:
   - question: "Le Black Friday est-il vraiment le meilleur moment pour acheter du matériel à café ?"
     answer: "Pour les appareils déjà chers à la base, comme une machine à grains ou une machine expresso avec broyeur intégré, oui : ce sont les catégories où les vendeurs consentent le plus souvent de vraies remises pour écouler du stock avant les fêtes. Pour un petit accessoire à quelques euros, l'écart est en général trop faible pour justifier d'attendre plusieurs semaines."
@@ -59,9 +64,9 @@ Il en va de même pour les modèles d'entrée de gamme dans toutes les catégori
 
 ## Comment repérer une fausse promo
 
-Le signal le plus fiable reste de suivre le prix avant la période de soldes. Si tu repères une machine ou un moulin qui t'intéresse, note son prix (ou utilise un outil de suivi de prix) pendant les semaines qui précèdent le Black Friday. Le jour J, compare ce prix « barré » à ce que tu as réellement observé récemment : s'il correspond à peu près au prix courant des dernières semaines, la remise affichée en dessous est crédible. S'il est nettement plus élevé que tout ce que tu as vu circuler, il s'agit probablement d'un prix de référence gonflé pour donner l'impression d'une remise plus importante qu'elle ne l'est réellement.
+Le signal le plus fiable reste de suivre le prix avant la période de soldes. Si tu repères une machine ou un moulin qui t'intéresse, note son prix (ou utilise un outil de suivi de prix) pendant les semaines qui précèdent le Black Friday. Le jour J, compare ce prix « barré » à ce que tu as réellement observé récemment : s'il correspond à peu près au prix courant des dernières semaines, la remise affichée en dessous est crédible. S'il est nettement plus élevé que tout ce que tu as vu circuler, il s'agit probablement d'un prix de référence gonflé pour donner l'impression d'une remise plus importante qu'elle ne l'est réellement. C'est d'ailleurs la règle : le prix barré, appelé prix de référence, doit correspondre au prix pratiqué pendant au moins 30 jours avant la réduction.
 
-Autres signaux à surveiller : une mention « stock limité » qui reste affichée identique pendant plusieurs jours, un modèle dont la fiche produit ne mentionne aucune caractéristique récente (souvent un signe de fin de série qu'on écoule plutôt qu'une vraie nouveauté remisée), ou un vendeur tiers peu connu proposant un prix nettement inférieur à toutes les autres enseignes sur un même modèle. Dans ce dernier cas, vérifie toujours les avis et la politique de retour avant de valider.
+Autres signaux à surveiller : une mention « stock limité » qui reste affichée identique pendant plusieurs jours, un modèle dont la fiche produit ne mentionne aucune caractéristique récente (souvent un signe de fin de série qu'on écoule plutôt qu'une vraie nouveauté remisée), ou un vendeur tiers peu connu proposant un prix nettement inférieur à toutes les autres enseignes sur un même modèle. Dans ce dernier cas, vérifie toujours les avis et la politique de retour avant de valider. Pour un achat en ligne auprès d'un professionnel, tu disposes de 14 jours pour te rétracter, mais les frais de renvoi peuvent rester à ta charge.
 
 > 🛒 **Pour comparer les prix du moment**
 > Une bonne habitude avant d'acheter : regarder plusieurs enseignes plutôt qu'une seule offre isolée. [Voir les machines expresso à broyeur intégré sur Amazon](https://www.amazon.fr/s?k=machine+expresso+broyeur+integre&tag=moncafemaison-21) pour comparer les prix actuels sur cette catégorie.

@@ -10,6 +10,15 @@ category: "preparer"
 coverAlt: "Café versé en spirale sur un filtre V60 posé sur une tasse"
 pinHook: "Le café filtre *net* et parfumé"
 pinSub: "Mouture, ratio, bloom et versement en spirale."
+sources:
+  - label: "National Coffee Association, « Pour-over coffee »"
+    url: "https://www.aboutcoffee.org/brewing/pour-over-coffee/"
+  - label: "National Coffee Association, « Drip coffee »"
+    url: "https://www.aboutcoffee.org/brewing/drip-coffee/"
+  - label: "HARIO, « About The V60 Dripper »"
+    url: "https://www.hario-europe.com/pages/the-v60-dripper"
+  - label: "CHEMEX, « CHEMEX BONDED™ FILTERS Pre-folded Squares »"
+    url: "https://chemexcoffeemaker.com/products/chemex-bonded-filters-pre-folded-squares"
 faq:
   - question: "Qu'est-ce que le bloom (ou pré-infusion) ?"
     answer: "C'est le fait de verser un petit peu d'eau (environ le double du poids de café) sur la mouture au tout début, puis d'attendre 30 à 45 secondes. Le café frais dégaze alors du CO₂ (il gonfle et mousse) : cette étape chasse le gaz qui gênerait l'extraction et rend la tasse plus régulière et plus douce."
@@ -54,13 +63,13 @@ On change **un paramètre à la fois** (la mouture d'abord), on refait une tasse
 
 ## L'eau, le grand oublié
 
-Le café filtre, c'est à plus de 98 % de l'eau : sa qualité compte énormément. Une eau **peu calcaire et sans goût de chlore** (filtrée ou de source douce) donne une tasse bien plus nette. Une eau trop dure aplatit les arômes et entartre le matériel.
+Le café filtre, c'est presque entièrement de l'eau : sa qualité compte énormément. Une eau **peu calcaire et sans goût de chlore** (filtrée ou de source douce) donne une tasse bien plus nette. Une eau trop dure aplatit les arômes et entartre le matériel.
 
 ## Filtre blanc, brun ou permanent : ce que ça change
 
-Le filtre n'est pas neutre. Le papier **blanc** est blanchi à l'oxygène (pas au chlore, contrairement à une vieille idée reçue) et donne le goût le plus propre. Le papier **brun**, non blanchi, apporte un léger goût de carton s'il n'est pas rincé abondamment, d'où l'importance du rinçage. Les filtres **permanents** en inox ou en tissu laissent passer une partie des huiles et des fines : la tasse gagne en corps et perd en clarté, à mi-chemin entre le filtre papier et la French press. C'est un choix de goût autant qu'un choix écologique ; on détaille les options dans [filtres réutilisables pour le café](/articles/filtres-reutilisables-cafe/).
+Le filtre n'est pas neutre. Le papier **blanc** n'est pas forcément blanchi au chlore, contrairement à une vieille idée reçue (Chemex, par exemple, blanchit ses filtres à l'oxygène), et donne le goût le plus propre. Le papier **brun**, non blanchi, apporte un léger goût de carton s'il n'est pas rincé abondamment, d'où l'importance du rinçage. Les filtres **permanents** en inox ou en tissu laissent passer une partie des huiles et des fines : la tasse gagne en corps et perd en clarté, à mi-chemin entre le filtre papier et la French press. C'est un choix de goût autant qu'un choix écologique ; on détaille les options dans [filtres réutilisables pour le café](/articles/filtres-reutilisables-cafe/).
 
-Vérifie aussi la **forme** : un V60 prend des filtres coniques (taille 01 pour une tasse, 02 pour deux à quatre), une cafetière électrique des filtres à fond plat ou « en panier ». Un filtre mal ajusté au cône laisse l'eau contourner le café.
+Vérifie aussi la **forme** : un V60 prend des filtres coniques (taille 01 pour une à deux tasses, 02 jusqu'à quatre), une cafetière électrique des filtres à fond plat ou « en panier ». Un filtre mal ajusté au cône laisse l'eau contourner le café.
 
 ## La bouilloire col de cygne : utile ou gadget ?
 

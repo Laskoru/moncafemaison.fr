@@ -34,6 +34,15 @@ products:
       - "Plus cher que le Graef CM 800"
       - "En espresso très fin, il faut parfois régler la meule supérieure (réglage prévu par la notice)"
       - "Rétention de mouture, comme la plupart des moulins à trémie"
+sources:
+  - label: "Graef, « Kaffeemühle CM800 silber, Edelstahl-Kegelmahlwerk »"
+    url: "https://www.graef.de/de/p/kaffeemuehle-cm800/"
+  - label: "Sage, « the Smart Grinder™ Pro »"
+    url: "https://www.sageappliances.com/fr-fr/product/bcg820"
+  - label: "National Coffee Association, « Espresso »"
+    url: "https://www.aboutcoffee.org/brewing/espresso/"
+  - label: "Illy et Navarini, Food Biophysics (2011), « Neglected Food Bubbles: The Espresso Coffee Foam »"
+    url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC3140933/"
 faq:
   - question: "Un moulin à meules coniques suffit-il pour l'espresso, ou faut-il des meules plates ?"
     answer: "Les deux peuvent convenir en usage domestique. Les meules plates sont réputées légèrement plus régulières à mouture très fine, ce qui est un atout pour l'espresso, mais un bon moulin à meules coniques avec suffisamment de crans fins fait très bien l'affaire pour un usage maison. Le vrai clivage reste meules contre lames, pas conique contre plat."

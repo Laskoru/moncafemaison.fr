@@ -21,6 +21,13 @@ products:
       - "Investissement élevé"
       - "Encombrante sur le plan de travail"
       - "Détartrage et entretien réguliers indispensables"
+sources:
+  - label: "Philips, « Série 5400 Expresso broyeur Philips - machine à café 12 boissons, gris LatteGo »"
+    url: "https://www.home-appliances.philips/fr/fr/p/EP5447_90"
+  - label: "Philips, « Accessoires d'entretien Filtre à eau et à calcaire CA6903/10 »"
+    url: "https://www.philips.ch/fr/c-p/CA6903_10/filtre-a-eau-et-a-calcaire"
+  - label: "De'Longhi, « Comment détartrer sa machine à café »"
+    url: "https://www.delonghi.com/fr-fr/e/r/detartrage-machine-a-cafe"
 faq:
   - question: "Une machine automatique haut de gamme vaut-elle vraiment le prix par rapport à un modèle d'entrée de gamme ?"
     answer: "Oui si tu bois plusieurs cafés variés par jour et que tu veux zéro geste : la différence se joue sur la régularité du broyeur, la gestion automatique du lait et la capacité à mémoriser plusieurs profils. Si tu bois surtout un espresso simple le matin, un modèle d'entrée de gamme suffit largement et coûte bien moins cher."

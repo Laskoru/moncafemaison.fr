@@ -22,9 +22,18 @@ products:
       - "En aluminium : incompatible induction (sauf adaptateur)"
       - "Demande un peu de prise en main (feu doux)"
       - "À laver à la main, sans savon"
+sources:
+  - label: "Bialetti, « Moka Express »"
+    url: "https://www.bialetti.com/fr_fr/moka-express.html"
+  - label: "Bialetti, « What is the purpose of a Moka gasket? »"
+    url: "https://www.bialetti.com/it_en/inspiration/post/what-is-the-purpose-of-a-moka-gasket"
+  - label: "Bialetti, « Our History »"
+    url: "https://www.bialetti.com/fr_fr/notre-histoire"
+  - label: "Illy et Navarini, Food Biophysics (2011), « Neglected Food Bubbles: The Espresso Coffee Foam »"
+    url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC3140933/"
 faq:
   - question: "La cafetière italienne fait-elle un vrai espresso ?"
-    answer: "Non, pas au sens strict : la moka ne monte qu'à environ 1 à 2 bars de pression, contre 9 bars pour une machine expresso. Le résultat est un café corsé et concentré, plus proche d'un café serré que d'un espresso avec crema épaisse. C'est malgré tout la préparation la plus proche de l'espresso sans machine électrique."
+    answer: "Non, pas au sens strict : la moka travaille à une pression bien plus faible que les quelque 9 bars d'une machine expresso. Le résultat est un café corsé et concentré, plus proche d'un café serré que d'un espresso avec crema épaisse. C'est malgré tout la préparation la plus proche de l'espresso sans machine électrique."
   - question: "Peut-on utiliser une moka en aluminium sur une plaque à induction ?"
     answer: "Non, l'aluminium seul n'est pas magnétique et ne chauffe pas sur induction. Il faut soit un disque adaptateur à poser sous la cafetière, soit un modèle spécifique comme les gammes « induction » qui intègrent un fond en acier inoxydable."
   - question: "Pourquoi mon café à la moka a-t-il un goût amer ou brûlé ?"
@@ -47,7 +56,7 @@ Ce fonctionnement simple a une conséquence directe. La qualité du résultat d�
 
 - **Le matériau** : l'aluminium classique chauffe vite et coûte peu cher, mais n'est pas compatible induction sans adaptateur ; l'inox est plus lourd, plus durable et souvent compatible induction nativement, pour un prix plus élevé.
 - **La compatibilité avec ta plaque de cuisson** : vérifie en particulier l'induction, qui exclut d'office l'aluminium pur sans fond spécial.
-- **La contenance** : les tailles vont généralement de 1 à 12 tasses (une « tasse » moka fait environ 40-50 ml, bien plus petite qu'un mug). Choisis en fonction du nombre de personnes à servir, pas de la taille de mug que tu utilises ensuite.
+- **La contenance** : les tailles vont généralement de 1 à 12 tasses (une « tasse » moka est une petite tasse à café, bien plus petite qu'un mug). Choisis en fonction du nombre de personnes à servir, pas de la taille de mug que tu utilises ensuite.
 - **La facilité d'entretien** : un joint et un filtre à remplacer de temps en temps, un rinçage à l'eau claire sans savon pour ne pas altérer le goût.
 - **La robustesse de la poignée et du couvercle** : sur les modèles d'entrée de gamme, ce sont souvent les premières pièces à s'abîmer avec un usage quotidien.
 
@@ -61,7 +70,7 @@ Dans les deux cas, évite les très grandes tailles (9-12 tasses) si tu bois du 
 
 ## Bien utiliser sa moka pour un résultat régulier
 
-Quelques réflexes simples évitent la plupart des ratés : utilise de l'eau déjà chaude pour limiter le temps sur le feu et réduire le risque de goût métallique, ne tasse jamais le café dans le panier (contrairement à l'espresso), et choisis une mouture moyenne, un peu plus grossière que celle utilisée pour une machine expresso. Un feu trop vif est la cause numéro un d'un café amer ou brûlé : mieux vaut un feu doux et quelques minutes de patience.
+Quelques réflexes simples évitent la plupart des ratés : remplis la base d'eau à température ambiante jusqu'à la valve, sans la dépasser, comme l'indique Bialetti, ne tasse jamais le café dans le panier (contrairement à l'espresso), et choisis une mouture moyenne, un peu plus grossière que celle utilisée pour une machine expresso. Un feu trop vif est la cause numéro un d'un café amer ou brûlé : mieux vaut un feu doux et quelques minutes de patience.
 
 ## Aluminium ou inox : le vrai match
 
@@ -73,16 +82,16 @@ Les deux matériaux donnent un bon café, mais pas la même expérience au quoti
 | Induction | Non, sauf disque adaptateur ou fond spécial | Oui, presque toujours |
 | Lave-vaisselle | Jamais (il s'oxyde et blanchit) | Possible, même si le rinçage à la main reste préférable |
 | Goût | Se « culotte » avec le temps, arrondit le café | Neutre, constant dès le premier jour |
-| Poids et prix | Léger, économique | Plus lourd, environ le double du prix |
+| Poids et prix | Léger, économique | Plus lourd, nettement plus cher |
 | Durée de vie | Longue si on ne la lave pas au savon | Très longue, presque indestructible |
 
 Choisis l'aluminium pour le goût traditionnel et le petit prix, l'inox pour l'induction, la facilité d'entretien et la tranquillité. Dans les deux cas, la méthode reste identique : on la détaille dans [réussir sa cafetière italienne](/articles/reussir-cafetiere-italienne-moka/).
 
 ## Les pièces d'usure : ce qui décide de la durée de vie
 
-Une moka bien entretenue dure vingt ans, à condition de remplacer trois petites pièces :
+Une moka bien entretenue dure des années, à condition de remplacer trois petites pièces :
 
-- **Le joint en caoutchouc**, entre le filtre et la partie haute. Il durcit, se fendille, et le café monte alors mal ou fuit sur les côtés. À changer tous les un à deux ans.
+- **Le joint en caoutchouc**, entre le filtre et la partie haute. Il durcit, se fendille, et le café monte alors mal ou fuit sur les côtés. Bialetti conseille de le changer au moins une fois par an.
 - **La plaque filtre** perforée, sous le joint. Elle se bouche avec le temps ; une brosse suffit souvent, sinon on la remplace en même temps que le joint.
 - **La valve de sécurité** sur la base. Elle se nettoie à l'aiguille ; si elle reste bloquée par le calcaire, la cafetière ne monte plus en pression correctement.
 

@@ -22,6 +22,13 @@ products:
       - "Moins régulier qu’un moulin premium sur l’espresso fin"
       - "Un peu bruyant"
       - "Rétention de mouture dans la chambre"
+sources:
+  - label: "National Coffee Association, « Storage and shelf life »"
+    url: "https://www.aboutcoffee.org/beans/storage-and-shelf-life/"
+  - label: "1Zpresso, « FAQ »"
+    url: "https://1zpresso.coffee/faq/"
+  - label: "Baratza, « Warranty »"
+    url: "https://www.baratza.com/en-us/support/warranty"
 faq:
   - question: "Moulin à meules ou à lames : quelle différence ?"
     answer: "Un moulin à lames hache les grains de façon irrégulière : la mouture mélange poussière et gros morceaux, ce qui déséquilibre l'extraction. Un moulin à meules écrase les grains à une finesse réglable et régulière : c'est ce qui fait vraiment la différence en tasse. Pour du bon café, un moulin à meules est fortement recommandé."
@@ -33,7 +40,7 @@ faq:
 
 ## Pourquoi le moulin compte souvent plus que la machine
 
-On sous-estime souvent le rôle du moulin. Pourtant, entre deux cafés préparés avec la même machine et les mêmes grains, c'est la mouture qui fait la plus grande différence de goût. Un café moulu à l'avance perd ses arômes en quelques jours ; moudre juste avant l'extraction, c'est capturer le meilleur du grain au moment où il compte.
+On sous-estime souvent le rôle du moulin. Pourtant, entre deux cafés préparés avec la même machine et les mêmes grains, c'est la mouture qui fait la plus grande différence de goût. Un café moulu à l'avance perd sa fraîcheur plus vite que le grain entier ; moudre juste avant l'extraction, c'est capturer le meilleur du grain au moment où il compte.
 
 Encore faut-il une mouture **régulière**. Si les particules sont de tailles inégales, l'eau extrait trop certaines et pas assez les autres : le café devient à la fois amer et acide. C'est là que le type de moulin entre en jeu.
 
@@ -87,7 +94,7 @@ La plupart des moulins gardent quelques grammes de mouture dans le mécanisme ap
 
 ## Entretien : dix minutes par mois
 
-Les huiles du café se déposent sur les meules et finissent par donner un goût rance, quel que soit le grain utilisé. Une fois par mois, débranche le moulin, retire la trémie et la meule supérieure (elle se dévisse ou se déclipse selon les modèles), puis brosse les meules et la chambre de mouture avec une brosse sèche ou un pinceau. **Jamais d'eau sur les meules** : elles rouilleraient ou se déformeraient. Un aspirateur avec embout fin fait des merveilles pour les recoins. Entre deux démontages, les pastilles nettoyantes pour moulin (à base d'amidon) passées dans le mécanisme absorbent les huiles en une minute. Évite le « truc » du riz cru, plus dur que le café, qui peut abîmer les meules et fait sauter la garantie chez plusieurs fabricants.
+Les huiles du café se déposent sur les meules et finissent par donner un goût rance, quel que soit le grain utilisé. Une fois par mois, débranche le moulin, retire la trémie et la meule supérieure (elle se dévisse ou se déclipse selon les modèles), puis brosse les meules et la chambre de mouture avec une brosse sèche ou un pinceau. **Jamais d'eau sur les meules** : elles rouilleraient ou se déformeraient. Un aspirateur avec embout fin fait des merveilles pour les recoins. Entre deux démontages, les pastilles nettoyantes pour moulin (à base d'amidon) passées dans le mécanisme absorbent les huiles en une minute. Évite le « truc » du riz cru, plus dur que le café, qui peut abîmer les meules et sort de l'usage prévu : chez Baratza, par exemple, la garantie exclut tout usage autre que la mouture de grains de café torréfiés.
 
 ## Pour aller plus loin
 

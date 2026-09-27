@@ -22,6 +22,15 @@ products:
       - "Demande un peu de pratique (tassage)"
       - "Buse vapeur basique"
       - "Bac et porte-filtre à nettoyer régulièrement"
+sources:
+  - label: "Sage, « the Barista Express™ avec pichet à lait thermique »"
+    url: "https://www.sageappliances.com/fr-fr/product/bes875"
+  - label: "National Coffee Association, « Espresso »"
+    url: "https://www.aboutcoffee.org/brewing/espresso/"
+  - label: "Illy et Navarini, Food Biophysics (2011), « Neglected Food Bubbles: The Espresso Coffee Foam »"
+    url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC3140933/"
+  - label: "De'Longhi, « Comment détartrer sa machine à café »"
+    url: "https://www.delonghi.com/fr-fr/e/r/detartrage-machine-a-cafe"
 faq:
   - question: "Faut-il un moulin en plus d'une machine expresso à porte-filtre ?"
     answer: "Idéalement oui : l'espresso est la préparation qui dépend le plus de la finesse et de la fraîcheur de la mouture. Avec du café pré-moulu, le résultat reste correct mais plafonne vite. Un moulin à meules capable de descendre fin est le meilleur complément d'une machine à porte-filtre."
@@ -80,7 +89,7 @@ Le prix affiché n'est pas le budget total. Compte au minimum :
 
 ## Entretien : cinq minutes par semaine
 
-Purge la buse vapeur (un coup de vapeur à vide) et essuie-la **immédiatement** après chaque lait moussé, sinon le lait cuit dedans et la bouche. Rince le porte-filtre et le panier après chaque café, sans les laisser tremper dans l'eau savonneuse. Une fois par semaine, fais couler de l'eau à vide pour rincer la douchette et essuie le joint du groupe. Le détartrage dépend de la dureté de ton eau : toutes les quatre à six semaines en eau calcaire, tous les deux à trois mois en eau douce ou filtrée, et dès que le voyant de la machine le demande. On explique quel produit choisir dans [meilleur détartrant pour machine à café](/articles/meilleur-detartrant-machine-a-cafe/).
+Purge la buse vapeur (un coup de vapeur à vide) et essuie-la **immédiatement** après chaque lait moussé, sinon le lait cuit dedans et la bouche. Rince le porte-filtre et le panier après chaque café, sans les laisser tremper dans l'eau savonneuse. Une fois par semaine, fais couler de l'eau à vide pour rincer la douchette et essuie le joint du groupe. Le détartrage dépend de la dureté de ton eau et de ton usage : suis le voyant de la machine ou le rythme indiqué dans la notice, et détartre plus souvent en eau calcaire. On explique quel produit choisir dans [meilleur détartrant pour machine à café](/articles/meilleur-detartrant-machine-a-cafe/).
 
 ## Porte-filtre ou capsules pour débuter ?
 

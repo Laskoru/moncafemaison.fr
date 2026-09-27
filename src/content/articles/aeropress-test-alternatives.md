@@ -10,13 +10,22 @@ keywords: ["aeropress", "test aeropress", "alternative aeropress", "café nomade
 category: "machines"
 coverAlt: "Une personne verse de l'eau chaude dans un AeroPress pour préparer un café"
 draft: false
+sources:
+  - label: "AeroPress, « How To Use AeroPress »"
+    url: "https://aeropress.com/pages/how-to-use"
+  - label: "AeroPress, « About AeroPress, Inc. and Alan Adler »"
+    url: "https://aeropress.com/pages/about"
+  - label: "AeroPress, « Can I clean AeroPress coffee makers in the dishwasher? »"
+    url: "https://help.aeropress.com/en-US/can-i-clean-aeropress-coffee-makers-in-the-dishwasher-124498"
+  - label: "Illy et Navarini, Food Biophysics (2011), « Neglected Food Bubbles: The Espresso Coffee Foam »"
+    url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC3140933/"
 faq:
   - question: "Quelle est la différence entre la méthode classique et la méthode inversée ?"
     answer: "En méthode classique, le piston est inséré dans la chambre dès le départ et l'ensemble repose sur la tasse pendant l'infusion : c'est la méthode la plus simple et la plus rapide à maîtriser. En méthode inversée, on infuse le café piston vers le bas, chambre posée sur le piston, puis on visse le filtre et on retourne l'ensemble sur la tasse juste avant de presser. Cela permet un temps de contact plus long sans risque d'écoulement prématuré, pour une extraction généralement perçue comme plus ronde. Les deux méthodes utilisent le même matériel, seul l'ordre des gestes change."
   - question: "L'AeroPress remplace-t-il une vraie machine expresso ?"
     answer: "Non : l'AeroPress ne génère pas la pression nécessaire (autour de 9 bars) pour produire une vraie crema d'espresso, même en pressant fort. Le résultat s'apparente davantage à un café filtre concentré, plus corsé qu'un café filtre classique mais différent d'un espresso obtenu avec une [machine expresso](/articles/meilleure-machine-expresso/). C'est un compromis très correct pour qui veut un café serré sans investir dans une machine à pompe, pas un substitut technique à l'espresso."
   - question: "Quelle mouture utiliser avec l'AeroPress ?"
-    answer: "L'AeroPress tolère une large plage de mouture, de fine à moyenne-fine, ce qui en fait l'une des méthodes les plus souples du marché. Une mouture plus fine avec un temps de contact court donne un café plus concentré façon espresso-like ; une mouture un peu plus grossière avec un temps de contact plus long se rapproche d'un café filtre classique. C'est justement cette tolérance qui rend la méthode si populaire auprès des débutants comme des amateurs confirmés."
+    answer: "L'AeroPress tolère une large plage de mouture, de moyenne à fine, ce qui en fait l'une des méthodes les plus souples du marché. Une mouture plus fine avec un temps de contact court donne un café plus concentré façon espresso-like ; une mouture un peu plus grossière avec un temps de contact plus long se rapproche d'un café filtre classique. C'est justement cette tolérance qui rend la méthode si populaire auprès des débutants comme des amateurs confirmés."
 topPick:
   name: "AeroPress Go, la version compacte pour voyager"
   blurb: "La version repensée pour le nomadisme : un mug de transport qui range piston, filtres et cuillère doseuse, sans rien changer à la méthode de préparation d'origine."
@@ -71,18 +80,18 @@ L'AeroPress n'est pas la seule méthode rapide et manuelle, et elle n'est pas to
 
 ## Comment bien préparer un café à l'AeroPress
 
-1. **Chauffe l'eau** entre 85 et 96 °C selon la torréfaction (plus la torréfaction est claire, plus l'eau peut être chaude).
-2. **Mouds environ 15 à 17 g de café** à une mouture fine à moyenne-fine, proche d'une mouture pour cafetière filtre programmable mais légèrement plus fine.
+1. **Chauffe l'eau** autour de 85 °C, la température conseillée par AeroPress.
+2. **Mouds environ 16 à 18 g de café** à une mouture moyenne-fine, proche d'une mouture pour cafetière filtre programmable mais légèrement plus fine.
 3. **Installe le filtre** (rincé à l'eau chaude s'il est en papier, pour retirer le goût de papier et préchauffer la chambre) et verse la mouture.
 4. **Verse l'eau chaude** en deux temps : un premier mouillage rapide de toute la mouture (le « bloom »), puis le complément jusqu'à la quantité souhaitée (environ 200 à 250 ml pour ce dosage).
 5. **Remue légèrement** avec la palette fournie, laisse infuser 30 secondes à 1 minute selon la force recherchée.
-6. **Presse le piston** lentement et fermement pendant environ 20 à 30 secondes, jusqu'à entendre le léger sifflement caractéristique de fin d'extraction.
+6. **Presse le piston** lentement, avec une pression douce et constante, jusqu'à entendre le léger sifflement caractéristique de fin d'extraction.
 
 Le dosage exact reste une affaire de goût personnel ; une [balance de précision](/articles/balance-cafe-precision/) aide à reproduire fidèlement une recette qui a plu, café après café.
 
 ## Entretenir son AeroPress
 
-L'entretien tient en quelques secondes : on dévisse l'embout, on pousse le piston jusqu'au bout pour éjecter le marc compacté avec le filtre, puis on rince chambre et piston à l'eau claire. Un passage occasionnel sous l'eau savonneuse suffit à éliminer les résidus d'huiles de café qui peuvent s'accumuler sur le joint du piston avec le temps. Évite le lave-vaisselle pour le joint en silicone, qui se déforme plus vite sous la chaleur intense et prolongée.
+L'entretien tient en quelques secondes : on dévisse l'embout, on pousse le piston jusqu'au bout pour éjecter le marc compacté avec le filtre, puis on rince chambre et piston à l'eau claire. Un passage occasionnel sous l'eau savonneuse suffit à éliminer les résidus d'huiles de café qui peuvent s'accumuler sur le joint du piston avec le temps. Le lave-vaisselle est permis (panier du haut) sur la plupart des modèles, sauf l'AeroPress Premium, à laver à la main ; le fabricant conseille aussi de retirer de temps en temps le joint en silicone pour le laver à l'eau chaude savonneuse.
 
 > 🛒 **Pour voyager léger**
 > Voir la version compacte pensée pour le transport, avec mug intégré et rangement des accessoires : [comparer les AeroPress Go sur Amazon](https://www.amazon.fr/s?k=aeropress+go+voyage&tag=moncafemaison-21).

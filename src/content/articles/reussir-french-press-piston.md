@@ -10,6 +10,11 @@ category: "preparer"
 coverAlt: "Cafetière à piston en verre remplie de café, piston relevé"
 pinHook: "La *French press* ronde, sans dépôt"
 pinSub: "Bon ratio, 4 minutes, et le geste anti-boue."
+sources:
+  - label: "National Coffee Association, « French press coffee »"
+    url: "https://www.aboutcoffee.org/brewing/french-press-coffee/"
+  - label: "Harvard T.H. Chan School of Public Health, « Coffee • The Nutrition Source »"
+    url: "https://nutritionsource.hsph.harvard.edu/food-features/coffee/"
 faq:
   - question: "Quel ratio café/eau pour une French press ?"
     answer: "Un bon point de départ est d'environ 60 à 70 g de café par litre d'eau, soit à peu près une cuillère à soupe bombée (7-8 g) pour 120 ml. Pèse plutôt que d'estimer : c'est le meilleur moyen d'obtenir la même tasse à chaque fois, puis d'ajuster à ton goût."
@@ -58,13 +63,13 @@ Ce dernier point est capital : laissé dans la cafetière, le café **continue d
 
 ## Entretien et matériel
 
-La French press se nettoie facilement : démonte le filtre métallique de temps en temps pour retirer les résidus de café et d'huile qui l'encrassent. Attention au **verre**, fragile aux chocs. Pour choisir un modèle (verre, inox, double paroi), voir notre [comparatif des cafetières à piston](/articles/meilleure-cafetiere-piston-french-press/).
+La French press se nettoie facilement : démonte le filtre métallique régulièrement, idéalement après chaque usage, pour retirer les résidus de café et d'huile qui l'encrassent. Attention au **verre**, fragile aux chocs. Pour choisir un modèle (verre, inox, double paroi), voir notre [comparatif des cafetières à piston](/articles/meilleure-cafetiere-piston-french-press/).
 
 ## Ajuster la recette à ton goût
 
 Les repères ci-dessus donnent une tasse équilibrée. Une fois qu'ils sont acquis, tu peux jouer sur deux leviers :
 
-- **Le ratio.** Autour de 1:15 (65 g/L), c'est le classique. Descends vers **1:12** pour un café plus dense et corsé, monte vers **1:17** pour une tasse plus légère à boire tout au long de la matinée. Change le ratio plutôt que le temps : c'est le levier le plus prévisible.
+- **Le ratio.** Autour de 1:15 (65 g/L), c'est le classique. Descends vers **1:12** pour un café plus dense et corsé, monte vers **1:16** pour une tasse plus légère à boire tout au long de la matinée. Change le ratio plutôt que le temps : c'est le levier le plus prévisible.
 - **La méthode « longue ».** Une variante appréciée des amateurs : verse l'eau, ne remue pas, attends 4 minutes, casse la croûte et écume, puis **laisse reposer encore 5 à 8 minutes** sans presser. Les particules tombent au fond d'elles-mêmes ; il ne reste qu'à descendre le piston juste sous la surface et à verser doucement. Le café est plus tiède, mais remarquablement **propre en bouche**, sans le moindre dépôt. À tester si le côté « boueux » te dérange.
 
 ## Quelle taille de cafetière ?
@@ -79,9 +84,9 @@ Choisis la taille pour ton usage réel : une grande cafetière remplie au tiers 
 
 ## Le café qui va bien avec la French press
 
-Comme le filtre métallique laisse passer les huiles, la French press met en valeur le **corps** et la rondeur. Les torréfactions moyennes, aux notes de chocolat, de fruits secs ou de caramel, sont les plus flatteuses. Les cafés très clairs et acidulés, faits pour le filtre papier, peuvent paraître déséquilibrés. Un café **fraîchement torréfié** (deux à quatre semaines) dégaze davantage : la croûte est plus épaisse, le café plus vivant, mais laisse-lui les 4 minutes complètes.
+Comme le filtre métallique laisse passer les huiles, la French press met en valeur le **corps** et la rondeur. Ces huiles apportent aussi des diterpènes, qui peuvent faire monter le « mauvais » cholestérol (LDL) : si le tien est surveillé, alterne avec un café filtré au papier. Les torréfactions moyennes, aux notes de chocolat, de fruits secs ou de caramel, sont les plus flatteuses. Les cafés très clairs et acidulés, faits pour le filtre papier, peuvent paraître déséquilibrés. Un café **fraîchement torréfié** (deux à quatre semaines) dégaze davantage : la croûte est plus épaisse, le café plus vivant, mais laisse-lui les 4 minutes complètes.
 
-Pense aussi à **préchauffer les tasses** : un café à 65 °C versé dans une tasse froide perd dix degrés instantanément.
+Pense aussi à **préchauffer les tasses** : un café versé dans une tasse froide perd plusieurs degrés instantanément.
 
 ## Dépannage express
 
@@ -92,7 +97,7 @@ Pense aussi à **préchauffer les tasses** : un café à 65 °C versé dans une 
 | Café fade, aqueux | Pas assez de café, mouture trop grossière | Ratio 1:15 pesé, mouture un cran plus fine |
 | Café tiède | Cafetière froide, verre simple paroi | Rincer à l'eau chaude avant ; modèle isotherme |
 | Piston qui résiste | Trop de café ou mouture trop fine | Moins de café, plus grossier, presser lentement |
-| Goût rance | Filtre encrassé | Démonter et brosser le tamis chaque semaine |
+| Goût rance | Filtre encrassé | Démonter et brosser le tamis régulièrement |
 
 > **L'essentiel à retenir**
 > La French press réussie tient à quatre choses : une mouture **grossière**, un ratio **pesé** (~60-70 g/L), une eau **frémissante** et **4 minutes** d'infusion. Contre le dépôt : casser la croûte, **écumer**, presser **lentement sans aller au fond**, et **transvaser aussitôt**. Simple, mais chaque geste compte.

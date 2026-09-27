@@ -22,6 +22,11 @@ products:
       - "Rétention de mouture"
       - "Moins précis qu’un moulin premium"
       - "Un peu bruyant"
+sources:
+  - label: "National Coffee Association, « Drip coffee »"
+    url: "https://www.aboutcoffee.org/brewing/drip-coffee/"
+  - label: "National Coffee Association, « Storage and shelf life »"
+    url: "https://www.aboutcoffee.org/beans/storage-and-shelf-life/"
 faq:
   - question: "Un moulin à lames peut-il convenir pour l'espresso ?"
     answer: "Non, pas vraiment. L'espresso exige une mouture très fine ET régulière, sous pression : un moulin à lames produit un mélange de poussière et de gros morceaux qui bouche le porte-filtre ou laisse passer l'eau trop vite. Pour un espresso correct, un moulin à meules réglable est indispensable."

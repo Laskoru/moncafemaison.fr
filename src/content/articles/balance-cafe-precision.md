@@ -22,6 +22,13 @@ products:
       - "Plateau un peu petit pour les grandes cafetières"
       - "Fonctionne à piles"
       - "Écran peu lisible en plein soleil"
+sources:
+  - label: "National Coffee Association, « Espresso »"
+    url: "https://www.aboutcoffee.org/brewing/espresso/"
+  - label: "National Coffee Association, « French press coffee »"
+    url: "https://www.aboutcoffee.org/brewing/french-press-coffee/"
+  - label: "Banque centrale européenne, « Face commune »"
+    url: "https://www.ecb.europa.eu/euro/coins/common/html/index.fr.html"
 faq:
   - question: "Pourquoi peser son café plutôt que doser à la cuillère ?"
     answer: "Parce qu'une cuillère ne mesure pas la même masse selon la mouture et le tassage : d'un café à l'autre, le dosage varie, et le goût avec. Peser (ex. 18 g de café pour environ 36 g d'espresso, soit un ratio 1:2) rend chaque tasse reproductible : c'est le geste qui améliore le plus la régularité."

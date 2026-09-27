@@ -22,6 +22,13 @@ products:
       - "Verre fragile"
       - "Un léger dépôt au fond de la tasse"
       - "Café à servir vite (il continue d’infuser)"
+sources:
+  - label: "National Coffee Association, « French press coffee »"
+    url: "https://www.aboutcoffee.org/brewing/french-press-coffee/"
+  - label: "Harvard T.H. Chan School of Public Health, « Coffee • The Nutrition Source »"
+    url: "https://nutritionsource.hsph.harvard.edu/food-features/coffee/"
+  - label: "ADEME, « Que faire de mes déchets alimentaires ? Que mettre au compost ? »"
+    url: "https://quefairedemesdechets.ademe.fr/categories/biodechets/dechets-alimentaires/"
 faq:
   - question: "Quelle mouture pour une cafetière à piston ?"
     answer: "Une mouture grossière, régulière, comme du gros sel. Trop fine, elle passe à travers le filtre et rend le café trouble et amer. C'est pourquoi un moulin à meules (réglable en grossier) fait une vraie différence avec une French press."
@@ -33,7 +40,7 @@ faq:
 
 ## Pourquoi la French press reste imbattable pour débuter
 
-La cafetière à piston est sans doute la façon la plus simple d'obtenir un café riche et corsé à la maison. Pas d'électronique, pas de filtre en papier à racheter : on met du café moulu grossièrement, on verse de l'eau chaude, on attend quelques minutes, on abaisse le piston. Le résultat est un café à la texture pleine, qui laisse passer les huiles aromatiques du café (ce que les filtres en papier retiennent).
+La cafetière à piston est sans doute la façon la plus simple d'obtenir un café riche et corsé à la maison. Pas d'électronique, pas de filtre en papier à racheter : on met du café moulu grossièrement, on verse de l'eau chaude, on attend quelques minutes, on abaisse le piston. Le résultat est un café à la texture pleine, qui laisse passer les huiles aromatiques du café (ce que les filtres en papier retiennent). À savoir si tu surveilles ton cholestérol : ces huiles contiennent des diterpènes, qui peuvent faire monter le « mauvais » cholestérol (LDL), et un café non filtré comme celui de la French press en apporte davantage qu'un café filtre.
 
 C'est aussi l'entrée en matière la moins chère du café de qualité : pour le prix d'un accessoire, on obtient des tasses remarquables, à condition de moudre correctement son café.
 
@@ -75,7 +82,7 @@ Le **plastique sans BPA** existe surtout pour le camping et les déplacements : 
 
 ## Le nettoyage, point que tout le monde néglige
 
-Le filtre d'une French press est composé de trois pièces (tamis, disque perforé, croisillon à ressort) qu'il faut **démonter** de temps en temps. Les huiles du café s'y déposent et rancissent : un café qui prend un goût « de vieux » alors que les grains sont frais vient presque toujours de là. Une fois par semaine, dévisse l'ensemble, brosse le tamis, et laisse tremper les pièces dans de l'eau chaude avec un peu de bicarbonate. Évite les liquides vaisselle très parfumés, dont l'odeur reste dans le tamis. Le marc, lui, ne va pas dans l'évier : il finit par boucher les canalisations. Un coup de spatule vers la poubelle ou le compost, puis un rinçage.
+Le filtre d'une French press est composé de trois pièces (tamis, disque perforé, croisillon à ressort) qu'il faut **démonter** régulièrement. Les huiles du café s'y déposent et rancissent : un café qui prend un goût « de vieux » alors que les grains sont frais vient presque toujours de là. L'idéal est de le laver après chaque usage ; au minimum une fois par semaine, dévisse l'ensemble, brosse le tamis, et laisse tremper les pièces dans de l'eau chaude avec un peu de bicarbonate. Évite les liquides vaisselle très parfumés, dont l'odeur reste dans le tamis. Le marc, lui, ne va pas dans l'évier : il finit par boucher les canalisations. Un coup de spatule vers la poubelle ou le compost, puis un rinçage.
 
 ## Le filtre s'use : quand le remplacer
 

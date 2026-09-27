@@ -9,13 +9,20 @@ category: "preparer"
 coverAlt: "Espresso qui coule d'un porte-filtre dans une tasse, avec une belle crema"
 pinHook: "L'espresso *parfait* à la maison"
 pinSub: "Mouture, dose, tassage, temps : les 4 réglages qui comptent."
+sources:
+  - label: "National Coffee Association, « Espresso »"
+    url: "https://www.aboutcoffee.org/brewing/espresso/"
+  - label: "Illy et Navarini, Food Biophysics (2011), « Neglected Food Bubbles: The Espresso Coffee Foam »"
+    url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC3140933/"
+  - label: "Sage, « the Barista Express™ avec pichet à lait thermique »"
+    url: "https://www.sageappliances.com/fr-fr/product/bes875"
 faq:
   - question: "Quel temps d'extraction pour un espresso ?"
     answer: "Vise environ 25 à 30 secondes pour extraire à peu près le double du poids de café en boisson (par exemple 18 g de mouture pour ~36 g dans la tasse). Trop rapide (moins de 20 s), le café est acide et sous-extrait ; trop lent (plus de 35 s), il devient amer. On ne change pas ce temps au hasard : on ajuste la mouture."
   - question: "Pourquoi mon espresso n'a pas de crema ?"
     answer: "Trois causes fréquentes : un café pas assez frais (la crema vient du dégazage des grains récemment torréfiés), une mouture trop grossière, ou une dose trop faible. Utilise des grains frais, affine la mouture et tasse bien : la crema revient."
   - question: "Faut-il vraiment un moulin pour l'espresso ?"
-    answer: "Oui, c'est même l'élément le plus important. L'espresso exige une mouture très fine ET régulière, ajustée au gramme près, impossible à obtenir avec du café pré-moulu qui s'évente en quelques jours. Un bon moulin à meules compte davantage qu'une machine haut de gamme."
+    answer: "Oui, c'est même l'élément le plus important. L'espresso exige une mouture très fine ET régulière, ajustée au gramme près, impossible à obtenir avec du café pré-moulu qui s'évente vite. Un bon moulin à meules compte davantage qu'une machine haut de gamme."
 ---
 
 ## L'espresso, une affaire de précision
@@ -61,7 +68,7 @@ Un espresso révèle tout : un **café frais** (torréfié depuis quelques semai
 
 ## Les erreurs qui gâchent un espresso
 
-- **Café pré-moulu** : il s'évente en quelques jours et ne descend jamais assez fin ni régulier.
+- **Café pré-moulu** : il s'évente vite et ne descend jamais assez fin ni régulier.
 - **Ne pas peser** : à l'œil, la dose varie, et rien n'est reproductible.
 - **Changer trois réglages d'un coup** : on ne comprend plus ce qui a marché. Un seul à la fois.
 - **Machine froide** : sans préchauffage, la première tasse est ratée.
@@ -72,7 +79,7 @@ La mouture tombe dans le panier en tas, avec des zones denses et des poches d'ai
 
 ## La crema : ce qu'elle dit, et ce qu'elle ne dit pas
 
-La crema est cette mousse noisette qui coiffe l'espresso. Elle est faite de **CO2** libéré par le café frais, d'huiles et de micro-bulles. Elle renseigne sur deux choses : la **fraîcheur** (un café de plus de deux mois ne fait presque plus de crema) et le **temps d'extraction** (une crema pâle et fine signe souvent un café qui a coulé trop vite). En revanche, ce n'est **pas un gage de goût** : les paniers pressurisés des machines d'entrée de gamme fabriquent une crema abondante à partir de n'importe quel café, et un robusta produit plus de mousse qu'un arabica pourtant meilleur. Juge la tasse, pas la mousse.
+La crema est cette mousse noisette qui coiffe l'espresso. Elle est faite de **CO2** libéré par le café frais, d'huiles et de micro-bulles. Elle renseigne sur deux choses : la **fraîcheur** (un café trop ancien, qui a perdu son CO2, ne fait presque plus de crema) et le **temps d'extraction** (une crema pâle et fine signe souvent un café qui a coulé trop vite). En revanche, ce n'est **pas un gage de goût** : les paniers pressurisés des machines d'entrée de gamme fabriquent une crema abondante à partir de n'importe quel café. Juge la tasse, pas la mousse.
 
 ## Ristretto, espresso, lungo : jouer sur le ratio
 

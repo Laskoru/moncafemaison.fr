@@ -10,6 +10,13 @@ category: "preparer"
 coverAlt: "Cafetière italienne en aluminium sur une plaque, café qui monte"
 pinHook: "La *moka* corsée, jamais brûlée"
 pinSub: "Feu doux, bonne mouture, et le geste qui sauve la tasse."
+sources:
+  - label: "Bialetti, « Moka Express »"
+    url: "https://www.bialetti.com/fr_fr/moka-express.html"
+  - label: "Bialetti, « What is the purpose of a Moka gasket? »"
+    url: "https://www.bialetti.com/it_en/inspiration/post/what-is-the-purpose-of-a-moka-gasket"
+  - label: "Bialetti, « Our History »"
+    url: "https://www.bialetti.com/fr_fr/notre-histoire"
 faq:
   - question: "Faut-il tasser le café dans une cafetière italienne ?"
     answer: "Non, surtout pas. On remplit le filtre en dôme et on égalise sans tasser : l'eau doit pouvoir traverser librement. Tasser augmente la pression et la résistance, ce qui surchauffe et rend le café amer. C'est l'inverse de l'espresso."
@@ -37,7 +44,7 @@ Remplis le filtre **en petit dôme** et égalise du doigt, **sans jamais tasser*
 
 ## 2. De l'eau déjà chaude dans la base
 
-L'astuce qui change le goût : remplir la base avec de l'**eau déjà chaude** (jusqu'à la valve de sécurité, pas au-dessus). Pourquoi ? Parce qu'avec de l'eau froide, la cafetière passe de longues minutes sur le feu à chauffer par le bas, et pendant ce temps, la mouture cuit et développe de l'amertume. En partant d'eau chaude, la montée est rapide et le café bien moins « cuit ». Attention, la cafetière devient brûlante : manipule-la avec un torchon.
+Bialetti indique de remplir la base d'eau à température ambiante, jusqu'à la valve de sécurité et pas au-dessus. L'astuce de beaucoup d'amateurs : partir d'**eau déjà chaude**. Pourquoi ? Parce qu'avec de l'eau froide, la cafetière passe de longues minutes sur le feu à chauffer par le bas, et pendant ce temps, la mouture chauffe et peut développer de l'amertume. En partant d'eau chaude, la montée est plus rapide et le café moins longtemps exposé à la chaleur. Attention, la cafetière devient brûlante : manipule-la avec un torchon.
 
 ## 3. Feu doux, et surveiller la montée
 
@@ -45,7 +52,7 @@ Pose la cafetière sur un **feu doux à modéré**, couvercle ouvert pour survei
 
 ## La méthode, pas à pas
 
-1. Fais chauffer de l'eau et remplis la **base** jusqu'à la valve.
+1. Remplis la **base** d'eau (déjà chaude si tu suis l'astuce ci-dessus) jusqu'à la valve.
 2. Remplis le **filtre** de mouture moyenne, en dôme, **sans tasser**.
 3. Assemble (avec un torchon, c'est chaud) et pose sur **feu doux**, couvercle ouvert.
 4. Surveille : **dès le gargouillis** et le flux qui blondit, retire du feu.
@@ -64,13 +71,13 @@ Les moka classiques sont en **aluminium** et ne fonctionnent donc **pas sur indu
 
 ## Quelle taille de moka, et pourquoi on ne fait pas « à moitié »
 
-Les tailles sont exprimées en « tasses » italiennes, soit environ **50 ml** chacune : une moka « 3 tasses » donne 150 ml (un mug), une « 6 tasses » environ 300 ml. Le piège, c'est qu'une moka **ne se remplit pas à moitié** : le filtre doit être plein et la base remplie jusqu'à la valve, sinon la pression monte mal et le café est raté. Choisis donc la taille en fonction de ce que tu bois **à chaque fois**, pas de ton maximum occasionnel. Beaucoup de foyers finissent avec deux mokas : une petite pour le café solo, une grande pour le week-end.
+Les tailles sont exprimées en « tasses » italiennes, de petites tasses à café bien plus petites qu'un mug. Le piège, c'est qu'une moka **ne se remplit pas à moitié** : le filtre doit être plein et la base remplie jusqu'à la valve, sinon la pression monte mal et le café est raté. Choisis donc la taille en fonction de ce que tu bois **à chaque fois**, pas de ton maximum occasionnel. Beaucoup de foyers finissent avec deux mokas : une petite pour le café solo, une grande pour le week-end.
 
-Le dosage, lui, ne demande pas de balance : un filtre rempli à ras, égalisé sans tasser, correspond à la bonne quantité pour sa base (autour de 15 g pour une 3 tasses, 25 g pour une 6 tasses).
+Le dosage, lui, ne demande pas de balance : un filtre rempli à ras, égalisé sans tasser, correspond à la bonne quantité pour sa base.
 
 ## Le café qui convient à la moka
 
-La moka extrait chaud et sous une pression modeste (1,5 à 2 bars) : elle flatte les torréfactions **moyennes à foncées**, les mélanges « espresso » et les cafés aux notes de chocolat ou de noisette. Un café très clair, pensé pour le filtre, ressort souvent acide et maigre. Si tu achètes du café déjà moulu, prends une mouture étiquetée « cafetière italienne » ou « moka », un cran plus grossière que l'espresso : la mouture « espresso » des paquets du commerce est souvent trop fine et bouche le filtre.
+La moka extrait chaud et sous une pression modeste, bien plus faible que celle d'une machine expresso : elle flatte les torréfactions **moyennes à foncées**, les mélanges « espresso » et les cafés aux notes de chocolat ou de noisette. Un café très clair, pensé pour le filtre, ressort souvent acide et maigre. Si tu achètes du café déjà moulu, prends une mouture étiquetée « cafetière italienne » ou « moka », un cran plus grossière que l'espresso : la mouture « espresso » des paquets du commerce est souvent trop fine et bouche le filtre.
 
 ## Le rituel de la première utilisation
 
@@ -87,10 +94,10 @@ Une moka neuve sent le métal et donne un premier café désagréable. Avant de 
 | Rien ne monte | Valve de sécurité bouchée, ou base remplie au-dessus de la valve | Nettoyer la valve avec une aiguille, respecter le niveau |
 | Le café est amer même à feu doux | Cafetière laissée sur le feu après la montée | Retirer dès le gargouillis, refroidir la base |
 
-Le **joint en caoutchouc** et la **plaque filtre** du haut sont des pièces d'usure : compte un remplacement tous les un à deux ans selon l'usage. Ils se trouvent facilement pour les marques classiques, un argument de plus pour choisir une moka d'une marque établie plutôt qu'un modèle sans nom.
+Le **joint en caoutchouc** et la **plaque filtre** du haut sont des pièces d'usure : Bialetti conseille de changer le joint au moins une fois par an. Ils se trouvent facilement pour les marques classiques, un argument de plus pour choisir une moka d'une marque établie plutôt qu'un modèle sans nom.
 
 > **L'essentiel à retenir**
-> Pour une moka réussie : mouture **moyenne non tassée**, **eau chaude** dans la base, **feu doux**, et on **retire du feu dès le gargouillis** (base refroidie sous l'eau pour stopper l'extraction). Rinçage à l'eau claire, joint à surveiller. Trois gestes, et le café passe de « brûlé » à « rond et parfumé ».
+> Pour une moka réussie : mouture **moyenne non tassée**, **eau** jusqu'à la valve (déjà chaude pour aller plus vite), **feu doux**, et on **retire du feu dès le gargouillis** (base refroidie sous l'eau pour stopper l'extraction). Rinçage à l'eau claire, joint à surveiller. Trois gestes, et le café passe de « brûlé » à « rond et parfumé ».
 
 ## Pour aller plus loin
 
