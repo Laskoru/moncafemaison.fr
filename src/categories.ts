@@ -13,7 +13,7 @@ export const categories = [
     icon: 'grinder',
     label: 'Moulins à café',
     short: 'Moulins',
-    description: 'La mouture fraîche change tout : moulins électriques ou manuels, à meules ou à lames.',
+    description: 'Une mouture fraîche garde les arômes : moulins électriques ou manuels, à meules ou à lames.',
     intro: `<p>Le moulin compte autant que la machine : un café moulu juste avant l’infusion garde ses arômes, alors qu’un café moulu à l’avance les perd vite. La mouture doit aussi correspondre à ta méthode : très fine pour l’espresso, moyenne pour le filtre, grossière pour le piston.</p>
 <p>Premier choix : <a href="/articles/moulin-cafe-meules-ou-lames/">meules ou lames</a>. Les meules donnent une mouture régulière, les lames hachent le grain de façon inégale. Ensuite, manuel ou électrique : le <a href="/articles/meilleur-moulin-cafe-manuel/">moulin manuel</a> est silencieux et souvent plus précis à prix égal, le <a href="/articles/meilleur-moulin-cafe-electrique/">moulin électrique</a> fait gagner du temps chaque matin. Pour l’espresso, il faut un réglage fin et stable : vois notre guide du <a href="/articles/meilleur-moulin-pour-espresso/">moulin pour espresso</a>. Petit budget ? Voici les <a href="/articles/moulin-cafe-pas-cher-qui-vaut-le-coup/">moulins pas chers qui valent le coup</a>.</p>`,
   },
