@@ -82,7 +82,7 @@ Le prix affiché n'est pas le budget total. Compte au minimum :
 
 Purge la buse vapeur (un coup de vapeur à vide) et essuie-la **immédiatement** après chaque lait moussé, sinon le lait cuit dedans et la bouche. Rince le porte-filtre et le panier après chaque café, sans les laisser tremper dans l'eau savonneuse. Une fois par semaine, fais couler de l'eau à vide pour rincer la douchette et essuie le joint du groupe. Le détartrage dépend de la dureté de ton eau : toutes les quatre à six semaines en eau calcaire, tous les deux à trois mois en eau douce ou filtrée, et dès que le voyant de la machine le demande. On explique quel produit choisir dans [meilleur détartrant pour machine à café](/articles/meilleur-detartrant-machine-a-cafe/).
 
-## Conclusion
+## Porte-filtre ou capsules pour débuter ?
 
 Pour débuter l'espresso à la maison, inutile de viser la machine haut de gamme : une porte-filtre abordable (idéalement avec un petit moulin) permet d'apprendre et de se régaler pour un budget contenu. Et si la simplicité prime, une machine à capsules compacte reste une valeur sûre au quotidien.
 

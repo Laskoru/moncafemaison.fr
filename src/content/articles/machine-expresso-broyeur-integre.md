@@ -68,7 +68,7 @@ Côté groupe expresso, rien de nouveau par rapport à une machine classique : r
 
 Rien d'insurmontable, mais compte cet entretien double dans ta décision : un modèle dont le broyeur se démonte facilement pour le nettoyage te fera gagner un temps précieux sur la durée, bien plus qu'un gadget supplémentaire sur la fiche technique. Un broyeur difficile d'accès est souvent la première raison pour laquelle une machine, pourtant excellente au départ, finit par donner un café qui se dégrade avec les mois.
 
-## Conclusion
+## Le bon compromis pour garder la main
 
 La machine expresso à broyeur intégré est le bon compromis pour qui veut un vrai contrôle sur l'extraction (mouture, dosage, tassage) sans multiplier les appareils sur le plan de travail. Elle demande un peu plus d'apprentissage et d'entretien qu'une machine tout-automatique, mais récompense largement cet investissement en régularité et en fraîcheur du café. Le bon modèle n'est pas celui qui affiche le plus de chiffres impressionnants, mais celui dont le broyeur est réglable finement et le nettoyage simple : c'est ce qui fera vraiment la différence, tasse après tasse.
 

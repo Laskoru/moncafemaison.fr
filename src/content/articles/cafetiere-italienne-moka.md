@@ -76,7 +76,7 @@ Les deux matériaux donnent un bon café, mais pas la même expérience au quoti
 | Poids et prix | Léger, économique | Plus lourd, environ le double du prix |
 | Durée de vie | Longue si on ne la lave pas au savon | Très longue, presque indestructible |
 
-En résumé : l'aluminium pour le goût traditionnel et le petit prix, l'inox pour l'induction, la facilité d'entretien et la tranquillité. Dans les deux cas, la méthode reste identique : on la détaille dans [réussir sa cafetière italienne](/articles/reussir-cafetiere-italienne-moka/).
+Choisis l'aluminium pour le goût traditionnel et le petit prix, l'inox pour l'induction, la facilité d'entretien et la tranquillité. Dans les deux cas, la méthode reste identique : on la détaille dans [réussir sa cafetière italienne](/articles/reussir-cafetiere-italienne-moka/).
 
 ## Les pièces d'usure : ce qui décide de la durée de vie
 
@@ -99,9 +99,14 @@ Il existe des mokas à base chauffante intégrée, qui se branchent sur secteur 
 - **Un moulin** : la moka gagne beaucoup avec une mouture fraîche, sans avoir besoin de descendre aussi fin que l'espresso. Un [moulin manuel](/articles/meilleur-moulin-cafe-manuel/) suffit largement.
 - Une balance, en revanche, n'est pas nécessaire : le filtre plein donne le bon dosage.
 
-## Conclusion
+## Les repères pour choisir ta moka
 
-La cafetière italienne reste l'un des moyens les plus simples et les plus fiables de préparer un café corsé à la maison, sans dépendre de l'électricité ni d'un moulin sophistiqué. Pour débuter ou pour un usage individuel, un modèle en aluminium classique fait parfaitement le travail. Si l'induction fait partie de ta cuisine ou que tu reçois plus souvent, un modèle plus grand à fond compatible induction est le choix le plus pérenne.
+La cafetière italienne reste l'un des moyens les plus simples et les plus fiables de préparer un café corsé à la maison, sans dépendre de l'électricité ni d'un moulin sophistiqué. Pour choisir la tienne :
+
+- **Pour débuter ou pour un usage individuel** : un modèle en aluminium classique fait parfaitement le travail.
+- **Si l'induction fait partie de ta cuisine ou que tu reçois souvent** : un modèle plus grand à fond compatible induction est le choix le plus pérenne.
+- **Seul ou à deux** : évite les très grandes tailles (9-12 tasses), car une moka mal remplie extrait mal.
+- **Dans tous les cas** : vérifie que la marque vend le joint, la plaque filtre et la valve de sécurité séparément.
 
 ## Pour aller plus loin
 

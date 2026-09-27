@@ -91,9 +91,11 @@ Chaque cran s'appelle un « clic ». Plus il y a de clics par tour, plus le rég
 
 Le moulin manuel est le compagnon naturel du camping et du van, mais l'humidité est son ennemie : des meules qui restent humides rouillent, et une mouture qui sèche dans le mécanisme le bloque. Vide-le et brosse-le après usage, range-le dans sa housse, et garde tes grains dans un sac hermétique plutôt que dans le réservoir. Associé à une [cafetière à piston](/articles/meilleure-cafetiere-piston-french-press/) en inox ou à une [moka](/articles/cafetiere-italienne-moka/), il permet un vrai café n'importe où, bien meilleur que le soluble, pour un encombrement à peine supérieur.
 
-## Conclusion
+## Le moulin manuel qu'il te faut
 
-Un moulin à café manuel de qualité, à meules coniques, offre une mouture aussi régulière qu'un moulin électrique d'entrée de gamme, sans bruit ni prise électrique. Pour l'espresso et une précision maximale, mise sur des meules en acier avec réglage interne fin. Pour un usage filtre, moka ou nomade, un modèle plus léger à meules céramiques fait parfaitement l'affaire, à un prix plus accessible.
+- **Des meules coniques de qualité** : elles offrent une mouture aussi régulière qu'un moulin électrique d'entrée de gamme, sans bruit ni prise électrique.
+- **Pour l'espresso et une précision maximale** : mise sur des meules en acier avec réglage interne fin.
+- **Pour un usage filtre, moka ou nomade** : un modèle plus léger à meules céramiques fait parfaitement l'affaire, à un prix plus accessible.
 
 ## Pour aller plus loin
 

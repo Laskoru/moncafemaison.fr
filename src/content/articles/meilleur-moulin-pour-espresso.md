@@ -2,7 +2,7 @@
 title: "Moulin pour espresso : le guide pour bien choisir"
 description: "Quel moulin choisir pour un vrai espresso ? Mouture fine, régularité, réglages : nos critères concrets et notre sélection pour un espresso équilibré."
 pubDate: 2026-08-31
-updatedDate: 2026-09-21
+updatedDate: 2026-09-27
 author: "Hugo B."
 pinHook: "L'espresso *ne pardonne rien* à un mauvais moulin"
 pinSub: "Comment descendre assez fin, sans perdre en régularité."
@@ -11,17 +11,29 @@ category: "moulins"
 coverAlt: "Deux moulins à café professionnels côte à côte sur un comptoir, trémies remplies de grains et molette de réglage de la mouture visible"
 draft: false
 products:
-  - asin: "B000IWHXH8"
-    title: "Krups GVX242, moulin électrique à meules, 17 niveaux (filtre et moka ; trop grossier pour un vrai espresso)"
-    blurb: "Un moulin à meules d'entrée de gamme à prix raisonnable : ses 17 crans couvrent le filtre, le piston et la moka, mais il ne descend pas assez fin pour un vrai espresso."
+  - asin: "B00CS2DAEG"
+    title: "Graef CM 800, meules coniques inox, 40 réglages"
+    blurb: "Un moulin à meules coniques pensé aussi pour l'espresso : 40 crans, un support pour moudre directement dans le porte-filtre et un boîtier en aluminium, à un prix raisonnable pour cette catégorie."
     pros:
-      - "17 crans de réglage"
-      - "Mouture régulière pour le filtre, le piston et la moka"
-      - "Prix raisonnable pour débuter"
+      - "Meules coniques en inox, 40 crans de réglage"
+      - "Support pour moudre directement dans le porte-filtre"
+      - "Réservoir de 350 g et insert antistatique"
     cons:
-      - "Pas assez fin pour un vrai espresso (meules plates d’entrée de gamme)"
-      - "Rétention et statique de mouture"
+      - "Réglage cranté, sans position intermédiaire entre deux crans"
+      - "Un peu de rétention : purge quelques grammes après chaque changement de réglage"
       - "Bruyant"
+  - asin: "B07BB68PTW"
+    title: "Sage The Smart Grinder Pro, 60 réglages, dosage minuté"
+    award: "Plus de réglages"
+    blurb: "Plus de crans et un dosage réglable au cinquième de seconde : le choix pour affiner ton espresso au plus près, avec un budget un peu plus élevé."
+    pros:
+      - "60 crans de réglage, de l'espresso à la cafetière à piston"
+      - "Dosage minuté au cinquième de seconde et écran LCD"
+      - "Mouture directe dans le porte-filtre"
+    cons:
+      - "Plus cher que le Graef CM 800"
+      - "En espresso très fin, il faut parfois régler la meule supérieure (réglage prévu par la notice)"
+      - "Rétention de mouture, comme la plupart des moulins à trémie"
 faq:
   - question: "Un moulin à meules coniques suffit-il pour l'espresso, ou faut-il des meules plates ?"
     answer: "Les deux peuvent convenir en usage domestique. Les meules plates sont réputées légèrement plus régulières à mouture très fine, ce qui est un atout pour l'espresso, mais un bon moulin à meules coniques avec suffisamment de crans fins fait très bien l'affaire pour un usage maison. Le vrai clivage reste meules contre lames, pas conique contre plat."
@@ -88,6 +100,6 @@ Un moulin espresso ne se règle pas une fois pour toutes :
 
 La méthode est toujours la même : un seul paramètre à la fois, le chronomètre et la balance comme juges, et le goût en dernier mot. On la détaille dans [réussir son espresso à la maison](/articles/reussir-espresso-maison/).
 
-## Conclusion
+## Notre choix pour débuter en espresso
 
-Pour un espresso réussi, le moulin compte autant que la machine, sinon plus : il faut des meules, une plage de réglage qui descend franchement fin, et surtout une régularité qui tient dans la durée. Un modèle à meules aux crans fins et nombreux (ou à réglage continu), entretenu correctement, suffit largement à obtenir un espresso équilibré à la maison, sans viser le matériel de compétition.
+Pour un espresso réussi, le moulin compte autant que la machine, sinon plus : il faut des meules, une plage de réglage qui descend franchement fin, et surtout une régularité qui tient dans la durée. Le Graef CM 800 réunit ces trois points à un prix raisonnable ; le Sage Smart Grinder Pro ajoute des crans et un dosage minuté pour qui veut affiner davantage. Dans les deux cas, un moulin entretenu correctement suffit à obtenir un espresso équilibré à la maison, sans viser le matériel de compétition.

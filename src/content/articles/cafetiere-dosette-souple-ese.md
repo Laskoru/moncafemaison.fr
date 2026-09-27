@@ -82,6 +82,6 @@ Pense aussi à rincer régulièrement le porte-dosette et le bac récupérateur 
 
 Enfin, si la machine reste inutilisée plusieurs semaines (départ en vacances, résidence secondaire), un cycle d'eau claire avant la reprise d'usage élimine les dépôts qui ont pu se former dans le circuit pendant l'arrêt.
 
-## Conclusion
+## Quelle dosette pour quel café
 
 La cafetière à dosette (souple ou ESE) reste l'un des moyens les plus simples de préparer un café correct sans investir dans une machine à grains ni s'enfermer dans un système de capsules propriétaire. Le choix entre les deux formats dépend avant tout du café que tu préfères : plus long et doux avec la dosette souple, plus court et corsé avec l'ESE. Dans les deux cas, la disponibilité et le prix des dosettes au quotidien doivent peser autant dans la décision que la machine elle-même.

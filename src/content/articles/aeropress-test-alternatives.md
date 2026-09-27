@@ -89,7 +89,7 @@ L'entretien tient en quelques secondes : on dévisse l'embout, on pousse le pist
 >
 > *En tant que Partenaire Amazon, je réalise un bénéfice sur les achats remplissant les conditions requises.*
 
-## Conclusion
+## Faut-il acheter une AeroPress ?
 
 L'AeroPress reste l'une des méthodes les plus polyvalentes du marché : rapide, compacte, sans électricité, et suffisamment tolérante sur la mouture pour convenir aux débutants comme aux amateurs plus exigeants. Elle ne remplace ni un espresso sous pression ni la richesse aromatique d'un pour-over pris en son temps, mais elle reste le meilleur compromis pour un café filtre sérieux préparé en moins de deux minutes, à la maison comme en déplacement.
 

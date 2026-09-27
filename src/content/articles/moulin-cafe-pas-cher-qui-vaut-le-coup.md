@@ -82,6 +82,11 @@ Même bien choisi, un moulin à meules d'entrée de gamme a quelques travers. Au
 - **La chauffe** : ne mouds que la quantité nécessaire, sans enchaîner les cycles, et respecte le temps de fonctionnement continu indiqué dans la notice.
 - **Les fines** : un moulin économique produit un peu plus de poussière qu'un modèle haut de gamme. Le filtre papier la retient bien ; avec une [cafetière à piston](/articles/meilleure-cafetiere-piston-french-press/), dont le tamis la laisse passer, règle la mouture un cran plus grossier pour limiter le dépôt.
 
-## Conclusion
+## À vérifier avant d'acheter un moulin pas cher
 
-Un moulin à café pas cher peut tout à fait valoir le coup, à condition de ne jamais transiger sur un point : des **meules**, pas des lames. Au-delà de ce critère non négociable, vérifie le nombre de réglages et méfie-toi des prix anormalement bas sur des marques inconnues. Pour du café filtre ou à piston, un modèle économique bien choisi fait un travail tout à fait honorable ; pour l'espresso, mieux vaut prévoir un budget légèrement supérieur adapté à cette exigence.
+Un moulin à café pas cher peut tout à fait valoir le coup, à condition de cocher ces quatre points :
+
+- **Des meules, pas des lames** : c'est le critère non négociable, sur lequel ne jamais transiger.
+- **Le nombre de réglages** : une dizaine de crans au minimum, pour ajuster grossier, moyen et fin.
+- **Un modèle reconnu** : méfie-toi des prix anormalement bas sur des marques inconnues.
+- **L'usage visé** : pour du café filtre ou à piston, un modèle économique bien choisi fait un travail tout à fait honorable ; pour l'espresso, mieux vaut prévoir un budget légèrement supérieur adapté à cette exigence.

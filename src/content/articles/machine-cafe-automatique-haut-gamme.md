@@ -64,8 +64,12 @@ Sur ce type de machine, l'entretien de base (rinçage, bac à marc, détartrage)
 
 Vérifie aussi l'accessibilité du broyeur pour un nettoyage en profondeur de temps en temps : les huiles du café laissent des résidus qui, sur la durée, affectent le goût même d'un broyeur haut de gamme. Une machine qui facilite ce démontage tiendra ses promesses bien plus longtemps qu'une machine techniquement supérieure sur le papier mais pénible à entretenir au quotidien.
 
-## Conclusion
+## Trois questions à te poser avant d'acheter
 
 Une machine à café automatique haut de gamme est un vrai investissement, justifié seulement si ton usage le demande : plusieurs buveurs de café aux goûts différents, des boissons lactées fréquentes, et l'envie de ne jamais avoir à régler quoi que ce soit une fois la machine configurée. Le bon modèle n'est pas celui qui affiche le plus de recettes ou l'écran le plus impressionnant, mais celui dont le broyeur est le plus régulier et dont l'entretien, malgré la complexité de l'appareil, reste simple au quotidien.
 
-Avant d'acheter, pose-toi trois questions : le broyeur offre-t-il assez de réglages pour couvrir tes recettes préférées, le circuit à lait se démonte-t-il facilement pour un lavage complet, et les profils utilisateurs correspondent-ils vraiment à la façon dont ton foyer consomme le café ? Si les réponses sont bonnes, le reste (appli, écran couleur, finitions) n'est qu'un confort supplémentaire, pas un critère qui doit faire pencher la balance.
+- **Le broyeur** offre-t-il assez de réglages pour couvrir tes recettes préférées ?
+- **Le circuit à lait** se démonte-t-il facilement pour un lavage complet ?
+- **Les profils utilisateurs** correspondent-ils vraiment à la façon dont ton foyer consomme le café ?
+
+Si les réponses sont bonnes, le reste (appli, écran couleur, finitions) n'est qu'un confort supplémentaire, pas un critère qui doit faire pencher la balance.

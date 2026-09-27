@@ -89,10 +89,6 @@ S'il ne fallait retenir qu'une seule idée toutes catégories confondues, ce ser
 >
 > *En tant que Partenaire Amazon, je réalise un bénéfice sur les achats remplissant les conditions requises.*
 
-## En résumé
-
-Le bon cadeau café dépend avant tout du matériel déjà en place chez la personne, bien plus que du montant dépensé. En dessous de 20 €, vise un accessoire utile plutôt qu'un gadget ; entre 20 et 60 €, un mousseur à lait, une bouilloire à col de cygne ou une balance de précision améliorent concrètement chaque tasse ; entre 60 et 150 €, un moulin manuel permet de vraiment progresser ; au-delà de 150 €, une machine complète transforme la routine du matin, à condition de bien cerner l'usage prévu avant l'achat.
-
 ## Pour aller plus loin
 
 - [Meilleur mousseur à lait](/articles/meilleur-mousseur-lait/)

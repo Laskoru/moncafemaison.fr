@@ -70,7 +70,7 @@ Le filtre en coton se situe entre les deux : il retient une partie des huiles co
 
 **Négliger l'entretien du reste de la machine sous prétexte qu'il n'y a plus de filtre papier à changer.** Le filtre réutilisable réduit les déchets, mais l'entretien du réservoir et le [détartrage régulier](/articles/meilleur-detartrant-machine-a-cafe/) restent nécessaires, tartre et filtre étant deux sujets bien distincts.
 
-## Conclusion
+## Inox ou coton, selon ton goût et ton temps
 
 Le filtre à café réutilisable est l'un des rares accessoires qui coche toutes les cases : moins de déchets, moins de dépenses récurrentes, et un café au profil différent mais tout aussi maîtrisé. Inox pour la simplicité et la durabilité, coton pour un rendu proche du papier classique : le choix dépend surtout du goût recherché et du temps qu'on veut bien consacrer à l'entretien.
 

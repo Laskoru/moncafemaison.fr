@@ -89,10 +89,6 @@ La plupart des moulins gardent quelques grammes de mouture dans le mécanisme ap
 
 Les huiles du café se déposent sur les meules et finissent par donner un goût rance, quel que soit le grain utilisé. Une fois par mois, débranche le moulin, retire la trémie et la meule supérieure (elle se dévisse ou se déclipse selon les modèles), puis brosse les meules et la chambre de mouture avec une brosse sèche ou un pinceau. **Jamais d'eau sur les meules** : elles rouilleraient ou se déformeraient. Un aspirateur avec embout fin fait des merveilles pour les recoins. Entre deux démontages, les pastilles nettoyantes pour moulin (à base d'amidon) passées dans le mécanisme absorbent les huiles en une minute. Évite le « truc » du riz cru, plus dur que le café, qui peut abîmer les meules et fait sauter la garantie chez plusieurs fabricants.
 
-## Conclusion
-
-Le moulin est le maillon le plus rentable pour améliorer son café, souvent plus que la machine elle-même. Un modèle à meules, réglable et régulier, transforme les mêmes grains en une tasse nettement meilleure, jour après jour.
-
 ## Pour aller plus loin
 
 - [Moulin à meules ou à lames ?](/articles/moulin-cafe-meules-ou-lames/)

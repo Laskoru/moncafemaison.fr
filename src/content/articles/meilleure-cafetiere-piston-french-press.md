@@ -101,9 +101,7 @@ Avant de choisir un modèle, vérifie que la méthode correspond à la tasse que
 
 Les méthodes ne s'excluent pas : une French press coûte peu et se range partout, ce qui en fait aussi un bon complément d'une cafetière déjà installée dans la cuisine.
 
-## Conclusion
-
-La cafetière à piston est le point d'entrée idéal vers le bon café maison : simple, économique et étonnamment qualitative. Choisis le verre pour le prix, l'inox pour la robustesse, et soigne surtout ta mouture pour en tirer le meilleur.
+Si c'est la tasse que tu aimes, la cafetière à piston est le point d'entrée idéal vers le bon café maison : simple, économique et étonnamment qualitative. Choisis le verre pour le prix, l'inox pour la robustesse, et soigne surtout ta mouture pour en tirer le meilleur.
 
 ## Pour aller plus loin
 

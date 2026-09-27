@@ -85,7 +85,7 @@ Compte un petit budget annuel en consommables (pastilles, détartrant, filtres).
 
 Deux types de grains posent problème dans ces machines : les torréfactions **très foncées et huileuses**, qui encrassent le broyeur et finissent par le bloquer, et les cafés **aromatisés**, dont les arômes ajoutés se déposent partout. Vise une torréfaction moyenne, un paquet avec une **date de torréfaction** (pas seulement une DLUO), et consomme-le dans les six semaines. Enfin, ne remplis la trémie que pour deux ou trois jours : les grains qui y restent à l'air libre perdent leurs arômes bien avant d'être moulus.
 
-## Conclusion
+## Mieux vaut simple que cher
 
 Une machine à café à grains est l'un des meilleurs investissements pour qui veut un café maison de qualité au quotidien. Le bon modèle n'est pas le plus cher, mais celui dont l'entretien est simple et l'usage intuitif : c'est ce qui garantit que tu t'en serviras vraiment tous les jours, pendant des années.
 

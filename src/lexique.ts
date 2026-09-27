@@ -27,7 +27,7 @@ export const lexique: LexiqueEntry[] = [
     term: 'Arabica / Robusta',
     question: 'Quelle différence entre arabica et robusta ?',
     answer:
-      "Ce sont les deux grandes espèces de café cultivées. L'arabica est plus aromatique, plus acidulé et plus complexe, avec environ deux fois moins de caféine ; le robusta est plus corsé, plus amer, et donne davantage de crema en espresso. Beaucoup de mélanges italiens ajoutent volontairement une part de robusta pour le corps et la tenue de la mousse — ce n'est pas un défaut, c'est un choix de style.",
+      "Ce sont les deux grandes espèces de café cultivées. L'arabica est plus aromatique, plus acidulé et plus complexe, avec environ deux fois moins de caféine ; le robusta est plus corsé, plus amer, et donne davantage de crema en espresso. Beaucoup de mélanges italiens ajoutent volontairement une part de robusta pour le corps et la tenue de la mousse : ce n'est pas un défaut, c'est un choix de style.",
     group: 'Le grain & la torréfaction',
     related: ['meilleure-cafetiere-grains'],
   },
@@ -42,7 +42,7 @@ export const lexique: LexiqueEntry[] = [
     term: 'Date de torréfaction',
     question: 'Un café a-t-il une date de péremption ?',
     answer:
-      "Le café ne devient pas dangereux, mais il perd vite ses arômes. Le repère utile n'est pas la date limite de consommation affichée mais la date de torréfaction : un café donne le meilleur entre 5 jours et 6 semaines après torréfaction. Un paquet sans date de torréfaction est souvent le signe d'un café déjà ancien — c'est le premier critère à regarder, avant même le prix.",
+      "Le café ne devient pas dangereux, mais il perd vite ses arômes. Le repère utile n'est pas la date limite de consommation affichée mais la date de torréfaction : un café donne le meilleur entre 5 jours et 6 semaines après torréfaction. Un paquet sans date de torréfaction est souvent le signe d'un café déjà ancien : c'est le premier critère à regarder, avant même le prix.",
     group: 'Le grain & la torréfaction',
   },
   {
@@ -58,7 +58,7 @@ export const lexique: LexiqueEntry[] = [
     term: 'Meules coniques / plates',
     question: 'Meules coniques ou meules plates pour un moulin ?',
     answer:
-      "Les deux écrasent le grain de façon régulière, contrairement aux moulins à lames qui le hachent. Les meules coniques sont plus courantes, moins chères et chauffent moins ; les meules plates donnent une mouture souvent un peu plus homogène, appréciée en espresso pointu. Pour la grande majorité des usages maison, de bonnes meules coniques suffisent largement — l'écart avec un moulin à lames est bien plus grand que celui entre coniques et plates.",
+      "Les deux écrasent le grain de façon régulière, contrairement aux moulins à lames qui le hachent. Les meules coniques sont plus courantes, moins chères et chauffent moins ; les meules plates donnent une mouture souvent un peu plus homogène, appréciée en espresso pointu. Pour la grande majorité des usages maison, de bonnes meules coniques suffisent largement : l'écart avec un moulin à lames est bien plus grand que celui entre coniques et plates.",
     group: 'La mouture',
     related: ['meilleur-moulin-cafe-electrique', 'meilleur-moulin-cafe-manuel'],
   },
@@ -74,7 +74,7 @@ export const lexique: LexiqueEntry[] = [
     term: 'Homogénéité de la mouture',
     question: "Pourquoi la régularité de la mouture est-elle si importante ?",
     answer:
-      "Si les particules sont de tailles très différentes, les plus fines sur-extraient (amertume) pendant que les grosses sous-extraient (acidité, goût d'eau) — dans la même tasse. C'est exactement ce que produit un moulin à lames. Un moulin à meules, même d'entrée de gamme, améliore davantage le café que de passer à un grain plus cher.",
+      "Si les particules sont de tailles très différentes, les plus fines sur-extraient (amertume) pendant que les grosses sous-extraient (acidité, goût d'eau), dans la même tasse. C'est exactement ce que produit un moulin à lames. Un moulin à meules, même d'entrée de gamme, améliore davantage le café que de passer à un grain plus cher.",
     group: 'La mouture',
     related: ['meilleur-moulin-cafe-electrique'],
   },
@@ -84,7 +84,7 @@ export const lexique: LexiqueEntry[] = [
     term: 'Bars (pression)',
     question: 'Combien de bars faut-il pour un bon espresso ?',
     answer:
-      "La norme d'extraction d'un espresso est d'environ 9 bars au niveau du café. Les machines annonçant 15 ou 20 bars affichent la pression maximale de la pompe, pas celle réellement appliquée : au-delà de 9 bars, ce n'est pas meilleur. Ce chiffre est donc un argument marketing plus qu'un critère de qualité — la stabilité de la température et la mouture comptent bien davantage.",
+      "La norme d'extraction d'un espresso est d'environ 9 bars au niveau du café. Les machines annonçant 15 ou 20 bars affichent la pression maximale de la pompe, pas celle réellement appliquée : au-delà de 9 bars, ce n'est pas meilleur. Ce chiffre est donc un argument marketing plus qu'un critère de qualité : la stabilité de la température et la mouture comptent bien davantage.",
     group: 'Extraction & espresso',
     related: ['meilleure-machine-expresso'],
   },
@@ -149,7 +149,7 @@ export const lexique: LexiqueEntry[] = [
     term: 'Détartrage',
     question: 'À quelle fréquence détartrer sa machine à café ?',
     answer:
-      "Cela dépend surtout de la dureté de l'eau : tous les 2 à 3 mois en eau très calcaire, deux fois par an en eau douce. Le tartre réduit le débit, fait chuter la température et finit par abîmer la pompe — c'est la première cause de panne des machines domestiques. Utiliser une eau filtrée ou faiblement minéralisée espace nettement les détartrages.",
+      "Cela dépend surtout de la dureté de l'eau : tous les 2 à 3 mois en eau très calcaire, deux fois par an en eau douce. Le tartre réduit le débit, fait chuter la température et finit par abîmer la pompe : c'est la première cause de panne des machines domestiques. Utiliser une eau filtrée ou faiblement minéralisée espace nettement les détartrages.",
     group: 'Lait & entretien',
     related: ['meilleure-machine-expresso', 'meilleure-cafetiere-grains'],
   },

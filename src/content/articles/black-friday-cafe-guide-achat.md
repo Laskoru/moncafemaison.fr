@@ -82,9 +82,13 @@ S'il ne fallait surveiller qu'une seule catégorie ce Black Friday, ce serait ce
 
 **Garde en tête le coût d'usage, pas seulement le prix d'achat.** Une machine moins chère à l'achat mais plus gourmande en entretien (détartrage fréquent, pièces d'usure) peut coûter plus cher sur la durée qu'un modèle légèrement plus onéreux au départ.
 
-## En résumé
+## Le pense-bête du Black Friday café
 
-Le Black Friday a vraiment du sens pour les achats les plus chers (machines à grains, machines expresso à broyeur intégré, moulins haut de gamme) parce que ce sont les catégories où les enseignes ont une vraie marge pour proposer des remises significatives. Pour les petits accessoires et les modèles d'entrée de gamme, l'écart réel est souvent trop faible pour justifier d'attendre. Dans tous les cas, le meilleur réflexe reste de suivre le prix avant le jour J, de comparer plusieurs enseignes, et de se méfier d'un prix barré qui semble anormalement élevé par rapport à ce que tu observais quelques semaines plus tôt.
+- **À attendre** : les achats les plus chers (machines à grains, machines expresso à broyeur intégré, moulins haut de gamme), parce que ce sont les catégories où les enseignes ont une vraie marge pour proposer des remises significatives.
+- **À acheter sans attendre** : les petits accessoires et les modèles d'entrée de gamme, où l'écart réel est souvent trop faible pour justifier de patienter.
+- **Avant le jour J** : suis le prix des modèles qui t'intéressent.
+- **Le jour J** : compare plusieurs enseignes plutôt qu'une seule offre.
+- **Devant un prix barré** : méfie-toi s'il semble anormalement élevé par rapport à ce que tu observais quelques semaines plus tôt.
 
 ## Pour aller plus loin
 

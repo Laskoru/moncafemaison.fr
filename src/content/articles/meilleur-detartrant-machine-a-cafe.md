@@ -80,9 +80,15 @@ Cette logique de prévention rejoint celle déjà évoquée pour la [bouilloire 
 
 **Ignorer le voyant de détartrage sous prétexte qu'il « se déclenche trop souvent ».** Sur certaines machines, ce voyant se base sur un compteur de cycles plutôt que sur une mesure réelle du tartre ; mais le désactiver durablement, plutôt que simplement décaler le détartrage de quelques jours, revient à naviguer à l'aveugle sur l'état interne de la machine.
 
-## Conclusion
+## Pastilles, liquide ou vinaigre blanc ?
 
-Le détartrant n'a rien d'un accessoire secondaire : c'est l'entretien qui conditionne à la fois le goût du café et la longévité réelle de la machine, expresso comme filtre. Acide citrique en pastilles pour un usage régulier et sans odeur, liquide prêt à l'emploi pour la simplicité, ou vinaigre blanc pour le budget minimal sur une cafetière filtre : dans les trois cas, le geste ne prend que quelques minutes et évite des pannes bien plus coûteuses à réparer.
+Le détartrant n'a rien d'un accessoire secondaire : c'est l'entretien qui conditionne à la fois le goût du café et la longévité réelle de la machine, expresso comme filtre. Selon ton usage :
+
+- **Acide citrique en pastilles** : pour un usage régulier et sans odeur.
+- **Liquide prêt à l'emploi** : pour la simplicité.
+- **Vinaigre blanc** : pour le budget minimal sur une cafetière filtre (beaucoup de fabricants le déconseillent sur une machine expresso ou automatique).
+
+Dans les trois cas, le geste ne prend que quelques minutes et évite des pannes bien plus coûteuses à réparer.
 
 ## Pour aller plus loin
 

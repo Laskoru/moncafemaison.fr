@@ -105,9 +105,7 @@ Une balance au dixième de gramme peut dériver avec le temps, après un choc ou
 
 Pour la justesse, certaines balances sont livrées avec un **poids d'étalonnage**, et la notice explique comment recalibrer. À défaut, une pièce de 1 €, qui pèse 7,5 g, donne un repère rapide. Enfin, pose toujours la balance sur une surface plane et stable, à l'écart des vibrations d'un moulin en marche.
 
-## Conclusion
-
-La balance de précision est l'accessoire le moins cher pour le plus grand gain de régularité. Associée à un bon moulin, c'est ce qui transforme un café « au feeling » en un café maîtrisé, jour après jour.
+Une balance de précision qui reste juste est l'accessoire le moins cher pour le plus grand gain de régularité. Associée à un bon moulin, c'est ce qui transforme un café « au feeling » en un café maîtrisé, jour après jour.
 
 ## Pour aller plus loin
 

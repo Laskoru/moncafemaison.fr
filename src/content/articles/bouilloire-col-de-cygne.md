@@ -80,7 +80,7 @@ Comme toute bouilloire, un modèle à col de cygne accumule du tartre avec le te
 
 Sur les modèles électriques, vérifie aussi que la résistance reste accessible au nettoyage : certains boîtiers fermés compliquent l'opération et favorisent l'entartrage invisible du fond, qui finit par allonger le temps de chauffe sans que l'utilisateur comprenne pourquoi.
 
-## Conclusion
+## Notre avis
 
 La bouilloire à col de cygne n'a rien d'un gadget : c'est l'outil qui rend le versement du pour-over réellement pilotable, là où une bouilloire classique impose un jet large et imprécis. Pour du V60, une Chemex ou tout café filtre où le geste compte, elle change concrètement le résultat en tasse, et reste, comme la balance, un investissement modeste au regard du gain de régularité qu'elle apporte.
 

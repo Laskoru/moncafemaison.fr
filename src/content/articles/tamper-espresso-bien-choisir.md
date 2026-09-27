@@ -99,7 +99,7 @@ Ce geste, une fois maîtrisé, prend moins de dix secondes et conditionne direct
 
 **Stocker le tamper mouillé ou avec des résidus de mouture collés.** Un rinçage et un séchage rapides après chaque usage évitent l'oxydation prématurée d'une base en aluminium et les résidus qui pourraient altérer le goût des cafés suivants.
 
-## Conclusion
+## Le diamètre d'abord, le confort ensuite
 
 Le tamper n'a rien d'un simple accessoire décoratif : c'est le geste qui transforme une mouture en un puck homogène, condition de base de toute extraction régulière. Le critère qui prime avant tout autre est le diamètre exact du panier ; ensuite, base plate ou convexe, poids et matière relèvent surtout du confort personnel, tandis qu'un modèle calibré à ressort reste le choix le plus sûr pour qui veut éliminer la variable du geste au quotidien.
 

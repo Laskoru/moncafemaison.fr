@@ -107,9 +107,10 @@ faq:
 ## Structure du corps
 
 - **800 mots minimum** de contenu utile.
-- 4 à 6 titres `##`, ex. : `## Pourquoi [le sujet] change le café`,
+- 4 à 6 titres `##`, ex. : `## Pourquoi [le sujet] compte dans la tasse`,
   `## Les critères qui comptent vraiment`, `## Comment choisir selon ton usage`,
-  `## Conclusion`.
+  puis une fin variée selon le sujet (intertitre propre au sujet comme « Notre choix selon ton budget », checklist, ou paragraphe final sans intertitre) : jamais de `## Conclusion` ni de `## En résumé` systématiques.
+- Ponctuation : jamais de tiret long (—) ni de demi-cadratin (–) comme ponctuation ; virgule, deux-points ou parenthèses à la place.
 - Ton : tutoiement, direct, honnête, sans jargon marketing. On assume les
   compromis. **Ne jamais inventer** de chiffres précis (prix, notes) invérifiables.
 - Vocabulaire café à mobiliser selon le sujet : mouture, meules, pression (bars),

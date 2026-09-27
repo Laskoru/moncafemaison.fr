@@ -97,7 +97,7 @@ Si la mousse ne monte pas ou s'effondre aussitôt alors que le lait n'est pas en
 - **Des piles fatiguées** dans un fouet portable : il tourne moins vite, et la mousse reste molle.
 - **Un pichet qui refuse de redémarrer** juste après un cycle : c'est souvent sa sécurité contre la surchauffe. Laisse-le refroidir quelques minutes avant la tasse suivante.
 
-## Conclusion
+## Ce qu'il faut retenir
 
 Le mousseur à lait est l'accessoire simple qui transforme le café du matin en cappuccino ou latte réussi. Pichet chauffant pour la simplicité complète, fouet portable pour le minimalisme : dans les deux cas, pense au lait entier (ou « barista ») pour la meilleure mousse.
 

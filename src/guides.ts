@@ -22,7 +22,7 @@ export const guides: Guide[] = [
     description:
       'Par où commencer pour faire un bon café chez soi : le matériel essentiel (machine, moulin, balance) sans se ruiner ni se compliquer la vie.',
     intro: [
-      "Faire un bon café à la maison ne demande pas forcément une machine hors de prix. Ce qui change vraiment le résultat dans la tasse, c'est la fraîcheur de la mouture, la qualité de l'eau et un minimum de régularité — pas le prix affiché.",
+      "Faire un bon café à la maison ne demande pas forcément une machine hors de prix. Ce qui change vraiment le résultat dans la tasse, c'est la fraîcheur de la mouture, la qualité de l'eau et un minimum de régularité, pas le prix affiché.",
       "Ce guide rassemble l'essentiel pour bien démarrer : de quoi moudre son café juste avant l'extraction, une méthode de préparation simple et fiable, et les quelques accessoires qui font une vraie différence dès le premier jour.",
     ],
     articles: [

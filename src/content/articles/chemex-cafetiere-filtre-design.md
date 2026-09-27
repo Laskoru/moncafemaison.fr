@@ -85,6 +85,4 @@ Le verre borosilicate ne garde ni odeur ni goût, mais les huiles du café finis
 
 Le modèle Chemex 6 tasses original reste la référence : verre borosilicate qui ne retient ni odeur ni résidu contrairement à certaines cafetières en plastique, col en bois amovible pratique pour le lavage, et un format qui convient aussi bien à un usage solo qu'à deux ou trois personnes. C'est le produit qui a défini la catégorie, et il n'a pas pris une ride.
 
-## Conclusion
-
 La Chemex n'est pas la méthode la plus rapide ni la plus simple à maîtriser du premier coup, mais elle reste l'une des façons les plus gratifiantes de préparer un café filtre à la maison, à la fois pour le résultat en tasse et pour l'objet lui-même, qui n'a pas volé sa place dans les musées de design.

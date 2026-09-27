@@ -94,6 +94,6 @@ Passer aux meules demande un court apprentissage, puisqu'il faut désormais choi
 
 En trois ou quatre essais, tu tiens ton cran. Note-le pour chaque méthode, et prévois un léger ajustement à chaque nouveau paquet : deux cafés différents ne se moulent pas tout à fait pareil. Pour le café filtre, les repères de ratio et de temps d'écoulement sont détaillés dans [réussir son café filtre](/articles/reussir-cafe-filtre-v60/).
 
-## Conclusion
+## L'essentiel
 
 Entre un moulin à lames et un moulin à meules, il n'y a pas match : la régularité de la mouture, impossible à obtenir avec une lame, conditionne directement l'équilibre de la tasse. Si tu ne devais améliorer qu'un maillon de ton café maison, c'est celui-là. Un moulin à meules réglable, même abordable, est l'investissement qui rend le plus service, du filtre du matin à l'espresso du week-end.

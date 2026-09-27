@@ -31,7 +31,7 @@ export const categories = [
     icon: 'dripper',
     label: 'Préparer son café',
     short: 'Préparer',
-    description: 'Réussir chaque méthode : espresso, moka, piston, filtre, cold brew — ratios, mouture et gestes qui changent la tasse.',
+    description: 'Réussir chaque méthode (espresso, moka, piston, filtre, cold brew) : ratios, mouture et gestes qui changent la tasse.',
     intro: `<p>Le même café peut être délicieux ou amer selon la façon de le préparer. Trois réglages font presque tout : le ratio entre café et eau, la finesse de la mouture et le temps de contact. Chaque guide ci-dessous te donne ces repères pour une méthode, avec les gestes qui évitent les erreurs classiques.</p>
 <p>Pour doser sans calcul, ouvre le <a href="/calculateur-dosage-cafe/">calculateur de dosage</a> : il donne les grammes de café et la quantité d’eau selon ta méthode et ton nombre de tasses. Tu ne sais pas encore quelle méthode choisir ? Le <a href="/methodes-cafe/">comparatif des méthodes</a> met côte à côte résultat en tasse, difficulté et budget.</p>`,
   },
