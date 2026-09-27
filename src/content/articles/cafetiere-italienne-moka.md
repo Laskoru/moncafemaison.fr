@@ -1,5 +1,5 @@
 ---
-title: "Cafetière italienne (moka) : laquelle choisir en 2026 ?"
+title: "Cafetière italienne (moka) : laquelle choisir ?"
 description: "3, 6 ou 9 tasses, induction ou non : notre guide pour choisir la bonne cafetière italienne (moka) et réussir son café maison."
 pubDate: 2026-08-16
 updatedDate: 2026-09-21
@@ -12,7 +12,7 @@ coverAlt: "Cafetière italienne (moka) et tasse de café dans une lumière chaud
 draft: false
 products:
   - asin: "B0000AN3QI"
-    title: "Bialetti Moka Express 3 tasses — le classique en aluminium"
+    title: "Bialetti Moka Express 3 tasses, le classique en aluminium"
     blurb: "La moka de référence depuis 1933 : simple, increvable et abordable, pour découvrir le vrai café italien sans se compliquer la vie."
     pros:
       - "Increvable et abordable, un vrai classique"
@@ -33,7 +33,7 @@ faq:
 
 ## Pourquoi la moka reste un classique indétrônable
 
-Inventée en 1933, la cafetière italienne — ou moka — équipe encore aujourd'hui des millions de cuisines en Europe. Pas de moulin obligatoire, pas de filtre en papier à racheter, pas d'électronique qui tombe en panne : juste de l'eau, du café moulu et une plaque de cuisson. C'est cette simplicité mécanique qui explique pourquoi le design d'origine de Bialetti n'a presque pas changé en presque un siècle.
+Inventée en 1933, la cafetière italienne (ou moka) équipe encore aujourd'hui des millions de cuisines en Europe. Pas de moulin obligatoire, pas de filtre en papier à racheter, pas d'électronique qui tombe en panne : juste de l'eau, du café moulu et une plaque de cuisson. C'est cette simplicité mécanique qui explique pourquoi le design d'origine de Bialetti n'a presque pas changé en presque un siècle.
 
 Le résultat en tasse est particulier : plus concentré et corsé qu'un café filtre, sans atteindre la pression d'un espresso. Beaucoup de foyers en Italie, en Espagne ou en France en font leur café du quotidien, souvent allongé avec un peu de lait pour un café au lait maison.
 
@@ -41,7 +41,7 @@ Le résultat en tasse est particulier : plus concentré et corsé qu'un café fi
 
 Le principe est purement physique. On remplit le réservoir inférieur d'eau jusqu'à la valve de sécurité, on place le panier rempli de café moulu par-dessus, puis on visse la partie supérieure. Sur le feu, la pression de la vapeur pousse l'eau chaude à travers la mouture, et le café s'écoule dans le récipient du haut. Dès que le glouglou devient bruyant et irrégulier, c'est fini : il faut retirer la cafetière du feu pour éviter de brûler le café en fin d'extraction.
 
-Ce fonctionnement simple a une conséquence directe : la qualité du résultat dépend presque entièrement de trois choses que tu contrôles toi-même — la mouture, l'intensité du feu, et le moment où tu retires la cafetière.
+Ce fonctionnement simple a une conséquence directe. La qualité du résultat dépend presque entièrement de trois choses que tu contrôles toi-même : la mouture, l'intensité du feu, et le moment où tu retires la cafetière.
 
 ## Les critères qui comptent vraiment
 
@@ -61,7 +61,7 @@ Dans les deux cas, évite les très grandes tailles (9-12 tasses) si tu bois du 
 
 ## Bien utiliser sa moka pour un résultat régulier
 
-Quelques réflexes simples changent tout : utilise de l'eau déjà chaude pour limiter le temps sur le feu et réduire le risque de goût métallique, ne tasse jamais le café dans le panier (contrairement à l'espresso), et choisis une mouture moyenne, un peu plus grossière que celle utilisée pour une machine expresso. Un feu trop vif est la cause numéro un d'un café amer ou brûlé : mieux vaut un feu doux et quelques minutes de patience.
+Quelques réflexes simples évitent la plupart des ratés : utilise de l'eau déjà chaude pour limiter le temps sur le feu et réduire le risque de goût métallique, ne tasse jamais le café dans le panier (contrairement à l'espresso), et choisis une mouture moyenne, un peu plus grossière que celle utilisée pour une machine expresso. Un feu trop vif est la cause numéro un d'un café amer ou brûlé : mieux vaut un feu doux et quelques minutes de patience.
 
 ## Aluminium ou inox : le vrai match
 
@@ -76,7 +76,7 @@ Les deux matériaux donnent un bon café, mais pas la même expérience au quoti
 | Poids et prix | Léger, économique | Plus lourd, environ le double du prix |
 | Durée de vie | Longue si on ne la lave pas au savon | Très longue, presque indestructible |
 
-En résumé : l'aluminium pour le goût traditionnel et le petit prix, l'inox pour l'induction, la facilité d'entretien et la tranquillité. Dans les deux cas, la méthode reste identique — on la détaille dans [réussir sa cafetière italienne](/articles/reussir-cafetiere-italienne-moka/).
+En résumé : l'aluminium pour le goût traditionnel et le petit prix, l'inox pour l'induction, la facilité d'entretien et la tranquillité. Dans les deux cas, la méthode reste identique : on la détaille dans [réussir sa cafetière italienne](/articles/reussir-cafetiere-italienne-moka/).
 
 ## Les pièces d'usure : ce qui décide de la durée de vie
 

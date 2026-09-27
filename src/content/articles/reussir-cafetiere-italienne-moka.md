@@ -1,6 +1,7 @@
 ---
 title: "Réussir son café à la cafetière italienne (moka) sans amertume"
-description: "La méthode pour un café moka corsé mais jamais brûlé : bonne mouture, feu doux, et le geste qui change tout. Le guide pas à pas de la cafetière italienne."
+seoTitle: "Comment utiliser une cafetière italienne sans amertume"
+description: "La méthode pour un café moka corsé mais jamais brûlé : bonne mouture, feu doux, et un retrait au bon moment. Le guide pas à pas de la cafetière italienne."
 pubDate: 2026-09-13
 updatedDate: 2026-09-26
 author: "Hugo B."
@@ -15,7 +16,7 @@ faq:
   - question: "Pourquoi mon café moka est-il amer ou brûlé ?"
     answer: "Presque toujours à cause d'un feu trop fort ou d'une cafetière laissée sur la source de chaleur après la montée. On chauffe à feu doux à modéré, et on retire la cafetière dès que le café gargouille, en refroidissant éventuellement la base sous l'eau pour stopper net l'extraction."
   - question: "Quelle mouture pour la cafetière italienne ?"
-    answer: "Une mouture moyenne, un peu plus grossière que pour l'espresso et plus fine que pour le filtre — proche du sel fin. Trop fine, elle colmate le filtre et surchauffe ; trop grossière, le café est fade. Une mouture fraîche et régulière (moulin à meules) donne le meilleur résultat."
+    answer: "Une mouture moyenne, un peu plus grossière que pour l'espresso et plus fine que pour le filtre, proche du sel fin. Trop fine, elle colmate le filtre et surchauffe ; trop grossière, le café est fade. Une mouture fraîche et régulière (moulin à meules) donne le meilleur résultat."
   - question: "Une cafetière italienne peut-elle exploser ?"
     answer: "C'est rare, mais la pression peut monter dangereusement si l'eau ne passe plus : filtre bouché par une mouture trop fine ou tassée, eau versée au-dessus de la soupape, ou soupape bloquée par le calcaire. La soupape de sécurité sert justement à libérer l'excès de vapeur : remplis toujours sous son niveau, ne tasse jamais le café et vérifie de temps en temps qu'elle n'est pas entartrée."
   - question: "Ma cafetière italienne est trop petite pour ma plaque à induction : que faire ?"
@@ -24,19 +25,19 @@ faq:
 
 ## Le classique increvable, souvent maltraité
 
-La cafetière italienne — la fameuse **moka**, inventée par Bialetti en 1933 — donne un café **corsé et généreux** pour un investissement minime, sans électricité. Le problème, c'est qu'on l'utilise presque toujours mal : feu trop fort, café tassé, cafetière oubliée sur la plaque… et on obtient un breuvage amer et brûlé qu'on croit « normal ». Il ne l'est pas. Avec trois bons gestes, la même cafetière sort un café rond et parfumé.
+La cafetière italienne (la fameuse **moka**, inventée par Bialetti en 1933) donne un café **corsé et généreux** pour un investissement minime, sans électricité. Le problème, c'est qu'on l'utilise presque toujours mal : feu trop fort, café tassé, cafetière oubliée sur la plaque… et on obtient un breuvage amer et brûlé qu'on croit « normal ». Il ne l'est pas. Avec trois bons gestes, la même cafetière sort un café rond et parfumé.
 
 Le principe : la vapeur formée dans la base pousse l'**eau chaude** à travers la mouture, vers le réservoir du haut. Tout se joue sur la **température** et sur le fait de ne pas contrarier ce passage.
 
 ## 1. La bonne mouture (et surtout pas tassée)
 
-Vise une **mouture moyenne**, proche du sel fin : un peu plus grossière que l'espresso. Trop fine, elle bouche le filtre, la pression grimpe et le café surchauffe ; trop grossière, la tasse est fade. Comme toujours, une **mouture fraîche et régulière** change tout — voir [comment choisir son moulin](/articles/meilleur-moulin-cafe-electrique/).
+Vise une **mouture moyenne**, proche du sel fin : un peu plus grossière que l'espresso. Trop fine, elle bouche le filtre, la pression grimpe et le café surchauffe ; trop grossière, la tasse est fade. Comme toujours, une **mouture fraîche et régulière** améliore nettement la tasse (voir [comment choisir son moulin](/articles/meilleur-moulin-cafe-electrique/)).
 
 Remplis le filtre **en petit dôme** et égalise du doigt, **sans jamais tasser**. Contrairement à l'espresso, ici l'eau doit traverser librement : tasser ne fait qu'augmenter la surchauffe.
 
 ## 2. De l'eau déjà chaude dans la base
 
-L'astuce qui change le goût : remplir la base avec de l'**eau déjà chaude** (jusqu'à la valve de sécurité, pas au-dessus). Pourquoi ? Parce qu'avec de l'eau froide, la cafetière passe de longues minutes sur le feu à chauffer par le bas — et pendant ce temps, la mouture cuit et développe de l'amertume. En partant d'eau chaude, la montée est rapide et le café bien moins « cuit ». Attention, la cafetière devient brûlante : manipule-la avec un torchon.
+L'astuce qui change le goût : remplir la base avec de l'**eau déjà chaude** (jusqu'à la valve de sécurité, pas au-dessus). Pourquoi ? Parce qu'avec de l'eau froide, la cafetière passe de longues minutes sur le feu à chauffer par le bas, et pendant ce temps, la mouture cuit et développe de l'amertume. En partant d'eau chaude, la montée est rapide et le café bien moins « cuit ». Attention, la cafetière devient brûlante : manipule-la avec un torchon.
 
 ## 3. Feu doux, et surveiller la montée
 
@@ -86,14 +87,14 @@ Une moka neuve sent le métal et donne un premier café désagréable. Avant de 
 | Rien ne monte | Valve de sécurité bouchée, ou base remplie au-dessus de la valve | Nettoyer la valve avec une aiguille, respecter le niveau |
 | Le café est amer même à feu doux | Cafetière laissée sur le feu après la montée | Retirer dès le gargouillis, refroidir la base |
 
-Le **joint en caoutchouc** et la **plaque filtre** du haut sont des pièces d'usure : compte un remplacement tous les un à deux ans selon l'usage. Ils se trouvent facilement pour les marques classiques — un argument de plus pour choisir une moka d'une marque établie plutôt qu'un modèle sans nom.
+Le **joint en caoutchouc** et la **plaque filtre** du haut sont des pièces d'usure : compte un remplacement tous les un à deux ans selon l'usage. Ils se trouvent facilement pour les marques classiques, un argument de plus pour choisir une moka d'une marque établie plutôt qu'un modèle sans nom.
 
 > **L'essentiel à retenir**
 > Pour une moka réussie : mouture **moyenne non tassée**, **eau chaude** dans la base, **feu doux**, et on **retire du feu dès le gargouillis** (base refroidie sous l'eau pour stopper l'extraction). Rinçage à l'eau claire, joint à surveiller. Trois gestes, et le café passe de « brûlé » à « rond et parfumé ».
 
 ## Pour aller plus loin
 
-- [Quelle méthode pour votre café ?](/methodes-cafe/)
+- [Quelle méthode pour ton café ?](/methodes-cafe/)
 - [Calculateur de dosage café](/calculateur-dosage-cafe/)
 - [Bien choisir sa cafetière italienne](/articles/cafetiere-italienne-moka/)
 - [Le lexique du café](/lexique/)

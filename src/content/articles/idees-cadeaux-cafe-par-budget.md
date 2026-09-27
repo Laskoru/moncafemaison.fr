@@ -41,7 +41,7 @@ Autre avantage à ne pas négliger : contrairement à un vêtement ou un objet d
 
 ## Comment choisir selon le budget
 
-### Moins de 20 € : le petit plus qui fait toujours plaisir
+### Moins de 20 € : l'objet utile qui fait toujours plaisir
 
 À ce niveau de budget, viser l'utile plutôt que le décoratif reste la meilleure stratégie. Des [filtres réutilisables](/articles/filtres-reutilisables-cafe/) pour cafetière filtre, une boîte hermétique pour préserver la fraîcheur des grains, ou un petit doseur de précision sont des objets que personne ne s'achète spontanément, mais que tout le monde utilise dès qu'il les reçoit.
 
@@ -60,7 +60,7 @@ C'est la fourchette la plus intéressante pour un cadeau qui change réellement 
 
 À ce budget, tu peux offrir un vrai outil de progression plutôt qu'un simple accessoire de confort. Un [moulin à café manuel](/articles/meilleur-moulin-cafe-manuel/) de qualité est une excellente idée pour qui voyage souvent ou aime la mouture fraîche sans le bruit d'un moulin électrique. Une [cafetière à piston](/articles/meilleure-cafetiere-piston-french-press/) haut de gamme, en verre borosilicaté et filtre fin, apporte un vrai gain de régularité par rapport à un modèle d'entrée de gamme.
 
-Une [balance de précision](/articles/balance-cafe-precision/) avec minuterie entre aussi dans cette fourchette et s'adresse à toute personne qui prépare son café en méthode filtre : c'est l'outil qui permet de reproduire un bon dosage tasse après tasse, plutôt que d'y aller au jugé.
+Une [balance de précision](/articles/balance-cafe-precision/) avec minuterie, bien moins chère (souvent entre 20 et 60 €), complète bien ces cadeaux et s'adresse à toute personne qui prépare son café en méthode filtre : c'est l'outil qui permet de reproduire un bon dosage tasse après tasse, plutôt que d'y aller au jugé.
 
 ### 150 € et plus : le cadeau qui change le quotidien
 
@@ -71,10 +71,6 @@ Ce type de cadeau se prépare mieux à plusieurs, en famille ou entre amis, car 
 ## Notre coup de cœur pour cette sélection
 
 S'il ne fallait retenir qu'une seule idée toutes catégories confondues, ce serait le mousseur à lait électrique. Il coche toutes les cases d'un bon cadeau café : un budget raisonnable, une utilité immédiate dès la première tasse, et une compatibilité totale avec n'importe quel type de machine déjà en place, de la cafetière filtre à la machine à grains.
-
-## Le tableau comparatif par budget
-
-Pour visualiser rapidement où se situe chaque type d'idée cadeau, voici un récapitulatif par tranche de budget et par profil de destinataire.
 
 ## Nos conseils pour ne pas se tromper
 
@@ -95,11 +91,11 @@ Pour visualiser rapidement où se situe chaque type d'idée cadeau, voici un ré
 
 ## En résumé
 
-Le bon cadeau café dépend avant tout du matériel déjà en place chez la personne, bien plus que du montant dépensé. En dessous de 20 €, vise un accessoire utile plutôt qu'un gadget ; entre 20 et 60 €, un mousseur à lait ou une bouilloire à col de cygne améliore concrètement chaque tasse ; entre 60 et 150 €, un moulin manuel ou une balance de précision permettent de vraiment progresser ; au-delà de 150 €, une machine complète transforme la routine du matin, à condition de bien cerner l'usage prévu avant l'achat.
+Le bon cadeau café dépend avant tout du matériel déjà en place chez la personne, bien plus que du montant dépensé. En dessous de 20 €, vise un accessoire utile plutôt qu'un gadget ; entre 20 et 60 €, un mousseur à lait, une bouilloire à col de cygne ou une balance de précision améliorent concrètement chaque tasse ; entre 60 et 150 €, un moulin manuel permet de vraiment progresser ; au-delà de 150 €, une machine complète transforme la routine du matin, à condition de bien cerner l'usage prévu avant l'achat.
 
 ## Pour aller plus loin
 
 - [Meilleur mousseur à lait](/articles/meilleur-mousseur-lait/)
 - [Balance de précision pour le café](/articles/balance-cafe-precision/)
 - [Meilleur moulin à café manuel](/articles/meilleur-moulin-cafe-manuel/)
-- [Bouilloire à col de cygne : pourquoi elle change tout](/articles/bouilloire-col-de-cygne/)
+- [Bouilloire à col de cygne : un versement précis en pour-over](/articles/bouilloire-col-de-cygne/)

@@ -1,5 +1,6 @@
 ---
 title: "Café filtre & V60 : la méthode pour un café clair et aromatique"
+seoTitle: "Café filtre : méthode et V60 pour un café clair et parfumé"
 description: "Réussir un café filtre ou un pour-over V60 : mouture, ratio, bloom et versement en spirale. La méthode qui révèle les arômes, sans amertume ni acidité."
 pubDate: 2026-09-13
 updatedDate: 2026-09-21
@@ -20,7 +21,7 @@ faq:
 
 ## Le café filtre : de la clarté et des arômes
 
-La méthode filtre — en cafetière électrique comme en **V60** manuel — donne un café **clair, propre et très aromatique**. Le filtre papier retient les huiles et les fines particules : on obtient une tasse nette qui met en valeur les arômes d'un bon café, là où la French press joue plutôt le corps et la rondeur. Le principe est simple : l'eau chaude s'écoule à travers la mouture posée dans un filtre. Toute la subtilité tient au **débit** et à la **régularité** du versement.
+La méthode filtre (en cafetière électrique comme en **V60** manuel) donne un café **clair, propre et très aromatique**. Le filtre papier retient les huiles et les fines particules : on obtient une tasse nette qui met en valeur les arômes d'un bon café, là où la French press joue plutôt le corps et la rondeur. Le principe est simple : l'eau chaude s'écoule à travers la mouture posée dans un filtre. Toute la subtilité tient au **débit** et à la **régularité** du versement.
 
 ## Les repères qui comptent
 
@@ -57,13 +58,13 @@ Le café filtre, c'est à plus de 98 % de l'eau : sa qualité compte énormémen
 
 ## Filtre blanc, brun ou permanent : ce que ça change
 
-Le filtre n'est pas neutre. Le papier **blanc** est blanchi à l'oxygène (pas au chlore, contrairement à une vieille idée reçue) et donne le goût le plus propre. Le papier **brun**, non blanchi, apporte un léger goût de carton s'il n'est pas rincé abondamment — d'où l'importance du rinçage. Les filtres **permanents** en inox ou en tissu laissent passer une partie des huiles et des fines : la tasse gagne en corps et perd en clarté, à mi-chemin entre le filtre papier et la French press. C'est un choix de goût autant qu'un choix écologique ; on détaille les options dans [filtres réutilisables pour le café](/articles/filtres-reutilisables-cafe/).
+Le filtre n'est pas neutre. Le papier **blanc** est blanchi à l'oxygène (pas au chlore, contrairement à une vieille idée reçue) et donne le goût le plus propre. Le papier **brun**, non blanchi, apporte un léger goût de carton s'il n'est pas rincé abondamment, d'où l'importance du rinçage. Les filtres **permanents** en inox ou en tissu laissent passer une partie des huiles et des fines : la tasse gagne en corps et perd en clarté, à mi-chemin entre le filtre papier et la French press. C'est un choix de goût autant qu'un choix écologique ; on détaille les options dans [filtres réutilisables pour le café](/articles/filtres-reutilisables-cafe/).
 
 Vérifie aussi la **forme** : un V60 prend des filtres coniques (taille 01 pour une tasse, 02 pour deux à quatre), une cafetière électrique des filtres à fond plat ou « en panier ». Un filtre mal ajusté au cône laisse l'eau contourner le café.
 
 ## La bouilloire col de cygne : utile ou gadget ?
 
-En V60, le versement est le cœur de la méthode : il faut un débit fin, régulier, dirigé. Une bouilloire classique verse trop vite et par à-coups, creuse le lit de café et déséquilibre l'extraction. Le **col de cygne** règle ce problème, et beaucoup de modèles intègrent un thermostat qui évite d'attendre « à peu près 30 secondes » après l'ébullition. Ce n'est pas obligatoire pour débuter — on peut verser doucement avec une bouilloire ordinaire — mais c'est l'accessoire qui rend le V60 vraiment reproductible. Voir [quelle bouilloire col de cygne choisir](/articles/bouilloire-col-de-cygne/).
+En V60, le versement est le cœur de la méthode : il faut un débit fin, régulier, dirigé. Une bouilloire classique verse trop vite et par à-coups, creuse le lit de café et déséquilibre l'extraction. Le **col de cygne** règle ce problème, et beaucoup de modèles intègrent un thermostat qui évite d'attendre « à peu près 30 secondes » après l'ébullition. Ce n'est pas obligatoire pour débuter (on peut verser doucement avec une bouilloire ordinaire), mais c'est l'accessoire qui rend le V60 vraiment reproductible. Voir [quelle bouilloire col de cygne choisir](/articles/bouilloire-col-de-cygne/).
 
 ## Préparer deux à quatre tasses en V60
 
@@ -84,7 +85,7 @@ Le V60 permet un café glacé bien plus aromatique que le cold brew : le **flash
 
 ## Pour aller plus loin
 
-- [Quelle méthode pour votre café ?](/methodes-cafe/)
+- [Quelle méthode pour ton café ?](/methodes-cafe/)
 - [Calculateur de dosage café](/calculateur-dosage-cafe/)
 - [Cafetières filtre programmables](/articles/meilleure-cafetiere-filtre-programmable/) · [la Chemex](/articles/chemex-cafetiere-filtre-design/)
 - [Le lexique du café](/lexique/)

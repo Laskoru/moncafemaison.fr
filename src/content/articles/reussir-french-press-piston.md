@@ -1,5 +1,6 @@
 ---
 title: "Réussir sa cafetière à piston (French press) : la méthode simple"
+seoTitle: "Comment utiliser une cafetière à piston (French press)"
 description: "Un café à la French press rond et sans dépôt : la bonne mouture, le bon ratio, 4 minutes d'infusion et le geste anti-boue. Le guide clair."
 pubDate: 2026-09-13
 updatedDate: 2026-09-21
@@ -15,16 +16,16 @@ faq:
   - question: "Combien de temps laisser infuser ?"
     answer: "Environ 4 minutes. En dessous, le café est sous-extrait et acide ; bien au-delà, il devient astringent. À la fin des 4 minutes, on casse la croûte en surface, on écume, puis on presse doucement le piston."
   - question: "Comment éviter le dépôt au fond de la tasse ?"
-    answer: "Trois réflexes : une mouture grossière (pas fine), presser le piston lentement et pas jusqu'au fond, et ne pas laisser le café dans la cafetière après infusion — on le transvase. Écumer la mousse et les fines particules avant de presser aide aussi beaucoup."
+    answer: "Trois réflexes : une mouture grossière (pas fine), presser le piston lentement et pas jusqu'au fond, et ne pas laisser le café dans la cafetière après infusion (on le transvase). Écumer la mousse et les fines particules avant de presser aide aussi beaucoup."
 ---
 
 ## La méthode la plus simple… si on connaît les gestes
 
-La cafetière à piston (French press) est sans doute la **façon la plus accessible** de faire un bon café : pas d'électricité, pas de filtre papier à racheter, un rendu **rond et corsé** qui préserve les huiles du café. Son unique défaut — le fameux **dépôt** au fond de la tasse — disparaît presque entièrement avec trois bons réflexes. C'est une **infusion libre** : la mouture trempe dans l'eau chaude, puis un filtre métallique sépare le marc.
+La cafetière à piston (French press) est sans doute la **façon la plus accessible** de faire un bon café : pas d'électricité, pas de filtre papier à racheter, un rendu **rond et corsé** qui préserve les huiles du café. Son unique défaut (le fameux **dépôt** au fond de la tasse) disparaît presque entièrement avec trois bons réflexes. C'est une **infusion libre** : la mouture trempe dans l'eau chaude, puis un filtre métallique sépare le marc.
 
 ## 1. Une mouture grossière
 
-C'est la clé du confort en bouche. La French press demande une mouture **grossière**, proche de la chapelure ou du gros sel. Trop fine, elle passe à travers le filtre métallique et finit dans la tasse (le fameux dépôt boueux), en plus de sur-extraire et de rendre le café amer. Une mouture régulière — donc un [moulin à meules](/articles/meilleur-moulin-cafe-electrique/) — évite justement les « fines » responsables de la boue.
+C'est ce qui décide du confort en bouche. La French press demande une mouture **grossière**, proche de la chapelure ou du gros sel. Trop fine, elle passe à travers le filtre métallique et finit dans la tasse (le fameux dépôt boueux), en plus de sur-extraire et de rendre le café amer. Une mouture régulière, donc un [moulin à meules](/articles/meilleur-moulin-cafe-electrique/), évite justement les « fines » responsables de la boue.
 
 ## 2. Le bon ratio, pesé
 
@@ -78,7 +79,7 @@ Choisis la taille pour ton usage réel : une grande cafetière remplie au tiers 
 
 ## Le café qui va bien avec la French press
 
-Comme le filtre métallique laisse passer les huiles, la French press met en valeur le **corps** et la rondeur. Les torréfactions moyennes, aux notes de chocolat, de fruits secs ou de caramel, sont les plus flatteuses. Les cafés très clairs et acidulés, faits pour le filtre papier, peuvent paraître déséquilibrés. Un café **fraîchement torréfié** (deux à quatre semaines) dégaze davantage : la croûte est plus épaisse, le café plus vivant — mais laisse-lui les 4 minutes complètes.
+Comme le filtre métallique laisse passer les huiles, la French press met en valeur le **corps** et la rondeur. Les torréfactions moyennes, aux notes de chocolat, de fruits secs ou de caramel, sont les plus flatteuses. Les cafés très clairs et acidulés, faits pour le filtre papier, peuvent paraître déséquilibrés. Un café **fraîchement torréfié** (deux à quatre semaines) dégaze davantage : la croûte est plus épaisse, le café plus vivant, mais laisse-lui les 4 minutes complètes.
 
 Pense aussi à **préchauffer les tasses** : un café à 65 °C versé dans une tasse froide perd dix degrés instantanément.
 
@@ -94,11 +95,11 @@ Pense aussi à **préchauffer les tasses** : un café à 65 °C versé dans une 
 | Goût rance | Filtre encrassé | Démonter et brosser le tamis chaque semaine |
 
 > **L'essentiel à retenir**
-> La French press réussie tient à quatre choses : une mouture **grossière**, un ratio **pesé** (~60-70 g/L), une eau **frémissante** et **4 minutes** d'infusion. Le secret anti-dépôt : casser la croûte, **écumer**, presser **lentement sans aller au fond**, et **transvaser aussitôt**. Simple, mais chaque geste compte.
+> La French press réussie tient à quatre choses : une mouture **grossière**, un ratio **pesé** (~60-70 g/L), une eau **frémissante** et **4 minutes** d'infusion. Contre le dépôt : casser la croûte, **écumer**, presser **lentement sans aller au fond**, et **transvaser aussitôt**. Simple, mais chaque geste compte.
 
 ## Pour aller plus loin
 
-- [Quelle méthode pour votre café ?](/methodes-cafe/)
+- [Quelle méthode pour ton café ?](/methodes-cafe/)
 - [Calculateur de dosage café](/calculateur-dosage-cafe/)
 - [Comparatif des cafetières à piston](/articles/meilleure-cafetiere-piston-french-press/)
 - [Le lexique du café](/lexique/)

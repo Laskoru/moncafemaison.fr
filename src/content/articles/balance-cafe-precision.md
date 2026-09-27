@@ -12,7 +12,7 @@ coverAlt: "Grains de café dans un bol"
 draft: false
 products:
   - asin: "B0BNL5JCVR"
-    title: "BAGAIL — balance à café avec minuterie, précision 0,1 g"
+    title: "Balance à café BAGAIL avec minuterie, précision 0,1 g"
     blurb: "Le combo idéal : pèse au dixième de gramme et chronomètre l'extraction, avec fonction tare, pour un café régulier tous les jours."
     pros:
       - "Précision au dixième de gramme"
@@ -24,18 +24,18 @@ products:
       - "Écran peu lisible en plein soleil"
 faq:
   - question: "Pourquoi peser son café plutôt que doser à la cuillère ?"
-    answer: "Parce qu'une cuillère ne mesure pas la même masse selon la mouture et le tassage : d'un café à l'autre, le dosage varie, et le goût avec. Peser (ex. 18 g de café pour environ 36 g d'espresso, soit un ratio 1:2) rend chaque tasse reproductible — c'est le geste qui améliore le plus la régularité."
+    answer: "Parce qu'une cuillère ne mesure pas la même masse selon la mouture et le tassage : d'un café à l'autre, le dosage varie, et le goût avec. Peser (ex. 18 g de café pour environ 36 g d'espresso, soit un ratio 1:2) rend chaque tasse reproductible : c'est le geste qui améliore le plus la régularité."
   - question: "À quoi sert la minuterie intégrée ?"
     answer: "Elle permet de suivre le temps d'extraction, un repère clé : un espresso vise souvent 25-30 secondes, un pour-over 2 à 3 minutes. Voir la masse ET le temps au même endroit facilite les ajustements sans jongler avec le téléphone."
   - question: "La précision 0,1 g est-elle vraiment utile ?"
     answer: "Pour l'espresso, oui : quelques dixièmes de gramme changent l'équilibre en tasse. Pour le café filtre ou la French press, une précision de 1 g suffit largement. Une balance 0,1 g couvre tous les cas, autant la prendre polyvalente."
 ---
 
-## Pourquoi la balance change tout
+## Pourquoi la balance rend le café reproductible
 
-On sous-estime la balance parce qu'elle n'a rien de spectaculaire. Pourtant, c'est l'accessoire qui rend un café **reproductible**. Sans elle, on dose « à la cuillère » — mais une cuillère de café moulu fin ne pèse pas la même chose qu'une cuillère de mouture grossière, et le résultat change d'une tasse à l'autre.
+On sous-estime la balance parce qu'elle n'a rien de spectaculaire. Pourtant, c'est l'accessoire qui rend un café **reproductible**. Sans elle, on dose « à la cuillère », mais une cuillère de café moulu fin ne pèse pas la même chose qu'une cuillère de mouture grossière, et le résultat change d'une tasse à l'autre.
 
-Peser le café (et l'eau) permet de fixer un ratio et de le retrouver à chaque fois : par exemple 18 g de café pour environ 36 g d'espresso (ratio 1:2), ou 15 g pour 250 ml en filtre. Une fois le bon ratio trouvé, on le reproduit — fini les cafés parfaits « par hasard » et les ratés inexpliqués.
+Peser le café (et l'eau) permet de fixer un ratio et de le retrouver à chaque fois : par exemple 18 g de café pour environ 36 g d'espresso (ratio 1:2), ou 15 g pour 250 ml en filtre. Une fois le bon ratio trouvé, on le reproduit : fini les cafés parfaits « par hasard » et les ratés inexpliqués.
 
 ## Les critères qui comptent
 
@@ -49,7 +49,7 @@ Peser le café (et l'eau) permet de fixer un ratio et de le retrouver à chaque 
 
 Pour un usage **polyvalent** (filtre, French press, espresso occasionnel), une balance 0,1 g avec minuterie et bon plateau couvre tous les besoins et rend service au-delà du café.
 
-Pour un usage **orienté espresso**, privilégie un modèle compact qui se glisse sous le porte-filtre et se recharge — la place sur le plateau de la machine est souvent comptée.
+Pour un usage **orienté espresso**, privilégie un modèle compact qui se glisse sous le porte-filtre et se recharge : la place sur le plateau de la machine est souvent comptée.
 
 ## Les ratios de départ, méthode par méthode
 
@@ -68,7 +68,7 @@ Retiens un principe : on pèse **l'eau aussi**, pas seulement le café. 1 ml d'e
 
 ## Utiliser la balance sous une machine expresso
 
-C'est l'usage le plus exigeant. Pose la balance sur le plateau d'égouttage, la tasse dessus, fais la **tare**, puis lance l'extraction et le chrono **en même temps** (les balances avec minuterie automatique démarrent à la première goutte). Arrête l'extraction quand la balance approche du poids cible **moins 2 à 3 grammes** : le café continue de couler une seconde ou deux après l'arrêt de la pompe. Note le trio « dose – poids en tasse – temps » : c'est lui que tu ajustes en changeant la mouture, comme on l'explique dans [réussir son espresso à la maison](/articles/reussir-espresso-maison/). Si la balance ne passe pas sous le porte-filtre, un modèle **fin** (moins de 2 cm) ou une petite balance « de poche » pour bijoutier dépanne très bien, à condition qu'elle réagisse vite.
+C'est l'usage le plus exigeant. Pose la balance sur le plateau d'égouttage, la tasse dessus, fais la **tare**, puis lance l'extraction et le chrono **en même temps** (les balances avec minuterie automatique démarrent à la première goutte). Arrête l'extraction quand la balance approche du poids cible **moins 2 à 3 grammes** : le café continue de couler une seconde ou deux après l'arrêt de la pompe. Note le trio « dose, poids en tasse, temps » : c'est lui que tu ajustes en changeant la mouture, comme on l'explique dans [réussir son espresso à la maison](/articles/reussir-espresso-maison/). Si la balance ne passe pas sous le porte-filtre, un modèle **fin** (moins de 2 cm) ou une petite balance « de poche » pour bijoutier dépanne très bien, à condition qu'elle réagisse vite.
 
 ## Les erreurs qui faussent la pesée
 
@@ -80,7 +80,7 @@ C'est l'usage le plus exigeant. Pose la balance sur le plateau d'égouttage, la 
 
 ## Balance de cuisine ou balance à café ?
 
-Une bonne balance de cuisine au dixième de gramme, avec tare et plateau assez large, suffit pour le filtre et la French press. Les balances « à café » ajoutent trois choses : une **minuterie** intégrée (souvent automatique), une **réactivité** élevée (l'affichage suit le flux en temps réel, indispensable pour l'espresso), et un **format** adapté aux plateaux de machine. Si tu bois surtout du filtre, la balance de cuisine que tu as déjà fera l'affaire ; si tu tires des espressos chaque jour, la balance dédiée se rentabilise en cafés non gâchés. Dans les deux cas, la précision au **0,1 g** est la seule caractéristique qui ne se négocie pas.
+Une bonne balance de cuisine au gramme près, avec tare et plateau assez large, suffit pour le filtre et la French press. Les balances « à café » ajoutent trois choses : une **minuterie** intégrée (souvent automatique), une **réactivité** élevée (l'affichage suit le flux en temps réel, indispensable pour l'espresso), et un **format** adapté aux plateaux de machine. Si tu bois surtout du filtre, la balance de cuisine que tu as déjà fera l'affaire ; si tu tires des espressos chaque jour, la balance dédiée se rentabilise en cafés non gâchés. Pour l'espresso, la précision au **0,1 g** est la seule caractéristique qui ne se négocie pas.
 
 ## Peser un café filtre ou une French press, geste par geste
 

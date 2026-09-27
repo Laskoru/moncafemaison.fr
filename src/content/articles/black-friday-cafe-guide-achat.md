@@ -53,7 +53,7 @@ Un [moulin à café électrique](/articles/meilleur-moulin-cafe-electrique/) per
 
 ## Ce qui ne vaut généralement pas le coup d'attendre
 
-Les petits accessoires — filtres, tamper, boîtes hermétiques, petites balances — coûtent déjà peu cher toute l'année, donc l'écart entre le prix normal et le prix « Black Friday » y est souvent minime, même quand le pourcentage affiché paraît impressionnant. Sur un article à 15 ou 20 €, une remise de 20 % ne représente que quelques euros : pas de quoi repousser un achat utile de plusieurs semaines si tu en as besoin maintenant.
+Les petits accessoires (filtres, tamper, boîtes hermétiques, petites balances) coûtent déjà peu cher toute l'année, donc l'écart entre le prix normal et le prix « Black Friday » y est souvent minime, même quand le pourcentage affiché paraît impressionnant. Sur un article à 15 ou 20 €, une remise de 20 % ne représente que quelques euros : pas de quoi repousser un achat utile de plusieurs semaines si tu en as besoin maintenant.
 
 Il en va de même pour les modèles d'entrée de gamme dans toutes les catégories : leur marge est déjà réduite en temps normal, donc la remise réelle y est souvent plus faible que sur les modèles plus chers, même si l'étiquette affiche un gros pourcentage. Le piège classique consiste à se laisser convaincre par un chiffre de réduction élevé sur un produit qui, en valeur absolue, ne bouge presque pas.
 
@@ -61,7 +61,7 @@ Il en va de même pour les modèles d'entrée de gamme dans toutes les catégori
 
 Le signal le plus fiable reste de suivre le prix avant la période de soldes. Si tu repères une machine ou un moulin qui t'intéresse, note son prix (ou utilise un outil de suivi de prix) pendant les semaines qui précèdent le Black Friday. Le jour J, compare ce prix « barré » à ce que tu as réellement observé récemment : s'il correspond à peu près au prix courant des dernières semaines, la remise affichée en dessous est crédible. S'il est nettement plus élevé que tout ce que tu as vu circuler, il s'agit probablement d'un prix de référence gonflé pour donner l'impression d'une remise plus importante qu'elle ne l'est réellement.
 
-Autres signaux à surveiller : une mention « stock limité » qui reste affichée identique pendant plusieurs jours, un modèle dont la fiche produit ne mentionne aucune caractéristique récente (souvent un signe de fin de série qu'on écoule plutôt qu'une vraie nouveauté remisée), ou un vendeur tiers peu connu proposant un prix nettement inférieur à toutes les autres enseignes sur un même modèle — dans ce dernier cas, vérifie toujours les avis et la politique de retour avant de valider.
+Autres signaux à surveiller : une mention « stock limité » qui reste affichée identique pendant plusieurs jours, un modèle dont la fiche produit ne mentionne aucune caractéristique récente (souvent un signe de fin de série qu'on écoule plutôt qu'une vraie nouveauté remisée), ou un vendeur tiers peu connu proposant un prix nettement inférieur à toutes les autres enseignes sur un même modèle. Dans ce dernier cas, vérifie toujours les avis et la politique de retour avant de valider.
 
 > 🛒 **Pour comparer les prix du moment**
 > Une bonne habitude avant d'acheter : regarder plusieurs enseignes plutôt qu'une seule offre isolée. [Voir les machines expresso à broyeur intégré sur Amazon](https://www.amazon.fr/s?k=machine+expresso+broyeur+integre&tag=moncafemaison-21) pour comparer les prix actuels sur cette catégorie.
@@ -71,10 +71,6 @@ Autres signaux à surveiller : une mention « stock limité » qui reste affich�
 ## Notre choix pour cette période
 
 S'il ne fallait surveiller qu'une seule catégorie ce Black Friday, ce serait celle des machines expresso à broyeur intégré : c'est le segment où les remises réelles sont, année après année, les plus significatives en valeur absolue, parce que ce sont des appareils assez chers pour laisser une vraie marge de négociation aux enseignes. Si tu hésites depuis un moment entre investir dans ce type de machine ou dans un [moulin séparé](/articles/meilleur-moulin-cafe-electrique/), c'est la période où l'écart de prix a le plus de chances de pencher en ta faveur.
-
-## Le tableau comparatif par type de matériel
-
-Pour visualiser rapidement où se situe chaque type de matériel face au Black Friday, voici un récapitulatif par catégorie.
 
 ## Nos conseils pratiques avant de cliquer « acheter »
 
@@ -88,7 +84,7 @@ Pour visualiser rapidement où se situe chaque type de matériel face au Black F
 
 ## En résumé
 
-Le Black Friday a vraiment du sens pour les achats les plus chers — machines à grains, machines expresso à broyeur intégré, moulins haut de gamme — parce que ce sont les catégories où les enseignes ont une vraie marge pour proposer des remises significatives. Pour les petits accessoires et les modèles d'entrée de gamme, l'écart réel est souvent trop faible pour justifier d'attendre. Dans tous les cas, le meilleur réflexe reste de suivre le prix avant le jour J, de comparer plusieurs enseignes, et de se méfier d'un prix barré qui semble anormalement élevé par rapport à ce que tu observais quelques semaines plus tôt.
+Le Black Friday a vraiment du sens pour les achats les plus chers (machines à grains, machines expresso à broyeur intégré, moulins haut de gamme) parce que ce sont les catégories où les enseignes ont une vraie marge pour proposer des remises significatives. Pour les petits accessoires et les modèles d'entrée de gamme, l'écart réel est souvent trop faible pour justifier d'attendre. Dans tous les cas, le meilleur réflexe reste de suivre le prix avant le jour J, de comparer plusieurs enseignes, et de se méfier d'un prix barré qui semble anormalement élevé par rapport à ce que tu observais quelques semaines plus tôt.
 
 ## Pour aller plus loin
 

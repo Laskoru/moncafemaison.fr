@@ -12,23 +12,23 @@ coverAlt: "Deux moulins à café professionnels côte à côte sur un comptoir, 
 draft: false
 products:
   - asin: "B000IWHXH8"
-    title: "Krups GVX242 — Moulin électrique à meules, 17 niveaux (filtre et moka ; trop grossier pour un vrai espresso)"
-    blurb: "Un broyeur à meules avec 17 crans de réglage, assez fin et régulier pour l'espresso, à un prix raisonnable pour débuter sérieusement."
+    title: "Krups GVX242, moulin électrique à meules, 17 niveaux (filtre et moka ; trop grossier pour un vrai espresso)"
+    blurb: "Un moulin à meules d'entrée de gamme à prix raisonnable : ses 17 crans couvrent le filtre, le piston et la moka, mais il ne descend pas assez fin pour un vrai espresso."
     pros:
       - "17 crans de réglage"
-      - "Assez fin et régulier pour l’espresso"
+      - "Mouture régulière pour le filtre, le piston et la moka"
       - "Prix raisonnable pour débuter"
     cons:
-      - "Meules plates : moins précis qu’un moulin dédié premium"
+      - "Pas assez fin pour un vrai espresso (meules plates d’entrée de gamme)"
       - "Rétention et statique de mouture"
       - "Bruyant"
 faq:
   - question: "Un moulin à meules coniques suffit-il pour l'espresso, ou faut-il des meules plates ?"
     answer: "Les deux peuvent convenir en usage domestique. Les meules plates sont réputées légèrement plus régulières à mouture très fine, ce qui est un atout pour l'espresso, mais un bon moulin à meules coniques avec suffisamment de crans fins fait très bien l'affaire pour un usage maison. Le vrai clivage reste meules contre lames, pas conique contre plat."
   - question: "Pourquoi mon espresso coule trop vite même avec un moulin à meules ?"
-    answer: "Le plus souvent, la mouture n'est pas assez fine ou pas assez régulière pour ta machine. Si le moulin n'a que quelques crans grossiers, il peut ne pas descendre assez bas pour créer la résistance nécessaire. Affinez cran par cran jusqu'à obtenir un écoulement en 25 à 30 secondes environ, et vérifiez que le moulin garde cette finesse de façon stable d'une mouture à l'autre."
+    answer: "Le plus souvent, la mouture n'est pas assez fine ou pas assez régulière pour ta machine. Si le moulin n'a que quelques crans grossiers, il peut ne pas descendre assez bas pour créer la résistance nécessaire. Affine cran par cran jusqu'à obtenir un écoulement en 25 à 30 secondes environ, et vérifie que le moulin garde cette finesse de façon stable d'une mouture à l'autre."
   - question: "Faut-il un moulin dédié à l'espresso ou un modèle qui fait tout ?"
-    answer: "Un moulin polyvalent avec de nombreux réglages (idéalement une quinzaine ou plus) couvre très bien l'espresso ET le filtre au quotidien. Un moulin dédié à l'espresso n'est utile que si tu bois exclusivement ce type de café et cherchez une précision de compétition ; pour un usage familial mixte, la polyvalence est largement suffisante."
+    answer: "Un moulin polyvalent avec de nombreux réglages (plusieurs dizaines, dont des crans rapprochés dans la zone fine) couvre très bien l'espresso ET le filtre au quotidien. Un moulin dédié à l'espresso n'est utile que si tu bois exclusivement ce type de café et cherches une précision de compétition ; pour un usage familial mixte, la polyvalence est largement suffisante."
 ---
 
 ## Pourquoi le moulin fait presque tout le travail
@@ -41,7 +41,7 @@ L'espresso est la préparation la plus exigeante en matière de mouture. Contrai
 
 **La capacité à descendre fin, et à y rester régulier.** Beaucoup de moulins à meules d'entrée de gamme sont pensés pour le filtre et proposent une plage de réglage qui s'arrête juste avant la finesse espresso, ou qui devient irrégulière une fois poussée au maximum. Vérifie que le moulin annonce explicitement une compatibilité espresso, et pas seulement « filtre et piston ».
 
-**Le nombre de crans de réglage.** Plus les paliers sont nombreux et rapprochés, plus tu peux ajuster finement l'écoulement de ton espresso sans sauter d'un extrême à l'autre. Une quinzaine de niveaux ou plus permet de trouver le bon réglage pour ta machine, ton café et même la saison (les grains fraîchement torréfiés demandent souvent une mouture légèrement plus grossière que des grains reposés).
+**Le nombre de crans de réglage.** Plus les paliers sont nombreux et rapprochés, plus tu peux ajuster finement l'écoulement de ton espresso sans sauter d'un extrême à l'autre. Plusieurs dizaines de positions, dont une bonne partie dans la zone fine, permettent de trouver le bon réglage pour ta machine, ton café et même la saison (les grains fraîchement torréfiés demandent souvent une mouture légèrement plus grossière que des grains reposés).
 
 **La stabilité thermique et la faible production de fines.** Un moulin qui chauffe peu préserve les arômes volatils, et un bon jeu de meules limite la quantité de « fines » (poussière ultra-fine) qui bouchent le porte-filtre et accentuent l'amertume.
 
@@ -63,7 +63,7 @@ Si tu consommes peu de tasses par jour ou voyages souvent, un [moulin à café m
 
 ## Entretien : la régularité se préserve dans le temps
 
-Des meules encrassées par l'huile des grains perdent en précision et en régularité. Un brossage régulier de la trémie et du réceptacle, et un démontage occasionnel des meules selon les indications du fabricant, permettent de conserver une mouture propre semaine après semaine — un geste simple qui évite de réajuster sans cesse les réglages en pensant que le moulin s'est déréglé.
+Des meules encrassées par l'huile des grains perdent en précision et en régularité. Un brossage régulier de la trémie et du réceptacle, et un démontage occasionnel des meules selon les indications du fabricant, permettent de conserver une mouture propre semaine après semaine, un geste simple qui évite de réajuster sans cesse les réglages en pensant que le moulin s'est déréglé.
 
 ## Meules coniques ou plates pour l'espresso ?
 
@@ -71,11 +71,11 @@ Les deux géométries font de l'espresso, avec des personnalités différentes. 
 
 ## Réglage cranté ou continu (« stepless »)
 
-Sur l'espresso, la différence entre un café qui coule en 22 secondes et un autre en 32 secondes tient parfois à un demi-cran. Un moulin **cranté** offre des repères faciles à noter, mais si les crans sont trop espacés dans la zone fine, tu passes d'un espresso trop rapide à un espresso bouché sans position intermédiaire. Cherche au moins une **trentaine de positions dans la seule zone espresso**, ou un réglage **continu** (sans cran), le plus précis, au prix d'un repère moins évident — on marque alors la position au feutre ou on compte les tours.
+Sur l'espresso, la différence entre un café qui coule en 22 secondes et un autre en 32 secondes tient parfois à un demi-cran. Un moulin **cranté** offre des repères faciles à noter, mais si les crans sont trop espacés dans la zone fine, tu passes d'un espresso trop rapide à un espresso bouché sans position intermédiaire. Cherche des **crans nombreux et rapprochés dans la zone espresso**, ou un réglage **continu** (sans cran), le plus précis, au prix d'un repère moins évident : on marque alors la position au feutre ou on compte les tours.
 
 ## Le budget réaliste
 
-C'est le point qui surprend : un vrai moulin espresso coûte souvent **autant que la machine**, entre 150 et 300 € pour un électrique fiable. En dessous de 100 €, rares sont les moulins électriques qui tiennent une mouture espresso régulière dans la durée ; à ce budget, un bon [moulin manuel](/articles/meilleur-moulin-cafe-manuel/) à meules acier fait souvent mieux, au prix d'une minute d'effort par tasse. La règle d'or des amateurs : à budget total égal, mieux vaut une machine simple et un bon moulin que l'inverse — la machine la plus chère du monde ne rattrape pas une mouture irrégulière.
+C'est le point qui surprend : un vrai moulin espresso coûte souvent **autant que la machine**, entre 150 et 300 € pour un électrique fiable. En dessous de 100 €, rares sont les moulins électriques qui tiennent une mouture espresso régulière dans la durée ; à ce budget, un bon [moulin manuel](/articles/meilleur-moulin-cafe-manuel/) à meules acier fait souvent mieux, au prix d'une minute d'effort par tasse. La règle d'or des amateurs : à budget total égal, mieux vaut une machine simple et un bon moulin que l'inverse. La machine la plus chère du monde ne rattrape pas une mouture irrégulière.
 
 ## Le réglage quotidien, ou l'art du « dialing in »
 
@@ -90,4 +90,4 @@ La méthode est toujours la même : un seul paramètre à la fois, le chronomèt
 
 ## Conclusion
 
-Pour un espresso réussi, le moulin compte autant que la machine, sinon plus : il faut des meules, une plage de réglage qui descend franchement fin, et surtout une régularité qui tient dans la durée. Un modèle à meules avec une quinzaine de crans ou davantage, entretenu correctement, suffit largement à obtenir un espresso équilibré à la maison, sans viser le matériel de compétition.
+Pour un espresso réussi, le moulin compte autant que la machine, sinon plus : il faut des meules, une plage de réglage qui descend franchement fin, et surtout une régularité qui tient dans la durée. Un modèle à meules aux crans fins et nombreux (ou à réglage continu), entretenu correctement, suffit largement à obtenir un espresso équilibré à la maison, sans viser le matériel de compétition.

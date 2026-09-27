@@ -1,5 +1,6 @@
 ---
 title: "Cold brew maison : la recette du café froid doux et peu acide"
+seoTitle: "Cold brew maison : recette du café froid doux et peu acide"
 description: "Le cold brew (café infusé à froid) en 4 étapes : mouture, ratio, 12 à 24 h au frais, filtrage. Doux, peu acide, sans matériel spécial."
 pubDate: 2026-09-13
 updatedDate: 2026-09-21
@@ -13,21 +14,21 @@ faq:
   - question: "Quelle différence entre cold brew et café glacé ?"
     answer: "Le café glacé, c'est un café chaud classique versé sur de la glace : il garde l'acidité et l'amertume de l'extraction à chaud. Le cold brew, lui, est infusé directement à froid pendant 12 à 24 heures : l'extraction lente et sans chaleur donne une boisson beaucoup plus douce, ronde et peu acide."
   - question: "Combien de temps se conserve le cold brew ?"
-    answer: "Une fois filtré, le concentré de cold brew se garde environ 7 à 10 jours au réfrigérateur, dans un contenant fermé. C'est justement l'un de ses avantages : on en prépare une carafe, et on en profite plusieurs jours en le diluant à la demande."
+    answer: "Une fois filtré, le concentré de cold brew se garde environ une semaine au réfrigérateur, dans un contenant fermé. C'est justement l'un de ses avantages : on en prépare une carafe, et on en profite plusieurs jours en le diluant à la demande."
   - question: "Faut-il un matériel spécial pour le cold brew ?"
     answer: "Non. Un simple bocal ou une carafe suffisent, plus un moyen de filtrer (filtre papier, passoire fine doublée d'un tissu, ou une cafetière à piston). Il existe des carafes à cold brew avec filtre intégré, pratiques, mais absolument pas indispensables pour commencer."
 ---
 
 ## Le café d'été, doux et sans amertume
 
-Le **cold brew** (littéralement « infusion à froid ») est le café le plus facile à réussir : pas de température à surveiller, pas de geste précis. On laisse simplement la mouture infuser **à froid pendant 12 à 24 heures**, puis on filtre. Le résultat est une boisson **naturellement douce, ronde et peu acide** — parfaite sur glace quand il fait chaud, ou allongée d'eau et de lait.
+Le **cold brew** (littéralement « infusion à froid ») est le café le plus facile à réussir : pas de température à surveiller, pas de geste précis. On laisse simplement la mouture infuser **à froid pendant 12 à 24 heures**, puis on filtre. Le résultat est une boisson **naturellement douce, ronde et peu acide**, parfaite sur glace quand il fait chaud, ou allongée d'eau et de lait.
 
 Pourquoi si doux ? Parce que l'extraction à froid ne libère quasiment pas les composés amers et acides que la chaleur arrache au café. On obtient un **concentré** qu'on dilue ensuite à son goût, et qui se conserve plusieurs jours.
 
 ## Les repères
 
 - **Mouture : grossière**, comme pour la French press. Une mouture fine rendrait le filtrage pénible et la boisson trouble. Une [mouture régulière](/articles/meilleur-moulin-cafe-electrique/) aide beaucoup.
-- **Ratio : concentré**, environ **1 part de café pour 8 parts d'eau** en poids (ex. 100 g de café pour 800 ml d'eau) — puisqu'on le **diluera** ensuite. Notre [calculateur de dosage](/calculateur-dosage-cafe/) t'aide à adapter les quantités.
+- **Ratio : concentré**, environ **1 part de café pour 8 parts d'eau** en poids (ex. 100 g de café pour 800 ml d'eau), puisqu'on le **diluera** ensuite. Notre [calculateur de dosage](/calculateur-dosage-cafe/) t'aide à adapter les quantités.
 - **Eau : froide ou à température ambiante**, filtrée de préférence.
 - **Temps : 12 à 24 h**. Plus c'est long, plus c'est corsé (au-delà de 24 h, ça devient parfois trop intense).
 
@@ -41,7 +42,7 @@ Pourquoi si doux ? Parce que l'extraction à froid ne libère quasiment pas les 
 
 ## Le servir : dilution et variantes
 
-Le concentré est puissant : on le **coupe** à parts à peu près égales avec de l'eau, du lait ou une boisson végétale, **sur glace**. Ajuste selon ton goût — certains aiment plus corsé, d'autres plus léger. Quelques idées :
+Le concentré est puissant : on le **coupe** à parts à peu près égales avec de l'eau, du lait ou une boisson végétale, **sur glace**. Ajuste selon ton goût : certains aiment plus corsé, d'autres plus léger. Quelques idées :
 
 - **Cold brew classique** : moitié concentré, moitié eau, glaçons.
 - **Cold brew latte** : concentré + lait (ou lait végétal), un trait de sirop si tu veux.
@@ -51,7 +52,7 @@ Le concentré est puissant : on le **coupe** à parts à peu près égales avec 
 
 - **Mouture trop fine** : filtrage laborieux et boisson trouble. Reste sur du grossier.
 - **Infusion trop longue** (bien au-delà de 24 h) : le café devient lourd et boisé.
-- **Oublier que c'est un concentré** : bu pur, il est très fort — on **dilue** toujours.
+- **Oublier que c'est un concentré** : bu pur, il est très fort. On **dilue** toujours.
 - **Filtrage bâclé** : un bon filtrage (papier ou tissu) enlève les fines et rend la boisson nette.
 
 ## Cold brew, café glacé, flash brew : trois boissons différentes
@@ -66,7 +67,7 @@ Si tu trouves le cold brew un peu « plat », essaie le flash brew avec le même
 
 ## Quel café choisir pour l'infusion à froid
 
-L'extraction à froid gomme l'acidité et met en avant les notes rondes. Résultat : les cafés **torréfiés moyens à foncés**, aux notes de chocolat, de noisette ou de caramel, s'expriment très bien. À l'inverse, un café très clair et fruité, coûteux, perd une partie de ce qui fait son intérêt : garde-le pour le V60. Un café **frais** (torréfié depuis moins de deux mois) reste préférable, mais le cold brew pardonne beaucoup — c'est une excellente façon d'écouler un paquet entamé qui commence à dater. Certains torréfacteurs vendent des mélanges « spécial cold brew » : ils sont bons, mais rien n'oblige à les prendre.
+L'extraction à froid gomme l'acidité et met en avant les notes rondes. Résultat : les cafés **torréfiés moyens à foncés**, aux notes de chocolat, de noisette ou de caramel, s'expriment très bien. À l'inverse, un café très clair et fruité, coûteux, perd une partie de ce qui fait son intérêt : garde-le pour le V60. Un café **frais** (torréfié depuis moins de deux mois) reste préférable, mais le cold brew pardonne beaucoup : c'est une excellente façon d'écouler un paquet entamé qui commence à dater. Certains torréfacteurs vendent des mélanges « spécial cold brew » : ils sont bons, mais rien n'oblige à les prendre.
 
 ## Conservation et caféine
 
@@ -86,7 +87,7 @@ Aucun équipement n'est indispensable : un bocal et une passoire doublée d'un f
 
 ## Pour aller plus loin
 
-- [Quelle méthode pour votre café ?](/methodes-cafe/)
+- [Quelle méthode pour ton café ?](/methodes-cafe/)
 - [Calculateur de dosage café](/calculateur-dosage-cafe/)
 - [Bien choisir son moulin](/articles/meilleur-moulin-cafe-electrique/)
 - [Le lexique du café](/lexique/)

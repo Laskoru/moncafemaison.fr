@@ -21,9 +21,9 @@ faq:
 
 ## Pourquoi la question du prix se pose autant
 
-Un moulin à café change radicalement le résultat en tasse, mais son prix affiché ne dit pas tout sur sa qualité réelle. Sur le marché, on trouve aussi bien des moulins à lames à quelques euros que des moulins à meules premium à plusieurs centaines d'euros, avec un monde d'écart entre les deux. La bonne nouvelle, c'est qu'un moulin **pas cher peut tout à fait valoir le coup**, à condition de comprendre ce qui compte vraiment et de ne pas se laisser piéger par un prix bas qui cache une technologie dépassée.
+Un moulin à café change radicalement le résultat en tasse, mais son prix affiché ne dit pas tout sur sa qualité réelle. Sur le marché, on trouve aussi bien des moulins à lames à quelques euros que des moulins à meules premium à plusieurs centaines d'euros, avec un monde d'écart entre les deux. Pourtant, un moulin **pas cher peut tout à fait valoir le coup**, à condition de comprendre ce qui compte vraiment et de ne pas se laisser piéger par un prix bas qui cache une technologie dépassée.
 
-## Le critère qui change tout : meules ou lames
+## Le premier critère d'un moulin à café pas cher : meules ou lames
 
 C'est la première question à trancher, et elle pèse plus lourd que le prix lui-même. Un **moulin à lames** hache les grains au hasard, comme un petit mixeur : le résultat mélange poussière fine et gros morceaux, ce qui donne une extraction irrégulière et un café souvent amer ou fade selon les zones de la mouture. Un **moulin à meules**, même d'entrée de gamme, écrase les grains entre deux surfaces à un écartement réglable, ce qui produit une mouture bien plus homogène.
 
@@ -61,9 +61,9 @@ Si tu vises principalement l'**espresso**, mieux vaut orienter ton budget vers u
 
 Si tu consommes peu de tasses par jour ou voyages souvent, un [moulin à café manuel](/articles/meilleur-moulin-cafe-manuel/) économique à meules peut aussi représenter un excellent rapport qualité-prix, avec en prime un encombrement minimal.
 
-## Un investissement qui se rentabilise vite
+## Un investissement qui vaut son prix
 
-Un dernier argument en faveur d'un moulin pas cher mais correct : il se rentabilise rapidement par rapport au café pré-moulu, généralement plus cher au kilo et surtout beaucoup moins frais dès l'ouverture du paquet. Moudre ses grains au moment de préparer son café, même avec un appareil modeste, préserve les arômes volatils qui s'évaporent en quelques jours une fois la mouture exposée à l'air. Sur plusieurs mois, l'économie réalisée sur l'achat de grains entiers plutôt que pré-moulus compense largement le prix d'un bon petit moulin.
+Un dernier argument en faveur d'un moulin pas cher mais correct : il te permet d'acheter ton café en grains, bien plus frais qu'un café pré-moulu dès l'ouverture du paquet. Moudre ses grains au moment de préparer son café, même avec un appareil modeste, préserve les arômes volatils qui s'évaporent en quelques jours une fois la mouture exposée à l'air. Sur plusieurs mois, ce gain de fraîcheur et de goût justifie largement le prix d'un bon petit moulin.
 
 ## Manuel ou électrique : où va ton budget
 

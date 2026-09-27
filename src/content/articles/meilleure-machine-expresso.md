@@ -12,7 +12,7 @@ coverAlt: "Machine expresso en train de couler dans une tasse"
 draft: false
 products:
   - asin: "B00W506FIY"
-    title: "De'Longhi EC201.CD.B — porte-filtre, café moulu ou dosettes ESE"
+    title: "De'Longhi EC201.CD.B, porte-filtre, café moulu ou dosettes ESE"
     blurb: "La porte d'entrée idéale vers le vrai espresso : tu contrôles la mouture et le tassage, pour un café avec crema à petit prix."
     pros:
       - "Vrai espresso avec crema à petit prix"
@@ -28,14 +28,14 @@ faq:
   - question: "Une machine à capsules fait-elle un vrai espresso ?"
     answer: "Elle produit un café court avec crema, proche d'un espresso, de façon très régulière. En revanche tu ne contrôles ni la mouture ni le dosage, et le coût à la tasse est bien plus élevé qu'avec du café moulu. C'est un choix de confort, pas de personnalisation."
   - question: "Quelle pression faut-il pour un bon espresso ?"
-    answer: "On lit souvent « 15 ou 19 bars » sur les fiches, mais l'extraction se fait autour de 9 bars : au-delà, c'est surtout un argument marketing. Ne choisis pas une machine sur ce seul chiffre ; la régularité de la mouture et la stabilité de la température comptent bien davantage."
+    answer: "On lit souvent « 15 ou 20 bars » sur les fiches, mais l'extraction se fait autour de 9 bars : au-delà, c'est surtout un argument marketing. Ne choisis pas une machine sur ce seul chiffre ; la régularité de la mouture et la stabilité de la température comptent bien davantage."
 ---
 
 ## Pourquoi commencer par une machine abordable
 
-L'espresso est la préparation la plus exigeante du café maison : elle ne pardonne ni une mouture inadaptée, ni un dosage approximatif. La bonne nouvelle, c'est qu'on n'a pas besoin d'une machine à plusieurs centaines d'euros pour débuter. Une machine à porte-filtre d'entrée de gamme suffit largement pour apprendre les gestes et obtenir un café avec une vraie crema.
+L'espresso est la préparation la plus exigeante du café maison : elle ne pardonne ni une mouture inadaptée, ni un dosage approximatif. Pour autant, on n'a pas besoin d'une machine à plusieurs centaines d'euros pour débuter. Une machine à porte-filtre d'entrée de gamme suffit largement pour apprendre les gestes et obtenir un café avec une vraie crema.
 
-Commencer modestement a un autre avantage : tu découvres si l'espresso « à la main » te plaît vraiment — avec son petit rituel de mouture, tassage et extraction — avant d'investir davantage. Beaucoup adorent ; d'autres préfèrent la simplicité des capsules. Autant le savoir sans se ruiner.
+Commencer modestement a un autre avantage : tu découvres si l'espresso « à la main » te plaît vraiment (avec son petit rituel de mouture, tassage et extraction) avant d'investir davantage. Beaucoup adorent ; d'autres préfèrent la simplicité des capsules. Autant le savoir sans se ruiner.
 
 ## Les critères qui comptent pour débuter
 
@@ -61,11 +61,11 @@ Presque toutes les fiches produit mettent en avant « 15 bars » ou « 20 bars �
 
 ## Les trois réglages à maîtriser avant d'accuser la machine
 
-Un espresso raté vient neuf fois sur dix du dosage, de la mouture ou du tassage — pas de la machine. Le repère de départ :
+Un espresso raté vient neuf fois sur dix du dosage, de la mouture ou du tassage, pas de la machine. Le repère de départ :
 
 1. **La dose** : environ 18 g de café pour un panier double (pèse-la, une [balance de précision](/articles/balance-cafe-precision/) coûte quelques euros).
 2. **La mouture** : fine, comme du sucre glace légèrement granuleux. Ajuste-la pour obtenir environ **36 g d'espresso en 25 à 30 secondes** (ratio 1:2).
-3. **Le tassage** : ferme et bien à plat, toujours avec la même force. Le [tamper](/articles/tamper-espresso-bien-choisir/) doit correspondre au diamètre du panier (51, 53 ou 58 mm selon la machine).
+3. **Le tassage** : ferme et bien à plat, toujours avec la même force. Le [tamper](/articles/tamper-espresso-bien-choisir/) doit correspondre au diamètre du panier (51, 53-54 ou 58 mm selon la machine).
 
 Si le café coule **trop vite** et sort acide, aqueux : resserre la mouture. S'il coule **goutte à goutte** et sort amer, âcre : ouvre-la. Change un seul paramètre à la fois, sinon tu ne sauras jamais ce qui a fonctionné. Le détail de la méthode est dans [réussir son espresso à la maison](/articles/reussir-espresso-maison/).
 
@@ -73,14 +73,14 @@ Si le café coule **trop vite** et sort acide, aqueux : resserre la mouture. S'i
 
 Le prix affiché n'est pas le budget total. Compte au minimum :
 
-- **Un moulin à meules** capable de moudre fin — c'est le vrai poste de dépense, souvent aussi cher que la machine elle-même ([notre sélection](/articles/meilleur-moulin-pour-espresso/)). À défaut, du café pré-moulu « spécial espresso », à consommer dans les deux semaines suivant l'ouverture.
+- **Un moulin à meules** capable de moudre fin : c'est le vrai poste de dépense, souvent aussi cher que la machine elle-même ([notre sélection](/articles/meilleur-moulin-pour-espresso/)). À défaut, du café pré-moulu « spécial espresso », à consommer dans les deux semaines suivant l'ouverture.
 - **Un tamper** correct : celui en plastique fourni avec la machine est rarement à la bonne taille.
 - **Un pichet à lait** en inox de 350 ml si tu comptes utiliser la buse vapeur.
 - **Un détartrant** et, idéalement, une **eau filtrée** : le calcaire est ce qui tue les machines abordables.
 
 ## Entretien : cinq minutes par semaine
 
-Purge la buse vapeur (un coup de vapeur à vide) et essuie-la **immédiatement** après chaque lait moussé, sinon le lait cuit dedans et la bouche. Rince le porte-filtre et le panier après chaque café, sans les laisser tremper dans l'eau savonneuse. Une fois par semaine, fais couler de l'eau à vide pour rincer la douchette et essuie le joint du groupe. Le détartrage dépend de la dureté de ton eau : tous les deux à trois mois en eau calcaire, deux fois par an avec une eau filtrée. On explique quel produit choisir dans [meilleur détartrant pour machine à café](/articles/meilleur-detartrant-machine-a-cafe/).
+Purge la buse vapeur (un coup de vapeur à vide) et essuie-la **immédiatement** après chaque lait moussé, sinon le lait cuit dedans et la bouche. Rince le porte-filtre et le panier après chaque café, sans les laisser tremper dans l'eau savonneuse. Une fois par semaine, fais couler de l'eau à vide pour rincer la douchette et essuie le joint du groupe. Le détartrage dépend de la dureté de ton eau : toutes les quatre à six semaines en eau calcaire, tous les deux à trois mois en eau douce ou filtrée, et dès que le voyant de la machine le demande. On explique quel produit choisir dans [meilleur détartrant pour machine à café](/articles/meilleur-detartrant-machine-a-cafe/).
 
 ## Conclusion
 

@@ -1,5 +1,5 @@
 ---
-title: "Moulin à café manuel : lequel choisir en 2026 ?"
+title: "Moulin à café manuel : lequel choisir ?"
 description: "Précis, silencieux et sans fil : notre guide pour choisir un moulin à café manuel adapté à ton usage quotidien ou en voyage."
 pubDate: 2026-08-16
 updatedDate: 2026-09-21
@@ -12,7 +12,7 @@ coverAlt: "Moulin à café manuel posé avec des grains de café"
 draft: false
 products:
   - asin: "B01MXJI90S"
-    title: "Hario Skerton PRO — meules coniques en céramique, réglage stabilisé"
+    title: "Hario Skerton PRO, meules coniques en céramique, réglage stabilisé"
     blurb: "Un classique increvable du moulin manuel : les meules céramiques ne chauffent pas, le réglage de la version PRO tient bien mieux en place que sur le modèle d'origine, et le bocal en verre encaisse les années sans broncher."
     pros:
       - "Meules céramiques qui ne chauffent pas"
@@ -26,7 +26,7 @@ faq:
   - question: "Un moulin manuel peut-il vraiment remplacer un moulin électrique ?"
     answer: "Pour un usage quotidien d'une à deux tasses, oui sans problème : les meilleurs modèles manuels à meules coniques offrent une régularité de mouture comparable à des moulins électriques d'entrée et de milieu de gamme. La limite apparaît surtout si tu dois moudre pour plusieurs personnes d'un coup : l'effort et le temps augmentent vite avec la quantité."
   - question: "Meules en acier ou en céramique : quelle différence ?"
-    answer: "Les meules en acier sont généralement plus précises et plus durables dans le temps, avec une meilleure régularité sur les moutures fines pour l'espresso. Les meules en céramique restent plus fraîches pendant la mouture et coûtent souvent moins cher, mais s'ébrèchent plus facilement si un petit caillou se glisse parmi les grains."
+    answer: "Les meules en acier sont généralement plus précises, avec une meilleure régularité sur les moutures fines pour l'espresso, et elles encaissent mieux les chocs. Les meules en céramique restent plus fraîches pendant la mouture, s'émoussent lentement et coûtent souvent moins cher, mais s'ébrèchent plus facilement si un petit caillou se glisse parmi les grains."
   - question: "Combien de temps faut-il pour moudre une tasse à la main ?"
     answer: "Compte en général 30 secondes à 1 minute pour une mouture filtre, et un peu plus pour une mouture fine espresso qui demande plus de tours de manivelle. C'est plus long qu'un moulin électrique, mais le geste fait partie du rituel pour beaucoup d'utilisateurs, et le moulin ne fait aucun bruit tôt le matin."
 ---
@@ -39,13 +39,13 @@ Contrairement aux idées reçues, un bon moulin manuel à meules coniques n'a ri
 
 ## Meules coniques : le critère non négociable
 
-Comme pour un moulin électrique, la présence de **meules** (et non de lames) est ce qui distingue un moulin sérieux d'un simple broyeur. Les meules coniques écrasent les grains de façon progressive et régulière, ce qui donne une mouture homogène — condition indispensable pour une extraction équilibrée, que ce soit au filtre, à la moka ou à l'espresso.
+Comme pour un moulin électrique, la présence de **meules** (et non de lames) est ce qui distingue un moulin sérieux d'un simple broyeur. Les meules coniques écrasent les grains de façon progressive et régulière, ce qui donne une mouture homogène, condition indispensable pour une extraction équilibrée, que ce soit au filtre, à la moka ou à l'espresso.
 
 Les lames, elles, hachent les grains de façon aléatoire : certains morceaux restent gros, d'autres se transforment en poussière, et l'extraction devient forcément inégale. Heureusement, la quasi-totalité des moulins manuels vendus aujourd'hui utilisent déjà des meules coniques, en acier ou en céramique.
 
 ## Les critères qui comptent vraiment
 
-- **Le matériau des meules** : acier pour la précision et la durabilité, céramique pour un prix plus doux et une bonne résistance à la chaleur de friction
+- **Le matériau des meules** : acier pour la précision et la résistance aux chocs, céramique pour un prix plus doux, un tranchant qui dure et une bonne résistance à la chaleur de friction
 - **La plage de réglage** : vérifie que le moulin descend assez fin pour l'espresso si c'est ton usage, ou reste large pour couvrir filtre et French press
 - **La capacité du réservoir** : 20 à 30 g suffisent pour une à deux tasses ; au-delà, l'effort de mouture augmente sensiblement
 - **La poignée et la prise en main** : une poignée pliable facilite le rangement et le transport, un corps antidérapant évite que le moulin bouge pendant l'effort
@@ -77,7 +77,7 @@ Le réglage de finesse se fait par une **molette crantée**. Deux emplacements e
 - **Interne** (sous la meule, accessible en retirant le bocal) : robuste et stable, mais il faut démonter pour changer de mouture. Bien si tu utilises toujours la même méthode.
 - **Externe** (bague numérotée sur le corps) : on change de réglage en deux secondes, pratique si tu alternes espresso et filtre.
 
-Chaque cran s'appelle un « clic ». Plus il y a de clics par tour, plus le réglage est fin — important pour l'espresso, où deux clics font la différence entre un café qui coule bien et un café bouché. Note tes réglages (par exemple « 8 clics French press, 5 clics V60, 2 clics moka ») : les moulins manuels n'ont pas de mémoire, mais toi oui.
+Chaque cran s'appelle un « clic ». Plus il y a de clics par tour, plus le réglage est fin. C'est important pour l'espresso, où deux clics font la différence entre un café qui coule bien et un café bouché. Note tes réglages (par exemple « 8 clics French press, 5 clics V60, 2 clics moka ») : les moulins manuels n'ont pas de mémoire, mais toi oui.
 
 ## Les détails qui comptent au quotidien
 
@@ -89,7 +89,7 @@ Chaque cran s'appelle un « clic ». Plus il y a de clics par tour, plus le rég
 
 ## En voyage et en camping
 
-Le moulin manuel est le compagnon naturel du camping et du van, mais l'humidité est son ennemie : des meules qui restent humides rouillent, et une mouture qui sèche dans le mécanisme le bloque. Vide-le et brosse-le après usage, range-le dans sa housse, et garde tes grains dans un sac hermétique plutôt que dans le réservoir. Associé à une [cafetière à piston](/articles/meilleure-cafetiere-piston-french-press/) en inox ou à une [moka](/articles/cafetiere-italienne-moka/), il permet un vrai café n'importe où — bien meilleur que le soluble, pour un encombrement à peine supérieur.
+Le moulin manuel est le compagnon naturel du camping et du van, mais l'humidité est son ennemie : des meules qui restent humides rouillent, et une mouture qui sèche dans le mécanisme le bloque. Vide-le et brosse-le après usage, range-le dans sa housse, et garde tes grains dans un sac hermétique plutôt que dans le réservoir. Associé à une [cafetière à piston](/articles/meilleure-cafetiere-piston-french-press/) en inox ou à une [moka](/articles/cafetiere-italienne-moka/), il permet un vrai café n'importe où, bien meilleur que le soluble, pour un encombrement à peine supérieur.
 
 ## Conclusion
 

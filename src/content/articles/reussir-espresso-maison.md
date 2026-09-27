@@ -1,6 +1,6 @@
 ---
-title: "Réussir son espresso maison : la méthode qui change tout"
-description: "Mouture, dose, tassage, temps d'extraction : les 4 réglages qui font un vrai espresso à la maison, avec crema et sans amertume. Le guide clair, étape par étape."
+title: "Réussir son espresso maison : les 4 réglages à maîtriser"
+description: "Réussir son espresso maison : mouture, dose, tassage et temps d'extraction, les 4 réglages pour une vraie crema sans amertume. Le guide étape par étape."
 pubDate: 2026-09-13
 updatedDate: 2026-09-21
 author: "Hugo B."
@@ -20,19 +20,19 @@ faq:
 
 ## L'espresso, une affaire de précision
 
-Un espresso, ce n'est pas « un café serré » : c'est une **extraction sous pression** où de l'eau à ~93 °C traverse une galette de café finement moulu et tassé, en 25 à 30 secondes. Le résultat tient dans une petite tasse, mais tout s'y joue au détail. Bonne nouvelle : une fois qu'on comprend les **quatre réglages** qui comptent, on progresse très vite.
+Un espresso, ce n'est pas « un café serré » : c'est une **extraction sous pression** où de l'eau à ~93 °C traverse une galette de café finement moulu et tassé, en 25 à 30 secondes. Le résultat tient dans une petite tasse, mais tout s'y joue au détail. Une fois qu'on comprend les **quatre réglages** qui comptent, on progresse très vite.
 
 Ces quatre paramètres sont **la mouture, la dose, le tassage et le temps d'extraction**. Ils sont liés : quand on en change un, on ajuste les autres. Voyons-les un par un.
 
 ## 1. La mouture : le réglage roi
 
-C'est le levier le plus puissant — et celui qu'on ajuste en priorité. Pour l'espresso, la mouture doit être **fine** (proche du sucre glace un peu granuleux) et surtout **régulière**. Une mouture trop grossière laisse l'eau filer trop vite : café acide, aqueux, sans crema. Trop fine, l'eau peine à passer : extraction lente et amère.
+C'est le levier le plus puissant, et celui qu'on ajuste en priorité. Pour l'espresso, la mouture doit être **fine** (proche du sucre glace un peu granuleux) et surtout **régulière**. Une mouture trop grossière laisse l'eau filer trop vite : café acide, aqueux, sans crema. Trop fine, l'eau peine à passer : extraction lente et amère.
 
 La régularité exige un **moulin à meules**, pas à lames. Un moulin à lames hache le grain de façon irrégulière, ce qui rend un espresso propre impossible. Si tu ne dois investir que dans une chose, c'est là : voir notre [comparatif des moulins pour espresso](/articles/meilleur-moulin-pour-espresso/) et, plus largement, [comment choisir un moulin](/articles/meilleur-moulin-cafe-electrique/).
 
 ## 2. La dose : peser, ne pas deviner
 
-On raisonne en **grammes**, pas en cuillères. Une dose classique pour un porte-filtre simple tourne autour de **16 à 18 g** de café moulu (vérifie la contenance de ton panier). L'essentiel est la **régularité** : la même dose à chaque fois, sinon impossible de comparer et de progresser. Une petite [balance de précision](/articles/balance-cafe-precision/) est l'accessoire qui fait le plus vite grimper la qualité.
+On raisonne en **grammes**, pas en cuillères. Une dose classique pour un panier double tourne autour de **16 à 18 g** de café moulu (vérifie la contenance de ton panier). L'essentiel est la **régularité** : la même dose à chaque fois, sinon impossible de comparer et de progresser. Une petite [balance de précision](/articles/balance-cafe-precision/) est l'accessoire qui fait le plus vite grimper la qualité.
 
 ## 3. Le tassage : régulier avant d'être fort
 
@@ -57,7 +57,7 @@ On ne touche qu'à **un paramètre à la fois** (presque toujours la mouture), o
 
 ## Le café et l'eau, deux détails qui comptent
 
-Un espresso révèle tout : un **café frais** (torréfié depuis quelques semaines, pas des mois) fait la différence sur la crema et les arômes. Achète en grains, en petites quantités, et conserve-les à l'abri de l'air et de la lumière. Côté eau, une eau **peu calcaire** protège la machine et donne une tasse plus nette — et pense au **détartrage** régulier, sans quoi la température et le débit dérivent.
+Un espresso révèle tout : un **café frais** (torréfié depuis quelques semaines, pas des mois) fait la différence sur la crema et les arômes. Achète en grains, en petites quantités, et conserve-les à l'abri de l'air et de la lumière. Côté eau, une eau **peu calcaire** protège la machine et donne une tasse plus nette. Et pense au **détartrage** régulier, sans quoi la température et le débit dérivent.
 
 ## Les erreurs qui gâchent un espresso
 
@@ -70,7 +70,7 @@ Un espresso révèle tout : un **café frais** (torréfié depuis quelques semai
 
 La mouture tombe dans le panier en tas, avec des zones denses et des poches d'air. Si tu tasses directement, ces irrégularités restent et l'eau se faufile par les zones les plus lâches : c'est le **canal préférentiel** (« channeling »), responsable d'espressos à la fois acides et amers. Avant de tasser, **répartis** la mouture : quelques tapotements du porte-filtre sur le côté, ou mieux, un passage avec un outil à aiguilles fines (une distribution « WDT », qu'on fabrique avec un bouchon de liège et des aiguilles d'acupuncture) qui brise les grumeaux et nivelle la surface. Trente secondes de plus, et des extractions nettement plus régulières.
 
-## La crema : ce qu'elle dit — et ce qu'elle ne dit pas
+## La crema : ce qu'elle dit, et ce qu'elle ne dit pas
 
 La crema est cette mousse noisette qui coiffe l'espresso. Elle est faite de **CO2** libéré par le café frais, d'huiles et de micro-bulles. Elle renseigne sur deux choses : la **fraîcheur** (un café de plus de deux mois ne fait presque plus de crema) et le **temps d'extraction** (une crema pâle et fine signe souvent un café qui a coulé trop vite). En revanche, ce n'est **pas un gage de goût** : les paniers pressurisés des machines d'entrée de gamme fabriquent une crema abondante à partir de n'importe quel café, et un robusta produit plus de mousse qu'un arabica pourtant meilleur. Juge la tasse, pas la mousse.
 
@@ -78,18 +78,18 @@ La crema est cette mousse noisette qui coiffe l'espresso. Elle est faite de **CO
 
 Le ratio 1:2 est le point de départ, pas une loi :
 
-- **Ristretto (1:1 à 1:1,5)** : même dose, moitié moins d'eau, extraction arrêtée vers 20 secondes. Plus dense, plus sucré, moins amer, mais aussi moins d'arômes extraits — parfait dans un cappuccino, où le lait dilue.
+- **Ristretto (1:1 à 1:1,5)** : même dose, moitié moins d'eau, extraction arrêtée vers 20 secondes. Plus dense, plus sucré, moins amer, mais aussi moins d'arômes extraits. Parfait dans un cappuccino, où le lait dilue.
 - **Espresso (1:2)** : l'équilibre classique.
 - **Lungo (1:3 à 1:4)** : on laisse couler jusqu'à 55-70 g. Plus léger et plus amer en fin de course, à réserver aux cafés qui supportent la longueur. Pour un café long agréable, préfère un espresso allongé d'eau chaude (l'americano) à un lungo poussé trop loin.
 
 Le poids en tasse est ton curseur : à mouture égale, tu obtiens trois boissons différentes avec la même dose de café.
 
 > **L'essentiel à retenir**
-> Un bon espresso repose sur quatre réglages liés — **mouture** (fine et régulière), **dose** (pesée), **tassage** (régulier) et **temps** (~25-30 s pour un ratio 1:2). On ajuste **la mouture en priorité**, un paramètre à la fois, et on goûte. Le moulin compte plus que la machine, et le café frais fait le reste.
+> Un bon espresso repose sur quatre réglages liés : **mouture** (fine et régulière), **dose** (pesée), **tassage** (régulier) et **temps** (~25-30 s pour un ratio 1:2). On ajuste **la mouture en priorité**, un paramètre à la fois, et on goûte. Le moulin compte plus que la machine, et le café frais fait le reste.
 
 ## Pour aller plus loin
 
-- [Quelle méthode pour votre café ?](/methodes-cafe/) — le panorama de toutes les extractions
+- [Quelle méthode pour ton café ?](/methodes-cafe/) : le panorama de toutes les extractions
 - [Calculateur de dosage café](/calculateur-dosage-cafe/)
 - [Comparatif des machines expresso](/articles/meilleure-machine-expresso/)
 - [Le lexique du café](/lexique/)

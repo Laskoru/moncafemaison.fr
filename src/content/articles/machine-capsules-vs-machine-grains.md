@@ -1,5 +1,6 @@
 ---
 title: "Machine à capsules vs machine à grains : quel système choisir ?"
+seoTitle: "Capsules ou grains de café, que choisir ? Notre comparatif"
 description: "Café en capsules ou machine à grains : lequel choisir selon ton budget, ton temps et le goût recherché ? Notre comparatif honnête."
 pubDate: 2026-08-16
 updatedDate: 2026-09-24
@@ -12,7 +13,7 @@ coverAlt: "Coin café dans une cuisine : machine à espresso et moulin rempli de
 draft: false
 products:
   - asin: "B00400OMU0"
-    title: "De'Longhi Magnifica S (ECAM22.110.B) — broyeur intégré, 13 réglages"
+    title: "De'Longhi Magnifica S (ECAM22.110.B), broyeur intégré, 13 réglages"
     blurb: "Le meilleur compromis qualité/goût : elle moud le grain juste avant l'extraction pour un café nettement plus riche qu'une capsule."
     pros:
       - "Moud le grain juste avant l’extraction (café plus riche)"
@@ -35,11 +36,11 @@ faq:
 
 La machine à capsules et la machine à grains répondent à deux besoins différents, presque à deux philosophies. La première mise sur la simplicité absolue : une capsule, un bouton, un café prêt en quelques secondes, toujours identique. La seconde mise sur la qualité et l'économie sur la durée : elle moud le grain juste avant l'extraction, ce qui change vraiment ce qu'il y a dans la tasse.
 
-Aucune des deux n'est « meilleure » dans l'absolu — tout dépend de ce que tu cherches : la régularité sans réfléchir, ou le meilleur café possible au quotidien pour moins cher au kilo.
+Aucune des deux n'est « meilleure » dans l'absolu. Tout dépend de ce que tu cherches : la régularité sans réfléchir, ou le meilleur café possible au quotidien pour moins cher au kilo.
 
 ## Ce que change vraiment le broyeur
 
-Le café perd ses arômes dès qu'il est moulu, un phénomène appelé oxydation. Une capsule, aussi bien conçue soit-elle, est moulue puis conditionnée bien avant d'arriver dans ta cuisine — parfois plusieurs mois. Une machine à grains, elle, moud la dose juste avant l'extraction : les arômes sont là au moment où l'eau chaude les libère.
+Le café perd ses arômes dès qu'il est moulu, un phénomène appelé oxydation. Une capsule, aussi bien conçue soit-elle, est moulue puis conditionnée bien avant d'arriver dans ta cuisine, parfois plusieurs mois. Une machine à grains, elle, moud la dose juste avant l'extraction : les arômes sont là au moment où l'eau chaude les libère.
 
 En pratique, l'écart de goût est net pour un buveur régulier, un peu moins perceptible pour quelqu'un qui boit un café de temps en temps ou qui aime surtout la régularité. C'est pour ça que le choix dépend autant de ton palais que de tes habitudes.
 
@@ -53,11 +54,11 @@ C'est souvent l'argument qui fait basculer la décision. Une capsule coûte, à 
 
 La machine à capsules gagne largement sur ce terrain : pas de broyeur à nettoyer, pas de bac à marc à vider, juste un détartrage occasionnel. Tu appuies sur un bouton, la capsule usagée tombe dans un bac, et c'est tout.
 
-La machine à grains demande un entretien plus régulier : vider le bac à marc, rincer le circuit, détartrer selon la dureté de l'eau, et parfois nettoyer le broyeur lui-même. Rien d'insurmontable, mais c'est un geste hebdomadaire à intégrer dans ta routine — à l'inverse de la capsule, qui ne demande presque rien.
+La machine à grains demande un entretien plus régulier : vider le bac à marc, rincer le circuit, détartrer selon la dureté de l'eau, et parfois nettoyer le broyeur lui-même. Rien d'insurmontable, mais c'est un geste hebdomadaire à intégrer dans ta routine, à l'inverse de la capsule, qui ne demande presque rien.
 
 ## Et l'impact environnemental dans tout ça ?
 
-Le café en grains produit un déchet organique — le marc — qui se composte facilement et peut même servir d'engrais ou d'anti-odeur au jardin. Les capsules, elles, doivent suivre une filière de recyclage dédiée (bacs de collecte, points de dépôt), et une partie finit encore aujourd'hui en déchet non trié faute de geste systématique. Certaines marques proposent désormais des capsules compostables ou en aluminium recyclable, ce qui réduit l'écart sans l'annuler complètement.
+Le café en grains produit un déchet organique (le marc) qui se composte facilement et peut même servir d'engrais ou d'anti-odeur au jardin. Les capsules, elles, doivent suivre une filière de recyclage dédiée (bacs de collecte, points de dépôt), et une partie finit encore aujourd'hui en déchet non trié faute de geste systématique. Certaines marques proposent désormais des capsules compostables ou en aluminium recyclable, ce qui réduit l'écart sans l'annuler complètement.
 
 ## Et les boissons au lait ?
 
@@ -77,7 +78,7 @@ La plupart des machines à grains, elles, n'ont qu'une trémie, donc un seul caf
 
 « Les machines à capsules premium valent une machine à grains » : pas vraiment. Même les capsules haut de gamme restent moulues et conditionnées bien avant l'achat, ce qui limite mécaniquement la fraîcheur atteignable. Elles peuvent surpasser une machine à grains bas de gamme mal réglée, mais pas un broyeur correctement entretenu avec un grain frais.
 
-« Une machine à grains, c'est compliqué à utiliser » : c'est de moins en moins vrai. Les modèles d'entrée et de milieu de gamme proposent aujourd'hui des programmes automatiques (intensité, longueur, mousse de lait) qui se règlent une fois pour toutes. Le seul vrai effort récurrent, c'est l'entretien — pas l'usage quotidien, qui reste un bouton à presser comme pour une capsule.
+« Une machine à grains, c'est compliqué à utiliser » : c'est de moins en moins vrai. Les modèles d'entrée et de milieu de gamme proposent aujourd'hui des programmes automatiques (intensité, longueur, mousse de lait) qui se règlent une fois pour toutes. Le seul vrai effort récurrent, c'est l'entretien. L'usage quotidien, lui, reste un bouton à presser comme pour une capsule.
 
 Enfin, « toutes les machines à capsules se valent » est également faux : la pression, la température et la technologie d'extraction varient sensiblement d'un système à l'autre, ce qui explique les écarts de goût entre marques à budget comparable.
 

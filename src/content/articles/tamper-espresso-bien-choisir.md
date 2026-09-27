@@ -5,7 +5,7 @@ description: "Diamètre, poids, base plate ou convexe : nos critères pour chois
 pubDate: 2026-09-17
 updatedDate: 2026-09-17
 author: "Hugo B."
-pinHook: "Le petit geste *qui change* toute l'extraction"
+pinHook: "Le petit geste *qui stabilise* l'extraction"
 pinSub: "Pourquoi un bon tamper évite les canaux et les espressos irréguliers."
 keywords: ["tamper espresso", "tasseur café", "tamper 58mm", "tassage mouture espresso"]
 category: "accessoires"
@@ -13,14 +13,14 @@ coverAlt: "Mouture de café tassée en un puck régulier dans un porte-filtre nu
 draft: false
 faq:
   - question: "Quel diamètre de tamper choisir ?"
-    answer: "Le diamètre doit correspondre exactement au panier de votre porte-filtre, pas à la taille du porte-filtre lui-même. Les machines expresso grand public tournent le plus souvent autour de 51 ou 53 mm, tandis que les machines avec broyeur intégré et le matériel semi-professionnel utilisent fréquemment un panier de 58 mm. Un tamper trop petit laisse un anneau de mouture non tassée sur le pourtour, par lequel l'eau s'échappe sans extraire correctement ; un tamper trop grand ne rentre tout simplement pas dans le panier. En cas de doute, mesurez le panier au pied à coulisse plutôt que de vous fier au modèle de la machine."
+    answer: "Le diamètre doit correspondre exactement au panier de ton porte-filtre, pas à la taille du porte-filtre lui-même. Selon les marques, les paniers font le plus souvent 51, 53-54 ou 58 mm, y compris sur les machines à broyeur intégré : aucun format n'est universel, vérifie celui de ta machine. Un tamper trop petit laisse un anneau de mouture non tassée sur le pourtour, par lequel l'eau s'échappe sans extraire correctement ; un tamper trop grand ne rentre tout simplement pas dans le panier. En cas de doute, mesure le panier au pied à coulisse plutôt que de te fier au modèle de la machine."
   - question: "Faut-il un tamper à base plate ou à base convexe ?"
     answer: "La base plate est le choix le plus simple et le plus répandu : elle produit un lit de mouture uniforme, facile à contrôler visuellement. La base convexe (légèrement bombée) est pensée pour évacuer l'air vers les bords du panier pendant le tassage, ce qui peut réduire le risque de fissure au centre du puck sur une mouture mal répartie. En pratique, la différence reste subtile pour un usage domestique bien maîtrisé : la base plate suffit largement tant que la mouture est nivelée avant le tassage."
   - question: "Un tamper plus lourd tasse-t-il mieux le café ?"
-    answer: "Non, le poids du tamper ne remplace pas la force appliquée par la main : un tamper léger avec un tassage ferme donne le même résultat qu'un tamper lourd utilisé avec moins de pression. Le poids influence surtout le confort et la sensation en main sur la durée — un modèle plus lourd demande un effort actif moindre, ce qui peut limiter la fatigue en usage quotidien intensif, sans changer la qualité du tassage si le geste est correct."
+    answer: "Non, le poids du tamper ne remplace pas la force appliquée par la main : un tamper léger avec un tassage ferme donne le même résultat qu'un tamper lourd utilisé avec moins de pression. Le poids influence surtout le confort et la sensation en main sur la durée : un modèle plus lourd demande un effort actif moindre, ce qui peut limiter la fatigue en usage quotidien intensif, sans changer la qualité du tassage si le geste est correct."
 topPick:
   name: "Tamper inox calibré 58 mm à ressort"
-  blurb: "Le format le plus polyvalent pour du matériel à broyeur intégré ou semi-professionnel, avec une pression constante garantie par le ressort."
+  blurb: "Pour un panier de 58 mm (matériel semi-professionnel et certaines machines à broyeur intégré), avec une pression constante garantie par le ressort. Vérifie d'abord le diamètre de ton porte-filtre."
   url: "https://www.amazon.fr/s?k=tamper+calibre+58mm+ressort&tag=moncafemaison-21"
   ctaLabel: "Voir le prix sur Amazon"
 comparison:
@@ -28,24 +28,24 @@ comparison:
   rows:
     - ["Base plate classique", "51 à 58 mm selon la machine", "Dépend du geste de la main", "Usage quotidien simple, budget maîtrisé"]
     - ["Base convexe", "51 à 58 mm selon la machine", "Plus tolérant sur une mouture mal nivelée", "Qui tasse encore de façon peu régulière"]
-    - ["Calibré à ressort (env. 15 kg)", "51, 53 ou 58 mm selon le modèle", "Pression constante garantie", "Usage fréquent, plusieurs cafés par jour"]
+    - ["Calibré à ressort (env. 15 kg)", "51, 53-54 ou 58 mm selon le modèle", "Pression constante garantie", "Usage fréquent, plusieurs cafés par jour"]
 ---
 
 ## Pourquoi le tamper mérite plus d'attention qu'on ne le pense
 
 Le **tamper** (ou tasseur) est l'un des accessoires les plus simples de l'univers espresso, et pourtant l'un de ceux qui influencent le plus directement le résultat en tasse. Son rôle est de compresser la mouture dans le panier du porte-filtre en une couche uniforme et dense, appelée puck, à travers laquelle l'eau chaude doit s'écouler de façon homogène sous pression.
 
-Un tassage irrégulier crée des zones de moindre résistance : l'eau y passe plus vite, contourne le reste de la mouture, et extrait le café de façon inégale. Ce phénomène, appelé canalisation, est l'une des causes les plus fréquentes d'un espresso amer d'un côté et fade de l'autre — un problème qui touche autant une [machine expresso](/articles/meilleure-machine-expresso/) d'entrée de gamme qu'une [machine avec broyeur intégré](/articles/machine-expresso-broyeur-integre/) plus sophistiquée.
+Un tassage irrégulier crée des zones de moindre résistance : l'eau y passe plus vite, contourne le reste de la mouture, et extrait le café de façon inégale. Ce phénomène, appelé canalisation, est l'une des causes les plus fréquentes d'un espresso amer d'un côté et fade de l'autre, un problème qui touche autant une [machine expresso](/articles/meilleure-machine-expresso/) d'entrée de gamme qu'une [machine avec broyeur intégré](/articles/machine-expresso-broyeur-integre/) plus sophistiquée.
 
 ## Le critère numéro un : le diamètre
 
 Avant tout autre critère, le diamètre du tamper doit correspondre précisément à celui du panier du porte-filtre, et non à une estimation approximative. Un écart de seulement 1 à 2 mm suffit à laisser un espace non tassé sur le pourtour.
 
-**51 mm** est un format courant sur certaines machines expresso compactes premier prix.
+**51 mm** se retrouve sur de nombreuses machines expresso grand public, souvent compactes.
 
-**53 à 54 mm** couvre la majorité des machines expresso grand public vendues en France.
+**53 à 54 mm** équipe d'autres machines grand public, y compris certains modèles à broyeur intégré.
 
-**58 mm** est devenu un standard de fait sur les machines à broyeur intégré et le matériel semi-professionnel, hérité des groupes de percolation professionnels.
+**58 mm** reprend le diamètre des groupes de percolation professionnels : on le trouve sur le matériel semi-professionnel et sur une partie des machines à broyeur intégré.
 
 Le plus fiable reste de mesurer directement le panier avec un pied à coulisse ou de se référer à la notice du fabricant plutôt qu'au diamètre supposé du porte-filtre, qui n'est pas toujours identique à celui du panier interne.
 
@@ -76,22 +76,22 @@ Le plus fiable reste de mesurer directement le panier avec un pied à coulisse o
 
 ## Comment bien tasser, étape par étape
 
-1. **Répartissez la mouture uniformément** dans le panier avant tout tassage, à la main ou avec un outil de distribution, pour éviter les amas qui provoqueraient un tassage inégal.
-2. **Posez le porte-filtre sur une surface stable** (un tapis de tassage évite de forcer sur le plan de travail) et centrez le tamper dans le panier.
-3. **Appliquez une pression verticale et constante**, sans mouvement de torsion, jusqu'à sentir une résistance nette — l'équivalent d'environ 15 kg de pression pour la plupart des recettes espresso classiques.
-4. **Vérifiez la surface du puck** : elle doit être plane, sans fissure visible ni zone plus basse que le reste.
-5. **Retirez le tamper à la verticale**, sans le faire pivoter, pour ne pas casser la surface du puck juste formée.
+1. **Répartis la mouture uniformément** dans le panier avant tout tassage, à la main ou avec un outil de distribution, pour éviter les amas qui provoqueraient un tassage inégal.
+2. **Pose le porte-filtre sur une surface stable** (un tapis de tassage évite de forcer sur le plan de travail) et centre le tamper dans le panier.
+3. **Applique une pression verticale et constante**, sans mouvement de torsion, jusqu'à sentir une résistance nette, l'équivalent d'environ 15 kg de pression pour la plupart des recettes espresso classiques.
+4. **Vérifie la surface du puck** : elle doit être plane, sans fissure visible ni zone plus basse que le reste.
+5. **Retire le tamper à la verticale**, sans le faire pivoter, pour ne pas casser la surface du puck juste formée.
 
 Ce geste, une fois maîtrisé, prend moins de dix secondes et conditionne directement la régularité de l'extraction, qu'il s'agisse de préparer un espresso classique ou d'alimenter un [moulin réglé finement pour l'espresso](/articles/meilleur-moulin-pour-espresso/) en amont.
 
-> 🛒 **Pour compléter votre équipement**
+> 🛒 **Pour compléter ton équipement**
 > Voir aussi les tapis de tassage et tampers calibrés à ressort, pour un geste plus régulier d'un café à l'autre : [comparer les modèles sur Amazon](https://www.amazon.fr/s?k=tamper+calibre+espresso&tag=moncafemaison-21).
 >
 > *En tant que Partenaire Amazon, je réalise un bénéfice sur les achats remplissant les conditions requises.*
 
 ## Les erreurs les plus fréquentes
 
-**Tasser en biais ou avec un mouvement de torsion.** Cela crée une surface inclinée ou irrégulière, avec un tassage plus fort d'un côté du panier que de l'autre — une des causes les plus directes de canalisation.
+**Tasser en biais ou avec un mouvement de torsion.** Cela crée une surface inclinée ou irrégulière, avec un tassage plus fort d'un côté du panier que de l'autre, une des causes les plus directes de canalisation.
 
 **Utiliser un tamper trop petit pour le panier « parce qu'il rentre quand même ».** Le jeu laissé sur le pourtour reste un chemin de moindre résistance pour l'eau, même si le tamper semble fonctionner visuellement.
 

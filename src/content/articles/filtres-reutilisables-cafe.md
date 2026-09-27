@@ -22,9 +22,9 @@ faq:
 
 ## Pourquoi passer au filtre réutilisable
 
-Chaque tasse de café filtre consomme un filtre papier à usage unique — un geste anodin en apparence, mais qui représente plusieurs centaines de filtres jetés par an pour un buveur régulier. Le **filtre réutilisable** répond à ce constat simple : un seul accessoire, lavé après chaque usage, remplace des années d'achats de boîtes de filtres papier.
+Chaque tasse de café filtre consomme un filtre papier à usage unique, un geste anodin en apparence, mais qui représente plusieurs centaines de filtres jetés par an pour un buveur régulier. Le **filtre réutilisable** répond à ce constat simple : un seul accessoire, lavé après chaque usage, remplace des années d'achats de boîtes de filtres papier.
 
-Au-delà de l'aspect écologique, l'argument économique est net : un bon filtre en inox coûte l'équivalent de quelques mois de filtres papier, puis ne coûte plus rien. Et contrairement à une idée reçue, le résultat en tasse n'est pas dégradé — il est simplement différent, souvent plus riche en corps et en arômes.
+Au-delà de l'aspect écologique, l'argument économique est net : un bon filtre en inox coûte l'équivalent de quelques mois de filtres papier, puis ne coûte plus rien. Et contrairement à une idée reçue, le résultat en tasse n'est pas dégradé : il est simplement différent, souvent plus riche en corps et en arômes.
 
 ## Les grandes familles de filtres réutilisables
 
@@ -51,7 +51,7 @@ Au-delà de l'aspect écologique, l'argument économique est net : un bon filtre
 
 ## Ce que ça change concrètement en tasse
 
-Avec un filtre papier, une grande partie des huiles naturelles du café est retenue par les fibres du papier : le résultat est une tasse claire, nette, avec peu de corps. Avec un filtre en inox ou en mesh, ces huiles passent davantage dans la tasse, pour un café perçu comme plus rond et plus corsé — un rendu qui rappelle celui d'une [cafetière à piston](/articles/meilleure-cafetiere-piston-french-press/), en plus filtré.
+Avec un filtre papier, une grande partie des huiles naturelles du café est retenue par les fibres du papier : le résultat est une tasse claire, nette, avec peu de corps. Avec un filtre en inox ou en mesh, ces huiles passent davantage dans la tasse, pour un café perçu comme plus rond et plus corsé, un rendu qui rappelle celui d'une [cafetière à piston](/articles/meilleure-cafetiere-piston-french-press/), en plus filtré.
 
 Le filtre en coton se situe entre les deux : il retient une partie des huiles comme le papier, tout en évitant l'achat répété d'un consommable jetable. C'est souvent le choix privilégié par ceux qui veulent réduire les déchets sans changer radicalement le profil de leur café habituel.
 
@@ -66,7 +66,7 @@ Le filtre en coton se situe entre les deux : il retient une partie des huiles co
 
 **Ne jamais rincer entre deux utilisations.** Les huiles de café qui s'accumulent dans les mailles finissent par rancir et donnent un goût amer, même avec un café frais et une bonne mouture.
 
-**Choisir un filtre incompatible avec sa cafetière « au pif ».** Un filtre trop petit laisse passer de la mouture autour des bords ; un filtre trop grand se déforme et ne repose pas correctement dans le panier — dans les deux cas, le résultat en tasse en pâtit.
+**Choisir un filtre incompatible avec sa cafetière « au pif ».** Un filtre trop petit laisse passer de la mouture autour des bords ; un filtre trop grand se déforme et ne repose pas correctement dans le panier. Dans les deux cas, le résultat en tasse en pâtit.
 
 **Négliger l'entretien du reste de la machine sous prétexte qu'il n'y a plus de filtre papier à changer.** Le filtre réutilisable réduit les déchets, mais l'entretien du réservoir et le [détartrage régulier](/articles/meilleur-detartrant-machine-a-cafe/) restent nécessaires, tartre et filtre étant deux sujets bien distincts.
 
