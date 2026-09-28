@@ -6,7 +6,7 @@ updatedDate: 2026-09-28
 author: "Hugo B."
 keywords: ["café trop clair delonghi magnifica s", "café trop amer delonghi magnifica s", "machine à café delonghi mouture trop fine", "delonghi magnifica s réglage mouture", "delonghi magnifica s café faible"]
 category: "machines"
-coverAlt: "Machine expresso DeLonghi élégante avec ses molettes de réglage sur un plan de travail"
+coverAlt: "Machine expresso De'Longhi inox avec moulin intégré gradué de fin à gros, tasseur et manomètre devant un carrelage blanc"
 pinHook: "Café *trop clair* sur la Magnifica S ?"
 pinSub: "Mouture, dose et groupe café : le diagnostic complet, réglage par réglage."
 sources:
