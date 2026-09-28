@@ -102,4 +102,5 @@ Une machine à café à grains est l'un des meilleurs investissements pour qui v
 
 - [Machine expresso à broyeur intégré](/articles/machine-expresso-broyeur-integre/)
 - [Machine à capsules ou à grains ?](/articles/machine-capsules-vs-machine-grains/)
+- [Café trop clair DeLonghi Magnifica S : le bon réglage](/articles/delonghi-magnifica-s-cafe-trop-clair-amer/)
 - [Meilleur moulin pour espresso](/articles/meilleur-moulin-pour-espresso/)
