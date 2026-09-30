@@ -1,5 +1,7 @@
 import { defineConfig } from 'astro/config';
 import sitemap from '@astrojs/sitemap';
+import { unified } from '@astrojs/markdown-remark';
+import Slugger from 'github-slugger';
 import fs from 'node:fs';
 import path from 'node:path';
 
@@ -37,6 +39,29 @@ function rehypeStripLeadingEmoji() {
     for (const child of node.children ?? []) visit(child);
   };
   return (tree) => visit(tree);
+}
+
+// Ancres des titres : Astro 6+ garde le tiret final des titres qui finissent par un
+// signe (« Quelle poêle choisir ? » → #quelle-poêle-choisir-). On conserve les ancres
+// d'Astro 4 (sans tiret final) pour ne casser aucun lien existant vers une section.
+// Les ids posés ici sont repris tels quels par Astro (sommaire compris).
+function rehypeLegacyHeadingIds() {
+  const textOf = (node) =>
+    node.type === 'text' ? node.value : (node.children ?? []).map(textOf).join('');
+  return (tree) => {
+    const slugger = new Slugger();
+    const visit = (node) => {
+      if (node.type === 'element' && /^h[1-6]$/.test(node.tagName)) {
+        node.properties = node.properties || {};
+        if (typeof node.properties.id !== 'string') {
+          node.properties.id = slugger.slug(textOf(node)).replace(/-$/, '');
+        }
+        return;
+      }
+      for (const child of node.children ?? []) visit(child);
+    };
+    visit(tree);
+  };
 }
 
 // ---- Sitemap : dates réelles (lastmod) + pages vides exclues ---------------------------
@@ -81,5 +106,10 @@ export default defineConfig({
       return item;
     },
   })],
-  markdown: { rehypePlugins: [rehypeAmazonLinks, rehypeStripLeadingEmoji] },
+  // Astro 7 : Sätteri devient le moteur Markdown par défaut. On garde le pipeline
+  // remark/rehype (unified) pour conserver nos deux plugins rehype à l'identique.
+  markdown: { processor: unified({ rehypePlugins: [rehypeAmazonLinks, rehypeStripLeadingEmoji, rehypeLegacyHeadingIds] }) },
+  // Astro 7 passe par défaut à compressHTML: 'jsx', qui supprime les espaces entre
+  // éléments inline. On garde la compression HTML d'Astro 4 (espaces préservés).
+  compressHTML: true,
 });

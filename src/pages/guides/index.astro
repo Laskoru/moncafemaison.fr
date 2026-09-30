@@ -6,7 +6,7 @@ import GuideList from '../../components/GuideList.astro';
 import { siteConfig } from '../../siteConfig';
 import { guides } from '../../guides';
 
-const published = new Set((await getCollection('articles', ({ data }) => !data.draft)).map((a) => a.slug));
+const published = new Set((await getCollection('articles', ({ data }) => !data.draft)).map((a) => a.id));
 const guideItems = guides.map((g) => ({
   ...g,
   count: g.articles.filter((slug) => published.has(slug)).length,

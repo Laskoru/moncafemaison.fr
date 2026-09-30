@@ -17,7 +17,7 @@ interface Props {
 
 const { article, variant = 'grid', index, eager = false } = Astro.props;
 // Carte éditoriale : la couverture d'abord, les miniatures produit seulement à défaut.
-const cover = resolveCoverImage(article.slug, article.data.coverImage);
+const cover = resolveCoverImage(article.id, article.data.coverImage);
 const thumb = cover ? null : resolveProductImages(article.data.products, 1)[0] ?? null;
 const cat = categories.find((c) => c.slug === article.data.category);
 
@@ -26,8 +26,8 @@ const dateFormatter = new Intl.DateTimeFormat(siteConfig.locale.replace('_', '-'
   month: 'short',
   day: 'numeric',
 });
-const readingMinutes = Math.max(1, Math.round(article.body.trim().split(/\s+/).length / 200));
-const href = `/articles/${article.slug}/`;
+const readingMinutes = Math.max(1, Math.round((article.body ?? '').trim().split(/\s+/).length / 200));
+const href = `/articles/${article.id}/`;
 const isoDate = article.data.pubDate.toISOString().slice(0, 10);
 ---
 

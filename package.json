@@ -12,12 +12,17 @@
     "pinterest-profile": "node scripts/generate-pinterest-profile.mjs"
   },
   "dependencies": {
+    "@astrojs/markdown-remark": "^7.3.1",
     "@astrojs/rss": "^4.0.19",
-    "@astrojs/sitemap": "3.2.1",
-    "astro": "^4.15.0"
+    "@astrojs/sitemap": "^3.7.4",
+    "astro": "^7.3.5",
+    "github-slugger": "^2.0.0"
   },
   "devDependencies": {
     "gray-matter": "^4.0.3",
     "sharp": "^0.35.3"
+  },
+  "engines": {
+    "node": "22.x"
   }
 }

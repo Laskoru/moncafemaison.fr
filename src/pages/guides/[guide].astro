@@ -12,7 +12,7 @@ export async function getStaticPaths() {
 const { guide } = Astro.props;
 
 const allArticles = await getCollection('articles', ({ data }) => !data.draft);
-const bySlug = new Map(allArticles.map((a) => [a.slug, a]));
+const bySlug = new Map(allArticles.map((a) => [a.id, a]));
 // On respecte l'ordre défini dans guides.ts, en ignorant les slugs absents.
 const articles = guide.articles.map((slug) => bySlug.get(slug)).filter((a) => a !== undefined);
 ---

@@ -1,7 +1,10 @@
-import { defineCollection, z } from 'astro:content';
+import { defineCollection } from 'astro:content';
+import { glob } from 'astro/loaders';
+import { z } from 'astro/zod';
 
 const articles = defineCollection({
-  type: 'content',
+  // Un fichier = un article : src/content/articles/<slug>.md → /articles/<slug>/
+  loader: glob({ pattern: '**/[^_]*.md', base: './src/content/articles' }),
   schema: z.object({
     title: z.string(),
     // Balise <title> courte (≤ 60 caractères) quand le H1 est long ; le H1 reste `title`.

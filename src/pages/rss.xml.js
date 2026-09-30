@@ -55,12 +55,12 @@ export async function GET(context) {
     description: siteConfig.description,
     site: context.site,
     items: articles.map((article) => {
-      const image = resolvePinImage(article.slug, article.data.coverImage);
+      const image = resolvePinImage(article.id, article.data.coverImage);
       return {
         title: article.data.title,
         description: excerpt(article.data.description, article.body),
         pubDate: article.data.pubDate,
-        link: `/articles/${article.slug}/`,
+        link: `/articles/${article.id}/`,
         // Nécessaire pour que Pinterest (auto-pin via RSS) sache quelle
         // image utiliser pour créer l'épingle.
         enclosure: image

@@ -8,7 +8,7 @@ import { lexique, lexiqueGroups } from '../lexique';
 
 // On ne lie que vers des articles réellement publiés
 const articles = await getCollection('articles', ({ data }) => !data.draft);
-const titleBySlug = new Map(articles.map((a) => [a.slug, a.data.title]));
+const titleBySlug = new Map(articles.map((a) => [a.id, a.data.title]));
 
 // slug d'ancre : sans accents, kebab-case (ex. « Le grain & la torréfaction » → le-grain-la-torrefaction)
 const slugify = (s: string) =>

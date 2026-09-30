@@ -93,7 +93,7 @@ const tocHeadings = headings.filter((h) => h.depth === 2);
 const categoryInfo = categories.find((c) => c.slug === category);
 
 const relatedArticles = (
-  await getCollection('articles', (a) => !a.data.draft && a.data.category === category && a.slug !== slug)
+  await getCollection('articles', (a) => !a.data.draft && a.data.category === category && a.id !== slug)
 )
   .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf())
   .slice(0, 3);

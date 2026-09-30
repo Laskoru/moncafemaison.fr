@@ -21,15 +21,15 @@ const categoryCounts = categories.map((cat) => ({
   count: allArticles.filter((a) => a.data.category === cat.slug).length,
 }));
 
-const published = new Set(allArticles.map((a) => a.slug));
+const published = new Set(allArticles.map((a) => a.id));
 const guideItems = guides.map((g) => ({
   ...g,
   count: g.articles.filter((slug) => published.has(slug)).length,
 }));
 
-const leadCover = lead ? resolveCoverImage(lead.slug, lead.data.coverImage) : null;
+const leadCover = lead ? resolveCoverImage(lead.id, lead.data.coverImage) : null;
 const leadCat = lead ? categories.find((c) => c.slug === lead.data.category) : undefined;
-const leadMinutes = lead ? Math.max(1, Math.round(lead.body.trim().split(/\s+/).length / 200)) : 0;
+const leadMinutes = lead ? Math.max(1, Math.round((lead.body ?? '').trim().split(/\s+/).length / 200)) : 0;
 const dateFormatter = new Intl.DateTimeFormat(siteConfig.locale.replace('_', '-'), { year: 'numeric', month: 'long', day: 'numeric' });
 
 const tools = [
@@ -42,7 +42,7 @@ const tools = [
   {lead && (
     <section class="une" aria-labelledby="site-title">
       <div class="wide une__grid">
-        <a class="une__media" href={`/articles/${lead.slug}/`} tabindex="-1" aria-hidden="true">
+        <a class="une__media" href={`/articles/${lead.id}/`} tabindex="-1" aria-hidden="true">
           {leadCover ? (
             <img
               src={leadCover}
@@ -60,14 +60,14 @@ const tools = [
         <div class="une__text">
           <h1 class="une__title" id="site-title">Le bon café à la maison, méthode d'abord</h1>
           <div class="une__story">
-            <h2 class="une__story-title"><a href={`/articles/${lead.slug}/`}>{lead.data.title}</a></h2>
+            <h2 class="une__story-title"><a href={`/articles/${lead.id}/`}>{lead.data.title}</a></h2>
             <p class="meta meta-row une__story-meta">
               {leadCat && <span class="cat-label">{leadCat.label}</span>}
               <time datetime={lead.data.pubDate.toISOString().slice(0, 10)}>{dateFormatter.format(lead.data.pubDate)}</time>
               <span>{leadMinutes} min de lecture</span>
             </p>
             <p class="une__story-desc">{lead.data.description}</p>
-            <a class="btn btn--primary une__cta" href={`/articles/${lead.slug}/`}>Lire le comparatif <Icon name="arrow-right" size={18} /></a>
+            <a class="btn btn--primary une__cta" href={`/articles/${lead.id}/`}>Lire le comparatif <Icon name="arrow-right" size={18} /></a>
           </div>
         </div>
       </div>

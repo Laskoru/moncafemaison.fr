@@ -34,7 +34,7 @@ const latest = (await getCollection('articles', ({ data }) => !data.draft))
         <h2>Les derniers comparatifs</h2>
         <ul class="rows nf__list">
           {latest.map((article) => (
-            <li><a href={`/articles/${article.slug}/`}>{article.data.title} <Icon name="arrow-right" size={16} /></a></li>
+            <li><a href={`/articles/${article.id}/`}>{article.data.title} <Icon name="arrow-right" size={16} /></a></li>
           ))}
         </ul>
       </>

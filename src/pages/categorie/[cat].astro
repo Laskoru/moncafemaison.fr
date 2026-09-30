@@ -21,7 +21,7 @@ const articles = (await getCollection('articles', ({ data }) => !data.draft && d
   (a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf()
 );
 // Guides qui regroupent au moins un article de cette catégorie (maillage utile, pas décoratif).
-const slugs = new Set(articles.map((a) => a.slug));
+const slugs = new Set(articles.map((a) => a.id));
 const relatedGuides = guides.filter((g) => g.articles.some((s) => slugs.has(s)));
 ---
 

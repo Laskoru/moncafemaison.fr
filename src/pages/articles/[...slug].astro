@@ -1,24 +1,24 @@
 ---
-import { getCollection } from 'astro:content';
+import { getCollection, render } from 'astro:content';
 import ArticleLayout from '../../layouts/ArticleLayout.astro';
 import { resolveCoverImage } from '../../lib/covers';
 
 export async function getStaticPaths() {
   const articles = await getCollection('articles', ({ data }) => !data.draft);
   return articles.map((article) => ({
-    params: { slug: article.slug },
+    params: { slug: article.id },
     props: { article },
   }));
 }
 
 const { article } = Astro.props;
-const { Content, headings } = await article.render();
-const readingMinutes = Math.max(1, Math.round(article.body.trim().split(/\s+/).length / 200));
-const coverImage = resolveCoverImage(article.slug, article.data.coverImage);
+const { Content, headings } = await render(article);
+const readingMinutes = Math.max(1, Math.round((article.body ?? '').trim().split(/\s+/).length / 200));
+const coverImage = resolveCoverImage(article.id, article.data.coverImage);
 ---
 
 <ArticleLayout
-  slug={article.slug}
+  slug={article.id}
   title={article.data.title}
   seoTitle={article.data.seoTitle}
   topPick={article.data.topPick}
@@ -31,7 +31,7 @@ const coverImage = resolveCoverImage(article.slug, article.data.coverImage);
   category={article.data.category}
   keywords={article.data.keywords}
   products={article.data.products}
-  hasAmazonLinks={/amazon\.|amzn\.(?:to|eu)/i.test(article.body)}
+  hasAmazonLinks={/amazon\.|amzn\.(?:to|eu)/i.test(article.body ?? '')}
   faq={article.data.faq}
   comparison={article.data.comparison}
   sources={article.data.sources}
