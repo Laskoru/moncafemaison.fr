@@ -33,7 +33,8 @@ jamais devenir obsolète, contrairement à une fiche produit précise.
 
 ### Pourquoi un seul article (et pas plus)
 
-Le site publie **délibérément peu : 3 articles par semaine maximum**. La
+Le site publie **délibérément peu : 1 article par semaine maximum** (voir
+« Rythme et preuves d'expérience » plus bas). La
 fréquence de publication n'est pas un critère de classement Google, et un
 volume élevé sur un domaine récent relève au contraire du « scaled content
 abuse » que Google sanctionne depuis 2024.
@@ -50,24 +51,68 @@ perdre.
    traite déjà le sujet. Coche l'idée (`- [x]`).
 2. **Rédiger** dans `src/content/articles/<slug>.md` (slug kebab-case sans accents).
 3. **Trouver les produits Amazon** (voir règle critique).
-4. **Mailler en interne** : lier 2 à 3 articles existants (voir plus bas).
+4. **Mailler en interne** : lier 2 à 3 articles existants, et ajouter au moins
+   2 liens entrants vers le nouvel article depuis des articles existants (voir plus bas).
 5. **Renseigner l'indication de couverture** (voir règle images).
 6. **Commiter et pousser** sur `main`.
 
 ## Maillage interne (à ne pas négliger)
 
 Chaque nouvel article doit citer et lier **2 à 3 articles existants** du site,
-avec un lien markdown vers `/articles/<slug>` et une ancre naturelle intégrée
+avec un lien markdown vers `/articles/<slug>/` et une ancre naturelle intégrée
 à une phrase (pas de « cliquez ici »). Exemple :
 
 ```md
 La qualité de la mouture compte autant que la machine : voir notre comparatif des
-[moulins à café électriques](/articles/meilleur-moulin-cafe-electrique).
+[moulins à café électriques](/articles/meilleur-moulin-cafe-electrique/).
+```
+
+Et dans l'autre sens : **chaque nouvel article reçoit au moins 2 liens entrants**
+depuis des articles existants pertinents. Ajoute une phrase naturelle dans le
+texte de ces articles (jamais un bloc « À lire aussi » en vrac), puis vérifie
+avant de commiter :
+
+```bash
+grep -l "/articles/<slug>/" src/content/articles/*.md | grep -v "<slug>.md"
+```
+
+La commande doit lister au moins 2 fichiers. Pour contrôler tout le site d'un coup :
+
+```bash
+for f in src/content/articles/*.md; do s=$(basename $f .md); \
+  echo "$(grep -l "/articles/$s/" src/content/articles/*.md | grep -v "/$s.md" | wc -l) $s"; \
+done | sort -n | head
 ```
 
 C'est l'un des rares leviers SEO entièrement sous notre contrôle : il fait
 circuler l'autorité entre les pages et aide Google à comprendre la structure
-thématique du site.
+thématique du site. Pense aussi aux pages outils (`/calculateur-dosage-cafe/`,
+`/methodes-cafe/`, `/durete-eau-cafe/`) et aux guides (`/guides/<slug>/`).
+
+## Rythme et preuves d'expérience
+
+- **1 article par semaine au maximum.** La fréquence n'est pas un critère de
+  classement ; un volume élevé sur un domaine récent ressemble à du contenu à
+  la chaîne.
+- **Mettre à jour plutôt que publier moyen.** Avant d'écrire un nouvel article,
+  regarde si un article existant ne mérite pas plutôt une vraie mise à jour
+  (Search Console : pages avec des impressions mais une position au-delà de 10).
+  Une mise à jour sur le fond passe `updatedDate` à la date du jour.
+- **Aucune expérience inventée.** Pas de « j'ai testé », « après trois semaines
+  d'utilisation », « chez moi », ni de bio d'auteur enjolivée. Le site n'a pas
+  de banc d'essai et l'assume (voir la page À propos).
+- **Sources.** 2 à 4 sources fiables dans `sources` : organismes (SCA, NCA),
+  notices et pages officielles des fabricants, études publiées, Service-Public,
+  DGCCRF. Jamais un blog concurrent, une fiche marchande ou un comparatif
+  sponsorisé. Un chiffre non confirmé est retiré ou présenté comme un ordre de
+  grandeur.
+- **Pas de notes Amazon.** Ni étoiles ni nombre d'avis (contrat Partenaires :
+  seulement via l'API officielle, `siteConfig.amazon.showRatings: false`).
+- **Ce qu'Hugo peut ajouter à la main, sans rien inventer :** ses propres
+  photos (matériel réellement possédé), une mesure qu'il a vraiment faite
+  (temps de mouture, volume d'une verseuse, poids d'une cuillère), une capture
+  d'une notice ou d'une fiche fabricant, une correction signalée par un
+  lecteur. Uniquement du vécu réel, daté, et sans généraliser.
 
 ## Titre : inclure l'année quand c'est un format « meilleur/lequel choisir »
 
@@ -84,8 +129,9 @@ Ne force pas l'année sur un titre qui n'est pas un format classement/choix.
 
 ```md
 ---
-title: "Titre avec le mot-clé principal (55-65 caractères)"
-description: "Méta-description SEO, 110-130 caractères, avec le mot-clé principal."
+title: "Titre avec le mot-clé principal en tête"
+seoTitle: "Balise title ≤ 60 caractères si le titre est plus long"
+description: "Méta-description SEO, 120 à 155 caractères, mot-clé principal, envie de cliquer."
 pubDate: AAAA-MM-JJ   # date du jour
 author: "Rédaction"
 keywords: ["mot-clé principal", "variante 1", "variante 2"]
@@ -98,6 +144,9 @@ products:
   - asin: "B0XXXXXXXX"        # UN SEUL produit — voir « RÈGLE CRITIQUE » plus bas
     title: "Marque Modèle — 2-3 caractéristiques clés"
     blurb: "Une phrase : pour qui / pourquoi ce produit."
+sources:              # 2 à 4 sources fiables, ouvertes et vérifiées
+  - label: "Organisme ou fabricant, « Titre de la page »"
+    url: "https://..."
 faq:
   - question: "Question fréquente réelle sur le sujet ?"
     answer: "Réponse honnête et concrète, 2-3 phrases."
