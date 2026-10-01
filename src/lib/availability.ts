@@ -14,11 +14,19 @@ interface Entry {
  * Le doute profite au lien produit : un ASIN encore jamais relevé pointe vers
  * sa fiche, qui reste le lien le plus rentable. Seule une indisponibilité
  * CONSTATÉE fait basculer vers la recherche.
+ *
+ * Garde de fraîcheur : un relevé de plus de 30 jours (workflow hebdomadaire
+ * en panne, captcha Amazon…) n'est plus fiable ; on revient alors au lien
+ * produit plutôt que de laisser une rupture périmée masquer la fiche.
  */
+const MAX_AGE_DAYS = 30;
 export function isAvailable(asin: string): boolean {
   const entry = (availability as Record<string, Entry>)[asin];
   if (!entry) return true;
-  return entry.available !== false;
+  if (entry.available !== false) return true;
+  const checked = Date.parse(entry.checked);
+  if (!Number.isFinite(checked)) return true;
+  return Date.now() - checked > MAX_AGE_DAYS * 86_400_000;
 }
 
 /**
