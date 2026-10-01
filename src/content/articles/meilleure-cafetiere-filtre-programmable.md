@@ -1,8 +1,9 @@
 ---
 title: "Cafetière filtre programmable : notre comparatif"
-description: "Programmer son café la veille pour se réveiller avec une carafe chaude : notre guide pour choisir la bonne cafetière filtre programmable."
+seoTitle: "Cafetière filtre programmable : comment bien la choisir"
+description: "Cafetière filtre programmable : minuterie, verseuse isotherme ou plaque, capacité. Nos critères pour bien la choisir et le bon dosage de café par tasse."
 pubDate: 2026-08-16
-updatedDate: 2026-09-24
+updatedDate: 2026-10-01
 author: "Hugo B."
 pinHook: "Le café du matin, *prêt au réveil*"
 pinSub: "La filtre programmable idéale."
@@ -78,7 +79,7 @@ Quelques réflexes évitent les mauvaises surprises : utilise toujours de l'eau 
 
 ## Combien de café mettre dans la cafetière
 
-La cuillère doseuse livrée avec la machine est pratique, mais son contenu varie selon la mouture et la façon de la remplir. Le repère fiable est celui de tout café filtre : environ **60 g de café moulu par litre d'eau**, soit une quinzaine de grammes pour 250 ml. Pour un litre d'eau dans le réservoir, compte donc une soixantaine de grammes ; pour un demi-litre, une trentaine. Pèse une fois ta dose habituelle, puis compte combien de cuillères elle représente avec ton café : tu pourras ensuite doser sans balance.
+La cuillère doseuse livrée avec la machine est pratique, mais son contenu varie selon la mouture et la façon de la remplir. Le repère fiable est celui de tout café filtre : environ **60 g de café moulu par litre d'eau**, soit une quinzaine de grammes pour 250 ml. Pour un litre d'eau dans le réservoir, compte donc une soixantaine de grammes ; pour un demi-litre, une trentaine. Pèse une fois ta dose habituelle, puis compte combien de cuillères elle représente avec ton café : tu pourras ensuite doser sans balance. Pour le détail de 2 à 12 tasses, le [calculateur de dosage du café](/calculateur-dosage-cafe/) donne directement les grammes et l'eau, avec un tableau prêt à l'emploi.
 
 Méfie-toi aussi des graduations en « tasses » : chaque fabricant a sa propre définition, et il s'agit de petites tasses, bien moins qu'un mug. Raisonne plutôt en litres. Évite enfin de préparer une seule tasse dans une grande machine : la mouture forme une couche trop mince dans le porte-filtre, l'eau la traverse trop vite et le café sort fade. Certains modèles proposent un réglage « petites quantités » qui ralentit l'écoulement pour compenser. Pour le reste (mouture, eau, diagnostic d'une tasse acide ou amère), les repères de [notre méthode du café filtre](/articles/reussir-cafe-filtre-v60/) valent aussi pour la cafetière électrique.
 

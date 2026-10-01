@@ -1,8 +1,9 @@
 ---
 title: "Black Friday café : quel matériel attendre ?"
-description: "Machine, moulin, accessoires : quel matériel café vaut vraiment le coup d'attendre le Black Friday, et comment repérer une fausse promo."
+seoTitle: "Black Friday cafetière et machine à café : quoi attendre"
+description: "Cafetière, machine à café, moulin : ce qui vaut vraiment le coup d'attendre le Black Friday 2026, et comment repérer une fausse promo avant d'acheter."
 pubDate: 2026-09-24
-updatedDate: 2026-09-24
+updatedDate: 2026-10-01
 author: "Hugo B."
 pinHook: "Le *vrai* bon plan café du Black Friday"
 pinSub: "Ce qui vaut le coup d'attendre (ou pas)."
@@ -13,6 +14,8 @@ draft: false
 sources:
   - label: "Service-Public.gouv.fr, « Affichage des prix : règles à respecter »"
     url: "https://www.service-public.gouv.fr/particuliers/vosdroits/F34344"
+  - label: "DGCCRF, « Annonces de réduction de prix : ce que vous devez savoir »"
+    url: "https://www.economie.gouv.fr/dgccrf/les-fiches-pratiques/annonces-de-reduction-de-prix-ce-que-vous-devez-savoir"
   - label: "Service-Public.gouv.fr, « Achat à distance : droit de rétractation du consommateur »"
     url: "https://www.service-public.gouv.fr/particuliers/vosdroits/F10485"
 faq:
@@ -37,6 +40,8 @@ comparison:
 ---
 
 ## Pourquoi le Black Friday café mérite qu'on s'y prépare
+
+**En bref :** en 2026, le Black Friday tombe le vendredi 27 novembre. Les machines expresso, les machines à grains et les moulins électriques sont les achats qui valent le plus la peine d'attendre . Sur les modèles d'entrée de gamme (cafetière filtre simple, petite moka) et les petits accessoires, les remises restent en général minimes. Dans tous les cas, compare le prix barré au prix le plus bas des 30 derniers jours.
 
 Le Black Friday tombe à un bon moment pour qui pense à s'équiper en café à la maison : juste avant les fêtes, juste avant l'hiver où on boit plus de café chaud, et sur une période où les enseignes veulent vraiment vendre. Mais c'est aussi la période de l'année où les fausses bonnes affaires sont les plus nombreuses : prix barrés gonflés artificiellement, « stock limité » qui dure trois semaines, ou promotions sur des modèles déjà anciens.
 
@@ -64,7 +69,7 @@ Il en va de même pour les modèles d'entrée de gamme dans toutes les catégori
 
 ## Comment repérer une fausse promo
 
-Le signal le plus fiable reste de suivre le prix avant la période de soldes. Si tu repères une machine ou un moulin qui t'intéresse, note son prix (ou utilise un outil de suivi de prix) pendant les semaines qui précèdent le Black Friday. Le jour J, compare ce prix « barré » à ce que tu as réellement observé récemment : s'il correspond à peu près au prix courant des dernières semaines, la remise affichée en dessous est crédible. S'il est nettement plus élevé que tout ce que tu as vu circuler, il s'agit probablement d'un prix de référence gonflé pour donner l'impression d'une remise plus importante qu'elle ne l'est réellement. C'est d'ailleurs la règle : le prix barré, appelé prix de référence, doit correspondre au prix pratiqué pendant au moins 30 jours avant la réduction.
+Le signal le plus fiable reste de suivre le prix avant la période de soldes. Si tu repères une machine ou un moulin qui t'intéresse, note son prix (ou utilise un outil de suivi de prix) pendant les semaines qui précèdent le Black Friday. Le jour J, compare ce prix « barré » à ce que tu as réellement observé récemment : s'il correspond à peu près au prix courant des dernières semaines, la remise affichée en dessous est crédible. S'il est nettement plus élevé que tout ce que tu as vu circuler, il s'agit probablement d'un prix de référence gonflé pour donner l'impression d'une remise plus importante qu'elle ne l'est réellement. C'est d'ailleurs la règle en France depuis mai 2022 : une annonce de réduction doit se calculer à partir du prix le plus bas pratiqué par le vendeur pendant les 30 jours qui précèdent la promotion (voir la fiche de la DGCCRF en source).
 
 Autres signaux à surveiller : une mention « stock limité » qui reste affichée identique pendant plusieurs jours, un modèle dont la fiche produit ne mentionne aucune caractéristique récente (souvent un signe de fin de série qu'on écoule plutôt qu'une vraie nouveauté remisée), ou un vendeur tiers peu connu proposant un prix nettement inférieur à toutes les autres enseignes sur un même modèle. Dans ce dernier cas, vérifie toujours les avis et la politique de retour avant de valider. Pour un achat en ligne auprès d'un professionnel, tu disposes de 14 jours pour te rétracter, mais les frais de renvoi peuvent rester à ta charge.
 
