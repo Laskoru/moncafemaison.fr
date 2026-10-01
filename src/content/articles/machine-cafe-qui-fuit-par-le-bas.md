@@ -17,8 +17,6 @@ sources:
     url: "https://support.delonghi.com/en/la-specialista-arte-evo-cold-brew-technology/There-is-water-in-the-drip-tray-00a9"
   - label: "Nespresso, mode d'emploi C100/D90"
     url: "https://www.nespresso.com/fileadmin/fr-fr/_img/manuals/C100_Zone2_FR.pdf"
-  - label: "Krups, notice et FAQ Nescafé Dolce Gusto Mini Me"
-    url: "https://www.krups.fr/notices/Produits/Boissons/Dolce-gusto/Nescafé-Dolce-Gusto-Mini-Me/csp/8000035005"
 faq:
   - question: "Une machine à café qui fuit un peu peut-elle continuer à être utilisée ?"
     answer: "Tant que l'eau ne touche pas la prise, le cordon ou la base électrique, tu peux généralement finir le café en cours, mais il faut ensuite débrancher la machine et éponger avant de relancer un cycle. Une fuite qui s'aggrave à chaque tasse signale souvent un joint ou un circuit interne endommagé, pas seulement un mauvais positionnement du réservoir ou du bac."
@@ -60,7 +58,7 @@ Un test simple permet de confirmer un réservoir fissuré : le remplir d'eau, le
 
 Sur une machine à capsules, la fuite se situe presque toujours au niveau du logement de la capsule, pas du réservoir. Le mode d'emploi Nespresso décrit la cause la plus courante : une capsule mal orientée ou un bac à capsules usagées plein, qui empêche le levier de fermer complètement la chambre d'infusion. L'eau sous pression contourne alors le joint et ressort par les côtés au lieu de traverser la capsule. Les pointes qui percent la capsule peuvent aussi s'encrasser de résidus séchés avec le temps, ce qui crée une contre-pression et le même type de fuite.
 
-Sur les machines Dolce Gusto, Krups pointe une cause différente et plus fréquente : un bac d'égouttage mal repositionné après nettoyage, ce qui provoque une fuite sous l'appareil bien avant d'en chercher l'origine côté capsule. La notice recommande de vider et nettoyer ce bac quotidiennement, les résidus de café gênant parfois sa remise en place correcte. Dans les deux cas, si le nettoyage du logement et le repositionnement du bac ne suffisent pas, Nespresso recommande de débrancher la machine et de contacter le service client plutôt que d'insister sur des cycles supplémentaires.
+Sur une Dolce Gusto, regarde aussi le bac d'égouttage avant d'accuser la capsule : mal remis en place après un nettoyage, il peut laisser l'eau couler sous l'appareil. Dans les deux cas, si le nettoyage du logement et le repositionnement du bac ne suffisent pas, Nespresso recommande de débrancher la machine et de contacter le service client plutôt que d'insister sur des cycles supplémentaires.
 
 Ces mécanismes expliquent aussi pourquoi une machine à capsules, pourtant plus simple qu'une automatique à grains, peut fuir différemment : la comparaison détaillée entre les deux systèmes dans notre article [machine à capsules ou à grains](/articles/machine-capsules-vs-machine-grains/) revient sur ces différences d'entretien.
 
