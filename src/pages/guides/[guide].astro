@@ -4,6 +4,7 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
 import PageHead from '../../components/PageHead.astro';
 import ArticleCard from '../../components/ArticleCard.astro';
 import { guides } from '../../guides';
+import { itemList } from '../../lib/schema';
 
 export async function getStaticPaths() {
   return guides.map((guide) => ({ params: { guide: guide.slug }, props: { guide } }));
@@ -17,7 +18,12 @@ const bySlug = new Map(allArticles.map((a) => [a.id, a]));
 const articles = guide.articles.map((slug) => bySlug.get(slug)).filter((a) => a !== undefined);
 ---
 
-<BaseLayout title={guide.title} description={guide.description} noindex={articles.length === 0}>
+<BaseLayout
+  title={guide.seoTitle ?? guide.title}
+  description={guide.description}
+  noindex={articles.length === 0}
+  jsonLd={itemList(guide.title, Astro.site, articles.map((a) => ({ id: a.id, title: a.data.title })))}
+>
   <PageHead
     title={guide.title}
     crumbs={[{ label: 'Accueil', href: '/' }, { label: 'Guides', href: '/guides/' }, { label: guide.title }]}
@@ -25,11 +31,17 @@ const articles = guide.articles.map((slug) => bySlug.get(slug)).filter((a) => a 
     width="narrow"
   >
     <div class="guide__intro">
-      {guide.intro.map((p) => <p>{p}</p>)}
+      {guide.intro.map((p) => <p set:html={p} />)}
     </div>
   </PageHead>
 
   <section class="container guide">
+    {guide.essentials && (
+      <div class="guide__ess">
+        <h2 class="guide__section">{guide.essentials.title}</h2>
+        <ul>{guide.essentials.items.map((it) => <li>{it}</li>)}</ul>
+      </div>
+    )}
     <h2 class="guide__section">Les comparatifs de ce guide</h2>
     <ol class="rows">
       {articles.map((article, i) => <li><ArticleCard article={article} variant="row" index={i + 1} eager={i < 2} /></li>)}
@@ -41,6 +53,11 @@ const articles = guide.articles.map((slug) => bySlug.get(slug)).filter((a) => a 
   .guide__intro { margin-top: 1rem; max-width: 62ch; }
   .guide__intro p { color: var(--color-text-muted); line-height: 1.65; font-size: 1.05rem; }
   .guide__intro p:last-child { margin-bottom: 0; }
+  .guide__intro :global(a) { color: var(--color-accent); }
+  .guide__ess { margin: 0.5rem 0 2rem; padding: 1.1rem 1.25rem; background: var(--color-bg-soft); border: 1px solid var(--color-border); border-radius: var(--radius); }
+  .guide__ess .guide__section { margin-top: 0; font-size: 1.25rem; }
+  .guide__ess ul { margin: 0; padding-left: 1.1em; display: flex; flex-direction: column; gap: 0.4em; line-height: 1.55; }
+  .guide__ess li::marker { color: var(--color-accent); }
   .guide { padding-top: 1.5rem; padding-bottom: 1rem; }
   .guide__section { margin: 0.5rem 0 0.75rem; font-size: 1.45rem; }
 </style>
