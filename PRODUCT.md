@@ -16,7 +16,7 @@ Mon Café Maison (moncafemaison.fr) aide à choisir le bon matériel et la bonne
 
 ## Positioning
 
-Le site part de la tasse que l'on veut (résultat en bouche, temps, budget) et non de la liste des best-sellers : méthode d'abord, matériel ensuite. Notes Amazon réelles jamais retouchées, limites des produits écrites noir sur blanc, aucune marque ne paie pour figurer. Les recettes et techniques de préparation ne contiennent aucune recommandation produit.
+Le site part de la tasse que l'on veut (résultat en bouche, temps, budget) et non de la liste des best-sellers : méthode d'abord, matériel ensuite. Aucune note ni avis Amazon affiché (contrat Partenaires : uniquement via l'API officielle), sources citées, limites des produits écrites noir sur blanc, aucune marque ne paie pour figurer. Les recettes et techniques de préparation ne contiennent aucune recommandation produit.
 
 ## Operating Context
 
@@ -26,7 +26,7 @@ Site statique Astro 7 déployé sur Vercel à chaque push sur `main` (dépôt Gi
 
 - Composants partagés à conserver fonctionnellement : Header, Footer, Breadcrumbs, ArticleCard, ArticleLayout (sommaire, fiche « Notre choix », produits, FAQ, sources, partage), AmazonProduct, AmazonSearchCTA, SelectionMethod, AuthorBox, CookieConsent, Icon (SVG uniquement, jamais d'emoji).
 - Contraintes techniques : polices auto-hébergées (`public/fonts` + `src/styles/fonts.css`), aucune requête tierce hors GA4, Lighthouse mobile ≥ 95, CLS 0, contraste ≥ 4,5:1, `prefers-reduced-motion` respecté, pas de particules ni d'objet 3D animé dans le hero, texte ≥ 0,72 rem.
-- Contenu : 27 articles publiés, couvertures locales, notes Amazon dans `src/data/amazon-ratings.json`. Ne jamais inventer d'avis, de prix ou de fait.
+- Contenu : 27 articles publiés, couvertures locales, notes Amazon relevées dans `src/data/amazon-ratings.json` mais non affichées (`siteConfig.amazon.showRatings: false`). Ne jamais inventer d'avis, de prix ou de fait.
 - Structure SEO conservée : H1 unique, JSON-LD Article/FAQ/Breadcrumb, canonical, sitemap, llms.txt, `seoTitle` quand le titre dépasse 65 caractères.
 
 ## Brand Commitments
@@ -37,7 +37,7 @@ Nom « Mon Café Maison » conservé ; tout le reste de l'identité visuelle (lo
 
 ## Evidence on Hand
 
-Articles et comparatifs réels dans `src/content/articles/`, couvertures dans `public/covers/`, notes Amazon réelles, méthode de sélection décrite (SelectionMethod). Aucun témoignage client, aucun chiffre d'audience publiable : ne pas en fabriquer.
+Articles et comparatifs réels dans `src/content/articles/`, couvertures dans `public/covers/`, sources citées en bas d'article, méthode de sélection décrite (SelectionMethod). Aucun témoignage client, aucun chiffre d'audience publiable : ne pas en fabriquer.
 
 ## Product Principles
 
