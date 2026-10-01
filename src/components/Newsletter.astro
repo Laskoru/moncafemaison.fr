@@ -1,0 +1,46 @@
+---
+// Inscription à la newsletter (formulaire Brevo). Rien n'est rendu tant que
+// siteConfig.newsletter.actionUrl est vide : colle l'URL d'action du formulaire
+// Brevo (…sibforms.com/serve/…) dans src/siteConfig.ts pour l'activer.
+// Aucun script tiers : simple POST du formulaire vers Brevo.
+import { siteConfig } from '../siteConfig';
+const { actionUrl } = siteConfig.newsletter;
+const id = 'nl-' + Math.random().toString(36).slice(2, 8);
+---
+
+{actionUrl && (
+  <aside class="nl" aria-labelledby={`${id}-title`}>
+    <h2 id={`${id}-title`} class="nl__title">La lettre de Mon Café Maison</h2>
+    <p class="nl__lede">
+      Les nouveaux guides et les mises à jour du site, sans pub ni spam. En bonus, la
+      <a href="/ressources/checklist-cafe-maison.pdf">checklist du café maison (PDF)</a>.
+    </p>
+    <form class="nl__form" method="POST" action={actionUrl} target="_blank">
+      <label for={`${id}-email`} class="nl__label">Ton adresse e-mail</label>
+      <div class="nl__row">
+        <input id={`${id}-email`} class="nl__input" type="email" name="EMAIL" autocomplete="email" required placeholder="prenom@exemple.fr" />
+        <button type="submit" class="btn btn--primary nl__btn">S'inscrire</button>
+      </div>
+      <input type="text" name="email_address_check" value="" tabindex="-1" autocomplete="off" aria-hidden="true" class="nl__hp" />
+      <input type="hidden" name="locale" value="fr" />
+      <p class="nl__legal">
+        Désinscription en un clic à chaque envoi. Adresse utilisée uniquement pour cette lettre, voir la
+        <a href="/politique-de-confidentialite/">politique de confidentialité</a>.
+      </p>
+    </form>
+  </aside>
+)}
+
+<style>
+  .nl { margin: 2.6rem 0 0; padding: 1.5rem; background: var(--color-surface); border: 1px solid var(--color-border); border-radius: var(--radius); box-shadow: var(--shadow-card); max-width: var(--measure); }
+  .nl__title { margin: 0 0 0.4rem; font-size: 1.35rem; }
+  .nl__lede { margin: 0 0 1rem; color: var(--color-text-muted); }
+  .nl__label { display: block; margin-bottom: 0.4rem; font-family: var(--font-ui); font-weight: 600; font-size: 0.92rem; }
+  .nl__row { display: flex; gap: 0.6rem; }
+  .nl__input { flex: 1; min-width: 0; min-height: 44px; padding: 0 0.9rem; font: inherit; font-family: var(--font-ui); color: var(--color-text); background: var(--color-bg); border: 1px solid var(--color-border-strong); border-radius: var(--radius); }
+  .nl__input:hover { border-color: var(--color-accent); }
+  .nl__btn { flex-shrink: 0; }
+  .nl__hp { position: absolute; left: -9999px; width: 1px; height: 1px; opacity: 0; }
+  .nl__legal { margin: 0.75rem 0 0; font-family: var(--font-ui); font-size: 0.8rem; color: var(--color-text-faint); }
+  @media (max-width: 480px) { .nl__row { flex-direction: column; } .nl__btn { justify-content: center; } }
+</style>

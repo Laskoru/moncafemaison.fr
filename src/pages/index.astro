@@ -4,6 +4,7 @@ import BaseLayout from '../layouts/BaseLayout.astro';
 import ArticleCard from '../components/ArticleCard.astro';
 import GuideList from '../components/GuideList.astro';
 import SelectionMethod from '../components/SelectionMethod.astro';
+import Newsletter from '../components/Newsletter.astro';
 import Icon from '../components/Icon.astro';
 import { siteConfig } from '../siteConfig';
 import { categories } from '../categories';
@@ -127,6 +128,7 @@ const tools = [
 
   <section class="wide section section--last">
     <SelectionMethod wide />
+    <Newsletter />
   </section>
 </BaseLayout>
 
