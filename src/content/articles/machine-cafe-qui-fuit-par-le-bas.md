@@ -6,7 +6,6 @@ updatedDate: 2026-10-01
 author: "Hugo B."
 keywords: ["machine à café qui fuit par le bas", "machine à grain philips qui fuit par le bas", "cafetière qui fuit par le bas", "machine à café fuite réservoir", "machine à capsules qui fuit"]
 category: "machines"
-coverImage: "https://images.unsplash.com/photo-1581068106019-5aa70c6ab424?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1600"
 coverAlt: "Machine à café professionnelle noire et argentée, gros plan sur le groupe de percolation et les commandes"
 pinHook: "Ta machine à café *fuit par le bas* ?"
 pinSub: "Grain, filtre ou capsules : le bon diagnostic, étape par étape."
