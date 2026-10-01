@@ -28,7 +28,7 @@ faq:
 draft: false
 ---
 
-Un café trop clair sur une DeLonghi Magnifica S vient presque toujours d'une mouture trop grossière, d'une dose de café insuffisante ou d'une intensité réglée trop bas. À l'inverse, un café trop amer signale généralement l'excès inverse : mouture trop fine, dose trop généreuse ou groupe café encrassé. Voici comment identifier la cause exacte et corriger le réglage, molette par molette.
+Un café trop clair sur une DeLonghi Magnifica S vient presque toujours d'une mouture trop grossière, d'une dose de café insuffisante ou d'une intensité réglée trop bas. À l'inverse, un café trop amer signale généralement l'excès inverse : mouture trop fine, dose trop généreuse ou groupe café encrassé. Les sections suivantes reprennent ces réglages un par un, molette par molette, pour trouver la cause exacte.
 
 ## Café trop clair sur une DeLonghi Magnifica S
 
