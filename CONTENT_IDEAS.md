@@ -13,7 +13,7 @@ Format : `- [ ] Sujet — angle — catégorie`.
 Requêtes réelles tirées des suggestions Google, avec peu de pages qui y répondent vraiment. Vérifié le 26/09/2026 : aucun article publié ne les traite déjà. Garde la requête principale dans le titre, la description et un titre ##.
 
 - [x] DeLonghi Magnifica S : café trop clair, trop amer ou message « mouture trop fine » — diagnostic et réglages pas à pas (mouture, dose, groupe café, détartrage) ; requêtes « café trop clair delonghi magnifica s », « café trop amer delonghi magnifica s », « machine à café delonghi mouture trop fine » — machines (conseil, sans produit)
-- [ ] Machine à café qui fuit par le bas : trouver d'où vient la fuite (machine à grain, cafetière filtre, capsules) et quoi faire — requêtes « machine à grain philips qui fuit par le bas », « cafetière qui fuit par le bas » — machines (conseil, sans produit)
+- [x] Machine à café qui fuit par le bas : trouver d'où vient la fuite (machine à grain, cafetière filtre, capsules) et quoi faire — requêtes « machine à grain philips qui fuit par le bas », « cafetière qui fuit par le bas » — machines (conseil, sans produit)
 - [ ] Moulin à café pour cafetière italienne : quelle mouture pour la moka et quel moulin choisir (manuel ou électrique, meules) — requête « moulin à café pour cafetière italienne » — moulins (comparatif, liens de recherche Amazon)
 - [ ] Cafetière Nespresso qui clignote : ce que veulent dire les voyants selon le modèle (détartrage, réservoir, erreur) — requête « pourquoi cafetière nespresso clignote » — machines (conseil, sans produit)
 
