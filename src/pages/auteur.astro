@@ -25,7 +25,7 @@ const jsonLd = {
     name: authorName,
     url: `${siteUrl}/auteur/`,
     ...(personSameAs.length ? { sameAs: personSameAs } : {}),
-    jobTitle: 'Passionné de café & fondateur',
+    jobTitle: 'Fondateur et rédacteur',
     worksFor: { '@id': `${siteUrl}/#organization` },
     knowsAbout: ['café de spécialité', 'machines à café', 'moulins à café', "méthodes d'extraction du café"],
   },
@@ -44,7 +44,7 @@ const jsonLd = {
         <div class="author-head__avatar" aria-hidden="true">{initials}</div>
         <div>
           <h1 class="author-head__name">{authorName}</h1>
-          <p class="meta author-head__role">Passionné de café et fondateur de {siteConfig.name} · {allArticles.length} articles publiés</p>
+          <p class="meta author-head__role">Fondateur et rédacteur de {siteConfig.name} · {allArticles.length} articles publiés</p>
         </div>
       </div>
     </div>
@@ -54,6 +54,7 @@ const jsonLd = {
     <div class="author__bio">
       <p set:html={`Bonjour ! Je suis Hugo, la personne derrière ${siteConfig.name}. J'ai lancé ce site parce que réussir un bon café chez soi tient à peu de choses (le bon moulin, la bonne méthode) mais que le marketing du café rend le choix du matériel inutilement compliqué.`}></p>
       <p set:html={`Mon approche est concrète : je pars de l'<strong>usage réel</strong> (quel café tu bois, quel budget, combien de temps le matin) et de <strong>critères mesurables</strong> plutôt que de fiches marketing. J'explique le <strong>pourquoi</strong> (mouture, pression, température) pour que tu choisisses en connaissance de cause.`}></p>
+      <p set:html={`Je ne prétends pas avoir testé chaque appareil : je n'ai ni laboratoire ni banc d'essai. Les chiffres et les faits viennent de <strong>sources vérifiables</strong> (notices et pages des fabricants, organismes comme la Specialty Coffee Association ou la National Coffee Association, études publiées, Service-Public et DGCCRF pour les questions de consommation), listées en bas de chaque article. Si tu repères une erreur, <a href="/contact/">écris-moi</a> : je corrige et je mets à jour la date de l'article.`}></p>
       <p set:html={`Le site est <strong>indépendant</strong> : aucune marque ne paie pour figurer ou être mieux classée. ${siteConfig.name} se finance uniquement via l'affiliation Amazon : si tu achètes après avoir cliqué sur un lien, je touche une petite commission, <strong>sans aucun surcoût pour toi</strong>. Quand un produit a des défauts, je le dis.`}></p>
       <p class="author__links">
         <a class="btn btn--outline" href="/a-propos/">Notre méthode en détail</a>

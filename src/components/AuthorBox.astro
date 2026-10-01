@@ -1,11 +1,12 @@
 ---
 // Encart auteur en bas d'article. Signal de confiance (E-E-A-T) : un auteur
 // identifié, une bio HONNÊTE (aucun faux diplôme), et des liens vers la page
-// auteur, la méthode et le contact.
+// auteur, la méthode et le contact. Aucun vécu ni test inventé : on décrit
+// seulement ce qui est vrai (méthode, sources, indépendance).
 import { siteConfig } from '../siteConfig';
 import Icon from './Icon.astro';
 const author = (Astro.props as { author?: string }).author || siteConfig.author;
-const BIO = `Je fais mon café à la maison depuis des années, et j'ai lancé ce site parce que le matériel café est un vrai labyrinthe (espresso, moulin, filtre…) où l'on paie souvent trop cher pour le mauvais appareil. Chaque comparatif part d'un <strong>usage réel</strong> et de critères concrets, pas de la liste des best-sellers. Le site est <strong>indépendant</strong> : mes liens Amazon sont affiliés (une petite commission si tu achètes, sans surcoût pour toi), et quand un produit a des défauts, je le dis.`;
+const BIO = `J'ai lancé ce site parce que le matériel café est un vrai labyrinthe (espresso, moulin, filtre…) où l'on paie souvent trop cher pour le mauvais appareil. Je ne teste pas les produits en laboratoire : chaque article part d'un <strong>usage</strong>, de critères vérifiables et de <strong>sources citées</strong> en bas de page (notices de fabricants, organismes du café, textes officiels). Le site est <strong>indépendant</strong> : mes liens Amazon sont affiliés (une petite commission si tu achètes, sans surcoût pour toi), et quand un produit a des défauts, je le dis.`;
 const initials = author
   .split(/\s+/)
   .map((w) => w[0])
@@ -19,7 +20,7 @@ const initials = author
   <div class="authorbox__body">
     <p class="authorbox__name">
       <a href="/auteur/">{author}</a>
-      <span class="meta">Passionné de café et fondateur du site</span>
+      <span class="meta">Fondateur et rédacteur du site</span>
     </p>
     <p class="authorbox__text" set:html={BIO}></p>
     <p class="authorbox__links">
