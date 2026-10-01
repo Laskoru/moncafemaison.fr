@@ -9,7 +9,8 @@
     "astro": "astro",
     "pins": "node scripts/generate-pins.mjs",
     "tiktok-briefs": "node scripts/generate-tiktok-briefs.mjs",
-    "pinterest-profile": "node scripts/generate-pinterest-profile.mjs"
+    "pinterest-profile": "node scripts/generate-pinterest-profile.mjs",
+    "check-links": "node scripts/check-links.mjs"
   },
   "dependencies": {
     "@astrojs/markdown-remark": "^7.3.1",
