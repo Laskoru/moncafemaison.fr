@@ -2,7 +2,70 @@
 import BaseLayout from '../layouts/BaseLayout.astro';
 import PageHead from '../components/PageHead.astro';
 import Icon from '../components/Icon.astro';
-import { siteConfig } from '../siteConfig';
+
+// Réglages du calculateur : source unique pour le script, le tableau et la FAQ.
+// cup = volume d'une « tasse » en ml (hypothèse affichée), ratio = g d'eau par g de café.
+const M = {
+  filtre:    { cup: 125, ratio: 17,   grind: 'moyenne',       tip: 'Verse l’eau à ~93 °C en plusieurs fois pour une extraction régulière.' },
+  v60:       { cup: 220, ratio: 16,   grind: 'moyenne-fine',  tip: 'Fais une pré-infusion (bloom) de 30 s avant de continuer à verser.' },
+  piston:    { cup: 220, ratio: 15,   grind: 'grossière',     tip: 'Laisse infuser 4 minutes avant de presser doucement.' },
+  italienne: { cup: 60,  ratio: 10,   grind: 'fine',          tip: 'Remplis le panier sans tasser, et retire du feu dès que ça monte.' },
+  expresso:  { cup: 30,  ratio: 3,    grind: 'très fine',     tip: 'Vise 25 à 30 s d’extraction pour un espresso équilibré.' },
+};
+const STRENGTH = { doux: 1.08, normal: 1, corse: 0.92 };
+const grams = (ml: number, ratio: number) => Math.round((ml / ratio) * 2) / 2; // arrondi 0,5 g
+const nf = (n: number) => n.toLocaleString('fr-FR', { maximumFractionDigits: 1 });
+const vol = (ml: number) => (ml >= 1000 ? `${nf(ml / 1000)} L` : `${ml} ml`);
+const filtreRows = [2, 4, 6, 8, 10, 12].map((n) => ({
+  n,
+  water: vol(n * M.filtre.cup),
+  normal: nf(grams(n * M.filtre.cup, M.filtre.ratio)),
+  doux: nf(grams(n * M.filtre.cup, M.filtre.ratio * STRENGTH.doux)),
+  corse: nf(grams(n * M.filtre.cup, M.filtre.ratio * STRENGTH.corse)),
+}));
+const perCup = [
+  { name: 'Café filtre (cafetière)', key: 'filtre' },
+  { name: 'V60 / pour-over', key: 'v60' },
+  { name: 'Piston (French press)', key: 'piston' },
+  { name: 'Cafetière italienne (moka)', key: 'italienne' },
+  { name: 'Expresso', key: 'expresso' },
+].map((r) => {
+  const m = M[r.key as keyof typeof M];
+  return { ...r, cup: vol(m.cup), g: nf(grams(m.cup, m.ratio)), ratio: `1 : ${nf(m.ratio)}`, grind: m.grind };
+});
+const row = (n: number) => filtreRows.find((r) => r.n === n)!;
+
+const faq = [
+  {
+    q: 'Combien de café moulu pour 4 tasses de café filtre ?',
+    a: `Environ ${row(4).normal} g de café moulu pour ${row(4).water} d’eau, avec une mouture moyenne. Pour un café plus léger, descends vers ${row(4).doux} g ; pour un café plus corsé, monte vers ${row(4).corse} g.`,
+  },
+  {
+    q: 'Quel dosage pour 6 tasses de café filtre ?',
+    a: `Compte environ ${row(6).normal} g de café moulu pour ${row(6).water} d’eau. La fourchette utile va de ${row(6).doux} g (doux) à ${row(6).corse} g (corsé).`,
+  },
+  {
+    q: 'Combien de café pour une cafetière filtre de 10 tasses ?',
+    a: `Pour une verseuse pleine de 10 tasses (${row(10).water}), environ ${row(10).normal} g de café moulu. Si tu n’en fais que la moitié, divise simplement par deux.`,
+  },
+  {
+    q: 'Combien de grammes de café par tasse ?',
+    a: `Cela dépend de la méthode : environ ${perCup[0].g} g pour une tasse de café filtre de 125 ml, ${perCup[3].g} g pour une tasse de moka de 60 ml et ${perCup[4].g} g pour un expresso de 30 ml. Le tableau « une tasse, méthode par méthode » plus bas donne toutes les valeurs.`,
+  },
+  {
+    q: 'Combien de cuillères de café moulu par tasse ?',
+    a: 'Une cuillère ne pèse pas toujours la même chose : tout dépend de sa taille, de la mouture et de la façon de la remplir. Le plus fiable est de peser une fois ta cuillère habituelle pleine sur une balance de cuisine, puis de convertir les grammes du calculateur en cuillères.',
+  },
+  {
+    q: 'Quel est le ratio café / eau de référence ?',
+    a: 'La Specialty Coffee Association teste les cafetières filtre domestiques avec 55 g de café pour 1 kg d’eau (norme SCA 310-2021), soit un ratio d’environ 1 : 18. Le réglage « Normal » du calculateur (1 : 17) donne un café un peu plus soutenu ; le réglage « Doux » est proche de la référence SCA.',
+  },
+];
+const faqSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'FAQPage',
+  mainEntity: faq.map((f) => ({ '@type': 'Question', name: f.q, acceptedAnswer: { '@type': 'Answer', text: f.a } })),
+};
 
 // Guides pas à pas par méthode : liens statiques (découverte par Google + suite logique du dosage).
 const guidesMethode = [
@@ -15,12 +78,13 @@ const guidesMethode = [
 ---
 
 <BaseLayout
-  title="Calculateur de dosage café"
-  description={`Combien de café et d'eau pour un café parfait ? Indique ta méthode et ton nombre de tasses, notre calculateur gratuit te donne les grammes exacts. ${siteConfig.name}.`}
+  title="Dosage café filtre et moulu : calculateur par tasse"
+  description="Dosage du café filtre pour 2, 4, 6 ou 10 tasses : grammes de café moulu et quantité d'eau en un clic, avec un tableau prêt à l'emploi par méthode."
+  jsonLd={faqSchema}
 >
   <PageHead
-    title="Calculateur de dosage café"
-    lede="Le bon café, c’est d’abord le bon ratio. Choisis ta méthode et ton nombre de tasses : tu obtiens les grammes de café et la quantité d’eau tout de suite."
+    title="Dosage du café : combien de grammes par tasse ?"
+    lede={`Réponse courte : environ ${perCup[0].g} g de café moulu par tasse de café filtre (125 ml), soit ${row(4).normal} g pour 4 tasses et ${row(6).normal} g pour 6 tasses. Pour une autre méthode ou un autre nombre de tasses, le calculateur ci-dessous fait le compte.`}
     crumbs={[{ label: 'Accueil', href: '/' }, { label: 'Outils', href: '/outils/' }, { label: 'Calculateur de dosage' }]}
     width="narrow"
   />
@@ -60,27 +124,63 @@ const guidesMethode = [
       <div class="calc__result" aria-live="polite">
         <div class="result__row">
           <div class="result__block">
-            <span class="result__num" id="out-coffee">33</span><span class="result__unit">g</span>
+            <span class="result__num" id="out-coffee">{nf(grams(2 * M.filtre.cup, M.filtre.ratio))}</span><span class="result__unit">g</span>
             <p class="result__cap">de café moulu</p>
           </div>
           <div class="result__block">
-            <span class="result__num" id="out-water">250</span><span class="result__unit" id="out-water-unit">ml</span>
+            <span class="result__num" id="out-water">{2 * M.filtre.cup}</span><span class="result__unit" id="out-water-unit">ml</span>
             <p class="result__cap">d’eau</p>
           </div>
         </div>
         <dl class="result__meta">
           <div><dt>Mouture conseillée</dt><dd id="out-grind">moyenne</dd></div>
-          <div><dt>Ratio café / eau</dt><dd id="out-ratio">1 : 16,5</dd></div>
+          <div><dt>Ratio café / eau</dt><dd id="out-ratio">1 : {nf(M.filtre.ratio)}</dd></div>
         </dl>
-        <p class="result__tip"><Icon name="bulb" size={18} /><span id="out-tip"></span></p>
+        <p class="result__tip"><Icon name="bulb" size={18} /><span id="out-tip">{M.filtre.tip}</span></p>
       </div>
     </div>
 
     <p class="calc__note">
-      Repère de base : un ratio autour de <b>1 g de café pour 16 à 17 g d’eau</b> pour le filtre.
-      Ajuste ensuite à ton goût : ces chiffres sont un excellent point de départ, pas une règle figée.
-      Pour la mouture et le geste, vois <a href="/methodes-cafe/">le panorama des méthodes</a> et nos <a href="/guides/">guides</a>.
+      Le calculateur compte <b>125 ml par tasse de café filtre</b> : c’est une hypothèse, pas une norme.
+      Regarde la graduation de ta verseuse ; si elle indique un autre volume, raisonne en millilitres.
+      Ces chiffres sont un point de départ : ajuste ensuite à ton goût, d’un ou deux grammes à la fois.
     </p>
+
+    <div class="dose">
+      <h2 id="dosage-cafe-filtre">Dosage du café filtre selon le nombre de tasses</h2>
+      <p>Pour une cafetière filtre électrique ou un filtre manuel, avec une mouture moyenne et 125 ml d’eau par tasse :</p>
+      <div class="table-wrap">
+        <table class="table">
+          <thead>
+            <tr><th scope="col">Tasses</th><th scope="col">Eau</th><th scope="col">Café moulu (normal)</th><th scope="col">Doux / corsé</th></tr>
+          </thead>
+          <tbody>
+            {filtreRows.map((r) => (
+              <tr><th scope="row">{r.n} tasses</th><td>{r.water}</td><td><strong>{r.normal} g</strong></td><td>{r.doux} à {r.corse} g</td></tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+      <p>Une cafetière de 10 ou 12 tasses peut aussi servir pour 2 ou 4 : le dosage suit le volume d’eau versé, pas la taille de la machine. Pour choisir l’appareil, vois notre guide de la <a href="/articles/meilleure-cafetiere-filtre-programmable/">cafetière filtre programmable</a>.</p>
+
+      <h2 id="une-tasse-par-methode">Une tasse, méthode par méthode</h2>
+      <div class="table-wrap">
+        <table class="table table--stack">
+          <thead>
+            <tr><th scope="col">Méthode</th><th scope="col">Une tasse</th><th scope="col">Café moulu</th><th scope="col">Ratio</th><th scope="col">Mouture</th></tr>
+          </thead>
+          <tbody>
+            {perCup.map((r) => (
+              <tr><th scope="row">{r.name}</th><td data-label="Une tasse">{r.cup}</td><td data-label="Café moulu"><strong>{r.g} g</strong></td><td data-label="Ratio">{r.ratio}</td><td data-label="Mouture">{r.grind}</td></tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+      <p>Pour la moka, le panier se remplit à ras sans tasser : la quantité dépend surtout de la taille de ta cafetière (voir <a href="/articles/cafetiere-italienne-moka/">comment choisir sa cafetière italienne</a>). Pour l’expresso, le panier du porte-filtre fixe la dose : pèse-la avec une <a href="/articles/balance-cafe-precision/">balance de précision</a>.</p>
+
+      <h2 id="peser-ou-doser">Peser plutôt que compter les cuillères</h2>
+      <p>Les grammes sont plus fiables que les cuillères : une cuillère de café moulu fin ne pèse pas la même chose qu’une cuillère de mouture grossière. Si tu n’as pas de balance, pèse une fois ta cuillère habituelle pleine sur une balance de cuisine et note le résultat. Et si ton café reste amer ou plat malgré le bon dosage, regarde la mouture et la fraîcheur des grains avant de changer de machine : notre comparatif des <a href="/articles/moulin-cafe-meules-ou-lames/">moulins à meules ou à lames</a> explique pourquoi.</p>
+    </div>
 
     <div class="methodes">
       <h2 class="methodes__title">Réussir ta méthode, pas à pas</h2>
@@ -91,19 +191,25 @@ const guidesMethode = [
         ))}
       </ul>
     </div>
+
+    <div class="dose dose--faq">
+      <h2>Questions fréquentes sur le dosage du café</h2>
+      {faq.map((f) => (
+        <details class="faq">
+          <summary>{f.q}</summary>
+          <p>{f.a}</p>
+        </details>
+      ))}
+      <p class="dose__src">
+        Source : <a href="https://sca.coffee/s/SCA_Standard_310-2021.pdf" rel="noopener" target="_blank">Specialty Coffee Association, norme SCA 310-2021 « Home Coffee Brewers »</a> (ratio de test de 55 g de café par kg d’eau, eau entre 90 et 96 °C).
+        À voir aussi : <a href="/durete-eau-cafe/">la dureté de l’eau de ta commune</a> et <a href="/methodes-cafe/">le comparatif des méthodes</a>.
+      </p>
+    </div>
   </section>
 </BaseLayout>
 
-<script is:inline>
+<script define:vars={{ M, STRENGTH }}>
   (function () {
-    var M = {
-      filtre:    { cup: 125, ratio: 16.5, grind: 'moyenne',       tip: 'Verse l’eau à ~93 °C en plusieurs fois pour une extraction régulière.' },
-      v60:       { cup: 220, ratio: 16,   grind: 'moyenne-fine',  tip: 'Fais une pré-infusion (bloom) de 30 s avant de continuer à verser.' },
-      piston:    { cup: 220, ratio: 15,   grind: 'grossière',     tip: 'Laisse infuser 4 minutes avant de presser doucement.' },
-      italienne: { cup: 60,  ratio: 10,   grind: 'fine',          tip: 'Remplis le panier sans tasser, et retire du feu dès que ça monte.' },
-      expresso:  { cup: 30,  ratio: 3,    grind: 'très fine',     tip: 'Vise 25 à 30 s d’extraction pour un espresso équilibré.' },
-    };
-    var STRENGTH = { doux: 1.08, normal: 1, corse: 0.92 };
     var strength = 'normal';
 
     var method = document.getElementById('method');
@@ -151,6 +257,11 @@ const guidesMethode = [
         update();
       });
     });
+    // Lien direct depuis un article : /calculateur-dosage-cafe/?methode=italienne&tasses=6
+    var q = new URLSearchParams(location.search);
+    if (M[q.get('methode')]) method.value = q.get('methode');
+    var t = parseInt(q.get('tasses'), 10);
+    if (t >= 1 && t <= 12) cups.value = String(t);
     update();
   })();
 </script>
@@ -222,6 +333,15 @@ const guidesMethode = [
 
   .calc__note { margin: 2rem 0 0; color: var(--color-text-muted); font-size: 0.98rem; max-width: 62ch; }
 
+  .dose { margin-top: 2.5rem; padding-top: 2rem; border-top: 1px solid var(--color-border); max-width: var(--measure); }
+  .dose h2 { margin: 0 0 0.6rem; font-size: 1.35rem; }
+  .dose h2:not(:first-child) { margin-top: 2rem; }
+  .dose p { line-height: 1.65; }
+  .dose .table-wrap { margin: 1rem 0; }
+  .faq { border-bottom: 1px solid var(--color-border); padding: 0.5rem 0; }
+  .faq summary { cursor: pointer; font-family: var(--font-ui); font-weight: 700; min-height: 44px; display: flex; align-items: center; }
+  .faq p { margin: 0.4rem 0 0.6rem; color: var(--color-text-muted); }
+  .dose__src { margin-top: 1.25rem; font-size: 0.92rem; color: var(--color-text-muted); }
   .methodes { margin-top: 2.5rem; padding-top: 2rem; border-top: 1px solid var(--color-border); }
   .methodes__title { margin: 0 0 0.5rem; font-size: 1.35rem; }
   .methodes__lede { margin: 0 0 1.25rem; color: var(--color-text-muted); max-width: 62ch; line-height: 1.55; }
