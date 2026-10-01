@@ -104,9 +104,9 @@ Avant de choisir un modèle, vérifie que la méthode correspond à la tasse que
 
 - **La French press** donne un café rond, au corps marqué, avec un léger trouble et un peu de dépôt au fond. Selon sa taille, elle sert d'une à quatre personnes, sans électricité ni consommable à racheter.
 - **Le filtre papier** fait l'inverse : une tasse claire, légère, qui met les arômes en avant, sans dépôt. Si un fond de tasse trouble te gêne, c'est plutôt ta méthode, et une [cafetière filtre programmable](/articles/meilleure-cafetiere-filtre-programmable/) prépare même la carafe avant ton réveil.
-- **La cafetière italienne** produit un café court, corsé et concentré, plus proche d'un café serré que d'un café long.
+- **La cafetière italienne** produit un café court, corsé et concentré, plus proche d'un café serré que d'un café long. Pour bien la maîtriser, vois [comment réussir son café à la cafetière italienne](/articles/reussir-cafetiere-italienne-moka/).
 
-Les méthodes ne s'excluent pas : une French press coûte peu et se range partout, ce qui en fait aussi un bon complément d'une cafetière déjà installée dans la cuisine.
+Les méthodes ne s'excluent pas : une French press coûte peu et se range partout, ce qui en fait aussi un bon complément d'une cafetière déjà installée dans la cuisine. Et si tu veux une tasse plus nette qu'au piston sans compliquer le geste, l'[AeroPress et ses alternatives](/articles/aeropress-test-alternatives/) méritent un coup d'œil.
 
 Si c'est la tasse que tu aimes, la cafetière à piston est le point d'entrée idéal vers le bon café maison : simple, économique et étonnamment qualitative. Choisis le verre pour le prix, l'inox pour la robustesse, et soigne surtout ta mouture pour en tirer le meilleur.
 

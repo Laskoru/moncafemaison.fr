@@ -19,6 +19,13 @@
 #
 # Usage : bash scripts/fetch-ratings.sh [repo] [limite]
 set -u
+# Garde-fou : le contrat Partenaires Amazon n'autorise l'affichage des notes que via
+# l'API officielle (siteConfig.amazon.showRatings = false). Le relevé ne tourne donc
+# plus par défaut ; FORCE_RATINGS=1 pour le lancer quand même.
+if [ "${FORCE_RATINGS:-}" != "1" ]; then
+  echo "fetch-ratings.sh : désactivé (notes Amazon non affichées). FORCE_RATINGS=1 pour forcer."
+  exit 0
+fi
 REPO="${1:-.}"
 LIMIT="${2:-12}"
 UA="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120 Safari/537.36"

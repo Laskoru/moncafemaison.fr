@@ -1,0 +1,41 @@
+# Relevé hebdomadaire de la disponibilité des produits Amazon cités dans les articles
+# (scripts/check-availability.sh → src/data/availability.json). Un produit en rupture
+# constatée bascule au build vers une recherche Amazon équivalente.
+# Un commit n'est créé que si le fichier change ; Vercel redéploie alors le site.
+name: Disponibilité produits
+
+on:
+  schedule:
+    - cron: '23 3 * * 1' # lundi, vers 5 h à Paris en été, 4 h en hiver
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: availability
+  cancel-in-progress: false
+
+jobs:
+  releve:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Relevé de disponibilité
+        run: bash scripts/check-availability.sh . 100
+      - name: Commit et push si la disponibilité a changé
+        run: |
+          git add src/data/availability.json
+          if git diff --cached --quiet; then
+            echo "Aucun changement de disponibilité."
+            exit 0
+          fi
+          git -c user.name=Laskoru -c user.email=hugo_burel@hotmail.com commit -m "Disponibilité produits : relevé hebdomadaire"
+          for i in 1 2 3; do
+            git pull --rebase origin main && git push origin HEAD:main && exit 0
+            sleep 10
+          done
+          exit 1

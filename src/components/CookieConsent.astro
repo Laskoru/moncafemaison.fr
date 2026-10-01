@@ -2,19 +2,18 @@
 // Bandeau de consentement minimal conforme RGPD.
 // Tant que l'utilisateur n'a pas cliqué "Accepter", aucun script de mesure
 // d'audience (Google Analytics, voir BaseLayout.astro) n'est chargé.
+// Refuser et Accepter ont exactement le même poids visuel (recommandation CNIL).
 ---
 
 <div id="cookie-banner" class="cookie-banner" aria-hidden="true">
   <div class="cookie-banner__inner">
     <p>
-      Ce site utilise des cookies de <strong>mesure d'audience</strong> (Google Analytics)
-      pour comprendre comment il est consulté et l'améliorer. Ils ne sont déposés que si
-      tu acceptes. Voir la
-      <a href="/politique-de-confidentialite/">politique de confidentialité</a>.
+      Cookies de <strong>mesure d'audience</strong> (Google Analytics), déposés seulement si
+      tu acceptes. <a href="/politique-de-confidentialite/">En savoir plus</a>
     </p>
     <div class="cookie-banner__actions">
-      <button id="cookie-refuse" type="button" class="cbtn cbtn--ghost">Refuser</button>
-      <button id="cookie-accept" type="button" class="cbtn cbtn--accent">Accepter</button>
+      <button id="cookie-refuse" type="button" class="cbtn">Refuser</button>
+      <button id="cookie-accept" type="button" class="cbtn">Accepter</button>
     </div>
   </div>
 </div>
@@ -60,7 +59,7 @@
     left: 0;
     right: 0;
     z-index: 100;
-    padding: 1rem 1.25rem;
+    padding: 0.85rem 1.25rem;
     background: var(--color-ink);
     color: var(--color-on-ink);
     transform: translateY(110%);
@@ -90,9 +89,15 @@
     border-radius: var(--radius);
     cursor: pointer;
   }
-  .cbtn--accent { background: var(--color-accent); color: #fff; border: 1px solid var(--color-accent); }
-  .cbtn--accent:hover { background: var(--color-accent-hover); }
-  .cbtn--ghost { background: transparent; color: var(--color-on-ink); border: 1px solid var(--color-on-ink-muted); }
-  .cbtn--ghost:hover { border-color: var(--color-on-ink); }
+  .cbtn { min-width: 7.5rem; background: transparent; color: var(--color-on-ink); border: 1px solid var(--color-on-ink-muted); }
+  .cbtn:hover { border-color: var(--color-on-ink); background: rgba(251, 248, 243, 0.08); }
   .cbtn:focus-visible { outline-color: var(--color-accent-on-ink); }
+  .cookie-banner a { display: inline-block; min-height: 24px; }
+  @media (max-width: 600px) {
+    .cookie-banner { padding: 0.7rem 1rem calc(0.7rem + env(safe-area-inset-bottom, 0px)); }
+    .cookie-banner__inner { gap: 0.6rem; }
+    .cookie-banner p { font-size: 0.85rem; line-height: 1.4; }
+    .cookie-banner__actions { width: 100%; }
+    .cbtn { flex: 1; min-width: 0; }
+  }
 </style>

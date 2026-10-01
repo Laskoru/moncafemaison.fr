@@ -8,6 +8,7 @@ import Breadcrumbs from '../components/Breadcrumbs.astro';
 import ArticleCard from '../components/ArticleCard.astro';
 import ShareButtons from '../components/ShareButtons.astro';
 import AuthorBox from '../components/AuthorBox.astro';
+import Newsletter from '../components/Newsletter.astro';
 import SelectionMethod from '../components/SelectionMethod.astro';
 import Icon from '../components/Icon.astro';
 import { siteConfig } from '../siteConfig';
@@ -160,7 +161,7 @@ const jsonLdArticle = [articleSchema, ...(faqSchema ? [faqSchema] : [])];
 
       <header class="art__head">
         <h1 class="art__title">{title}</h1>
-        <p class="meta meta-row art__meta">
+        <p class="meta meta-row art__meta" data-pagefind-ignore>
           <span>Par <a href="/auteur/">{author ?? siteConfig.author}</a></span>
           <time datetime={pubDate.toISOString().slice(0, 10)}>{dateFormatter.format(pubDate)}</time>
           {updatedDate && <span>Mis à jour le <time datetime={updatedDate.toISOString().slice(0, 10)}>{dateFormatter.format(updatedDate)}</time></span>}
@@ -303,6 +304,7 @@ const jsonLdArticle = [articleSchema, ...(faqSchema ? [faqSchema] : [])];
         </section>
       )}
 
+      <Newsletter />
       <AuthorBox author={author} />
 
       <aside class="art-tools" aria-label="Outils et guides pratiques">

@@ -1,5 +1,10 @@
 # Backlog de sujets d'articles
 
+> **Rappel avant chaque article (voir CONTENT_PLAYBOOK.md)** : 1 article par semaine au
+> maximum ; mettre à jour un article existant vaut mieux que publier un article moyen ;
+> aucune expérience, aucun test ni chiffre inventé ; 2 à 4 sources fiables dans `sources` ;
+> au moins 2 liens entrants depuis des articles existants, vérifiés par grep avant commit.
+
 La routine prend la première idée non cochée, écrit l'article en brouillon,
 puis coche l'idée. Ajoute librement de nouvelles idées en bas.
 Format : `- [ ] Sujet — angle — catégorie`.

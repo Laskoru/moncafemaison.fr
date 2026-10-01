@@ -94,7 +94,8 @@ export default defineConfig({
   site: SITE_URL,
   integrations: [sitemap({
     // Catégories vides : ni dans le sitemap (elles sont aussi en noindex côté page).
-    filter: (page) => !EMPTY_CATEGORIES.some((s) => page.includes('/categorie/' + s + '/')),
+    // Recherche interne : noindex, hors sitemap.
+    filter: (page) => !EMPTY_CATEGORIES.some((s) => page.includes('/categorie/' + s + '/')) && !page.endsWith('/recherche/'),
     serialize(item) {
       const m = item.url.match(/\/articles\/([^/]+)\/?$/);
       if (m) {

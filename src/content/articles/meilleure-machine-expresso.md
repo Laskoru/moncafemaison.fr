@@ -42,14 +42,14 @@ faq:
 
 ## Pourquoi commencer par une machine abordable
 
-L'espresso est la préparation la plus exigeante du café maison : elle ne pardonne ni une mouture inadaptée, ni un dosage approximatif. Pour autant, on n'a pas besoin d'une machine à plusieurs centaines d'euros pour débuter. Une machine à porte-filtre d'entrée de gamme suffit largement pour apprendre les gestes et obtenir un café avec une vraie crema.
+L'espresso est la préparation la plus exigeante du café maison : elle ne pardonne ni une mouture inadaptée, ni un dosage approximatif. Pour autant, on n'a pas besoin d'une machine à plusieurs centaines d'euros pour débuter. Une machine à porte-filtre d'entrée de gamme suffit largement pour apprendre les gestes et obtenir un café avec une vraie crema. Pour voir le matériel dans l'ordre (machine, moulin, accessoires), suis notre guide [réussir son espresso à la maison](/guides/espresso-maison/).
 
 Commencer modestement a un autre avantage : tu découvres si l'espresso « à la main » te plaît vraiment (avec son petit rituel de mouture, tassage et extraction) avant d'investir davantage. Beaucoup adorent ; d'autres préfèrent la simplicité des capsules. Autant le savoir sans se ruiner.
 
 ## Les critères qui comptent pour débuter
 
 - **Le type de machine** : porte-filtre (manuel) pour apprendre et personnaliser, capsules pour la rapidité sans réglage
-- **La compatibilité café moulu / dosettes** : une machine acceptant les deux offre plus de souplesse au début
+- **La compatibilité café moulu / dosettes** : une machine acceptant les deux offre plus de souplesse au début (le format dosette a ses propres atouts : vois notre guide de la [cafetière à dosettes souples ou ESE](/articles/cafetiere-dosette-souple-ese/))
 - **La buse vapeur** : indispensable si tu veux faire mousser le lait pour cappuccinos et lattes
 - **La stabilité de la température** : plus que la pression affichée, c'est elle qui rend l'extraction régulière
 - **La facilité d'entretien** : rinçage et détartrage simples prolongent nettement la durée de vie

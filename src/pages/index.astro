@@ -4,17 +4,26 @@ import BaseLayout from '../layouts/BaseLayout.astro';
 import ArticleCard from '../components/ArticleCard.astro';
 import GuideList from '../components/GuideList.astro';
 import SelectionMethod from '../components/SelectionMethod.astro';
+import Newsletter from '../components/Newsletter.astro';
 import Icon from '../components/Icon.astro';
 import { siteConfig } from '../siteConfig';
 import { categories } from '../categories';
 import { guides } from '../guides';
 import { resolveCoverImage, coverSrcSet } from '../lib/covers';
+import { activeSeasonSlugs } from '../lib/season';
 
 const allArticles = (await getCollection('articles', ({ data }) => !data.draft)).sort(
   (a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf()
 );
 const lead = allArticles[0];
-const latest = allArticles.slice(1, 7);
+// Saison (Black Friday, Noël) : articles mis en avant selon la date du build, sans
+// doublon avec la « une » ni avec les derniers comparatifs.
+const seasonal = activeSeasonSlugs()
+  .filter((slug) => slug !== lead?.id)
+  .map((slug) => allArticles.find((a) => a.id === slug))
+  .filter((a) => a !== undefined);
+const seasonalIds = new Set(seasonal.map((a) => a.id));
+const latest = allArticles.slice(1).filter((a) => !seasonalIds.has(a.id)).slice(0, 6);
 
 const categoryCounts = categories.map((cat) => ({
   ...cat,
@@ -88,6 +97,18 @@ const tools = [
     </ul>
   </nav>
 
+  {seasonal.length > 0 && (
+    <section class="wide section" aria-labelledby="season-title">
+      <div class="section-head">
+        <h2 id="season-title">{seasonal.length > 1 ? 'Black Friday et cadeaux de Noël' : seasonal[0].id.startsWith('black-friday') ? 'Avant le Black Friday' : 'Les cadeaux de Noël'}</h2>
+        <a class="section-head__link" href="/categorie/accessoires/">Accessoires et idées cadeaux <Icon name="arrow-right" size={16} /></a>
+      </div>
+      <div class="latest-grid">
+        {seasonal.map((article) => <ArticleCard article={article} />)}
+      </div>
+    </section>
+  )}
+
   <section class="wide section" aria-labelledby="start-title">
     <div class="section-head">
       <h2 id="start-title">Par où commencer</h2>
@@ -127,6 +148,7 @@ const tools = [
 
   <section class="wide section section--last">
     <SelectionMethod wide />
+    <Newsletter />
   </section>
 </BaseLayout>
 

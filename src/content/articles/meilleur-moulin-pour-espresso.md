@@ -54,7 +54,7 @@ faq:
 
 ## Pourquoi le moulin fait presque tout le travail
 
-L'espresso est la préparation la plus exigeante en matière de mouture. Contrairement à un café filtre où l'eau s'écoule librement, l'espresso force l'eau à travers une couche de café tassée sous une pression de plusieurs bars, en une trentaine de secondes. Si la mouture n'est pas exactement calibrée, tout l'équilibre de la tasse s'effondre : trop grossière, l'eau file en quelques secondes et le café reste acide et fade ; trop fine ou irrégulière, elle bouche le porte-filtre, sur-extrait et vire à l'amertume brûlée. Avant même la machine, c'est donc le moulin qui décide si ton espresso sera buvable.
+L'espresso est la préparation la plus exigeante en matière de mouture. Contrairement à un café filtre où l'eau s'écoule librement, l'espresso force l'eau à travers une couche de café tassée sous une pression de plusieurs bars, en une trentaine de secondes. Si la mouture n'est pas exactement calibrée, tout l'équilibre de la tasse s'effondre : trop grossière, l'eau file en quelques secondes et le café reste acide et fade ; trop fine ou irrégulière, elle bouche le porte-filtre, sur-extrait et vire à l'amertume brûlée. Avant même la machine, c'est donc le moulin qui décide si ton espresso sera buvable. Le reste de l'équipement est rassemblé dans notre guide [espresso maison](/guides/espresso-maison/).
 
 ## Les critères qui comptent vraiment
 

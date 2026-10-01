@@ -4,12 +4,14 @@
   "version": "1.0.0",
   "scripts": {
     "dev": "astro dev",
-    "build": "astro build",
+    "build": "astro build && pagefind --site dist",
     "preview": "astro preview",
     "astro": "astro",
     "pins": "node scripts/generate-pins.mjs",
     "tiktok-briefs": "node scripts/generate-tiktok-briefs.mjs",
-    "pinterest-profile": "node scripts/generate-pinterest-profile.mjs"
+    "pinterest-profile": "node scripts/generate-pinterest-profile.mjs",
+    "check-links": "node scripts/check-links.mjs",
+    "checklist": "node scripts/generate-checklist.mjs"
   },
   "dependencies": {
     "@astrojs/markdown-remark": "^7.3.1",
@@ -20,6 +22,7 @@
   },
   "devDependencies": {
     "gray-matter": "^4.0.3",
+    "pagefind": "^1.5.2",
     "sharp": "^0.35.3"
   },
   "engines": {

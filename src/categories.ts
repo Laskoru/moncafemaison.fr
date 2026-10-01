@@ -1,6 +1,7 @@
 export const categories = [
   {
     slug: 'machines',
+    metaDescription: "Machine expresso, à grains, cafetière filtre programmable, capsules ou moka : nos comparatifs pour choisir la machine à café adaptée à ta façon de boire.",
     icon: 'espresso-machine',
     label: 'Machines & cafetières',
     short: 'Machines',
@@ -10,6 +11,7 @@ export const categories = [
   },
   {
     slug: 'moulins',
+    metaDescription: "Moulins à café électriques ou manuels, à meules ou à lames : nos comparatifs pour choisir le bon moulin selon ta méthode (espresso, filtre, piston).",
     icon: 'grinder',
     label: 'Moulins à café',
     short: 'Moulins',
@@ -19,6 +21,7 @@ export const categories = [
   },
   {
     slug: 'accessoires',
+    metaDescription: "Balance, bouilloire col de cygne, tamper, mousseur à lait, détartrant : les accessoires café qui changent vraiment la tasse, comparés sans détour.",
     icon: 'kettle',
     label: 'Accessoires & entretien',
     short: 'Accessoires',
@@ -28,6 +31,7 @@ export const categories = [
   },
   {
     slug: 'preparer',
+    metaDescription: "Réussir son café à la maison méthode par méthode : espresso, moka, piston, V60, cold brew. Ratios, mouture et gestes qui évitent un café amer.",
     icon: 'dripper',
     label: 'Préparer son café',
     short: 'Préparer',

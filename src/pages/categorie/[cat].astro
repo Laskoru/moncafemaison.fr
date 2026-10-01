@@ -7,6 +7,7 @@ import Icon from '../../components/Icon.astro';
 import { siteConfig } from '../../siteConfig';
 import { categories } from '../../categories';
 import { guides } from '../../guides';
+import { itemList } from '../../lib/schema';
 
 export async function getStaticPaths() {
   return categories.map((cat) => ({
@@ -28,7 +29,8 @@ const relatedGuides = guides.filter((g) => g.articles.some((s) => slugs.has(s)))
 <BaseLayout
   title={cat.label}
   noindex={articles.length === 0}
-  description={`${cat.description} Tous les comparatifs ${cat.label.toLowerCase()} sur ${siteConfig.name}.`}
+  description={cat.metaDescription}
+  jsonLd={itemList(cat.label, Astro.site, articles.map((a) => ({ id: a.id, title: a.data.title })))}
 >
   <PageHead
     title={cat.label}

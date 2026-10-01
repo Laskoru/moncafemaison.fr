@@ -49,7 +49,7 @@ Aucune des deux n'est « meilleure » dans l'absolu. Tout dépend de ce que tu c
 
 Le café perd ses arômes dès qu'il est moulu, un phénomène appelé oxydation. Une capsule, aussi bien conçue soit-elle, est moulue puis conditionnée bien avant d'arriver dans ta cuisine, parfois plusieurs mois. Une machine à grains, elle, moud la dose juste avant l'extraction : les arômes sont là au moment où l'eau chaude les libère.
 
-En pratique, l'écart de goût est net pour un buveur régulier, un peu moins perceptible pour quelqu'un qui boit un café de temps en temps ou qui aime surtout la régularité. C'est pour ça que le choix dépend autant de ton palais que de tes habitudes.
+En pratique, l'écart de goût est net pour un buveur régulier, un peu moins perceptible pour quelqu'un qui boit un café de temps en temps ou qui aime surtout la régularité. C'est pour ça que le choix dépend autant de ton palais que de tes habitudes. Entre les deux, la [cafetière à dosettes souples ou ESE](/articles/cafetiere-dosette-souple-ese/) reste une option simple qui n'enferme pas dans une seule marque de capsules.
 
 ## Le vrai coût, capsule après capsule
 

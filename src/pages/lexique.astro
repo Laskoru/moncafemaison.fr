@@ -38,12 +38,12 @@ const faqSchema = {
   })),
 };
 
-const description = `Lexique du café maison : mouture, crema, bars, blooming, cold brew… ${lexique.length} termes expliqués simplement.`;
+const description = `Glossaire du café et du barista : mouture, crema, bars, blooming, extraction, cold brew… ${lexique.length} termes expliqués simplement, avec exemples.`;
 ---
 
-<BaseLayout title="Lexique du café : tous les termes expliqués" description={description} jsonLd={faqSchema}>
+<BaseLayout title="Lexique du café : le glossaire barista de A à Z" description={description} jsonLd={faqSchema}>
   <PageHead
-    title="Lexique du café à la maison"
+    title="Lexique du café : le glossaire du barista"
     lede={`Mouture, crema, bars, blooming, sur-extraction… Le vocabulaire du café peut vite décourager quand on débute. Voici ${lexique.length} termes expliqués en clair, sans jargon de barista, avec un lien vers le comparatif concerné quand il existe.`}
     crumbs={[{ label: 'Accueil', href: '/' }, { label: 'Lexique' }]}
     width="narrow"

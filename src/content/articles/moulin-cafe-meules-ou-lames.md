@@ -66,7 +66,7 @@ Meules coniques ou meules plates ? Pour un usage domestique, la différence est 
 
 ## Comment choisir selon ton café
 
-Si tu bois surtout du **café filtre ou au piston**, un moulin à meules d'entrée de gamme change déjà nettement la tasse : la mouture régulière apporte de la clarté et réduit l'amertume. C'est le meilleur rapport qualité-prix pour progresser.
+Si tu bois surtout du **café filtre ou au piston**, un moulin à meules d'entrée de gamme change déjà nettement la tasse : la mouture régulière apporte de la clarté et réduit l'amertume. C'est le meilleur rapport qualité-prix pour progresser. Pour choisir sans trop dépenser, vois nos [moulins à café pas chers qui valent le coup](/articles/moulin-cafe-pas-cher-qui-vaut-le-coup/).
 
 Si tu fais de l'**espresso**, le moulin à meules n'est pas une option mais une nécessité : sans mouture fine et régulière, aucune machine ne tirera un espresso équilibré. Privilégie un modèle qui descend suffisamment fin avec régularité, un point que nous détaillons dans notre guide du [meilleur moulin à café électrique](/articles/meilleur-moulin-cafe-electrique/).
 

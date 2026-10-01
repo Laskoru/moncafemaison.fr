@@ -1,0 +1,112 @@
+---
+// Recherche interne : index statique Pagefind généré après le build
+// (`astro build && pagefind --site dist`). Page en noindex, aucune requête tierce.
+import BaseLayout from '../layouts/BaseLayout.astro';
+import PageHead from '../components/PageHead.astro';
+import Icon from '../components/Icon.astro';
+---
+
+<BaseLayout
+  title="Rechercher sur le site"
+  description="Recherche dans tous les comparatifs, guides et fiches méthode de Mon Café Maison : machines, moulins, accessoires, dosage et préparation du café."
+  noindex
+>
+  <PageHead
+    title="Rechercher sur le site"
+    lede="Un mot suffit : « moka », « mouture », « détartrage », « V60 »…"
+    crumbs={[{ label: 'Accueil', href: '/' }, { label: 'Recherche' }]}
+    width="narrow"
+  />
+  <section class="container srch">
+    <form class="srch__form" role="search" action="/recherche/" method="get">
+      <label for="srch-q" class="srch__label">Que cherches-tu ?</label>
+      <div class="srch__row">
+        <input id="srch-q" class="srch__input" type="search" name="q" autocomplete="off" placeholder="Ex. dosage café filtre" />
+        <button type="submit" class="btn btn--primary srch__btn"><Icon name="search" size={18} /> Rechercher</button>
+      </div>
+    </form>
+    <p id="srch-status" class="meta srch__status" role="status" aria-live="polite"></p>
+    <ul id="srch-results" class="rows srch__results"></ul>
+    <noscript><p>La recherche a besoin de JavaScript. Tu peux aussi parcourir <a href="/articles/">tous les comparatifs</a>.</p></noscript>
+  </section>
+</BaseLayout>
+
+<script is:inline>
+  (function () {
+    var input = document.getElementById('srch-q');
+    var status = document.getElementById('srch-status');
+    var list = document.getElementById('srch-results');
+    var form = input.form;
+    var pf = null;
+    function esc(s) { return String(s).replace(/[&<>"']/g, function (c) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]; }); }
+    function load() {
+      if (pf) return pf;
+      pf = import('/pagefind/pagefind.js').then(function (m) { m.options({ excerptLength: 22 }); return m; });
+      return pf;
+    }
+    var seq = 0;
+    function run(q) {
+      var id = ++seq;
+      q = q.trim();
+      if (!q) { list.innerHTML = ''; status.textContent = ''; return; }
+      status.textContent = 'Recherche…';
+      load().then(function (m) { return m.search(q); }).then(function (res) {
+        if (id !== seq) return null;
+        return Promise.all(res.results.slice(0, 12).map(function (r) { return r.data(); }));
+      }).then(function (items) {
+        if (!items) return;
+        status.textContent = items.length ? items.length + (items.length > 1 ? ' résultats' : ' résultat') + ' pour « ' + q + ' »' : 'Aucun résultat pour « ' + q + ' ». Essaie un mot plus court ou plus général.';
+        list.innerHTML = items.map(function (d) {
+          return '<li class="srch__item"><a class="srch__link" href="' + esc(d.url) + '">' + esc(d.meta && d.meta.title ? d.meta.title : d.url) + '</a><p class="srch__excerpt">' + d.excerpt + '</p></li>';
+        }).join('');
+      }).catch(function () {
+        status.textContent = 'La recherche est indisponible pour le moment.';
+      });
+    }
+    var t;
+    input.addEventListener('input', function () { clearTimeout(t); t = setTimeout(function () { run(input.value); }, 200); });
+    form.addEventListener('submit', function (e) {
+      e.preventDefault();
+      var url = new URL(location.href); url.searchParams.set('q', input.value.trim());
+      history.replaceState(null, '', url);
+      run(input.value);
+    });
+    var initial = new URLSearchParams(location.search).get('q');
+    if (initial) { input.value = initial; run(initial); } else { input.focus(); }
+  })();
+</script>
+
+<style>
+  .srch { padding-top: 1.6rem; padding-bottom: 3rem; }
+  .srch__label { display: block; margin-bottom: 0.45rem; font-family: var(--font-ui); font-weight: 600; font-size: 0.95rem; }
+  .srch__row { display: flex; gap: 0.6rem; }
+  .srch__input {
+    flex: 1;
+    min-width: 0;
+    min-height: 44px;
+    padding: 0 0.9rem;
+    font: inherit;
+    font-family: var(--font-ui);
+    color: var(--color-text);
+    background: var(--color-bg);
+    border: 1px solid var(--color-border-strong);
+    border-radius: var(--radius);
+  }
+  .srch__input:hover { border-color: var(--color-accent); }
+  .srch__btn { flex-shrink: 0; }
+  .srch__status { margin: 1rem 0 0.4rem; }
+  @media (max-width: 480px) {
+    .srch__row { flex-direction: column; }
+    .srch__btn { width: 100%; justify-content: center; }
+  }
+</style>
+
+<style is:global>
+  /* Résultats injectés en JS : styles globaux, préfixés par l'id de la liste. */
+  #srch-results { list-style: none; margin: 0; padding: 0; }
+  #srch-results .srch__item { padding: 1rem 0; border-bottom: 1px solid var(--color-border); }
+  #srch-results .srch__link { display: inline-block; min-height: 24px; font-family: var(--font-display); font-weight: 700; font-size: 1.15rem; line-height: 1.25; letter-spacing: -0.01em; color: var(--color-text); text-decoration: none; }
+  #srch-results .srch__link:hover { color: var(--color-accent); text-decoration: underline; }
+  #srch-results .srch__excerpt { margin: 0.35rem 0 0; color: var(--color-text-muted); font-size: 0.98rem; line-height: 1.55; }
+  #srch-results mark { background: var(--color-accent-soft); color: var(--color-text); padding: 0 0.1em; border-radius: 2px; }
+</style>

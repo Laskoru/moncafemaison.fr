@@ -1,0 +1,86 @@
+%PDF-1.4
+%âãÏÓ
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 4 0 R /F2 5 0 R >> >> /Contents 6 0 R >>
+endobj
+4 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica /Encoding /WinAnsiEncoding >>
+endobj
+5 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold /Encoding /WinAnsiEncoding >>
+endobj
+6 0 obj
+<< /Length 2785 >>
+stream
+0.65 0.33 0.11 RG 1 w
+BT /F2 20 Tf 56 776 Td (Checklist : un bon café à la maison) Tj ET
+BT /F1 10 Tf 56 746 Td (Mon Café Maison · www.moncafemaison.fr) Tj ET
+0.8 0.76 0.69 RG 56 734 m 539 734 l S 0.65 0.33 0.11 RG
+BT /F2 13 Tf 56 708 Td (1. Choisir sa méthode avant son matériel) Tj ET
+58 685 9 9 re S
+BT /F1 10.5 Tf 76 686 Td (Je sais quelle tasse je veux : grand café filtre, café court et corsé, ou café au lait.) Tj ET
+58 669 9 9 re S
+BT /F1 10.5 Tf 76 670 Td (J'ai choisi la méthode qui la donne : filtre, piston, moka, expresso ou cold brew.) Tj ET
+58 653 9 9 re S
+BT /F1 10.5 Tf 76 654 Td (Comparatif des méthodes : www.moncafemaison.fr/methodes-cafe/) Tj ET
+BT /F2 13 Tf 56 628 Td (2. Doser au gramme près) Tj ET
+58 605 9 9 re S
+BT /F1 10.5 Tf 76 606 Td (Café filtre : environ 7,5 g de café moulu par tasse de 125 ml \(ratio 1 : 17\).) Tj ET
+58 589 9 9 re S
+BT /F1 10.5 Tf 76 590 Td (4 tasses : environ 29,5 g pour 500 ml. 6 tasses : environ 44 g pour 750 ml.) Tj ET
+58 573 9 9 re S
+BT /F1 10.5 Tf 76 574 Td (Repère de la Specialty Coffee Association : 55 g de café par kg d'eau \(environ 1 litre\).) Tj ET
+58 557 9 9 re S
+BT /F1 10.5 Tf 76 558 Td (Je pèse une fois ma cuillère habituelle pour savoir combien de grammes elle contient.) Tj ET
+58 541 9 9 re S
+BT /F1 10.5 Tf 76 542 Td (Calculateur : www.moncafemaison.fr/calculateur-dosage-cafe/) Tj ET
+BT /F2 13 Tf 56 516 Td (3. Moudre juste avant) Tj ET
+58 493 9 9 re S
+BT /F1 10.5 Tf 76 494 Td (Un moulin à meules plutôt qu'à lames : la mouture est plus régulière.) Tj ET
+58 477 9 9 re S
+BT /F1 10.5 Tf 76 478 Td (Mouture moyenne pour le filtre, grossière pour le piston, fine pour la moka,) Tj ET
+BT /F1 10.5 Tf 76 462 Td (très fine et régulière pour l'expresso.) Tj ET
+58 445 9 9 re S
+BT /F1 10.5 Tf 76 446 Td (Grains conservés à l'abri de l'air, de l'humidité, de la chaleur et de la lumière.) Tj ET
+BT /F2 13 Tf 56 420 Td (4. Réussir l'expresso) Tj ET
+58 397 9 9 re S
+BT /F1 10.5 Tf 76 398 Td (Dose pesée, par exemple 18 g de café pour environ 36 g dans la tasse.) Tj ET
+58 381 9 9 re S
+BT /F1 10.5 Tf 76 382 Td (Tassage régulier, extraction autour de 25 à 30 secondes.) Tj ET
+58 365 9 9 re S
+BT /F1 10.5 Tf 76 366 Td (Trop rapide et acide : mouture plus fine. Trop lent et amer : mouture plus grosse.) Tj ET
+BT /F2 13 Tf 56 340 Td (5. Entretenir) Tj ET
+58 317 9 9 re S
+BT /F1 10.5 Tf 76 318 Td (Je détartre selon la notice de ma machine, plus souvent si mon eau est calcaire.) Tj ET
+58 301 9 9 re S
+BT /F1 10.5 Tf 76 302 Td (Dureté de l'eau par commune : www.moncafemaison.fr/durete-eau-cafe/) Tj ET
+58 285 9 9 re S
+BT /F1 10.5 Tf 76 286 Td (Je nettoie le moulin et le porte-filtre régulièrement.) Tj ET
+BT /F1 9.5 Tf 56 252 Td (Ces repères sont des points de départ : ajuste d'un ou deux grammes selon ton goût.) Tj ET
+
+endstream
+endobj
+7 0 obj
+<< /Title (Checklist : un bon cafe a la maison) /Author (Mon Cafe Maison) /Producer (scripts/generate-checklist.mjs) >>
+endobj
+xref
+0 8
+0000000000 65535 f 
+0000000015 00000 n 
+0000000064 00000 n 
+0000000121 00000 n 
+0000000257 00000 n 
+0000000354 00000 n 
+0000000456 00000 n 
+0000003293 00000 n 
+trailer
+<< /Size 8 /Root 1 0 R /Info 7 0 R >>
+startxref
+3428
+%%EOF

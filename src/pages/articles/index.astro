@@ -3,14 +3,18 @@ import { getCollection } from 'astro:content';
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import PageHead from '../../components/PageHead.astro';
 import ArticleCard from '../../components/ArticleCard.astro';
-import { siteConfig } from '../../siteConfig';
+import { itemList } from '../../lib/schema';
 
 const allArticles = (await getCollection('articles', ({ data }) => !data.draft)).sort(
   (a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf()
 );
 ---
 
-<BaseLayout title="Tous les articles" description={`Tous les articles de ${siteConfig.name}, du plus récent au plus ancien : guides pratiques, comparatifs et conseils pour bien choisir, ${siteConfig.tagline.charAt(0).toLowerCase() + siteConfig.tagline.slice(1)}.`}>
+<BaseLayout
+  title="Comparatifs café : machines, moulins, accessoires"
+  description="Tous nos comparatifs et guides café, du plus récent au plus ancien : machines, moulins, accessoires, dosage et méthodes de préparation à la maison."
+  jsonLd={itemList('Tous les comparatifs et guides', Astro.site, allArticles.map((a) => ({ id: a.id, title: a.data.title })))}
+>
   <PageHead
     title="Tous les comparatifs et guides"
     lede="Du plus récent au plus ancien : machines, moulins, accessoires et méthodes de préparation."

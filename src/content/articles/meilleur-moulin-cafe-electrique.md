@@ -63,7 +63,7 @@ Si tu ne devais retenir qu'une chose : **privilégie un moulin à meules**. C'es
 
 Pour un usage **polyvalent** (filtre, French press, et parfois espresso), un moulin à meules avec une large plage de réglages couvre tous les cas sans se ruiner. Pour un usage **orienté espresso**, oriente-toi vers un modèle réputé régulier dans les moutures fines, quitte à avoir un peu moins de crans mais mieux maîtrisés.
 
-Inutile de viser un moulin professionnel hors de prix pour débuter : un bon moulin à meules d'entrée/milieu de gamme apporte déjà l'essentiel du bénéfice.
+Inutile de viser un moulin professionnel hors de prix pour débuter : un bon moulin à meules d'entrée/milieu de gamme apporte déjà l'essentiel du bénéfice. Si ton budget est serré, notre sélection de [moulins pas chers qui valent le coup](/articles/moulin-cafe-pas-cher-qui-vaut-le-coup/) montre ce qu'on peut attendre en entrée de gamme.
 
 ## Meules plates ou coniques, acier ou céramique ?
 
@@ -86,7 +86,7 @@ Le bon réglage se trouve en goûtant, mais voici d'où partir :
 | French press | Grossière | Chapelure grossière |
 | Cold brew | Très grossière | Poivre concassé |
 
-Sur un moulin polyvalent, note le cran qui te convient pour chaque méthode : tu y reviendras sans tâtonner.
+Sur un moulin polyvalent, note le cran qui te convient pour chaque méthode : tu y reviendras sans tâtonner. Pour la moka, qui demande une mouture fine sans être poudreuse, les gestes sont détaillés dans [réussir son café à la cafetière italienne](/articles/reussir-cafetiere-italienne-moka/).
 
 ## La rétention, ou pourquoi ton premier café du matin est moins bon
 

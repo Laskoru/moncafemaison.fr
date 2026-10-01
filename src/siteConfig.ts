@@ -9,7 +9,7 @@ export const siteConfig = {
   name: 'Mon Café Maison',
   tagline: 'Faire un bon café chez soi, sans se tromper de matériel',
   description:
-    "Mon Café Maison aide à choisir le bon matériel pour faire un excellent café à la maison : machines, moulins et accessoires, comparatifs et conseils d'achat.",
+    "Mon Café Maison t'aide à faire un bon café chez toi : comparatifs de machines, moulins et accessoires, guides espresso et filtre, calculateur de dosage.",
   lang: 'fr',
   locale: 'fr_FR',
 
@@ -26,6 +26,11 @@ export const siteConfig = {
   amazon: {
     enabled: true,
     tag: 'moncafemaison-21',
+    // Notes étoilées et nombres d'avis Amazon : le contrat Partenaires n'autorise leur
+    // affichage que s'ils proviennent de l'API officielle (PA-API), rafraîchie toutes les
+    // 24 h. Les valeurs de src/data/amazon-ratings.json sont aspirées : rien n'est affiché
+    // tant que ce drapeau reste à false.
+    showRatings: false,
   },
 
   // Email de contact public (mentions légales, confidentialité, contact)
