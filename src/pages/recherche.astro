@@ -95,14 +95,18 @@ import Icon from '../components/Icon.astro';
   .srch__input:hover { border-color: var(--color-accent); }
   .srch__btn { flex-shrink: 0; }
   .srch__status { margin: 1rem 0 0.4rem; }
-  .srch__results { list-style: none; margin: 0; padding: 0; }
-  .srch__item { padding: 1rem 0; border-bottom: 1px solid var(--color-border); }
-  .srch__link { display: inline-block; min-height: 24px; font-family: var(--font-display); font-weight: 700; font-size: 1.15rem; line-height: 1.25; text-decoration: none; }
-  .srch__link:hover { text-decoration: underline; }
-  .srch__excerpt { margin: 0.35rem 0 0; color: var(--color-text-muted); font-size: 0.98rem; }
-  .srch__excerpt :global(mark) { background: var(--color-accent-soft); color: var(--color-text); padding: 0 0.1em; border-radius: 2px; }
   @media (max-width: 480px) {
     .srch__row { flex-direction: column; }
     .srch__btn { width: 100%; justify-content: center; }
   }
+</style>
+
+<style is:global>
+  /* Résultats injectés en JS : styles globaux, préfixés par l'id de la liste. */
+  #srch-results { list-style: none; margin: 0; padding: 0; }
+  #srch-results .srch__item { padding: 1rem 0; border-bottom: 1px solid var(--color-border); }
+  #srch-results .srch__link { display: inline-block; min-height: 24px; font-family: var(--font-display); font-weight: 700; font-size: 1.15rem; line-height: 1.25; letter-spacing: -0.01em; color: var(--color-text); text-decoration: none; }
+  #srch-results .srch__link:hover { color: var(--color-accent); text-decoration: underline; }
+  #srch-results .srch__excerpt { margin: 0.35rem 0 0; color: var(--color-text-muted); font-size: 0.98rem; line-height: 1.55; }
+  #srch-results mark { background: var(--color-accent-soft); color: var(--color-text); padding: 0 0.1em; border-radius: 2px; }
 </style>

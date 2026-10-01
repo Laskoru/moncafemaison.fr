@@ -22,7 +22,7 @@ const breadcrumbSchema = {
 ---
 
 <script type="application/ld+json" set:html={JSON.stringify(breadcrumbSchema)} />
-<nav class="breadcrumbs" aria-label="Fil d'Ariane">
+<nav class="breadcrumbs" aria-label="Fil d'Ariane" data-pagefind-ignore>
   <ol>
     {items.map((item, i) => (
       <li>

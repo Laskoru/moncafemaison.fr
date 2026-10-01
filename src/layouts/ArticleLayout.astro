@@ -160,7 +160,7 @@ const jsonLdArticle = [articleSchema, ...(faqSchema ? [faqSchema] : [])];
 
       <header class="art__head">
         <h1 class="art__title">{title}</h1>
-        <p class="meta meta-row art__meta">
+        <p class="meta meta-row art__meta" data-pagefind-ignore>
           <span>Par <a href="/auteur/">{author ?? siteConfig.author}</a></span>
           <time datetime={pubDate.toISOString().slice(0, 10)}>{dateFormatter.format(pubDate)}</time>
           {updatedDate && <span>Mis à jour le <time datetime={updatedDate.toISOString().slice(0, 10)}>{dateFormatter.format(updatedDate)}</time></span>}
