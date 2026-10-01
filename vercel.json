@@ -56,11 +56,28 @@
       "has": [
         {
           "type": "host",
-          "value": "(.*)\\.vercel\\.app"
+          "value": "moncafemaison.fr"
         }
       ],
       "destination": "https://www.moncafemaison.fr/$1",
-      "permanent": true
+      "statusCode": 301
+    },
+    {
+      "source": "/(.*)",
+      "has": [
+        {
+          "type": "host",
+          "value": "(.*)\\.vercel\\.app"
+        }
+      ],
+      "missing": [
+        {
+          "type": "host",
+          "value": "(.*)-git-(.*)"
+        }
+      ],
+      "destination": "https://www.moncafemaison.fr/$1",
+      "statusCode": 301
     },
     {
       "source": "/articles/aeropress-avis-et-alternatives/",
