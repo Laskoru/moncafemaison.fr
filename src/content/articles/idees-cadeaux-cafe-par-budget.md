@@ -2,7 +2,7 @@
 title: "Idées cadeaux café : notre sélection par budget"
 description: "Petit prix, milieu de gamme ou grand cadeau : notre sélection d'idées cadeaux café pour trouver le bon présent selon le budget disponible."
 pubDate: 2026-09-24
-updatedDate: 2026-09-24
+updatedDate: 2026-10-01
 author: "Hugo B."
 pinHook: "Le cadeau café *parfait*, à chaque budget"
 pinSub: "Notre sélection, du petit prix au grand cadeau."
@@ -10,6 +10,13 @@ keywords: ["idée cadeau café", "cadeau amateur de café", "cadeau pour buveur 
 category: "accessoires"
 coverAlt: "Moulin à café manuel en bois dans une boîte cadeau garnie de paille, avec un cœur de grains de café et une cuillère"
 draft: false
+sources:
+  - label: "National Coffee Association, « Coffee Storage and Shelf Life »"
+    url: "https://www.aboutcoffee.org/beans/storage-and-shelf-life/"
+  - label: "Service-Public.gouv.fr, « Soldes : règles à respecter » (échange et remboursement en magasin)"
+    url: "https://www.service-public.gouv.fr/particuliers/vosdroits/F24037"
+  - label: "Service-Public.gouv.fr, « Achat à distance : droit de rétractation du consommateur »"
+    url: "https://www.service-public.gouv.fr/particuliers/vosdroits/F10485"
 faq:
   - question: "Quel budget prévoir pour un cadeau café qui fait vraiment plaisir ?"
     answer: "Tu peux faire un très bon cadeau dès une vingtaine d'euros si tu cibles un accessoire utile plutôt qu'un gadget : filtres réutilisables, balance de précision ou boîte hermétique changent réellement le quotidien de la personne. Le prix compte moins que l'adéquation avec son matériel actuel et ses habitudes de préparation."
@@ -43,7 +50,7 @@ Autre avantage à ne pas négliger : contrairement à un vêtement ou un objet d
 
 ### Moins de 20 € : l'objet utile qui fait toujours plaisir
 
-À ce niveau de budget, viser l'utile plutôt que le décoratif reste la meilleure stratégie. Des [filtres réutilisables](/articles/filtres-reutilisables-cafe/) pour cafetière filtre, une boîte hermétique pour préserver la fraîcheur des grains, ou un petit doseur de précision sont des objets que personne ne s'achète spontanément, mais que tout le monde utilise dès qu'il les reçoit.
+À ce niveau de budget, viser l'utile plutôt que le décoratif reste la meilleure stratégie. Des [filtres réutilisables](/articles/filtres-reutilisables-cafe/) pour cafetière filtre, une boîte hermétique pour préserver la fraîcheur des grains (l'air, l'humidité, la chaleur et la lumière sont leurs ennemis), ou un petit doseur de précision sont des objets que personne ne s'achète spontanément, mais que tout le monde utilise dès qu'il les reçoit.
 
 Ce type de cadeau fonctionne particulièrement bien pour un buveur de café déjà bien équipé, à qui il serait difficile d'offrir un appareil sans faire doublon avec son matériel existant.
 
@@ -60,7 +67,7 @@ C'est la fourchette la plus intéressante pour un cadeau qui change réellement 
 
 À ce budget, tu peux offrir un vrai outil de progression plutôt qu'un simple accessoire de confort. Un [moulin à café manuel](/articles/meilleur-moulin-cafe-manuel/) de qualité est une excellente idée pour qui voyage souvent ou aime la mouture fraîche sans le bruit d'un moulin électrique. Une [cafetière à piston](/articles/meilleure-cafetiere-piston-french-press/) haut de gamme, en verre borosilicaté et filtre fin, apporte un vrai gain de régularité par rapport à un modèle d'entrée de gamme.
 
-Une [balance de précision](/articles/balance-cafe-precision/) avec minuterie, bien moins chère (souvent entre 20 et 60 €), complète bien ces cadeaux et s'adresse à toute personne qui prépare son café en méthode filtre : c'est l'outil qui permet de reproduire un bon dosage tasse après tasse, plutôt que d'y aller au jugé.
+Une [balance de précision](/articles/balance-cafe-precision/) avec minuterie, généralement moins chère qu'un moulin, complète bien ces cadeaux et s'adresse à toute personne qui prépare son café en méthode filtre : c'est l'outil qui permet de reproduire un bon dosage tasse après tasse, plutôt que d'y aller au jugé.
 
 ### 150 € et plus : le cadeau qui change le quotidien
 
@@ -81,6 +88,8 @@ S'il ne fallait retenir qu'une seule idée toutes catégories confondues, ce ser
 **Pense à l'entretien qu'implique le cadeau.** Une machine ou un moulin demande un minimum d'entretien régulier ; si la personne n'a pas le temps ou l'envie de s'en occuper, un accessoire plus simple sera davantage utilisé sur la durée.
 
 **En cas de doute sur le budget, reste dans une fourchette moyenne.** Un accessoire entre 20 et 60 € reste le choix le plus sûr : assez qualitatif pour faire plaisir, sans le risque d'un mauvais choix de machine trop spécifique aux goûts de la personne.
+
+**Pense à l'échange possible.** En magasin, un commerçant n'est pas obligé d'échanger ou de rembourser un produit qui n'a pas de défaut : demande sa politique d'échange et un ticket cadeau. En ligne, l'acheteur dispose en principe de 14 jours pour se rétracter (avec des exceptions, et des frais de retour parfois à sa charge).
 
 **Anticipe les délais de livraison avant les fêtes.** Les périodes de forte demande rallongent parfois les délais sur certains modèles très demandés, en particulier les machines complètes. Commander quelques semaines à l'avance évite le stress de dernière minute et laisse le temps de comparer plusieurs options si le premier choix n'est plus disponible dans les temps.
 
