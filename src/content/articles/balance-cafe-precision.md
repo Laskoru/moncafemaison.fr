@@ -54,7 +54,7 @@ Peser le café (et l'eau) permet de fixer un ratio et de le retrouver à chaque 
 
 ## Comment choisir selon ton usage
 
-Pour un usage **polyvalent** (filtre, French press, espresso occasionnel), une balance 0,1 g avec minuterie et bon plateau couvre tous les besoins et rend service au-delà du café.
+Pour un usage **polyvalent** (filtre, French press, espresso occasionnel), une balance 0,1 g avec minuterie et bon plateau couvre tous les besoins et rend service au-delà du café. C'est aussi un cadeau utile et peu coûteux pour un amateur de café ; d'autres pistes dans nos [idées cadeaux café par budget](/articles/idees-cadeaux-cafe-par-budget/).
 
 Pour un usage **orienté espresso**, privilégie un modèle compact qui se glisse sous le porte-filtre et se recharge : la place sur le plateau de la machine est souvent comptée.
 
@@ -75,7 +75,7 @@ Retiens un principe : on pèse **l'eau aussi**, pas seulement le café. 1 ml d'e
 
 ## Utiliser la balance sous une machine expresso
 
-C'est l'usage le plus exigeant. Pose la balance sur le plateau d'égouttage, la tasse dessus, fais la **tare**, puis lance l'extraction et le chrono **en même temps** (les balances avec minuterie automatique démarrent à la première goutte). Arrête l'extraction quand la balance approche du poids cible **moins 2 à 3 grammes** : le café continue de couler une seconde ou deux après l'arrêt de la pompe. Note le trio « dose, poids en tasse, temps » : c'est lui que tu ajustes en changeant la mouture, comme on l'explique dans [réussir son espresso à la maison](/articles/reussir-espresso-maison/). Si la balance ne passe pas sous le porte-filtre, un modèle **fin** (moins de 2 cm) ou une petite balance « de poche » pour bijoutier dépanne très bien, à condition qu'elle réagisse vite.
+C'est l'usage le plus exigeant. Pose la balance sur le plateau d'égouttage, la tasse dessus, fais la **tare**, puis lance l'extraction et le chrono **en même temps** (les balances avec minuterie automatique démarrent à la première goutte). Arrête l'extraction quand la balance approche du poids cible **moins 2 à 3 grammes** : le café continue de couler une seconde ou deux après l'arrêt de la pompe. Note le trio « dose, poids en tasse, temps » : c'est lui que tu ajustes en changeant la mouture, comme on l'explique dans [réussir son espresso à la maison](/articles/reussir-espresso-maison/). Si la balance ne passe pas sous le porte-filtre, un modèle **fin** (moins de 2 cm) ou une petite balance « de poche » pour bijoutier dépanne très bien, à condition qu'elle réagisse vite. Une fois la dose pesée, le tassage fait le reste : notre guide du [tamper](/articles/tamper-espresso-bien-choisir/) explique comment bien le choisir.
 
 ## Les erreurs qui faussent la pesée
 

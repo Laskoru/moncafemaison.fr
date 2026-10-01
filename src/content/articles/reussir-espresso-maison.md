@@ -43,7 +43,7 @@ On raisonne en **grammes**, pas en cuillères. Une dose classique pour un panier
 
 ## 3. Le tassage : régulier avant d'être fort
 
-Une fois la mouture dans le porte-filtre, on **tasse** pour créer une galette homogène que l'eau traversera uniformément. Le geste clé n'est pas la force, c'est la **régularité** : un tassage bien à plat, sans pencher, avec une pression constante d'une fois sur l'autre. Une galette de travers crée des « chemins préférentiels » où l'eau passe trop vite, et l'extraction devient inégale.
+Une fois la mouture dans le porte-filtre, on **tasse** pour créer une galette homogène que l'eau traversera uniformément. Le geste clé n'est pas la force, c'est la **régularité** : un tassage bien à plat, sans pencher, avec une pression constante d'une fois sur l'autre. Une galette de travers crée des « chemins préférentiels » où l'eau passe trop vite, et l'extraction devient inégale. Pour choisir l'outil (diamètre, poids, poignée), vois notre guide du [tamper pour espresso](/articles/tamper-espresso-bien-choisir/).
 
 ## 4. Le temps et le ratio : la preuve dans la tasse
 

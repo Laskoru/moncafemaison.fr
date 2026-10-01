@@ -88,7 +88,7 @@ Une automatique demande peu d'efforts, mais des efforts **réguliers** :
 - **Chaque mois environ** : une pastille de dégraissage dans le cycle de nettoyage.
 - **Selon l'eau** : le détartrage, que la machine réclame elle-même. Avec un filtre à eau dans le réservoir, la fréquence baisse fortement.
 
-Compte un petit budget annuel en consommables (pastilles, détartrant, filtres). C'est négligeable face à l'économie réalisée sur les capsules, mais c'est ce qui décide de la durée de vie de la machine.
+Compte un petit budget annuel en consommables (pastilles, détartrant, filtres). C'est négligeable face à l'économie réalisée sur les capsules, mais c'est ce qui décide de la durée de vie de la machine. Et si une flaque apparaît sous la machine, commence par notre diagnostic [machine à café qui fuit par le bas](/articles/machine-cafe-qui-fuit-par-le-bas/) avant d'appeler le SAV.
 
 ## Quel grain choisir pour une automatique ?
 
@@ -96,7 +96,7 @@ Deux types de grains posent problème dans ces machines : les torréfactions **t
 
 ## Mieux vaut simple que cher
 
-Une machine à café à grains est l'un des meilleurs investissements pour qui veut un café maison de qualité au quotidien. Le bon modèle n'est pas le plus cher, mais celui dont l'entretien est simple et l'usage intuitif : c'est ce qui garantit que tu t'en serviras vraiment tous les jours, pendant des années.
+Une machine à café à grains est l'un des meilleurs investissements pour qui veut un café maison de qualité au quotidien. Le bon modèle n'est pas le plus cher, mais celui dont l'entretien est simple et l'usage intuitif : c'est ce qui garantit que tu t'en serviras vraiment tous les jours, pendant des années. Si tu n'es pas pressé, c'est aussi l'une des catégories où le [Black Friday](/articles/black-friday-cafe-guide-achat/) peut valoir le coup d'attendre, à condition de vérifier le prix de référence.
 
 ## Pour aller plus loin
 

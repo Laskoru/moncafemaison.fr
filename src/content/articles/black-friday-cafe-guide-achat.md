@@ -63,7 +63,7 @@ Un [moulin à café électrique](/articles/meilleur-moulin-cafe-electrique/) per
 
 ## Ce qui ne vaut généralement pas le coup d'attendre
 
-Les petits accessoires (filtres, tamper, boîtes hermétiques, petites balances) coûtent déjà peu cher toute l'année, donc l'écart entre le prix normal et le prix « Black Friday » y est souvent minime, même quand le pourcentage affiché paraît impressionnant. Sur un article à 15 ou 20 €, une remise de 20 % ne représente que quelques euros : pas de quoi repousser un achat utile de plusieurs semaines si tu en as besoin maintenant.
+Les petits accessoires (filtres, tamper, boîtes hermétiques, petites balances) coûtent déjà peu cher toute l'année, donc l'écart entre le prix normal et le prix « Black Friday » y est souvent minime, même quand le pourcentage affiché paraît impressionnant. Sur un article à 15 ou 20 €, une remise de 20 % ne représente que quelques euros : pas de quoi repousser un achat utile de plusieurs semaines si tu en as besoin maintenant. Si tu cherches plutôt un présent pour Noël, nos [idées cadeaux café par budget](/articles/idees-cadeaux-cafe-par-budget/) trient les options du petit accessoire à la machine.
 
 Il en va de même pour les modèles d'entrée de gamme dans toutes les catégories : leur marge est déjà réduite en temps normal, donc la remise réelle y est souvent plus faible que sur les modèles plus chers, même si l'étiquette affiche un gros pourcentage. Le piège classique consiste à se laisser convaincre par un chiffre de réduction élevé sur un produit qui, en valeur absolue, ne bouge presque pas.
 

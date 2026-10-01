@@ -96,7 +96,7 @@ Chaque cran s'appelle un « clic ». Plus il y a de clics par tour, plus le rég
 
 ## En voyage et en camping
 
-Le moulin manuel est le compagnon naturel du camping et du van, mais l'humidité est son ennemie : des meules qui restent humides rouillent, et une mouture qui sèche dans le mécanisme le bloque. Vide-le et brosse-le après usage, range-le dans sa housse, et garde tes grains dans un sac hermétique plutôt que dans le réservoir. Associé à une [cafetière à piston](/articles/meilleure-cafetiere-piston-french-press/) en inox ou à une [moka](/articles/cafetiere-italienne-moka/), il permet un vrai café n'importe où, bien meilleur que le soluble, pour un encombrement à peine supérieur.
+Le moulin manuel est le compagnon naturel du camping et du van, mais l'humidité est son ennemie : des meules qui restent humides rouillent, et une mouture qui sèche dans le mécanisme le bloque. Vide-le et brosse-le après usage, range-le dans sa housse, et garde tes grains dans un sac hermétique plutôt que dans le réservoir. Associé à une [cafetière à piston](/articles/meilleure-cafetiere-piston-french-press/) en inox ou à une [moka](/articles/cafetiere-italienne-moka/), il permet un vrai café n'importe où, bien meilleur que le soluble, pour un encombrement à peine supérieur. Côté préparation, un moulin manuel s'associe bien avec une [AeroPress](/articles/aeropress-test-alternatives/), compacte et facile à glisser dans un sac.
 
 ## Le moulin manuel qu'il te faut
 
