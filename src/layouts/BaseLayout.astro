@@ -167,7 +167,7 @@ const jsonLdBlocks = [organizationSchema, websiteSchema, ...(jsonLd ? (Array.isA
   <body>
     <a class="skip-link" href="#main">Aller au contenu</a>
     <Header />
-    <main id="main">
+    <main id="main" data-pagefind-body={noindex ? undefined : ''}>
       <slot />
     </main>
     <Footer />
