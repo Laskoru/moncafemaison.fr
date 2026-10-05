@@ -109,3 +109,4 @@ Le moulin manuel est le compagnon naturel du camping et du van, mais l'humidité
 - [Moulin à meules ou à lames ?](/articles/moulin-cafe-meules-ou-lames/)
 - [La cafetière à piston (French press)](/articles/meilleure-cafetiere-piston-french-press/)
 - [La cafetière italienne (moka)](/articles/cafetiere-italienne-moka/)
+- [Moulin à café pour cafetière italienne : lequel choisir](/articles/moulin-cafe-pour-cafetiere-italienne/)
