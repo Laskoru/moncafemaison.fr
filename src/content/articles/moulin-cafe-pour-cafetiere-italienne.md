@@ -8,7 +8,6 @@ pinHook: "Le bon *moulin* pour ta moka"
 pinSub: "Manuel ou électrique, la mouture qui décide du résultat."
 keywords: ["moulin à café pour cafetière italienne", "moulin pour moka", "mouture cafetière italienne", "moulin manuel ou électrique moka"]
 category: "moulins"
-coverImage: "https://images.unsplash.com/photo-1769887205305-0666756c2138?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1600"
 coverAlt: "Café fraîchement moulu rempli à ras bord dans le filtre d'une cafetière italienne, prêt pour la préparation"
 draft: false
 sources:
