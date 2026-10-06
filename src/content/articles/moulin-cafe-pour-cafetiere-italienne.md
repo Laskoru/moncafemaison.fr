@@ -2,7 +2,7 @@
 title: "Moulin à café pour cafetière italienne : lequel choisir"
 description: "Quel moulin à café pour cafetière italienne choisir ? La bonne mouture pour la moka, meules coniques, manuel ou électrique : nos critères et sélection"
 pubDate: 2026-10-05
-updatedDate: 2026-10-05
+updatedDate: 2026-10-06
 author: "Hugo B."
 pinHook: "Le bon *moulin* pour ta moka"
 pinSub: "Manuel ou électrique, la mouture qui décide du résultat."
@@ -21,7 +21,7 @@ sources:
     url: "https://www.aboutcoffee.org/brewing/espresso/"
 faq:
   - question: "Faut-il régler son moulin différemment pour la moka que pour le filtre ?"
-    answer: "Oui, un cran plus fin que pour un café filtre classique. La moka demande une mouture moyenne, proche du sel fin, entre la finesse de l'espresso et le grain plus grossier du filtre ou du piston. Sur un moulin à crans numérotés, commence au réglage indiqué pour la cafetière italienne dans la notice si elle en donne un, sinon pars du milieu de la plage et ajuste selon le temps de montée."
+    answer: "Oui, un cran plus fin que pour un café filtre classique. La moka demande une mouture un peu plus grossière que celle de l'espresso (comparée à du sel fin), et plus fine que celle du filtre ou du piston. Sur un moulin à crans numérotés, commence au réglage indiqué pour la cafetière italienne dans la notice si elle en donne un, sinon pars du milieu de la plage et ajuste selon le temps de montée."
   - question: "Un moulin pas cher suffit-il pour la moka, ou faut-il viser un modèle d'espresso ?"
     answer: "Un moulin d'entrée de gamme à meules suffit largement, puisque la moka ne demande pas la précision extrême de l'espresso. L'important est d'avoir des meules (jamais des lames) et une plage de réglage qui couvre bien la zone moyenne. Un moulin pensé surtout pour l'espresso fonctionne aussi pour la moka, mais c'est un investissement inutile si tu ne fais que du café italien."
   - question: "Le moulin manuel abîme-t-il la mouture pour la moka plus qu'un moulin électrique ?"
@@ -47,7 +47,7 @@ La moka fonctionne par pression de vapeur : l'eau chauffée dans la base est pou
 
 ## Quelle mouture pour un moulin à café pour cafetière italienne
 
-Bialetti, qui fabrique la moka depuis 1933, est explicite sur ce point dans la documentation de son propre moulin manuel : le café doit avoir une mouture spécifique pour la moka, pas trop fine. En pratique, cela correspond à une texture proche du sel fin, nettement plus grossière que la mouture espresso (comparée au sel fin également, mais plus tassée et plus fine selon les repères de la National Coffee Association) et plus fine que celle d'un café filtre ou d'une cafetière à piston.
+En pratique, la moka se moud un peu plus grossièrement que pour l'espresso, une mouture que la National Coffee Association compare à du sel fin. Elle reste plus fine que celle d'un café filtre ou d'une cafetière à piston.
 
 Si tu achètes du café déjà moulu, cherche une mention « cafetière italienne » ou « moka » sur le paquet plutôt que « espresso », qui est presque toujours trop fin pour une moka et finit par boucher le filtre. Mais moudre toi-même juste avant de préparer le café reste la meilleure option : la mouture s'oxyde vite, et un café moulu à l'avance perd ses arômes en quelques jours.
 
@@ -59,7 +59,7 @@ Comme pour toute méthode de café, un moulin à lames est à exclure pour la mo
 
 La moka ne demandant pas la finesse extrême de l'espresso, les deux types de moulins font parfaitement le travail. Le choix dépend surtout de ton rythme de consommation.
 
-**Le moulin manuel à meules** convient très bien à un usage occasionnel ou à une petite cafetière (3 tasses). Bialetti vend d'ailleurs son propre moulin manuel à meules céramiques avec un repère de dosage prévu pour les cafetières de 1, 3 et 6 tasses, ce qui confirme que l'usage manuel reste pertinent pour cette méthode. Le format 1Zpresso J, référence du moulin manuel à crans externes, ajuste la finesse par rotations complètes de 0,75 mm divisées en 30 clics : largement assez précis pour trouver le bon réglage moka en quelques essais, pour un effort de quelques dizaines de secondes de manivelle.
+**Le moulin manuel à meules** convient très bien à un usage occasionnel ou à une petite cafetière (3 tasses). Bialetti vend d'ailleurs son propre moulin manuel, avec un repère de dosage prévu pour les cafetières de 1, 3 et 6 tasses ; attention, d'après sa fiche il moud avec des lames en inox, pas avec des meules, ce qui le rend moins régulier qu'un modèle à meules. Ce repère montre tout de même que la marque pense le moulin manuel pour cette méthode. Le 1Zpresso J, à réglage interne, compte 30 clics par tour : largement assez précis pour trouver le bon réglage moka en quelques essais, pour un effort de quelques dizaines de secondes de manivelle.
 
 **Le moulin électrique à meules** devient pertinent dès que tu prépares plusieurs cafés par jour ou que ta moka est une grande taille (6 à 9 tasses) : la mouture sort en quelques secondes, sans effort, et le réservoir évite de peser chaque dose à la main. C'est aussi le choix le plus simple si tu alternes moka et café filtre dans la semaine, un moulin électrique polyvalent couvrant les deux sans difficulté (voir notre guide du [meilleur moulin à café électrique](/articles/meilleur-moulin-cafe-electrique/)).
 
@@ -113,7 +113,7 @@ Un moulin électrique avec minuterie ou dosage réglable simplifie cette étape 
 
 - **Pour un usage régulier et sans effort** : un moulin électrique à meules coniques avec plusieurs réglages couvre la moka sans difficulté, et s'adapte au filtre si tu changes de méthode un jour.
 - **Pour un usage occasionnel, une petite moka ou le voyage** : un moulin manuel à meules fait exactement le même travail, pour un budget plus réduit et quelques secondes de manivelle en plus.
-- **Dans tous les cas** : une mouture moyenne, proche du sel fin, ni tassée ni trop fine, reste le seul vrai critère qui sépare une moka ronde d'une moka amère.
+- **Dans tous les cas** : une mouture un peu plus grossière que pour l'espresso, sans tasser, reste le seul vrai critère qui sépare une moka ronde d'une moka amère.
 
 ## Pour aller plus loin
 

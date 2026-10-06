@@ -2,7 +2,7 @@
 title: "Machine à café qui fuit par le bas : que faire ?"
 description: "Machine à café qui fuit par le bas : diagnostic selon le type (grain, filtre, capsules), réservoir, bac d'égouttage, calcaire, et comment la stopper."
 pubDate: 2026-10-01
-updatedDate: 2026-10-01
+updatedDate: 2026-10-06
 author: "Hugo B."
 keywords: ["machine à café qui fuit par le bas", "machine à grain philips qui fuit par le bas", "cafetière qui fuit par le bas", "machine à café fuite réservoir", "machine à capsules qui fuit"]
 category: "machines"
@@ -14,13 +14,15 @@ sources:
     url: "https://www.philips.ca/fr/c-t/XC000004110/ma-machine-espresso-philips-fuit"
   - label: "De'Longhi Support, « There is water in the drip tray »"
     url: "https://support.delonghi.com/en/la-specialista-arte-evo-cold-brew-technology/There-is-water-in-the-drip-tray-00a9"
-  - label: "Nespresso, mode d'emploi C100/D90"
+  - label: "Nespresso, mode d'emploi C100"
     url: "https://www.nespresso.com/fileadmin/fr-fr/_img/manuals/C100_Zone2_FR.pdf"
+  - label: "Service-Public.fr, « Achat d'un produit : garantie légale de conformité »"
+    url: "https://www.service-public.gouv.fr/particuliers/vosdroits/F11094"
 faq:
   - question: "Une machine à café qui fuit un peu peut-elle continuer à être utilisée ?"
-    answer: "Tant que l'eau ne touche pas la prise, le cordon ou la base électrique, tu peux généralement finir le café en cours, mais il faut ensuite débrancher la machine et éponger avant de relancer un cycle. Une fuite qui s'aggrave à chaque tasse signale souvent un joint ou un circuit interne endommagé, pas seulement un mauvais positionnement du réservoir ou du bac."
+    answer: "Non : débranche la machine dès qu'une fuite apparaît. Le mode d'emploi Nespresso demande de ne pas utiliser un appareil qui ne fonctionne pas correctement et, en cas d'urgence, de retirer immédiatement la fiche de la prise. Éponge et trouve la cause avant de relancer un cycle. Une fuite qui s'aggrave à chaque tasse signale souvent un joint ou un circuit interne endommagé, pas seulement un mauvais positionnement du réservoir ou du bac."
   - question: "Une fuite est-elle couverte par la garantie du fabricant ?"
-    answer: "Si la machine a moins de deux ans et que la fuite ne vient pas d'une mauvaise manipulation (bac cassé en forçant, détartrant non adapté), elle relève en général de la garantie légale et le fabricant propose une réparation ou un échange. Contacte le service client avec la date d'achat et une description précise de la fuite avant de démonter la machine, un démontage non autorisé peut annuler la prise en charge."
+    answer: "Pendant deux ans après la livraison, une fuite qui ne vient pas d'une mauvaise manipulation (bac cassé en forçant, détartrant non adapté) peut relever de la garantie légale de conformité. Celle-ci est due par le vendeur, pas par le fabricant : c'est donc vers le magasin ou le site marchand qu'il faut se tourner. Le fabricant, lui, n'intervient qu'au titre de sa garantie commerciale, facultative, si elle existe. Dans les deux cas, garde la preuve d'achat et décris précisément la fuite avant de démonter quoi que ce soit."
   - question: "Comment savoir si la fuite vient du calcaire plutôt que d'un joint usé ?"
     answer: "Un circuit entartré fait plutôt suinter au niveau des raccords internes qu'au niveau du réservoir ou du bac, et s'accompagne souvent d'un café plus lent à sortir après plusieurs semaines sans détartrage. Un détartrage complet suffit alors à arrêter la fuite, contrairement à un joint usé qui continue de fuir même une fois le circuit détartré."
 draft: false
@@ -55,7 +57,7 @@ Un test simple permet de confirmer un réservoir fissuré : le remplir d'eau, le
 
 ## Machine à capsules qui fuit (Nespresso, Dolce Gusto...)
 
-Sur une machine à capsules, la fuite se situe presque toujours au niveau du logement de la capsule, pas du réservoir. Le mode d'emploi Nespresso décrit la cause la plus courante : une capsule mal orientée ou un bac à capsules usagées plein, qui empêche le levier de fermer complètement la chambre d'infusion. L'eau sous pression contourne alors le joint et ressort par les côtés au lieu de traverser la capsule. Les pointes qui percent la capsule peuvent aussi s'encrasser de résidus séchés avec le temps, ce qui crée une contre-pression et le même type de fuite.
+Sur une machine à capsules, la fuite se situe presque toujours au niveau du logement de la capsule, pas du réservoir. Le mode d'emploi Nespresso de la C100 relie une zone de la capsule non étanche à une capsule mal positionnée : il faut la remettre correctement, et appeler le service client si la fuite continue. Une capsule mal placée empêche le levier de fermer complètement la chambre d'infusion, et l'eau sous pression peut alors contourner le joint au lieu de traverser la capsule.
 
 Sur une Dolce Gusto, regarde aussi le bac d'égouttage avant d'accuser la capsule : mal remis en place après un nettoyage, il peut laisser l'eau couler sous l'appareil. Dans les deux cas, si le nettoyage du logement et le repositionnement du bac ne suffisent pas, Nespresso recommande de débrancher la machine et de contacter le service client plutôt que d'insister sur des cycles supplémentaires.
 
