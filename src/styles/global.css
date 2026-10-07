@@ -23,9 +23,9 @@
   --shadow-card: 0 8px 24px -12px rgba(32, 23, 15, 0.28);
   --shadow-lift: 0 18px 36px -16px rgba(32, 23, 15, 0.32);
 
-  --font-display: 'Bricolage Grotesque', 'Segoe UI', system-ui, -apple-system, sans-serif;
-  --font-body: 'Source Serif 4', Georgia, 'Times New Roman', serif;
-  --font-ui: 'Bricolage Grotesque', 'Segoe UI', system-ui, -apple-system, sans-serif;
+  --font-display: 'Bricolage Grotesque', 'Bricolage Grotesque Fallback', 'Segoe UI', system-ui, -apple-system, sans-serif;
+  --font-body: 'Source Serif 4', 'Source Serif 4 Fallback', 'Source Serif 4 Fallback Times', Georgia, 'Times New Roman', serif;
+  --font-ui: 'Bricolage Grotesque', 'Bricolage Grotesque Fallback', 'Segoe UI', system-ui, -apple-system, sans-serif;
 
   --radius-sm: 4px;
   --radius: 8px;

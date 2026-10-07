@@ -2,6 +2,7 @@
 import { getCollection } from 'astro:content';
 import BaseLayout from './BaseLayout.astro';
 import { coverSrcSet } from '../lib/covers';
+import { frenchNbsp } from '../lib/typo';
 import AmazonProduct from '../components/AmazonProduct.astro';
 import AffiliateDisclosure from '../components/AffiliateDisclosure.astro';
 import Breadcrumbs from '../components/Breadcrumbs.astro';
@@ -160,7 +161,7 @@ const jsonLdArticle = [articleSchema, ...(faqSchema ? [faqSchema] : [])];
       <Breadcrumbs items={breadcrumbItems} />
 
       <header class="art__head">
-        <h1 class="art__title">{title}</h1>
+        <h1 class="art__title">{frenchNbsp(title)}</h1>
         <p class="meta meta-row art__meta" data-pagefind-ignore>
           <span>Par <a href="/auteur/">{author ?? siteConfig.author}</a></span>
           <time datetime={pubDate.toISOString().slice(0, 10)}>{dateFormatter.format(pubDate)}</time>
@@ -332,10 +333,15 @@ const jsonLdArticle = [articleSchema, ...(faqSchema ? [faqSchema] : [])];
 </BaseLayout>
 
 <script is:inline>
-  // Sommaire collant : chapitre courant souligné, et gardé visible dans la bande.
+  // Sommaire : chapitre courant souligné.
   (function () {
     var toc = document.getElementById('toc');
-    if (!toc || !('IntersectionObserver' in window)) return;
+    if (!toc) return;
+    // Hauteur réelle du sommaire collant (il peut tenir sur plusieurs lignes) : sert au décalage des ancres.
+    function tocH() { var h = getComputedStyle(toc).position === 'sticky' ? toc.offsetHeight + 16 : 16; document.documentElement.style.setProperty('--toc-h', h + 'px'); }
+    tocH();
+    if ('ResizeObserver' in window) new ResizeObserver(tocH).observe(toc); else window.addEventListener('resize', tocH);
+    if (!('IntersectionObserver' in window)) return;
     var links = Array.prototype.slice.call(toc.querySelectorAll('a[href^="#"]'));
     var map = new Map();
     links.forEach(function (a) {
@@ -349,7 +355,6 @@ const jsonLdArticle = [articleSchema, ...(faqSchema ? [faqSchema] : [])];
         var link = map.get(e.target);
         if (!link) return;
         link.setAttribute('aria-current', 'true');
-        link.scrollIntoView({ inline: 'nearest', block: 'nearest', behavior: matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth' });
       });
     }, { rootMargin: '-30% 0px -60% 0px' });
     map.forEach(function (_l, target) { spy.observe(target); });
@@ -400,29 +405,19 @@ const jsonLdArticle = [articleSchema, ...(faqSchema ? [faqSchema] : [])];
   .toc__list {
     list-style: none;
     margin: 0;
-    padding: 0;
+    padding: 0.3rem 0;
     display: flex;
-    gap: 0.25rem;
-    overflow-x: auto;
-    padding-right: 3rem;
-    scrollbar-width: none;
-    -webkit-overflow-scrolling: touch;
-    -webkit-mask-image: linear-gradient(to right, #000 calc(100% - 48px), transparent);
-    mask-image: linear-gradient(to right, #000 calc(100% - 48px), transparent);
+    flex-wrap: wrap;
+    gap: 0 0.25rem;
+    flex: 1 1 auto;
+    min-width: 0;
   }
-  .toc__list::-webkit-scrollbar { display: none; }
-  /* Chaque chapitre tient dans la bande visible (points de suspension au besoin) :
-     le chapitre courant, ramené en vue par le scrollspy, n'est jamais coupé à gauche. */
-  .toc__list { flex: 1 1 auto; min-width: 0; }
-  .toc__list li { flex: none; max-width: 100%; }
+  /* Les chapitres passent à la ligne : aucun défilement horizontal, aucun titre coupé. */
+  .toc__list li { min-width: 0; }
   .toc__list a {
     display: block;
-    max-width: 100%;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    white-space: nowrap;
-    line-height: 40px;
-    padding: 0 0.6rem;
+    line-height: 1.35;
+    padding: 0.55rem 0.6rem;
     font-family: var(--font-ui);
     font-weight: 500;
     font-size: 0.88rem;
@@ -432,6 +427,13 @@ const jsonLdArticle = [articleSchema, ...(faqSchema ? [faqSchema] : [])];
     border-top: 2px solid transparent;
   }
   .toc__list a:hover { color: var(--color-accent); }
+  /* Téléphone : le sommaire sur plusieurs lignes ne colle plus en haut (il mangerait l'écran). */
+  @media (max-width: 760px) {
+    .toc { position: static; }
+    .toc__in { flex-direction: column; align-items: stretch; gap: 0; }
+    .toc__label { padding: 0.7rem 0 0; border-right: 0; }
+    .toc__list { padding-top: 0.1rem; margin-left: -0.6rem; }
+  }
   .toc__list a[aria-current='true'] { color: var(--color-text); border-bottom-color: var(--color-accent); }
 
   /* ---- Fiche « Notre choix » (recommandation par lien de recherche, sans photo) :
@@ -468,9 +470,9 @@ const jsonLdArticle = [articleSchema, ...(faqSchema ? [faqSchema] : [])];
     padding-top: 1.2em;
     border-top: 1px solid var(--color-border);
     font-size: 1.65rem;
-    scroll-margin-top: calc(var(--header-h) + 64px);
+    scroll-margin-top: calc(var(--header-h) + var(--toc-h, 64px));
   }
-  .article-body :global(h3) { margin: 1.8em 0 0.5em; font-size: 1.25rem; scroll-margin-top: calc(var(--header-h) + 64px); }
+  .article-body :global(h3) { margin: 1.8em 0 0.5em; font-size: 1.25rem; scroll-margin-top: calc(var(--header-h) + var(--toc-h, 64px)); }
   .article-body :global(h4) { margin: 1.5em 0 0.4em; font-size: 1.05rem; }
   .article-body :global(a) { text-decoration-thickness: 1px; text-underline-offset: 0.18em; }
   .article-body :global(a:hover) { text-decoration-thickness: 2px; }

@@ -2,6 +2,7 @@
 // En-tête de page intérieure : fil d'Ariane, titre, chapeau, compteur en
 // métadonnée. Un filet en bas structure la page, pas de bandeau coloré.
 import Breadcrumbs from './Breadcrumbs.astro';
+import { frenchNbsp } from '../lib/typo';
 
 interface Crumb { label: string; href?: string }
 interface Props {
@@ -19,7 +20,7 @@ const { title, lede, crumbs, count, width = 'wide' } = Astro.props;
 <header class="ph">
   <div class:list={['ph__in', width === 'narrow' ? 'container' : 'wide']}>
     {crumbs && <Breadcrumbs items={crumbs} />}
-    <h1 class="ph__title">{title}</h1>
+    <h1 class="ph__title">{frenchNbsp(title)}</h1>
     {lede && <p class="lede ph__lede">{lede}</p>}
     {count && <p class="meta ph__count">{count}</p>}
     <slot />
