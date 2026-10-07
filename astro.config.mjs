@@ -90,6 +90,33 @@ const EMPTY_CATEGORIES = (() => {
 })();
 const isoDate = (d) => (d ? new Date(d + (d.length === 10 ? 'T00:00:00Z' : '')) : undefined);
 
+// ---- Tableaux du texte : jamais de défilement horizontal ----------------------------------
+// Classe « md-table » sur chaque tableau Markdown, étiquette de colonne (data-label) sur chaque
+// cellule, et « md-table--stack » au-delà de 3 colonnes : sous 760 px, chaque ligne devient
+// une carte ; à 3 colonnes, « md-table--narrow » : cartes seulement sous 480 px (voir « Tableaux »
+// dans src/styles/global.css). Aucun fichier d'article à modifier.
+function rehypeTableCards() {
+  const text = (n) => (n.type === 'text' ? n.value : (n.children ?? []).map(text).join(''));
+  const kids = (n, tag) => (n.children ?? []).filter((c) => c.type === 'element' && (!tag || c.tagName === tag));
+  return (tree) => {
+    const visit = (node) => {
+      if (node.type === 'element' && node.tagName === 'table') {
+        const headRow = kids(kids(node, 'thead')[0] ?? {}, 'tr')[0];
+        const labels = headRow ? kids(headRow).map((c) => text(c).trim()) : [];
+        const p = node.properties ?? (node.properties = {});
+        p.className = [...[].concat(p.className ?? []), 'md-table', ...(labels.length > 3 ? ['md-table--stack'] : labels.length === 3 ? ['md-table--narrow'] : [])];
+        for (const tbody of kids(node, 'tbody')) {
+          for (const tr of kids(tbody, 'tr')) {
+            kids(tr).forEach((cell, i) => { if (labels[i]) (cell.properties ??= {}).dataLabel = labels[i]; });
+          }
+        }
+      }
+      for (const c of node.children ?? []) visit(c);
+    };
+    visit(tree);
+  };
+}
+
 export default defineConfig({
   site: SITE_URL,
   integrations: [sitemap({
@@ -109,7 +136,7 @@ export default defineConfig({
   })],
   // Astro 7 : Sätteri devient le moteur Markdown par défaut. On garde le pipeline
   // remark/rehype (unified) pour conserver nos deux plugins rehype à l'identique.
-  markdown: { processor: unified({ rehypePlugins: [rehypeAmazonLinks, rehypeStripLeadingEmoji, rehypeLegacyHeadingIds] }) },
+  markdown: { processor: unified({ rehypePlugins: [rehypeAmazonLinks, rehypeStripLeadingEmoji, rehypeLegacyHeadingIds, rehypeTableCards] }) },
   // Astro 7 passe par défaut à compressHTML: 'jsx', qui supprime les espaces entre
   // éléments inline. On garde la compression HTML d'Astro 4 (espaces préservés).
   compressHTML: true,

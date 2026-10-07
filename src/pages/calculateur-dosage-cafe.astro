@@ -150,13 +150,13 @@ const guidesMethode = [
       <h2 id="dosage-cafe-filtre">Dosage du café filtre selon le nombre de tasses</h2>
       <p>Pour une cafetière filtre électrique ou un filtre manuel, avec une mouture moyenne et 125 ml d’eau par tasse :</p>
       <div class="table-wrap">
-        <table class="table">
+        <table class="table table--stack">
           <thead>
             <tr><th scope="col">Tasses</th><th scope="col">Eau</th><th scope="col">Café moulu (normal)</th><th scope="col">Doux / corsé</th></tr>
           </thead>
           <tbody>
             {filtreRows.map((r) => (
-              <tr><th scope="row">{r.n} tasses</th><td>{r.water}</td><td><strong>{r.normal} g</strong></td><td>{r.doux} à {r.corse} g</td></tr>
+              <tr><th scope="row">{r.n} tasses</th><td data-label="Eau">{r.water}</td><td data-label="Café moulu (normal)"><strong>{r.normal} g</strong></td><td data-label="Doux / corsé">{r.doux} à {r.corse} g</td></tr>
             ))}
           </tbody>
         </table>

@@ -273,8 +273,9 @@ code {
 }
 
 /* ---- Tableaux : Bricolage 500, zébrés ---- */
+/* Jamais de défilement horizontal : les cellules passent à la ligne ; fiches empilées sous 760 px (.table--stack) */
 .table-wrap {
-  overflow-x: auto;
+  overflow: hidden;
   margin: 1.5rem 0;
   border: 1px solid var(--color-border);
   border-radius: var(--radius);
@@ -293,6 +294,12 @@ code {
   text-align: left;
   vertical-align: top;
   border-bottom: 1px solid var(--color-border);
+  overflow-wrap: anywhere;
+  hyphens: auto;
+}
+@media (max-width: 760px) {
+  .table { font-size: 0.86rem; }
+  .table th, .table td { padding: 0.6rem 0.55rem; }
 }
 .table thead th {
   font-size: 0.74rem;
@@ -301,7 +308,6 @@ code {
   text-transform: uppercase;
   color: var(--color-text-muted);
   background: var(--color-bg-soft);
-  white-space: nowrap;
 }
 .table tbody th[scope='row'] { font-weight: 600; color: var(--color-text); }
 .table tbody tr:nth-child(even) { background: #faf6f0; }
@@ -357,3 +363,32 @@ code {
 
 /* Texte réservé aux lecteurs d'écran (titres de structure invisibles) */
 .sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; border: 0; }
+
+/* ───────── Tableaux du texte : jamais de défilement horizontal ─────────
+   Classes posées au build par rehypeTableCards (astro.config.mjs). Retour à la ligne et césure,
+   police un peu plus petite ; sous 760 px, au-delà de 3 colonnes, chaque ligne devient une carte.
+   Classe doublée : passe devant les styles scopés de l'ArticleLayout (display: block, overflow-x). */
+:is(.article-body, .prose) table.md-table.md-table { display: table; overflow: visible; max-width: 100%; font-size: 0.88rem; }
+:is(.article-body, .prose) .md-table.md-table :is(th, td) { white-space: normal; overflow-wrap: anywhere; hyphens: auto; }
+@media (max-width: 760px) {
+  :is(.article-body, .prose) .md-table.md-table :is(th, td) { padding-left: 0.55rem; padding-right: 0.55rem; }
+  :is(.article-body, .prose) .md-table--stack.md-table--stack thead { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); }
+  :is(.article-body, .prose) table.md-table--stack.md-table--stack,
+  :is(.article-body, .prose) .md-table--stack.md-table--stack :is(tbody, tr, th, td) { display: block; }
+  :is(.article-body, .prose) .md-table--stack.md-table--stack tr { padding: 0.55rem 0.9rem; border-bottom: 1px solid var(--color-border); }
+  :is(.article-body, .prose) .md-table--stack.md-table--stack tbody tr:last-child { border-bottom: 0; }
+  :is(.article-body, .prose) .md-table--stack.md-table--stack :is(th, td) { padding: 0.2rem 0; border: 0; }
+  :is(.article-body, .prose) .md-table--stack.md-table--stack td:first-child { font-weight: 700; }
+  :is(.article-body, .prose) .md-table--stack.md-table--stack td[data-label]:not(:first-child)::before { content: attr(data-label); display: block; font-size: 0.72rem; font-weight: 700; letter-spacing: 0.04em; text-transform: uppercase; color: var(--color-text-muted); }
+}
+/* 3 colonnes : cartes seulement sur petit téléphone */
+@media (max-width: 480px) {
+  :is(.article-body, .prose) .md-table--narrow.md-table--narrow thead { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); }
+  :is(.article-body, .prose) table.md-table--narrow.md-table--narrow,
+  :is(.article-body, .prose) .md-table--narrow.md-table--narrow :is(tbody, tr, th, td) { display: block; }
+  :is(.article-body, .prose) .md-table--narrow.md-table--narrow tr { padding: 0.55rem 0.9rem; border-bottom: 1px solid var(--color-border); }
+  :is(.article-body, .prose) .md-table--narrow.md-table--narrow tbody tr:last-child { border-bottom: 0; }
+  :is(.article-body, .prose) .md-table--narrow.md-table--narrow :is(th, td) { padding: 0.2rem 0; border: 0; }
+  :is(.article-body, .prose) .md-table--narrow.md-table--narrow td:first-child { font-weight: 700; }
+  :is(.article-body, .prose) .md-table--narrow.md-table--narrow td[data-label]:not(:first-child)::before { content: attr(data-label); display: block; font-size: 0.72rem; font-weight: 700; letter-spacing: 0.04em; text-transform: uppercase; color: var(--color-text-muted); }
+}
