@@ -2,7 +2,7 @@
 title: "Balance à café de précision : pourquoi (et laquelle) choisir"
 description: "Doser au gramme près change la régularité de ton café. Nos critères et notre sélection de balances de précision avec minuterie."
 pubDate: 2026-08-16
-updatedDate: 2026-09-24
+updatedDate: 2026-10-07
 author: "Hugo B."
 pinHook: "Doser *au gramme près*, comme un barista"
 pinSub: "La précision qui transforme la tasse."
@@ -11,29 +11,31 @@ category: "accessoires"
 coverAlt: "Grains de café dans un bol"
 draft: false
 products:
-  - asin: "B0BNL5JCVR"
-    title: "Balance à café BAGAIL avec minuterie, précision 0,1 g"
-    blurb: "Le combo idéal : pèse au dixième de gramme et chronomètre l'extraction, avec fonction tare, pour un café régulier tous les jours."
+  - asin: "B08VRSZVN4"
+    title: "Hario V60 Drip Scale VSTN-2000B, balance café avec minuteur"
+    blurb: "La balance de référence du fabricant du V60 : affichage au 0,1 g, minuteur intégré jusqu'à 99 min 59 s et tare, pour peser et chronométrer chaque infusion."
     pros:
-      - "Précision au dixième de gramme"
-      - "Minuterie intégrée pour chronométrer l’extraction"
-      - "Fonction tare, format compact"
+      - "Précision annoncée au 0,1 g"
+      - "Minuteur intégré, poids et temps à l'écran en même temps"
+      - "Arrêt automatique après 5 minutes, désactivé quand le minuteur tourne"
     cons:
-      - "Plateau un peu petit pour les grandes cafetières"
-      - "Fonctionne à piles"
-      - "Écran peu lisible en plein soleil"
+      - "Fonctionne avec 2 piles AAA, pas de recharge USB"
+      - "120 x 190 mm : trop grande pour certains plateaux de machine espresso"
+      - "Plus chère que les balances sans marque"
 sources:
   - label: "National Coffee Association, « Espresso »"
     url: "https://www.aboutcoffee.org/brewing/espresso/"
   - label: "National Coffee Association, « French press coffee »"
     url: "https://www.aboutcoffee.org/brewing/french-press-coffee/"
-  - label: "Banque centrale européenne, « Face commune »"
-    url: "https://www.ecb.europa.eu/euro/coins/common/html/index.fr.html"
+  - label: "National Coffee Association, « Pour-over coffee »"
+    url: "https://www.aboutcoffee.org/brewing/pour-over-coffee/"
+  - label: "National Coffee Association, « Cold brew coffee »"
+    url: "https://www.aboutcoffee.org/brewing/cold-brew-coffee/"
 faq:
   - question: "Pourquoi peser son café plutôt que doser à la cuillère ?"
     answer: "Parce qu'une cuillère ne mesure pas la même masse selon la mouture et le tassage : d'un café à l'autre, le dosage varie, et le goût avec. Peser (ex. 18 g de café pour environ 36 g d'espresso, soit un ratio 1:2) rend chaque tasse reproductible : c'est le geste qui améliore le plus la régularité."
   - question: "À quoi sert la minuterie intégrée ?"
-    answer: "Elle permet de suivre le temps d'extraction, un repère clé : un espresso vise souvent 25-30 secondes, un pour-over 2 à 3 minutes. Voir la masse ET le temps au même endroit facilite les ajustements sans jongler avec le téléphone."
+    answer: "Elle permet de suivre le temps d'extraction, un repère clé : un espresso vise souvent 25-30 secondes, un pour-over 2 à 4 minutes. Voir la masse ET le temps au même endroit facilite les ajustements sans jongler avec le téléphone."
   - question: "La précision 0,1 g est-elle vraiment utile ?"
     answer: "Pour l'espresso, oui : quelques dixièmes de gramme changent l'équilibre en tasse. Pour le café filtre ou la French press, une précision de 1 g suffit largement. Une balance 0,1 g couvre tous les cas, autant la prendre polyvalente."
 ---
@@ -42,7 +44,7 @@ faq:
 
 On sous-estime la balance parce qu'elle n'a rien de spectaculaire. Pourtant, c'est l'accessoire qui rend un café **reproductible**. Sans elle, on dose « à la cuillère », mais une cuillère de café moulu fin ne pèse pas la même chose qu'une cuillère de mouture grossière, et le résultat change d'une tasse à l'autre.
 
-Peser le café (et l'eau) permet de fixer un ratio et de le retrouver à chaque fois : par exemple 18 g de café pour environ 36 g d'espresso (ratio 1:2), ou 15 g pour 250 ml en filtre. Une fois le bon ratio trouvé, on le reproduit : fini les cafés parfaits « par hasard » et les ratés inexpliqués.
+Peser le café (et l'eau) permet de fixer un ratio et de le retrouver à chaque fois : par exemple 18 g de café pour environ 36 g d'espresso (ratio 1:2), ou 15 g pour 240 ml en filtre. Une fois le bon ratio trouvé, on le reproduit : fini les cafés parfaits « par hasard » et les ratés inexpliqués.
 
 ## Les critères qui comptent
 
@@ -60,16 +62,15 @@ Pour un usage **orienté espresso**, privilégie un modèle compact qui se gliss
 
 ## Les ratios de départ, méthode par méthode
 
-Une balance ne sert à rien sans repère. Voici les ratios café/eau qui donnent une tasse équilibrée dans la grande majorité des cas, à ajuster ensuite au goût :
+Une balance ne sert à rien sans repère. Les ratios café/eau ci-dessous reprennent les repères de la National Coffee Association américaine ; ajuste-les ensuite à ton goût :
 
 | Méthode | Ratio | Exemple concret |
 |---|---|---|
 | Espresso | 1:2 | 18 g de café → 36 g dans la tasse, en 25-30 s |
-| Ristretto | 1:1 à 1:1,5 | 18 g → 18 à 27 g |
-| Filtre V60, Chemex, cafetière électrique | 1:16 à 1:17 (≈ 60 g/L) | 15 g → 250 g d'eau |
+| Filtre V60, Chemex, cafetière électrique | 1:15 à 1:16 (≈ 60 à 65 g/L) | 15 g → 240 g d'eau |
 | French press | 1:14 à 1:15 (≈ 65-70 g/L) | 30 g → 450 g d'eau |
 | Cafetière italienne | Filtre plein | Pas besoin de peser |
-| Cold brew (concentré) | 1:8 | 100 g → 800 g d'eau |
+| Cold brew (concentré) | 1:4 à 1:5 | 100 g → 400 à 500 g d'eau |
 
 Retiens un principe : on pèse **l'eau aussi**, pas seulement le café. 1 ml d'eau pèse 1 g, ce qui rend le calcul immédiat et plus précis qu'un verre doseur. Notre [calculateur de dosage](/calculateur-dosage-cafe/) fait les conversions pour n'importe quel volume.
 
@@ -96,7 +97,7 @@ Sans machine expresso, la balance sert à doser la mouture puis à suivre l'eau 
 1. Pose la carafe (ou la tasse) et le cône avec son filtre rincé sur la balance, puis fais la **tare**.
 2. Verse la mouture jusqu'à **15 g** et refais la tare : l'écran repart de zéro et n'affichera plus que l'eau.
 3. Lance le chrono et verse une trentaine de grammes d'eau, soit environ le double du poids de café, pour la pré-infusion (le « bloom »). Attends 30 à 45 secondes.
-4. Verse le reste en plusieurs fois jusqu'à **250 g**, en visant une fin d'écoulement autour de 3 minutes. Le détail du versement est dans [réussir son café filtre](/articles/reussir-cafe-filtre-v60/).
+4. Verse le reste en plusieurs fois jusqu'à **240 g**, en visant une fin d'écoulement autour de 3 minutes. Le détail du versement est dans [réussir son café filtre](/articles/reussir-cafe-filtre-v60/).
 
 En French press, c'est encore plus simple : tare la carafe, pèse **30 g** de mouture grossière, refais la tare, verse **450 g** d'eau et lance les 4 minutes. La marche à suivre complète est dans [réussir sa French press](/articles/reussir-french-press-piston/).
 

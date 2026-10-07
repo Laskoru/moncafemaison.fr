@@ -2,7 +2,7 @@
 title: "Moulin à meules ou à lames : la vraie différence"
 description: "Moulin à café à meules ou à lames : quelle différence sur le goût, et lequel choisir selon ton café ? Nos explications claires et notre sélection."
 pubDate: 2026-08-24
-updatedDate: 2026-09-24
+updatedDate: 2026-10-07
 author: "Hugo B."
 pinHook: "Meules ou lames ? *La vraie différence*"
 pinSub: "Le choix qui change le goût."
@@ -11,29 +11,31 @@ category: "moulins"
 coverAlt: "Grains de café dans la trémie d'un moulin manuel à meules avec sa manivelle, posé sur un plan de travail clair"
 draft: false
 products:
-  - asin: "B0D8F7LLRC"
-    title: "Homtone, moulin à café électrique à meule conique, 51 réglages de mouture"
-    blurb: "Un vrai moulin à meules à prix contenu : la meule conique donne une mouture régulière et les 51 crans couvrent aussi bien l'espresso que le filtre, sans se ruiner."
+  - asin: "B002OHDBQC"
+    title: "De'Longhi KG79, moulin à café électrique à meules, 16 réglages"
+    blurb: "Le passage aux meules sans gros budget : deux meules en acier inoxydable, 16 réglages de mouture et un sélecteur de 1 à 12 tasses pour ne moudre que la dose utile."
     pros:
-      - "Meule conique = mouture régulière"
-      - "51 crans, de l’espresso au filtre"
-      - "Prix contenu"
+      - "Vraies meules en acier inoxydable, pas une lame"
+      - "Sélecteur du nombre de tasses (1 à 12)"
+      - "Meule supérieure amovible pour le nettoyage"
     cons:
-      - "Rétention de mouture"
-      - "Moins précis qu’un moulin premium"
-      - "Un peu bruyant"
+      - "16 réglages seulement : moins de finesse de réglage qu'un moulin à 40 crans"
+      - "Trémie de 120 g, à remplir souvent si on boit beaucoup"
+      - "Retient un peu de mouture, comme la plupart des moulins à meules"
 sources:
   - label: "National Coffee Association, « Drip coffee »"
     url: "https://www.aboutcoffee.org/brewing/drip-coffee/"
   - label: "National Coffee Association, « Storage and shelf life »"
     url: "https://www.aboutcoffee.org/beans/storage-and-shelf-life/"
+  - label: "De'Longhi, « Série KG, noir KG79 »"
+    url: "https://www.delonghi.com/fr-fr/moulin-a-cafe-electrique-kg79/p/KG79"
 faq:
   - question: "Un moulin à lames peut-il convenir pour l'espresso ?"
     answer: "Non, pas vraiment. L'espresso exige une mouture très fine ET régulière, sous pression : un moulin à lames produit un mélange de poussière et de gros morceaux qui bouche le porte-filtre ou laisse passer l'eau trop vite. Pour un espresso correct, un moulin à meules réglable est indispensable."
   - question: "La différence de goût est-elle vraiment perceptible ?"
     answer: "Oui, surtout sur un café peu chargé (filtre, piston). Une mouture régulière s'extrait de façon homogène : moins d'amertume due aux fines sur-extraites, plus de clarté aromatique. Sur un café très corsé au lait la différence s'entend moins, mais elle reste réelle dès qu'on goûte le café seul."
   - question: "Faut-il mettre beaucoup plus cher pour un moulin à meules ?"
-    answer: "Plus qu'un moulin à lames, oui, mais l'écart s'est réduit : on trouve désormais des moulins à meules électriques corrects autour de 50 à 100 €, là où il fallait compter bien plus il y a quelques années. C'est l'accessoire qui améliore le plus nettement le café à budget donné."
+    answer: "Plus qu'un moulin à lames, oui, mais l'écart s'est réduit : on trouve désormais des moulins à meules électriques corrects à prix raisonnable, sans viser le haut de gamme. C'est l'accessoire qui améliore le plus nettement le café à budget donné."
 ---
 
 ## Le composant qui compte le plus dans une tasse
@@ -76,7 +78,7 @@ Enfin, si tu cherches un moulin **pour le voyage ou un usage occasionnel**, sach
 
 « Un moulin à lames suffit pour commencer » : il dépanne, mais il plafonne vite et tu ne sauras jamais si un café médiocre vient du grain, de la méthode… ou de la mouture inégale. Passer aux meules lève ce doute.
 
-« Il faut un moulin hors de prix pour voir la différence » : faux aujourd'hui. Les premiers moulins à meules électriques corrects se trouvent autour de 50 à 100 €, et l'écart de goût avec une lame est immédiat, dès la première tasse.
+« Il faut un moulin hors de prix pour voir la différence » : faux aujourd'hui. Les premiers moulins à meules électriques corrects restent abordables, et l'écart de goût avec une lame se sent dès la première tasse.
 
 ## En attendant les meules : mieux utiliser un moulin à lames
 
