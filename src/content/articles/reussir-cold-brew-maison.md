@@ -3,7 +3,7 @@ title: "Cold brew maison : la recette du café froid doux et peu acide"
 seoTitle: "Cold brew maison : recette du café froid doux et peu acide"
 description: "Le cold brew (café infusé à froid) en 4 étapes : mouture, ratio, 12 à 24 h au frais, filtrage. Doux, peu acide, sans matériel spécial."
 pubDate: 2026-09-13
-updatedDate: 2026-09-21
+updatedDate: 2026-10-07
 author: "Hugo B."
 keywords: ["cold brew maison", "café froid infusion", "recette cold brew", "café infusé à froid"]
 category: "preparer"
@@ -45,7 +45,7 @@ Pourquoi si doux ? Parce que l'extraction à froid libère moins d'acides que la
 
 1. **Pèse** ta mouture grossière et mets-la dans un bocal ou une carafe.
 2. Verse l'**eau froide** dessus (ratio ~1:8), remue pour bien tout humidifier.
-3. Couvre et laisse **infuser au réfrigérateur 12 à 24 heures** (ou à température ambiante, un peu moins longtemps : dans une étude menée à 21-25 °C, la caféine était entièrement extraite au bout de 6 à 7 heures).
+3. Couvre et laisse **infuser au réfrigérateur 12 à 24 heures**. À température ambiante, l'extraction va plus vite (dans une étude menée à 21-25 °C, la caféine était entièrement extraite au bout de 6 à 7 heures), mais ce café n'est jamais chauffé : l'université de Géorgie rappelle que le cold brew est plus sûr conservé au réfrigérateur, donc garde l'infusion au frais.
 4. **Filtre** : verse à travers un filtre papier, une passoire fine doublée d'un tissu propre, ou presse le tout dans une cafetière à piston.
 5. Tu obtiens un **concentré**. Conserve-le au frais et **dilue-le** au moment de servir.
 

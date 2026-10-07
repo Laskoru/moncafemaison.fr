@@ -3,7 +3,7 @@ title: "Détartrant pour machine à café : lequel choisir et comment bien déta
 seoTitle: "Détartrant machine à café : lequel choisir et comment faire"
 description: "Le tartre abîme le goût et les résistances. Nos critères pour choisir un détartrant (liquide, pastilles, acide citrique) et l'utiliser sans risque."
 pubDate: 2026-09-14
-updatedDate: 2026-09-14
+updatedDate: 2026-10-07
 author: "Hugo B."
 pinHook: "Le geste d'entretien *qui prolonge* la machine"
 pinSub: "Pourquoi un bon détartrant change la durée de vie (et le goût) du café."
@@ -52,7 +52,7 @@ Un **détartrant** est un produit acide (acide citrique, lactique ou sulfamique,
 
 **La compatibilité avec ta machine.** Certains fabricants (notamment sur les machines automatiques haut de gamme) recommandent une formule spécifique, parfois vendue sous leur propre marque. Vérifie la notice avant d'utiliser un produit générique, même si la plupart des détartrants du commerce conviennent à l'ensemble des machines à café domestiques.
 
-**La composition.** L'acide citrique, d'origine naturelle, est très répandu : efficace et sans odeur agressive, c'est par exemple la base du détartrant SENSEO. D'autres fabricants misent sur l'acide lactique, que De'Longhi présente comme plus rapide et plus efficace que les détartrants classiques à l'acide citrique. L'acide sulfamique agit un peu plus vite sur un tartre déjà important, mais demande un rinçage plus soigné.
+**La composition.** L'acide citrique, d'origine naturelle, est très répandu : efficace et sans odeur agressive, c'est par exemple la base du détartrant SENSEO. D'autres fabricants misent sur l'acide lactique : c'est la base du détartrant Decalk Care de De'Longhi, que la marque présente comme « plus puissant contre les dépôts de calcaire ».
 
 **Le format adapté à ton usage.** Le liquide prêt à l'emploi convient à un usage occasionnel où la simplicité prime. Les pastilles ou la poudre se prêtent mieux à un usage régulier, avec un coût par cycle généralement plus bas et un stockage plus compact.
 

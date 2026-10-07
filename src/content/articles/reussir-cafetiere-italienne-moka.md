@@ -3,7 +3,7 @@ title: "Réussir son café à la cafetière italienne (moka) sans amertume"
 seoTitle: "Comment utiliser une cafetière italienne sans amertume"
 description: "La méthode pour un café moka corsé mais jamais brûlé : bonne mouture, feu doux, et un retrait au bon moment. Le guide pas à pas de la cafetière italienne."
 pubDate: 2026-09-13
-updatedDate: 2026-09-26
+updatedDate: 2026-10-07
 author: "Hugo B."
 keywords: ["comment utiliser une cafetière italienne", "réussir café moka sans amertume", "café moka réussir", "utiliser cafetière italienne", "moka bialetti méthode"]
 category: "preparer"
@@ -17,6 +17,8 @@ sources:
     url: "https://www.bialetti.com/it_en/inspiration/post/what-is-the-purpose-of-a-moka-gasket"
   - label: "Bialetti, « Our History »"
     url: "https://www.bialetti.com/fr_fr/notre-histoire"
+  - label: "Bialetti, « Moka Express : notice d'utilisation et avertissements »"
+    url: "https://m.media-amazon.com/images/I/91BH%2BZYVZkL.pdf"
 faq:
   - question: "Faut-il tasser le café dans une cafetière italienne ?"
     answer: "Non, surtout pas. On remplit le filtre en dôme et on égalise sans tasser : l'eau doit pouvoir traverser librement. Tasser augmente la pression et la résistance, ce qui surchauffe et rend le café amer. C'est l'inverse de l'espresso."
@@ -25,7 +27,7 @@ faq:
   - question: "Quelle mouture pour la cafetière italienne ?"
     answer: "Une mouture moyenne, un peu plus grossière que pour l'espresso et plus fine que pour le filtre, proche du sel fin. Trop fine, elle colmate le filtre et surchauffe ; trop grossière, le café est fade. Une mouture fraîche et régulière (moulin à meules) donne le meilleur résultat."
   - question: "Une cafetière italienne peut-elle exploser ?"
-    answer: "C'est rare, mais la pression peut monter dangereusement si l'eau ne passe plus : filtre bouché par une mouture trop fine ou tassée, eau versée au-dessus de la soupape, ou soupape bloquée par le calcaire. La soupape de sécurité sert justement à libérer l'excès de vapeur : remplis toujours sous son niveau, ne tasse jamais le café et vérifie de temps en temps qu'elle n'est pas entartrée."
+    answer: "C'est rare, mais la pression peut monter dangereusement si l'eau ne passe plus : filtre bouché par une mouture trop fine ou tassée, eau versée au-dessus de la soupape, ou soupape bloquée par le calcaire. La soupape de sécurité sert justement à libérer l'excès de vapeur : remplis toujours sous son niveau, ne tasse jamais le café et vérifie de temps en temps qu'elle n'est pas entartrée. La notice Bialetti ajoute de ne jamais chauffer la cafetière sans eau et de ne pas l'ouvrir avant qu'elle ait complètement refroidi."
   - question: "Ma cafetière italienne est trop petite pour ma plaque à induction : que faire ?"
     answer: "Un foyer à induction ne détecte que les récipients compatibles et assez larges : une petite moka peut ne pas être reconnue. Utilise le plus petit foyer de la plaque (la notice indique le diamètre minimal) ou pose la cafetière sur un disque adaptateur pour induction ; avec une moka en aluminium, ce disque est de toute façon indispensable."
 ---
@@ -48,14 +50,14 @@ Bialetti indique de remplir la base d'eau à température ambiante, jusqu'à la 
 
 ## 3. Feu doux, et surveiller la montée
 
-Pose la cafetière sur un **feu doux à modéré**, couvercle ouvert pour surveiller. Le café va commencer à monter dans la colonne centrale, d'abord en un filet sombre, puis plus clair et mousseux. **Dès que ça gargouille** et que le flux blondit, c'est fini : **retire la cafetière du feu**. Pour stopper net l'extraction, tu peux passer la **base sous un filet d'eau froide** quelques secondes. Remue le café du haut (la première goulée est plus concentrée que la fin) et sers aussitôt.
+Pose la cafetière sur un **feu doux à modéré**, couvercle fermé comme le demande la notice Bialetti, et reste à côté : la notice demande de surveiller l'appareil pendant qu'il chauffe. Le café monte dans la colonne centrale, d'abord en un filet sombre, puis plus clair et mousseux. **Dès que ça gargouille**, c'est fini : **retire la cafetière du feu** en la tenant par la poignée. Pour stopper net l'extraction, tu peux passer la **base sous un filet d'eau froide** quelques secondes. Remue le café du haut (la première goulée est plus concentrée que la fin) et sers aussitôt.
 
 ## La méthode, pas à pas
 
 1. Remplis la **base** d'eau (déjà chaude si tu suis l'astuce ci-dessus) jusqu'à la valve.
 2. Remplis le **filtre** de mouture moyenne, en dôme, **sans tasser**.
-3. Assemble (avec un torchon, c'est chaud) et pose sur **feu doux**, couvercle ouvert.
-4. Surveille : **dès le gargouillis** et le flux qui blondit, retire du feu.
+3. Assemble (avec un torchon, c'est chaud) et pose sur **feu doux**, couvercle fermé.
+4. Reste à côté : **dès le gargouillis**, retire du feu.
 5. Refroidis la base sous l'eau, **remue** le café du haut, sers immédiatement.
 
 ## Induction, entretien : deux points pratiques
@@ -91,7 +93,7 @@ Une moka neuve sent le métal et donne un premier café désagréable. Avant de 
 | Le café monte trop vite et sort fade | Mouture trop grossière ou filtre pas assez rempli | Mouture un cran plus fine, filtre plein |
 | Ça fuit sur les côtés | Joint durci, mouture sur le bord du filtre, mauvais serrage | Essuyer le bord, serrer fermement, changer le joint |
 | Goût métallique | Cafetière neuve ou lavée au savon | Faire quelques cafés « à jeter », rincer à l'eau claire |
-| Rien ne monte | Valve de sécurité bouchée, ou base remplie au-dessus de la valve | Nettoyer la valve avec une aiguille, respecter le niveau |
+| Rien ne monte | Filtre bouché, mouture trop fine ou tassée, ou base remplie au-dessus de la valve | Couper le feu et laisser refroidir complètement avant d'ouvrir, puis brosser le filtre, moudre plus gros, respecter le niveau et vérifier que la valve n'est pas entartrée |
 | Le café est amer même à feu doux | Cafetière laissée sur le feu après la montée | Retirer dès le gargouillis, refroidir la base |
 
 Le **joint en caoutchouc** et la **plaque filtre** du haut sont des pièces d'usure : Bialetti conseille de changer le joint au moins une fois par an. Ils se trouvent facilement pour les marques classiques, un argument de plus pour choisir une moka d'une marque établie plutôt qu'un modèle sans nom.

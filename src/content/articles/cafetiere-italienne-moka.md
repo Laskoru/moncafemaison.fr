@@ -2,7 +2,7 @@
 title: "Cafetière italienne (moka) : laquelle choisir ?"
 description: "3, 6 ou 9 tasses, induction ou non : notre guide pour choisir la bonne cafetière italienne (moka) et réussir son café maison."
 pubDate: 2026-08-16
-updatedDate: 2026-09-21
+updatedDate: 2026-10-07
 author: "Hugo B."
 pinHook: "Le café *sur le feu*, réussi à tous les coups"
 pinSub: "La moka, comme en Italie."
@@ -93,7 +93,7 @@ Une moka bien entretenue dure des années, à condition de remplacer trois petit
 
 - **Le joint en caoutchouc**, entre le filtre et la partie haute. Il durcit, se fendille, et le café monte alors mal ou fuit sur les côtés. Bialetti conseille de le changer au moins une fois par an.
 - **La plaque filtre** perforée, sous le joint. Elle se bouche avec le temps ; une brosse suffit souvent, sinon on la remplace en même temps que le joint.
-- **La valve de sécurité** sur la base. Elle se nettoie à l'aiguille ; si elle reste bloquée par le calcaire, la cafetière ne monte plus en pression correctement.
+- **La valve de sécurité** sur la base. C'est elle qui libère la vapeur si la pression monte trop : garde-la propre et non entartrée, et ne remplis jamais la base au-dessus de son niveau.
 
 Avant d'acheter, vérifie que la marque vend ces pièces séparément : c'est ce qui distingue une moka de marque d'un modèle sans nom, jetable dès que le joint lâche.
 
