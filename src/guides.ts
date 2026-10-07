@@ -85,7 +85,7 @@ export const guides: Guide[] = [
     slug: 'cafe-filtre-slow',
     icon: 'droplet',
     title: 'Café filtre & slow coffee',
-    seoTitle: 'Café filtre et slow coffee : le guide complet',
+    seoTitle: 'Café filtre et slow coffee : méthodes et réglages',
     description:
       'French press, V60, Chemex, AeroPress, cold brew : le guide des méthodes douces pour un café filtre aromatique à la maison, avec dosages et matériel.',
     intro: [

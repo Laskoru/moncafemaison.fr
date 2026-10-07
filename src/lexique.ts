@@ -107,7 +107,7 @@ export const lexique: LexiqueEntry[] = [
     term: 'Ratio café / eau',
     question: 'Quel dosage de café par tasse ?',
     answer:
-      "Le repère courant en filtre est d'environ 60 g de café par litre d'eau, soit à peu près 6 g pour 100 ml. Pour un espresso, on part souvent de 18 g de café pour 36 g de boisson (ratio 1:2). Ces valeurs sont des points de départ à ajuster à son goût, pas des règles : une balance rend ces ajustements reproductibles d'un jour à l'autre.",
+      "Le repère courant en filtre est un ratio de 1:15 à 1:16, soit 60 à 65 g de café par litre d'eau (à peu près 6 g pour 100 ml). Pour un espresso, on part souvent de 18 g de café pour 36 g de boisson (ratio 1:2). Ces valeurs sont des points de départ à ajuster à son goût, pas des règles : une balance rend ces ajustements reproductibles d'un jour à l'autre.",
     group: 'Extraction & espresso',
     related: ['balance-cafe-precision'],
   },

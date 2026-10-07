@@ -2,7 +2,7 @@
 title: "Chemex : pour qui, et comment bien la choisir"
 description: "La Chemex séduit par son design autant que par son café limpide. Nos critères avant d'acheter et notre sélection pour se lancer sans se tromper."
 pubDate: 2026-08-18
-updatedDate: 2026-09-21
+updatedDate: 2026-10-07
 author: "Hugo B."
 pinHook: "Un filtre *net et lumineux*"
 pinSub: "La Chemex : pour qui, comment."
@@ -13,7 +13,7 @@ draft: false
 products:
   - asin: "B0000YWF5E"
     title: "Cafetière filtre Chemex 6 tasses, verre borosilicate et col bois"
-    blurb: "Le modèle original, exposé au MoMA depuis 1943 : verre non poreux qui ne retient ni odeur ni résidu, col en bois amovible."
+    blurb: "Le modèle original breveté en 1941, présent dans les collections permanentes de grands musées : verre borosilicate qui ne retient ni odeur ni résidu, col en bois amovible."
     pros:
       - "Café filtre très propre et clair"
       - "Verre non poreux : ni odeur ni résidu"
@@ -25,19 +25,19 @@ products:
 sources:
   - label: "CHEMEX, « About Us »"
     url: "https://chemexcoffeemaker.com/pages/about-us"
-  - label: "CHEMEX, « CHEMEX® Classic 6-Cup Pourover Coffeemaker »"
-    url: "https://chemexcoffeemaker.com/products/six-cup-classic-chemex"
   - label: "CHEMEX, « How to brew with CHEMEX® »"
     url: "https://chemexcoffeemaker.com/pages/how-to-brew-with-chemex"
   - label: "CHEMEX, « CHEMEX BONDED™ FILTERS Pre-folded Squares »"
     url: "https://chemexcoffeemaker.com/products/chemex-bonded-filters-pre-folded-squares"
+  - label: "National Coffee Association, « Pour-over coffee »"
+    url: "https://www.aboutcoffee.org/brewing/pour-over-coffee/"
 faq:
   - question: "Quelle mouture pour une Chemex ?"
-    answer: "Une mouture moyenne-grossière, proche d'un sucre semoule un peu épais. Trop fine, l'eau s'écoule mal et le café devient amer ; trop grossière, il est sous-extrait et fade. Un moulin à meules réglable donne le meilleur résultat."
+    answer: "Une mouture moyenne-grossière, entre le gros sel fin (type sel casher) du filtre et le gros sel de la French press. Trop fine, l'eau s'écoule mal et le café devient amer ; trop grossière, il est sous-extrait et fade. Un moulin à meules réglable donne le meilleur résultat."
   - question: "Quel ratio café/eau pour la Chemex ?"
-    answer: "Compte environ 60 g de café par litre d'eau, soit à peu près 1 g de café pour 16 à 17 g d'eau. Une balance de précision aide à reproduire le même café à chaque fois."
+    answer: "Compte environ 60 à 65 g de café par litre d'eau, soit à peu près 1 g de café pour 15 à 16 g d'eau, dans la fourchette que donne la National Coffee Association pour le café filtre manuel (1:13 à 1:16). Une balance de précision aide à reproduire le même café à chaque fois."
   - question: "Les filtres Chemex sont-ils spécifiques ?"
-    answer: "Oui : la Chemex utilise des filtres épais dédiés, plus épais que les filtres classiques. Ils retiennent davantage les huiles et donnent une tasse très propre et claire. Mieux vaut utiliser les filtres de la marque."
+    answer: "Oui : la Chemex utilise des filtres dédiés, dont le papier est 20 à 30 % plus épais que la plupart des concurrents selon le fabricant. Ils retiennent davantage les huiles et les sédiments et donnent une tasse très propre et claire. Mieux vaut utiliser les filtres de la marque."
 ---
 
 ## Pourquoi la Chemex séduit autant
@@ -53,7 +53,7 @@ C'est aussi un objet de cuisine présent dans les collections permanentes de plu
 - **Le col en bois amovible** : au-delà de l'esthétique, il permet de passer le corps en verre au lave-vaisselle, tout en gardant une prise en main confortable et non brûlante pour servir.
 - **La mouture** : une mouture moyenne à moyennement grossière, plus grossière que pour un V60 classique. Le filtre épais compense en ralentissant naturellement l'écoulement, une mouture trop fine bouche rapidement le filtre.
 - **La bouilloire associée** : un col de cygne n'est pas obligatoire mais améliore nettement la régularité du versement en spirale, l'un des gestes clés pour une extraction homogène.
-- **L'entretien du verre** : borosilicate résistant aux chocs thermiques, il supporte l'eau bouillante sans risque de fissure, un vrai plus par rapport à certaines carafes en verre standard plus fragiles.
+- **L'entretien du verre** : la carafe est taillée d'une seule pièce dans du verre borosilicate, qui supporte bien l'eau bouillante et les écarts de température, et passe au lave-vaisselle une fois le col retiré.
 
 ## Chemex ou V60 : lequel choisir
 
@@ -63,7 +63,7 @@ Pour affiner encore le dosage, une [balance de précision](/articles/balance-caf
 
 ## Le geste de préparation en résumé
 
-Rincer le filtre à l'eau chaude avant utilisation élimine le léger goût de papier et préchauffe le verre, une étape simple mais qui change réellement le résultat en tasse. Compter environ 60 g de café pour 1 litre d'eau, à ajuster selon le goût, et verser en petits cercles progressifs plutôt qu'en un seul jet pour une extraction homogène sur toute la surface de la mouture.
+Rincer le filtre à l'eau chaude avant utilisation élimine le léger goût de papier et préchauffe le verre, une étape simple mais qui change réellement le résultat en tasse. Compter environ 60 à 65 g de café pour 1 litre d'eau, à ajuster selon le goût, et verser en petits cercles progressifs plutôt qu'en un seul jet pour une extraction homogène sur toute la surface de la mouture.
 
 ## La méthode Chemex, pas à pas
 
@@ -71,19 +71,19 @@ La Chemex se prépare comme un V60, avec quelques particularités liées à son 
 
 1. **Place le filtre** en cône, le côté à **trois épaisseurs contre le bec verseur**. C'est un détail capital : le bec sert de canal d'air, et un filtre mal orienté le bouche, ce qui ralentit ou bloque l'écoulement.
 2. **Rince** le filtre à l'eau chaude, puis vide la carafe sans retirer le filtre. Le papier Chemex, plus épais, a besoin d'un rinçage généreux.
-3. **Dose 30 g** de café en mouture moyenne-grossière (un cran plus grossier que pour un V60) et creuse un petit puits au centre.
-4. **Bloom** : verse environ 60 ml d'eau à 93-95 °C, attends une trentaine de secondes que le café gonfle.
+3. **Dose 32 g** de café en mouture moyenne-grossière (un cran plus grossier que pour un V60) et creuse un petit puits au centre.
+4. **Bloom** : verse environ 65 ml d'eau à 93 °C environ (90 à 96 °C), soit deux fois le poids du café, et attends 30 à 45 secondes que le café cesse de buller.
 5. **Verse en spirale**, en trois ou quatre ajouts, jusqu'à 500 ml d'eau au total, sans jamais dépasser la moitié de la hauteur du filtre.
-6. Compte un temps total de **4 à 5 minutes**. Retire le filtre, fais tourner la carafe pour homogénéiser, sers.
+6. Le filtre épais ralentit l'écoulement : compte un peu plus de temps qu'avec un V60. Retire le filtre, fais tourner la carafe pour homogénéiser, sers.
 
-Si l'écoulement dépasse 5 min 30, grossis la mouture ; s'il boucle en moins de 3 min 30, affine-la. Le détail des repères de versement est dans notre guide du [café filtre et du V60](/articles/reussir-cafe-filtre-v60/).
+Si l'écoulement s'éternise et que le café est amer, grossis la mouture ; s'il file très vite et que le café est fade, affine-la. Le détail des repères de versement est dans notre guide du [café filtre et du V60](/articles/reussir-cafe-filtre-v60/).
 
 ## Les erreurs typiques avec une Chemex
 
 - **Le filtre à l'envers** (les trois épaisseurs à l'opposé du bec) : le café stagne, sur-extrait, devient amer. C'est l'erreur n°1 des débutants.
 - **La mouture V60 réutilisée telle quelle** : trop fine pour ce filtre, elle colmate et double le temps d'écoulement.
 - **Verser sur les bords** du filtre : l'eau contourne le café et sort claire ; vise toujours le centre et le milieu du lit de café.
-- **Poser la Chemex sur une plaque** pour garder le café chaud : le verre supporte la chaleur, mais le café cuit et devient âcre en quelques minutes. Transvase dans une carafe isotherme si tu ne bois pas tout de suite.
+- **Laisser la Chemex longtemps sur une plaque** pour garder le café chaud : maintenu au chaud trop longtemps, le café perd ses arômes et prend un goût plus âcre. Transvase dans une carafe isotherme si tu ne bois pas tout de suite.
 - **Serrer le lacet en cuir** trop fort après lavage, quand le bois est encore humide : il se déforme.
 
 ## Entretien du verre et du col

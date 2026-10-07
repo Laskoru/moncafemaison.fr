@@ -2,7 +2,7 @@
 title: "Moulin à café pas cher : lequel vaut vraiment le coup ?"
 description: "Un moulin à café pas cher peut-il donner un bon résultat ? Nos critères pour ne pas se tromper à petit budget, et les pièges à éviter."
 pubDate: 2026-09-12
-updatedDate: 2026-09-24
+updatedDate: 2026-10-07
 author: "Hugo B."
 pinHook: "Un petit budget *ne veut pas dire* mauvais café"
 pinSub: "Ce qu'il faut vraiment vérifier avant d'acheter un moulin pas cher."
@@ -74,7 +74,7 @@ Un dernier argument en faveur d'un moulin pas cher mais correct : il te permet d
 
 À petit prix, la question se pose vite. Dans un moulin électrique, le prix paie aussi un moteur, un boîtier et un peu d'électronique ; dans un moulin manuel, il va presque entièrement aux meules et à leur axe. À somme égale, le manuel offre donc souvent une mouture plus régulière, surtout en mouture fine.
 
-La contrepartie, c'est l'effort : compte 30 secondes à une minute de manivelle pour une tasse de filtre, davantage en mouture fine, et une capacité limitée à une ou deux doses. C'est idéal si tu bois une ou deux tasses par jour, beaucoup moins si tu prépares chaque matin une grande carafe pour toute la famille.
+La contrepartie, c'est l'effort : quelques dizaines de tours de manivelle pour une tasse de filtre, bien davantage en mouture fine, et une capacité limitée à une ou deux doses. C'est idéal si tu bois une ou deux tasses par jour, beaucoup moins si tu prépares chaque matin une grande carafe pour toute la famille.
 
 L'électrique d'entrée de gamme garde l'avantage du confort : un bouton, plusieurs doses d'un coup, aucun effort. Si ce confort est ce qui te fera moudre tes grains chaque jour plutôt que racheter du café moulu, c'est lui le bon choix.
 

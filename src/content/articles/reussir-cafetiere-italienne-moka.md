@@ -25,7 +25,7 @@ faq:
   - question: "Pourquoi mon café moka est-il amer ou brûlé ?"
     answer: "Presque toujours à cause d'un feu trop fort ou d'une cafetière laissée sur la source de chaleur après la montée. On chauffe à feu doux à modéré, et on retire la cafetière dès que le café gargouille, en refroidissant éventuellement la base sous l'eau pour stopper net l'extraction."
   - question: "Quelle mouture pour la cafetière italienne ?"
-    answer: "Une mouture moyenne, un peu plus grossière que pour l'espresso et plus fine que pour le filtre, proche du sel fin. Trop fine, elle colmate le filtre et surchauffe ; trop grossière, le café est fade. Une mouture fraîche et régulière (moulin à meules) donne le meilleur résultat."
+    answer: "Une mouture moyenne, un peu plus grossière que pour l'espresso et plus fine que pour le filtre : entre le sel de table de l'espresso et le gros sel fin (type sel casher) du filtre. Trop fine, elle colmate le filtre et surchauffe ; trop grossière, le café est fade. Une mouture fraîche et régulière (moulin à meules) donne le meilleur résultat."
   - question: "Une cafetière italienne peut-elle exploser ?"
     answer: "C'est rare, mais la pression peut monter dangereusement si l'eau ne passe plus : filtre bouché par une mouture trop fine ou tassée, eau versée au-dessus de la soupape, ou soupape bloquée par le calcaire. La soupape de sécurité sert justement à libérer l'excès de vapeur : remplis toujours sous son niveau, ne tasse jamais le café et vérifie de temps en temps qu'elle n'est pas entartrée. La notice Bialetti ajoute de ne jamais chauffer la cafetière sans eau et de ne pas l'ouvrir avant qu'elle ait complètement refroidi."
   - question: "Ma cafetière italienne est trop petite pour ma plaque à induction : que faire ?"
@@ -40,7 +40,7 @@ Le principe : la vapeur formée dans la base pousse l'**eau chaude** à travers 
 
 ## 1. La bonne mouture (et surtout pas tassée)
 
-Vise une **mouture moyenne**, proche du sel fin : un peu plus grossière que l'espresso. Trop fine, elle bouche le filtre, la pression grimpe et le café surchauffe ; trop grossière, la tasse est fade. Comme toujours, une **mouture fraîche et régulière** améliore nettement la tasse (voir [comment choisir son moulin](/articles/meilleur-moulin-cafe-electrique/)).
+Vise une **mouture moyenne-fine**, entre le sel de table de l'espresso et le gros sel fin (type sel casher) du filtre : un peu plus grossière que l'espresso. Trop fine, elle bouche le filtre, la pression grimpe et le café surchauffe ; trop grossière, la tasse est fade. Comme toujours, une **mouture fraîche et régulière** améliore nettement la tasse (voir [comment choisir son moulin](/articles/meilleur-moulin-cafe-electrique/)).
 
 Remplis le filtre **en petit dôme** et égalise du doigt, **sans jamais tasser**. Contrairement à l'espresso, ici l'eau doit traverser librement : tasser ne fait qu'augmenter la surchauffe.
 

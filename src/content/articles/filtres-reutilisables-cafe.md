@@ -31,7 +31,7 @@ faq:
 
 Chaque tasse de café filtre consomme un filtre papier à usage unique, un geste anodin en apparence, mais qui représente plusieurs centaines de filtres jetés par an pour un buveur régulier, même s'ils peuvent finir au compost avec le marc. Le **filtre réutilisable** répond à ce constat simple : un seul accessoire, lavé après chaque usage, remplace des années d'achats de boîtes de filtres papier.
 
-Au-delà de l'aspect écologique, l'argument économique est net : un bon filtre en inox coûte l'équivalent de quelques mois de filtres papier, puis ne coûte plus rien. Et contrairement à une idée reçue, le résultat en tasse n'est pas dégradé : il est simplement différent, souvent plus riche en corps et en arômes.
+Au-delà de l'aspect écologique, l'argument économique est net : un bon filtre en inox coûte l'équivalent de quelques mois de filtres papier, puis ne coûte plus rien. Et contrairement à une idée reçue, le résultat en tasse n'est pas dégradé : il est simplement différent, avec plus de corps et de texture, puisque le métal laisse passer davantage d'huiles et de sédiments que le papier.
 
 ## Les grandes familles de filtres réutilisables
 

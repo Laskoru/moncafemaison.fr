@@ -2,7 +2,7 @@
 title: "Moulin à café manuel : lequel choisir ?"
 description: "Précis, silencieux et sans fil : notre guide pour choisir un moulin à café manuel adapté à ton usage quotidien ou en voyage."
 pubDate: 2026-08-16
-updatedDate: 2026-09-21
+updatedDate: 2026-10-07
 author: "Hugo B."
 pinHook: "Un café *plus précis*, même en voyage"
 pinSub: "Le moulin manuel, silencieux et fin."
@@ -21,8 +21,10 @@ products:
     cons:
       - "Mouture à la main : effort pour l’espresso fin"
       - "Réglage un peu tâtonnant au début"
-      - "Capacité limitée par fournée"
+      - "Long à moudre au-delà de deux tasses"
 sources:
+  - label: "Hario, « Skerton Pro Ceramic Coffee Mill »"
+    url: "https://www.hario-usa.com/products/ceramic-coffee-mill-skerton-pro"
   - label: "National Coffee Association, « Drip coffee »"
     url: "https://www.aboutcoffee.org/brewing/drip-coffee/"
   - label: "1Zpresso, « FAQ »"
@@ -35,7 +37,7 @@ faq:
   - question: "Meules en acier ou en céramique : quelle différence ?"
     answer: "Les meules en acier sont généralement plus précises, avec une meilleure régularité sur les moutures fines pour l'espresso, et elles encaissent mieux les chocs. Les meules en céramique restent plus fraîches pendant la mouture, s'émoussent lentement et coûtent souvent moins cher, mais s'ébrèchent plus facilement si un petit caillou se glisse parmi les grains."
   - question: "Combien de temps faut-il pour moudre une tasse à la main ?"
-    answer: "Compte en général 30 secondes à 1 minute pour une mouture filtre, et un peu plus pour une mouture fine espresso qui demande plus de tours de manivelle. C'est plus long qu'un moulin électrique, mais le geste fait partie du rituel pour beaucoup d'utilisateurs, et le moulin ne fait aucun bruit tôt le matin."
+    answer: "Peu de temps pour une mouture filtre sur un moulin correct, nettement plus pour une mouture fine espresso, qui demande davantage de tours de manivelle. Les grandes meules (47 à 48 mm sur la série J de 1Zpresso) raccourcissent beaucoup l'effort. C'est plus long qu'un moulin électrique, mais le geste fait partie du rituel pour beaucoup d'utilisateurs, et le moulin ne fait aucun bruit tôt le matin."
 ---
 
 ## Pourquoi choisir un moulin à café manuel
@@ -54,7 +56,7 @@ Les lames, elles, hachent les grains de façon aléatoire : certains morceaux re
 
 - **Le matériau des meules** : acier pour la précision et la résistance aux chocs, céramique pour un prix plus doux, un tranchant qui dure et une bonne résistance à la chaleur de friction
 - **La plage de réglage** : vérifie que le moulin descend assez fin pour l'espresso si c'est ton usage, ou reste large pour couvrir filtre et French press
-- **La capacité du réservoir** : 20 à 30 g suffisent pour une à deux tasses ; au-delà, l'effort de mouture augmente sensiblement
+- **La capacité du réservoir** : une trentaine de grammes suffisent pour une à deux tasses (la série J de 1Zpresso prend 30 à 40 g) ; au-delà, l'effort de mouture augmente sensiblement
 - **La poignée et la prise en main** : une poignée pliable facilite le rangement et le transport, un corps antidérapant évite que le moulin bouge pendant l'effort
 - **Le bruit** : un moulin manuel reste nettement plus silencieux qu'un moulin électrique, un vrai argument pour les lève-tôt
 
@@ -70,10 +72,10 @@ Verse les grains progressivement plutôt que de remplir le réservoir à ras bor
 
 ## Combien de temps (et d'effort) pour moudre ?
 
-C'est la question que tout le monde se pose avant d'acheter, et la réponse dépend surtout de la **taille des meules** et de la finesse visée. En ordre de grandeur :
+C'est la question que tout le monde se pose avant d'acheter, et la réponse dépend surtout de la **taille des meules** et de la finesse visée :
 
-- **Filtre ou French press, 15 g** : 30 à 45 secondes sur n'importe quel moulin correct, sans forcer.
-- **Espresso, 18 g** : 60 à 90 secondes sur un moulin d'entrée de gamme à petites meules, et l'effort se sent ; 30 à 40 secondes sur un moulin à grandes meules (autour de 47-48 mm), plus fluide.
+- **Filtre ou French press** : une mouture moyenne à grossière passe vite et sans forcer sur n'importe quel moulin correct.
+- **Espresso** : la mouture fine demande beaucoup plus de tours. Sur un moulin d'entrée de gamme à petites meules, l'effort se sent nettement ; sur un moulin à grandes meules (47 à 48 mm sur la série J de 1Zpresso, par exemple), chaque tour moud davantage et c'est bien plus fluide.
 
 Pour une ou deux tasses par jour, c'est un rituel agréable. Pour quatre espressos chaque matin, ça devient une corvée : c'est là que le [moulin électrique](/articles/meilleur-moulin-cafe-electrique/) se justifie. Un truc pour réduire l'effort : mouds par petites quantités (10-15 g) plutôt que le réservoir plein, et tourne à vitesse constante plutôt que par à-coups.
 
@@ -88,7 +90,7 @@ Chaque cran s'appelle un « clic ». Plus il y a de clics par tour, plus le rég
 
 ## Les détails qui comptent au quotidien
 
-- **L'axe sur roulements à billes** plutôt que sur simples paliers : il empêche la meule de vaciller pendant la rotation, et donc la mouture de partir dans tous les sens. C'est ce qui sépare un moulin à 30 € d'un moulin à 80 €, bien plus que le matériau du corps.
+- **L'axe sur roulements à billes** plutôt que sur simples paliers : il empêche la meule de vaciller pendant la rotation, et donc la mouture de partir dans tous les sens. C'est ce qui sépare un moulin d'entrée de gamme d'un moulin plus abouti, bien plus que le matériau du corps.
 - **La manivelle aimantée ou à clip** : celle qui s'enlève pour le transport ne doit pas se détacher en cours de mouture.
 - **Le bocal fileté ou emboîté** : un bocal vissé ne tombe pas si tu mouds au-dessus de l'évier ; un bocal emboîté est plus rapide à retirer.
 - **Le corps en inox ou en aluminium** plutôt qu'en plastique : plus lourd, mais plus stable en main et sans électricité statique.

@@ -2,7 +2,7 @@
 title: "Moulin pour espresso : le guide pour bien choisir"
 description: "Quel moulin choisir pour un vrai espresso ? Mouture fine, régularité, réglages : nos critères concrets et notre sélection pour un espresso équilibré."
 pubDate: 2026-08-31
-updatedDate: 2026-09-27
+updatedDate: 2026-10-07
 author: "Hugo B."
 pinHook: "L'espresso *ne pardonne rien* à un mauvais moulin"
 pinSub: "Comment descendre assez fin, sans perdre en régularité."
@@ -96,7 +96,7 @@ Sur l'espresso, la différence entre un café qui coule en 22 secondes et un aut
 
 ## Le budget réaliste
 
-C'est le point qui surprend : un vrai moulin espresso coûte souvent **autant que la machine**, entre 150 et 300 € pour un électrique fiable. En dessous de 100 €, rares sont les moulins électriques qui tiennent une mouture espresso régulière dans la durée ; à ce budget, un bon [moulin manuel](/articles/meilleur-moulin-cafe-manuel/) à meules acier fait souvent mieux, au prix d'une minute d'effort par tasse. La règle d'or des amateurs : à budget total égal, mieux vaut une machine simple et un bon moulin que l'inverse. La machine la plus chère du monde ne rattrape pas une mouture irrégulière.
+C'est le point qui surprend : un vrai moulin espresso coûte souvent **autant que la machine** (le Smart Grinder Pro est affiché 259,90 € sur le site de Sage). Les moulins électriques les moins chers tiennent rarement une mouture espresso régulière dans la durée ; à petit budget, un bon [moulin manuel](/articles/meilleur-moulin-cafe-manuel/) à meules acier fait souvent mieux, au prix d'un vrai effort à chaque tasse. La règle d'or des amateurs : à budget total égal, mieux vaut une machine simple et un bon moulin que l'inverse. La machine la plus chère du monde ne rattrape pas une mouture irrégulière.
 
 ## Le réglage quotidien, ou l'art du « dialing in »
 

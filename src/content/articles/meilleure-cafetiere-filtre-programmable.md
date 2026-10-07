@@ -3,7 +3,7 @@ title: "Cafetière filtre programmable : notre comparatif"
 seoTitle: "Cafetière filtre programmable : comment bien la choisir"
 description: "Cafetière filtre programmable : minuterie, verseuse isotherme ou plaque, capacité. Nos critères pour bien la choisir et le bon dosage de café par tasse."
 pubDate: 2026-08-16
-updatedDate: 2026-10-01
+updatedDate: 2026-10-07
 author: "Hugo B."
 pinHook: "Le café du matin, *prêt au réveil*"
 pinSub: "La filtre programmable idéale."
@@ -28,11 +28,13 @@ sources:
     url: "https://www.moulinex.fr/p/cafetiere-filtre-subito-programmable-verseuse-isotherme-12-tasses-inox/7211419679"
   - label: "National Coffee Association, « Drip coffee »"
     url: "https://www.aboutcoffee.org/brewing/drip-coffee/"
+  - label: "National Coffee Association, « Pour-over coffee »"
+    url: "https://www.aboutcoffee.org/brewing/pour-over-coffee/"
   - label: "Philips, « À quelle fréquence dois-je détartrer ma cafetière Philips ? »"
     url: "https://www.philips.ca/fr/c-f/XC000001294/%C3%A0-quelle-fr%C3%A9quence-dois-je-d%C3%A9tartrer-ma-cafeti%C3%A8re-philips"
 faq:
   - question: "Pourquoi choisir une carafe isotherme plutôt qu'une plaque chauffante ?"
-    answer: "Une plaque chauffante garde le café chaud en continuant de le cuire lentement, ce qui l'amertume au fil des heures. Une carafe isotherme conserve la chaleur par isolation, sans recuire le café : le dernier bol a presque le même goût que le premier, deux à quatre heures plus tard selon les modèles."
+    answer: "Une plaque chauffante garde le café chaud en continuant de le cuire lentement, ce qui l'amertume au fil des heures. Une carafe isotherme conserve la chaleur par isolation, sans recuire le café : le dernier bol a presque le même goût que le premier, jusqu'à quatre heures plus tard selon les modèles (c'est la durée annoncée par Moulinex pour la Subito)."
   - question: "Comment fonctionne la programmation 24h à l'avance ?"
     answer: "Tu remplis le réservoir d'eau et le panier de café moulu la veille, puis tu règles l'heure de démarrage souhaitée sur l'écran ou les boutons de la machine. Le café commence à couler automatiquement à l'heure choisie, pour un réveil avec la carafe déjà prête, pratique pour les matins pressés."
   - question: "Faut-il détartrer une cafetière filtre régulièrement ?"
@@ -48,7 +50,7 @@ C'est aussi le système le plus économique par tasse : pas de capsule à rachet
 ## Les critères qui comptent vraiment
 
 - **La programmation** : vérifie la plage horaire réglable (certaines machines se limitent à quelques heures à l'avance, d'autres vont jusqu'à 24h) et la simplicité de l'interface. Un écran clair évite les erreurs de réglage au réveil.
-- **Le type de carafe** : verre avec plaque chauffante (moins cher, mais le café continue de cuire et s'amertume) ou carafe isotherme en inox (garde la chaleur sans recuire le café, généralement 2 à 4 heures).
+- **Le type de carafe** : verre avec plaque chauffante (moins cher, mais le café continue de cuire et s'amertume) ou carafe isotherme en inox (garde la chaleur sans recuire le café, jusqu'à 4 heures sur la Subito de Moulinex).
 - **La capacité** : de 6 à 15 tasses selon les modèles ; vise la taille adaptée au nombre de personnes qui boivent du café chez toi le matin, sans surdimensionner inutilement.
 - **Le système anti-goutte** : permet de retirer la carafe en cours de cycle sans que le café ne coule sur la plaque, pratique si quelqu'un veut sa tasse avant la fin de la préparation.
 - **La facilité d'entretien** : porte-filtre amovible et lavable au lave-vaisselle, réservoir facile à remplir, indicateur de détartrage sur certains modèles plus avancés.
@@ -79,7 +81,7 @@ Quelques réflexes évitent les mauvaises surprises : utilise toujours de l'eau 
 
 ## Combien de café mettre dans la cafetière
 
-La cuillère doseuse livrée avec la machine est pratique, mais son contenu varie selon la mouture et la façon de la remplir. Le repère fiable est celui de tout café filtre : environ **60 g de café moulu par litre d'eau**, soit une quinzaine de grammes pour 250 ml. Pour un litre d'eau dans le réservoir, compte donc une soixantaine de grammes ; pour un demi-litre, une trentaine. Pèse une fois ta dose habituelle, puis compte combien de cuillères elle représente avec ton café : tu pourras ensuite doser sans balance. Pour le détail de 2 à 12 tasses, le [calculateur de dosage du café](/calculateur-dosage-cafe/) donne directement les grammes et l'eau, avec un tableau prêt à l'emploi.
+La cuillère doseuse livrée avec la machine est pratique, mais son contenu varie selon la mouture et la façon de la remplir. Le repère fiable est celui de tout café filtre : environ **60 à 65 g de café moulu par litre d'eau** (un ratio de 1:15 à 1:16), soit une quinzaine de grammes pour 250 ml, dans la fourchette 1:13 à 1:16 que donne la National Coffee Association pour le filtre manuel. Pour un litre d'eau dans le réservoir, compte donc 60 à 65 g ; pour un demi-litre, une trentaine. Pèse une fois ta dose habituelle, puis compte combien de cuillères elle représente avec ton café : tu pourras ensuite doser sans balance. Pour le détail de 2 à 12 tasses, le [calculateur de dosage du café](/calculateur-dosage-cafe/) donne directement les grammes et l'eau, avec un tableau prêt à l'emploi.
 
 Méfie-toi aussi des graduations en « tasses » : chaque fabricant a sa propre définition, et il s'agit de petites tasses, bien moins qu'un mug. Raisonne plutôt en litres. Évite enfin de préparer une seule tasse dans une grande machine : la mouture forme une couche trop mince dans le porte-filtre, l'eau la traverse trop vite et le café sort fade. Certains modèles proposent un réglage « petites quantités » qui ralentit l'écoulement pour compenser. Pour le reste (mouture, eau, diagnostic d'une tasse acide ou amère), les repères de [notre méthode du café filtre](/articles/reussir-cafe-filtre-v60/) valent aussi pour la cafetière électrique.
 
@@ -93,7 +95,7 @@ Les soucis d'une cafetière filtre se ressemblent d'un modèle à l'autre, et la
 | L'écoulement ralentit, le cycle s'allonge | Tartre dans le circuit | Détartrage, suivi de deux ou trois cycles d'eau claire |
 | Café tiède | Carafe isotherme froide au départ, ou tartre qui freine la chauffe | Rincer la carafe à l'eau chaude avant le cycle ; détartrer |
 | Café amer | Café resté longtemps sur la plaque, mouture trop fine | Boire dans l'heure ou passer à l'isotherme ; mouture un peu plus grossière |
-| Café fade, aqueux | Pas assez de café, mouture éventée, petite quantité dans un grand porte-filtre | 60 g/L pesés, café fraîchement moulu |
+| Café fade, aqueux | Pas assez de café, mouture éventée, petite quantité dans un grand porte-filtre | 60 à 65 g/L pesés, café fraîchement moulu |
 | Goût de vinaigre après détartrage | Rinçage insuffisant | Un ou deux cycles d'eau claire de plus |
 | Du marc dans la carafe | Filtre plié, mal ajusté ou pas à la bonne taille | Filtre adapté au porte-filtre, bien ouvert contre les parois |
 

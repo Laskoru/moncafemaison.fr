@@ -3,7 +3,7 @@ title: "Tamper à espresso : comment bien le choisir pour un tassage régulier"
 seoTitle: "Tamper à espresso : bien le choisir pour un tassage régulier"
 description: "Diamètre, poids, base plate ou convexe : nos critères pour choisir un tamper adapté à ta machine, et la méthode pour tasser la mouture sans erreur."
 pubDate: 2026-09-17
-updatedDate: 2026-09-17
+updatedDate: 2026-10-07
 author: "Hugo B."
 pinHook: "Le petit geste *qui stabilise* l'extraction"
 pinSub: "Pourquoi un bon tamper évite les canaux et les espressos irréguliers."
@@ -46,13 +46,13 @@ Un tassage irrégulier crée des zones de moindre résistance : l'eau y passe pl
 
 ## Le critère numéro un : le diamètre
 
-Avant tout autre critère, le diamètre du tamper doit correspondre précisément à celui du panier du porte-filtre, et non à une estimation approximative. Un écart de seulement 1 à 2 mm suffit à laisser un espace non tassé sur le pourtour.
+Avant tout autre critère, le diamètre du tamper doit correspondre précisément à celui du panier du porte-filtre, et non à une estimation approximative. Même un faible écart suffit à laisser un espace non tassé sur le pourtour.
 
 **51 mm** se retrouve sur de nombreuses machines expresso grand public, souvent compactes.
 
-**53 à 54 mm** équipe d'autres machines grand public, y compris certains modèles à broyeur intégré.
+**53 à 54 mm** équipe d'autres machines grand public, y compris certains modèles à broyeur intégré : la Barista Express de Sage, par exemple, a un porte-filtre de 54 mm.
 
-**58 mm** reprend le diamètre des groupes de percolation professionnels : on le trouve sur le matériel semi-professionnel et sur une partie des machines à broyeur intégré.
+**58 mm** reprend le diamètre des groupes de percolation professionnels : on le trouve sur le matériel semi-professionnel (la Dual Boiler de Sage, par exemple) et sur une partie des machines à broyeur intégré.
 
 Le plus fiable reste de mesurer directement le panier avec un pied à coulisse ou de se référer à la notice du fabricant plutôt qu'au diamètre supposé du porte-filtre, qui n'est pas toujours identique à celui du panier interne.
 
@@ -89,7 +89,7 @@ Le plus fiable reste de mesurer directement le panier avec un pied à coulisse o
 4. **Vérifie la surface du puck** : elle doit être plane, sans fissure visible ni zone plus basse que le reste.
 5. **Retire le tamper à la verticale**, sans le faire pivoter, pour ne pas casser la surface du puck juste formée.
 
-Ce geste, une fois maîtrisé, prend moins de dix secondes et conditionne directement la régularité de l'extraction, qu'il s'agisse de préparer un espresso classique ou d'alimenter un [moulin réglé finement pour l'espresso](/articles/meilleur-moulin-pour-espresso/) en amont.
+Ce geste, une fois maîtrisé, prend quelques secondes et conditionne directement la régularité de l'extraction, qu'il s'agisse de préparer un espresso classique ou d'alimenter un [moulin réglé finement pour l'espresso](/articles/meilleur-moulin-pour-espresso/) en amont.
 
 > 🛒 **Pour compléter ton équipement**
 > Voir aussi les tapis de tassage et tampers calibrés à ressort, pour un geste plus régulier d'un café à l'autre : [comparer les modèles sur Amazon](https://www.amazon.fr/s?k=tamper+calibre+espresso&tag=moncafemaison-21).
@@ -102,7 +102,7 @@ Ce geste, une fois maîtrisé, prend moins de dix secondes et conditionne direct
 
 **Utiliser un tamper trop petit pour le panier « parce qu'il rentre quand même ».** Le jeu laissé sur le pourtour reste un chemin de moindre résistance pour l'eau, même si le tamper semble fonctionner visuellement.
 
-**Négliger le double tassage ou la distribution de la mouture en amont.** Un tassage soigné ne corrige pas une mouture mal répartie dans le panier ; les deux étapes sont complémentaires, comme pour la régularité déjà évoquée à propos de la [préparation d'un espresso maison](/articles/reussir-espresso-maison/).
+**Négliger la distribution de la mouture en amont.** Un tassage soigné ne corrige pas une mouture mal répartie dans le panier ; les deux étapes sont complémentaires, comme pour la régularité déjà évoquée à propos de la [préparation d'un espresso maison](/articles/reussir-espresso-maison/).
 
 **Stocker le tamper mouillé ou avec des résidus de mouture collés.** Un rinçage et un séchage rapides après chaque usage évitent l'oxydation prématurée d'une base en aluminium et les résidus qui pourraient altérer le goût des cafés suivants.
 

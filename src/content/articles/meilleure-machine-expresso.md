@@ -2,7 +2,7 @@
 title: "Machine expresso : le guide pour bien débuter"
 description: "Quelle machine expresso choisir pour débuter à la maison ? Porte-filtre ou capsules : nos critères et notre sélection abordable."
 pubDate: 2026-08-16
-updatedDate: 2026-09-21
+updatedDate: 2026-10-07
 author: "Hugo B."
 pinHook: "Un vrai espresso *sans se ruiner*"
 pinSub: "La machine pour débuter, bien choisie."
@@ -27,10 +27,10 @@ sources:
     url: "https://www.sageappliances.com/fr-fr/product/bes875"
   - label: "National Coffee Association, « Espresso »"
     url: "https://www.aboutcoffee.org/brewing/espresso/"
-  - label: "Illy et Navarini, Food Biophysics (2011), « Neglected Food Bubbles: The Espresso Coffee Foam »"
-    url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC3140933/"
   - label: "De'Longhi, « Comment détartrer sa machine à café »"
     url: "https://www.delonghi.com/fr-fr/e/r/detartrage-machine-a-cafe"
+  - label: "National Coffee Association, « Storage and shelf life »"
+    url: "https://www.aboutcoffee.org/beans/storage-and-shelf-life/"
 faq:
   - question: "Faut-il un moulin en plus d'une machine expresso à porte-filtre ?"
     answer: "Idéalement oui : l'espresso est la préparation qui dépend le plus de la finesse et de la fraîcheur de la mouture. Avec du café pré-moulu, le résultat reste correct mais plafonne vite. Un moulin à meules capable de descendre fin est le meilleur complément d'une machine à porte-filtre."
@@ -64,16 +64,16 @@ Si tu cherches avant tout la **rapidité et la régularité** sans te poser de q
 
 Presque toutes les fiches produit mettent en avant « 15 bars » ou « 20 bars ». Ce chiffre est la pression maximale de la pompe, pas celle de l'extraction. Un espresso s'extrait autour de **9 bars**, et toutes les machines, même les moins chères, y arrivent. Ce qui distingue vraiment une machine, c'est :
 
-- **La stabilité de la température.** Un thermoblock (chauffe instantanée) est réactif mais fluctue ; une petite chaudière est plus stable mais met plus de temps à chauffer. Sur une machine d'entrée de gamme, laisse-la chauffer 10 à 15 minutes et fais couler un peu d'eau à vide avant le premier café : la tasse sera nettement plus régulière.
+- **La stabilité de la température.** Un thermoblock (chauffe instantanée) est réactif mais fluctue ; une petite chaudière est plus stable mais met plus de temps à chauffer. Sur une machine d'entrée de gamme, laisse-la bien chauffer, porte-filtre en place, et fais couler un peu d'eau à vide avant le premier café : la tasse sera nettement plus régulière.
 - **Le type de panier.** La plupart des machines abordables sont livrées avec des paniers **pressurisés** (à double fond), qui fabriquent une crema artificielle et pardonnent une mouture approximative. Pratique pour débuter avec du café pré-moulu, mais limitant : le jour où tu veux progresser, un panier **non pressurisé** (à acheter à part, au bon diamètre) et un vrai moulin à meules font la différence.
 - **La buse vapeur.** Sur les modèles d'entrée de gamme, elle est souvent entourée d'un embout « panarello » qui injecte de l'air tout seul : mousse facile, mais grossière. On peut souvent le retirer pour retrouver une buse nue, plus exigeante mais capable d'une vraie micro-mousse.
 
 ## Les trois réglages à maîtriser avant d'accuser la machine
 
-Un espresso raté vient neuf fois sur dix du dosage, de la mouture ou du tassage, pas de la machine. Le repère de départ :
+Un espresso raté vient le plus souvent du dosage, de la mouture ou du tassage, pas de la machine. Le repère de départ :
 
-1. **La dose** : environ 18 g de café pour un panier double (pèse-la, une [balance de précision](/articles/balance-cafe-precision/) coûte quelques euros).
-2. **La mouture** : fine, comme du sucre glace légèrement granuleux. Ajuste-la pour obtenir environ **36 g d'espresso en 25 à 30 secondes** (ratio 1:2).
+1. **La dose** : environ 18 g de café pour un panier double (la dose que retient Sage pour sa Barista Express) (pèse-la, une [balance de précision](/articles/balance-cafe-precision/) coûte quelques euros).
+2. **La mouture** : fine (la National Coffee Association la compare à du sel de table). Ajuste-la pour obtenir environ **36 g d'espresso en 25 à 30 secondes** (ratio 1:2, celui que donne la National Coffee Association).
 3. **Le tassage** : ferme et bien à plat, toujours avec la même force. Le [tamper](/articles/tamper-espresso-bien-choisir/) doit correspondre au diamètre du panier (51, 53-54 ou 58 mm selon la machine).
 
 Si le café coule **trop vite** et sort acide, aqueux : resserre la mouture. S'il coule **goutte à goutte** et sort amer, âcre : ouvre-la. Change un seul paramètre à la fois, sinon tu ne sauras jamais ce qui a fonctionné. Le détail de la méthode est dans [réussir son espresso à la maison](/articles/reussir-espresso-maison/).
@@ -82,7 +82,7 @@ Si le café coule **trop vite** et sort acide, aqueux : resserre la mouture. S'i
 
 Le prix affiché n'est pas le budget total. Compte au minimum :
 
-- **Un moulin à meules** capable de moudre fin : c'est le vrai poste de dépense, souvent aussi cher que la machine elle-même ([notre sélection](/articles/meilleur-moulin-pour-espresso/)). À défaut, du café pré-moulu « spécial espresso », à consommer dans les deux semaines suivant l'ouverture.
+- **Un moulin à meules** capable de moudre fin : c'est le vrai poste de dépense, souvent aussi cher que la machine elle-même ([notre sélection](/articles/meilleur-moulin-pour-espresso/)). À défaut, du café pré-moulu « spécial espresso », à consommer vite : la National Coffee Association lui donne une à deux semaines de fraîcheur à température ambiante.
 - **Un tamper** correct : celui en plastique fourni avec la machine est rarement à la bonne taille.
 - **Un pichet à lait** en inox de 350 ml si tu comptes utiliser la buse vapeur.
 - **Un détartrant** et, idéalement, une **eau filtrée** : le calcaire est ce qui tue les machines abordables.

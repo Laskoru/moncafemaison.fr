@@ -3,7 +3,7 @@ title: "Bouilloire à col de cygne : un versement précis en pour-over"
 seoTitle: "Bouilloire à col de cygne : l'atout du pour-over"
 description: "Le contrôle du débit d'eau fait toute la différence en pour-over. Nos critères pour bien choisir une bouilloire à col de cygne, électrique ou sur le feu."
 pubDate: 2026-09-13
-updatedDate: 2026-09-13
+updatedDate: 2026-10-07
 author: "Hugo B."
 pinHook: "Le geste qui *maîtrise* l'extraction"
 pinSub: "Pourquoi le col de cygne change vraiment le résultat en tasse."
@@ -14,22 +14,22 @@ draft: false
 sources:
   - label: "National Coffee Association, « Pour-over coffee »"
     url: "https://www.aboutcoffee.org/brewing/pour-over-coffee/"
-  - label: "CHEMEX, « CHEMEX® Classic 6-Cup Pourover Coffeemaker »"
+  - label: "CHEMEX, « Six Cup Classic CHEMEX® »"
     url: "https://chemexcoffeemaker.com/products/six-cup-classic-chemex"
 faq:
   - question: "Une bouilloire à col de cygne est-elle vraiment indispensable ?"
-    answer: "Indispensable, non : on peut préparer un café filtre avec n'importe quelle bouilloire. Mais dès que la méthode repose sur un versement précis (V60, Chemex, AeroPress versé en cercles), le col de cygne devient le seul moyen de contrôler vraiment où et à quelle vitesse l'eau tombe sur la mouture. C'est l'accessoire qui transforme un versement approximatif en un versement maîtrisé, reproductible d'une tasse à l'autre."
+    answer: "Indispensable, non : on peut préparer un café filtre avec n'importe quelle bouilloire. Mais dès que la méthode repose sur un versement précis (V60, Chemex, Kalita), le col de cygne devient le seul moyen de contrôler vraiment où et à quelle vitesse l'eau tombe sur la mouture. C'est l'accessoire qui transforme un versement approximatif en un versement maîtrisé, reproductible d'une tasse à l'autre."
   - question: "Bouilloire électrique ou bouilloire à poser sur le feu : laquelle choisir ?"
     answer: "La bouilloire électrique à col de cygne, souvent avec réglage de température, convainc pour un usage quotidien : elle chauffe vite et permet de viser directement la bonne température sans thermomètre. La version à poser sur une source de chaleur (gaz, induction) coûte généralement moins cher et ne dépend d'aucune électronique, mais impose de surveiller la chauffe et, si besoin, de mesurer la température à part. Le choix dépend surtout du budget et de l'envie ou non de gérer la température au degré près."
   - question: "Quelle température viser avec une bouilloire à col de cygne ?"
-    answer: "Pour la plupart des cafés filtre, la fourchette utile se situe entre 92 et 96 °C : assez chaud pour bien extraire les arômes, sans brûler la mouture ni faire ressortir l'amertume. Les bouilloires électriques à réglage précis permettent de fixer ce chiffre une fois pour toutes ; sans réglage, il suffit de laisser l'eau reposer 30 secondes à une minute après ébullition avant de verser."
+    answer: "Pour la plupart des cafés filtre, la National Coffee Association recommande 93 °C, à 3 °C près (soit 90 à 96 °C). Les bouilloires électriques à réglage précis permettent de fixer ce chiffre une fois pour toutes ; sans réglage, la NCA conseille de laisser reposer l'eau environ une minute après l'ébullition avant de verser."
 ---
 
 ## Le bec étroit qui rend le versement précis
 
 Une bouilloire classique verse large et vite, sans grande précision : parfaite pour remplir une théière, beaucoup moins pour arroser une mouture de café filtre sans la noyer d'un coup. La **bouilloire à col de cygne** répond exactement à ce problème avec un bec long et étroit, recourbé comme le cou d'un cygne, qui ralentit et resserre le jet d'eau.
 
-Ce détail de forme a une conséquence directe en tasse : on peut désormais verser l'eau **exactement où on le souhaite**, en petit filet régulier, plutôt qu'en jet large impossible à diriger. Pour toute méthode où le versement compte (V60, Chemex, AeroPress versé en cercles), c'est ce qui sépare une extraction homogène d'un café inégal, trop fort par endroits et fade ailleurs.
+Ce détail de forme a une conséquence directe en tasse : on peut désormais verser l'eau **exactement où on le souhaite**, en petit filet régulier, plutôt qu'en jet large impossible à diriger. Pour toute méthode où le versement compte (V60, Chemex, Kalita), c'est ce qui sépare une extraction homogène d'un café inégal, trop fort par endroits et fade ailleurs.
 
 ## Pourquoi le débit d'eau est si important en pour-over
 
@@ -39,7 +39,7 @@ En pour-over, l'eau doit humidifier la mouture de façon progressive et réguli�
 - **La précision du geste** : viser le centre du lit de café, puis tracer des cercles réguliers vers les bords, demande un bec qui répond au poignet, ce qui est impossible avec une bouilloire au bec large.
 - **La régularité du débit** : un col de cygne bien conçu garde un flux stable du début à la fin du versement, sans à-coups qui perturberaient l'extraction.
 
-Sans ce contrôle, même une bonne mouture et un bon moulin ne suffisent pas à obtenir un café régulier : l'eau reste le geste final, celui qui peut ruiner ou sublimer tout le travail en amont.
+La National Coffee Association le résume ainsi : le long bec fin des bouilloires pour pour-over sert à contrôler le débit de l'eau. Une bonne mouture ne compense pas un versement brouillon.
 
 ## Les critères pour bien choisir
 
@@ -68,7 +68,7 @@ Aucune des deux options n'est objectivement meilleure : le choix dépend surtout
 
 ## Comment l'utiliser pour un versement maîtrisé
 
-Une fois la bonne bouilloire en main, le geste se travaille : commence par un **pré-mouillage** (bloom) de 30 à 45 secondes en versant juste assez d'eau pour humidifier toute la mouture, puis laisse-la dégazer. Poursuis ensuite par des **cercles concentriques**, du centre vers les bords sans toucher le filtre, en maintenant un filet fin et continu.
+Une fois la bonne bouilloire en main, le geste se travaille : commence par un **pré-mouillage** (bloom) : verse environ deux fois le poids du café en eau, juste de quoi humidifier toute la mouture, et attends 30 à 45 secondes qu'elle cesse de buller. Poursuis ensuite en **spirale**, du centre vers les bords sans toucher le filtre, en maintenant un filet lent et continu.
 
 C'est exactement la méthode détaillée dans notre guide pour [réussir son café filtre V60](/articles/reussir-cafe-filtre-v60/), où le col de cygne joue un rôle central du début à la fin de l'extraction. La technique s'applique tout aussi bien à la [Chemex](/articles/chemex-cafetiere-filtre-design/), avec un versement en spirale légèrement plus généreux compte tenu du lit de café plus large.
 

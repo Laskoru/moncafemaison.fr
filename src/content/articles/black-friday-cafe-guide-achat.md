@@ -3,7 +3,7 @@ title: "Black Friday café : quel matériel attendre ?"
 seoTitle: "Black Friday cafetière et machine à café : quoi attendre"
 description: "Cafetière, machine à café, moulin : ce qui vaut vraiment le coup d'attendre le Black Friday 2026, et comment repérer une fausse promo avant d'acheter."
 pubDate: 2026-09-24
-updatedDate: 2026-10-01
+updatedDate: 2026-10-07
 author: "Hugo B."
 pinHook: "Le *vrai* bon plan café du Black Friday"
 pinSub: "Ce qui vaut le coup d'attendre (ou pas)."
@@ -14,8 +14,8 @@ draft: false
 sources:
   - label: "Service-Public.gouv.fr, « Affichage des prix : règles à respecter »"
     url: "https://www.service-public.gouv.fr/particuliers/vosdroits/F34344"
-  - label: "DGCCRF, « Annonces de réduction de prix : ce que vous devez savoir »"
-    url: "https://www.economie.gouv.fr/dgccrf/les-fiches-pratiques/annonces-de-reduction-de-prix-ce-que-vous-devez-savoir"
+  - label: "Légifrance, « Article L112-1-1 - Code de la consommation »"
+    url: "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000044549592"
   - label: "Service-Public.gouv.fr, « Achat à distance : droit de rétractation du consommateur »"
     url: "https://www.service-public.gouv.fr/particuliers/vosdroits/F10485"
 faq:
@@ -27,7 +27,7 @@ faq:
     answer: "Pas nécessairement. Les modèles d'entrée de gamme ont déjà des marges réduites toute l'année, donc les remises y sont souvent minimes en pourcentage, même si elles paraissent importantes en valeur affichée. Si un modèle précis te convient et que le prix du moment te semble déjà correct, il n'y a pas d'intérêt réel à repousser l'achat de plusieurs semaines pour quelques euros d'écart."
 topPick:
   name: "Machine expresso avec broyeur intégré"
-  blurb: "La catégorie où les remises Black Friday sont, année après année, les plus significatives en valeur absolue : le bon moment pour investir si tu hésites depuis plusieurs mois."
+  blurb: "Des appareils assez chers pour qu'une remise se chiffre en dizaines d'euros : le bon moment pour surveiller le prix si tu hésites depuis plusieurs mois."
   url: "https://www.amazon.fr/s?k=machine+expresso+broyeur+integre&tag=moncafemaison-21"
   ctaLabel: "Comparer les prix sur Amazon"
 comparison:
@@ -41,7 +41,7 @@ comparison:
 
 ## Pourquoi le Black Friday café mérite qu'on s'y prépare
 
-**En bref :** en 2026, le Black Friday tombe le vendredi 27 novembre. Les machines expresso, les machines à grains et les moulins électriques sont les achats qui valent le plus la peine d'attendre . Sur les modèles d'entrée de gamme (cafetière filtre simple, petite moka) et les petits accessoires, les remises restent en général minimes. Dans tous les cas, compare le prix barré au prix le plus bas des 30 derniers jours.
+**En bref :** en 2026, le Black Friday tombe le vendredi 27 novembre. Les machines expresso, les machines à grains et les moulins électriques sont les achats qui valent le plus la peine d'attendre. Sur les modèles d'entrée de gamme (cafetière filtre simple, petite moka) et les petits accessoires, les remises restent en général minimes. Dans tous les cas, compare le prix barré au prix le plus bas des 30 derniers jours.
 
 Le Black Friday tombe à un bon moment pour qui pense à s'équiper en café à la maison : juste avant les fêtes, juste avant l'hiver où on boit plus de café chaud, et sur une période où les enseignes veulent vraiment vendre. Mais c'est aussi la période de l'année où les fausses bonnes affaires sont les plus nombreuses : prix barrés gonflés artificiellement, « stock limité » qui dure trois semaines, ou promotions sur des modèles déjà anciens.
 
@@ -69,9 +69,9 @@ Il en va de même pour les modèles d'entrée de gamme dans toutes les catégori
 
 ## Comment repérer une fausse promo
 
-Le signal le plus fiable reste de suivre le prix avant la période de soldes. Si tu repères une machine ou un moulin qui t'intéresse, note son prix (ou utilise un outil de suivi de prix) pendant les semaines qui précèdent le Black Friday. Le jour J, compare ce prix « barré » à ce que tu as réellement observé récemment : s'il correspond à peu près au prix courant des dernières semaines, la remise affichée en dessous est crédible. S'il est nettement plus élevé que tout ce que tu as vu circuler, il s'agit probablement d'un prix de référence gonflé pour donner l'impression d'une remise plus importante qu'elle ne l'est réellement. C'est d'ailleurs la règle en France depuis mai 2022 : une annonce de réduction doit se calculer à partir du prix le plus bas pratiqué par le vendeur pendant les 30 jours qui précèdent la promotion (voir la fiche de la DGCCRF en source).
+Le signal le plus fiable reste de suivre le prix avant la période de soldes. Si tu repères une machine ou un moulin qui t'intéresse, note son prix (ou utilise un outil de suivi de prix) pendant les semaines qui précèdent le Black Friday. Le jour J, compare ce prix « barré » à ce que tu as réellement observé récemment : s'il correspond à peu près au prix courant des dernières semaines, la remise affichée en dessous est crédible. S'il est nettement plus élevé que tout ce que tu as vu circuler, il s'agit probablement d'un prix de référence gonflé pour donner l'impression d'une remise plus importante qu'elle ne l'est réellement. C'est d'ailleurs la règle en France depuis le 28 mai 2022 : le prix antérieur affiché dans une annonce de réduction doit être le prix le plus bas pratiqué par le vendeur au cours des 30 jours qui précèdent la promotion (article L112-1-1 du Code de la consommation).
 
-Autres signaux à surveiller : une mention « stock limité » qui reste affichée identique pendant plusieurs jours, un modèle dont la fiche produit ne mentionne aucune caractéristique récente (souvent un signe de fin de série qu'on écoule plutôt qu'une vraie nouveauté remisée), ou un vendeur tiers peu connu proposant un prix nettement inférieur à toutes les autres enseignes sur un même modèle. Dans ce dernier cas, vérifie toujours les avis et la politique de retour avant de valider. Pour un achat en ligne auprès d'un professionnel, tu disposes de 14 jours pour te rétracter, mais les frais de renvoi peuvent rester à ta charge.
+Autres signaux à surveiller : une mention « stock limité » qui reste affichée identique pendant plusieurs jours, un modèle dont la fiche produit ne mentionne aucune caractéristique récente (souvent un signe de fin de série qu'on écoule plutôt qu'une vraie nouveauté remisée), ou un vendeur tiers peu connu proposant un prix nettement inférieur à toutes les autres enseignes sur un même modèle. Dans ce dernier cas, vérifie toujours les avis et la politique de retour avant de valider. Pour un achat en ligne auprès d'un professionnel, tu disposes d'au moins 14 jours pour te rétracter, mais les frais de renvoi restent en principe à ta charge, sauf si le vendeur les prend en charge.
 
 > 🛒 **Pour comparer les prix du moment**
 > Une bonne habitude avant d'acheter : regarder plusieurs enseignes plutôt qu'une seule offre isolée. [Voir les machines expresso à broyeur intégré sur Amazon](https://www.amazon.fr/s?k=machine+expresso+broyeur+integre&tag=moncafemaison-21) pour comparer les prix actuels sur cette catégorie.
@@ -80,7 +80,7 @@ Autres signaux à surveiller : une mention « stock limité » qui reste affich�
 
 ## Notre choix pour cette période
 
-S'il ne fallait surveiller qu'une seule catégorie ce Black Friday, ce serait celle des machines expresso à broyeur intégré : c'est le segment où les remises réelles sont, année après année, les plus significatives en valeur absolue, parce que ce sont des appareils assez chers pour laisser une vraie marge de négociation aux enseignes. Si tu hésites depuis un moment entre investir dans ce type de machine ou dans un [moulin séparé](/articles/meilleur-moulin-cafe-electrique/), c'est la période où l'écart de prix a le plus de chances de pencher en ta faveur.
+S'il ne fallait surveiller qu'une seule catégorie ce Black Friday, ce serait celle des machines expresso à broyeur intégré : ce sont des appareils assez chers pour qu'une remise, même modeste en pourcentage, représente une vraie somme en euros, et les enseignes ont de la marge pour baisser leur prix. Si tu hésites depuis un moment entre investir dans ce type de machine ou dans un [moulin séparé](/articles/meilleur-moulin-cafe-electrique/), c'est la période où l'écart de prix a le plus de chances de pencher en ta faveur.
 
 ## Nos conseils pratiques avant de cliquer « acheter »
 

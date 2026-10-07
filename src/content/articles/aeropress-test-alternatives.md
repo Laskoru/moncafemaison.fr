@@ -1,12 +1,12 @@
 ---
-title: "AeroPress : avis, méthode et meilleures alternatives"
-description: "AeroPress : comment ça marche, méthode inversée, critères d'achat et meilleures alternatives pour un café filtre rapide et nomade à la maison."
+title: "AeroPress : avis, recette officielle et 3 alternatives"
+description: "AeroPress : ce qu'elle vaut vraiment, la recette du fabricant (85 °C, 16 à 18 g, 30 s), la méthode inversée et 3 alternatives selon ton usage."
 pubDate: 2026-09-21
-updatedDate: 2026-09-21
+updatedDate: 2026-10-07
 author: "Hugo B."
 pinHook: "Un café filtre *prêt en 2 minutes*, où que tu sois"
 pinSub: "L'AeroPress, la méthode nomade la plus polyvalente."
-keywords: ["aeropress", "test aeropress", "alternative aeropress", "café nomade", "aeropress go", "meilleur aeropress 2026"]
+keywords: ["aeropress", "test aeropress", "alternative aeropress", "café nomade", "aeropress go", "avis aeropress"]
 category: "machines"
 coverAlt: "Une personne verse de l'eau chaude dans un AeroPress pour préparer un café"
 draft: false
@@ -25,7 +25,7 @@ faq:
   - question: "L'AeroPress remplace-t-il une vraie machine expresso ?"
     answer: "Non : l'AeroPress ne génère pas la pression nécessaire (autour de 9 bars) pour produire une vraie crema d'espresso, même en pressant fort. Le résultat s'apparente davantage à un café filtre concentré, plus corsé qu'un café filtre classique mais différent d'un espresso obtenu avec une [machine expresso](/articles/meilleure-machine-expresso/). C'est un compromis très correct pour qui veut un café serré sans investir dans une machine à pompe, pas un substitut technique à l'espresso."
   - question: "Quelle mouture utiliser avec l'AeroPress ?"
-    answer: "L'AeroPress tolère une large plage de mouture, de moyenne à fine, ce qui en fait l'une des méthodes les plus souples du marché. Une mouture plus fine avec un temps de contact court donne un café plus concentré façon espresso-like ; une mouture un peu plus grossière avec un temps de contact plus long se rapproche d'un café filtre classique. C'est justement cette tolérance qui rend la méthode si populaire auprès des débutants comme des amateurs confirmés."
+    answer: "L'AeroPress tolère une large plage de mouture, de moyenne à fine, ce qui en fait l'une des méthodes les plus souples du marché. Une mouture plus fine avec un temps de contact court donne un café plus concentré, qui rappelle un peu l'espresso ; une mouture un peu plus grossière avec un temps de contact plus long se rapproche d'un café filtre classique. C'est justement cette tolérance qui rend la méthode si populaire auprès des débutants comme des amateurs confirmés."
 topPick:
   name: "AeroPress Go, la version compacte pour voyager"
   blurb: "La version repensée pour le nomadisme : un mug de transport qui range piston, filtres et cuillère doseuse, sans rien changer à la méthode de préparation d'origine."
@@ -42,13 +42,13 @@ comparison:
 
 ## Qu'est-ce que l'AeroPress, et pourquoi elle a autant de fans
 
-L'AeroPress est une méthode de préparation par immersion et pression manuelle, inventée aux États-Unis au milieu des années 2000. Le principe tient en trois pièces : une chambre cylindrique en plastique, un piston qui coulisse à l'intérieur, et un filtre (papier ou métal) fixé au bout par un petit embout vissé. On y verse café moulu et eau chaude, on laisse infuser quelques dizaines de secondes, puis on presse le piston pour pousser le café à travers le filtre directement dans la tasse.
+L'AeroPress est une méthode de préparation par immersion et pression manuelle, imaginée par l'ingénieur Alan Adler en Californie et présentée au public en novembre 2005. Le principe tient en trois pièces : une chambre cylindrique en plastique, un piston qui coulisse à l'intérieur, et un filtre (papier ou métal) fixé au bout par un petit embout vissé. On y verse café moulu et eau chaude, on laisse infuser quelques dizaines de secondes, puis on presse le piston pour pousser le café à travers le filtre directement dans la tasse.
 
 Ce qui explique son succès : la rapidité (moins de deux minutes du début à la fin), l'absence totale d'électricité, un format compact qui tient dans un sac, et un nettoyage expéditif puisque le marc reste compacté dans le filtre, prêt à être éjecté d'un geste. C'est devenu une référence pour le café de voyage, de bureau ou de camping, au même titre qu'un [moulin à café manuel](/articles/meilleur-moulin-cafe-manuel/) pour la mouture nomade.
 
 ## Méthode classique ou méthode inversée : comment ça marche
 
-**La méthode classique** est la plus simple : on pose la chambre directement sur la tasse, filtre vissé au fond, on verse le café moulu puis l'eau chaude, on remue, on laisse infuser 30 secondes à 1 minute, puis on presse doucement le piston jusqu'au bout. C'est la méthode recommandée pour débuter, car le geste est intuitif et le risque d'erreur limité.
+**La méthode classique** est la plus simple : on pose la chambre directement sur la tasse, filtre vissé au fond, on verse le café moulu puis l'eau chaude, on remue, on laisse infuser 30 secondes (un peu plus pour un café plus fort), puis on presse doucement le piston jusqu'au bout. C'est la méthode recommandée pour débuter, car le geste est intuitif et le risque d'erreur limité.
 
 **La méthode inversée** consiste à assembler la chambre piston vers le bas, posée bien droite sur le piston pour ne pas qu'elle bascule, à infuser dans cette position, puis à visser le filtre et à retourner l'ensemble d'un geste franc sur la tasse juste avant de presser. L'avantage : aucun écoulement prématuré pendant l'infusion, donc un contrôle plus précis du temps de contact entre l'eau et la mouture, souvent associé à un café perçu comme plus rond et moins acide. L'inconvénient : le geste de retournement demande un peu de pratique pour ne rien renverser.
 
@@ -80,12 +80,15 @@ L'AeroPress n'est pas la seule méthode rapide et manuelle, et elle n'est pas to
 
 ## Comment bien préparer un café à l'AeroPress
 
-1. **Chauffe l'eau** autour de 85 °C, la température conseillée par AeroPress.
-2. **Mouds environ 16 à 18 g de café** à une mouture moyenne-fine, proche d'une mouture pour cafetière filtre programmable mais légèrement plus fine.
-3. **Installe le filtre** (rincé à l'eau chaude s'il est en papier, pour retirer le goût de papier et préchauffer la chambre) et verse la mouture.
-4. **Verse l'eau chaude** en deux temps : un premier mouillage rapide de toute la mouture (le « bloom »), puis le complément jusqu'à la quantité souhaitée (environ 200 à 250 ml pour ce dosage).
-5. **Remue légèrement** avec la palette fournie, laisse infuser 30 secondes à 1 minute selon la force recherchée.
-6. **Presse le piston** lentement, avec une pression douce et constante, jusqu'à entendre le léger sifflement caractéristique de fin d'extraction.
+La recette du fabricant, en méthode classique :
+
+1. **Chauffe l'eau** à 85 °C. Sans bouilloire à température réglable, AeroPress indique que l'eau bouillante convient aussi.
+2. **Mouds 16 à 18 g de café** (une cuillère doseuse bombée) en mouture moyenne-fine.
+3. **Installe le filtre papier** dans l'embout, visse-le sur la chambre, pose la chambre sur une tasse solide et verse la mouture.
+4. **Verse l'eau** jusqu'au repère 4 de la chambre. Quelques gouttes passent dans la tasse, c'est normal.
+5. **Remue doucement** environ 3 secondes, insère le piston d'un centimètre puis remonte-le un peu : le vide créé stoppe l'écoulement. Attends 30 secondes.
+6. **Presse le piston** avec une pression douce et constante, sans forcer, jusqu'au sifflement qui indique que le dernier café est passé.
+7. **Attention à l'embout**, il est chaud : passe-le sous l'eau froide avant de le dévisser.
 
 Le dosage exact reste une affaire de goût personnel ; une [balance de précision](/articles/balance-cafe-precision/) aide à reproduire fidèlement une recette qui a plu, café après café.
 

@@ -3,7 +3,7 @@ title: "Machine à capsules vs machine à grains : quel système choisir ?"
 seoTitle: "Capsules ou grains de café, que choisir ? Notre comparatif"
 description: "Café en capsules ou machine à grains : lequel choisir selon ton budget, ton temps et le goût recherché ? Notre comparatif honnête."
 pubDate: 2026-08-16
-updatedDate: 2026-09-24
+updatedDate: 2026-10-07
 author: "Hugo B."
 pinHook: "Capsules ou grains ? *Le vrai match*"
 pinSub: "Quel système pour quel profil."
@@ -26,15 +26,15 @@ products:
 sources:
   - label: "National Coffee Association, « Storage and shelf life »"
     url: "https://www.aboutcoffee.org/beans/storage-and-shelf-life/"
-  - label: "Philips, « Série 2200 Expresso broyeur Philips - machine à café 2 boissons, noir + mousseur »"
-    url: "https://www.home-appliances.philips/fr/fr/p/EP2220_10"
+  - label: "De'Longhi, « ECAM20.11X - 21.11X - 22.11X : mode d'emploi » (PDF)"
+    url: "https://dls.delonghigroup.com/files/docs/5/A1-5713242611.pdf"
   - label: "ADEME, « Que faire de mes déchets alimentaires ? Que mettre au compost ? »"
     url: "https://quefairedemesdechets.ademe.fr/categories/biodechets/dechets-alimentaires/"
 faq:
   - question: "Le café en capsules a-t-il vraiment moins bon goût que le café en grains ?"
-    answer: "Dans l'ensemble, oui, même si l'écart s'est réduit avec les capsules haut de gamme. Le café moulu en capsule perd ses arômes volatils dès sa mise en poche, parfois des mois avant l'achat. Un grain moulu juste avant extraction conserve bien plus d'arômes, ce qui donne un café plus riche en bouche."
+    answer: "Dans l'ensemble, oui, même si l'écart s'est réduit avec les capsules haut de gamme. Le café d'une capsule est moulu à l'avance, parfois des mois avant l'achat, et le café moulu perd ses arômes plus vite que le grain, même si l'emballage scellé ralentit le phénomène. La National Coffee Association conseille de moudre juste avant l'extraction pour garder le maximum de fraîcheur."
   - question: "La machine à capsules revient-elle vraiment plus cher à l'usage ?"
-    answer: "Presque toujours. Une capsule coûte généralement plusieurs fois le prix d'une dose équivalente de grain au kilo. Sur une consommation quotidienne, l'écart se chiffre facilement en centaines d'euros par an, même si la machine à capsules coûte souvent moins cher à l'achat."
+    answer: "Presque toujours. Une capsule coûte généralement plusieurs fois le prix d'une dose équivalente de grain au kilo. Sur une consommation quotidienne, l'écart se cumule vite sur une année, même si la machine à capsules coûte souvent moins cher à l'achat."
   - question: "Peut-on avoir les deux à la maison ?"
     answer: "Oui, et beaucoup de foyers le font : une machine à grains pour le café du quotidien, une machine à capsules pour les invités pressés ou les boissons occasionnelles (décaféiné, chocolat chaud). C'est un bon compromis si le budget le permet."
 ---
@@ -47,13 +47,13 @@ Aucune des deux n'est « meilleure » dans l'absolu. Tout dépend de ce que tu c
 
 ## Ce que change vraiment le broyeur
 
-Le café perd ses arômes dès qu'il est moulu, un phénomène appelé oxydation. Une capsule, aussi bien conçue soit-elle, est moulue puis conditionnée bien avant d'arriver dans ta cuisine, parfois plusieurs mois. Une machine à grains, elle, moud la dose juste avant l'extraction : les arômes sont là au moment où l'eau chaude les libère.
+Une fois moulu, le café perd ses arômes plus vite qu'en grains : à température ambiante, la National Coffee Association compte 1 à 2 semaines de fraîcheur pour du café moulu, contre 1 à 3 semaines pour le grain, et conseille de moudre juste avant l'extraction. Une capsule, aussi bien conçue soit-elle, est moulue puis conditionnée bien avant d'arriver dans ta cuisine, même si son emballage scellé freine la perte d'arômes. Une machine à grains, elle, moud la dose juste avant l'extraction : les arômes sont là au moment où l'eau chaude les libère.
 
 En pratique, l'écart de goût est net pour un buveur régulier, un peu moins perceptible pour quelqu'un qui boit un café de temps en temps ou qui aime surtout la régularité. C'est pour ça que le choix dépend autant de ton palais que de tes habitudes. Entre les deux, la [cafetière à dosettes souples ou ESE](/articles/cafetiere-dosette-souple-ese/) reste une option simple qui n'enferme pas dans une seule marque de capsules.
 
 ## Le vrai coût, capsule après capsule
 
-C'est souvent l'argument qui fait basculer la décision. Une capsule coûte, à la tasse, plusieurs fois le prix d'une dose de grain équivalente. Sur une consommation de deux à trois cafés par jour, la différence se chiffre vite en plusieurs centaines d'euros par an. La machine à grains coûte généralement plus cher à l'achat, mais elle s'amortit rapidement pour qui boit du café tous les jours.
+C'est souvent l'argument qui fait basculer la décision. Une capsule coûte, à la tasse, plusieurs fois le prix d'une dose de grain équivalente. Sur une consommation de deux à trois cafés par jour, la différence se cumule vite sur une année. La machine à grains coûte généralement plus cher à l'achat, mais elle s'amortit rapidement pour qui boit du café tous les jours.
 
 À l'inverse, si tu bois un café occasionnellement ou que tu reçois rarement, l'investissement dans une machine à grains n'a pas forcément de sens : le petit prix d'une machine à capsules et sa simplicité l'emportent alors.
 
@@ -65,7 +65,7 @@ La machine à grains demande un entretien plus régulier : vider le bac à marc,
 
 ## Et l'impact environnemental dans tout ça ?
 
-Le café en grains produit un déchet organique (le marc) qui se composte facilement et peut même servir d'engrais ou d'anti-odeur au jardin. Les capsules, elles, doivent suivre une filière de recyclage dédiée (bacs de collecte, points de dépôt), et une partie finit encore aujourd'hui en déchet non trié faute de geste systématique. Certaines marques proposent désormais des capsules compostables ou en aluminium recyclable, ce qui réduit l'écart sans l'annuler complètement.
+Le café en grains produit un déchet organique, le marc, que l'ADEME classe parmi les déchets à mettre au compost. Les capsules, elles, doivent suivre une filière de recyclage dédiée (bacs de collecte, points de dépôt), et une partie finit encore aujourd'hui en déchet non trié faute de geste systématique. Certaines marques proposent désormais des capsules compostables ou en aluminium recyclable, ce qui réduit l'écart sans l'annuler complètement.
 
 ## Et les boissons au lait ?
 
@@ -79,7 +79,7 @@ Côté grains, l'entrée de gamme propose en général une buse vapeur manuelle 
 
 C'est un critère auquel on pense rarement avant l'achat. Avec des capsules, chaque tasse peut être différente : un café intense le matin, un décaféiné le soir, une origine plus douce pour un invité, sans rien régler.
 
-La plupart des machines à grains, elles, n'ont qu'une trémie, donc un seul café à la fois. Pour en changer, il faut la vider, et les premières tasses mélangent encore l'ancien café resté dans le broyeur. Beaucoup de modèles prévoient une parade : un compartiment pour **café déjà moulu**, qui contourne le broyeur le temps d'une tasse. C'est la solution idéale pour un déca occasionnel ; vérifie sa présence dans la fiche technique si tu comptes alterner. Pour le reste, garde un seul café du quotidien dans la trémie, et ne la remplis que pour deux ou trois jours afin qu'il reste frais.
+La plupart des machines à grains, elles, n'ont qu'une trémie, donc un seul café à la fois. Pour en changer, il faut la vider, et les premières tasses mélangent encore l'ancien café resté dans le broyeur. Beaucoup de modèles prévoient une parade : un compartiment pour **café déjà moulu**, qui contourne le broyeur le temps d'une tasse (c'est le cas de la Magnifica S, avec son entonnoir pour café prémoulu). C'est la solution idéale pour un déca occasionnel ; vérifie sa présence dans la fiche technique si tu comptes alterner. Pour le reste, garde un seul café du quotidien dans la trémie, et ne la remplis que pour deux ou trois jours afin qu'il reste frais.
 
 ## Les idées reçues à écarter
 

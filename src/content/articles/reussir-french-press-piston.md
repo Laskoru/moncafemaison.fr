@@ -3,7 +3,7 @@ title: "Réussir sa cafetière à piston (French press) : la méthode simple"
 seoTitle: "Comment utiliser une cafetière à piston (French press)"
 description: "Un café à la French press rond et sans dépôt : la bonne mouture, le bon ratio, 4 minutes d'infusion et le geste anti-boue. Le guide clair."
 pubDate: 2026-09-13
-updatedDate: 2026-09-21
+updatedDate: 2026-10-07
 author: "Hugo B."
 keywords: ["comment utiliser une cafetière à piston", "réussir sa french press", "ratio café piston", "french press méthode", "réussir french press", "café piston ratio"]
 category: "preparer"
@@ -17,7 +17,7 @@ sources:
     url: "https://nutritionsource.hsph.harvard.edu/food-features/coffee/"
 faq:
   - question: "Quel ratio café/eau pour une French press ?"
-    answer: "Un bon point de départ est d'environ 60 à 70 g de café par litre d'eau, soit à peu près une cuillère à soupe bombée (7-8 g) pour 120 ml. Pèse plutôt que d'estimer : c'est le meilleur moyen d'obtenir la même tasse à chaque fois, puis d'ajuster à ton goût."
+    answer: "Un bon point de départ est d'environ 60 à 70 g de café par litre d'eau, soit 15 à 17 g pour 250 ml. La National Coffee Association donne une fourchette large, de 1:10 à 1:16. Pèse plutôt que d'estimer : c'est le meilleur moyen d'obtenir la même tasse à chaque fois, puis d'ajuster à ton goût."
   - question: "Combien de temps laisser infuser ?"
     answer: "Environ 4 minutes. En dessous, le café est sous-extrait et acide ; bien au-delà, il devient astringent. À la fin des 4 minutes, on casse la croûte en surface, on écume, puis on presse doucement le piston."
   - question: "Comment éviter le dépôt au fond de la tasse ?"
@@ -30,7 +30,7 @@ La cafetière à piston (French press) est sans doute la **façon la plus access
 
 ## 1. Une mouture grossière
 
-C'est ce qui décide du confort en bouche. La French press demande une mouture **grossière**, proche de la chapelure ou du gros sel. Trop fine, elle passe à travers le filtre métallique et finit dans la tasse (le fameux dépôt boueux), en plus de sur-extraire et de rendre le café amer. Une mouture régulière, donc un [moulin à meules](/articles/meilleur-moulin-cafe-electrique/), évite justement les « fines » responsables de la boue.
+C'est ce qui décide du confort en bouche. La French press demande une mouture **grossière**, comme du gros sel (le repère de la National Coffee Association). Trop fine, elle passe à travers le filtre métallique et finit dans la tasse (le fameux dépôt boueux), en plus de sur-extraire et de rendre le café amer. Une mouture régulière, donc un [moulin à meules](/articles/meilleur-moulin-cafe-electrique/), évite justement les « fines » responsables de la boue.
 
 ## 2. Le bon ratio, pesé
 
@@ -38,7 +38,7 @@ Vise environ **60 à 70 g de café par litre** d'eau. Concrètement, pour une ta
 
 ## 3. Eau chaude (pas bouillante) et 4 minutes
 
-L'eau idéale est **frémissante, pas bouillante** : autour de 92-94 °C. Une eau à gros bouillons « brûle » le café et accentue l'amertume. Si tu n'as pas de thermomètre, porte l'eau à ébullition puis attends 30 à 45 secondes avant de verser.
+L'eau idéale est **frémissante, pas bouillante** : autour de 92-94 °C. Une eau à gros bouillons « brûle » le café et accentue l'amertume. Si tu n'as pas de thermomètre, porte l'eau à ébullition puis attends une trentaine de secondes avant de verser, comme le conseille la National Coffee Association.
 
 Verse l'eau sur la mouture, **remue** pour bien humidifier tout le café, pose le couvercle (piston relevé) et lance le chrono : **4 minutes**.
 
@@ -70,14 +70,14 @@ La French press se nettoie facilement : démonte le filtre métallique réguliè
 Les repères ci-dessus donnent une tasse équilibrée. Une fois qu'ils sont acquis, tu peux jouer sur deux leviers :
 
 - **Le ratio.** Autour de 1:15 (65 g/L), c'est le classique. Descends vers **1:12** pour un café plus dense et corsé, monte vers **1:16** pour une tasse plus légère à boire tout au long de la matinée. Change le ratio plutôt que le temps : c'est le levier le plus prévisible.
-- **La méthode « longue ».** Une variante appréciée des amateurs : verse l'eau, ne remue pas, attends 4 minutes, casse la croûte et écume, puis **laisse reposer encore 5 à 8 minutes** sans presser. Les particules tombent au fond d'elles-mêmes ; il ne reste qu'à descendre le piston juste sous la surface et à verser doucement. Le café est plus tiède, mais remarquablement **propre en bouche**, sans le moindre dépôt. À tester si le côté « boueux » te dérange.
+- **La méthode « longue ».** Une variante appréciée des amateurs : verse l'eau, ne remue pas, attends 4 minutes, casse la croûte et écume, puis **laisse reposer encore plusieurs minutes** sans presser. Les particules tombent au fond d'elles-mêmes ; il ne reste qu'à descendre le piston juste sous la surface et à verser doucement. Le café est plus tiède, mais remarquablement **propre en bouche**, sans le moindre dépôt. À tester si le côté « boueux » te dérange.
 
 ## Quelle taille de cafetière ?
 
-Les contenances annoncées comptent en « tasses » de 125 ml, ce qui n'a pas grand-chose à voir avec un mug. Concrètement :
+Les contenances annoncées comptent en « tasses » d'environ 125 ml, ce qui n'a pas grand-chose à voir avec un mug. Concrètement :
 
 - **350 ml** (« 3 tasses ») : un grand mug, pour une personne.
-- **600 ml** (« 5 tasses ») : deux mugs, ou une personne qui aime en reprendre.
+- **500 ml** (« 4 tasses ») : deux mugs, ou une personne qui aime en reprendre.
 - **1 L** (« 8 tasses ») : trois à quatre personnes.
 
 Choisis la taille pour ton usage réel : une grande cafetière remplie au tiers perd de la chaleur beaucoup plus vite, et l'infusion se déséquilibre. Deux petites valent mieux qu'une grande à moitié vide.

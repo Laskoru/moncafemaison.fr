@@ -2,7 +2,7 @@
 title: "Cafetière à piston (French press) : laquelle choisir ?"
 description: "La cafetière à piston est la façon la plus simple d'obtenir un café riche. Nos critères et notre sélection, verre ou inox."
 pubDate: 2026-08-16
-updatedDate: 2026-09-24
+updatedDate: 2026-10-07
 author: "Hugo B."
 pinHook: "Le café le plus simple, *le plus corsé*"
 pinSub: "La French press, réussie."
@@ -62,10 +62,10 @@ Dans les deux cas, la qualité d'une French press tient d'abord à la mouture : 
 
 ## Les erreurs qui gâchent une French press
 
-La cafetière à piston est simple, mais quelques habitudes suffisent à produire un café boueux ou amer. Voici celles qu'on voit le plus souvent :
+La cafetière à piston est simple, mais quelques habitudes suffisent à produire un café boueux ou amer. Les plus fréquentes :
 
 - **La mouture trop fine.** C'est la cause n°1 des sédiments dans la tasse et d'un café amer : les particules passent le tamis et continuent d'infuser. Vise une mouture grossière, comme du gros sel.
-- **L'eau bouillante versée directement.** À 100 °C, tu brûles le café. Laisse la bouilloire reposer 30 secondes après ébullition, pour descendre vers 92-96 °C.
+- **L'eau bouillante versée directement.** À 100 °C, tu brûles le café. Laisse la bouilloire reposer une trentaine de secondes après ébullition : la National Coffee Association vise environ 93 °C, à 3 °C près.
 - **Le café qui reste dans la cafetière.** Une fois le piston abaissé, le marc continue d'infuser au fond. Sers tout de suite, ou transvase le reste dans une carafe.
 - **Le piston forcé.** S'il résiste, c'est que la mouture est trop fine ou trop abondante ; forcer projette du café brûlant hors de la carafe. Remonte légèrement et redescends doucement.
 - **La cafetière froide.** Un rinçage à l'eau chaude avant de commencer évite de perdre plusieurs degrés dès le départ, surtout avec une carafe en verre.
@@ -82,7 +82,7 @@ Le **plastique sans BPA** existe surtout pour le camping et les déplacements : 
 
 ## Le nettoyage, point que tout le monde néglige
 
-Le filtre d'une French press est composé de trois pièces (tamis, disque perforé, croisillon à ressort) qu'il faut **démonter** régulièrement. Les huiles du café s'y déposent et rancissent : un café qui prend un goût « de vieux » alors que les grains sont frais vient presque toujours de là. L'idéal est de le laver après chaque usage ; au minimum une fois par semaine, dévisse l'ensemble, brosse le tamis, et laisse tremper les pièces dans de l'eau chaude avec un peu de bicarbonate. Évite les liquides vaisselle très parfumés, dont l'odeur reste dans le tamis. Le marc, lui, ne va pas dans l'évier : il finit par boucher les canalisations. Un coup de spatule vers la poubelle ou le compost, puis un rinçage.
+Le filtre d'une French press est composé de trois pièces (tamis, disque perforé, croisillon à ressort) qu'il faut **démonter** régulièrement. Les huiles du café s'y déposent et rancissent : un café qui prend un goût « de vieux » alors que les grains sont frais vient presque toujours de là. L'idéal est de le laver après chaque usage ; au minimum une fois par semaine, dévisse l'ensemble, brosse le tamis, et laisse tremper les pièces dans de l'eau chaude avec un peu de bicarbonate. Évite les liquides vaisselle très parfumés, dont l'odeur reste dans le tamis. Le marc, lui, va au compost plutôt que dans l'évier : l'ADEME le range parmi les biodéchets à composter. Un coup de spatule, puis un rinçage.
 
 ## Le filtre s'use : quand le remplacer
 
@@ -96,7 +96,7 @@ Inutile alors de changer de cafetière : beaucoup de fabricants vendent le **fil
 
 ## Le bonus : le cold brew
 
-Une cafetière à piston est aussi l'outil idéal pour le café infusé à froid : même mouture grossière, eau froide, 12 à 18 heures au réfrigérateur, puis on abaisse le piston. Le résultat est doux, peu acide, sans amertume, et se garde plusieurs jours au frais. C'est le meilleur moyen d'amortir ta cafetière pendant l'été. La recette est dans [réussir son cold brew maison](/articles/reussir-cold-brew-maison/).
+Une cafetière à piston est aussi l'outil idéal pour le café infusé à froid : même mouture grossière, eau froide, 12 à 24 heures au réfrigérateur, puis on abaisse le piston. Le résultat est doux, peu acide, sans amertume, et se garde plusieurs jours au frais. C'est le meilleur moyen d'amortir ta cafetière pendant l'été. La recette est dans [réussir son cold brew maison](/articles/reussir-cold-brew-maison/).
 
 ## French press, filtre ou italienne : quelle méthode pour toi ?
 

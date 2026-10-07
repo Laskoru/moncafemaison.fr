@@ -3,7 +3,7 @@ title: "Café filtre & V60 : la méthode pour un café clair et aromatique"
 seoTitle: "Café filtre : méthode et V60 pour un café clair et parfumé"
 description: "Réussir un café filtre ou un pour-over V60 : mouture, ratio, bloom et versement en spirale. La méthode qui révèle les arômes, sans amertume ni acidité."
 pubDate: 2026-09-13
-updatedDate: 2026-09-21
+updatedDate: 2026-10-07
 author: "Hugo B."
 keywords: ["café filtre méthode", "v60 pour over", "réussir café filtre", "bloom café"]
 category: "preparer"
@@ -23,7 +23,7 @@ faq:
   - question: "Qu'est-ce que le bloom (ou pré-infusion) ?"
     answer: "C'est le fait de verser un petit peu d'eau (environ le double du poids de café) sur la mouture au tout début, puis d'attendre 30 à 45 secondes. Le café frais dégaze alors du CO₂ (il gonfle et mousse) : cette étape chasse le gaz qui gênerait l'extraction et rend la tasse plus régulière et plus douce."
   - question: "Quelle mouture pour un V60 ou un café filtre ?"
-    answer: "Une mouture moyenne, proche du sable ou du sucre semoule. Trop fine, l'eau s'écoule trop lentement et le café devient amer ; trop grossière, l'écoulement est trop rapide et la tasse est acide et fade. En cafetière filtre électrique, une mouture moyenne standard convient très bien."
+    answer: "Une mouture moyenne, comme un gros sel fin (type sel casher), le repère de la National Coffee Association. Trop fine, l'eau s'écoule trop lentement et le café devient amer ; trop grossière, l'écoulement est trop rapide et la tasse est acide et fade. En cafetière filtre électrique, une mouture moyenne standard convient très bien."
   - question: "Pourquoi mon café filtre est-il acide ?"
     answer: "L'acidité vient d'une sous-extraction : l'eau n'a pas assez « lessivé » le café. Les causes habituelles sont une mouture trop grossière, une eau pas assez chaude, ou un versement trop rapide. Affine légèrement la mouture, utilise une eau à 92-94 °C et verse plus lentement."
 ---
@@ -34,8 +34,8 @@ La méthode filtre (en cafetière électrique comme en **V60** manuel) donne un 
 
 ## Les repères qui comptent
 
-- **Mouture : moyenne**, proche du sable fin. Trop fine = écoulement lent et amertume ; trop grossière = écoulement rapide, café fade et acide.
-- **Ratio : ~60 g de café par litre** (soit ~15 g pour 250 ml). [Pèse](/articles/balance-cafe-precision/) plutôt que d'estimer ; notre [calculateur de dosage](/calculateur-dosage-cafe/) fait le calcul.
+- **Mouture : moyenne**, comme un gros sel fin (type sel casher). Trop fine = écoulement lent et amertume ; trop grossière = écoulement rapide, café fade et acide.
+- **Ratio : 1:15 à 1:16**, soit **60 à 65 g de café par litre** (environ 15 à 16 g pour 250 ml), dans la fourchette 1:13 à 1:16 que donne la National Coffee Association. [Pèse](/articles/balance-cafe-precision/) plutôt que d'estimer ; notre [calculateur de dosage](/calculateur-dosage-cafe/) fait le calcul.
 - **Eau : 92-94 °C**, frémissante et non bouillante.
 - **Filtre : rincé** à l'eau chaude avant usage (ça enlève le goût de papier et préchauffe le support).
 
@@ -45,7 +45,7 @@ Si tu veux du café filtre sans te compliquer la vie, la **cafetière filtre pro
 
 ## Le V60 (pour-over) : la méthode manuelle
 
-Le V60 (ou la [Chemex](/articles/chemex-cafetiere-filtre-design/)) demande un peu plus de gestes, mais offre un contrôle total. Voici la trame :
+Le V60 (ou la [Chemex](/articles/chemex-cafetiere-filtre-design/)) demande un peu plus de gestes, mais offre un contrôle total. La trame :
 
 1. **Rince le filtre** à l'eau chaude, jette cette eau, dépose la mouture et fais un petit puits au centre.
 2. **Le bloom** : verse un peu d'eau (~le double du poids de café), juste de quoi tout humidifier. Le café frais **gonfle et mousse** : il dégaze. Attends **30 à 45 secondes**.
@@ -80,17 +80,17 @@ En V60, le versement est le cœur de la méthode : il faut un débit fin, régul
 Le V60 s'adapte bien aux quantités moyennes, à condition d'ajuster la méthode :
 
 - Utilise un **V60 taille 02** et un filtre assorti.
-- Garde le ratio (60 g/L) : **30 g de café pour 500 ml** d'eau.
+- Garde le ratio (60 à 65 g/L) : **30 à 32 g de café pour 500 ml** d'eau.
 - Grossis **légèrement** la mouture par rapport à une tasse seule : un lit de café plus épais ralentit l'écoulement.
 - Verse en **quatre ou cinq fois** plutôt qu'en continu, en laissant le niveau baisser d'un tiers entre chaque ajout.
 - Le temps total grimpe naturellement vers **3 min 30 à 4 min**. Au-delà de 40 g de café, passe plutôt à une [Chemex](/articles/chemex-cafetiere-filtre-design/) ou à une cafetière électrique.
 
 ## Le café glacé « flash », la variante d'été
 
-Le V60 permet un café glacé bien plus aromatique que le cold brew : le **flash brew**. Mets **40 % du poids d'eau prévu sous forme de glaçons** dans la carafe (par exemple 100 g de glace pour une recette à 250 ml), et ne verse que les **60 % restants** en eau chaude (150 ml), avec la dose de café habituelle et une mouture un cran plus fine. Le café chaud coule directement sur la glace, refroidit instantanément et garde tout le fruité que le froid aurait figé. Sers sur des glaçons frais : c'est prêt en trois minutes, sans attendre douze heures.
+Le V60 permet un café glacé bien plus aromatique que le cold brew : le **flash brew**. Remplace **une partie de l'eau prévue par des glaçons** posés dans la carafe (selon les recettes, d'un tiers à la moitié du poids total), et ne verse que le reste en eau chaude, avec la dose de café habituelle et une mouture un cran plus fine. Le café chaud coule directement sur la glace, refroidit instantanément et garde tout le fruité que le froid aurait figé. Sers sur des glaçons frais : c'est prêt en trois minutes, sans attendre douze heures.
 
 > **L'essentiel à retenir**
-> Le café filtre réussi, c'est une mouture **moyenne**, un ratio **pesé** (~60 g/L), une eau **à 92-94 °C** et un **filtre rincé**. En V60, on ajoute le **bloom** (30-45 s) et un **versement en spirale** régulier, pour un total de ~3 minutes. Une tasse acide se corrige en affinant la mouture ; une tasse amère, en la grossissant.
+> Le café filtre réussi, c'est une mouture **moyenne**, un ratio **pesé** (60 à 65 g/L), une eau **à 92-94 °C** et un **filtre rincé**. En V60, on ajoute le **bloom** (30-45 s) et un **versement en spirale** régulier, pour un total de ~3 minutes. Une tasse acide se corrige en affinant la mouture ; une tasse amère, en la grossissant.
 
 ## Pour aller plus loin
 

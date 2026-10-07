@@ -2,7 +2,7 @@
 title: "Réussir son espresso maison : les 4 réglages à maîtriser"
 description: "Réussir son espresso maison : mouture, dose, tassage et temps d'extraction, les 4 réglages pour une vraie crema sans amertume. Le guide étape par étape."
 pubDate: 2026-09-13
-updatedDate: 2026-09-21
+updatedDate: 2026-10-07
 author: "Hugo B."
 keywords: ["réussir espresso maison", "faire un espresso", "réglage espresso", "mouture espresso"]
 category: "preparer"
@@ -33,13 +33,13 @@ Ces quatre paramètres sont **la mouture, la dose, le tassage et le temps d'extr
 
 ## 1. La mouture : le réglage roi
 
-C'est le levier le plus puissant, et celui qu'on ajuste en priorité. Pour l'espresso, la mouture doit être **fine** (proche du sucre glace un peu granuleux) et surtout **régulière**. Une mouture trop grossière laisse l'eau filer trop vite : café acide, aqueux, sans crema. Trop fine, l'eau peine à passer : extraction lente et amère.
+C'est le levier le plus puissant, et celui qu'on ajuste en priorité. Pour l'espresso, la mouture doit être **fine** (la National Coffee Association la compare à du sel de table) et surtout **régulière**. Une mouture trop grossière laisse l'eau filer trop vite : café acide, aqueux, sans crema. Trop fine, l'eau peine à passer : extraction lente et amère.
 
 La régularité exige un **moulin à meules**, pas à lames. Un moulin à lames hache le grain de façon irrégulière, ce qui rend un espresso propre impossible. Si tu ne dois investir que dans une chose, c'est là : voir notre [comparatif des moulins pour espresso](/articles/meilleur-moulin-pour-espresso/) et, plus largement, [comment choisir un moulin](/articles/meilleur-moulin-cafe-electrique/).
 
 ## 2. La dose : peser, ne pas deviner
 
-On raisonne en **grammes**, pas en cuillères. Une dose classique pour un panier double tourne autour de **16 à 18 g** de café moulu (vérifie la contenance de ton panier). L'essentiel est la **régularité** : la même dose à chaque fois, sinon impossible de comparer et de progresser. Une petite [balance de précision](/articles/balance-cafe-precision/) est l'accessoire qui fait le plus vite grimper la qualité.
+On raisonne en **grammes**, pas en cuillères. Une dose classique pour un panier double tourne autour de **16 à 18 g** de café moulu (Sage retient 18 g pour sa Barista Express ; vérifie la contenance de ton panier). L'essentiel est la **régularité** : la même dose à chaque fois, sinon impossible de comparer et de progresser. Une petite [balance de précision](/articles/balance-cafe-precision/) est l'accessoire qui fait le plus vite grimper la qualité.
 
 ## 3. Le tassage : régulier avant d'être fort
 
@@ -85,9 +85,9 @@ La crema est cette mousse noisette qui coiffe l'espresso. Elle est faite de **CO
 
 Le ratio 1:2 est le point de départ, pas une loi :
 
-- **Ristretto (1:1 à 1:1,5)** : même dose, moitié moins d'eau, extraction arrêtée vers 20 secondes. Plus dense, plus sucré, moins amer, mais aussi moins d'arômes extraits. Parfait dans un cappuccino, où le lait dilue.
+- **Ristretto** : même dose, nettement moins de liquide en tasse, extraction arrêtée plus tôt. Plus dense, plus sucré, moins amer, mais aussi moins d'arômes extraits. Parfait dans un cappuccino, où le lait dilue.
 - **Espresso (1:2)** : l'équilibre classique.
-- **Lungo (1:3 à 1:4)** : on laisse couler jusqu'à 55-70 g. Plus léger et plus amer en fin de course, à réserver aux cafés qui supportent la longueur. Pour un café long agréable, préfère un espresso allongé d'eau chaude (l'americano) à un lungo poussé trop loin.
+- **Lungo** : on laisse couler bien plus longtemps, pour une tasse nettement plus volumineuse. Plus léger et plus amer en fin de course, à réserver aux cafés qui supportent la longueur. Pour un café long agréable, préfère un espresso allongé d'eau chaude (l'americano) à un lungo poussé trop loin.
 
 Le poids en tasse est ton curseur : à mouture égale, tu obtiens trois boissons différentes avec la même dose de café.
 

@@ -3,6 +3,7 @@ title: "Cafetière à dosettes souples (ESE) : laquelle choisir ?"
 seoTitle: "Cafetière dosette souple ou ESE : laquelle choisir ?"
 description: "Dosette souple ou dosette ESE : quelle différence, et quelle cafetière choisir pour un café simple, économique et sans prise de tête."
 pubDate: 2026-08-23
+updatedDate: 2026-10-07
 author: "Hugo B."
 pinHook: "Un café simple, *sans prise de tête*"
 pinSub: "La dosette souple, bien choisie."
@@ -77,9 +78,9 @@ Enfin, si le goût prime avant tout sur la commodité et que tu es prêt à inve
 
 « Toutes les dosettes se ressemblent » : faux, la mouture, le tassage et même le grammage varient d'une marque à l'autre, ce qui influence directement l'intensité et l'équilibre du café obtenu. Mieux vaut tester plusieurs marques avant de se fixer sur une seule.
 
-« Une machine à dosette ne convient qu'à un usage basique » : c'est de moins en moins vrai. Certains modèles proposent désormais un réglage d'intensité, un mode économie d'énergie automatique, ou encore une fonction spéciale pour un café plus corsé, sans complexifier l'usage au quotidien.
+« Une machine à dosette ne convient qu'à un usage basique » : c'est de moins en moins vrai. La Senseo Original+, par exemple, propose une glissière d'intensité (classique ou intense) et un arrêt automatique pour économiser l'énergie, sans complexifier l'usage au quotidien.
 
-« C'est un format has-been face aux capsules » : le format dosette reste en réalité l'un des systèmes de café portionné les plus écologiques du marché, grâce à son papier filtre biodégradable, contrairement à la majorité des capsules qui nécessitent une filière de recyclage dédiée.
+« C'est un format has-been face aux capsules » : la dosette a au moins un avantage pratique, son enveloppe est en papier filtre et ne contient ni aluminium ni plastique, là où beaucoup de capsules demandent une filière de recyclage dédiée.
 
 ## Bien entretenir sa machine à dosette
 

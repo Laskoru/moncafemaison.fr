@@ -2,7 +2,7 @@
 title: "Quelle machine à café à grains choisir ?"
 description: "Quelle machine à café à grains choisir pour un bon café maison sans se ruiner ? Nos critères et notre sélection de modèles fiables."
 pubDate: 2026-08-16
-updatedDate: 2026-09-21
+updatedDate: 2026-10-07
 author: "Hugo B."
 pinHook: "Du grain à la tasse, *sans effort*"
 pinSub: "La machine à grains, comparée."
@@ -27,8 +27,8 @@ sources:
     url: "https://www.home-appliances.philips/fr/fr/p/EP2220_10"
   - label: "Philips, « Je n'arrive pas à régler le broyeur de ma machine espresso Philips »"
     url: "https://www.philips.fr/c-t/XC000004121/je-n-arrive-pas-%C3%A0-r%C3%A9gler-le-broyeur-de-ma-machine-espresso-philips"
-  - label: "Philips, « Accessoires d'entretien Filtre à eau et à calcaire CA6903/10 »"
-    url: "https://www.philips.ch/fr/c-p/CA6903_10/filtre-a-eau-et-a-calcaire"
+  - label: "Illy et Navarini, Food Biophysics (2011), « Neglected Food Bubbles: The Espresso Coffee Foam »"
+    url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC3140933/"
   - label: "National Coffee Association, « Storage and shelf life »"
     url: "https://www.aboutcoffee.org/beans/storage-and-shelf-life/"
 faq:
@@ -74,7 +74,7 @@ La plupart des utilisateurs ne touchent jamais aux réglages, alors qu'ils trans
 
 - **La finesse de mouture** : c'est la molette dans le bac à grains. Règle-la **moulin en marche**, jamais à l'arrêt, sous peine de bloquer les meules. Plus fin = café plus intense et plus long à couler ; plus grossier = plus léger et plus rapide. Le changement se ressent à partir de la deuxième ou troisième tasse, le temps de purger l'ancienne mouture.
 - **La quantité de café** (souvent appelée « intensité » ou « arôme ») : c'est le réglage le plus efficace contre un café jugé trop faible.
-- **Le volume d'eau** : un espresso se situe autour de 30-40 ml, un lungo autour de 90-110 ml. Beaucoup de machines sortent d'usine avec des volumes trop longs, donc des cafés délavés.
+- **Le volume d'eau** : un espresso italien classique tourne autour de 25 à 30 ml (repère donné par Illy et Navarini dans *Food Biophysics*), un lungo nettement plus. Beaucoup de machines sortent d'usine avec des volumes trop longs, donc des cafés délavés.
 - **La température**, quand elle est réglable : le cran le plus élevé pour un café torréfié clair, le cran moyen pour une torréfaction foncée qui deviendrait amère.
 
 Change **un réglage à la fois** et goûte deux tasses avant de juger.
@@ -92,7 +92,7 @@ Compte un petit budget annuel en consommables (pastilles, détartrant, filtres).
 
 ## Quel grain choisir pour une automatique ?
 
-Deux types de grains posent problème dans ces machines : les torréfactions **très foncées et huileuses**, qui encrassent le broyeur et finissent par le bloquer, et les cafés **aromatisés**, dont les arômes ajoutés se déposent partout. Vise une torréfaction moyenne, un paquet avec une **date de torréfaction** (pas seulement une DLUO), et consomme-le dans les six semaines. Enfin, ne remplis la trémie que pour deux ou trois jours : les grains qui y restent à l'air libre perdent leurs arômes bien avant d'être moulus.
+Deux types de grains posent problème dans ces machines : les torréfactions **très foncées et huileuses**, qui encrassent le broyeur et finissent par le bloquer, et les cafés **aromatisés**, dont les arômes ajoutés se déposent partout. Vise une torréfaction moyenne, un paquet avec une **date de torréfaction** (pas seulement une DLUO), et consomme-le vite : la National Coffee Association compte une à trois semaines de fraîcheur pour des grains torréfiés gardés à température ambiante. Enfin, ne remplis la trémie que pour deux ou trois jours : les grains qui y restent à l'air libre perdent leurs arômes bien avant d'être moulus.
 
 ## Mieux vaut simple que cher
 

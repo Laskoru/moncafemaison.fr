@@ -2,7 +2,7 @@
 title: "Café trop clair DeLonghi Magnifica S : le bon réglage"
 description: "Café trop clair sur une DeLonghi Magnifica S : diagnostic pas à pas de la mouture, la dose, le groupe café et le détartrage pour un espresso réussi."
 pubDate: 2026-09-28
-updatedDate: 2026-09-28
+updatedDate: 2026-10-07
 author: "Hugo B."
 keywords: ["café trop clair delonghi magnifica s", "café trop amer delonghi magnifica s", "machine à café delonghi mouture trop fine", "delonghi magnifica s réglage mouture", "delonghi magnifica s café faible"]
 category: "machines"
@@ -14,17 +14,17 @@ sources:
     url: "https://www.delonghi.com/fr-fr/faqs/Mon-caf%C3%A9-n%E2%80%99est-pas-assez-fort.-Comment-puis-je-am%C3%A9liorer-%C3%A7a-/a/6269"
   - label: "De'Longhi, « Puis-je régler le degré de mouture de mon café ? »"
     url: "https://www.delonghi.com/fr-fr/faqs/Puis-je-r%C3%A9gler-le-degr%C3%A9-de-mouture-de-mon-caf%C3%A9-/a/6305"
-  - label: "De'Longhi Support, « Message: GROUND TOO FINE ADJUST MILL » (Magnifica S Cappuccino)"
-    url: "https://support.delonghi.com/en/magnifica-s-cappuccino/Message-GROUND-TOO-FINE-ADJUST-MILL-3581"
+  - label: "De'Longhi, « ECAM20.11X - 21.11X - 22.11X : mode d'emploi » (PDF)"
+    url: "https://dls.delonghigroup.com/files/docs/5/A1-5713242611.pdf"
   - label: "De'Longhi, « Problèmes avec le moulin à café de ma machine à café De'Longhi »"
     url: "https://www.delonghi.com/fr-fr/faqs/Probl%C3%A8mes-avec-le-moulin-%C3%A0-caf%C3%A9-de-ma-machine-%C3%A0-caf%C3%A9-De'Longhi/a/570488"
 faq:
   - question: "Pourquoi mon café DeLonghi Magnifica S est-il devenu trop clair du jour au lendemain, sans que j'aie touché aux réglages ?"
-    answer: "Le réglage n'est pas forcément en cause : des grains huileux ou trop anciens moulent moins régulièrement et donnent une mouture plus grossière avec le temps, même molette inchangée. Un groupe café encrassé ou un léger dépôt de tartre ralentit aussi le débit et change la texture de l'extraction. Avant de retoucher la mouture, vérifie la fraîcheur des grains et nettoie l'infuseur."
+    answer: "Le réglage n'est pas forcément en cause. Un nouveau paquet de grains (autre origine, autre torréfaction, part de robusta différente) suffit à changer l'intensité en tasse, De'Longhi le rappelle. Un infuseur pas nettoyé depuis longtemps ou un détartrage en retard jouent aussi sur l'extraction. Avant de retoucher la mouture, vérifie le paquet utilisé et nettoie l'infuseur."
   - question: "Que faire si le message mouture trop fine réapparaît après avoir réglé le moulin ?"
-    answer: "Le réglage n'agit qu'après deux ou trois cafés, donc un seul essai ne suffit pas toujours pour juger. Si le message revient malgré plusieurs crans vers une mouture plus grossière, vide le bac à marc et le conduit de mouture préemballée, aspire les résidus autour du broyeur, puis relance un cycle de rinçage avant de reprendre les réglages depuis le début."
+    answer: "Le réglage n'agit qu'après au moins deux cafés, donc un seul essai ne suffit pas pour juger. Si l'alerte revient malgré plusieurs crans vers une mouture plus grossière, le mode d'emploi conseille de tourner la manette vapeur sur la position I et de faire couler un peu d'eau par la buse : avec le filtre adoucisseur installé, une bulle d'air peut bloquer le circuit. Vérifie aussi que l'entonnoir du café prémoulu n'est pas bouché."
   - question: "Combien de temps attendre entre deux réglages de mouture ?"
-    answer: "De'Longhi recommande de ne tourner la molette que d'un cran à la fois, uniquement pendant que le broyeur fonctionne, et de laisser passer deux à trois cafés avant de juger le résultat et de retoucher à nouveau. Ce délai correspond au temps que met le broyeur pour évacuer l'ancienne mouture et se stabiliser sur le nouveau réglage."
+    answer: "De'Longhi recommande de ne tourner la molette que d'un cran à la fois, uniquement pendant que le broyeur fonctionne, et de laisser passer deux à trois cafés avant de juger le résultat et de retoucher à nouveau. Ce délai laisse au broyeur le temps d'évacuer la mouture restée au réglage précédent."
 draft: false
 ---
 
@@ -40,13 +40,13 @@ Le type de grain compte aussi. Un mélange très arabica ou une torréfaction cl
 
 Le scénario inverse suit la même logique, en sens contraire. Une **mouture trop fine** ralentit le passage de l'eau et sur-extrait la mouture, ce qui donne un goût amer, parfois âcre. Une **dose trop importante** ou une **intensité réglée trop haute** produisent le même effet en poussant trop de café dans le même volume d'eau. La correction est simple sur le papier : passer à une mouture plus grossière, un cran à la fois, et redescendre l'intensité si le goût reste trop marqué après ce réglage.
 
-Un groupe café mal rincé peut aussi laisser un résidu d'huiles de café oxydées qui ajoute une amertume parasite, indépendante du réglage. C'est un point à vérifier avant de multiplier les crans de mouture dans le vide.
+Un groupe café qui n'a pas été nettoyé depuis longtemps garde des résidus de café qui peuvent ajouter une amertume parasite, indépendante du réglage. C'est un point à vérifier avant de multiplier les crans de mouture dans le vide.
 
 ## Le message mouture trop fine, réglez le moulin
 
-Ce message signifie que la mouture est si fine que l'eau ne parvient plus à traverser correctement, ce qui bloque ou ralentit fortement la distribution. Sur la Magnifica S Cappuccino, la procédure officielle consiste à relancer une distribution de café et à tourner la molette de réglage d'un cran vers une mouture plus grossière **pendant que le broyeur fonctionne**, en répétant l'opération si le débit reste trop lent après au moins deux cafés.
+Cette alerte (un voyant qui clignote sur la Magnifica S, un message en toutes lettres sur la version Cappuccino à écran) signifie que la mouture est si fine que l'eau ne parvient plus à traverser correctement : le café coule trop lentement ou pas du tout. La procédure du mode d'emploi consiste à relancer une distribution de café et à tourner la molette d'un cran vers le chiffre 7 (mouture plus grossière) **pendant que le broyeur fonctionne**, puis à répéter l'opération si le débit reste trop lent après au moins deux cafés.
 
-Si le message persiste malgré plusieurs crans, trois vérifications supplémentaires s'imposent : la trémie à grains n'est pas vide, le conduit de café prémoulu n'est pas obstrué par de la poudre tassée, et aucun corps étranger ne bloque le broyeur. Un cycle de rinçage, réservoir d'eau plein et filtre à eau retiré si la machine en possède un, permet souvent de relancer une distribution normale une fois la mouture corrigée.
+Si l'alerte persiste, De'Longhi conseille de tourner la manette vapeur sur la position I et de faire couler un peu d'eau par la buse : quand le filtre adoucisseur est installé, une bulle d'air peut s'être logée dans le circuit et bloquer l'écoulement. Le mode d'emploi demande aussi de contrôler environ une fois par mois que l'entonnoir du café prémoulu n'est pas bouché.
 
 ## Régler la mouture, étape par étape
 
@@ -60,13 +60,13 @@ Cette méthode vaut pour la plupart des [machines automatiques à broyeur intég
 
 ## Le broyeur est bloqué ou fait un bruit anormal
 
-Un broyeur bruyant qui ne moud plus correctement cache souvent un corps étranger, typiquement un petit caillou resté dans un paquet de grains. Éteins la machine et débranche-la, vide la trémie, aspire l'intérieur avec un petit embout pour retirer les résidus, puis inspecte les deux meules à la recherche d'un objet coincé entre elles. S'il est difficile à déloger, tourner la molette vers une mouture plus grossière élargit l'espace entre les meules et facilite parfois son évacuation.
+Un broyeur bruyant qui ne moud plus correctement cache souvent un corps étranger, typiquement un petit caillou resté dans un paquet de grains. Éteins la machine et débranche-la, retire les grains à l'aspirateur, puis inspecte le moulin à la recherche d'un objet coincé. Retire-le doucement, sans forcer. S'il résiste, De'Longhi suggère de tourner la molette vers une mouture plus grossière pendant que le moulin tourne, ce qui peut aider à le déloger ; sinon, passe par un centre d'assistance agréé.
 
-Certains grains aggravent aussi le risque de blocage : les torréfactions très foncées et huileuses collent aux meules à la longue, tout comme les cafés aromatisés dont les arômes ajoutés se déposent sur le mécanisme. Un [moulin à meules bien réglé](/articles/meilleur-moulin-pour-espresso/) tolère mieux ces grains qu'un broyeur intégré, plus sensible à l'encrassement du fait de sa taille compacte.
+Le mode d'emploi met aussi en garde contre les grains caramélisés ou confits, qui risquent de coller au moulin et de l'endommager. De'Longhi ajoute que les petits corps étrangers dans les paquets sont presque inévitables et conseille des cafés de gamme moyenne à supérieure pour limiter le risque. Pour les grains difficiles, un [moulin à meules séparé](/articles/meilleur-moulin-pour-espresso/) se démonte et se nettoie plus facilement qu'un broyeur intégré.
 
 ## Nettoyer le groupe café, la première cause oubliée
 
-Le groupe café (l'infuseur) se retire en appuyant sur les deux boutons rouges situés de part et d'autre, puis se rince **uniquement à l'eau claire**, jamais au détergent qui abîmerait les joints et laisserait un goût. Un rinçage rapide avant et après chaque utilisation évite l'accumulation de résidus, et un nettoyage plus complet, infuseur trempé quelques minutes puis rincé et séché, est recommandé une fois par semaine sur un usage régulier.
+Le groupe café (l'infuseur) se retire machine éteinte, réservoir d'eau enlevé : ouvre le volet sur le côté droit, appuie sur les deux touches rouges et tire l'infuseur vers toi. Le mode d'emploi demande de le nettoyer **au moins une fois par mois**, **sans aucun détergent** qui pourrait l'abîmer : laisse-le environ 5 minutes dans l'eau, rince-le sous le robinet et retire les résidus de café sur son support avant de le remettre en place (appuie sur PUSH jusqu'au clic, les deux touches rouges doivent ressortir).
 
 Un groupe encrassé ne provoque pas systématiquement un message d'erreur, mais il modifie la texture et le goût du café bien avant que le problème ne devienne visible autrement.
 
@@ -76,10 +76,10 @@ Le calcaire qui s'accumule dans les circuits ralentit progressivement le débit 
 
 ## Ce qu'il faut retenir
 
-- **Café trop clair** : mouture trop grossière, dose insuffisante (30 à 40 ml pour un espresso) ou intensité trop basse.
+- **Café trop clair** : mouture trop grossière, trop d'eau dans la tasse (un espresso, c'est environ 30 à 40 ml selon De'Longhi) ou intensité trop basse.
 - **Café trop amer** : mouture trop fine, dose trop importante ou groupe café encrassé.
 - **Message mouture trop fine** : tourner la molette d'un cran vers une mouture plus grossière, pendant que le broyeur tourne, et attendre deux à trois cafés avant de rejuger.
-- **Broyeur bruyant ou bloqué** : vérifier l'absence de corps étranger et éviter les grains huileux ou aromatisés.
+- **Broyeur bruyant ou bloqué** : vérifier l'absence de corps étranger et éviter les grains caramélisés ou confits.
 - Un **détartrage** oublié peut imiter un problème de réglage, sans lien avec la mouture.
 
 Ces gestes suffisent à corriger l'immense majorité des cafés ratés sur une Magnifica S, sans intervention technique. Si le problème persiste après avoir tout vérifié, une visite chez un réparateur agréé De'Longhi permet d'écarter une panne mécanique du broyeur ou du groupe café, plus rare mais possible sur une machine âgée.

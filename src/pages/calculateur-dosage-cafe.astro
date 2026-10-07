@@ -6,10 +6,10 @@ import Icon from '../components/Icon.astro';
 // Réglages du calculateur : source unique pour le script, le tableau et la FAQ.
 // cup = volume d'une « tasse » en ml (hypothèse affichée), ratio = g d'eau par g de café.
 const M = {
-  filtre:    { cup: 125, ratio: 17,   grind: 'moyenne',       tip: 'Verse l’eau à ~93 °C en plusieurs fois pour une extraction régulière.' },
+  filtre:    { cup: 125, ratio: 16,   grind: 'moyenne',       tip: 'Verse l’eau à ~93 °C en plusieurs fois pour une extraction régulière.' },
   v60:       { cup: 220, ratio: 16,   grind: 'moyenne-fine',  tip: 'Fais une pré-infusion (bloom) de 30 s avant de continuer à verser.' },
   piston:    { cup: 220, ratio: 15,   grind: 'grossière',     tip: 'Laisse infuser 4 minutes avant de presser doucement.' },
-  italienne: { cup: 60,  ratio: 10,   grind: 'fine',          tip: 'Remplis le panier sans tasser, et retire du feu dès que ça monte.' },
+  italienne: { cup: 60,  ratio: 10,   grind: 'moyenne-fine',  tip: 'Remplis le panier sans tasser, et retire du feu dès que ça monte.' },
   expresso:  { cup: 30,  ratio: 3,    grind: 'très fine',     tip: 'Vise 25 à 30 s d’extraction pour un espresso équilibré.' },
 };
 const STRENGTH = { doux: 1.08, normal: 1, corse: 0.92 };
@@ -70,7 +70,7 @@ const faqSchema = {
 // Guides pas à pas par méthode : liens statiques (découverte par Google + suite logique du dosage).
 const guidesMethode = [
   { name: 'Espresso', hint: 'Mouture très fine, 25 à 30 s d’extraction', href: '/articles/reussir-espresso-maison/' },
-  { name: 'Cafetière italienne (moka)', hint: 'Mouture fine, panier rempli sans tasser', href: '/articles/reussir-cafetiere-italienne-moka/' },
+  { name: 'Cafetière italienne (moka)', hint: 'Mouture moyenne-fine, panier rempli sans tasser', href: '/articles/reussir-cafetiere-italienne-moka/' },
   { name: 'Piston (French press)', hint: 'Mouture grossière, 4 minutes d’infusion', href: '/articles/reussir-french-press-piston/' },
   { name: 'V60 et café filtre', hint: 'Mouture moyenne-fine, bloom de 30 s', href: '/articles/reussir-cafe-filtre-v60/' },
   { name: 'Cold brew', hint: 'Infusion longue à froid, café doux et peu acide', href: '/articles/reussir-cold-brew-maison/' },
