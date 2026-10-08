@@ -13,6 +13,7 @@ draft: false
 products:
   - asin: "B0000YWF5E"
     title: "Cafetière filtre Chemex 6 tasses, verre borosilicate et col bois"
+    search: "chemex 6 tasses"
     blurb: "Le modèle original breveté en 1941, présent dans les collections permanentes de grands musées : verre borosilicate qui ne retient ni odeur ni résidu, col en bois amovible."
     pros:
       - "Café filtre très propre et clair"

@@ -13,6 +13,7 @@ draft: false
 products:
   - asin: "B00W506FIY"
     title: "De'Longhi EC201.CD.B, porte-filtre, café moulu ou dosettes ESE"
+    search: "delonghi machine expresso porte-filtre"
     blurb: "La porte d'entrée idéale vers le vrai espresso : tu contrôles la mouture et le tassage, pour un café avec crema à petit prix."
     pros:
       - "Vrai espresso avec crema à petit prix"

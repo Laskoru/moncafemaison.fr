@@ -14,6 +14,7 @@ draft: false
 products:
   - asin: "B00400OMU0"
     title: "De'Longhi Magnifica S (ECAM22.110.B), broyeur intégré, 13 réglages"
+    search: "delonghi magnifica s"
     blurb: "Le meilleur compromis qualité/goût : elle moud le grain juste avant l'extraction pour un café nettement plus riche qu'une capsule."
     pros:
       - "Moud le grain juste avant l’extraction (café plus riche)"
