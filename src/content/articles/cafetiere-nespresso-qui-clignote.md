@@ -6,7 +6,6 @@ updatedDate: 2026-10-12
 author: "Hugo B."
 keywords: ["pourquoi cafetière nespresso clignote", "cafetière nespresso qui clignote", "voyant nespresso clignote orange", "nespresso vertuo clignote blanc", "sortir nespresso mode détartrage"]
 category: "machines"
-coverImage: "https://images.unsplash.com/photo-1788115704383-fec58ea94eed?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1600"
 coverAlt: "Machine expresso chromée et moulin à café assortis posés sur un plan de travail en marbre blanc"
 pinHook: "Ta *cafetière Nespresso clignote* sans s'arrêter ?"
 pinSub: "Réservoir, capsule, détartrage : ce que signifie vraiment chaque voyant."
