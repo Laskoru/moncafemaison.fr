@@ -1,5 +1,5 @@
 ---
-title: "Pourquoi cafetière Nespresso clignote : voyants expliqués"
+title: "Cafetière Nespresso qui clignote : les voyants expliqués"
 description: "Pourquoi une cafetière Nespresso clignote : voyant détartrage, réservoir vide ou bac plein. Les causes selon le modèle et la solution à chaque fois."
 pubDate: 2026-10-12
 updatedDate: 2026-10-12
