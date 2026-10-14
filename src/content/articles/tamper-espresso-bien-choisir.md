@@ -1,13 +1,13 @@
 ---
 title: "Tamper à espresso : comment bien le choisir pour un tassage régulier"
-seoTitle: "Tamper à espresso : bien le choisir pour un tassage régulier"
+seoTitle: "Comment utiliser un tamper : tassage et bon diamètre"
 description: "Diamètre, poids, base plate ou convexe : nos critères pour choisir un tamper adapté à ta machine, et la méthode pour tasser la mouture sans erreur."
 pubDate: 2026-09-17
-updatedDate: 2026-10-07
+updatedDate: 2026-10-14
 author: "Hugo B."
 pinHook: "Le petit geste *qui stabilise* l'extraction"
 pinSub: "Pourquoi un bon tamper évite les canaux et les espressos irréguliers."
-keywords: ["tamper espresso", "tasseur café", "tamper 58mm", "tassage mouture espresso"]
+keywords: ["tamper espresso", "tasseur café", "tamper 58mm", "tassage mouture espresso", "comment utiliser un tamper"]
 category: "accessoires"
 coverAlt: "Mouture de café tassée en un puck régulier dans un porte-filtre nu"
 draft: false
@@ -43,6 +43,16 @@ comparison:
 Le **tamper** (ou tasseur) est l'un des accessoires les plus simples de l'univers espresso, et pourtant l'un de ceux qui influencent le plus directement le résultat en tasse. Son rôle est de compresser la mouture dans le panier du porte-filtre en une couche uniforme et dense, appelée puck, à travers laquelle l'eau chaude doit s'écouler de façon homogène sous pression.
 
 Un tassage irrégulier crée des zones de moindre résistance : l'eau y passe plus vite, contourne le reste de la mouture, et extrait le café de façon inégale. Ce phénomène, appelé canalisation, est l'une des causes les plus fréquentes d'un espresso amer d'un côté et fade de l'autre, un problème qui touche autant une [machine expresso](/articles/meilleure-machine-expresso/) d'entrée de gamme qu'une [machine avec broyeur intégré](/articles/machine-expresso-broyeur-integre/) plus sophistiquée.
+
+## Comment utiliser un tamper, étape par étape
+
+1. **Répartis la mouture uniformément** dans le panier avant tout tassage, à la main ou avec un outil de distribution, pour éviter les amas qui provoqueraient un tassage inégal.
+2. **Pose le porte-filtre sur une surface stable** (un tapis de tassage évite de forcer sur le plan de travail) et centre le tamper dans le panier.
+3. **Applique une pression verticale et constante**, sans mouvement de torsion, jusqu'à sentir une résistance nette, avec la même force d'un café à l'autre.
+4. **Vérifie la surface du puck** : elle doit être plane, sans fissure visible ni zone plus basse que le reste.
+5. **Retire le tamper à la verticale**, sans le faire pivoter, pour ne pas casser la surface du puck juste formée.
+
+Ce geste, une fois maîtrisé, prend quelques secondes et conditionne directement la régularité de l'extraction, qu'il s'agisse de préparer un espresso classique ou d'alimenter un [moulin réglé finement pour l'espresso](/articles/meilleur-moulin-pour-espresso/) en amont.
 
 ## Le critère numéro un : le diamètre
 
@@ -80,16 +90,6 @@ Le plus fiable reste de mesurer directement le panier avec un pied à coulisse o
 **Le tamper classique**, sans mécanisme, dépend entièrement de la régularité du geste de la main : la pression varie légèrement d'un café à l'autre selon la fatigue ou l'attention portée au geste.
 
 **Le tamper calibré**, équipé d'un ressort interne, se bloque une fois une pression prédéfinie atteinte, ce qui garantit une force constante d'un café à l'autre sans avoir à l'estimer soi-même. C'est un vrai gain de régularité pour qui prépare plusieurs espressos par jour ou débute et cherche à éliminer une variable du geste.
-
-## Comment bien tasser, étape par étape
-
-1. **Répartis la mouture uniformément** dans le panier avant tout tassage, à la main ou avec un outil de distribution, pour éviter les amas qui provoqueraient un tassage inégal.
-2. **Pose le porte-filtre sur une surface stable** (un tapis de tassage évite de forcer sur le plan de travail) et centre le tamper dans le panier.
-3. **Applique une pression verticale et constante**, sans mouvement de torsion, jusqu'à sentir une résistance nette, avec la même force d'un café à l'autre.
-4. **Vérifie la surface du puck** : elle doit être plane, sans fissure visible ni zone plus basse que le reste.
-5. **Retire le tamper à la verticale**, sans le faire pivoter, pour ne pas casser la surface du puck juste formée.
-
-Ce geste, une fois maîtrisé, prend quelques secondes et conditionne directement la régularité de l'extraction, qu'il s'agisse de préparer un espresso classique ou d'alimenter un [moulin réglé finement pour l'espresso](/articles/meilleur-moulin-pour-espresso/) en amont.
 
 > 🛒 **Pour compléter ton équipement**
 > Voir aussi les tapis de tassage et tampers calibrés à ressort, pour un geste plus régulier d'un café à l'autre : [comparer les modèles sur Amazon](https://www.amazon.fr/s?k=tamper+calibre+espresso&tag=moncafemaison-21).

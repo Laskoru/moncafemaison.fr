@@ -2,7 +2,7 @@
 title: "Cafetière Nespresso qui clignote : les voyants expliqués"
 description: "Pourquoi une cafetière Nespresso clignote : voyant détartrage, réservoir vide ou bac plein. Les causes selon le modèle et la solution à chaque fois."
 pubDate: 2026-10-12
-updatedDate: 2026-10-12
+updatedDate: 2026-10-14
 author: "Hugo B."
 keywords: ["pourquoi cafetière nespresso clignote", "cafetière nespresso qui clignote", "voyant nespresso clignote orange", "nespresso vertuo clignote blanc", "sortir nespresso mode détartrage"]
 category: "machines"
@@ -66,7 +66,7 @@ Avant d'appeler, garde la référence du modèle à portée de main : elle figur
 
 Quand le clignotement signale une vraie panne et non une simple manipulation à faire, la garantie légale de conformité s'applique pendant deux ans à partir de l'achat. Pendant cette période, le défaut est présumé avoir existé dès la vente : ce n'est pas à toi de prouver qu'il ne vient pas d'une mauvaise utilisation. C'est le vendeur, et non Nespresso en tant que fabricant, qui doit mettre en œuvre cette garantie et proposer une réparation ou un remplacement sans frais, en principe dans les 30 jours. Si aucune des deux solutions n'est possible, une réduction de prix ou un remboursement peut être demandé.
 
-Le service de collecte et de machine de remplacement proposé par Nespresso fonctionne en complément de cette garantie légale, sans s'y substituer : il reste utile même quand la panne ne relève pas d'un défaut de conformité, par exemple après un choc accidentel.
+Le service de collecte et de machine de remplacement proposé par Nespresso fonctionne en complément de cette garantie légale, sans s'y substituer : il reste utile même quand la panne ne relève pas d'un défaut de conformité, par exemple après un choc accidentel. Pour la garantie commerciale de 24 mois, le forfait de réparation hors garantie et le cas des capsules compatibles, vois la page consacrée à la [garantie de ta machine Nespresso](https://www.quellegarantie.fr/articles/garantie-machine-a-cafe-delonghi-nespresso/) sur notre site Quelle Garantie.
 
 Un voyant qui clignote n'est dans l'immense majorité des cas ni grave ni définitif : il demande simplement de reconnaître le bon motif parmi la chauffe normale, le réservoir, le bac plein ou le détartrage, puis d'appliquer la manipulation correspondante avant d'envisager un appel au service client.
 

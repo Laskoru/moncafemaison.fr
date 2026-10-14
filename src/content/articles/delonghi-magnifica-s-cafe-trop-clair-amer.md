@@ -2,7 +2,7 @@
 title: "Café trop clair DeLonghi Magnifica S : le bon réglage"
 description: "Café trop clair sur une DeLonghi Magnifica S : diagnostic pas à pas de la mouture, la dose, le groupe café et le détartrage pour un espresso réussi."
 pubDate: 2026-09-28
-updatedDate: 2026-10-07
+updatedDate: 2026-10-14
 author: "Hugo B."
 keywords: ["café trop clair delonghi magnifica s", "café trop amer delonghi magnifica s", "machine à café delonghi mouture trop fine", "delonghi magnifica s réglage mouture", "delonghi magnifica s café faible"]
 category: "machines"
@@ -18,6 +18,8 @@ sources:
     url: "https://dls.delonghigroup.com/files/docs/5/A1-5713242611.pdf"
   - label: "De'Longhi, « Problèmes avec le moulin à café de ma machine à café De'Longhi »"
     url: "https://www.delonghi.com/fr-fr/faqs/Probl%C3%A8mes-avec-le-moulin-%C3%A0-caf%C3%A9-de-ma-machine-%C3%A0-caf%C3%A9-De'Longhi/a/570488"
+  - label: "De'Longhi, « Conditions Générales de Garanties et d'Extensions 2025 »"
+    url: "https://eu-assets.contentstack.com/v3/assets/blt2252ade9ce4d4191/blteb1b66d05d881bd3/6830812741f7db4db9b4210c/ConditionsGeneralesGarantiesDeLonghi2025.pdf"
 faq:
   - question: "Pourquoi mon café DeLonghi Magnifica S est-il devenu trop clair du jour au lendemain, sans que j'aie touché aux réglages ?"
     answer: "Le réglage n'est pas forcément en cause. Un nouveau paquet de grains (autre origine, autre torréfaction, part de robusta différente) suffit à changer l'intensité en tasse, De'Longhi le rappelle. Un infuseur pas nettoyé depuis longtemps ou un détartrage en retard jouent aussi sur l'extraction. Avant de retoucher la mouture, vérifie le paquet utilisé et nettoie l'infuseur."
@@ -73,6 +75,8 @@ Un groupe encrassé ne provoque pas systématiquement un message d'erreur, mais 
 ## Et si le problème venait du détartrage ?
 
 Le calcaire qui s'accumule dans les circuits ralentit progressivement le débit d'eau et peut perturber une extraction jusque-là bien réglée, sans lien direct avec la molette de mouture. Si la machine n'a pas été détartrée depuis plusieurs mois et que le café varie sans raison apparente, ce point mérite d'être vérifié avant de s'acharner sur les réglages. Notre guide sur le [détartrant pour machine à café](/articles/meilleur-detartrant-machine-a-cafe/) détaille la fréquence et la méthode selon les fabricants.
+
+Le détartrage compte aussi pour la garantie : les conditions de garantie 2025 de De'Longhi excluent les pannes liées à l'entartrage et l'usage d'un détartrant non autorisé (vinaigre, pastille, poudre), comme les dommages dus à un corps étranger dans l'appareil. Le détail est sur la page consacrée à la [garantie de ta machine De'Longhi](https://www.quellegarantie.fr/articles/garantie-machine-a-cafe-delonghi-nespresso/), sur notre site Quelle Garantie.
 
 ## Ce qu'il faut retenir
 

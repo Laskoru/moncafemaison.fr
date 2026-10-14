@@ -1,12 +1,13 @@
 ---
 title: "Cafetière italienne (moka) : laquelle choisir ?"
+seoTitle: "Cafetière italienne moka : quelle taille, alu ou inox ?"
 description: "3, 6 ou 9 tasses, induction ou non : notre guide pour choisir la bonne cafetière italienne (moka) et réussir son café maison."
 pubDate: 2026-08-16
-updatedDate: 2026-10-07
+updatedDate: 2026-10-14
 author: "Hugo B."
 pinHook: "Le café *sur le feu*, réussi à tous les coups"
 pinSub: "La moka, comme en Italie."
-keywords: ["cafetière italienne", "quelle cafetière italienne choisir", "meilleure cafetière moka", "cafetière moka induction", "cafetière moka"]
+keywords: ["cafetière italienne", "quelle cafetière italienne choisir", "meilleure cafetière moka", "cafetière moka induction", "cafetière moka", "machine italienne moka", "taille moka nombre de tasses"]
 category: "machines"
 coverAlt: "Cafetière italienne (moka) et tasse de café dans une lumière chaude"
 draft: false
@@ -36,13 +37,15 @@ faq:
     answer: "Non, pas au sens strict : la moka travaille à une pression bien plus faible que les quelque 9 bars d'une machine expresso. Le résultat est un café corsé et concentré, plus proche d'un café serré que d'un espresso avec crema épaisse. C'est malgré tout la préparation la plus proche de l'espresso sans machine électrique."
   - question: "Peut-on utiliser une moka en aluminium sur une plaque à induction ?"
     answer: "Non, l'aluminium seul n'est pas magnétique et ne chauffe pas sur induction. Il faut soit un disque adaptateur à poser sous la cafetière, soit un modèle spécifique comme les gammes « induction » qui intègrent un fond en acier inoxydable."
+  - question: "Moka en aluminium ou en inox : laquelle prendre ?"
+    answer: "L'aluminium chauffe vite, coûte moins cher et donne le goût traditionnel, mais il ne va pas au lave-vaisselle et, sur induction, la Moka Express demande l'adaptateur Bialetti. L'inox est plus lourd et plus cher, mais il est presque toujours compatible induction et plus simple à entretenir."
   - question: "Pourquoi mon café à la moka a-t-il un goût amer ou brûlé ?"
     answer: "C'est presque toujours une question de feu trop fort ou de mouture trop fine. Utilise un feu doux à moyen, retire la cafetière du feu dès que le café commence à glouglouter fort, et choisis une mouture moyenne à moyennement fine, plus grossière que pour l'espresso."
 ---
 
 ## Pourquoi la moka reste un classique indétrônable
 
-Inventée en 1933, la cafetière italienne (ou moka) équipe encore aujourd'hui des millions de cuisines en Europe. Pas de moulin obligatoire, pas de filtre en papier à racheter, pas d'électronique qui tombe en panne : juste de l'eau, du café moulu et une plaque de cuisson. C'est cette simplicité mécanique qui explique pourquoi le design d'origine de Bialetti n'a presque pas changé en presque un siècle.
+Inventée en 1933, la cafetière italienne, qu'on appelle aussi machine italienne ou moka, équipe encore aujourd'hui des millions de cuisines en Europe. Pas de moulin obligatoire, pas de filtre en papier à racheter, pas d'électronique qui tombe en panne : juste de l'eau, du café moulu et une plaque de cuisson. C'est cette simplicité mécanique qui explique pourquoi le design d'origine de Bialetti n'a presque pas changé en presque un siècle.
 
 Le résultat en tasse est particulier : plus concentré et corsé qu'un café filtre, sans atteindre la pression d'un espresso. Beaucoup de foyers en Italie, en Espagne ou en France en font leur café du quotidien, souvent allongé avec un peu de lait pour un café au lait maison.
 
@@ -59,6 +62,19 @@ Ce fonctionnement simple a une conséquence directe. La qualité du résultat d�
 - **La contenance** : les tailles vont généralement de 1 à 12 tasses (une « tasse » moka est une petite tasse à café, bien plus petite qu'un mug). Choisis en fonction du nombre de personnes à servir, pas de la taille de mug que tu utilises ensuite.
 - **La facilité d'entretien** : un joint et un filtre à remplacer de temps en temps, un rinçage à l'eau claire sans savon pour ne pas altérer le goût.
 - **La robustesse de la poignée et du couvercle** : sur les modèles d'entrée de gamme, ce sont souvent les premières pièces à s'abîmer avec un usage quotidien.
+
+## Quelle taille de moka selon le nombre de tasses
+
+La taille d'une moka s'exprime en « tasses » italiennes, c'est-à-dire en petites tasses à café, pas en mugs. La Moka Express de Bialetti existe ainsi en 1, 2, 3, 4, 6, 9, 12 et 18 tasses. Et une moka ne se remplit pas à moitié : la base va jusqu'à la valve et le filtre se remplit à ras, donc elle produit toujours sa quantité nominale.
+
+| Taille | Pour qui | Quand la choisir |
+| --- | --- | --- |
+| 1 ou 2 tasses | 1 personne | Un café court, seul, le matin |
+| 3 ou 4 tasses | 1 à 2 personnes | La taille la plus polyvalente : un café allongé pour un, deux petits cafés pour deux |
+| 6 tasses | 2 à 4 personnes | Un couple qui boit deux cafés chacun, ou une famille |
+| 9 à 18 tasses | Famille nombreuse, invités | Le café pour tout le monde en une seule fois |
+
+Si tu hésites entre deux tailles, prends la plus petite : refaire une moka prend quelques minutes, alors qu'une grande moka utilisée pour une seule tasse oblige à jeter le reste ou à le réchauffer.
 
 ## Comment choisir selon ton usage
 

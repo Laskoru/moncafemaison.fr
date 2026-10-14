@@ -1,13 +1,13 @@
 ---
 title: "Machine à capsules vs machine à grains : quel système choisir ?"
-seoTitle: "Capsules ou grains de café, que choisir ? Notre comparatif"
-description: "Café en capsules ou machine à grains : lequel choisir selon ton budget, ton temps et le goût recherché ? Notre comparatif honnête."
+seoTitle: "Machine à café à capsules ou à grains : que choisir ?"
+description: "Capsules ou grains ? Coût réel par tasse, goût, entretien, et quel système de capsules (Nespresso, Dolce Gusto, Tassimo) va avec ton usage."
 pubDate: 2026-08-16
-updatedDate: 2026-10-07
+updatedDate: 2026-10-14
 author: "Hugo B."
 pinHook: "Capsules ou grains ? *Le vrai match*"
 pinSub: "Quel système pour quel profil."
-keywords: ["capsules ou grains de café, que choisir", "machine à capsules vs machine à grains", "capsules ou grains café"]
+keywords: ["capsules ou grains de café, que choisir", "machine à capsules vs machine à grains", "capsules ou grains café", "machines à café à capsules", "quel système de capsules choisir"]
 category: "machines"
 coverAlt: "Coin café dans une cuisine : machine à espresso et moulin rempli de grains de café"
 draft: false
@@ -29,6 +29,14 @@ sources:
     url: "https://www.aboutcoffee.org/beans/storage-and-shelf-life/"
   - label: "De'Longhi, « ECAM20.11X - 21.11X - 22.11X : mode d'emploi » (PDF)"
     url: "https://dls.delonghigroup.com/files/docs/5/A1-5713242611.pdf"
+  - label: "Nespresso France, « Capsules Original » (boutique officielle)"
+    url: "https://www.nespresso.com/fr/fr/order/capsules/original"
+  - label: "NESCAFÉ Dolce Gusto, « Boissons » (boutique officielle)"
+    url: "https://www.dolce-gusto.fr/boissons"
+  - label: "TASSIMO, « Dosettes de café » (boutique officielle)"
+    url: "https://www.tassimo.com/fr/dosettes-cafe"
+  - label: "L'OR Espresso, « Capsules de café Espresso »"
+    url: "https://www.lorespresso.com/fr_fr/capsules-de-cafe/espresso"
   - label: "ADEME, « Que faire de mes déchets alimentaires ? Que mettre au compost ? »"
     url: "https://quefairedemesdechets.ademe.fr/categories/biodechets/dechets-alimentaires/"
 faq:
@@ -40,6 +48,8 @@ faq:
     answer: "Oui, et beaucoup de foyers le font : une machine à grains pour le café du quotidien, une machine à capsules pour les invités pressés ou les boissons occasionnelles (décaféiné, chocolat chaud). C'est un bon compromis si le budget le permet."
 ---
 
+**Pour un espresso court au meilleur prix par tasse, une machine Nespresso Original avec des capsules compatibles. Pour varier les boissons (café au lait, cappuccino, chocolat), Dolce Gusto ou Tassimo. Et si tu bois plusieurs cafés par jour, une machine à grains revient moins cher à l'usage et donne un café plus frais.** Le détail système par système est plus bas, avec les prix relevés sur les boutiques officielles.
+
 ## Deux logiques opposées pour faire son café
 
 La machine à capsules et la machine à grains répondent à deux besoins différents, presque à deux philosophies. La première mise sur la simplicité absolue : une capsule, un bouton, un café prêt en quelques secondes, toujours identique. La seconde mise sur la qualité et l'économie sur la durée : elle moud le grain juste avant l'extraction, ce qui change vraiment ce qu'il y a dans la tasse.
@@ -50,13 +60,34 @@ Aucune des deux n'est « meilleure » dans l'absolu. Tout dépend de ce que tu c
 
 Une fois moulu, le café perd ses arômes plus vite qu'en grains : à température ambiante, la National Coffee Association compte 1 à 2 semaines de fraîcheur pour du café moulu, contre 1 à 3 semaines pour le grain, et conseille de moudre juste avant l'extraction. Une capsule, aussi bien conçue soit-elle, est moulue puis conditionnée bien avant d'arriver dans ta cuisine, même si son emballage scellé freine la perte d'arômes. Une machine à grains, elle, moud la dose juste avant l'extraction : les arômes sont là au moment où l'eau chaude les libère.
 
-En pratique, l'écart de goût est net pour un buveur régulier, un peu moins perceptible pour quelqu'un qui boit un café de temps en temps ou qui aime surtout la régularité. C'est pour ça que le choix dépend autant de ton palais que de tes habitudes. Entre les deux, la [cafetière à dosettes souples ou ESE](/articles/cafetiere-dosette-souple-ese/) reste une option simple qui n'enferme pas dans une seule marque de capsules.
+En pratique, l'écart de goût est net pour un buveur régulier, un peu moins perceptible pour quelqu'un qui boit un café de temps en temps ou qui aime surtout la régularité. C'est pour ça que le choix dépend autant de ton palais que de tes habitudes. Entre les deux, la [machine à café à dosette souple](/articles/cafetiere-dosette-souple-ese/) reste une option simple qui n'enferme pas dans une seule marque de capsules.
 
 ## Le vrai coût, capsule après capsule
 
 C'est souvent l'argument qui fait basculer la décision. Une capsule coûte, à la tasse, plusieurs fois le prix d'une dose de grain équivalente. Sur une consommation de deux à trois cafés par jour, la différence se cumule vite sur une année. La machine à grains coûte généralement plus cher à l'achat, mais elle s'amortit rapidement pour qui boit du café tous les jours.
 
 À l'inverse, si tu bois un café occasionnellement ou que tu reçois rarement, l'investissement dans une machine à grains n'a pas forcément de sens : le petit prix d'une machine à capsules et sa simplicité l'emportent alors.
+
+## Quel système de capsules choisir : Nespresso, Vertuo, Dolce Gusto ou Tassimo
+
+Si tu pars sur les capsules, le système compte autant que la machine : c'est lui qui fixe tes boissons possibles et ton prix par tasse pendant des années. Prix relevés le 14 octobre 2026 sur les boutiques officielles, hors promotions ponctuelles :
+
+| Système | Boissons | Qui fait les capsules | Prix relevé par tasse |
+| --- | --- | --- | --- |
+| Nespresso Original | Espresso, ristretto, lungo | Nespresso, et des marques compatibles comme L'OR Espresso | 0,43 à 0,52 € chez Nespresso (étuis de 10) ; 0,30 € chez L'OR (boîte de 50 à 14,98 €) |
+| Nespresso Vertuo | Plusieurs tailles de tasse, de l'espresso au mug | Nespresso | 0,49 à 0,69 € (assortiments de 120 capsules) |
+| Dolce Gusto | Espresso, café long, café au lait, cappuccino, chocolat, thé | NESCAFÉ Dolce Gusto, y compris des boissons Starbucks | 0,33 à 0,36 € pour un café ; 0,73 € pour un cappuccino (2 capsules) |
+| Tassimo | Café long, XL, boissons lactées | L'OR, Jacobs et d'autres marques vendues par Tassimo | 0,29 à 0,30 € pour un café long L'OR |
+| Senseo (dosette souple) | Café long et doux | De nombreuses marques au format Senseo | Voir notre [machine à café à dosette souple](/articles/cafetiere-dosette-souple-ese/) |
+
+Ce que le tableau montre :
+
+- **Nespresso Original** accepte des capsules compatibles vendues par d'autres marques, comme L'OR, ce qui fait baisser le prix par tasse. Ta garantie reste valable avec ces capsules : Nespresso s'y est engagé devant l'Autorité de la concurrence (voir la [garantie de ta machine Nespresso](https://www.quellegarantie.fr/articles/garantie-machine-a-cafe-delonghi-nespresso/)).
+- **Vertuo** joue sur la taille des tasses avec sa technologie d'extraction Centrifusion, mais c'est le café le plus cher du tableau.
+- **Dolce Gusto** est le plus polyvalent pour les boissons au lait et le chocolat. Attention, Dolce Gusto vend désormais deux gammes : les capsules Original ne vont que dans les machines Original, pas dans les NEO.
+- **Tassimo** a le prix par café long le plus bas des systèmes à capsules relevés ici.
+
+Pour un café au lait, compare le prix par boisson et non par capsule : chez Dolce Gusto, une boîte de 16 capsules Cappuccino ne donne que 8 boissons.
 
 ## Simplicité contre entretien
 

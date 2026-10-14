@@ -1,13 +1,13 @@
 ---
 title: "Cafetière à dosettes souples (ESE) : laquelle choisir ?"
-seoTitle: "Cafetière dosette souple ou ESE : laquelle choisir ?"
-description: "Dosette souple ou dosette ESE : quelle différence, et quelle cafetière choisir pour un café simple, économique et sans prise de tête."
+seoTitle: "Machine à café à dosette souple : laquelle choisir ?"
+description: "Machine à café à dosette souple ou ESE : quelle différence de café, de pression et de format, et laquelle choisir pour un café simple au quotidien."
 pubDate: 2026-08-23
-updatedDate: 2026-10-07
+updatedDate: 2026-10-14
 author: "Hugo B."
 pinHook: "Un café simple, *sans prise de tête*"
 pinSub: "La dosette souple, bien choisie."
-keywords: ["cafetière dosette souple", "dosette ese", "meilleure cafetière dosette souple 2026", "cafetière dosette pas cher"]
+keywords: ["cafetière dosette souple", "dosette ese", "meilleure cafetière dosette souple 2026", "cafetière dosette pas cher", "machine à café à dosette souple", "machine à dosette souple"]
 category: "machines"
 coverAlt: "Double filet d'expresso s'écoulant dans un verre gradué sous la buse d'une machine à café, avec la crema qui se forme en surface"
 draft: false
@@ -28,6 +28,8 @@ sources:
     url: "https://www.senseo.fr/nos-machines/original-plus/"
   - label: "SENSEO, « Comment détartrer ma machine à café SENSEO®? »"
     url: "https://www.senseo.fr/nos-machines/detartrage/"
+  - label: "De'Longhi, « How big are ESE pods? »"
+    url: "https://delonghi.com/en-gb/faqs/How-big-are-ESE-pods/a/8750"
   - label: "Sage, « the Barista Express™ avec pichet à lait thermique »"
     url: "https://www.sageappliances.com/fr-fr/product/bes875"
 faq:
@@ -38,6 +40,18 @@ faq:
   - question: "Le café en dosette est-il aussi bon qu'un café en grains fraîchement moulu ?"
     answer: "Non, et c'est un compromis assumé. La dosette est moulue et conditionnée à l'avance, parfois plusieurs mois avant l'achat, ce qui limite la fraîcheur des arômes par rapport à un grain moulu à la minute. En contrepartie, elle offre une régularité et une simplicité qu'aucune machine à grains ne peut égaler : pas de réglage, pas d'entretien de broyeur, un café identique à chaque fois."
 ---
+
+**Une machine à café à dosette souple (type Senseo) fait un café long et doux, proche du filtre, pas un espresso : sa pompe travaille à faible pression, 1 bar pour la Senseo Original+. Pour un café court avec de la crema, il faut une machine à dosettes ESE, des galettes compactes de 44 mm qui contiennent 7 g de café.** Les deux formats ne sont pas interchangeables.
+
+## Dosette souple, ESE ou capsule : le tableau
+
+| Critère | Dosette souple | Dosette ESE | Capsule |
+| --- | --- | --- | --- |
+| Format | Galette souple en papier, format Senseo | Galette compacte de 44 mm, 7 g de café | Propre à chaque système (Nespresso, Dolce Gusto, Tassimo…) |
+| Pression | Faible (1 bar sur la Senseo Original+) | Environ 9 bars à l'extraction | Machine à pompe, selon le système |
+| Café obtenu | Long et doux, proche du filtre | Espresso court avec crema | Espresso, café long ou boissons lactées selon la gamme |
+| Enveloppe | Papier filtre | Papier filtre | Selon la marque, souvent à recycler dans une filière dédiée |
+| Choix de marques | Nombreuses, au format Senseo | Standard ESE commun à plusieurs marques | Selon le système, voir [capsules ou grains](/articles/machine-capsules-vs-machine-grains/) |
 
 ## Pourquoi la dosette reste une valeur sûre
 

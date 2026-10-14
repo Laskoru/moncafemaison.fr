@@ -9,6 +9,14 @@ La routine prend la première idée non cochée, écrit l'article en brouillon,
 puis coche l'idée. Ajoute librement de nouvelles idées en bas.
 Format : `- [ ] Sujet — angle — catégorie`.
 
+## 🔎 Priorité SEO (Search Console du 14/10/2026)
+
+- [ ] Meule plate ou conique : quel moulin pour ton café ? — la différence de goût et d'usage, sans recouper l'article meules ou lames ; requête « moulin à café meule plate ou conique » ; liens vers les 3 comparatifs de moulins — moulins
+- [ ] Combien de temps se conserve le café moulu ouvert ? — tableau grains, moulu ouvert, moulu sous vide, frigo ou non ; les sources se contredisent, trancher avec des sources fiables ; requête « combien de temps se conserve le café moulu ouvert » — preparer (conseil, sans produit)
+- [ ] Comment servir un espresso : tasse, eau, cuillère — tasse chauffée, verre d'eau, sucre, ordre de service ; requête « comment servir un espresso » — preparer (technique, sans produit)
+- [ ] Café filtre pas assez fort : 6 réglages à vérifier — dose, mouture, eau, température, filtre, entretien ; requêtes « café pas fort », « café trop dilué » ; liens vers le calculateur de dosage et le V60 — preparer (conseil, sans produit)
+- [ ] Ristretto : combien de café et d'eau, et comment le faire — ratio 1:1 à 1:1,5 au poids, quantité en tasse, réglage de la mouture ; requête « quantité d'eau pour un ristretto » — preparer (technique, sans produit)
+
 ## 🎁 Saison — priorité : à publier avant mi-octobre (indexés pour Noël / Black Friday)
 - [x] Idées cadeaux pour un amateur de café : notre sélection par budget (Noël 2026) — guide cadeaux, du petit accessoire à la machine — accessoires
 - [x] Black Friday café : quel matériel vaut vraiment le coup d'attendre (et comment repérer une fausse promo) — guide d'achat malin — machines
@@ -82,7 +90,6 @@ Requêtes réelles tirées des suggestions Google, avec peu de pages qui y répo
 ## 🔎 Longue traîne (audit SEO du 22/09/2026)
 
 - [ ] Quelle eau utiliser pour un bon espresso à la maison — dureté, filtration, calcaire : l'eau change le goût — preparer
-- [ ] Combien de temps garder son café moulu avant qu'il rancisse — conservation, oxydation, bons contenants — preparer
 - [ ] Porte-filtre pressurisé ou non pressurisé : quelle différence pour l'espresso — comprendre son panier et progresser — machines
 - [ ] Quel café en grains choisir selon sa méthode (moka, piston, filtre) — torréfaction et mouture par méthode — preparer
 - [ ] Comment nettoyer une cafetière à piston sans détartrant chimique — entretien naturel, bicarbonate et vinaigre — accessoires
