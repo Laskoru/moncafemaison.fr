@@ -120,3 +120,4 @@ Une balance de précision qui reste juste est l'accessoire le moins cher pour le
 - [Meilleur moulin à café électrique](/articles/meilleur-moulin-cafe-electrique/)
 - [Réussir son café à la Chemex](/articles/chemex-cafetiere-filtre-design/)
 - [La cafetière à piston (French press)](/articles/meilleure-cafetiere-piston-french-press/)
+- [Combien d'expresso peut-on faire avec un kilo de café ?](/articles/combien-de-tasses-kilo-de-cafe/)

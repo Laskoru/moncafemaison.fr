@@ -100,3 +100,5 @@ Le poids en tasse est ton curseur : à mouture égale, tu obtiens trois boissons
 - [Calculateur de dosage café](/calculateur-dosage-cafe/)
 - [Comparatif des machines expresso](/articles/meilleure-machine-expresso/)
 - [Le lexique du café](/lexique/)
+- [Latte ou latte macchiato ? Les vraies différences](/articles/latte-macchiato-cappuccino-flat-white/)
+- [Combien d'expresso peut-on faire avec un kilo de café ?](/articles/combien-de-tasses-kilo-de-cafe/)

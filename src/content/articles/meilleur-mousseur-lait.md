@@ -116,3 +116,4 @@ Le mousseur à lait est l'accessoire simple qui transforme le café du matin en 
 - [Machine à café automatique haut de gamme](/articles/machine-cafe-automatique-haut-gamme/)
 - [Machine à capsules ou à grains ?](/articles/machine-capsules-vs-machine-grains/)
 - [Idées cadeaux café : notre sélection par budget](/articles/idees-cadeaux-cafe-par-budget/)
+- [Latte ou latte macchiato ? Les vraies différences](/articles/latte-macchiato-cappuccino-flat-white/)
