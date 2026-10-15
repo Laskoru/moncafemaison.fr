@@ -11,7 +11,7 @@ Format : `- [ ] Sujet — angle — catégorie`.
 
 ## 🔎 Priorité SEO (Search Console du 14/10/2026)
 
-- [ ] Meule plate ou conique : quel moulin pour ton café ? — la différence de goût et d'usage, sans recouper l'article meules ou lames ; requête « moulin à café meule plate ou conique » ; liens vers les 3 comparatifs de moulins — moulins
+- [x] Meule plate ou conique : quel moulin pour ton café ? — la différence de goût et d'usage, sans recouper l'article meules ou lames ; requête « moulin à café meule plate ou conique » ; liens vers les 3 comparatifs de moulins — moulins
 - [ ] Combien de temps se conserve le café moulu ouvert ? — tableau grains, moulu ouvert, moulu sous vide, frigo ou non ; les sources se contredisent, trancher avec des sources fiables ; requête « combien de temps se conserve le café moulu ouvert » — preparer (conseil, sans produit)
 - [ ] Comment servir un espresso : tasse, eau, cuillère — tasse chauffée, verre d'eau, sucre, ordre de service ; requête « comment servir un espresso » — preparer (technique, sans produit)
 - [ ] Café filtre pas assez fort : 6 réglages à vérifier — dose, mouture, eau, température, filtre, entretien ; requêtes « café pas fort », « café trop dilué » ; liens vers le calculateur de dosage et le V60 — preparer (conseil, sans produit)

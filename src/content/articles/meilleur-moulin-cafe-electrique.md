@@ -103,3 +103,4 @@ Les huiles du café se déposent sur les meules et finissent par donner un goût
 - [Moulin à meules ou à lames ?](/articles/moulin-cafe-meules-ou-lames/)
 - [Meilleur moulin pour espresso](/articles/meilleur-moulin-pour-espresso/)
 - [Meilleure cafetière à grains](/articles/meilleure-cafetiere-grains/)
+- [Moulin à café meule plate ou conique : lequel choisir ?](/articles/moulin-cafe-meule-plate-ou-conique/)
