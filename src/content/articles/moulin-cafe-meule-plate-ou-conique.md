@@ -8,7 +8,6 @@ pinHook: "Meule plate ou conique : *la vraie différence*"
 pinSub: "Ce que change la géométrie des meules sur ton café."
 keywords: ["moulin à café meule plate ou conique", "meule plate ou conique", "moulin à meules plates", "moulin à meules coniques"]
 category: "moulins"
-coverImage: "https://images.unsplash.com/photo-1593421970311-1a6eaf50057f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDE3MjIwfDB8MXxzZWFyY2h8MTB8fGVsZWN0cmljJTIwY29mZmVlJTIwZ3JpbmRlciUyMG1hY2hpbmUlMjBob3BwZXIlMjBiZWFucyUyMGtpdGNoZW58ZW58MHx8fHwxNzkyMDQxMDAxfDI&ixlib=rb-4.1.0&q=80&w=1080"
 coverAlt: "Gros plan sur un moulin à café électrique blanc et argenté, prêt à moudre les grains"
 draft: false
 sources:
