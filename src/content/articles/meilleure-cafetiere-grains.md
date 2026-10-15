@@ -104,3 +104,4 @@ Une machine à café à grains est l'un des meilleurs investissements pour qui v
 - [Machine à capsules ou à grains ?](/articles/machine-capsules-vs-machine-grains/)
 - [Café trop clair DeLonghi Magnifica S : le bon réglage](/articles/delonghi-magnifica-s-cafe-trop-clair-amer/)
 - [Meilleur moulin pour espresso](/articles/meilleur-moulin-pour-espresso/)
+- [Pastilles pour machine à café Krups : où les trouver ?](/articles/nettoyer-machine-cafe-grain-pastilles/)

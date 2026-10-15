@@ -76,3 +76,4 @@ Un voyant qui clignote n'est dans l'immense majorité des cas ni grave ni défin
 - [Meilleur détartrant pour machine à café](/articles/meilleur-detartrant-machine-a-cafe/)
 - [Machine à capsules vs machine à grains](/articles/machine-capsules-vs-machine-grains/)
 - [Café trop clair DeLonghi Magnifica S : le bon réglage](/articles/delonghi-magnifica-s-cafe-trop-clair-amer/)
+- [Senseo qui clignote : pourquoi les deux boutons clignotent](/articles/senseo-qui-clignote-voyants/)

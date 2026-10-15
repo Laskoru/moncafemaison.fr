@@ -105,3 +105,4 @@ Dans les trois cas, le geste ne prend que quelques minutes et évite des pannes 
 - [Machine à café automatique haut de gamme](/articles/machine-cafe-automatique-haut-gamme/)
 - [Meilleure cafetière filtre programmable](/articles/meilleure-cafetiere-filtre-programmable/)
 - [Bouilloire à col de cygne : un versement précis en pour-over](/articles/bouilloire-col-de-cygne/)
+- [Senseo ne coule plus après détartrage : causes et solutions](/articles/senseo-ne-coule-plus-apres-detartrage/)

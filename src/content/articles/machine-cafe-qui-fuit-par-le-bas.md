@@ -77,3 +77,5 @@ Un réservoir mal enclenché, un bac mal positionné ou une capsule mal inséré
 - [Meilleur détartrant pour machine à café](/articles/meilleur-detartrant-machine-a-cafe/)
 - [Machine à capsules ou à grains : que choisir ?](/articles/machine-capsules-vs-machine-grains/)
 - [Machine à café automatique haut de gamme](/articles/machine-cafe-automatique-haut-gamme/)
+- [Senseo ne coule plus après détartrage : causes et solutions](/articles/senseo-ne-coule-plus-apres-detartrage/)
+- [Machine à café DeLonghi broyeur ne fonctionne plus ou café qui ne coule plus](/articles/machine-delonghi-ne-coule-plus/)

@@ -95,3 +95,5 @@ Ces gestes suffisent à corriger l'immense majorité des cafés ratés sur une M
 - [Meilleur moulin pour espresso](/articles/meilleur-moulin-pour-espresso/)
 - [Quelle machine à café à grains choisir ?](/articles/meilleure-cafetiere-grains/)
 - [Machine à café qui fuit par le bas : que faire ?](/articles/machine-cafe-qui-fuit-par-le-bas/)
+- [Machine à café DeLonghi broyeur ne fonctionne plus ou café qui ne coule plus](/articles/machine-delonghi-ne-coule-plus/)
+- [Pastilles pour machine à café Krups : où les trouver ?](/articles/nettoyer-machine-cafe-grain-pastilles/)
