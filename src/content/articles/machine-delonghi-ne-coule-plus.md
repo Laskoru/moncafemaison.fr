@@ -7,7 +7,6 @@ updatedDate: 2026-10-15
 author: "Hugo B."
 keywords: ["machine à café delonghi broyeur ne fonctionne plus", "pourquoi ma machine à café delonghi ne coule plus", "pourquoi ma machine à café delonghi clignote rouge", "pourquoi ma machine à café ne coule plus", "delonghi magnifica ne coule plus"]
 category: "machines"
-coverImage: "https://images.unsplash.com/photo-1707241358597-bafcc8a8e73d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDE3MjIwfDB8MXxzZWFyY2h8Mnx8YXV0b21hdGljJTIwYmVhbiUyMHRvJTIwY3VwJTIwY29mZmVlJTIwbWFjaGluZXxlbnwwfHx8fDE3OTIwODE0Mjl8Mg&ixlib=rb-4.1.0&q=80&w=1080"
 coverAlt: "Machine à expresso en train de préparer un café dans une petite tasse posée sur sa grille"
 pinHook: "Ta *DeLonghi ne coule plus* ?"
 pinSub: "Broyeur muet, voyant d'alarme, café au goutte-à-goutte : le diagnostic."

@@ -6,7 +6,6 @@ updatedDate: 2026-10-15
 author: "Hugo B."
 keywords: ["comment cafe decafeine", "quelle marque de café décaféiné sans solvant", "café décaféiné sans solvant en dosette", "café décaféiné sans solvant", "décaféination swiss water"]
 category: "preparer"
-coverImage: "https://images.unsplash.com/photo-1703646619157-eb553d16d402?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDE3MjIwfDB8MXxzZWFyY2h8Mnx8Z3JlZW4lMjBjb2ZmZWUlMjBiZWFuc3xlbnwwfDB8fHwxNzkyMDgxNDI0fDI&ixlib=rb-4.1.0&q=80&w=1080"
 coverAlt: "Tas de grains de café verts, encore crus, étalés sur une table avant la torréfaction"
 pinHook: "Ton *décaféiné*, il est fait comment ?"
 pinSub: "Solvant, eau ou CO2 : ce que dit la loi et ce que dit l'étiquette."

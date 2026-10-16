@@ -6,7 +6,6 @@ updatedDate: 2026-10-15
 author: "Hugo B."
 keywords: ["quelle capsules pour machine à café krups", "quelles capsules pour krups", "cafetière nespresso krups", "machine à café nespresso krups", "krups dolce gusto capsules"]
 category: "machines"
-coverImage: "https://images.unsplash.com/photo-1774878697063-827af0ca2fd6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDE3MjIwfDB8MXxzZWFyY2h8OXx8cG9kJTIwY29mZmVlJTIwbWFjaGluZXxlbnwwfHx8fDE3OTIwODEzOTh8Mg&ixlib=rb-4.1.0&q=80&w=1080"
 coverAlt: "Machine à capsules qui verse un café dans une tasse blanche, avec des capsules posées à côté sur le plan de travail"
 pinHook: "Ta *Krups*, elle prend quelles capsules ?"
 pinSub: "Nespresso Original, Vertuo ou Dolce Gusto : le bon système en 30 secondes."

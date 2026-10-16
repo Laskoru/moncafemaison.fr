@@ -6,7 +6,6 @@ updatedDate: 2026-10-15
 author: "Hugo B."
 keywords: ["pastilles pour machine à café krups où peut on les trouver", "comment nettoyer une machine à café delonghi magnifica", "krups machine à grain nettoyage", "comment nettoyer machine à grain philips", "pastilles nettoyage machine à grain"]
 category: "accessoires"
-coverImage: "https://images.unsplash.com/photo-1475296204602-08d15839e95f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDE3MjIwfDB8MXxzZWFyY2h8MXx8YXV0b21hdGljJTIwYmVhbiUyMHRvJTIwY3VwJTIwY29mZmVlJTIwbWFjaGluZXxlbnwwfHx8fDE3OTIwODE0Mjl8Mg&ixlib=rb-4.1.0&q=80&w=1080"
 coverAlt: "Expresso qui coule d'une machine en acier dans une tasse en porcelaine, en gros plan sur fond sombre"
 pinHook: "Les *pastilles Krups*, tu les trouves où ?"
 pinSub: "Et comment nettoyer ta machine à grain, Krups, DeLonghi ou Philips."

@@ -6,7 +6,6 @@ updatedDate: 2026-10-15
 author: "Hugo B."
 keywords: ["senseo pourquoi les deux boutons clignotent", "pourquoi senseo clignote rouge", "senseo qui clignote rouge", "pourquoi senseo clignote rapidement", "voyant calc senseo"]
 category: "machines"
-coverImage: "https://images.unsplash.com/photo-1668449026838-af7d1f6b3b3e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDE3MjIwfDB8MXxzZWFyY2h8MXx8cG9kJTIwY29mZmVlJTIwbWFjaGluZXxlbnwwfHx8fDE3OTIwODEzOTh8Mg&ixlib=rb-4.1.0&q=80&w=1080"
 coverAlt: "Café en train de couler dans un verre posé sur une petite cafetière électrique, sur fond sombre"
 pinHook: "Ta *Senseo clignote* et refuse de couler ?"
 pinSub: "Deux boutons, clignotement rapide ou lent, CALC : chaque voyant expliqué."

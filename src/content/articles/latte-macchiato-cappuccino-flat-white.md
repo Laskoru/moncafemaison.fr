@@ -6,7 +6,6 @@ updatedDate: 2026-10-15
 author: "Hugo B."
 keywords: ["latte ou latte macchiato", "cappuccino ou latte macchiato", "quelle différence entre cappuccino et latte macchiato", "latte ou flat white", "différence latte cappuccino flat white"]
 category: "preparer"
-coverImage: "https://images.unsplash.com/photo-1590138695581-1e82b57e78d1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDE3MjIwfDB8MXxzZWFyY2h8M3x8bGF0dGUlMjBtYWNjaGlhdG8lMjBnbGFzcyUyMGxheWVyc3xlbnwwfHx8fDE3OTIwODE0MTV8Mg&ixlib=rb-4.1.0&q=80&w=1080"
 coverAlt: "Latte macchiato servi dans un grand verre transparent posé sur une table en bois"
 pinHook: "*Latte ou latte macchiato* : tu sais vraiment ?"
 pinSub: "Cappuccino, flat white, latte : le lait, la mousse et la tasse font tout."

@@ -6,7 +6,6 @@ updatedDate: 2026-10-15
 author: "Hugo B."
 keywords: ["combien d expresso peut on faire avec un kilo de café", "1kg de café en grain combien de tasses", "combien de cafe en grain avec 1kg", "combien de tasses avec un kilo de café", "coût d'une tasse de café"]
 category: "preparer"
-coverImage: "https://images.unsplash.com/photo-1690983323458-ec4a54fc9552?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDE3MjIwfDB8MXxzZWFyY2h8NHx8ZGVjYWYlMjBjb2ZmZWV8ZW58MHwwfHx8MTc5MjA4MTQxOXwy&ixlib=rb-4.1.0&q=80&w=1080"
 coverAlt: "Grains de café torréfiés dans une pelle en métal, posés sur un fond sombre"
 pinHook: "Un *kilo de café*, ça fait combien de tasses ?"
 pinSub: "Expresso, filtre, piston, moka : le compte exact et le prix par tasse."

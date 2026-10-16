@@ -6,7 +6,6 @@ updatedDate: 2026-10-15
 author: "Hugo B."
 keywords: ["senseo ne coule plus après détartrage", "senseo qui fuit au niveau du bec verseur", "senseo qui fuit par le bas", "cafetiere senseo bloqué que faire", "senseo ne coule plus"]
 category: "machines"
-coverImage: "https://images.unsplash.com/photo-1641154650778-72db973d97ac?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDE3MjIwfDB8MXxzZWFyY2h8Mnx8cG9kJTIwY29mZmVlJTIwbWFjaGluZXxlbnwwfHx8fDE3OTIwODEzOTh8Mg&ixlib=rb-4.1.0&q=80&w=1080"
 coverAlt: "Tasse de café posée sur le dessus d'une cafetière électrique, dans une cuisine claire"
 pinHook: "Ta *Senseo ne coule plus* depuis le détartrage ?"
 pinSub: "Air dans le circuit, porte-dosette bouché, cycle interrompu : la bonne piste."
