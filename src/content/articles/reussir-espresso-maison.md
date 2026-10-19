@@ -102,3 +102,4 @@ Le poids en tasse est ton curseur : à mouture égale, tu obtiens trois boissons
 - [Le lexique du café](/lexique/)
 - [Latte ou latte macchiato ? Les vraies différences](/articles/latte-macchiato-cappuccino-flat-white/)
 - [Combien d'expresso peut-on faire avec un kilo de café ?](/articles/combien-de-tasses-kilo-de-cafe/)
+- [Combien de temps se conserve le café moulu ouvert ?](/articles/combien-temps-conserve-cafe-moulu-ouvert/)

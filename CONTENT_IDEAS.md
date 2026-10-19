@@ -25,7 +25,7 @@ Requêtes tirées des suggestions Google du 15/10/2026, absentes des articles pu
 ## 🔎 Priorité SEO (Search Console du 14/10/2026)
 
 - [x] Meule plate ou conique : quel moulin pour ton café ? — la différence de goût et d'usage, sans recouper l'article meules ou lames ; requête « moulin à café meule plate ou conique » ; liens vers les 3 comparatifs de moulins — moulins
-- [ ] Combien de temps se conserve le café moulu ouvert ? — tableau grains, moulu ouvert, moulu sous vide, frigo ou non ; les sources se contredisent, trancher avec des sources fiables ; requête « combien de temps se conserve le café moulu ouvert » — preparer (conseil, sans produit)
+- [x] Combien de temps se conserve le café moulu ouvert ? — tableau grains, moulu ouvert, moulu sous vide, frigo ou non ; les sources se contredisent, trancher avec des sources fiables ; requête « combien de temps se conserve le café moulu ouvert » — preparer (conseil, sans produit)
 - [ ] Comment servir un espresso : tasse, eau, cuillère — tasse chauffée, verre d'eau, sucre, ordre de service ; requête « comment servir un espresso » — preparer (technique, sans produit)
 - [ ] Café filtre pas assez fort : 6 réglages à vérifier — dose, mouture, eau, température, filtre, entretien ; requêtes « café pas fort », « café trop dilué » ; liens vers le calculateur de dosage et le V60 — preparer (conseil, sans produit)
 - [ ] Ristretto : combien de café et d'eau, et comment le faire — ratio 1:1 à 1:1,5 au poids, quantité en tasse, réglage de la mouture ; requête « quantité d'eau pour un ristretto » — preparer (technique, sans produit)
