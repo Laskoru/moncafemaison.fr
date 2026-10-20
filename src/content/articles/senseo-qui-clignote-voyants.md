@@ -6,7 +6,7 @@ updatedDate: 2026-10-15
 author: "Hugo B."
 keywords: ["senseo pourquoi les deux boutons clignotent", "pourquoi senseo clignote rouge", "senseo qui clignote rouge", "pourquoi senseo clignote rapidement", "voyant calc senseo"]
 category: "machines"
-coverAlt: "Café en train de couler dans un verre posé sur une petite cafetière électrique, sur fond sombre"
+coverAlt: "Café qui coule en deux filets dans une tasse en verre, sous la buse d'une machine à café automatique, sur fond sombre"
 pinHook: "Ta *Senseo clignote* et refuse de couler ?"
 pinSub: "Deux boutons, clignotement rapide ou lent, CALC : chaque voyant expliqué."
 sources:
