@@ -78,3 +78,4 @@ Les Krups Evidence, Intuition, Essential ou Sensation broient le café en grains
 - [Cafetière Nespresso qui clignote : les voyants expliqués](/articles/cafetiere-nespresso-qui-clignote/)
 - [Pastilles pour machine à café Krups : où les trouver ?](/articles/nettoyer-machine-cafe-grain-pastilles/)
 - [Meilleure machine à café à grains](/articles/meilleure-cafetiere-grains/)
+- [Machine à café qui prend toutes les capsules : ça existe ?](/articles/machine-cafe-toutes-les-capsules/)

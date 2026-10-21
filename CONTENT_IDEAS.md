@@ -11,7 +11,7 @@ Format : `- [ ] Sujet — angle — catégorie`.
 
 ## Requêtes Google peu couvertes (21/10)
 
-- [ ] Machine à café qui prend toutes les capsules : ce qui existe vraiment — aucune machine n'accepte tout ; machines multi-systèmes (adaptateurs, tiroirs interchangeables), compatibles Nespresso Original vs Vertuo fermé, Dolce Gusto et capsules d'autres marques ; requête « machine à café qui prend toutes les capsules », requêtes associées « machine à café multi capsules », « machine compatible nespresso et dolce gusto », « machine à café toutes capsules » ; caractéristiques d'après les fiches des fabricants (concurrence Google faible, 21/10)
+- [x] Machine à café qui prend toutes les capsules : ce qui existe vraiment — aucune machine n'accepte tout ; machines multi-systèmes (adaptateurs, tiroirs interchangeables), compatibles Nespresso Original vs Vertuo fermé, Dolce Gusto et capsules d'autres marques ; requête « machine à café qui prend toutes les capsules », requêtes associées « machine à café multi capsules », « machine compatible nespresso et dolce gusto », « machine à café toutes capsules » ; caractéristiques d'après les fiches des fabricants (concurrence Google faible, 21/10)
 
 ## Requêtes Google peu couvertes (15/10)
 

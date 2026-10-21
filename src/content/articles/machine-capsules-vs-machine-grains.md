@@ -136,4 +136,5 @@ Et si ton budget le permet, rien n'empêche de combiner les deux : une machine �
 - [Meilleur mousseur à lait](/articles/meilleur-mousseur-lait/)
 - [Black Friday café : quel matériel attendre ?](/articles/black-friday-cafe-guide-achat/)
 - [Pourquoi cafetière Nespresso clignote : voyants expliqués](/articles/cafetiere-nespresso-qui-clignote/)
+- [Machine à café qui prend toutes les capsules : ça existe ?](/articles/machine-cafe-toutes-les-capsules/)
 - [Quelles capsules pour une machine à café Krups ?](/articles/quelles-capsules-machine-krups/)
