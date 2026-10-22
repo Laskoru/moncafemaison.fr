@@ -6,7 +6,6 @@ updatedDate: 2026-10-21
 author: "Hugo B."
 keywords: ["machine à café qui prend toutes les capsules", "machine à café multi capsules", "machine compatible nespresso et dolce gusto", "machine à café toutes capsules", "adaptateur capsules nespresso dolce gusto"]
 category: "machines"
-coverImage: "https://images.unsplash.com/photo-1732365898307-758e8eb11abb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDE3MjIwfDB8MXxzZWFyY2h8OXx8Y29mZmVlJTIwY2Fwc3VsZXMlMjBwb2RzJTIwbWFjaGluZXxlbnwwfHx8fDE3OTI2MDA5NjJ8Mg&ixlib=rb-4.1.0&q=80&w=1080"
 coverAlt: "Gros plan sur des grains de café et des capsules Nespresso posés sur une table"
 pinHook: "Une machine qui prend *toutes* les capsules ?"
 pinSub: "Ce qui existe vraiment, et ce qui reste impossible."

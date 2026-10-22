@@ -6,7 +6,6 @@ updatedDate: 2026-10-19
 author: "Hugo B."
 keywords: ["combien de temps se conserve le café moulu ouvert", "conservation café moulu", "café moulu périmé", "durée café ouvert"]
 category: "preparer"
-coverImage: "https://images.unsplash.com/photo-1768276237795-07844859ae4e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDE3MjIwfDB8MXxzZWFyY2h8OHx8Y29mZmVlJTIwc3RvcmFnZSUyMGNhbmlzdGVyJTIwdGlufGVufDB8MHx8fDE3OTIzODY1NzZ8Mg&ixlib=rb-4.1.0&q=80&w=1080"
 coverAlt: "Quatre boîtes de conservation rouges, étiquetées farine, sucre, café et thé"
 draft: false
 pinHook: "Café moulu ouvert : combien de temps avant qu'il perde ses arômes ?"

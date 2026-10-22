@@ -109,7 +109,7 @@
   },
   {
    "date": "2026-10-21",
-   "order": 1,
+   "order": 0,
    "feed": "cafe-a-la-maison",
    "guid": "moncafemaison-combien-de-tasses-kilo-de-cafe-v5",
    "title": "Combien d'expresso peut-on faire avec un kilo de café ?",
@@ -119,7 +119,37 @@
   },
   {
    "date": "2026-10-24",
+   "order": 1,
+   "feed": "cafe-a-la-maison",
+   "guid": "moncafemaison-dose-cafeine-par-jour-v4",
+   "title": "Dose de caféine à ne pas dépasser par jour",
+   "description": "Dose de caféine à ne pas dépasser par jour : repères de l'EFSA pour un adulte, une femme enceinte ou un enfant, et combien de tasses ça représente. 👉 Le guide complet sur Mon Café Maison.",
+   "image": "https://www.moncafemaison.fr/pins/dose-cafeine-par-jour-v4.jpg",
+   "link": "https://www.moncafemaison.fr/articles/dose-cafeine-par-jour/?utm_source=pinterest&utm_medium=social&utm_campaign=epingles-v3&utm_content=v4"
+  },
+  {
+   "date": "2026-10-26",
    "order": 0,
+   "feed": "cafe-a-la-maison",
+   "guid": "moncafemaison-machine-cafe-toutes-les-capsules-v5",
+   "title": "Machine à café qui prend toutes les capsules : ça existe ?",
+   "description": "Machine à café qui prend toutes les capsules : non, mais les modèles multi-capsules à adaptateurs couvrent Nespresso, Dolce Gusto, Lavazza. Les limites. 👉 Le guide complet sur Mon Café Maison.",
+   "image": "https://www.moncafemaison.fr/pins/machine-cafe-toutes-les-capsules-v5.jpg",
+   "link": "https://www.moncafemaison.fr/articles/machine-cafe-toutes-les-capsules/?utm_source=pinterest&utm_medium=social&utm_campaign=epingles-v3&utm_content=v5"
+  },
+  {
+   "date": "2026-10-27",
+   "order": 0,
+   "feed": "cafe-a-la-maison",
+   "guid": "moncafemaison-combien-temps-conserve-cafe-moulu-ouvert-v6",
+   "title": "Combien de temps se conserve le café moulu ouvert ?",
+   "description": "Combien de temps se conserve le café moulu ouvert : durées officielles, effet de la mouture et gestes pour limiter la perte d'arôme. 👉 Le guide complet sur Mon Café Maison.",
+   "image": "https://www.moncafemaison.fr/pins/combien-temps-conserve-cafe-moulu-ouvert-v6.jpg",
+   "link": "https://www.moncafemaison.fr/articles/combien-temps-conserve-cafe-moulu-ouvert/?utm_source=pinterest&utm_medium=social&utm_campaign=epingles-v3&utm_content=v6"
+  },
+  {
+   "date": "2026-11-03",
+   "order": 1,
    "feed": "cafe-a-la-maison",
    "guid": "moncafemaison-latte-macchiato-cappuccino-flat-white-v6",
    "title": "Latte ou latte macchiato ? Les vraies différences",
@@ -128,8 +158,8 @@
    "link": "https://www.moncafemaison.fr/articles/latte-macchiato-cappuccino-flat-white/?utm_source=pinterest&utm_medium=social&utm_campaign=epingles-v3&utm_content=v6"
   },
   {
-   "date": "2026-10-27",
-   "order": 1,
+   "date": "2026-11-07",
+   "order": 0,
    "feed": "cafe-a-la-maison",
    "guid": "moncafemaison-machine-delonghi-ne-coule-plus-v4",
    "title": "Machine à café DeLonghi broyeur ne fonctionne plus ou café qui ne coule plus",
@@ -138,8 +168,8 @@
    "link": "https://www.moncafemaison.fr/articles/machine-delonghi-ne-coule-plus/?utm_source=pinterest&utm_medium=social&utm_campaign=epingles-v3&utm_content=v4"
   },
   {
-   "date": "2026-10-31",
-   "order": 0,
+   "date": "2026-11-10",
+   "order": 1,
    "feed": "cafe-a-la-maison",
    "guid": "moncafemaison-moulin-cafe-meule-plate-ou-conique-v4",
    "title": "Moulin à café meule plate ou conique : lequel choisir ?",
@@ -148,8 +178,8 @@
    "link": "https://www.moncafemaison.fr/articles/moulin-cafe-meule-plate-ou-conique/?utm_source=pinterest&utm_medium=social&utm_campaign=epingles-v3&utm_content=v4"
   },
   {
-   "date": "2026-11-03",
-   "order": 1,
+   "date": "2026-11-14",
+   "order": 0,
    "feed": "cafe-a-la-maison",
    "guid": "moncafemaison-nettoyer-machine-cafe-grain-pastilles-v6",
    "title": "Pastilles pour machine à café Krups : où les trouver ?",
@@ -158,7 +188,7 @@
    "link": "https://www.moncafemaison.fr/articles/nettoyer-machine-cafe-grain-pastilles/?utm_source=pinterest&utm_medium=social&utm_campaign=epingles-v3&utm_content=v6"
   },
   {
-   "date": "2026-11-07",
+   "date": "2026-11-17",
    "order": 0,
    "feed": "cafe-a-la-maison",
    "guid": "moncafemaison-quelles-capsules-machine-krups-v4",
@@ -168,8 +198,8 @@
    "link": "https://www.moncafemaison.fr/articles/quelles-capsules-machine-krups/?utm_source=pinterest&utm_medium=social&utm_campaign=epingles-v3&utm_content=v4"
   },
   {
-   "date": "2026-11-10",
-   "order": 1,
+   "date": "2026-11-20",
+   "order": 0,
    "feed": "cafe-a-la-maison",
    "guid": "moncafemaison-senseo-ne-coule-plus-apres-detartrage-v5",
    "title": "Senseo ne coule plus après détartrage : causes et solutions",
@@ -178,8 +208,8 @@
    "link": "https://www.moncafemaison.fr/articles/senseo-ne-coule-plus-apres-detartrage/?utm_source=pinterest&utm_medium=social&utm_campaign=epingles-v3&utm_content=v5"
   },
   {
-   "date": "2026-11-13",
-   "order": 1,
+   "date": "2026-11-23",
+   "order": 0,
    "feed": "cafe-a-la-maison",
    "guid": "moncafemaison-senseo-qui-clignote-voyants-v6",
    "title": "Senseo qui clignote : pourquoi les deux boutons clignotent",
@@ -188,8 +218,8 @@
    "link": "https://www.moncafemaison.fr/articles/senseo-qui-clignote-voyants/?utm_source=pinterest&utm_medium=social&utm_campaign=epingles-v3&utm_content=v6"
   },
   {
-   "date": "2026-11-19",
-   "order": 1,
+   "date": "2026-11-29",
+   "order": 0,
    "feed": "cafe-a-la-maison",
    "guid": "moncafemaison-machine-cafe-qui-fuit-par-le-bas-v4",
    "title": "Machine à café qui fuit par le bas : que faire ?",
@@ -198,8 +228,8 @@
    "link": "https://www.moncafemaison.fr/articles/machine-cafe-qui-fuit-par-le-bas/?utm_source=pinterest&utm_medium=social&utm_campaign=epingles-v3&utm_content=v4"
   },
   {
-   "date": "2026-11-28",
-   "order": 0,
+   "date": "2026-12-08",
+   "order": 1,
    "feed": "cafe-a-la-maison",
    "guid": "moncafemaison-aeropress-test-alternatives-v6",
    "title": "AeroPress : avis, recette officielle et 3 alternatives",
@@ -208,8 +238,8 @@
    "link": "https://www.moncafemaison.fr/articles/aeropress-test-alternatives/?utm_source=pinterest&utm_medium=social&utm_campaign=epingles-v3&utm_content=v6"
   },
   {
-   "date": "2026-12-01",
-   "order": 1,
+   "date": "2026-12-12",
+   "order": 0,
    "feed": "cafe-a-la-maison",
    "guid": "moncafemaison-tamper-espresso-bien-choisir-v6",
    "title": "Tamper à espresso : comment bien le choisir pour un tassage régulier",
@@ -218,8 +248,8 @@
    "link": "https://www.moncafemaison.fr/articles/tamper-espresso-bien-choisir/?utm_source=pinterest&utm_medium=social&utm_campaign=epingles-v3&utm_content=v6"
   },
   {
-   "date": "2026-12-05",
-   "order": 0,
+   "date": "2026-12-15",
+   "order": 1,
    "feed": "cafe-a-la-maison",
    "guid": "moncafemaison-filtres-reutilisables-cafe-v4",
    "title": "Filtres à café réutilisables : lesquels choisir (et pourquoi arrêter le papier)",
@@ -228,7 +258,7 @@
    "link": "https://www.moncafemaison.fr/articles/filtres-reutilisables-cafe/?utm_source=pinterest&utm_medium=social&utm_campaign=epingles-v3&utm_content=v4"
   },
   {
-   "date": "2026-12-08",
+   "date": "2026-12-18",
    "order": 1,
    "feed": "cafe-a-la-maison",
    "guid": "moncafemaison-meilleur-detartrant-machine-a-cafe-v5",
@@ -238,7 +268,7 @@
    "link": "https://www.moncafemaison.fr/articles/meilleur-detartrant-machine-a-cafe/?utm_source=pinterest&utm_medium=social&utm_campaign=epingles-v3&utm_content=v5"
   },
   {
-   "date": "2026-12-11",
+   "date": "2026-12-21",
    "order": 1,
    "feed": "cafe-a-la-maison",
    "guid": "moncafemaison-bouilloire-col-de-cygne-v5",
@@ -248,8 +278,8 @@
    "link": "https://www.moncafemaison.fr/articles/bouilloire-col-de-cygne/?utm_source=pinterest&utm_medium=social&utm_campaign=epingles-v3&utm_content=v5"
   },
   {
-   "date": "2026-12-14",
-   "order": 1,
+   "date": "2026-12-25",
+   "order": 0,
    "feed": "cafe-a-la-maison",
    "guid": "moncafemaison-reussir-cafe-filtre-v60-v6",
    "title": "Café filtre & V60 : la méthode pour un café clair et aromatique",
@@ -258,8 +288,8 @@
    "link": "https://www.moncafemaison.fr/articles/reussir-cafe-filtre-v60/?utm_source=pinterest&utm_medium=social&utm_campaign=epingles-v3&utm_content=v6"
   },
   {
-   "date": "2026-12-18",
-   "order": 0,
+   "date": "2026-12-28",
+   "order": 1,
    "feed": "cafe-a-la-maison",
    "guid": "moncafemaison-reussir-cafetiere-italienne-moka-v4",
    "title": "Réussir son café à la cafetière italienne (moka) sans amertume",
@@ -268,8 +298,8 @@
    "link": "https://www.moncafemaison.fr/articles/reussir-cafetiere-italienne-moka/?utm_source=pinterest&utm_medium=social&utm_campaign=epingles-v3&utm_content=v4"
   },
   {
-   "date": "2026-12-21",
-   "order": 1,
+   "date": "2027-01-01",
+   "order": 0,
    "feed": "cafe-a-la-maison",
    "guid": "moncafemaison-reussir-cold-brew-maison-v5",
    "title": "Cold brew maison : la recette du café froid doux et peu acide",
@@ -278,8 +308,8 @@
    "link": "https://www.moncafemaison.fr/articles/reussir-cold-brew-maison/?utm_source=pinterest&utm_medium=social&utm_campaign=epingles-v3&utm_content=v5"
   },
   {
-   "date": "2026-12-25",
-   "order": 0,
+   "date": "2027-01-04",
+   "order": 1,
    "feed": "cafe-a-la-maison",
    "guid": "moncafemaison-reussir-espresso-maison-v6",
    "title": "Réussir son espresso maison : les 4 réglages à maîtriser",
@@ -288,8 +318,8 @@
    "link": "https://www.moncafemaison.fr/articles/reussir-espresso-maison/?utm_source=pinterest&utm_medium=social&utm_campaign=epingles-v3&utm_content=v6"
   },
   {
-   "date": "2026-12-28",
-   "order": 1,
+   "date": "2027-01-08",
+   "order": 0,
    "feed": "cafe-a-la-maison",
    "guid": "moncafemaison-reussir-french-press-piston-v4",
    "title": "Réussir sa cafetière à piston (French press) : la méthode simple",
@@ -298,7 +328,7 @@
    "link": "https://www.moncafemaison.fr/articles/reussir-french-press-piston/?utm_source=pinterest&utm_medium=social&utm_campaign=epingles-v3&utm_content=v4"
   },
   {
-   "date": "2027-01-01",
+   "date": "2027-01-11",
    "order": 0,
    "feed": "cafe-a-la-maison",
    "guid": "moncafemaison-moulin-cafe-pas-cher-qui-vaut-le-coup-v4",
@@ -308,7 +338,7 @@
    "link": "https://www.moncafemaison.fr/articles/moulin-cafe-pas-cher-qui-vaut-le-coup/?utm_source=pinterest&utm_medium=social&utm_campaign=epingles-v3&utm_content=v4"
   },
   {
-   "date": "2027-01-04",
+   "date": "2027-01-14",
    "order": 0,
    "feed": "cafe-a-la-maison",
    "guid": "moncafemaison-meilleur-moulin-pour-espresso-v6",
@@ -318,7 +348,7 @@
    "link": "https://www.moncafemaison.fr/articles/meilleur-moulin-pour-espresso/?utm_source=pinterest&utm_medium=social&utm_campaign=epingles-v3&utm_content=v6"
   },
   {
-   "date": "2027-01-07",
+   "date": "2027-01-17",
    "order": 1,
    "feed": "cafe-a-la-maison",
    "guid": "moncafemaison-moulin-cafe-meules-ou-lames-v4",
@@ -328,7 +358,7 @@
    "link": "https://www.moncafemaison.fr/articles/moulin-cafe-meules-ou-lames/?utm_source=pinterest&utm_medium=social&utm_campaign=epingles-v3&utm_content=v4"
   },
   {
-   "date": "2027-01-10",
+   "date": "2027-01-20",
    "order": 1,
    "feed": "cafe-a-la-maison",
    "guid": "moncafemaison-cafetiere-dosette-souple-ese-v5",
@@ -338,8 +368,8 @@
    "link": "https://www.moncafemaison.fr/articles/cafetiere-dosette-souple-ese/?utm_source=pinterest&utm_medium=social&utm_campaign=epingles-v3&utm_content=v5"
   },
   {
-   "date": "2027-01-14",
-   "order": 0,
+   "date": "2027-01-22",
+   "order": 1,
    "feed": "cafe-a-la-maison",
    "guid": "moncafemaison-machine-cafe-automatique-haut-gamme-v5",
    "title": "Quelle machine à café automatique haut de gamme choisir ?",
@@ -348,7 +378,7 @@
    "link": "https://www.moncafemaison.fr/articles/machine-cafe-automatique-haut-gamme/?utm_source=pinterest&utm_medium=social&utm_campaign=epingles-v3&utm_content=v5"
   },
   {
-   "date": "2027-01-16",
+   "date": "2027-01-24",
    "order": 1,
    "feed": "cafe-a-la-maison",
    "guid": "moncafemaison-machine-expresso-broyeur-integre-v4",
@@ -358,8 +388,8 @@
    "link": "https://www.moncafemaison.fr/articles/machine-expresso-broyeur-integre/?utm_source=pinterest&utm_medium=social&utm_campaign=epingles-v3&utm_content=v4"
   },
   {
-   "date": "2027-01-20",
-   "order": 0,
+   "date": "2027-01-28",
+   "order": 1,
    "feed": "cafe-a-la-maison",
    "guid": "moncafemaison-balance-cafe-precision-v6",
    "title": "Balance à café de précision : pourquoi (et laquelle) choisir",
@@ -368,8 +398,8 @@
    "link": "https://www.moncafemaison.fr/articles/balance-cafe-precision/?utm_source=pinterest&utm_medium=social&utm_campaign=epingles-v3&utm_content=v6"
   },
   {
-   "date": "2027-01-22",
-   "order": 1,
+   "date": "2027-01-31",
+   "order": 0,
    "feed": "cafe-a-la-maison",
    "guid": "moncafemaison-cafetiere-italienne-moka-v4",
    "title": "Cafetière italienne (moka) : laquelle choisir ?",
@@ -378,8 +408,8 @@
    "link": "https://www.moncafemaison.fr/articles/cafetiere-italienne-moka/?utm_source=pinterest&utm_medium=social&utm_campaign=epingles-v3&utm_content=v4"
   },
   {
-   "date": "2027-01-25",
-   "order": 0,
+   "date": "2027-02-02",
+   "order": 1,
    "feed": "cafe-a-la-maison",
    "guid": "moncafemaison-machine-capsules-vs-machine-grains-v5",
    "title": "Machine à capsules vs machine à grains : quel système choisir ?",
@@ -388,8 +418,8 @@
    "link": "https://www.moncafemaison.fr/articles/machine-capsules-vs-machine-grains/?utm_source=pinterest&utm_medium=social&utm_campaign=epingles-v3&utm_content=v5"
   },
   {
-   "date": "2027-01-27",
-   "order": 1,
+   "date": "2027-02-05",
+   "order": 0,
    "feed": "cafe-a-la-maison",
    "guid": "moncafemaison-meilleur-moulin-cafe-electrique-v6",
    "title": "Bien choisir son moulin à café électrique",
@@ -398,8 +428,8 @@
    "link": "https://www.moncafemaison.fr/articles/meilleur-moulin-cafe-electrique/?utm_source=pinterest&utm_medium=social&utm_campaign=epingles-v3&utm_content=v6"
   },
   {
-   "date": "2027-01-30",
-   "order": 0,
+   "date": "2027-02-07",
+   "order": 1,
    "feed": "cafe-a-la-maison",
    "guid": "moncafemaison-meilleur-moulin-cafe-manuel-v4",
    "title": "Moulin à café manuel : lequel choisir ?",
@@ -408,7 +438,7 @@
    "link": "https://www.moncafemaison.fr/articles/meilleur-moulin-cafe-manuel/?utm_source=pinterest&utm_medium=social&utm_campaign=epingles-v3&utm_content=v4"
   },
   {
-   "date": "2027-02-01",
+   "date": "2027-02-09",
    "order": 1,
    "feed": "cafe-a-la-maison",
    "guid": "moncafemaison-meilleur-mousseur-lait-v5",
@@ -418,7 +448,7 @@
    "link": "https://www.moncafemaison.fr/articles/meilleur-mousseur-lait/?utm_source=pinterest&utm_medium=social&utm_campaign=epingles-v3&utm_content=v5"
   },
   {
-   "date": "2027-02-03",
+   "date": "2027-02-11",
    "order": 1,
    "feed": "cafe-a-la-maison",
    "guid": "moncafemaison-meilleure-cafetiere-filtre-programmable-v6",
@@ -428,8 +458,8 @@
    "link": "https://www.moncafemaison.fr/articles/meilleure-cafetiere-filtre-programmable/?utm_source=pinterest&utm_medium=social&utm_campaign=epingles-v3&utm_content=v6"
   },
   {
-   "date": "2027-02-05",
-   "order": 1,
+   "date": "2027-02-14",
+   "order": 0,
    "feed": "cafe-a-la-maison",
    "guid": "moncafemaison-meilleure-cafetiere-grains-v4",
    "title": "Quelle machine à café à grains choisir ?",
@@ -438,8 +468,8 @@
    "link": "https://www.moncafemaison.fr/articles/meilleure-cafetiere-grains/?utm_source=pinterest&utm_medium=social&utm_campaign=epingles-v3&utm_content=v4"
   },
   {
-   "date": "2027-02-08",
-   "order": 0,
+   "date": "2027-02-16",
+   "order": 1,
    "feed": "cafe-a-la-maison",
    "guid": "moncafemaison-meilleure-cafetiere-piston-french-press-v5",
    "title": "Cafetière à piston (French press) : laquelle choisir ?",
@@ -448,8 +478,8 @@
    "link": "https://www.moncafemaison.fr/articles/meilleure-cafetiere-piston-french-press/?utm_source=pinterest&utm_medium=social&utm_campaign=epingles-v3&utm_content=v5"
   },
   {
-   "date": "2027-02-10",
-   "order": 1,
+   "date": "2027-02-19",
+   "order": 0,
    "feed": "cafe-a-la-maison",
    "guid": "moncafemaison-meilleure-machine-expresso-v6",
    "title": "Machine expresso : le guide pour bien débuter",
@@ -458,8 +488,8 @@
    "link": "https://www.moncafemaison.fr/articles/meilleure-machine-expresso/?utm_source=pinterest&utm_medium=social&utm_campaign=epingles-v3&utm_content=v6"
   },
   {
-   "date": "2027-02-28",
-   "order": 1,
+   "date": "2027-03-07",
+   "order": 0,
    "feed": "cafe-a-la-maison",
    "guid": "moncafemaison-outil-calculateur-dosage-cafe-v5",
    "title": "Calculateur de dosage café : combien de grammes de café par tasse ?",
@@ -468,8 +498,8 @@
    "link": "https://www.moncafemaison.fr/calculateur-dosage-cafe/?utm_source=pinterest&utm_medium=social&utm_campaign=epingles-v3&utm_content=v5"
   },
   {
-   "date": "2027-03-03",
-   "order": 1,
+   "date": "2027-03-10",
+   "order": 0,
    "feed": "cafe-a-la-maison",
    "guid": "moncafemaison-outil-durete-eau-cafe-v7",
    "title": "L’eau de ton café est-elle calcaire ? La dureté de l’eau par commune",
@@ -478,8 +508,8 @@
    "link": "https://www.moncafemaison.fr/durete-eau-cafe/?utm_source=pinterest&utm_medium=social&utm_campaign=epingles-v3&utm_content=v7"
   },
   {
-   "date": "2027-03-07",
-   "order": 0,
+   "date": "2027-03-13",
+   "order": 1,
    "feed": "cafe-a-la-maison",
    "guid": "moncafemaison-outil-methodes-cafe-v4",
    "title": "Quelle méthode pour ton café ? Espresso, moka, piston, filtre et cold brew comparés",
@@ -488,7 +518,37 @@
    "link": "https://www.moncafemaison.fr/methodes-cafe/?utm_source=pinterest&utm_medium=social&utm_campaign=epingles-v3&utm_content=v4"
   },
   {
-   "date": "2027-03-10",
+   "date": "2027-03-17",
+   "order": 0,
+   "feed": "cafe-a-la-maison",
+   "guid": "moncafemaison-dose-cafeine-par-jour-v5",
+   "title": "Dose de caféine à ne pas dépasser par jour",
+   "description": "Dose de caféine à ne pas dépasser par jour : repères de l'EFSA pour un adulte, une femme enceinte ou un enfant, et combien de tasses ça représente. 👉 Le guide complet sur Mon Café Maison.",
+   "image": "https://www.moncafemaison.fr/pins/dose-cafeine-par-jour-v5.jpg",
+   "link": "https://www.moncafemaison.fr/articles/dose-cafeine-par-jour/?utm_source=pinterest&utm_medium=social&utm_campaign=epingles-v3&utm_content=v5"
+  },
+  {
+   "date": "2027-03-20",
+   "order": 1,
+   "feed": "cafe-a-la-maison",
+   "guid": "moncafemaison-machine-cafe-toutes-les-capsules-v6",
+   "title": "Machine à café qui prend toutes les capsules : ça existe ?",
+   "description": "Machine à café qui prend toutes les capsules : non, mais les modèles multi-capsules à adaptateurs couvrent Nespresso, Dolce Gusto, Lavazza. Les limites. 👉 Le guide complet sur Mon Café Maison.",
+   "image": "https://www.moncafemaison.fr/pins/machine-cafe-toutes-les-capsules-v6.jpg",
+   "link": "https://www.moncafemaison.fr/articles/machine-cafe-toutes-les-capsules/?utm_source=pinterest&utm_medium=social&utm_campaign=epingles-v3&utm_content=v6"
+  },
+  {
+   "date": "2027-03-24",
+   "order": 0,
+   "feed": "cafe-a-la-maison",
+   "guid": "moncafemaison-combien-temps-conserve-cafe-moulu-ouvert-v4",
+   "title": "Combien de temps se conserve le café moulu ouvert ?",
+   "description": "Combien de temps se conserve le café moulu ouvert : durées officielles, effet de la mouture et gestes pour limiter la perte d'arôme. 👉 Le guide complet sur Mon Café Maison.",
+   "image": "https://www.moncafemaison.fr/pins/combien-temps-conserve-cafe-moulu-ouvert-v4.jpg",
+   "link": "https://www.moncafemaison.fr/articles/combien-temps-conserve-cafe-moulu-ouvert/?utm_source=pinterest&utm_medium=social&utm_campaign=epingles-v3&utm_content=v4"
+  },
+  {
+   "date": "2027-03-27",
    "order": 1,
    "feed": "cafe-a-la-maison",
    "guid": "moncafemaison-cafe-decafeine-sans-solvant-v5",
@@ -498,7 +558,7 @@
    "link": "https://www.moncafemaison.fr/articles/cafe-decafeine-sans-solvant/?utm_source=pinterest&utm_medium=social&utm_campaign=epingles-v3&utm_content=v5"
   },
   {
-   "date": "2027-03-14",
+   "date": "2027-03-31",
    "order": 0,
    "feed": "cafe-a-la-maison",
    "guid": "moncafemaison-combien-de-tasses-kilo-de-cafe-v6",
@@ -508,7 +568,7 @@
    "link": "https://www.moncafemaison.fr/articles/combien-de-tasses-kilo-de-cafe/?utm_source=pinterest&utm_medium=social&utm_campaign=epingles-v3&utm_content=v6"
   },
   {
-   "date": "2027-03-17",
+   "date": "2027-04-03",
    "order": 1,
    "feed": "cafe-a-la-maison",
    "guid": "moncafemaison-latte-macchiato-cappuccino-flat-white-v4",
@@ -518,7 +578,7 @@
    "link": "https://www.moncafemaison.fr/articles/latte-macchiato-cappuccino-flat-white/?utm_source=pinterest&utm_medium=social&utm_campaign=epingles-v3&utm_content=v4"
   },
   {
-   "date": "2027-03-21",
+   "date": "2027-04-07",
    "order": 0,
    "feed": "cafe-a-la-maison",
    "guid": "moncafemaison-machine-delonghi-ne-coule-plus-v5",
@@ -528,7 +588,7 @@
    "link": "https://www.moncafemaison.fr/articles/machine-delonghi-ne-coule-plus/?utm_source=pinterest&utm_medium=social&utm_campaign=epingles-v3&utm_content=v5"
   },
   {
-   "date": "2027-03-24",
+   "date": "2027-04-10",
    "order": 1,
    "feed": "cafe-a-la-maison",
    "guid": "moncafemaison-moulin-cafe-meule-plate-ou-conique-v5",
@@ -538,7 +598,7 @@
    "link": "https://www.moncafemaison.fr/articles/moulin-cafe-meule-plate-ou-conique/?utm_source=pinterest&utm_medium=social&utm_campaign=epingles-v3&utm_content=v5"
   },
   {
-   "date": "2027-03-28",
+   "date": "2027-04-14",
    "order": 0,
    "feed": "cafe-a-la-maison",
    "guid": "moncafemaison-nettoyer-machine-cafe-grain-pastilles-v4",
@@ -548,7 +608,7 @@
    "link": "https://www.moncafemaison.fr/articles/nettoyer-machine-cafe-grain-pastilles/?utm_source=pinterest&utm_medium=social&utm_campaign=epingles-v3&utm_content=v4"
   },
   {
-   "date": "2027-03-31",
+   "date": "2027-04-17",
    "order": 1,
    "feed": "cafe-a-la-maison",
    "guid": "moncafemaison-quelles-capsules-machine-krups-v5",
@@ -558,7 +618,7 @@
    "link": "https://www.moncafemaison.fr/articles/quelles-capsules-machine-krups/?utm_source=pinterest&utm_medium=social&utm_campaign=epingles-v3&utm_content=v5"
   },
   {
-   "date": "2027-04-04",
+   "date": "2027-04-21",
    "order": 0,
    "feed": "cafe-a-la-maison",
    "guid": "moncafemaison-senseo-ne-coule-plus-apres-detartrage-v6",
@@ -568,7 +628,7 @@
    "link": "https://www.moncafemaison.fr/articles/senseo-ne-coule-plus-apres-detartrage/?utm_source=pinterest&utm_medium=social&utm_campaign=epingles-v3&utm_content=v6"
   },
   {
-   "date": "2027-04-07",
+   "date": "2027-04-24",
    "order": 1,
    "feed": "cafe-a-la-maison",
    "guid": "moncafemaison-senseo-qui-clignote-voyants-v4",
@@ -578,7 +638,7 @@
    "link": "https://www.moncafemaison.fr/articles/senseo-qui-clignote-voyants/?utm_source=pinterest&utm_medium=social&utm_campaign=epingles-v3&utm_content=v4"
   },
   {
-   "date": "2027-04-11",
+   "date": "2027-04-28",
    "order": 0,
    "feed": "cafe-a-la-maison",
    "guid": "moncafemaison-cafetiere-nespresso-qui-clignote-v5",
@@ -588,7 +648,7 @@
    "link": "https://www.moncafemaison.fr/articles/cafetiere-nespresso-qui-clignote/?utm_source=pinterest&utm_medium=social&utm_campaign=epingles-v3&utm_content=v5"
   },
   {
-   "date": "2027-04-14",
+   "date": "2027-05-01",
    "order": 1,
    "feed": "cafe-a-la-maison",
    "guid": "moncafemaison-moulin-cafe-pour-cafetiere-italienne-v5",
@@ -598,7 +658,7 @@
    "link": "https://www.moncafemaison.fr/articles/moulin-cafe-pour-cafetiere-italienne/?utm_source=pinterest&utm_medium=social&utm_campaign=epingles-v3&utm_content=v5"
   },
   {
-   "date": "2027-04-18",
+   "date": "2027-05-05",
    "order": 0,
    "feed": "cafe-a-la-maison",
    "guid": "moncafemaison-machine-cafe-qui-fuit-par-le-bas-v5",
@@ -608,7 +668,7 @@
    "link": "https://www.moncafemaison.fr/articles/machine-cafe-qui-fuit-par-le-bas/?utm_source=pinterest&utm_medium=social&utm_campaign=epingles-v3&utm_content=v5"
   },
   {
-   "date": "2027-04-21",
+   "date": "2027-05-08",
    "order": 1,
    "feed": "cafe-a-la-maison",
    "guid": "moncafemaison-delonghi-magnifica-s-cafe-trop-clair-amer-v5",
@@ -618,7 +678,7 @@
    "link": "https://www.moncafemaison.fr/articles/delonghi-magnifica-s-cafe-trop-clair-amer/?utm_source=pinterest&utm_medium=social&utm_campaign=epingles-v3&utm_content=v5"
   },
   {
-   "date": "2027-04-25",
+   "date": "2027-05-12",
    "order": 0,
    "feed": "cafe-a-la-maison",
    "guid": "moncafemaison-black-friday-cafe-guide-achat-v6",
@@ -628,7 +688,7 @@
    "link": "https://www.moncafemaison.fr/articles/black-friday-cafe-guide-achat/?utm_source=pinterest&utm_medium=social&utm_campaign=epingles-v3&utm_content=v6"
   },
   {
-   "date": "2027-04-28",
+   "date": "2027-05-15",
    "order": 1,
    "feed": "cafe-a-la-maison",
    "guid": "moncafemaison-idees-cadeaux-cafe-par-budget-v6",
@@ -638,7 +698,7 @@
    "link": "https://www.moncafemaison.fr/articles/idees-cadeaux-cafe-par-budget/?utm_source=pinterest&utm_medium=social&utm_campaign=epingles-v3&utm_content=v6"
   },
   {
-   "date": "2027-05-02",
+   "date": "2027-05-19",
    "order": 0,
    "feed": "cafe-a-la-maison",
    "guid": "moncafemaison-aeropress-test-alternatives-v4",
@@ -648,7 +708,7 @@
    "link": "https://www.moncafemaison.fr/articles/aeropress-test-alternatives/?utm_source=pinterest&utm_medium=social&utm_campaign=epingles-v3&utm_content=v4"
   },
   {
-   "date": "2027-05-05",
+   "date": "2027-05-22",
    "order": 1,
    "feed": "cafe-a-la-maison",
    "guid": "moncafemaison-tamper-espresso-bien-choisir-v4",
@@ -658,7 +718,7 @@
    "link": "https://www.moncafemaison.fr/articles/tamper-espresso-bien-choisir/?utm_source=pinterest&utm_medium=social&utm_campaign=epingles-v3&utm_content=v4"
   },
   {
-   "date": "2027-05-09",
+   "date": "2027-05-26",
    "order": 0,
    "feed": "cafe-a-la-maison",
    "guid": "moncafemaison-filtres-reutilisables-cafe-v5",
@@ -668,7 +728,7 @@
    "link": "https://www.moncafemaison.fr/articles/filtres-reutilisables-cafe/?utm_source=pinterest&utm_medium=social&utm_campaign=epingles-v3&utm_content=v5"
   },
   {
-   "date": "2027-05-12",
+   "date": "2027-05-29",
    "order": 1,
    "feed": "cafe-a-la-maison",
    "guid": "moncafemaison-meilleur-detartrant-machine-a-cafe-v6",
@@ -678,7 +738,7 @@
    "link": "https://www.moncafemaison.fr/articles/meilleur-detartrant-machine-a-cafe/?utm_source=pinterest&utm_medium=social&utm_campaign=epingles-v3&utm_content=v6"
   },
   {
-   "date": "2027-05-16",
+   "date": "2027-06-02",
    "order": 0,
    "feed": "cafe-a-la-maison",
    "guid": "moncafemaison-bouilloire-col-de-cygne-v6",
@@ -688,7 +748,7 @@
    "link": "https://www.moncafemaison.fr/articles/bouilloire-col-de-cygne/?utm_source=pinterest&utm_medium=social&utm_campaign=epingles-v3&utm_content=v6"
   },
   {
-   "date": "2027-05-19",
+   "date": "2027-06-05",
    "order": 1,
    "feed": "cafe-a-la-maison",
    "guid": "moncafemaison-reussir-cafe-filtre-v60-v4",
@@ -698,7 +758,7 @@
    "link": "https://www.moncafemaison.fr/articles/reussir-cafe-filtre-v60/?utm_source=pinterest&utm_medium=social&utm_campaign=epingles-v3&utm_content=v4"
   },
   {
-   "date": "2027-05-23",
+   "date": "2027-06-09",
    "order": 0,
    "feed": "cafe-a-la-maison",
    "guid": "moncafemaison-reussir-cafetiere-italienne-moka-v5",
@@ -708,7 +768,7 @@
    "link": "https://www.moncafemaison.fr/articles/reussir-cafetiere-italienne-moka/?utm_source=pinterest&utm_medium=social&utm_campaign=epingles-v3&utm_content=v5"
   },
   {
-   "date": "2027-05-26",
+   "date": "2027-06-12",
    "order": 1,
    "feed": "cafe-a-la-maison",
    "guid": "moncafemaison-reussir-cold-brew-maison-v6",
@@ -718,7 +778,7 @@
    "link": "https://www.moncafemaison.fr/articles/reussir-cold-brew-maison/?utm_source=pinterest&utm_medium=social&utm_campaign=epingles-v3&utm_content=v6"
   },
   {
-   "date": "2027-05-30",
+   "date": "2027-06-16",
    "order": 0,
    "feed": "cafe-a-la-maison",
    "guid": "moncafemaison-reussir-espresso-maison-v4",
@@ -728,7 +788,7 @@
    "link": "https://www.moncafemaison.fr/articles/reussir-espresso-maison/?utm_source=pinterest&utm_medium=social&utm_campaign=epingles-v3&utm_content=v4"
   },
   {
-   "date": "2027-06-02",
+   "date": "2027-06-19",
    "order": 1,
    "feed": "cafe-a-la-maison",
    "guid": "moncafemaison-reussir-french-press-piston-v5",
@@ -738,7 +798,7 @@
    "link": "https://www.moncafemaison.fr/articles/reussir-french-press-piston/?utm_source=pinterest&utm_medium=social&utm_campaign=epingles-v3&utm_content=v5"
   },
   {
-   "date": "2027-06-06",
+   "date": "2027-06-23",
    "order": 0,
    "feed": "cafe-a-la-maison",
    "guid": "moncafemaison-moulin-cafe-pas-cher-qui-vaut-le-coup-v5",
@@ -748,7 +808,7 @@
    "link": "https://www.moncafemaison.fr/articles/moulin-cafe-pas-cher-qui-vaut-le-coup/?utm_source=pinterest&utm_medium=social&utm_campaign=epingles-v3&utm_content=v5"
   },
   {
-   "date": "2027-06-09",
+   "date": "2027-06-26",
    "order": 1,
    "feed": "cafe-a-la-maison",
    "guid": "moncafemaison-meilleur-moulin-pour-espresso-v4",
@@ -758,7 +818,7 @@
    "link": "https://www.moncafemaison.fr/articles/meilleur-moulin-pour-espresso/?utm_source=pinterest&utm_medium=social&utm_campaign=epingles-v3&utm_content=v4"
   },
   {
-   "date": "2027-06-13",
+   "date": "2027-06-30",
    "order": 0,
    "feed": "cafe-a-la-maison",
    "guid": "moncafemaison-moulin-cafe-meules-ou-lames-v5",
@@ -768,8 +828,8 @@
    "link": "https://www.moncafemaison.fr/articles/moulin-cafe-meules-ou-lames/?utm_source=pinterest&utm_medium=social&utm_campaign=epingles-v3&utm_content=v5"
   },
   {
-   "date": "2027-06-16",
-   "order": 1,
+   "date": "2027-07-03",
+   "order": 0,
    "feed": "cafe-a-la-maison",
    "guid": "moncafemaison-cafetiere-dosette-souple-ese-v6",
    "title": "Cafetière à dosettes souples (ESE) : laquelle choisir ?",
@@ -778,8 +838,8 @@
    "link": "https://www.moncafemaison.fr/articles/cafetiere-dosette-souple-ese/?utm_source=pinterest&utm_medium=social&utm_campaign=epingles-v3&utm_content=v6"
   },
   {
-   "date": "2027-06-20",
-   "order": 0,
+   "date": "2027-07-05",
+   "order": 1,
    "feed": "cafe-a-la-maison",
    "guid": "moncafemaison-machine-cafe-automatique-haut-gamme-v6",
    "title": "Quelle machine à café automatique haut de gamme choisir ?",
@@ -788,7 +848,7 @@
    "link": "https://www.moncafemaison.fr/articles/machine-cafe-automatique-haut-gamme/?utm_source=pinterest&utm_medium=social&utm_campaign=epingles-v3&utm_content=v6"
   },
   {
-   "date": "2027-06-23",
+   "date": "2027-07-08",
    "order": 0,
    "feed": "cafe-a-la-maison",
    "guid": "moncafemaison-machine-expresso-broyeur-integre-v5",
@@ -798,7 +858,7 @@
    "link": "https://www.moncafemaison.fr/articles/machine-expresso-broyeur-integre/?utm_source=pinterest&utm_medium=social&utm_campaign=epingles-v3&utm_content=v5"
   },
   {
-   "date": "2027-06-25",
+   "date": "2027-07-10",
    "order": 1,
    "feed": "cafe-a-la-maison",
    "guid": "moncafemaison-chemex-cafetiere-filtre-design-v5",
@@ -808,7 +868,7 @@
    "link": "https://www.moncafemaison.fr/articles/chemex-cafetiere-filtre-design/?utm_source=pinterest&utm_medium=social&utm_campaign=epingles-v3&utm_content=v5"
   },
   {
-   "date": "2027-06-28",
+   "date": "2027-07-13",
    "order": 0,
    "feed": "cafe-a-la-maison",
    "guid": "moncafemaison-balance-cafe-precision-v4",
@@ -818,7 +878,7 @@
    "link": "https://www.moncafemaison.fr/articles/balance-cafe-precision/?utm_source=pinterest&utm_medium=social&utm_campaign=epingles-v3&utm_content=v4"
   },
   {
-   "date": "2027-06-30",
+   "date": "2027-07-15",
    "order": 1,
    "feed": "cafe-a-la-maison",
    "guid": "moncafemaison-cafetiere-italienne-moka-v5",
@@ -828,7 +888,7 @@
    "link": "https://www.moncafemaison.fr/articles/cafetiere-italienne-moka/?utm_source=pinterest&utm_medium=social&utm_campaign=epingles-v3&utm_content=v5"
   },
   {
-   "date": "2027-07-03",
+   "date": "2027-07-18",
    "order": 0,
    "feed": "cafe-a-la-maison",
    "guid": "moncafemaison-machine-capsules-vs-machine-grains-v6",
@@ -838,7 +898,7 @@
    "link": "https://www.moncafemaison.fr/articles/machine-capsules-vs-machine-grains/?utm_source=pinterest&utm_medium=social&utm_campaign=epingles-v3&utm_content=v6"
   },
   {
-   "date": "2027-07-05",
+   "date": "2027-07-20",
    "order": 1,
    "feed": "cafe-a-la-maison",
    "guid": "moncafemaison-meilleur-moulin-cafe-electrique-v4",
@@ -848,7 +908,7 @@
    "link": "https://www.moncafemaison.fr/articles/meilleur-moulin-cafe-electrique/?utm_source=pinterest&utm_medium=social&utm_campaign=epingles-v3&utm_content=v4"
   },
   {
-   "date": "2027-07-08",
+   "date": "2027-07-23",
    "order": 0,
    "feed": "cafe-a-la-maison",
    "guid": "moncafemaison-meilleur-moulin-cafe-manuel-v5",
@@ -858,7 +918,7 @@
    "link": "https://www.moncafemaison.fr/articles/meilleur-moulin-cafe-manuel/?utm_source=pinterest&utm_medium=social&utm_campaign=epingles-v3&utm_content=v5"
   },
   {
-   "date": "2027-07-10",
+   "date": "2027-07-25",
    "order": 1,
    "feed": "cafe-a-la-maison",
    "guid": "moncafemaison-meilleur-mousseur-lait-v6",
@@ -868,7 +928,7 @@
    "link": "https://www.moncafemaison.fr/articles/meilleur-mousseur-lait/?utm_source=pinterest&utm_medium=social&utm_campaign=epingles-v3&utm_content=v6"
   },
   {
-   "date": "2027-07-13",
+   "date": "2027-07-28",
    "order": 0,
    "feed": "cafe-a-la-maison",
    "guid": "moncafemaison-meilleure-cafetiere-filtre-programmable-v4",
@@ -878,7 +938,7 @@
    "link": "https://www.moncafemaison.fr/articles/meilleure-cafetiere-filtre-programmable/?utm_source=pinterest&utm_medium=social&utm_campaign=epingles-v3&utm_content=v4"
   },
   {
-   "date": "2027-07-15",
+   "date": "2027-07-30",
    "order": 1,
    "feed": "cafe-a-la-maison",
    "guid": "moncafemaison-meilleure-cafetiere-grains-v5",
@@ -888,7 +948,7 @@
    "link": "https://www.moncafemaison.fr/articles/meilleure-cafetiere-grains/?utm_source=pinterest&utm_medium=social&utm_campaign=epingles-v3&utm_content=v5"
   },
   {
-   "date": "2027-07-18",
+   "date": "2027-08-02",
    "order": 0,
    "feed": "cafe-a-la-maison",
    "guid": "moncafemaison-meilleure-cafetiere-piston-french-press-v6",
@@ -898,7 +958,7 @@
    "link": "https://www.moncafemaison.fr/articles/meilleure-cafetiere-piston-french-press/?utm_source=pinterest&utm_medium=social&utm_campaign=epingles-v3&utm_content=v6"
   },
   {
-   "date": "2027-07-20",
+   "date": "2027-08-04",
    "order": 1,
    "feed": "cafe-a-la-maison",
    "guid": "moncafemaison-meilleure-machine-expresso-v4",
@@ -908,7 +968,7 @@
    "link": "https://www.moncafemaison.fr/articles/meilleure-machine-expresso/?utm_source=pinterest&utm_medium=social&utm_campaign=epingles-v3&utm_content=v4"
   },
   {
-   "date": "2027-08-07",
+   "date": "2027-08-20",
    "order": 1,
    "feed": "cafe-a-la-maison",
    "guid": "moncafemaison-outil-calculateur-dosage-cafe-v7",
@@ -918,7 +978,7 @@
    "link": "https://www.moncafemaison.fr/calculateur-dosage-cafe/?utm_source=pinterest&utm_medium=social&utm_campaign=epingles-v3&utm_content=v7"
   },
   {
-   "date": "2027-08-10",
+   "date": "2027-08-23",
    "order": 1,
    "feed": "cafe-a-la-maison",
    "guid": "moncafemaison-outil-durete-eau-cafe-v4",
@@ -928,7 +988,7 @@
    "link": "https://www.moncafemaison.fr/durete-eau-cafe/?utm_source=pinterest&utm_medium=social&utm_campaign=epingles-v3&utm_content=v4"
   },
   {
-   "date": "2027-08-14",
+   "date": "2027-08-27",
    "order": 0,
    "feed": "cafe-a-la-maison",
    "guid": "moncafemaison-outil-methodes-cafe-v5",
@@ -938,8 +998,38 @@
    "link": "https://www.moncafemaison.fr/methodes-cafe/?utm_source=pinterest&utm_medium=social&utm_campaign=epingles-v3&utm_content=v5"
   },
   {
-   "date": "2027-08-17",
+   "date": "2027-08-30",
    "order": 1,
+   "feed": "cafe-a-la-maison",
+   "guid": "moncafemaison-dose-cafeine-par-jour-v6",
+   "title": "Dose de caféine à ne pas dépasser par jour",
+   "description": "Dose de caféine à ne pas dépasser par jour : repères de l'EFSA pour un adulte, une femme enceinte ou un enfant, et combien de tasses ça représente. 👉 Le guide complet sur Mon Café Maison.",
+   "image": "https://www.moncafemaison.fr/pins/dose-cafeine-par-jour-v6.jpg",
+   "link": "https://www.moncafemaison.fr/articles/dose-cafeine-par-jour/?utm_source=pinterest&utm_medium=social&utm_campaign=epingles-v3&utm_content=v6"
+  },
+  {
+   "date": "2027-09-03",
+   "order": 0,
+   "feed": "cafe-a-la-maison",
+   "guid": "moncafemaison-machine-cafe-toutes-les-capsules-v4",
+   "title": "Machine à café qui prend toutes les capsules : ça existe ?",
+   "description": "Machine à café qui prend toutes les capsules : non, mais les modèles multi-capsules à adaptateurs couvrent Nespresso, Dolce Gusto, Lavazza. Les limites. 👉 Le guide complet sur Mon Café Maison.",
+   "image": "https://www.moncafemaison.fr/pins/machine-cafe-toutes-les-capsules-v4.jpg",
+   "link": "https://www.moncafemaison.fr/articles/machine-cafe-toutes-les-capsules/?utm_source=pinterest&utm_medium=social&utm_campaign=epingles-v3&utm_content=v4"
+  },
+  {
+   "date": "2027-09-06",
+   "order": 1,
+   "feed": "cafe-a-la-maison",
+   "guid": "moncafemaison-combien-temps-conserve-cafe-moulu-ouvert-v5",
+   "title": "Combien de temps se conserve le café moulu ouvert ?",
+   "description": "Combien de temps se conserve le café moulu ouvert : durées officielles, effet de la mouture et gestes pour limiter la perte d'arôme. 👉 Le guide complet sur Mon Café Maison.",
+   "image": "https://www.moncafemaison.fr/pins/combien-temps-conserve-cafe-moulu-ouvert-v5.jpg",
+   "link": "https://www.moncafemaison.fr/articles/combien-temps-conserve-cafe-moulu-ouvert/?utm_source=pinterest&utm_medium=social&utm_campaign=epingles-v3&utm_content=v5"
+  },
+  {
+   "date": "2027-09-10",
+   "order": 0,
    "feed": "cafe-a-la-maison",
    "guid": "moncafemaison-cafe-decafeine-sans-solvant-v6",
    "title": "Comment le café décaféiné est fait, avec ou sans solvant",
@@ -948,8 +1038,8 @@
    "link": "https://www.moncafemaison.fr/articles/cafe-decafeine-sans-solvant/?utm_source=pinterest&utm_medium=social&utm_campaign=epingles-v3&utm_content=v6"
   },
   {
-   "date": "2027-08-21",
-   "order": 0,
+   "date": "2027-09-13",
+   "order": 1,
    "feed": "cafe-a-la-maison",
    "guid": "moncafemaison-combien-de-tasses-kilo-de-cafe-v4",
    "title": "Combien d'expresso peut-on faire avec un kilo de café ?",
@@ -958,8 +1048,8 @@
    "link": "https://www.moncafemaison.fr/articles/combien-de-tasses-kilo-de-cafe/?utm_source=pinterest&utm_medium=social&utm_campaign=epingles-v3&utm_content=v4"
   },
   {
-   "date": "2027-08-24",
-   "order": 1,
+   "date": "2027-09-17",
+   "order": 0,
    "feed": "cafe-a-la-maison",
    "guid": "moncafemaison-latte-macchiato-cappuccino-flat-white-v5",
    "title": "Latte ou latte macchiato ? Les vraies différences",
@@ -968,8 +1058,8 @@
    "link": "https://www.moncafemaison.fr/articles/latte-macchiato-cappuccino-flat-white/?utm_source=pinterest&utm_medium=social&utm_campaign=epingles-v3&utm_content=v5"
   },
   {
-   "date": "2027-08-28",
-   "order": 0,
+   "date": "2027-09-20",
+   "order": 1,
    "feed": "cafe-a-la-maison",
    "guid": "moncafemaison-machine-delonghi-ne-coule-plus-v6",
    "title": "Machine à café DeLonghi broyeur ne fonctionne plus ou café qui ne coule plus",
@@ -978,8 +1068,8 @@
    "link": "https://www.moncafemaison.fr/articles/machine-delonghi-ne-coule-plus/?utm_source=pinterest&utm_medium=social&utm_campaign=epingles-v3&utm_content=v6"
   },
   {
-   "date": "2027-08-31",
-   "order": 1,
+   "date": "2027-09-24",
+   "order": 0,
    "feed": "cafe-a-la-maison",
    "guid": "moncafemaison-moulin-cafe-meule-plate-ou-conique-v6",
    "title": "Moulin à café meule plate ou conique : lequel choisir ?",
@@ -988,8 +1078,8 @@
    "link": "https://www.moncafemaison.fr/articles/moulin-cafe-meule-plate-ou-conique/?utm_source=pinterest&utm_medium=social&utm_campaign=epingles-v3&utm_content=v6"
   },
   {
-   "date": "2027-09-04",
-   "order": 0,
+   "date": "2027-09-27",
+   "order": 1,
    "feed": "cafe-a-la-maison",
    "guid": "moncafemaison-nettoyer-machine-cafe-grain-pastilles-v5",
    "title": "Pastilles pour machine à café Krups : où les trouver ?",
@@ -998,8 +1088,8 @@
    "link": "https://www.moncafemaison.fr/articles/nettoyer-machine-cafe-grain-pastilles/?utm_source=pinterest&utm_medium=social&utm_campaign=epingles-v3&utm_content=v5"
   },
   {
-   "date": "2027-09-07",
-   "order": 1,
+   "date": "2027-10-01",
+   "order": 0,
    "feed": "cafe-a-la-maison",
    "guid": "moncafemaison-quelles-capsules-machine-krups-v6",
    "title": "Quelles capsules pour une machine à café Krups ?",
@@ -1008,8 +1098,8 @@
    "link": "https://www.moncafemaison.fr/articles/quelles-capsules-machine-krups/?utm_source=pinterest&utm_medium=social&utm_campaign=epingles-v3&utm_content=v6"
   },
   {
-   "date": "2027-09-11",
-   "order": 0,
+   "date": "2027-10-04",
+   "order": 1,
    "feed": "cafe-a-la-maison",
    "guid": "moncafemaison-senseo-ne-coule-plus-apres-detartrage-v4",
    "title": "Senseo ne coule plus après détartrage : causes et solutions",
@@ -1018,8 +1108,8 @@
    "link": "https://www.moncafemaison.fr/articles/senseo-ne-coule-plus-apres-detartrage/?utm_source=pinterest&utm_medium=social&utm_campaign=epingles-v3&utm_content=v4"
   },
   {
-   "date": "2027-09-14",
-   "order": 1,
+   "date": "2027-10-08",
+   "order": 0,
    "feed": "cafe-a-la-maison",
    "guid": "moncafemaison-senseo-qui-clignote-voyants-v5",
    "title": "Senseo qui clignote : pourquoi les deux boutons clignotent",
@@ -1028,8 +1118,8 @@
    "link": "https://www.moncafemaison.fr/articles/senseo-qui-clignote-voyants/?utm_source=pinterest&utm_medium=social&utm_campaign=epingles-v3&utm_content=v5"
   },
   {
-   "date": "2027-09-18",
-   "order": 0,
+   "date": "2027-10-11",
+   "order": 1,
    "feed": "cafe-a-la-maison",
    "guid": "moncafemaison-cafetiere-nespresso-qui-clignote-v6",
    "title": "Cafetière Nespresso qui clignote : les voyants expliqués",
@@ -1038,8 +1128,8 @@
    "link": "https://www.moncafemaison.fr/articles/cafetiere-nespresso-qui-clignote/?utm_source=pinterest&utm_medium=social&utm_campaign=epingles-v3&utm_content=v6"
   },
   {
-   "date": "2027-09-21",
-   "order": 1,
+   "date": "2027-10-15",
+   "order": 0,
    "feed": "cafe-a-la-maison",
    "guid": "moncafemaison-moulin-cafe-pour-cafetiere-italienne-v6",
    "title": "Moulin à café pour cafetière italienne : lequel choisir",
@@ -1048,8 +1138,8 @@
    "link": "https://www.moncafemaison.fr/articles/moulin-cafe-pour-cafetiere-italienne/?utm_source=pinterest&utm_medium=social&utm_campaign=epingles-v3&utm_content=v6"
   },
   {
-   "date": "2027-09-25",
-   "order": 0,
+   "date": "2027-10-18",
+   "order": 1,
    "feed": "cafe-a-la-maison",
    "guid": "moncafemaison-machine-cafe-qui-fuit-par-le-bas-v6",
    "title": "Machine à café qui fuit par le bas : que faire ?",
@@ -1058,8 +1148,8 @@
    "link": "https://www.moncafemaison.fr/articles/machine-cafe-qui-fuit-par-le-bas/?utm_source=pinterest&utm_medium=social&utm_campaign=epingles-v3&utm_content=v6"
   },
   {
-   "date": "2027-09-28",
-   "order": 1,
+   "date": "2027-10-22",
+   "order": 0,
    "feed": "cafe-a-la-maison",
    "guid": "moncafemaison-delonghi-magnifica-s-cafe-trop-clair-amer-v6",
    "title": "Café trop clair DeLonghi Magnifica S : le bon réglage",
@@ -1068,8 +1158,8 @@
    "link": "https://www.moncafemaison.fr/articles/delonghi-magnifica-s-cafe-trop-clair-amer/?utm_source=pinterest&utm_medium=social&utm_campaign=epingles-v3&utm_content=v6"
   },
   {
-   "date": "2027-10-02",
-   "order": 0,
+   "date": "2027-10-25",
+   "order": 1,
    "feed": "cafe-a-la-maison",
    "guid": "moncafemaison-black-friday-cafe-guide-achat-v4",
    "title": "Black Friday café : quel matériel attendre ?",
@@ -1078,8 +1168,8 @@
    "link": "https://www.moncafemaison.fr/articles/black-friday-cafe-guide-achat/?utm_source=pinterest&utm_medium=social&utm_campaign=epingles-v3&utm_content=v4"
   },
   {
-   "date": "2027-10-05",
-   "order": 1,
+   "date": "2027-10-29",
+   "order": 0,
    "feed": "cafe-a-la-maison",
    "guid": "moncafemaison-idees-cadeaux-cafe-par-budget-v4",
    "title": "Idées cadeaux café : notre sélection par budget",
@@ -1088,8 +1178,8 @@
    "link": "https://www.moncafemaison.fr/articles/idees-cadeaux-cafe-par-budget/?utm_source=pinterest&utm_medium=social&utm_campaign=epingles-v3&utm_content=v4"
   },
   {
-   "date": "2027-10-09",
-   "order": 0,
+   "date": "2027-11-01",
+   "order": 1,
    "feed": "cafe-a-la-maison",
    "guid": "moncafemaison-aeropress-test-alternatives-v5",
    "title": "AeroPress : avis, recette officielle et 3 alternatives",
@@ -1098,8 +1188,8 @@
    "link": "https://www.moncafemaison.fr/articles/aeropress-test-alternatives/?utm_source=pinterest&utm_medium=social&utm_campaign=epingles-v3&utm_content=v5"
   },
   {
-   "date": "2027-10-12",
-   "order": 1,
+   "date": "2027-11-05",
+   "order": 0,
    "feed": "cafe-a-la-maison",
    "guid": "moncafemaison-tamper-espresso-bien-choisir-v5",
    "title": "Tamper à espresso : comment bien le choisir pour un tassage régulier",
@@ -1108,8 +1198,8 @@
    "link": "https://www.moncafemaison.fr/articles/tamper-espresso-bien-choisir/?utm_source=pinterest&utm_medium=social&utm_campaign=epingles-v3&utm_content=v5"
   },
   {
-   "date": "2027-10-16",
-   "order": 0,
+   "date": "2027-11-08",
+   "order": 1,
    "feed": "cafe-a-la-maison",
    "guid": "moncafemaison-filtres-reutilisables-cafe-v6",
    "title": "Filtres à café réutilisables : lesquels choisir (et pourquoi arrêter le papier)",
@@ -1118,8 +1208,8 @@
    "link": "https://www.moncafemaison.fr/articles/filtres-reutilisables-cafe/?utm_source=pinterest&utm_medium=social&utm_campaign=epingles-v3&utm_content=v6"
   },
   {
-   "date": "2027-10-19",
-   "order": 1,
+   "date": "2027-11-12",
+   "order": 0,
    "feed": "cafe-a-la-maison",
    "guid": "moncafemaison-meilleur-detartrant-machine-a-cafe-v4",
    "title": "Détartrant pour machine à café : lequel choisir et comment bien détartrer",
@@ -1128,8 +1218,8 @@
    "link": "https://www.moncafemaison.fr/articles/meilleur-detartrant-machine-a-cafe/?utm_source=pinterest&utm_medium=social&utm_campaign=epingles-v3&utm_content=v4"
   },
   {
-   "date": "2027-10-23",
-   "order": 0,
+   "date": "2027-11-15",
+   "order": 1,
    "feed": "cafe-a-la-maison",
    "guid": "moncafemaison-bouilloire-col-de-cygne-v4",
    "title": "Bouilloire à col de cygne : un versement précis en pour-over",
@@ -1138,8 +1228,8 @@
    "link": "https://www.moncafemaison.fr/articles/bouilloire-col-de-cygne/?utm_source=pinterest&utm_medium=social&utm_campaign=epingles-v3&utm_content=v4"
   },
   {
-   "date": "2027-10-26",
-   "order": 1,
+   "date": "2027-11-19",
+   "order": 0,
    "feed": "cafe-a-la-maison",
    "guid": "moncafemaison-reussir-cafe-filtre-v60-v5",
    "title": "Café filtre & V60 : la méthode pour un café clair et aromatique",
@@ -1148,8 +1238,8 @@
    "link": "https://www.moncafemaison.fr/articles/reussir-cafe-filtre-v60/?utm_source=pinterest&utm_medium=social&utm_campaign=epingles-v3&utm_content=v5"
   },
   {
-   "date": "2027-10-30",
-   "order": 0,
+   "date": "2027-11-22",
+   "order": 1,
    "feed": "cafe-a-la-maison",
    "guid": "moncafemaison-reussir-cafetiere-italienne-moka-v6",
    "title": "Réussir son café à la cafetière italienne (moka) sans amertume",
@@ -1158,8 +1248,8 @@
    "link": "https://www.moncafemaison.fr/articles/reussir-cafetiere-italienne-moka/?utm_source=pinterest&utm_medium=social&utm_campaign=epingles-v3&utm_content=v6"
   },
   {
-   "date": "2027-11-02",
-   "order": 1,
+   "date": "2027-11-26",
+   "order": 0,
    "feed": "cafe-a-la-maison",
    "guid": "moncafemaison-reussir-cold-brew-maison-v4",
    "title": "Cold brew maison : la recette du café froid doux et peu acide",
@@ -1168,8 +1258,8 @@
    "link": "https://www.moncafemaison.fr/articles/reussir-cold-brew-maison/?utm_source=pinterest&utm_medium=social&utm_campaign=epingles-v3&utm_content=v4"
   },
   {
-   "date": "2027-11-06",
-   "order": 0,
+   "date": "2027-11-29",
+   "order": 1,
    "feed": "cafe-a-la-maison",
    "guid": "moncafemaison-reussir-espresso-maison-v5",
    "title": "Réussir son espresso maison : les 4 réglages à maîtriser",
@@ -1178,8 +1268,8 @@
    "link": "https://www.moncafemaison.fr/articles/reussir-espresso-maison/?utm_source=pinterest&utm_medium=social&utm_campaign=epingles-v3&utm_content=v5"
   },
   {
-   "date": "2027-11-09",
-   "order": 1,
+   "date": "2027-12-03",
+   "order": 0,
    "feed": "cafe-a-la-maison",
    "guid": "moncafemaison-reussir-french-press-piston-v6",
    "title": "Réussir sa cafetière à piston (French press) : la méthode simple",
@@ -1188,8 +1278,8 @@
    "link": "https://www.moncafemaison.fr/articles/reussir-french-press-piston/?utm_source=pinterest&utm_medium=social&utm_campaign=epingles-v3&utm_content=v6"
   },
   {
-   "date": "2027-11-13",
-   "order": 0,
+   "date": "2027-12-06",
+   "order": 1,
    "feed": "cafe-a-la-maison",
    "guid": "moncafemaison-moulin-cafe-pas-cher-qui-vaut-le-coup-v6",
    "title": "Moulin à café pas cher : lequel vaut vraiment le coup ?",
@@ -1198,8 +1288,8 @@
    "link": "https://www.moncafemaison.fr/articles/moulin-cafe-pas-cher-qui-vaut-le-coup/?utm_source=pinterest&utm_medium=social&utm_campaign=epingles-v3&utm_content=v6"
   },
   {
-   "date": "2027-11-16",
-   "order": 1,
+   "date": "2027-12-10",
+   "order": 0,
    "feed": "cafe-a-la-maison",
    "guid": "moncafemaison-meilleur-moulin-pour-espresso-v5",
    "title": "Moulin pour espresso : le guide pour bien choisir",
@@ -1208,8 +1298,8 @@
    "link": "https://www.moncafemaison.fr/articles/meilleur-moulin-pour-espresso/?utm_source=pinterest&utm_medium=social&utm_campaign=epingles-v3&utm_content=v5"
   },
   {
-   "date": "2027-11-20",
-   "order": 0,
+   "date": "2027-12-13",
+   "order": 1,
    "feed": "cafe-a-la-maison",
    "guid": "moncafemaison-moulin-cafe-meules-ou-lames-v6",
    "title": "Moulin à meules ou à lames : la vraie différence",
@@ -1218,7 +1308,7 @@
    "link": "https://www.moncafemaison.fr/articles/moulin-cafe-meules-ou-lames/?utm_source=pinterest&utm_medium=social&utm_campaign=epingles-v3&utm_content=v6"
   },
   {
-   "date": "2027-11-23",
+   "date": "2027-12-16",
    "order": 1,
    "feed": "cafe-a-la-maison",
    "guid": "moncafemaison-cafetiere-dosette-souple-ese-v4",
@@ -1228,7 +1318,7 @@
    "link": "https://www.moncafemaison.fr/articles/cafetiere-dosette-souple-ese/?utm_source=pinterest&utm_medium=social&utm_campaign=epingles-v3&utm_content=v4"
   },
   {
-   "date": "2027-11-27",
+   "date": "2027-12-19",
    "order": 0,
    "feed": "cafe-a-la-maison",
    "guid": "moncafemaison-machine-cafe-automatique-haut-gamme-v4",
@@ -1238,8 +1328,8 @@
    "link": "https://www.moncafemaison.fr/articles/machine-cafe-automatique-haut-gamme/?utm_source=pinterest&utm_medium=social&utm_campaign=epingles-v3&utm_content=v4"
   },
   {
-   "date": "2027-11-30",
-   "order": 0,
+   "date": "2027-12-21",
+   "order": 1,
    "feed": "cafe-a-la-maison",
    "guid": "moncafemaison-machine-expresso-broyeur-integre-v6",
    "title": "Machine expresso avec broyeur intégré : laquelle choisir ?",
@@ -1248,8 +1338,8 @@
    "link": "https://www.moncafemaison.fr/articles/machine-expresso-broyeur-integre/?utm_source=pinterest&utm_medium=social&utm_campaign=epingles-v3&utm_content=v6"
   },
   {
-   "date": "2027-12-02",
-   "order": 1,
+   "date": "2027-12-24",
+   "order": 0,
    "feed": "cafe-a-la-maison",
    "guid": "moncafemaison-chemex-cafetiere-filtre-design-v6",
    "title": "Chemex : pour qui, et comment bien la choisir",
@@ -1258,8 +1348,8 @@
    "link": "https://www.moncafemaison.fr/articles/chemex-cafetiere-filtre-design/?utm_source=pinterest&utm_medium=social&utm_campaign=epingles-v3&utm_content=v6"
   },
   {
-   "date": "2027-12-05",
-   "order": 0,
+   "date": "2027-12-26",
+   "order": 1,
    "feed": "cafe-a-la-maison",
    "guid": "moncafemaison-balance-cafe-precision-v5",
    "title": "Balance à café de précision : pourquoi (et laquelle) choisir",
@@ -1268,8 +1358,8 @@
    "link": "https://www.moncafemaison.fr/articles/balance-cafe-precision/?utm_source=pinterest&utm_medium=social&utm_campaign=epingles-v3&utm_content=v5"
   },
   {
-   "date": "2027-12-07",
-   "order": 1,
+   "date": "2027-12-29",
+   "order": 0,
    "feed": "cafe-a-la-maison",
    "guid": "moncafemaison-cafetiere-italienne-moka-v6",
    "title": "Cafetière italienne (moka) : laquelle choisir ?",
@@ -1278,8 +1368,8 @@
    "link": "https://www.moncafemaison.fr/articles/cafetiere-italienne-moka/?utm_source=pinterest&utm_medium=social&utm_campaign=epingles-v3&utm_content=v6"
   },
   {
-   "date": "2027-12-10",
-   "order": 0,
+   "date": "2027-12-31",
+   "order": 1,
    "feed": "cafe-a-la-maison",
    "guid": "moncafemaison-machine-capsules-vs-machine-grains-v4",
    "title": "Machine à capsules vs machine à grains : quel système choisir ?",
@@ -1288,8 +1378,8 @@
    "link": "https://www.moncafemaison.fr/articles/machine-capsules-vs-machine-grains/?utm_source=pinterest&utm_medium=social&utm_campaign=epingles-v3&utm_content=v4"
   },
   {
-   "date": "2027-12-12",
-   "order": 1,
+   "date": "2028-01-03",
+   "order": 0,
    "feed": "cafe-a-la-maison",
    "guid": "moncafemaison-meilleur-moulin-cafe-electrique-v5",
    "title": "Bien choisir son moulin à café électrique",
@@ -1298,8 +1388,8 @@
    "link": "https://www.moncafemaison.fr/articles/meilleur-moulin-cafe-electrique/?utm_source=pinterest&utm_medium=social&utm_campaign=epingles-v3&utm_content=v5"
   },
   {
-   "date": "2027-12-15",
-   "order": 0,
+   "date": "2028-01-05",
+   "order": 1,
    "feed": "cafe-a-la-maison",
    "guid": "moncafemaison-meilleur-moulin-cafe-manuel-v6",
    "title": "Moulin à café manuel : lequel choisir ?",
@@ -1308,8 +1398,8 @@
    "link": "https://www.moncafemaison.fr/articles/meilleur-moulin-cafe-manuel/?utm_source=pinterest&utm_medium=social&utm_campaign=epingles-v3&utm_content=v6"
   },
   {
-   "date": "2027-12-17",
-   "order": 1,
+   "date": "2028-01-08",
+   "order": 0,
    "feed": "cafe-a-la-maison",
    "guid": "moncafemaison-meilleur-mousseur-lait-v4",
    "title": "Mousseur à lait : réussir cappuccino et latte maison",
@@ -1318,8 +1408,8 @@
    "link": "https://www.moncafemaison.fr/articles/meilleur-mousseur-lait/?utm_source=pinterest&utm_medium=social&utm_campaign=epingles-v3&utm_content=v4"
   },
   {
-   "date": "2027-12-20",
-   "order": 0,
+   "date": "2028-01-10",
+   "order": 1,
    "feed": "cafe-a-la-maison",
    "guid": "moncafemaison-meilleure-cafetiere-filtre-programmable-v5",
    "title": "Cafetière filtre programmable : notre comparatif",
@@ -1328,8 +1418,8 @@
    "link": "https://www.moncafemaison.fr/articles/meilleure-cafetiere-filtre-programmable/?utm_source=pinterest&utm_medium=social&utm_campaign=epingles-v3&utm_content=v5"
   },
   {
-   "date": "2027-12-22",
-   "order": 1,
+   "date": "2028-01-13",
+   "order": 0,
    "feed": "cafe-a-la-maison",
    "guid": "moncafemaison-meilleure-cafetiere-grains-v6",
    "title": "Quelle machine à café à grains choisir ?",
@@ -1338,8 +1428,8 @@
    "link": "https://www.moncafemaison.fr/articles/meilleure-cafetiere-grains/?utm_source=pinterest&utm_medium=social&utm_campaign=epingles-v3&utm_content=v6"
   },
   {
-   "date": "2027-12-25",
-   "order": 0,
+   "date": "2028-01-15",
+   "order": 1,
    "feed": "cafe-a-la-maison",
    "guid": "moncafemaison-meilleure-cafetiere-piston-french-press-v4",
    "title": "Cafetière à piston (French press) : laquelle choisir ?",
@@ -1348,8 +1438,8 @@
    "link": "https://www.moncafemaison.fr/articles/meilleure-cafetiere-piston-french-press/?utm_source=pinterest&utm_medium=social&utm_campaign=epingles-v3&utm_content=v4"
   },
   {
-   "date": "2027-12-27",
-   "order": 1,
+   "date": "2028-01-18",
+   "order": 0,
    "feed": "cafe-a-la-maison",
    "guid": "moncafemaison-meilleure-machine-expresso-v5",
    "title": "Machine expresso : le guide pour bien débuter",

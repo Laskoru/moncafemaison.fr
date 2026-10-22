@@ -6,7 +6,6 @@ updatedDate: 2026-10-22
 author: "Hugo B."
 keywords: ["dose de caféine à ne pas dépasser par jour", "combien de caféine par jour", "caféine espresso café filtre", "caféine grossesse"]
 category: "preparer"
-coverImage: "https://images.unsplash.com/photo-1566392665193-f7b00b714cf0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDE3MjIwfDB8MXxzZWFyY2h8NHx8Y29mZmVlJTIwY3VwJTIwY2FmZmVpbmUlMjBhbGFybSUyMGNsb2NrfGVufDB8MHx8fDE3OTI2NDYxOTZ8Mg&ixlib=rb-4.1.0&q=80&w=1080"
 coverAlt: "Une tasse de café posée à côté d'un réveil numérique qui affiche l'heure, sur une table en bois"
 draft: false
 pinHook: "Combien de café avant d'en faire *trop* ?"
