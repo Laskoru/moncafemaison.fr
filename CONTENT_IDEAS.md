@@ -9,6 +9,11 @@ La routine prend la première idée non cochée, écrit l'article en brouillon,
 puis coche l'idée. Ajoute librement de nouvelles idées en bas.
 Format : `- [ ] Sujet — angle — catégorie`.
 
+> **Consignes techniques pour la routine (22/10/2026, économie de tokens)**
+> - Unsplash : appelle search_photos avec `per_page: 4` (les réponses à 8 photos sont très longues). Une seconde recherche seulement si aucune des 4 ne montre le sujet.
+> - Légifrance, economie.gouv.fr (DGCCRF), EUR-Lex, dyson.fr, miele.fr et certains sites de fabricants renvoient 403 ou une page vide à WebFetch : un seul essai par URL, puis `curl -sL -A "Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/141.0" <url>` ; si ça échoue encore, prends une autre source (service-public.gouv.fr, notice PDF du fabricant) au lieu de réessayer.
+> - Ne relis pas un fichier déjà lu et ne relance pas une recherche déjà faite.
+
 ## Requêtes Google peu couvertes (21/10)
 
 - [x] Machine à café qui prend toutes les capsules : ce qui existe vraiment — aucune machine n'accepte tout ; machines multi-systèmes (adaptateurs, tiroirs interchangeables), compatibles Nespresso Original vs Vertuo fermé, Dolce Gusto et capsules d'autres marques ; requête « machine à café qui prend toutes les capsules », requêtes associées « machine à café multi capsules », « machine compatible nespresso et dolce gusto », « machine à café toutes capsules » ; caractéristiques d'après les fiches des fabricants (concurrence Google faible, 21/10)
