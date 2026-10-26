@@ -6,7 +6,7 @@ updatedDate: 2026-10-26
 author: "Hugo B."
 keywords: ["comment servir un espresso", "servir un espresso", "tasse à espresso préchauffée", "verre d'eau avec l'espresso", "ordre de service espresso"]
 category: "preparer"
-coverAlt: "Tasse d'espresso vide posée juste à côté d'un verre d'eau, sur une table en bois"
+coverAlt: "Espresso servi dans une tasse sur une soucoupe argentée, avec un verre d'eau, sur un plateau à motifs bleus et blancs"
 pinHook: "Servir un espresso *dans les règles*"
 pinSub: "Tasse chaude, verre d'eau, cuillère : le bon ordre, étape par étape."
 sources:
