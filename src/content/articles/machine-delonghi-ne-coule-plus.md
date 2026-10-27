@@ -85,7 +85,7 @@ Une machine qui ne coule plus juste après un nettoyage a très souvent un infus
 
 ## Quand appeler le SAV
 
-Si l'eau ne coule plus du tout au rinçage, si le moulin reste bloqué malgré l'aspiration de la trémie, ou si le message « intérieur sale » revient après un nettoyage complet, la panne dépasse l'entretien. Pendant deux ans après l'achat, la garantie légale de conformité s'applique et c'est le **vendeur** qui doit proposer la réparation ou le remplacement. Garde la preuve d'achat, note le message affiché et la référence de la machine avant d'appeler.
+Si l'eau ne coule plus du tout au rinçage, si le moulin reste bloqué malgré l'aspiration de la trémie, ou si le message « intérieur sale » revient après un nettoyage complet, la panne dépasse l'entretien. Pendant deux ans après l'achat, la garantie légale de conformité s'applique et c'est le **vendeur** qui doit proposer la réparation ou le remplacement. Garde la preuve d'achat, note le message affiché et la référence de la machine avant d'appeler. Et si la machine reste des semaines à l'atelier, voici [que faire quand la réparation sous garantie traîne](https://www.quellegarantie.fr/articles/sav-trop-long-que-faire/).
 
 ## Pour aller plus loin
 
