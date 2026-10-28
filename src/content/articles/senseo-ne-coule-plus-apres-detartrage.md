@@ -2,7 +2,7 @@
 title: "Senseo ne coule plus après détartrage : causes et solutions"
 description: "Senseo ne coule plus après détartrage, fuit au bec verseur ou par le bas ? Les causes selon Philips et la marche à suivre, sans vinaigre ni démontage."
 pubDate: 2026-10-15
-updatedDate: 2026-10-15
+updatedDate: 2026-10-27
 author: "Hugo B."
 keywords: ["senseo ne coule plus après détartrage", "senseo qui fuit au niveau du bec verseur", "senseo qui fuit par le bas", "cafetiere senseo bloqué que faire", "senseo ne coule plus"]
 category: "machines"
@@ -79,7 +79,7 @@ Pour comparer avec les autres types de machines, notre diagnostic d'une [machine
 
 ## Ce qu'il ne faut pas faire au détartrage suivant
 
-Beaucoup de pannes « après détartrage » viennent du produit utilisé. Philips recommande uniquement un détartrant à base d'acide citrique adapté aux Senseo (références CA6520 et CA6521) et exclut le vinaigre blanc ainsi que les produits à base d'acide sulfurique, chlorhydrique, sulfamique ou acétique, qui peuvent endommager la machine. Si tu as utilisé du vinaigre, fais plusieurs rinçages à l'eau claire avant de conclure à une panne.
+Beaucoup de pannes « après détartrage » viennent du produit utilisé. Philips recommande uniquement un détartrant à base d'acide citrique adapté aux Senseo (références [CA6520](https://www.amazon.fr/s?k=philips+ca6520+detartrant+senseo&tag=moncafemaison-21) et CA6521) et exclut le vinaigre blanc ainsi que les produits à base d'acide sulfurique, chlorhydrique, sulfamique ou acétique, qui peuvent endommager la machine. Si tu as utilisé du vinaigre, fais plusieurs rinçages à l'eau claire avant de conclure à une panne.
 
 Côté fréquence, Philips conseille un détartrage tous les 3 mois, ou dès que le voyant CALC s'allume sur les modèles qui en ont un ; sur l'Original Plus, ce sont les deux boutons qui clignotent ensemble. Pour choisir un produit et comprendre l'effet de la dureté de l'eau, vois notre comparatif du [meilleur détartrant pour machine à café](/articles/meilleur-detartrant-machine-a-cafe/).
 

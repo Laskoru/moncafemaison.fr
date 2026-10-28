@@ -2,7 +2,7 @@
 title: "Cafetière Nespresso qui clignote : les voyants expliqués"
 description: "Pourquoi une cafetière Nespresso clignote : voyant détartrage, réservoir vide ou bac plein. Les causes selon le modèle et la solution à chaque fois."
 pubDate: 2026-10-12
-updatedDate: 2026-10-14
+updatedDate: 2026-10-27
 author: "Hugo B."
 keywords: ["pourquoi cafetière nespresso clignote", "cafetière nespresso qui clignote", "voyant nespresso clignote orange", "nespresso vertuo clignote blanc", "sortir nespresso mode détartrage"]
 category: "machines"
@@ -52,7 +52,7 @@ Cette mise à jour automatique explique pourquoi certaines machines Vertuo clign
 
 ## Pourquoi tous les voyants clignotent ensemble : le mode détartrage
 
-Quand l'ensemble des voyants d'une machine clignotent en même temps, à un rythme régulier et rapide, il s'agit presque toujours d'un mode détartrage, lancé volontairement ou parfois déclenché par erreur en maintenant une touche trop longtemps. La machine refuse alors de préparer un café tant que ce mode n'est pas terminé ou quitté manuellement. Un détartrage régulier limite justement le risque de blocage complet : notre comparatif du [meilleur détartrant pour machine à café](/articles/meilleur-detartrant-machine-a-cafe/) détaille la fréquence à respecter selon la dureté de l'eau.
+Quand l'ensemble des voyants d'une machine clignotent en même temps, à un rythme régulier et rapide, il s'agit presque toujours d'un mode détartrage, lancé volontairement ou parfois déclenché par erreur en maintenant une touche trop longtemps. La machine refuse alors de préparer un café tant que ce mode n'est pas terminé ou quitté manuellement. Un détartrage régulier, par exemple avec un [kit de détartrage Nespresso](https://www.amazon.fr/s?k=nespresso+kit+de+detartrage&tag=moncafemaison-21), limite justement le risque de blocage complet : notre comparatif du [meilleur détartrant pour machine à café](/articles/meilleur-detartrant-machine-a-cafe/) détaille la fréquence à respecter selon la dureté de l'eau.
 
 Avant de relancer un détartrage complet pour faire cesser un clignotement, vérifie d'abord qu'il ne s'agit pas simplement d'un réservoir mal enclenché : sur beaucoup de modèles, un réservoir qui n'est pas poussé jusqu'au clic déclenche un clignotement visuellement proche de celui du détartrage, alors que la solution tient en quelques secondes.
 

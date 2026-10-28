@@ -2,7 +2,7 @@
 title: "Latte ou latte macchiato ? Les vraies différences"
 description: "Latte ou latte macchiato, cappuccino ou flat white : proportions de lait, mousse, ordre de versement et tasse. Le tableau pour ne plus les confondre."
 pubDate: 2026-10-15
-updatedDate: 2026-10-15
+updatedDate: 2026-10-27
 author: "Hugo B."
 keywords: ["latte ou latte macchiato", "cappuccino ou latte macchiato", "quelle différence entre cappuccino et latte macchiato", "latte ou flat white", "différence latte cappuccino flat white"]
 category: "preparer"
@@ -70,7 +70,7 @@ Par rapport au café latte, le flat white contient moins de lait, ce qui laisse 
 
 ## Réussir les quatre à la maison
 
-Tout part d'un bon espresso : si le tien manque de corps, notre méthode pour [réussir un espresso à la maison](/articles/reussir-espresso-maison/) règle mouture, dose et temps. Ensuite, la texture du lait fait la différence. Un mousseur suffit pour le latte macchiato et le café latte ; le flat white, avec sa micro-mousse, demande plutôt une buse vapeur. Notre comparatif du [meilleur mousseur à lait](/articles/meilleur-mousseur-lait/) explique ce que chaque type sait faire, et si tu n'as pas encore de machine, le guide de la [meilleure machine expresso](/articles/meilleure-machine-expresso/) indique lesquelles ont une buse digne de ce nom. Les autres termes du comptoir (ristretto, lungo, cortado) sont expliqués dans notre [lexique du café](/lexique/).
+Tout part d'un bon espresso : si le tien manque de corps, notre méthode pour [réussir un espresso à la maison](/articles/reussir-espresso-maison/) règle mouture, dose et temps. Ensuite, la texture du lait fait la différence. Un mousseur électrique comme l'[Aeroccino de Nespresso](https://www.amazon.fr/s?k=mousseur+a+lait+aeroccino&tag=moncafemaison-21) suffit pour le latte macchiato et le café latte ; le flat white, avec sa micro-mousse, demande plutôt une buse vapeur. Notre comparatif du [meilleur mousseur à lait](/articles/meilleur-mousseur-lait/) explique ce que chaque type sait faire, et si tu n'as pas encore de machine, le guide de la [meilleure machine expresso](/articles/meilleure-machine-expresso/) indique lesquelles ont une buse digne de ce nom. Les autres termes du comptoir (ristretto, lungo, cortado) sont expliqués dans notre [lexique du café](/lexique/).
 
 ## Pour aller plus loin
 

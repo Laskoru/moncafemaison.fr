@@ -2,7 +2,7 @@
 title: "Quelles capsules pour une machine à café Krups ?"
 description: "Quelles capsules pour machine à café Krups : Nespresso Original, Vertuo ou Dolce Gusto selon le modèle. Comment identifier ton système avec la référence."
 pubDate: 2026-10-15
-updatedDate: 2026-10-15
+updatedDate: 2026-10-27
 author: "Hugo B."
 keywords: ["quelle capsules pour machine à café krups", "quelles capsules pour krups", "cafetière nespresso krups", "machine à café nespresso krups", "krups dolce gusto capsules"]
 category: "machines"
@@ -64,7 +64,7 @@ Le préfixe YY ne dit donc rien du type de capsule : il se retrouve aussi bien s
 
 ## Machine à café Nespresso Krups : où acheter les capsules
 
-Pour une Original, l'offre est large : capsules Nespresso en boutique et en ligne, et nombreuses capsules compatibles d'autres torréfacteurs. Pour une Vertuo, seules les capsules Vertuo de Nespresso fonctionnent. Pour une Dolce Gusto, il faut des capsules Nescafé Dolce Gusto ; Krups annonce pour la Genio S Plus plus de 30 boissons à base de café, ainsi que d'autres boissons chaudes et froides.
+Pour une Original, l'offre est large : capsules Nespresso en boutique et en ligne, et nombreuses capsules compatibles d'autres torréfacteurs, comme les [capsules L'Or Espresso](https://www.amazon.fr/s?k=capsules+l%27or+espresso&tag=moncafemaison-21). Pour une Vertuo, seules les capsules Vertuo de Nespresso fonctionnent. Pour une Dolce Gusto, il faut des capsules Nescafé Dolce Gusto ; Krups annonce pour la Genio S Plus plus de 30 boissons à base de café, ainsi que d'autres boissons chaudes et froides.
 
 Si tu hésites encore entre capsules et grains pour remplacer ta machine, notre comparatif [machine à capsules ou machine à grains](/articles/machine-capsules-vs-machine-grains/) chiffre le coût à la tasse des deux systèmes. Et si ta Krups Nespresso affiche des voyants qui clignotent, notre article sur la [cafetière Nespresso qui clignote](/articles/cafetiere-nespresso-qui-clignote/) traduit chaque signal.
 

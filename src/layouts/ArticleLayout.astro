@@ -221,7 +221,11 @@ const jsonLdArticle = [articleSchema, ...(faqSchema ? [faqSchema] : [])];
         <slot />
       </div>
 
-      {hasAffiliateLinks && midArticleSearchUrl && (
+      {/* Recherche générique (mot-clé principal) réservée aux guides d'achat :
+          sur un article problème, le mot-clé est une question (« machine à café
+          qui fuit par le bas ») et la recherche ne mène à rien d'utile ; le lien
+          Amazon y est placé dans la phrase qui parle du produit. */}
+      {(hasProducts || topPick) && midArticleSearchUrl && (
         <div class="art-search">
           <span class="art-search__icon"><Icon name="search" size={20} /></span>
           <div class="art-search__body">

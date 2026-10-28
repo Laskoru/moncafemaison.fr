@@ -2,7 +2,7 @@
 title: "Café trop clair DeLonghi Magnifica S : le bon réglage"
 description: "Café trop clair sur une DeLonghi Magnifica S : diagnostic pas à pas de la mouture, la dose, le groupe café et le détartrage pour un espresso réussi."
 pubDate: 2026-09-28
-updatedDate: 2026-10-14
+updatedDate: 2026-10-27
 author: "Hugo B."
 keywords: ["café trop clair delonghi magnifica s", "café trop amer delonghi magnifica s", "machine à café delonghi mouture trop fine", "delonghi magnifica s réglage mouture", "delonghi magnifica s café faible"]
 category: "machines"
@@ -76,7 +76,7 @@ Un groupe encrassé ne provoque pas systématiquement un message d'erreur, mais 
 
 Le calcaire qui s'accumule dans les circuits ralentit progressivement le débit d'eau et peut perturber une extraction jusque-là bien réglée, sans lien direct avec la molette de mouture. Si la machine n'a pas été détartrée depuis plusieurs mois et que le café varie sans raison apparente, ce point mérite d'être vérifié avant de s'acharner sur les réglages. Notre guide sur le [détartrant pour machine à café](/articles/meilleur-detartrant-machine-a-cafe/) détaille la fréquence et la méthode selon les fabricants.
 
-Le détartrage compte aussi pour la garantie : les conditions de garantie 2025 de De'Longhi excluent les pannes liées à l'entartrage et l'usage d'un détartrant non autorisé (vinaigre, pastille, poudre), comme les dommages dus à un corps étranger dans l'appareil. Le détail est sur la page consacrée à la [garantie de ta machine De'Longhi](https://www.quellegarantie.fr/articles/garantie-machine-a-cafe-delonghi-nespresso/), sur notre site Quelle Garantie.
+Le détartrage compte aussi pour la garantie : les conditions de garantie 2025 de De'Longhi excluent les pannes liées à l'entartrage et l'usage d'un détartrant non autorisé (vinaigre, pastille, poudre), comme les dommages dus à un corps étranger dans l'appareil. Le plus simple pour rester dans les clous est d'utiliser le détartrant de la marque, le [De'Longhi EcoDecalk](https://www.amazon.fr/s?k=delonghi+ecodecalk+detartrant&tag=moncafemaison-21). Le détail est sur la page consacrée à la [garantie de ta machine De'Longhi](https://www.quellegarantie.fr/articles/garantie-machine-a-cafe-delonghi-nespresso/), sur notre site Quelle Garantie.
 
 ## Ce qu'il faut retenir
 

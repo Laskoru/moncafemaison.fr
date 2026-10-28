@@ -2,7 +2,7 @@
 title: "Machine à café qui fuit par le bas : que faire ?"
 description: "Machine à café qui fuit par le bas : diagnostic selon le type (grain, filtre, capsules), réservoir, bac d'égouttage, calcaire, et comment la stopper."
 pubDate: 2026-10-01
-updatedDate: 2026-10-06
+updatedDate: 2026-10-27
 author: "Hugo B."
 keywords: ["machine à café qui fuit par le bas", "machine à grain philips qui fuit par le bas", "cafetière qui fuit par le bas", "machine à café fuite réservoir", "machine à capsules qui fuit"]
 category: "machines"
@@ -65,7 +65,7 @@ Ces mécanismes expliquent aussi pourquoi une machine à capsules, pourtant plus
 
 ## Et si c'était le calcaire ?
 
-Le calcaire est une cause transversale, qui touche les trois types de machines. Un circuit entartré fait gonfler la pression interne par endroits, ce qui pousse l'eau à suinter au niveau des raccords, des joints ou des soudures internes plutôt qu'au niveau du réservoir ou du bac. Cette fuite est souvent plus lente et plus diffuse qu'un mauvais positionnement, et s'accompagne généralement d'un café qui coule plus lentement que d'habitude depuis plusieurs semaines. Si les alertes de détartrage ont été ignorées longtemps, c'est la première piste à éliminer avant de démonter quoi que ce soit : notre guide sur le [détartrant pour machine à café](/articles/meilleur-detartrant-machine-a-cafe/) détaille la fréquence recommandée selon les fabricants et la méthode à suivre.
+Le calcaire est une cause transversale, qui touche les trois types de machines. Un circuit entartré fait gonfler la pression interne par endroits, ce qui pousse l'eau à suinter au niveau des raccords, des joints ou des soudures internes plutôt qu'au niveau du réservoir ou du bac. Cette fuite est souvent plus lente et plus diffuse qu'un mauvais positionnement, et s'accompagne généralement d'un café qui coule plus lentement que d'habitude depuis plusieurs semaines. Si les alertes de détartrage ont été ignorées longtemps, c'est la première piste à éliminer avant de démonter quoi que ce soit, avec un [détartrant liquide pour machine à café](https://www.amazon.fr/s?k=detartrant+liquide+machine+a+cafe&tag=moncafemaison-21) ou celui que recommande la marque de ta machine. Notre guide sur le [détartrant pour machine à café](/articles/meilleur-detartrant-machine-a-cafe/) détaille la fréquence recommandée selon les fabricants et la méthode à suivre.
 
 ## Faut-il réparer ou envisager une nouvelle machine ?
 

@@ -2,7 +2,7 @@
 title: "Moulin à meules ou à lames : la vraie différence"
 description: "Moulin à café à meules ou à lames : quelle différence sur le goût, et lequel choisir selon ton café ? Nos explications claires et notre sélection."
 pubDate: 2026-08-24
-updatedDate: 2026-10-07
+updatedDate: 2026-10-27
 author: "Hugo B."
 pinHook: "Meules ou lames ? *La vraie différence*"
 pinSub: "Le choix qui change le goût."
@@ -11,24 +11,23 @@ category: "moulins"
 coverAlt: "Grains de café dans la trémie d'un moulin manuel à meules avec sa manivelle, posé sur un plan de travail clair"
 draft: false
 products:
-  - asin: "B002OHDBQC"
-    title: "De'Longhi KG79, moulin à café électrique à meules, 16 réglages"
-    blurb: "Le passage aux meules sans gros budget : deux meules en acier inoxydable, 16 réglages de mouture et un sélecteur de 1 à 12 tasses pour ne moudre que la dose utile."
+  - asin: "B0002H2IOM"
+    title: "Krups Expert, moulin à café électrique à meules, 17 réglages"
+    blurb: "Le passage aux meules sans gros budget : 17 réglages de mouture, une trémie de 225 g et un sélecteur de 2 à 12 tasses qui arrête le moulin une fois la dose moulue."
     pros:
-      - "Vraies meules en acier inoxydable, pas une lame"
-      - "Sélecteur du nombre de tasses (1 à 12)"
+      - "Vraies meules, pas une lame"
+      - "Sélecteur du nombre de tasses (2 à 12), arrêt automatique"
       - "Meule supérieure amovible pour le nettoyage"
     cons:
-      - "16 réglages seulement : moins de finesse de réglage qu'un moulin à 40 crans"
-      - "Trémie de 120 g, à remplir souvent si on boit beaucoup"
+      - "17 réglages seulement : moins de finesse de réglage qu'un moulin à 40 crans"
+      - "Ne démarre pas si le couvercle ou le récipient est mal enclenché"
       - "Retient un peu de mouture, comme la plupart des moulins à meules"
+    search: "krups moulin a cafe expert meules"
 sources:
   - label: "National Coffee Association, « Drip coffee »"
     url: "https://www.aboutcoffee.org/brewing/drip-coffee/"
   - label: "National Coffee Association, « Storage and shelf life »"
     url: "https://www.aboutcoffee.org/beans/storage-and-shelf-life/"
-  - label: "De'Longhi, « Série KG, noir KG79 »"
-    url: "https://www.delonghi.com/fr-fr/moulin-a-cafe-electrique-kg79/p/KG79"
 faq:
   - question: "Un moulin à lames peut-il convenir pour l'espresso ?"
     answer: "Non, pas vraiment. L'espresso exige une mouture très fine ET régulière, sous pression : un moulin à lames produit un mélange de poussière et de gros morceaux qui bouche le porte-filtre ou laisse passer l'eau trop vite. Pour un espresso correct, un moulin à meules réglable est indispensable."

@@ -2,7 +2,7 @@
 title: "Combien de temps se conserve le café moulu ouvert ?"
 description: "Combien de temps se conserve le café moulu ouvert : durées officielles, effet de la mouture et gestes pour limiter la perte d'arôme."
 pubDate: 2026-10-19
-updatedDate: 2026-10-19
+updatedDate: 2026-10-27
 author: "Hugo B."
 keywords: ["combien de temps se conserve le café moulu ouvert", "conservation café moulu", "café moulu périmé", "durée café ouvert"]
 category: "preparer"
@@ -54,7 +54,7 @@ L'oxygène est, selon les auteurs cités par la SCA, le facteur le plus détermi
 
 La NCA résume la conservation du café autour de quatre ennemis à limiter : **l'air, l'humidité, la chaleur et la lumière**.
 
-- **Sors le café de son emballage d'origine** une fois ouvert : il n'est pas conçu pour une conservation longue, et transfère-le dans un **contenant hermétique**, idéalement opaque.
+- **Sors le café de son emballage d'origine** une fois ouvert : il n'est pas conçu pour une conservation longue, et transfère-le dans un **contenant hermétique**, idéalement opaque, par exemple une [boîte à café Airscape en inox](https://www.amazon.fr/s?k=boite+hermetique+cafe+airscape&tag=moncafemaison-21).
 - **Range-le dans un endroit frais et sombre**, à l'écart du four, du lave-vaisselle ou d'une fenêtre exposée au soleil l'après-midi.
 - **Ne sors que la quantité dont tu as besoin pour la semaine.** Rouvrir sans cesse une grande boîte fait entrer de l'air frais à chaque fois.
 - **Mouds juste avant de préparer ton café**, plutôt que d'acheter du café déjà moulu en grande quantité : c'est le geste le plus efficace pour préserver les arômes, et c'est pour cela qu'un bon [moulin à café électrique](/articles/meilleur-moulin-cafe-electrique/) change vraiment le résultat en tasse.
