@@ -1,5 +1,6 @@
 {
   "trailingSlash": true,
+  "ignoreCommand": "git diff --quiet HEAD^ HEAD -- . ':(exclude)pinterest'",
   "headers": [
     {
       "source": "/_astro/(.*)",
