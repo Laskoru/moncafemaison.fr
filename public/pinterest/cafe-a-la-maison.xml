@@ -5,8 +5,17 @@
     <link>https://www.moncafemaison.fr/</link>
     <description>Épingles du tableau Pinterest « Café à la maison »</description>
     <language>fr-FR</language>
-    <lastBuildDate>Tue, 27 Oct 2026 04:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 30 Oct 2026 04:00:00 GMT</lastBuildDate>
     <atom:link href="https://www.moncafemaison.fr/pinterest/cafe-a-la-maison.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Combien de temps se conserve le café moulu ouvert ?</title>
+      <link>https://www.moncafemaison.fr/articles/combien-temps-conserve-cafe-moulu-ouvert/?utm_source=pinterest&amp;utm_medium=social&amp;utm_campaign=epingles-v3&amp;utm_content=v6</link>
+      <guid isPermaLink="false">moncafemaison-combien-temps-conserve-cafe-moulu-ouvert-v6</guid>
+      <pubDate>Fri, 30 Oct 2026 04:00:00 GMT</pubDate>
+      <description>Combien de temps se conserve le café moulu ouvert : durées officielles, effet de la mouture et gestes pour limiter la perte d'arôme. 👉 Le guide complet sur Mon Café Maison.</description>
+      <enclosure url="https://www.moncafemaison.fr/pins/combien-temps-conserve-cafe-moulu-ouvert-v6.jpg" length="160314" type="image/jpeg" />
+      <media:content url="https://www.moncafemaison.fr/pins/combien-temps-conserve-cafe-moulu-ouvert-v6.jpg" medium="image" type="image/jpeg" width="1000" height="1500" />
+    </item>
     <item>
       <title>Comment servir un espresso : tasse, eau, cuillère</title>
       <link>https://www.moncafemaison.fr/articles/comment-servir-un-espresso/?utm_source=pinterest&amp;utm_medium=social&amp;utm_campaign=epingles-v3&amp;utm_content=v4</link>
@@ -96,15 +105,6 @@
       <description>Filtre, piston, moka, V60 ou expresso : choisis ta méthode et ton nombre de tasses, le calculateur donne les grammes de café, la quantité d’eau et la mouture à viser. Gratuit, sans inscription. 👉 L’outil gratuit sur Mon Café Maison.</description>
       <enclosure url="https://www.moncafemaison.fr/pins/outil-calculateur-dosage-cafe-v4.jpg" length="139527" type="image/jpeg" />
       <media:content url="https://www.moncafemaison.fr/pins/outil-calculateur-dosage-cafe-v4.jpg" medium="image" type="image/jpeg" width="1000" height="1500" />
-    </item>
-    <item>
-      <title>Café trop clair DeLonghi Magnifica S : le bon réglage</title>
-      <link>https://www.moncafemaison.fr/articles/delonghi-magnifica-s-cafe-trop-clair-amer/?utm_source=pinterest&amp;utm_medium=social&amp;utm_campaign=epingles-v3&amp;utm_content=v4</link>
-      <guid isPermaLink="false">moncafemaison-delonghi-magnifica-s-cafe-trop-clair-amer-v4</guid>
-      <pubDate>Tue, 29 Sep 2026 04:00:00 GMT</pubDate>
-      <description>Café trop clair sur une DeLonghi Magnifica S : diagnostic pas à pas de la mouture, la dose, le groupe café et le détartrage pour un espresso réussi. 👉 Le guide complet sur Mon Café Maison.</description>
-      <enclosure url="https://www.moncafemaison.fr/pins/delonghi-magnifica-s-cafe-trop-clair-amer-v4.jpg" length="136653" type="image/jpeg" />
-      <media:content url="https://www.moncafemaison.fr/pins/delonghi-magnifica-s-cafe-trop-clair-amer-v4.jpg" medium="image" type="image/jpeg" width="1000" height="1500" />
     </item>
   </channel>
 </rss>
