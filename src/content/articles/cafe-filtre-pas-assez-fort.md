@@ -6,7 +6,7 @@ updatedDate: 2026-11-02
 author: "Hugo B."
 keywords: ["café pas fort", "café trop dilué", "café filtre faible", "pourquoi mon café est fade"]
 category: "preparer"
-coverAlt: "Cafetière filtre en train de verser un café chaud directement dans une tasse posée en dessous"
+coverAlt: "Bouilloire col de cygne versant de l'eau chaude dans un dripper à filtre papier posé sur une carafe en verre"
 pinHook: "Ton café pas fort ? 6 réglages à revoir"
 pinSub: "Dose, mouture, eau, température, filtre, entretien."
 sources:
