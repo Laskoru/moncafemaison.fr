@@ -99,3 +99,4 @@ Le V60 permet un café glacé bien plus aromatique que le cold brew : le **flash
 - [Cafetières filtre programmables](/articles/meilleure-cafetiere-filtre-programmable/) · [la Chemex](/articles/chemex-cafetiere-filtre-design/)
 - [Le lexique du café](/lexique/)
 - [Comment le café décaféiné est fait, avec ou sans solvant](/articles/cafe-decafeine-sans-solvant/)
+- [Café filtre pas assez fort : 6 réglages à vérifier](/articles/cafe-filtre-pas-assez-fort/)

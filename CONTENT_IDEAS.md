@@ -24,7 +24,7 @@ Requêtes tirées des suggestions Google du 15/10/2026, absentes des articles pu
 
 ## 🔎 Priorité SEO (Search Console du 14/10/2026)
 
-- [ ] Café filtre pas assez fort : 6 réglages à vérifier : dose, mouture, eau, température, filtre, entretien ; requêtes « café pas fort », « café trop dilué » ; liens vers le calculateur de dosage et le V60 ; catégorie : preparer (conseil, sans produit)
+- [x] Café filtre pas assez fort : 6 réglages à vérifier : dose, mouture, eau, température, filtre, entretien ; requêtes « café pas fort », « café trop dilué » ; liens vers le calculateur de dosage et le V60 ; catégorie : preparer (conseil, sans produit)
 - [ ] Ristretto : combien de café et d'eau, et comment le faire : ratio 1:1 à 1:1,5 au poids, quantité en tasse, réglage de la mouture ; requête « quantité d'eau pour un ristretto » ; catégorie : preparer (technique, sans produit)
 
 ## 🎁 Saison, priorité : à publier avant mi-octobre (indexés pour Noël / Black Friday)
