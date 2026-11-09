@@ -6,7 +6,7 @@ updatedDate: 2026-11-09
 author: "Hugo B."
 keywords: ["quantité d'eau pour un ristretto", "combien de café pour un ristretto", "ratio ristretto", "réglage mouture ristretto"]
 category: "preparer"
-coverAlt: "Café espresso dense qui coule du porte-filtre d'une machine dans une petite tasse"
+coverAlt: "Filet d'espresso orangé qui coule d'un porte-filtre sans fond en inox, vu en gros plan sous la machine"
 pinHook: "Le *ristretto*, combien d'eau et de café ?"
 pinSub: "Le ratio, la dose en grammes et la mouture à régler."
 draft: false
