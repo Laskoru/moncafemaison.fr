@@ -105,3 +105,4 @@ Le poids en tasse est ton curseur : à mouture égale, tu obtiens trois boissons
 - [Combien de temps se conserve le café moulu ouvert ?](/articles/combien-temps-conserve-cafe-moulu-ouvert/)
 - [Dose de caféine à ne pas dépasser par jour](/articles/dose-cafeine-par-jour/)
 - [Comment servir un espresso : tasse, eau, cuillère](/articles/comment-servir-un-espresso/)
+- [Ristretto : quelle quantité d'eau et de café mettre ?](/articles/ristretto-quantite-eau-cafe/)
