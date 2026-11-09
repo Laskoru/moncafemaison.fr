@@ -6,7 +6,6 @@ updatedDate: 2026-11-09
 author: "Hugo B."
 keywords: ["quantité d'eau pour un ristretto", "combien de café pour un ristretto", "ratio ristretto", "réglage mouture ristretto"]
 category: "preparer"
-coverImage: "https://images.unsplash.com/photo-1773123503950-ad462aa7472c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1600"
 coverAlt: "Café espresso dense qui coule du porte-filtre d'une machine dans une petite tasse"
 pinHook: "Le *ristretto*, combien d'eau et de café ?"
 pinSub: "Le ratio, la dose en grammes et la mouture à régler."
