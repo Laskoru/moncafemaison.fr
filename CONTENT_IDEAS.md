@@ -36,7 +36,7 @@ Requêtes réelles tirées des suggestions Google, avec peu de pages qui y répo
 
 ## Machines & cafetières
 
-- [ ] V60 / pour-over : le kit pour débuter : le café filtre aromatique ; catégorie : machines
+- [x] V60 / pour-over : le kit pour débuter : le café filtre aromatique ; catégorie : machines
 
 ## Moulins à café
 

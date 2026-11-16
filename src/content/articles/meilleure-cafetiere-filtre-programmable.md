@@ -106,3 +106,4 @@ Pour choisir le produit et suivre le détartrage pas à pas, voir [notre guide d
 - [Réussir son café à la Chemex](/articles/chemex-cafetiere-filtre-design/)
 - [Meilleur moulin à café électrique](/articles/meilleur-moulin-cafe-electrique/)
 - [Balance de précision pour le café](/articles/balance-cafe-precision/)
+- [V60 : le kit complet pour débuter le pour-over](/articles/kit-v60-pour-over-debuter/)
