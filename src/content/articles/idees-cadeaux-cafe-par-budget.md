@@ -99,3 +99,4 @@ S'il ne fallait retenir qu'une seule idée toutes catégories confondues, ce ser
 - [Balance de précision pour le café](/articles/balance-cafe-precision/)
 - [Meilleur moulin à café manuel](/articles/meilleur-moulin-cafe-manuel/)
 - [Bouilloire à col de cygne : un versement précis en pour-over](/articles/bouilloire-col-de-cygne/)
+- [Boîte à café hermétique : comment bien la choisir](/articles/boite-cafe-hermetique/)

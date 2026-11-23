@@ -43,7 +43,7 @@ Requêtes réelles tirées des suggestions Google, avec peu de pages qui y répo
 
 ## Accessoires & entretien
 
-- [ ] Boîte à café hermétique : garder les grains frais plus longtemps ; catégorie : accessoires
+- [x] Boîte à café hermétique : garder les grains frais plus longtemps ; catégorie : accessoires
 - [ ] Pichet à lait (pitcher) pour latte art ; catégorie : accessoires
 - [ ] Tasses et verres à café : le bon format selon la boisson ; catégorie : accessoires
 - [ ] Kit de nettoyage machine espresso : pastilles, brosses, chiffons ; catégorie : accessoires
