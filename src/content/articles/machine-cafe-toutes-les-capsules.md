@@ -67,7 +67,7 @@ Trois raisons, toutes visibles dans les fiches.
 Pour comparer les systèmes avant de choisir, [machine à capsules ou machine à grains](/articles/machine-capsules-vs-machine-grains/) aide à trancher, et [quelles capsules vont dans une Krups](/articles/quelles-capsules-machine-krups/) détaille les cas Nespresso Original, Vertuo et Dolce Gusto.
 
 > 🛒 **Pour comparer les modèles**
-> Les machines multi-capsules se trouvent chez plusieurs marques, avec des listes d'adaptateurs différentes : [voir les machines à café multi-capsules sur Amazon](https://www.amazon.fr/s?k=machine+%C3%A0+caf%C3%A9+multi+capsules&tag=moncafemaison-21).
+> Les machines multi-capsules se trouvent chez plusieurs marques, avec des listes d'adaptateurs différentes : [voir les machines à café multi-capsules sur Amazon](https://www.amazon.fr/s?k=machine+%C3%A0+caf%C3%A9+multi+capsules&tag=moncafemaison04-21).
 >
 > *En tant que Partenaire Amazon, je réalise un bénéfice sur les achats remplissant les conditions requises.*
 
@@ -92,6 +92,6 @@ Ce point concerne surtout ceux qui ont déjà une Nespresso. D'après la page de
 Si tu partages ta cuisine avec quelqu'un qui boit du Dolce Gusto quand tu bois du Nespresso Original, une multi-capsules règle le problème avec un seul appareil. Si tu bois des capsules Vertuo, aucune des fiches lues ne te laisse d'issue : il te faut une Vertuo. Quant au rendu en tasse, ces fiches n'en disent rien et il n'a pas été mesuré ici : compare avant d'acheter.
 
 > 🛒 **Avant de commander**
-> Vérifie sur la fiche la liste exacte des adaptateurs fournis, puis compare les modèles : [machines compatibles Nespresso et Dolce Gusto sur Amazon](https://www.amazon.fr/s?k=machine+caf%C3%A9+compatible+nespresso+dolce+gusto&tag=moncafemaison-21).
+> Vérifie sur la fiche la liste exacte des adaptateurs fournis, puis compare les modèles : [machines compatibles Nespresso et Dolce Gusto sur Amazon](https://www.amazon.fr/s?k=machine+caf%C3%A9+compatible+nespresso+dolce+gusto&tag=moncafemaison04-21).
 >
 > *En tant que Partenaire Amazon, je réalise un bénéfice sur les achats remplissant les conditions requises.*

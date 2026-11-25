@@ -14,7 +14,7 @@ draft: false
 topPick:
   name: "Dripper V60 Hario, taille 02, plastique"
   blurb: "Le point de départ le plus logique : taille polyvalente (1 à 4 tasses), léger, incassable, et compatible avec la majorité des filtres V60 du marché."
-  url: "https://www.amazon.fr/s?k=hario+v60+dripper+02&tag=moncafemaison-21"
+  url: "https://www.amazon.fr/s?k=hario+v60+dripper+02&tag=moncafemaison04-21"
   ctaLabel: "Comparer sur Amazon"
 comparison:
   columns: ["Matériau", "Atout principal", "Point faible"]
@@ -53,7 +53,7 @@ Hario propose son dripper en plastique, céramique, verre résistant à la chale
 
 Pour une première acquisition, le plastique reste le plus raisonnable : il fait exactement le même café que les versions plus chères, sans le risque de casse.
 
-> Pour comparer les drippers V60 disponibles en ce moment (tailles et matériaux) : [voir les drippers V60 sur Amazon](https://www.amazon.fr/s?k=v60+dripper+hario&tag=moncafemaison-21).
+> Pour comparer les drippers V60 disponibles en ce moment (tailles et matériaux) : [voir les drippers V60 sur Amazon](https://www.amazon.fr/s?k=v60+dripper+hario&tag=moncafemaison04-21).
 
 ## Les filtres : la taille doit suivre le dripper
 
@@ -71,7 +71,7 @@ Le ratio recommandé par la National Coffee Association pour le pour-over va de 
 
 La National Coffee Association cite le moulin comme optionnel mais recommandé pour le pour-over, et c'est justifié : un café pré-moulu perd ses arômes en quelques jours, alors qu'un café moulu juste avant l'infusion garde toute sa fraîcheur. Si tu démarres avec un paquet déjà moulu, mouture moyenne, c'est largement suffisant pour tester la méthode. Dès que tu veux progresser, un [moulin à café manuel](/articles/meilleur-moulin-cafe-manuel/) silencieux et peu coûteux suffit pour une à deux tasses, et un [moulin électrique](/articles/meilleur-moulin-cafe-electrique/) prend le relais si tu moules pour plusieurs personnes chaque matin.
 
-> Pour voir les kits V60 complets (dripper, filtres et parfois carafe assortie) proposés en ce moment : [comparer les kits V60 sur Amazon](https://www.amazon.fr/s?k=kit+v60+cafe+filtre&tag=moncafemaison-21).
+> Pour voir les kits V60 complets (dripper, filtres et parfois carafe assortie) proposés en ce moment : [comparer les kits V60 sur Amazon](https://www.amazon.fr/s?k=kit+v60+cafe+filtre&tag=moncafemaison04-21).
 
 ## Dans quel ordre investir
 

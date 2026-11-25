@@ -54,7 +54,7 @@ La National Coffee Association le résume ainsi : le long bec fin des bouilloire
 **Le matériau.** L'inox reste le choix le plus sûr : durable, facile à entretenir, et sans risque de goût parasite. Certains modèles en verre ou en émail séduisent visuellement, mais méritent une vérification de la résistance à la chaleur avant achat.
 
 > 🛒 **Notre sélection du moment**
-> Pour comparer les bouilloires à col de cygne disponibles en ce moment (électriques et à poser sur le feu) : [voir les bouilloires à col de cygne sur Amazon](https://www.amazon.fr/s?k=bouilloire+a+col+de+cygne+cafe&tag=moncafemaison-21).
+> Pour comparer les bouilloires à col de cygne disponibles en ce moment (électriques et à poser sur le feu) : [voir les bouilloires à col de cygne sur Amazon](https://www.amazon.fr/s?k=bouilloire+a+col+de+cygne+cafe&tag=moncafemaison04-21).
 >
 > *En tant que Partenaire Amazon, je réalise un bénéfice sur les achats remplissant les conditions requises.*
 
@@ -75,7 +75,7 @@ C'est exactement la méthode détaillée dans notre guide pour [réussir son caf
 Pour aller plus loin dans la régularité, associer la bouilloire à une [balance de précision avec minuterie](/articles/balance-cafe-precision/) permet de suivre en même temps la masse d'eau versée et le temps écoulé : les deux autres variables clés d'un pour-over reproductible.
 
 > 🛒 **Pour compléter ton matériel**
-> Voir aussi les bouilloires électriques à col de cygne avec réglage de température : [comparer les modèles sur Amazon](https://www.amazon.fr/s?k=bouilloire+electrique+col+de+cygne+temperature+reglable&tag=moncafemaison-21).
+> Voir aussi les bouilloires électriques à col de cygne avec réglage de température : [comparer les modèles sur Amazon](https://www.amazon.fr/s?k=bouilloire+electrique+col+de+cygne+temperature+reglable&tag=moncafemaison04-21).
 >
 > *En tant que Partenaire Amazon, je réalise un bénéfice sur les achats remplissant les conditions requises.*
 

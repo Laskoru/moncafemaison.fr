@@ -28,7 +28,7 @@ faq:
 topPick:
   name: "Tamper inox calibré 58 mm à ressort"
   blurb: "Pour un panier de 58 mm (matériel semi-professionnel et certaines machines à broyeur intégré), avec une pression constante garantie par le ressort. Vérifie d'abord le diamètre de ton porte-filtre."
-  url: "https://www.amazon.fr/s?k=tamper+calibre+58mm+ressort&tag=moncafemaison-21"
+  url: "https://www.amazon.fr/s?k=tamper+calibre+58mm+ressort&tag=moncafemaison04-21"
   ctaLabel: "Voir le prix sur Amazon"
 comparison:
   columns: ["Type de tamper", "Diamètre à vérifier", "Régularité du geste", "Idéal pour"]
@@ -67,7 +67,7 @@ Avant tout autre critère, le diamètre du tamper doit correspondre précisémen
 Le plus fiable reste de mesurer directement le panier avec un pied à coulisse ou de se référer à la notice du fabricant plutôt qu'au diamètre supposé du porte-filtre, qui n'est pas toujours identique à celui du panier interne.
 
 > 🛒 **Notre sélection du moment**
-> Pour comparer les tampers disponibles en ce moment (diamètres, matières, bases) : [voir les tampers à espresso sur Amazon](https://www.amazon.fr/s?k=tamper+espresso&tag=moncafemaison-21).
+> Pour comparer les tampers disponibles en ce moment (diamètres, matières, bases) : [voir les tampers à espresso sur Amazon](https://www.amazon.fr/s?k=tamper+espresso&tag=moncafemaison04-21).
 >
 > *En tant que Partenaire Amazon, je réalise un bénéfice sur les achats remplissant les conditions requises.*
 
@@ -92,7 +92,7 @@ Le plus fiable reste de mesurer directement le panier avec un pied à coulisse o
 **Le tamper calibré**, équipé d'un ressort interne, se bloque une fois une pression prédéfinie atteinte, ce qui garantit une force constante d'un café à l'autre sans avoir à l'estimer soi-même. C'est un vrai gain de régularité pour qui prépare plusieurs espressos par jour ou débute et cherche à éliminer une variable du geste.
 
 > 🛒 **Pour compléter ton équipement**
-> Voir aussi les tapis de tassage et tampers calibrés à ressort, pour un geste plus régulier d'un café à l'autre : [comparer les modèles sur Amazon](https://www.amazon.fr/s?k=tamper+calibre+espresso&tag=moncafemaison-21).
+> Voir aussi les tapis de tassage et tampers calibrés à ressort, pour un geste plus régulier d'un café à l'autre : [comparer les modèles sur Amazon](https://www.amazon.fr/s?k=tamper+calibre+espresso&tag=moncafemaison04-21).
 >
 > *En tant que Partenaire Amazon, je réalise un bénéfice sur les achats remplissant les conditions requises.*
 

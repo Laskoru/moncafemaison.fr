@@ -78,7 +78,7 @@ Et si CALC reste allumé alors que tu viens de détartrer, c'est que le cycle a 
 
 ## Éviter que les voyants reviennent trop vite
 
-Philips recommande de détartrer une Senseo tous les 3 mois, et seulement avec un détartrant à base d'acide citrique adapté (références [CA6520](https://www.amazon.fr/s?k=philips+ca6520+detartrant+senseo&tag=moncafemaison-21) ou CA6521). Le vinaigre blanc fait partie des produits que le fabricant exclut. Si ton eau est très calcaire, le voyant reviendra plus souvent : notre outil sur la [dureté de l'eau et le café](/durete-eau-cafe/) aide à situer celle de ta commune, et notre comparatif du [meilleur détartrant pour machine à café](/articles/meilleur-detartrant-machine-a-cafe/) détaille les produits.
+Philips recommande de détartrer une Senseo tous les 3 mois, et seulement avec un détartrant à base d'acide citrique adapté (références [CA6520](https://www.amazon.fr/s?k=philips+ca6520+detartrant+senseo&tag=moncafemaison04-21) ou CA6521). Le vinaigre blanc fait partie des produits que le fabricant exclut. Si ton eau est très calcaire, le voyant reviendra plus souvent : notre outil sur la [dureté de l'eau et le café](/durete-eau-cafe/) aide à situer celle de ta commune, et notre comparatif du [meilleur détartrant pour machine à café](/articles/meilleur-detartrant-machine-a-cafe/) détaille les produits.
 
 Si la machine ne coule plus du tout une fois le détartrage fait, la suite se trouve dans notre article [Senseo ne coule plus après détartrage](/articles/senseo-ne-coule-plus-apres-detartrage/). Et si tu as aussi une machine à capsules à la maison, la logique des voyants y est proche : on l'a détaillée pour la [cafetière Nespresso qui clignote](/articles/cafetiere-nespresso-qui-clignote/).
 

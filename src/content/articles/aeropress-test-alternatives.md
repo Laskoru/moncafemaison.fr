@@ -29,7 +29,7 @@ faq:
 topPick:
   name: "AeroPress Go, la version compacte pour voyager"
   blurb: "La version repensée pour le nomadisme : un mug de transport qui range piston, filtres et cuillère doseuse, sans rien changer à la méthode de préparation d'origine."
-  url: "https://www.amazon.fr/s?k=aeropress+go&tag=moncafemaison-21"
+  url: "https://www.amazon.fr/s?k=aeropress+go&tag=moncafemaison04-21"
   ctaLabel: "Voir le prix sur Amazon"
 comparison:
   columns: ["Méthode", "Temps de préparation", "Matériel nécessaire", "Idéal pour"]
@@ -62,7 +62,7 @@ Les deux méthodes utilisent exactement le même matériel : seul l'enchaînemen
 - **La compatibilité des pièces détachées** : joint du piston et cuillère doseuse s'usent après plusieurs années d'usage intensif et se remplacent séparément, sans devoir racheter l'appareil complet.
 
 > 🛒 **Notre sélection du moment**
-> Pour comparer les modèles et les filtres disponibles en ce moment (papier, métal, packs de recharge) : [voir les AeroPress et accessoires sur Amazon](https://www.amazon.fr/s?k=aeropress+filtres&tag=moncafemaison-21).
+> Pour comparer les modèles et les filtres disponibles en ce moment (papier, métal, packs de recharge) : [voir les AeroPress et accessoires sur Amazon](https://www.amazon.fr/s?k=aeropress+filtres&tag=moncafemaison04-21).
 >
 > *En tant que Partenaire Amazon, je réalise un bénéfice sur les achats remplissant les conditions requises.*
 
@@ -97,7 +97,7 @@ Le dosage exact reste une affaire de goût personnel ; une [balance de précisio
 L'entretien tient en quelques secondes : on dévisse l'embout, on pousse le piston jusqu'au bout pour éjecter le marc compacté avec le filtre, puis on rince chambre et piston à l'eau claire. Un passage occasionnel sous l'eau savonneuse suffit à éliminer les résidus d'huiles de café qui peuvent s'accumuler sur le joint du piston avec le temps. Le lave-vaisselle est permis (panier du haut) sur la plupart des modèles, sauf l'AeroPress Premium, à laver à la main ; le fabricant conseille aussi de retirer de temps en temps le joint en silicone pour le laver à l'eau chaude savonneuse.
 
 > 🛒 **Pour voyager léger**
-> Voir la version compacte pensée pour le transport, avec mug intégré et rangement des accessoires : [comparer les AeroPress Go sur Amazon](https://www.amazon.fr/s?k=aeropress+go+voyage&tag=moncafemaison-21).
+> Voir la version compacte pensée pour le transport, avec mug intégré et rangement des accessoires : [comparer les AeroPress Go sur Amazon](https://www.amazon.fr/s?k=aeropress+go+voyage&tag=moncafemaison04-21).
 >
 > *En tant que Partenaire Amazon, je réalise un bénéfice sur les achats remplissant les conditions requises.*
 

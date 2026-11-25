@@ -44,7 +44,7 @@ Un **détartrant** est un produit acide (acide citrique, lactique ou sulfamique,
 **Le vinaigre blanc**, solution la plus économique, fonctionne sur la majorité des cafetières filtre et bouilloires. Il demande en général deux à trois rinçages supplémentaires pour éliminer complètement l'odeur, et beaucoup de fabricants de machines expresso ou automatiques le déconseillent (joints, odeur persistante) : sur ces machines, suis la notice et préfère un détartrant adapté.
 
 > 🛒 **Notre sélection du moment**
-> Pour comparer les détartrants disponibles en ce moment (liquide, pastilles, acide citrique) : [voir les détartrants pour machine à café sur Amazon](https://www.amazon.fr/s?k=detartrant+machine+a+cafe&tag=moncafemaison-21).
+> Pour comparer les détartrants disponibles en ce moment (liquide, pastilles, acide citrique) : [voir les détartrants pour machine à café sur Amazon](https://www.amazon.fr/s?k=detartrant+machine+a+cafe&tag=moncafemaison04-21).
 >
 > *En tant que Partenaire Amazon, je réalise un bénéfice sur les achats remplissant les conditions requises.*
 
@@ -69,7 +69,7 @@ Un **détartrant** est un produit acide (acide citrique, lactique ou sulfamique,
 Sur une [cafetière filtre programmable](/articles/meilleure-cafetiere-filtre-programmable/), ce cycle complet reste assez rapide ; sur une machine automatique à broyeur intégré, compte un peu plus de temps du fait des circuits plus longs à rincer.
 
 > 🛒 **Pour compléter ton entretien**
-> Voir aussi les détartrants à base d'acide citrique, sans odeur persistante : [comparer les modèles sur Amazon](https://www.amazon.fr/s?k=detartrant+acide+citrique+cafetiere&tag=moncafemaison-21).
+> Voir aussi les détartrants à base d'acide citrique, sans odeur persistante : [comparer les modèles sur Amazon](https://www.amazon.fr/s?k=detartrant+acide+citrique+cafetiere&tag=moncafemaison04-21).
 >
 > *En tant que Partenaire Amazon, je réalise un bénéfice sur les achats remplissant les conditions requises.*
 

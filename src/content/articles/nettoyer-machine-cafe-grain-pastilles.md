@@ -38,7 +38,7 @@ Trois endroits pour les acheter :
 
 - **La boutique d'accessoires Krups**, qui a l'avantage de l'outil de compatibilité par modèle.
 - **Les enseignes d'électroménager**, au rayon entretien des machines à café, souvent à côté des détartrants.
-- **En ligne**, où l'on trouve les lots de pastilles Krups d'origine : [voir les pastilles de nettoyage Krups XS3000 sur Amazon](https://www.amazon.fr/s?k=pastilles+nettoyage+krups+xs3000&tag=moncafemaison-21).
+- **En ligne**, où l'on trouve les lots de pastilles Krups d'origine : [voir les pastilles de nettoyage Krups XS3000 sur Amazon](https://www.amazon.fr/s?k=pastilles+nettoyage+krups+xs3000&tag=moncafemaison04-21).
 
 Krups demande de lancer le cycle avec une pastille **quand la machine le réclame**, par un voyant ou un message selon les modèles. Inutile d'en faire plus : le programme intégré gère le dosage, le temps de contact et les rinçages.
 
@@ -76,7 +76,7 @@ Philips combine les deux approches : un groupe d'infusion amovible et des pastil
 - **Tous les 2 mois** : lubrifier le groupe avec une fine couche de graisse (Philips propose la HD5061) sur le piston, l'arbre du bas et les rails latéraux.
 - **Tous les jours** : vider l'égouttoir dès que l'indicateur rouge sort.
 
-La façon d'utiliser la pastille dépend du modèle. Sur une machine avec menu « Clean », il suffit de choisir le nettoyage du groupe et de suivre l'écran. Sans menu mais avec une fonction café moulu, la pastille va dans le compartiment à café moulu, on lance la préparation, on débranche à mi-tasse et on laisse agir au moins 15 minutes. Sans fonction café moulu, on dissout la pastille dans 150 ml d'eau chaude, on brosse le filtre du groupe avec cette solution, on laisse agir 15 minutes et on rince. Les pastilles CA6704 se trouvent chez les revendeurs Philips et en ligne : [voir les pastilles dégraissantes Philips CA6704 sur Amazon](https://www.amazon.fr/s?k=pastilles+degraissantes+philips+ca6704&tag=moncafemaison-21).
+La façon d'utiliser la pastille dépend du modèle. Sur une machine avec menu « Clean », il suffit de choisir le nettoyage du groupe et de suivre l'écran. Sans menu mais avec une fonction café moulu, la pastille va dans le compartiment à café moulu, on lance la préparation, on débranche à mi-tasse et on laisse agir au moins 15 minutes. Sans fonction café moulu, on dissout la pastille dans 150 ml d'eau chaude, on brosse le filtre du groupe avec cette solution, on laisse agir 15 minutes et on rince. Les pastilles CA6704 se trouvent chez les revendeurs Philips et en ligne : [voir les pastilles dégraissantes Philips CA6704 sur Amazon](https://www.amazon.fr/s?k=pastilles+degraissantes+philips+ca6704&tag=moncafemaison04-21).
 
 ## Le calendrier en un coup d'œil
 

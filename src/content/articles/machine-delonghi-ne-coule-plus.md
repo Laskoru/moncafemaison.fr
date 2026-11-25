@@ -62,7 +62,7 @@ Le moulin tourne, la machine fait son bruit habituel, mais rien ou presque ne so
 4. **Becs verseurs bouchés** : si le café ne sort que d'un côté ou plus du tout, débouche les trous des becs avec un cure-dent.
 5. **Trop de café prémoulu** : la machine bloque. Réduis la dose, une seule mesure à la fois.
 
-Le calcaire est la cause de fond quand le débit baisse lentement sur plusieurs semaines. De'Longhi le dit sur sa page détartrage : un circuit entartré fait couler le café plus lentement, allonge la chauffe et peut aller jusqu'au blocage. Le fabricant recommande son propre détartrant, l'[EcoDecalk](https://www.amazon.fr/s?k=delonghi+ecodecalk+detartrant&tag=moncafemaison-21), et déconseille le vinaigre, qui peut laisser des odeurs et abîmer des composants à la longue. Pour comparer les produits, vois notre sélection du [meilleur détartrant pour machine à café](/articles/meilleur-detartrant-machine-a-cafe/).
+Le calcaire est la cause de fond quand le débit baisse lentement sur plusieurs semaines. De'Longhi le dit sur sa page détartrage : un circuit entartré fait couler le café plus lentement, allonge la chauffe et peut aller jusqu'au blocage. Le fabricant recommande son propre détartrant, l'[EcoDecalk](https://www.amazon.fr/s?k=delonghi+ecodecalk+detartrant&tag=moncafemaison04-21), et déconseille le vinaigre, qui peut laisser des odeurs et abîmer des composants à la longue. Pour comparer les produits, vois notre sélection du [meilleur détartrant pour machine à café](/articles/meilleur-detartrant-machine-a-cafe/).
 
 ## Pourquoi ma machine à café DeLonghi clignote rouge
 

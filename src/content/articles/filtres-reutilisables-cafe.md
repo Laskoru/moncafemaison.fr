@@ -42,7 +42,7 @@ Au-delà de l'aspect écologique, l'argument économique est net : un bon filtre
 **Le filtre en mesh fin pour méthodes spécifiques**, pensé pour un appareil précis (certaines cafetières à piston ou pour-over) plutôt qu'en format universel. Il offre le meilleur compromis entretien/rendu sur l'appareil pour lequel il a été conçu, mais ne se transfère pas toujours d'une méthode à l'autre.
 
 > 🛒 **Notre sélection du moment**
-> Pour comparer les filtres réutilisables disponibles en ce moment (inox, coton, par méthode) : [voir les filtres à café réutilisables sur Amazon](https://www.amazon.fr/s?k=filtre+a+cafe+reutilisable&tag=moncafemaison-21).
+> Pour comparer les filtres réutilisables disponibles en ce moment (inox, coton, par méthode) : [voir les filtres à café réutilisables sur Amazon](https://www.amazon.fr/s?k=filtre+a+cafe+reutilisable&tag=moncafemaison04-21).
 >
 > *En tant que Partenaire Amazon, je réalise un bénéfice sur les achats remplissant les conditions requises.*
 
@@ -82,7 +82,7 @@ Le filtre en coton se situe entre les deux : il retient une partie des huiles co
 Le filtre à café réutilisable est l'un des rares accessoires qui coche toutes les cases : moins de déchets, moins de dépenses récurrentes, et un café au profil différent mais tout aussi maîtrisé. Inox pour la simplicité et la durabilité, coton pour un rendu proche du papier classique : le choix dépend surtout du goût recherché et du temps qu'on veut bien consacrer à l'entretien.
 
 > 🛒 **Pour compléter ton équipement**
-> Voir aussi les filtres réutilisables compatibles V60 et Chemex, en inox ou en coton : [comparer les modèles sur Amazon](https://www.amazon.fr/s?k=filtre+cafe+inox+reutilisable+v60&tag=moncafemaison-21).
+> Voir aussi les filtres réutilisables compatibles V60 et Chemex, en inox ou en coton : [comparer les modèles sur Amazon](https://www.amazon.fr/s?k=filtre+cafe+inox+reutilisable+v60&tag=moncafemaison04-21).
 >
 > *En tant que Partenaire Amazon, je réalise un bénéfice sur les achats remplissant les conditions requises.*
 

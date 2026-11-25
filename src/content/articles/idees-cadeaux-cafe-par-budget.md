@@ -27,7 +27,7 @@ faq:
 topPick:
   name: "Mousseur à lait électrique"
   blurb: "Le cadeau qui fait toujours plaisir : il transforme n'importe quel café en cappuccino ou latte maison, sans dégât ni prise de tête, quel que soit le matériel déjà en place."
-  url: "https://www.amazon.fr/s?k=mousseur+a+lait+electrique&tag=moncafemaison-21"
+  url: "https://www.amazon.fr/s?k=mousseur+a+lait+electrique&tag=moncafemaison04-21"
   ctaLabel: "Voir le prix sur Amazon"
 comparison:
   columns: ["Budget", "Type de cadeau", "Exemple d'idée", "Pour qui"]
@@ -59,7 +59,7 @@ Ce type de cadeau fonctionne particulièrement bien pour un buveur de café déj
 C'est la fourchette la plus intéressante pour un cadeau qui change réellement le résultat en tasse sans nécessiter un gros investissement. Un [mousseur à lait](/articles/meilleur-mousseur-lait/) électrique permet de préparer un cappuccino ou un latte maison en quelques secondes, quel que soit le type de machine déjà en place. Une [bouilloire à col de cygne](/articles/bouilloire-col-de-cygne/) est une excellente option pour qui pratique déjà le café filtre manuel : le contrôle du débit d'eau change directement la régularité de l'extraction.
 
 > 🛒 **Notre sélection du moment**
-> Pour comparer les mousseurs à lait électriques disponibles en ce moment : [voir les mousseurs à lait sur Amazon](https://www.amazon.fr/s?k=mousseur+a+lait+electrique&tag=moncafemaison-21).
+> Pour comparer les mousseurs à lait électriques disponibles en ce moment : [voir les mousseurs à lait sur Amazon](https://www.amazon.fr/s?k=mousseur+a+lait+electrique&tag=moncafemaison04-21).
 >
 > *En tant que Partenaire Amazon, je réalise un bénéfice sur les achats remplissant les conditions requises.*
 

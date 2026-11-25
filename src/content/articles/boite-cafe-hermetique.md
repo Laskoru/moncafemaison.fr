@@ -26,7 +26,7 @@ faq:
 topPick:
   name: "Boîte à café en inox avec valve de dégazage CO2"
   blurb: "Opaque, avec joint hermétique et valve unidirectionnelle qui laisse sortir le CO2 sans laisser entrer l'air : le format le plus adapté pour des grains fraîchement torréfiés."
-  url: "https://www.amazon.fr/s?k=boite+a+cafe+hermetique+valve+co2&tag=moncafemaison-21"
+  url: "https://www.amazon.fr/s?k=boite+a+cafe+hermetique+valve+co2&tag=moncafemaison04-21"
   ctaLabel: "Comparer sur Amazon"
 comparison:
   columns: ["Type de boîte", "Étanchéité à l'air", "Protection contre la lumière", "Idéal pour"]
@@ -52,7 +52,7 @@ Les grains de café fraîchement torréfiés continuent à relâcher du CO2 pend
 **Une boîte totalement étanche, sans valve**, enferme ce CO2 avec les grains : sur du café très frais, la pression peut s'accumuler et fatiguer le joint à la longue. **Une boîte équipée d'une valve de dégazage unidirectionnelle** laisse sortir le gaz sans laisser entrer d'oxygène, ce qui en fait le choix le plus adapté si tu achètes régulièrement du café chez un torréfacteur local, encore proche de sa date de torréfaction. Pour du café en grande surface, souvent torréfié depuis plusieurs semaines voire plusieurs mois à l'achat, le dégazage est presque terminé : une boîte hermétique classique, sans valve, fait alors aussi bien l'affaire.
 
 > 🛒 **Notre sélection du moment**
-> Pour comparer les boîtes à café hermétiques disponibles en ce moment (avec ou sans valve CO2) : [voir les boîtes à café sur Amazon](https://www.amazon.fr/s?k=boite+a+cafe+hermetique&tag=moncafemaison-21).
+> Pour comparer les boîtes à café hermétiques disponibles en ce moment (avec ou sans valve CO2) : [voir les boîtes à café sur Amazon](https://www.amazon.fr/s?k=boite+a+cafe+hermetique&tag=moncafemaison04-21).
 >
 > *En tant que Partenaire Amazon, je réalise un bénéfice sur les achats remplissant les conditions requises.*
 
@@ -95,7 +95,7 @@ Un bon [moulin à café électrique](/articles/meilleur-moulin-cafe-electrique/)
 **Ne complète jamais une boîte à moitié vide** avec un nouveau paquet de grains différents : les restes, déjà partiellement oxydés, se mélangent avec les grains frais et faussent le repère de date d'achat.
 
 > 🛒 **Pour compléter ton équipement**
-> Voir aussi les boîtes à café avec valve de dégazage, adaptées à un café fraîchement torréfié : [comparer les modèles sur Amazon](https://www.amazon.fr/s?k=boite+cafe+valve+degazage&tag=moncafemaison-21).
+> Voir aussi les boîtes à café avec valve de dégazage, adaptées à un café fraîchement torréfié : [comparer les modèles sur Amazon](https://www.amazon.fr/s?k=boite+cafe+valve+degazage&tag=moncafemaison04-21).
 >
 > *En tant que Partenaire Amazon, je réalise un bénéfice sur les achats remplissant les conditions requises.*
 

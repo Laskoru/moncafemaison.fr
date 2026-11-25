@@ -25,7 +25,7 @@ export const siteConfig = {
   // Programme Partenaires Amazon
   amazon: {
     enabled: true,
-    tag: 'moncafemaison-21',
+    tag: 'moncafemaison04-21',
     // Notes étoilées et nombres d'avis Amazon : le contrat Partenaires n'autorise leur
     // affichage que s'ils proviennent de l'API officielle (PA-API), rafraîchie toutes les
     // 24 h. Les valeurs de src/data/amazon-ratings.json sont aspirées : rien n'est affiché

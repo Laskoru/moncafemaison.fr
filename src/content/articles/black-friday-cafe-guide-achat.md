@@ -28,7 +28,7 @@ faq:
 topPick:
   name: "Machine expresso avec broyeur intégré"
   blurb: "Des appareils assez chers pour qu'une remise se chiffre en dizaines d'euros : le bon moment pour surveiller le prix si tu hésites depuis plusieurs mois."
-  url: "https://www.amazon.fr/s?k=machine+expresso+broyeur+integre&tag=moncafemaison-21"
+  url: "https://www.amazon.fr/s?k=machine+expresso+broyeur+integre&tag=moncafemaison04-21"
   ctaLabel: "Comparer les prix sur Amazon"
 comparison:
   columns: ["Type de matériel", "Remises Black Friday", "Vaut-il le coup d'attendre ?", "Notre conseil"]
@@ -74,7 +74,7 @@ Le signal le plus fiable reste de suivre le prix avant la période de soldes. Si
 Autres signaux à surveiller : une mention « stock limité » qui reste affichée identique pendant plusieurs jours, un modèle dont la fiche produit ne mentionne aucune caractéristique récente (souvent un signe de fin de série qu'on écoule plutôt qu'une vraie nouveauté remisée), ou un vendeur tiers peu connu proposant un prix nettement inférieur à toutes les autres enseignes sur un même modèle. Dans ce dernier cas, vérifie toujours les avis et la politique de retour avant de valider. Pour un achat en ligne auprès d'un professionnel, tu disposes d'au moins 14 jours pour te rétracter, mais les frais de renvoi restent en principe à ta charge, sauf si le vendeur les prend en charge.
 
 > 🛒 **Pour comparer les prix du moment**
-> Une bonne habitude avant d'acheter : regarder plusieurs enseignes plutôt qu'une seule offre isolée. [Voir les machines expresso à broyeur intégré sur Amazon](https://www.amazon.fr/s?k=machine+expresso+broyeur+integre&tag=moncafemaison-21) pour comparer les prix actuels sur cette catégorie.
+> Une bonne habitude avant d'acheter : regarder plusieurs enseignes plutôt qu'une seule offre isolée. [Voir les machines expresso à broyeur intégré sur Amazon](https://www.amazon.fr/s?k=machine+expresso+broyeur+integre&tag=moncafemaison04-21) pour comparer les prix actuels sur cette catégorie.
 >
 > *En tant que Partenaire Amazon, je réalise un bénéfice sur les achats remplissant les conditions requises.*
 

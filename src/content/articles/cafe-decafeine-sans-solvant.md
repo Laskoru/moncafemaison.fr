@@ -70,7 +70,7 @@ Plutôt qu'une liste de marques qui change d'une gamme à l'autre, retiens où r
 2. **L'absence de mention** : si le paquet dit seulement « décaféiné », le procédé n'est pas précisé. Ce n'est pas une preuve qu'un solvant a été utilisé, mais rien ne garantit le contraire. Le service client ou le site de la marque te répondra.
 3. **Les gammes d'une même marque** : un torréfacteur peut proposer un décaféiné à l'eau en grains et un autre procédé en dosettes. Vérifie la référence exacte que tu achètes, pas seulement le nom de la marque.
 
-Pour les dosettes et les capsules, la logique est identique : le procédé figure sur l'emballage ou sur la fiche produit du fabricant. Si tu cherches des références à comparer, [voir les cafés décaféinés Swiss Water sur Amazon](https://www.amazon.fr/s?k=caf%C3%A9+d%C3%A9caf%C3%A9in%C3%A9+swiss+water&tag=moncafemaison-21) ou [les décaféinés en grains à l'eau](https://www.amazon.fr/s?k=caf%C3%A9+d%C3%A9caf%C3%A9in%C3%A9+grains+sans+solvant&tag=moncafemaison-21) permet de lire les mentions de chaque paquet avant d'acheter.
+Pour les dosettes et les capsules, la logique est identique : le procédé figure sur l'emballage ou sur la fiche produit du fabricant. Si tu cherches des références à comparer, [voir les cafés décaféinés Swiss Water sur Amazon](https://www.amazon.fr/s?k=caf%C3%A9+d%C3%A9caf%C3%A9in%C3%A9+swiss+water&tag=moncafemaison04-21) ou [les décaféinés en grains à l'eau](https://www.amazon.fr/s?k=caf%C3%A9+d%C3%A9caf%C3%A9in%C3%A9+grains+sans+solvant&tag=moncafemaison04-21) permet de lire les mentions de chaque paquet avant d'acheter.
 
 ## Préparer un bon décaféiné
 

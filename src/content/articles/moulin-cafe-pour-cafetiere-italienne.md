@@ -29,7 +29,7 @@ faq:
 topPick:
   name: "Moulin électrique à meules coniques, plusieurs réglages"
   blurb: "Le choix le plus polyvalent : une mouture moyenne régulière pour la moka en quelques secondes, et assez de crans pour couvrir aussi le filtre si tu changes de méthode."
-  url: "https://www.amazon.fr/s?k=moulin+a+cafe+electrique+meules+coniques&tag=moncafemaison-21"
+  url: "https://www.amazon.fr/s?k=moulin+a+cafe+electrique+meules+coniques&tag=moncafemaison04-21"
   ctaLabel: "Voir le prix sur Amazon"
 comparison:
   columns: ["Type de moulin", "Mouture pour la moka", "Effort", "Idéal pour"]
@@ -64,7 +64,7 @@ La moka ne demandant pas la finesse extrême de l'espresso, les deux types de mo
 **Le moulin électrique à meules** devient pertinent dès que tu prépares plusieurs cafés par jour ou que ta moka est une grande taille (6 à 9 tasses) : la mouture sort en quelques secondes, sans effort, et le réservoir évite de peser chaque dose à la main. C'est aussi le choix le plus simple si tu alternes moka et café filtre dans la semaine, un moulin électrique polyvalent couvrant les deux sans difficulté (voir notre guide du [meilleur moulin à café électrique](/articles/meilleur-moulin-cafe-electrique/)).
 
 > 🛒 **Pour la moka au quotidien**
-> Comparer les moulins électriques à meules coniques avec plusieurs réglages, adaptés à la mouture moyenne de la moka : [voir les moulins à café électriques sur Amazon](https://www.amazon.fr/s?k=moulin+a+cafe+electrique+meules&tag=moncafemaison-21).
+> Comparer les moulins électriques à meules coniques avec plusieurs réglages, adaptés à la mouture moyenne de la moka : [voir les moulins à café électriques sur Amazon](https://www.amazon.fr/s?k=moulin+a+cafe+electrique+meules&tag=moncafemaison04-21).
 >
 > *En tant que Partenaire Amazon, je réalise un bénéfice sur les achats remplissant les conditions requises.*
 
@@ -87,7 +87,7 @@ La moka ne demandant pas la finesse extrême de l'espresso, les deux types de mo
 Cette méthode d'ajustement cran par cran est la même que pour n'importe quelle préparation : seul le point de départ change, puisque la moka vise une mouture plus grossière que l'espresso traité dans notre guide du [meilleur moulin pour espresso](/articles/meilleur-moulin-pour-espresso/).
 
 > 🛒 **Pour un usage occasionnel ou nomade**
-> Voir aussi les moulins manuels à meules, plus silencieux et sans électricité, pour une ou deux moka par jour : [comparer les moulins manuels sur Amazon](https://www.amazon.fr/s?k=moulin+a+cafe+manuel+meules&tag=moncafemaison-21).
+> Voir aussi les moulins manuels à meules, plus silencieux et sans électricité, pour une ou deux moka par jour : [comparer les moulins manuels sur Amazon](https://www.amazon.fr/s?k=moulin+a+cafe+manuel+meules&tag=moncafemaison04-21).
 >
 > *En tant que Partenaire Amazon, je réalise un bénéfice sur les achats remplissant les conditions requises.*
 

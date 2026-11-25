@@ -20,7 +20,7 @@ sources:
 topPick:
   name: "Moulin électrique à meules coniques, plusieurs réglages"
   blurb: "Le choix le plus polyvalent au quotidien : vitesse réduite, faible rétention, et assez de réglages pour couvrir le filtre comme l'espresso."
-  url: "https://www.amazon.fr/s?k=moulin+a+cafe+electrique+meules+coniques&tag=moncafemaison-21"
+  url: "https://www.amazon.fr/s?k=moulin+a+cafe+electrique+meules+coniques&tag=moncafemaison04-21"
   ctaLabel: "Voir le prix sur Amazon"
 comparison:
   columns: ["Critère", "Meules coniques", "Meules plates"]
@@ -68,7 +68,7 @@ La rétention, soit la quantité de mouture qui reste coincée dans le mécanism
 Presque jamais. Les moulins manuels utilisent très largement des meules coniques, une géométrie qui s'actionne plus facilement à la manivelle, sans demander la vitesse de rotation stable qu'exigent des meules plates bien alignées. Notre guide du [meilleur moulin à café manuel](/articles/meilleur-moulin-cafe-manuel/) détaille d'ailleurs des modèles à meules coniques, qui restent le standard de cette catégorie, du voyage à l'usage quotidien silencieux.
 
 > 🛒 **Pour un moulin électrique à meules coniques polyvalent**
-> Comparer les moulins électriques à meules coniques, adaptés au filtre comme à l'espresso : [voir les moulins à café électriques à meules coniques sur Amazon](https://www.amazon.fr/s?k=moulin+a+cafe+electrique+meules+coniques&tag=moncafemaison-21).
+> Comparer les moulins électriques à meules coniques, adaptés au filtre comme à l'espresso : [voir les moulins à café électriques à meules coniques sur Amazon](https://www.amazon.fr/s?k=moulin+a+cafe+electrique+meules+coniques&tag=moncafemaison04-21).
 >
 > *En tant que Partenaire Amazon, je réalise un bénéfice sur les achats remplissant les conditions requises.*
 
@@ -81,7 +81,7 @@ Si tu bois presque exclusivement du **café filtre** et cherches la régularité
 Si l'espresso est ta priorité, les deux géométries fonctionnent, à condition que le moulin descende suffisamment fin et reste stable à ce réglage : notre guide du [meilleur moulin pour espresso](/articles/meilleur-moulin-pour-espresso/) détaille les critères qui comptent vraiment pour cet usage, indépendamment de la forme des meules.
 
 > 🛒 **Pour une régularité maximale en café filtre**
-> Comparer les moulins électriques à meules plates, pensés pour le café filtre de spécialité : [voir les moulins à café à meules plates sur Amazon](https://www.amazon.fr/s?k=moulin+a+cafe+electrique+meules+plates&tag=moncafemaison-21).
+> Comparer les moulins électriques à meules plates, pensés pour le café filtre de spécialité : [voir les moulins à café à meules plates sur Amazon](https://www.amazon.fr/s?k=moulin+a+cafe+electrique+meules+plates&tag=moncafemaison04-21).
 >
 > *En tant que Partenaire Amazon, je réalise un bénéfice sur les achats remplissant les conditions requises.*
 
