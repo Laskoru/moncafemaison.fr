@@ -13,7 +13,7 @@ sources:
   - label: "Philips (Home.ID), « Le voyant lumineux de ma machine à café SENSEO® clignote »"
     url: "https://www.home.id/fr-FR/article/630-le-voyant-lumineux-de-ma-machine-a-cafe-senseor-clignote?ctn=CSA210"
   - label: "Philips (Home.ID), « Comment détartrer mon SENSEO® Original Plus ? »"
-    url: "https://www.home.id/fr-FR/article/482-comment-detartrer-mon-senseor-original-plus?ctn=CSA210"
+    url: "https://www.home.id/fr-FR/article/482-comment-detartrer-ma-machine-senseor-original-plus?ctn=CSA210"
   - label: "Philips (Home.ID), « Mon voyant SENSEO® CALC ne s'éteint pas après le détartrage »"
     url: "https://www.home.id/fr-FR/article/807-mon-voyant-senseor-calc-ne-seteint-pas-apres-le-detartrage?ctn=HD6592"
   - label: "Philips (Home.ID), « À quelle fréquence dois-je détartrer ma machine à café SENSEO® ? »"
