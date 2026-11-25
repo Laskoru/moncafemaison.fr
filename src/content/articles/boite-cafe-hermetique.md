@@ -8,7 +8,6 @@ pinHook: "La boîte qui *protège vraiment* tes grains"
 pinSub: "Valve CO2, matériau, taille : ce qui fait vraiment la différence sur la fraîcheur."
 keywords: ["boîte à café hermétique", "conserver café en grains", "boîte hermétique café", "valve CO2 café", "meilleure boîte à café"]
 category: "accessoires"
-coverImage: "https://images.unsplash.com/photo-1552546714-b5e571b88c22?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDE3MjIwfDB8MXxzZWFyY2h8NHx8Y29mZmVlJTIwYmVhbnMlMjBzdG9yYWdlJTIwamFyfGVufDB8MHx8fDE3OTU0MTA1MTZ8Mg&ixlib=rb-4.1.0&q=80&w=1080"
 coverAlt: "Bocal en verre transparent rempli de grains de café torréfiés, fermé par un couvercle"
 draft: false
 sources:

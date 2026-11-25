@@ -8,7 +8,6 @@ pinHook: "Le kit V60 pour *bien débuter*"
 pinSub: "Dripper, filtres, bouilloire, balance : dans quel ordre acheter."
 keywords: ["kit v60 débuter", "v60 pour-over débutant", "quel matériel pour v60", "kit café filtre v60"]
 category: "machines"
-coverImage: "https://images.unsplash.com/photo-1789497921266-68a5d5d719ab?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDE3MjIwfDB8MXxzZWFyY2h8M3x8cG91ci1vdmVyJTIwdjYwJTIwY29mZmVlJTIwZHJpcHBlciUyMHBvdXJpbmd8ZW58MHwwfHx8MTc5NDgwNTY5Nnwy&ixlib=rb-4.1.0&q=80&w=1080"
 coverAlt: "Une personne verse de l'eau chaude d'une bouilloire blanche dans un dripper V60 rose"
 draft: false
 topPick:
